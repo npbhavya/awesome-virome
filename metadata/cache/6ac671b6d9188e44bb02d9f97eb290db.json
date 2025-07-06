@@ -1,12 +1,12 @@
 {
-  "cache_date": "2025-06-01T08:19:01.147203",
+  "cache_date": "2025-07-06T08:19:17.366950",
   "data": [
     {
-      "url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/220511020",
-      "assets_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/220511020/assets",
-      "upload_url": "https://uploads.github.com/repos/WrightonLabCSU/DRAM/releases/220511020/assets{?name,label}",
-      "html_url": "https://github.com/WrightonLabCSU/DRAM/releases/tag/v2.0.0-beta9",
-      "id": 220511020,
+      "url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/224662323",
+      "assets_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/224662323/assets",
+      "upload_url": "https://uploads.github.com/repos/WrightonLabCSU/DRAM/releases/224662323/assets{?name,label}",
+      "html_url": "https://github.com/WrightonLabCSU/DRAM/releases/tag/v2.0.0-beta11",
+      "id": 224662323,
       "author": {
         "login": "madeline-scyphers",
         "id": 93053005,
@@ -28,18 +28,19 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCiVGq84NJLss",
-      "tag_name": "v2.0.0-beta9",
+      "node_id": "RE_kwDOCiVGq84NZBMz",
+      "tag_name": "v2.0.0-beta11",
       "target_commitish": "dev",
-      "name": "v2.0.0-beta9",
+      "name": "v2.0.0-beta11",
       "draft": false,
       "prerelease": true,
-      "created_at": "2025-05-22T22:45:30Z",
-      "published_at": "2025-05-22T23:11:53Z",
+      "created_at": "2025-06-11T16:16:16Z",
+      "published_at": "2025-06-11T16:17:44Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/tarball/v2.0.0-beta9",
-      "zipball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/zipball/v2.0.0-beta9",
-      "body": "# Bugfix\r\n\r\n* In the last version of DRAM2, due to column renames not making it to dram_vix, cazy (dbcan), merops, and pfam all were not being process correctly from DRAM2's annotation file. This led to them just not showing up in the resulting product. Now they should show up, but still have support for the older format that is outputted in DRAM1.\r\n  * Update dram_viz to 0.1.7 because of product bugfix about column names. See dram_viz [release 0.1.7](https://github.com/WrightonLabCSU/dram-viz/releases/tag/0.1.7)\r\n\r\n**Full Changelog**: https://github.com/WrightonLabCSU/DRAM/compare/v2.0.0-beta7...v2.0.0-beta9"
+      "tarball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/tarball/v2.0.0-beta11",
+      "zipball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/zipball/v2.0.0-beta11",
+      "body": "## What's Changed\r\n* Add slurm_node config option (nodelist) by @madeline-scyphers in https://github.com/WrightonLabCSU/DRAM/pull/429\r\n\r\n\r\n**Full Changelog**: https://github.com/WrightonLabCSU/DRAM/compare/v2.0.0-beta10...v2.0.0-beta11\r\n\r\nQuick release to allow slurm nodelist to be directly in the configuration without having to write a custom slurm.config",
+      "mentions_count": 1
     }
   ]
 }
