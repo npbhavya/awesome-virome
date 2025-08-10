@@ -1,12 +1,12 @@
 {
-  "cache_date": "2025-07-06T08:20:39.148482",
+  "cache_date": "2025-08-10T08:21:18.525415",
   "data": [
     {
-      "url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/releases/227694366",
-      "assets_url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/releases/227694366/assets",
-      "upload_url": "https://uploads.github.com/repos/PathoGenOmics-Lab/VIPERA/releases/227694366/assets{?name,label}",
-      "html_url": "https://github.com/PathoGenOmics-Lab/VIPERA/releases/tag/v1.2.1",
-      "id": 227694366,
+      "url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/releases/234298744",
+      "assets_url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/releases/234298744/assets",
+      "upload_url": "https://uploads.github.com/repos/PathoGenOmics-Lab/VIPERA/releases/234298744/assets{?name,label}",
+      "html_url": "https://github.com/PathoGenOmics-Lab/VIPERA/releases/tag/v1.2.2",
+      "id": 234298744,
       "author": {
         "login": "ahmig",
         "id": 30174538,
@@ -28,18 +28,19 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOJWtsqs4Nklce",
-      "tag_name": "v1.2.1",
-      "target_commitish": "main",
-      "name": "v1.2.1",
+      "node_id": "RE_kwDOJWtsqs4N9x14",
+      "tag_name": "v1.2.2",
+      "target_commitish": "dev",
+      "name": "v1.2.2",
       "draft": false,
+      "immutable": false,
       "prerelease": false,
-      "created_at": "2025-06-25T13:56:54Z",
-      "published_at": "2025-06-30T07:51:27Z",
+      "created_at": "2025-07-22T16:05:53Z",
+      "published_at": "2025-07-30T07:48:35Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/tarball/v1.2.1",
-      "zipball_url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/zipball/v1.2.1",
-      "body": "## Features\r\n\r\n- Add explicit support for Snakemake versions 8 and 9 and create separate test actions for Snakemake versions 7-9\r\n- Add option to use BIONJ instead of NJ for distance tree construction\r\n- Include the number of target samples in the phylogenetic clade and the distance tree method in report\r\n- Expose maximum alternate allele frequency as a configurable parameter\r\n- Allow usage of a local VCF file for masked positions\r\n- Rename NSP configuration variables and annotation columns for extensibility\r\n- Apply consistent formatting to R scripts and report rules\r\n- Improve modularization with a separate Snakefile for core submodules\r\n\r\n## Bug fixes\r\n\r\n- Fix handling of empty VCF files\r\n- Avoid potential off-by-one in minimum context size checkpoint\r\n- Correct zero-filling of alternate allele frequencies\r\n- Fix calculation of percentage of tips in clades\r\n- Resolve GitHub Actions dependency errors\r\n- Update pandas and ggplot deprecated arguments\r\n- Improve error message clarity and consistency\r\n- Ensure all messages are logged and add Snakemake logs to GitHub artifacts\r\n\r\n## Documentation and code formatting\r\n\r\n- Simplify and update `README.md`\r\n- Update input metadata descriptions in `config/README.md`\r\n\r\nSpecial thanks to Zenggang Li and Brett Etchebarne at Michigan State University for taking an interest in the project and helping surface some of the issues that have now been addressed.\r\n\r\n**Full Changelog**: https://github.com/PathoGenOmics-Lab/VIPERA/compare/v1.2.0...v1.2.1"
+      "tarball_url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/tarball/v1.2.2",
+      "zipball_url": "https://api.github.com/repos/PathoGenOmics-Lab/VIPERA/zipball/v1.2.2",
+      "body": "## Features\r\n\r\n- Allow selection of alternate correlation method (Pearson, Spearman, Kendall) and exact\u2011p\u2011value option\r\n- Add CI workflow to test the containerized Snakemake pipeline with Apptainer\r\n- Automatically build and push Docker images on tagged releases\r\n- Update R environment and container definitions\r\n\r\n## Bug fixes\r\n\r\n- Suppress initial input\u2011function messages for cleaner logs for Snakemake v9+\r\n- Remove duplicate legends on M-L tree\r\n- Update p\u2011value extraction in SNP description reports to reflect the model output\r\n\r\n## Documentation and code formatting\r\n\r\n- Clarify GISAID EpiCoV access caveats and workarounds in the context\u2011dataset docs\r\n- Rename and update SLURM profile examples for compatibility with Snakemake v8+\r\n- Improve style of the `report` rule `shell` directive\r\n- Update CI badge layout\r\n\r\n**Full Changelog**: https://github.com/PathoGenOmics-Lab/VIPERA/compare/v1.2.1...v1.2.2"
     }
   ]
 }
