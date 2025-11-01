@@ -1,293 +1,36 @@
 {
-  "cache_date": "2025-03-17T23:20:46.126867",
+  "cache_date": "2025-11-01T08:46:54.243328",
   "data": [
     {
-      "created": "2025-03-17T23:02:05.098820+00:00",
-      "modified": "2025-03-17T23:02:05.381530+00:00",
-      "id": 15042478,
-      "conceptrecid": "14505960",
-      "doi": "10.5281/zenodo.15042478",
-      "conceptdoi": "10.5281/zenodo.14505960",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042478",
+      "created": "2025-11-01T08:43:46.195905+00:00",
+      "modified": "2025-11-01T08:43:46.493381+00:00",
+      "id": 17500146,
+      "conceptrecid": "17500145",
+      "doi": "10.5281/zenodo.17500146",
+      "conceptdoi": "10.5281/zenodo.17500145",
+      "doi_url": "https://doi.org/10.5281/zenodo.17500146",
       "metadata": {
-        "title": "Design and Analysis of an Extreme-Scale, High-Performance, and Modular Agent- Based Simulation Platform",
-        "doi": "10.5281/zenodo.15042478",
-        "publication_date": "2024",
-        "description": "<p>Agent-based modeling is indispensable for studying complex systems across many domains. However, existing simulation platforms exhibit two major issues: performance and modularity. Low performance prevents simulations with a large number of agents, increases development time, limits parameter exploration, and raises computing costs. Inflexible software designs motivate modelers to create their own tools, diverting valuable resources.</p>\n<p>This dissertation introduces a novel simulation platform called BioDynaMo and its significant improvement, TeraAgent, to alleviate these challenges via three major works.</p>\n<p>First, we lay the platform's foundation by defining abstractions, establishing software infrastructure, and implementing a multitude of features for agent-based modeling. We demonstrate BioDynaMo's modularity through use cases in neuroscience, epidemiology, and oncology. We validate these models and show the simplicity of adding new functionality with few lines of code.</p>\n<p>Second, we perform a rigorous performance analysis and identify challenges for shared-memory parallelism. Provided solutions include an optimized grid for neighbor searching, mechanisms to reduce the memory access latency, and exploiting domain knowledge to omit unnecessary work. These improvements yield up to three orders of magnitude speedups, enabling simulations of 1.7 billion agents on a single server.</p>\n<p>Third, we present TeraAgent, a distributed simulation engine that allows scaling out the computation of one simulation to multiple servers. We identify and address server communication bottlenecks and implement solutions for serialization and delta encoding to accelerate and reduce data transfer. TeraAgent can simulate 500 billion agents and scales to 84096 CPU cores.</p>\n<p><br>BioDynaMo has been widely adopted, including a prize-winning radiotherapy simulation recognized as a top 10 breakthrough in physics in 2024.</p>",
-        "access_right": "open",
+        "title": "Russian Contentious Event Dataset (RCED)",
+        "doi": "10.5281/zenodo.17500146",
+        "publication_date": "2025-11-01",
+        "description": "<p>RCED is a dataset of protest events that occurred in Russia between 2010 and 2023. It is built using Twitter (X) data and a combination of natural language processing techniques. The main file (RCED.csv or identical RCED.xlsx) contains all the event records. PROGOV, ANTIGOV, and NONPOL CSV files consist of events categorised by a fine-tuned GPT-3.5 model. Codebook.pdf provides detailed descriptions of each field. The entire process of data collection, along with its limitations, is described in the original article.</p>",
+        "access_right": "restricted",
         "creators": [
           {
-            "name": "Breitwieser, Lukas Johannes",
-            "affiliation": "ETH Z\u00fcrich",
-            "orcid": "0000-0003-2265-8615"
-          }
-        ],
-        "resource_type": {
-          "title": "Dissertation",
-          "type": "publication",
-          "subtype": "dissertation"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "14505960"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Design and Analysis of an Extreme-Scale, High-Performance, and Modular Agent- Based Simulation Platform",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042478",
-        "self_html": "https://zenodo.org/records/15042478",
-        "doi": "https://doi.org/10.5281/zenodo.15042478",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042478",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042478",
-        "parent": "https://zenodo.org/api/records/14505960",
-        "parent_html": "https://zenodo.org/records/14505960",
-        "parent_doi": "https://doi.org/10.5281/zenodo.14505960",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14505960",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042478/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042478/sequence/default",
-        "files": "https://zenodo.org/api/records/15042478/files",
-        "media_files": "https://zenodo.org/api/records/15042478/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:15042478:PhD-Thesis-LukasJohannesBreitwieser.pdf/full/^10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:15042478:PhD-Thesis-LukasJohannesBreitwieser.pdf/full/^50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:15042478:PhD-Thesis-LukasJohannesBreitwieser.pdf/full/^100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:15042478:PhD-Thesis-LukasJohannesBreitwieser.pdf/full/^250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:15042478:PhD-Thesis-LukasJohannesBreitwieser.pdf/full/^750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:15042478:PhD-Thesis-LukasJohannesBreitwieser.pdf/full/^1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/15042478/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042478/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042478/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042478/latest",
-        "versions": "https://zenodo.org/api/records/15042478/versions",
-        "draft": "https://zenodo.org/api/records/15042478/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042478/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042478/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042478/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042478/access/users",
-        "access_request": "https://zenodo.org/api/records/15042478/access/request",
-        "access": "https://zenodo.org/api/records/15042478/access",
-        "communities": "https://zenodo.org/api/records/15042478/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042478/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042478/requests"
-      },
-      "updated": "2025-03-17T23:02:05.381530+00:00",
-      "recid": "15042478",
-      "revision": 4,
-      "files": [
-        {
-          "id": "9040bdc0-6dab-4b0c-a590-af3b0aced147",
-          "key": "PhD-Thesis-LukasJohannesBreitwieser.pdf",
-          "size": 45621666,
-          "checksum": "md5:8432383bf3ceeb421f8d4b74b2317e87",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042478/files/PhD-Thesis-LukasJohannesBreitwieser.pdf/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "103379"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 19,
-        "unique_views": 17,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T22:44:16.072628+00:00",
-      "modified": "2025-03-17T22:44:16.195263+00:00",
-      "id": 15042446,
-      "conceptrecid": "15042445",
-      "doi": "10.5281/zenodo.15042446",
-      "conceptdoi": "10.5281/zenodo.15042445",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042446",
-      "metadata": {
-        "title": "Generalized, Complete and Accurate Modeling of Non-Ideal Push\u2013Pull Converters for Power System Analysis and Control",
-        "doi": "10.5281/zenodo.15042446",
-        "publication_date": "2023-10-15",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Segura Manzano, Francisca",
-            "affiliation": "Universidad de Huelva",
-            "orcid": "0000-0002-9969-8773"
-          },
-          {
-            "name": "And\u00fajar M\u00e1rquez, Jos\u00e9 Manuel",
-            "affiliation": "University of Huelva",
-            "orcid": "0000-0002-0631-0021"
-          }
-        ],
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "grants": [
-          {
-            "code": "PID2020-116616RB-C31",
-            "internal_id": "003x0zc53::PID2020-116616RB-C31",
-            "funder": {
-              "name": "Agencia Estatal de Investigaci\u00f3n"
-            }
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15042445"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Generalized, Complete and Accurate Modeling of Non-Ideal Push\u2013Pull Converters for Power System Analysis and Control",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042446",
-        "self_html": "https://zenodo.org/records/15042446",
-        "doi": "https://doi.org/10.5281/zenodo.15042446",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042446",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042446",
-        "parent": "https://zenodo.org/api/records/15042445",
-        "parent_html": "https://zenodo.org/records/15042445",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15042445",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042445",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042446/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042446/sequence/default",
-        "files": "https://zenodo.org/api/records/15042446/files",
-        "media_files": "https://zenodo.org/api/records/15042446/media-files",
-        "archive": "https://zenodo.org/api/records/15042446/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042446/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042446/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042446/latest",
-        "versions": "https://zenodo.org/api/records/15042446/versions",
-        "draft": "https://zenodo.org/api/records/15042446/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042446/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042446/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042446/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042446/access/users",
-        "access_request": "https://zenodo.org/api/records/15042446/access/request",
-        "access": "https://zenodo.org/api/records/15042446/access",
-        "communities": "https://zenodo.org/api/records/15042446/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042446/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042446/requests"
-      },
-      "updated": "2025-03-17T22:44:16.195263+00:00",
-      "recid": "15042446",
-      "revision": 4,
-      "files": [
-        {
-          "id": "7f00ca2c-6689-463a-a282-73b87853f8ef",
-          "key": "Resultados_zenodo.xlsx",
-          "size": 2643315,
-          "checksum": "md5:9a702d733bdf275a9dc6a122e3d133bf",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042446/files/Resultados_zenodo.xlsx/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "1283656"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 1,
-        "unique_views": 1,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 1,
-        "version_views": 1
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T22:08:20.150786+00:00",
-      "modified": "2025-03-17T22:22:36.296125+00:00",
-      "id": 15042375,
-      "conceptrecid": "4017438",
-      "doi": "10.5281/zenodo.15042375",
-      "conceptdoi": "10.5281/zenodo.4017438",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042375",
-      "metadata": {
-        "title": "PyHelpers: An open-source toolkit for facilitating Python users' data manipulation tasks",
-        "doi": "10.5281/zenodo.15042375",
-        "publication_date": "2025-03-17",
-        "description": "<p>PyHelpers is an open-source Python package designed to streamline data (pre-)processing and manipulation tasks. It accommodates a wide range of functions and classes grounded in practical applications, making common data operations more accessible and efficient. This toolkit is particularly useful for Python learners, researchers and data scientists seeking to enhance their workflows.</p>\n<p>The package supports handling various data types, such as geographical and textual data, allowing for flexibility for diverse data processing needs. It also simplifies data input and output operations by offering functionalities for managing many different file-like objects. In addition, PyHelpers facilitates communication with relational databases, such as PostgreSQL and Microsoft SQL Server. This capability greatly smooths data integration with database systems through efficient data storage and retrieval.</p>\n<p>With its comprehensive suite of practical tools, PyHelpers simplifies complex data processing tasks and boosts productivity. It is ready to serve as an essential resource for effective data manipulation, management and analysis for anyone working with data in Python.</p>\n<p>For more information and detailed specifications, check out the<strong>&nbsp;</strong><a title=\"PyHelpers 2.2.0 documentation\" href=\"https://pyhelpers.readthedocs.io/en/2.2.0/\" target=\"_blank\" rel=\"noopener\">PyHelpers 2.2.0 documentation</a>.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Fu, Qian",
-            "affiliation": "University of Birmingham",
-            "orcid": "0000-0002-6502-9934"
+            "name": "Mamaev, Bogdan",
+            "affiliation": "Deakin University",
+            "orcid": "0000-0002-1649-6501"
           }
         ],
         "keywords": [
-          "Python",
-          "Utilities",
-          "Data preprocessing",
-          "Data manipulation",
-          "Python utilities",
-          "Python utils",
-          "Python utility"
+          "protest",
+          "contentious action",
+          "Russia",
+          "protest event analysis"
         ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/mikeqfu/pyhelpers/tree/2.2.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://pyhelpers.readthedocs.io/en/2.2.0/",
-            "relation": "documents",
-            "resource_type": "publication-softwaredocumentation",
-            "scheme": "url"
-          }
-        ],
-        "version": "2.2.0",
+        "version": "1.0",
+        "language": "eng",
         "custom": {
-          "code:codeRepository": "https://github.com/mikeqfu/pyhelpers",
-          "code:programmingLanguage": [
-            {
-              "id": "python",
-              "title": {
-                "en": "Python"
-              }
-            }
-          ],
           "code:developmentStatus": {
             "id": "active",
             "title": {
@@ -296,544 +39,9 @@
           }
         },
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Dataset",
+          "type": "dataset"
         },
-        "license": {
-          "id": "mit-license"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 32,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "4017438"
-              }
-            }
-          ]
-        },
-        "notes": "<h3>Cite as:</h3>\n<p>Fu, Q. (2020). <em>PyHelpers: An open-source toolkit for facilitating Python users' data manipulation tasks</em>. Zenodo. <a title=\"DOI\" href=\"https://doi.org/10.5281/zenodo.4017438\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.5281/zenodo.4017438</a></p>\n<p>For specific version references, please see the&nbsp;<a href=\"https://zenodo.org/search?q=conceptrecid%3A%224017438%22&amp;f=allversions%3Atrue&amp;l=list&amp;p=1&amp;s=10&amp;sort=version\" target=\"_blank\" rel=\"noopener\">list of all versions</a>.</p>"
-      },
-      "title": "PyHelpers: An open-source toolkit for facilitating Python users' data manipulation tasks",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042375",
-        "self_html": "https://zenodo.org/records/15042375",
-        "doi": "https://doi.org/10.5281/zenodo.15042375",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042375",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042375",
-        "parent": "https://zenodo.org/api/records/4017438",
-        "parent_html": "https://zenodo.org/records/4017438",
-        "parent_doi": "https://doi.org/10.5281/zenodo.4017438",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4017438",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042375/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042375/sequence/default",
-        "files": "https://zenodo.org/api/records/15042375/files",
-        "media_files": "https://zenodo.org/api/records/15042375/media-files",
-        "archive": "https://zenodo.org/api/records/15042375/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042375/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042375/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042375/latest",
-        "versions": "https://zenodo.org/api/records/15042375/versions",
-        "draft": "https://zenodo.org/api/records/15042375/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042375/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042375/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042375/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042375/access/users",
-        "access_request": "https://zenodo.org/api/records/15042375/access/request",
-        "access": "https://zenodo.org/api/records/15042375/access",
-        "communities": "https://zenodo.org/api/records/15042375/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042375/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042375/requests"
-      },
-      "updated": "2025-03-17T22:22:36.296125+00:00",
-      "recid": "15042375",
-      "revision": 8,
-      "files": [
-        {
-          "id": "34db4a20-8624-4e30-96b0-dbe21a7aae6d",
-          "key": "mikeqfu/pyhelpers-2.2.0.zip",
-          "size": 1535980,
-          "checksum": "md5:94eea01f505b9761f6392a0ec7587f22",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042375/files/mikeqfu/pyhelpers-2.2.0.zip/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "76072"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 134,
-        "unique_downloads": 124,
-        "views": 2076,
-        "unique_views": 1647,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T21:57:41.005632+00:00",
-      "modified": "2025-03-17T21:57:41.203189+00:00",
-      "id": 15042351,
-      "conceptrecid": "7720998",
-      "doi": "10.5281/zenodo.15042351",
-      "conceptdoi": "10.5281/zenodo.7720998",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042351",
-      "metadata": {
-        "title": "quacc \u2013 The Quantum Accelerator",
-        "doi": "10.5281/zenodo.15042351",
-        "publication_date": "2025-03-17",
-        "description": "<h3>Added</h3>\n<ul>\n<li>New elastic workflows for MLIPs and EMT</li>\n</ul>\n<h3>Changed</h3>\n<ul>\n<li>The existing elastic workflow has been completely overhauled so that it is more practical to use. This also comes with breaking changes as a result since the recipe is completely new.</li>\n<li>The results dictionary returned at the end of the run has been modified, such that the structure metadata is now put under the <code>structure_metadata</code> key rather than the root level of the dictionary. Should this breaking change prove undesirable by the community, it can be reverted.</li>\n</ul>\n<h3>Fixed</h3>\n<ul>\n<li>Fixed various type hints</li>\n</ul>\n<h2>What's Changed</h2>\n<ul>\n<li>pre-commit autoupdate by @pre-commit-ci in https://github.com/Quantum-Accelerators/quacc/pull/2689</li>\n<li>minor updates to docs to include fairchem mlp options by @zulissimeta in https://github.com/Quantum-Accelerators/quacc/pull/2692</li>\n<li>Bump monty from 2025.1.9 to 2025.3.3 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2691</li>\n<li>Bump phonopy from 2.37.1 to 2.38.0 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2690</li>\n<li>Bump parsl[monitoring] from 2025.2.24 to 2025.3.3 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2696</li>\n<li>Bump prefect[dask] from 3.2.9 to 3.2.11 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2698</li>\n<li>Bump covalent from 0.237.0rc0 to 0.238.0rc0 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2697</li>\n<li>Simplify huggingface downloads by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2699</li>\n<li>Bump maggma from 0.71.4 to 0.71.5 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2700</li>\n<li>Freeze arguments to pick_calculator by @zulissimeta in https://github.com/Quantum-Accelerators/quacc/pull/2695</li>\n<li>Type hint fixes by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2702</li>\n<li>Extend elastic properties to MLPs, and include elastic property analysis by @zulissimeta in https://github.com/Quantum-Accelerators/quacc/pull/2693</li>\n<li>BREAKING: Modify AtomSchema by putting root level structure/molecule metadata one level deeper by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2708</li>\n<li>Refactor get_spin_multiplicity_attribute by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2711</li>\n<li>Refactor slabs handling by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2712</li>\n<li>Update custodian imports by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2714</li>\n<li>Bump mace-torch from 0.3.10 to 0.3.12 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2716</li>\n<li>Update <code>results_to_db</code> type hints by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2715</li>\n<li>Refactor elastic tensor flows by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2720</li>\n<li>Bump parsl[monitoring] from 2025.3.3 to 2025.3.10 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2719</li>\n<li>Bump redun from 0.25.0 to 0.26.0 by @dependabot in https://github.com/Quantum-Accelerators/quacc/pull/2718</li>\n<li>Do not modify dictionaries in place by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2721</li>\n<li>Revert #2715 by @Andrew-S-Rosen in https://github.com/Quantum-Accelerators/quacc/pull/2722</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/Quantum-Accelerators/quacc/compare/v0.12.3...v0.13.0</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Rosen, Andrew",
-            "affiliation": "Department of Chemical and Biological Engineering, Princeton University",
-            "orcid": "0000-0002-0141-7006"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/Quantum-Accelerators/quacc/tree/v0.13.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "v0.13.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/Quantum-Accelerators/quacc"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "bsd-3-clause"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 95,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "7720998"
-              }
-            }
-          ]
-        },
-        "notes": "Please cite this work as follows if you use quacc."
-      },
-      "title": "quacc \u2013 The Quantum Accelerator",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042351",
-        "self_html": "https://zenodo.org/records/15042351",
-        "doi": "https://doi.org/10.5281/zenodo.15042351",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042351",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042351",
-        "parent": "https://zenodo.org/api/records/7720998",
-        "parent_html": "https://zenodo.org/records/7720998",
-        "parent_doi": "https://doi.org/10.5281/zenodo.7720998",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7720998",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042351/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042351/sequence/default",
-        "files": "https://zenodo.org/api/records/15042351/files",
-        "media_files": "https://zenodo.org/api/records/15042351/media-files",
-        "archive": "https://zenodo.org/api/records/15042351/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042351/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042351/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042351/latest",
-        "versions": "https://zenodo.org/api/records/15042351/versions",
-        "draft": "https://zenodo.org/api/records/15042351/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042351/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042351/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042351/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042351/access/users",
-        "access_request": "https://zenodo.org/api/records/15042351/access/request",
-        "access": "https://zenodo.org/api/records/15042351/access",
-        "communities": "https://zenodo.org/api/records/15042351/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042351/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042351/requests"
-      },
-      "updated": "2025-03-17T21:57:41.203189+00:00",
-      "recid": "15042351",
-      "revision": 4,
-      "files": [
-        {
-          "id": "dd3a529e-2de1-49f4-8aed-46e1896d8f12",
-          "key": "Quantum-Accelerators/quacc-v0.13.0.zip",
-          "size": 34464786,
-          "checksum": "md5:9c28d24481b0a04903286db531e6b3e7",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042351/files/Quantum-Accelerators/quacc-v0.13.0.zip/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "50907"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 235,
-        "unique_downloads": 232,
-        "views": 2291,
-        "unique_views": 2218,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T21:32:34.031130+00:00",
-      "modified": "2025-03-17T21:32:34.181062+00:00",
-      "id": 15042290,
-      "conceptrecid": "15028220",
-      "doi": "10.5281/zenodo.15042290",
-      "conceptdoi": "10.5281/zenodo.15028220",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042290",
-      "metadata": {
-        "title": "LuciaMartinaScalise/cremations-virtual-analysis: Data and R scripts for the manuscript 'Virtuality VS Reality: testing a virtual approach for the exploratory analysis of Bronze Age urns from Northern Italy'",
-        "doi": "10.5281/zenodo.15042290",
-        "publication_date": "2025-03-17",
-        "description": "<p>This repository contains data and scripts used in the manuscript:</p>\n<p>Virtuality VS Reality: testing a virtual approach for the exploratory analysis of Bronze Age urns from Northern Italy</p>\n<p>Lucia Martina Scalise, Maria Pia Morigi, Claudio Cavazzuti, Rosa Brancaccio, Enrico R. Crema, Marco Seracini, Stefano Benazzi, Emma Pomeroy</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "L. Martina Scalise",
-            "affiliation": "University of Cambridge"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/LuciaMartinaScalise/cremations-virtual-analysis/tree/v.1.1.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "v.1.1.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/LuciaMartinaScalise/cremations-virtual-analysis"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15028220"
-              }
-            }
-          ]
-        }
-      },
-      "title": "LuciaMartinaScalise/cremations-virtual-analysis: Data and R scripts for the manuscript 'Virtuality VS Reality: testing a virtual approach for the exploratory analysis of Bronze Age urns from Northern Italy'",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042290",
-        "self_html": "https://zenodo.org/records/15042290",
-        "doi": "https://doi.org/10.5281/zenodo.15042290",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042290",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042290",
-        "parent": "https://zenodo.org/api/records/15028220",
-        "parent_html": "https://zenodo.org/records/15028220",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15028220",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15028220",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042290/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042290/sequence/default",
-        "files": "https://zenodo.org/api/records/15042290/files",
-        "media_files": "https://zenodo.org/api/records/15042290/media-files",
-        "archive": "https://zenodo.org/api/records/15042290/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042290/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042290/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042290/latest",
-        "versions": "https://zenodo.org/api/records/15042290/versions",
-        "draft": "https://zenodo.org/api/records/15042290/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042290/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042290/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042290/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042290/access/users",
-        "access_request": "https://zenodo.org/api/records/15042290/access/request",
-        "access": "https://zenodo.org/api/records/15042290/access",
-        "communities": "https://zenodo.org/api/records/15042290/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042290/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042290/requests"
-      },
-      "updated": "2025-03-17T21:32:34.181062+00:00",
-      "recid": "15042290",
-      "revision": 4,
-      "files": [
-        {
-          "id": "b7f77dcb-d5ad-4c25-a440-d72f067d75d4",
-          "key": "LuciaMartinaScalise/cremations-virtual-analysis-v.1.1.0.zip",
-          "size": 284794,
-          "checksum": "md5:b04afb9210d302a8737f9b4776932573",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042290/files/LuciaMartinaScalise/cremations-virtual-analysis-v.1.1.0.zip/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "1282809"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 18,
-        "unique_views": 7,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 1,
-        "version_views": 3
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T21:26:37.476092+00:00",
-      "modified": "2025-03-17T21:26:37.602545+00:00",
-      "id": 15042264,
-      "conceptrecid": "13937656",
-      "doi": "10.5281/zenodo.15042264",
-      "conceptdoi": "10.5281/zenodo.13937656",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042264",
-      "metadata": {
-        "title": "Rapid Acquisition of 103Rh Solid-State NMR Spectra by 31P Detection and Sideband Selective Methods",
-        "doi": "10.5281/zenodo.15042264",
-        "publication_date": "2025-03-17",
-        "description": "<p>Data archived here corresponds to the experimental and simulation data discussed in:<br>\"Rapid Acquisition of 103Rh Solid-State NMR Spectra by 31P Detection and Sideband Selective Methods.\" This includes experimental datasets from TopSpin, files for SIMPSON simulations, and the output files from the DFT calculations using AMS 2021. Python scripts used in the data analysis are also included</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Atterberry, Benjamin",
-            "affiliation": "Iowa State University"
-          },
-          {
-            "name": "Paluch, Piotr",
-            "affiliation": "Polish Academy of Sciences"
-          },
-          {
-            "name": "Lamkins, Andrew",
-            "affiliation": "Iowa State University"
-          },
-          {
-            "name": "Huang, Wenyu",
-            "affiliation": "Iowa State University"
-          },
-          {
-            "name": "Rossini, Aaron",
-            "affiliation": "Iowa State University"
-          }
-        ],
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "13937656"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Rapid Acquisition of 103Rh Solid-State NMR Spectra by 31P Detection and Sideband Selective Methods",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042264",
-        "self_html": "https://zenodo.org/records/15042264",
-        "doi": "https://doi.org/10.5281/zenodo.15042264",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042264",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042264",
-        "parent": "https://zenodo.org/api/records/13937656",
-        "parent_html": "https://zenodo.org/records/13937656",
-        "parent_doi": "https://doi.org/10.5281/zenodo.13937656",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13937656",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042264/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042264/sequence/default",
-        "files": "https://zenodo.org/api/records/15042264/files",
-        "media_files": "https://zenodo.org/api/records/15042264/media-files",
-        "archive": "https://zenodo.org/api/records/15042264/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042264/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042264/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042264/latest",
-        "versions": "https://zenodo.org/api/records/15042264/versions",
-        "draft": "https://zenodo.org/api/records/15042264/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042264/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042264/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042264/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042264/access/users",
-        "access_request": "https://zenodo.org/api/records/15042264/access/request",
-        "access": "https://zenodo.org/api/records/15042264/access",
-        "communities": "https://zenodo.org/api/records/15042264/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042264/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042264/requests"
-      },
-      "updated": "2025-03-17T21:26:37.602545+00:00",
-      "recid": "15042264",
-      "revision": 4,
-      "files": [
-        {
-          "id": "c8e5031e-3478-4250-82e2-0eba78e75e25",
-          "key": "Zenodo_Manuscript - Version 2.7z",
-          "size": 1023874525,
-          "checksum": "md5:3d4b97c1f07d5cba4362c98f932b6efb",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042264/files/Zenodo_Manuscript - Version 2.7z/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "361228"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 5,
-        "unique_downloads": 5,
-        "views": 20,
-        "unique_views": 18,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 1,
-        "version_views": 1
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T20:51:11.941720+00:00",
-      "modified": "2025-03-17T20:51:12.708110+00:00",
-      "id": 15042102,
-      "conceptrecid": "15042101",
-      "doi": "10.5281/zenodo.15042102",
-      "conceptdoi": "10.5281/zenodo.15042101",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042102",
-      "metadata": {
-        "title": "Propositional Extraction from Collaborative Naturalistic Dialogues",
-        "doi": "10.5281/zenodo.15042102",
-        "publication_date": "2025-03-17",
-        "description": "<p>In the realm of collaborative learning, extracting the beliefs shared within a group is a critical capability to navigate complex tasks. Inherent in this problem is the fact that in naturalistic collaborative discourse, the same propositional content may be expressed in radically different ways. This difficulty is exacerbated when speech overlaps and other communicative modalities are used, as would be the case in a co-situated collaborative task. In this paper, we conduct a comparative methodological analysis of extraction techniques for task-relevant propositions from natural speech dialogues in a challenging shared task setting where participants collaboratively determine the weights of five blocks using only a balance scale. We encode utterances and candidate propositions through language models and compare a cross-encoder method, adapted from coreference research, to a vector similarity baseline. Our cross-encoder approach outperforms both a cosine similarity baseline and zero-shot inference by both the GPT-4 and LLaMA 2 language models, and we establish a novel baseline on this challenging task on two collaborative task datasets---the Weights Task and DeliData---showing the generalizability of our approach. Furthermore, we explore the use of state of the art large language models for data augmentation to enhance performance, extend our examination to transcripts generated by Google's Automatic Speech Recognition system to assess the potential for automating the propositional extraction process in real-time, and introduce a framework for live propositional extraction from natural speech and multimodal signals. This study not only demonstrates the feasibility of detecting collaboration-relevant content in unstructured interactions but also lays the groundwork for employing AI to enhance collaborative problem-solving in classrooms, and other collaborative settings, such as the workforce. Our code may be found at: (https://github.com/csu-signal/PropositionExtraction).</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Venkatesha, Videep",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Nath, Abhijnan",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Khebour, Ibrahim",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Chelle, Avyakta",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Bradford, Mariah",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Tu, Jingxuan",
-            "affiliation": "Brandeis University"
-          },
-          {
-            "name": "VanderHoeven, Hannah",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Bhalla, Brady",
-            "affiliation": "California Institute of Technology"
-          },
-          {
-            "name": "Youngren, Austin",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Fitzgerald, Jack",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Pustejovsky, James",
-            "affiliation": "Brandeis University"
-          },
-          {
-            "name": "Blanchard, Nathaniel",
-            "affiliation": "Colorado State University"
-          },
-          {
-            "name": "Krishnaswamy, Nikhil",
-            "affiliation": "Colorado State University"
-          }
-        ],
-        "keywords": [
-          "collaborative problem solving",
-          "propositional extraction",
-          "natural speech",
-          "natural language processing",
-          "dialogue analysis"
-        ],
-        "language": "eng",
-        "custom": {
-          "code:codeRepository": "https://github.com/csu-signal/PropositionExtraction"
-        },
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "1",
-          "pages": "183-216",
-          "title": "Journal of Educational Data Mining",
-          "volume": "17"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/838"
-          }
-        ],
         "license": {
           "id": "cc-by-4.0"
         },
@@ -844,311 +52,53 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15042101"
+                "pid_value": "17500145"
               }
             }
           ]
         }
       },
-      "title": "Propositional Extraction from Collaborative Naturalistic Dialogues",
+      "title": "Russian Contentious Event Dataset (RCED)",
       "links": {
-        "self": "https://zenodo.org/api/records/15042102",
-        "self_html": "https://zenodo.org/records/15042102",
-        "doi": "https://doi.org/10.5281/zenodo.15042102",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042102",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042102",
-        "parent": "https://zenodo.org/api/records/15042101",
-        "parent_html": "https://zenodo.org/records/15042101",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15042101",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042101",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042102/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042102/sequence/default",
-        "files": "https://zenodo.org/api/records/15042102/files",
-        "media_files": "https://zenodo.org/api/records/15042102/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:15042102:838Venkatesha183To216.pdf/full/^10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:15042102:838Venkatesha183To216.pdf/full/^50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:15042102:838Venkatesha183To216.pdf/full/^100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:15042102:838Venkatesha183To216.pdf/full/^250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:15042102:838Venkatesha183To216.pdf/full/^750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:15042102:838Venkatesha183To216.pdf/full/^1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/15042102/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042102/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042102/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042102/latest",
-        "versions": "https://zenodo.org/api/records/15042102/versions",
-        "draft": "https://zenodo.org/api/records/15042102/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042102/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042102/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042102/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042102/access/users",
-        "access_request": "https://zenodo.org/api/records/15042102/access/request",
-        "access": "https://zenodo.org/api/records/15042102/access",
-        "communities": "https://zenodo.org/api/records/15042102/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042102/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042102/requests"
+        "self": "https://zenodo.org/api/records/17500146",
+        "self_html": "https://zenodo.org/records/17500146",
+        "preview_html": "https://zenodo.org/records/17500146?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17500146",
+        "self_doi": "https://doi.org/10.5281/zenodo.17500146",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500146",
+        "reserve_doi": "https://zenodo.org/api/records/17500146/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500145",
+        "parent_html": "https://zenodo.org/records/17500145",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17500145",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500145",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500146/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500146/sequence/default",
+        "files": "https://zenodo.org/api/records/17500146/files",
+        "media_files": "https://zenodo.org/api/records/17500146/media-files",
+        "archive": "https://zenodo.org/api/records/17500146/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500146/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500146/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500146/latest",
+        "versions": "https://zenodo.org/api/records/17500146/versions",
+        "draft": "https://zenodo.org/api/records/17500146/draft",
+        "access_links": "https://zenodo.org/api/records/17500146/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500146/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500146/access/users",
+        "access_request": "https://zenodo.org/api/records/17500146/access/request",
+        "access": "https://zenodo.org/api/records/17500146/access",
+        "communities": "https://zenodo.org/api/records/17500146/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500146/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500146/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500146/requests"
       },
-      "updated": "2025-03-17T20:51:12.708110+00:00",
-      "recid": "15042102",
-      "revision": 4,
-      "files": [
-        {
-          "id": "9b42ab00-cb22-4991-9312-5658ccdca7d9",
-          "key": "838Venkatesha183To216.pdf",
-          "size": 5447093,
-          "checksum": "md5:bd2eb5cac34bb7fdc3ae5804beb5053e",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042102/files/838Venkatesha183To216.pdf/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "1185986"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 1,
-        "unique_views": 1,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 1,
-        "version_views": 1
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T20:46:02.713928+00:00",
-      "modified": "2025-03-17T20:46:02.852251+00:00",
-      "id": 15041162,
-      "conceptrecid": "14944301",
-      "doi": "10.5281/zenodo.15041162",
-      "conceptdoi": "10.5281/zenodo.14944301",
-      "doi_url": "https://doi.org/10.5281/zenodo.15041162",
-      "metadata": {
-        "title": "HUMAN OBSERVATIONS NO MORE: MEASURING PLAYGROUND USE WITH COMPUTER VISION",
-        "doi": "10.5281/zenodo.15041162",
-        "publication_date": "2025-03-19",
-        "description": "<p><strong>Background</strong>: Observations of children&rsquo;s play are crucial for evaluating the use of playgrounds. Today, human-based direct observation tools such as the System for Observing Play and Leisure Activity in Youth (SOPLAY) are commonly used. These tools have limitations: they are resource-intensive, the scalability is limited, they do not allow long-term measurement, and there is a risk of human-induced bias.</p>\n<p><strong>Aim</strong>: In theory, cameras-based observations and computer vision can effectively address these challenges. However, in practice there are still many barriers. We are developing a solution resolving the quirks and obstacles we have encountered.</p>\n<p><strong>Methods and Results</strong>: Preliminary analysis is underway, utilising footage from outdoor playgrounds by a video camera processed through the YOLO computer vision model. Validation is achieved by comparing the model's automated detection of time spent and occupancy in specific areas of interest (e.g., equipment) with human-annotated ground truth data.</p>\n<p><strong>Conclusions</strong>: We have successfully demonstrated our concept's feasibility and identified potential users eager to adopt our solution. However, to meet the specific needs of both our target users and the research community, further development, validation, and rigorous real-world testing are required. To accelerate this process, we are actively seeking collaborative opportunities.</p>",
-        "access_right": "embargoed",
-        "embargo_date": "2025-03-18",
-        "creators": [
-          {
-            "name": "Madsen, Cathrine Damsbo",
-            "affiliation": "University of Southern Denmark",
-            "orcid": "0009-0002-3111-6113"
-          },
-          {
-            "name": "Heidler, Josef",
-            "affiliation": "University of Southern Denmark",
-            "orcid": "0000-0002-1064-6601"
-          },
-          {
-            "name": "Mat\u00fa\u0161ov\u00e1, Michaela",
-            "affiliation": "Univerzita Palack\u00e9ho v Olomouci Fakulta t\u011blesn\u00e9 kultury",
-            "orcid": "0000-0003-4985-9759"
-          },
-          {
-            "name": "Schipperijn, Jasper",
-            "affiliation": "University of Southern Denmark",
-            "orcid": "0000-0002-6558-7610"
-          }
-        ],
-        "keywords": [
-          "YOLO",
-          "Computer Vision",
-          "Playground"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Poster",
-          "type": "poster"
-        },
-        "meeting": {
-          "title": "The 7th Nordic Seminar on Technical Measurements of Physical Activity & Sedentary Behaviour",
-          "acronym": "PASB 2025",
-          "dates": "9-21 March 2025",
-          "place": "Uppsala, Sweden",
-          "url": "https://ammuppsala.se/ergonomi/pasb-2025/"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "14944301"
-              }
-            }
-          ]
-        }
-      },
-      "title": "HUMAN OBSERVATIONS NO MORE: MEASURING PLAYGROUND USE WITH COMPUTER VISION",
-      "links": {
-        "self": "https://zenodo.org/api/records/15041162",
-        "self_html": "https://zenodo.org/records/15041162",
-        "doi": "https://doi.org/10.5281/zenodo.15041162",
-        "self_doi": "https://doi.org/10.5281/zenodo.15041162",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15041162",
-        "parent": "https://zenodo.org/api/records/14944301",
-        "parent_html": "https://zenodo.org/records/14944301",
-        "parent_doi": "https://doi.org/10.5281/zenodo.14944301",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14944301",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15041162/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15041162/sequence/default",
-        "files": "https://zenodo.org/api/records/15041162/files",
-        "media_files": "https://zenodo.org/api/records/15041162/media-files",
-        "archive": "https://zenodo.org/api/records/15041162/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15041162/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15041162/versions/latest",
-        "latest_html": "https://zenodo.org/records/15041162/latest",
-        "versions": "https://zenodo.org/api/records/15041162/versions",
-        "draft": "https://zenodo.org/api/records/15041162/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15041162/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15041162/access/links",
-        "access_grants": "https://zenodo.org/api/records/15041162/access/grants",
-        "access_users": "https://zenodo.org/api/records/15041162/access/users",
-        "access_request": "https://zenodo.org/api/records/15041162/access/request",
-        "access": "https://zenodo.org/api/records/15041162/access",
-        "communities": "https://zenodo.org/api/records/15041162/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15041162/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15041162/requests"
-      },
-      "updated": "2025-03-17T20:46:02.852251+00:00",
-      "recid": "15041162",
+      "updated": "2025-11-01T08:43:46.493381+00:00",
+      "recid": "17500146",
       "revision": 4,
       "files": [],
-      "swh": {},
+      "swh": null,
       "owners": [
         {
-          "id": "1249743"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 24,
-        "unique_downloads": 12,
-        "views": 20,
-        "unique_views": 12,
-        "version_downloads": 10,
-        "version_unique_downloads": 6,
-        "version_unique_views": 1,
-        "version_views": 1
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-17T20:43:02.534815+00:00",
-      "modified": "2025-03-17T20:43:02.705358+00:00",
-      "id": 15042168,
-      "conceptrecid": "15042167",
-      "doi": "10.5281/zenodo.15042168",
-      "conceptdoi": "10.5281/zenodo.15042167",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042168",
-      "metadata": {
-        "title": "Pappulab/Data-and-analysis-for-RNA-Interfaces: 1.0",
-        "doi": "10.5281/zenodo.15042168",
-        "publication_date": "2025-03-17",
-        "description": "No description provided.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Mina Farag",
-            "affiliation": "Washington University in St. Louis"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/Pappulab/Data-and-analysis-for-RNA-Interfaces/tree/1.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "1.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/Pappulab/Data-and-analysis-for-RNA-Interfaces"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15042167"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Pappulab/Data-and-analysis-for-RNA-Interfaces: 1.0",
-      "links": {
-        "self": "https://zenodo.org/api/records/15042168",
-        "self_html": "https://zenodo.org/records/15042168",
-        "doi": "https://doi.org/10.5281/zenodo.15042168",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042168",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042168",
-        "parent": "https://zenodo.org/api/records/15042167",
-        "parent_html": "https://zenodo.org/records/15042167",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15042167",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042167",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042168/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042168/sequence/default",
-        "files": "https://zenodo.org/api/records/15042168/files",
-        "media_files": "https://zenodo.org/api/records/15042168/media-files",
-        "archive": "https://zenodo.org/api/records/15042168/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042168/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042168/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042168/latest",
-        "versions": "https://zenodo.org/api/records/15042168/versions",
-        "draft": "https://zenodo.org/api/records/15042168/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042168/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042168/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042168/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042168/access/users",
-        "access_request": "https://zenodo.org/api/records/15042168/access/request",
-        "access": "https://zenodo.org/api/records/15042168/access",
-        "communities": "https://zenodo.org/api/records/15042168/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042168/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042168/requests"
-      },
-      "updated": "2025-03-17T20:43:02.705358+00:00",
-      "recid": "15042168",
-      "revision": 4,
-      "files": [
-        {
-          "id": "542b74e3-d768-4474-abd1-2a8c3bd0cc71",
-          "key": "Pappulab/Data-and-analysis-for-RNA-Interfaces-1.0.zip",
-          "size": 2661709,
-          "checksum": "md5:9dc0a4f34df08d43e69bd0e9335083c5",
-          "links": {
-            "self": "https://zenodo.org/api/records/15042168/files/Pappulab/Data-and-analysis-for-RNA-Interfaces-1.0.zip/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "445885"
+          "id": "1449588"
         }
       ],
       "status": "published",
@@ -1166,104 +116,35 @@
       "submitted": true
     },
     {
-      "created": "2025-03-17T20:32:03.282044+00:00",
-      "modified": "2025-03-17T20:32:03.415369+00:00",
-      "id": 15042077,
-      "conceptrecid": "15042076",
-      "doi": "10.5281/zenodo.15042077",
-      "conceptdoi": "10.5281/zenodo.15042076",
-      "doi_url": "https://doi.org/10.5281/zenodo.15042077",
+      "created": "2025-11-01T08:43:25.788184+00:00",
+      "modified": "2025-11-01T08:43:26.032914+00:00",
+      "id": 17500431,
+      "conceptrecid": "17500430",
+      "doi": "10.5281/zenodo.17500431",
+      "conceptdoi": "10.5281/zenodo.17500430",
+      "doi_url": "https://doi.org/10.5281/zenodo.17500431",
       "metadata": {
-        "title": "Flythrough of the Ascending Arousal Network Atlas Mesh",
-        "doi": "10.5281/zenodo.15042077",
-        "publication_date": "2025-03-17",
-        "description": "<p>While substantial progress has been made in mapping the connectivity of cortical networks responsible for conscious awareness, neuroimaging analysis of subcortical arousal networks that modulate arousal (i.e., wakefulness) has been limited by a lack of a robust segmentation procedures for brainstem arousal nuclei. Automated segmentation of brainstem arousal nuclei is an essential step toward elucidating the physiology of arousal in human consciousness and the pathophysiology of disorders of consciousness. We created a probabilistic atlas of brainstem arousal nuclei built on diffusion MRI scans of five&nbsp;<em>ex vivo</em>&nbsp;human brain specimens scanned at 750 &micro;m isotropic resolution. Labels of arousal nuclei used to generate the probabilistic atlas were manually annotated with reference to nucleus-specific immunostaining in two of the five brain specimens. We then developed a Bayesian segmentation algorithm that utilizes the probabilistic atlas as a generative model and automatically identifies brainstem arousal nuclei in a resolution- and contrast-agnostic manner. The segmentation method displayed high accuracy in both healthy and lesioned&nbsp;<em>in vivo</em> T1 MRI scans and high test-retest reliability across both T1 and T2 MRI contrasts. Finally, we show that the segmentation algorithm can detect volumetric changes and differences in magnetic susceptibility within brainstem arousal nuclei in Alzheimer&rsquo;s disease and traumatic coma, respectively. We release the probabilistic atlas and Bayesian segmentation tool in FreeSurfer to advance the study of human consciousness and its disorders.</p>",
+        "title": "L'irr\u00e9vocabilit\u00e9 des arr\u00eats de la cour constitutionnelle \u00e0 l'\u00e9preuve de l'ind\u00e9rogeabilit\u00e9 du droit de recours en droit positif congolais : Analyses et Perspectives",
+        "doi": "10.5281/zenodo.17500431",
+        "publication_date": "2025-11-01",
+        "description": "<p><span lang=\"EN-US\">The irrevocability of judgments rendered by the Constitutional Court constitutes one of the cardinal principles of the Congolese legal order. It aims to guarantee the stability of judicial decisions and legal certainty by conferring upon these judgments an absolute and final authority. However, this irrevocability, elevated to the rank of an intangible principle, encounters the fundamental requirement of the right to appeal, recognized by the Constitution of February 18, 2006, as amended and supplemented by Law No. 11/002 of January 20, 2011, as well as by international human rights instruments as a non-derogable right. This paradox raises a central question: how can the need for stability of constitutional rulings be reconciled with the imperative of guaranteeing every litigant an effective remedy against a decision tainted by error or manifest injustice? Through an in-depth doctrinal and jurisprudential analysis, this article examines the compatibility between the irrevocability of Constitutional Court judgments and the principle of non-derogability of the right to appeal, within the framework of Congolese positive law. It also proposes possible reform pathways aimed at ensuring a better balance between the authority of res judicata in constitutional matters and the effective protection of fundamental rights.</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Olchanyi, Mark",
-            "affiliation": "Massachusetts Institute of Technology",
-            "orcid": "0000-0001-7112-2118"
+            "name": "Gr\u00e9goire MBUYAMBA SHAMBUYI",
+            "affiliation": null
           },
           {
-            "name": "Augustinack, Jean",
-            "affiliation": "Massachusetts General Hospital",
-            "orcid": "0000-0002-3129-6671"
-          },
-          {
-            "name": "Haynes, Robin",
-            "affiliation": "Boston Children's Hospital",
-            "orcid": "0000-0003-4909-9585"
-          },
-          {
-            "name": "Lewis, Laura",
-            "affiliation": "Massachusetts Institute of Technology",
-            "orcid": "0000-0002-4003-0277"
-          },
-          {
-            "name": "Cicero, Nicholas",
-            "affiliation": "Boston University",
-            "orcid": "0000-0001-6382-7353"
-          },
-          {
-            "name": "Li, Jian",
-            "affiliation": "Massachusetts General Hospital",
-            "orcid": "0000-0002-1691-8727"
-          },
-          {
-            "name": "Destrieux, Christophe",
-            "affiliation": "Universit\u00e9 de Tours",
-            "orcid": "0000-0001-5348-8052"
-          },
-          {
-            "name": "Folkerth, Rebecca",
-            "affiliation": "Icahn School of Medicine at Mount Sinai",
-            "orcid": "0000-0002-3858-7949"
-          },
-          {
-            "name": "Kinney, Hannah",
-            "affiliation": "Boston Children's Hospital",
-            "orcid": "0000-0001-5199-279X"
-          },
-          {
-            "name": "Fischl, Bruce",
-            "affiliation": "Massachusetts General Hospital",
-            "orcid": "0000-0002-2413-1115"
-          },
-          {
-            "name": "Brown, Emery",
-            "affiliation": "Massachusetts Institute of Technology",
-            "orcid": "0000-0003-2668-7819"
-          },
-          {
-            "name": "Iglesias, Juan Eugenio",
-            "affiliation": "Massachusetts Institute of Technology",
-            "orcid": "0000-0001-7569-173X"
-          },
-          {
-            "name": "Edlow, Brian",
-            "affiliation": "Massachusetts General Hospital",
-            "orcid": "0000-0001-7235-8456"
+            "name": "Jean Arnold KANYINDA MBAYA",
+            "affiliation": null
           }
         ],
-        "related_identifiers": [
-          {
-            "identifier": "10.1101/2024.09.26.24314117",
-            "relation": "isSupplementTo",
-            "resource_type": "publication-preprint",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "https://surfer.nmr.mgh.harvard.edu/fswiki/AANSegment",
-            "relation": "isPartOf",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "1.0.0",
         "resource_type": {
-          "title": "Video/Audio",
-          "type": "video"
+          "title": "Publication",
+          "type": "publication"
+        },
+        "journal": {
+          "title": "Revue Internationale de la Recherche Scientifique (Revue-IRS) - ISSN : 2958-8413"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -1275,73 +156,1460 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15042076"
+                "pid_value": "17500430"
               }
             }
           ]
         }
       },
-      "title": "Flythrough of the Ascending Arousal Network Atlas Mesh",
+      "title": "L'irr\u00e9vocabilit\u00e9 des arr\u00eats de la cour constitutionnelle \u00e0 l'\u00e9preuve de l'ind\u00e9rogeabilit\u00e9 du droit de recours en droit positif congolais : Analyses et Perspectives",
       "links": {
-        "self": "https://zenodo.org/api/records/15042077",
-        "self_html": "https://zenodo.org/records/15042077",
-        "doi": "https://doi.org/10.5281/zenodo.15042077",
-        "self_doi": "https://doi.org/10.5281/zenodo.15042077",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042077",
-        "parent": "https://zenodo.org/api/records/15042076",
-        "parent_html": "https://zenodo.org/records/15042076",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15042076",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15042076",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15042077/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15042077/sequence/default",
-        "files": "https://zenodo.org/api/records/15042077/files",
-        "media_files": "https://zenodo.org/api/records/15042077/media-files",
-        "archive": "https://zenodo.org/api/records/15042077/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15042077/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15042077/versions/latest",
-        "latest_html": "https://zenodo.org/records/15042077/latest",
-        "versions": "https://zenodo.org/api/records/15042077/versions",
-        "draft": "https://zenodo.org/api/records/15042077/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15042077/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15042077/access/links",
-        "access_grants": "https://zenodo.org/api/records/15042077/access/grants",
-        "access_users": "https://zenodo.org/api/records/15042077/access/users",
-        "access_request": "https://zenodo.org/api/records/15042077/access/request",
-        "access": "https://zenodo.org/api/records/15042077/access",
-        "communities": "https://zenodo.org/api/records/15042077/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15042077/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15042077/requests"
+        "self": "https://zenodo.org/api/records/17500431",
+        "self_html": "https://zenodo.org/records/17500431",
+        "preview_html": "https://zenodo.org/records/17500431?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17500431",
+        "self_doi": "https://doi.org/10.5281/zenodo.17500431",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500431",
+        "reserve_doi": "https://zenodo.org/api/records/17500431/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500430",
+        "parent_html": "https://zenodo.org/records/17500430",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17500430",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500430",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500431/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500431/sequence/default",
+        "files": "https://zenodo.org/api/records/17500431/files",
+        "media_files": "https://zenodo.org/api/records/17500431/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17500431:RIRS9.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17500431:RIRS9.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17500431:RIRS9.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17500431:RIRS9.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17500431:RIRS9.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17500431:RIRS9.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17500431/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500431/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500431/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500431/latest",
+        "versions": "https://zenodo.org/api/records/17500431/versions",
+        "draft": "https://zenodo.org/api/records/17500431/draft",
+        "access_links": "https://zenodo.org/api/records/17500431/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500431/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500431/access/users",
+        "access_request": "https://zenodo.org/api/records/17500431/access/request",
+        "access": "https://zenodo.org/api/records/17500431/access",
+        "communities": "https://zenodo.org/api/records/17500431/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500431/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500431/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500431/requests"
       },
-      "updated": "2025-03-17T20:32:03.415369+00:00",
-      "recid": "15042077",
+      "updated": "2025-11-01T08:43:26.032914+00:00",
+      "recid": "17500431",
       "revision": 4,
       "files": [
         {
-          "id": "7c6bc2c0-2c3d-41e0-9b57-c9d94dc0d69e",
-          "key": "Probabilistic_atlas_mesh_flythrough.mp4",
-          "size": 42805941,
-          "checksum": "md5:4727242c04ca7b0e3c6fe66ca6f4bd90",
+          "id": "b7281a2f-df1a-4fbf-9e96-cfff46bc76e2",
+          "key": "RIRS9.pdf",
+          "size": 391280,
+          "checksum": "md5:815fd438f048094d91f882752e2de46d",
           "links": {
-            "self": "https://zenodo.org/api/records/15042077/files/Probabilistic_atlas_mesh_flythrough.mp4/content"
+            "self": "https://zenodo.org/api/records/17500431/files/RIRS9.pdf/content"
           }
         }
       ],
-      "swh": {},
+      "swh": null,
       "owners": [
         {
-          "id": "1040915"
+          "id": "472015"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 17,
-        "unique_downloads": 7,
-        "views": 9,
-        "unique_views": 6,
-        "version_downloads": 17,
-        "version_unique_downloads": 7,
-        "version_unique_views": 6,
-        "version_views": 9
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:37:30.375220+00:00",
+      "modified": "2025-11-01T08:37:30.792488+00:00",
+      "id": 17500409,
+      "conceptrecid": "17500408",
+      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi_url": "https://doi.org/10.3897/zookeys.1257.163020.suppl4",
+      "metadata": {
+        "title": "Supplementary material 4 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+        "doi": "10.3897/zookeys.1257.163020.suppl4",
+        "publication_date": "2025-10-30",
+        "description": "Pair-wise distance of COI sequences",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Neo, Ivan",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Loh, Rebecca Ker",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Cho, Tricia J. Y.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Puniamoorthy, Nalini",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Yeo, Darren C. J.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Tan, Ming Kai",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "keywords": [
+          "COI",
+          "molecular analysis",
+          "objective clustering",
+          "phylogenetics",
+          "pygmy grasshoppers",
+          "12S"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/zookeys.1257.163020",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://zenodo.org/record/17500164",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-zero"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500408"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Supplementary material 4 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500409",
+        "self_html": "https://zenodo.org/records/17500409",
+        "preview_html": "https://zenodo.org/records/17500409?preview=1",
+        "doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl4",
+        "self_doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl4",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/zookeys.1257.163020.suppl4",
+        "reserve_doi": "https://zenodo.org/api/records/17500409/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500408",
+        "parent_html": "https://zenodo.org/records/17500408",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500409/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500409/sequence/default",
+        "files": "https://zenodo.org/api/records/17500409/files",
+        "media_files": "https://zenodo.org/api/records/17500409/media-files",
+        "archive": "https://zenodo.org/api/records/17500409/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500409/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500409/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500409/latest",
+        "versions": "https://zenodo.org/api/records/17500409/versions",
+        "draft": "https://zenodo.org/api/records/17500409/draft",
+        "access_links": "https://zenodo.org/api/records/17500409/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500409/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500409/access/users",
+        "access_request": "https://zenodo.org/api/records/17500409/access/request",
+        "access": "https://zenodo.org/api/records/17500409/access",
+        "communities": "https://zenodo.org/api/records/17500409/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500409/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500409/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500409/requests"
+      },
+      "updated": "2025-11-01T08:37:30.792488+00:00",
+      "recid": "17500409",
+      "revision": 6,
+      "files": [
+        {
+          "id": "121f0f1f-b66e-490f-895c-3256cee4d161",
+          "key": "oo_1454459.csv",
+          "size": 256050,
+          "checksum": "md5:a8699a8e8a8d3dcea5979a6733aafad8",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500409/files/oo_1454459.csv/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:37:26.730685+00:00",
+      "modified": "2025-11-01T08:37:27.701270+00:00",
+      "id": 17500407,
+      "conceptrecid": "17500406",
+      "doi": "10.3897/zookeys.1257.163020.suppl3",
+      "doi_url": "https://doi.org/10.3897/zookeys.1257.163020.suppl3",
+      "metadata": {
+        "title": "Supplementary material 3 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+        "doi": "10.3897/zookeys.1257.163020.suppl3",
+        "publication_date": "2025-10-30",
+        "description": "12S sequences",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Neo, Ivan",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Loh, Rebecca Ker",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Cho, Tricia J. Y.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Puniamoorthy, Nalini",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Yeo, Darren C. J.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Tan, Ming Kai",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "keywords": [
+          "COI",
+          "molecular analysis",
+          "objective clustering",
+          "phylogenetics",
+          "pygmy grasshoppers",
+          "12S"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/zookeys.1257.163020",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://zenodo.org/record/17500164",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-zero"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500406"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Supplementary material 3 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500407",
+        "self_html": "https://zenodo.org/records/17500407",
+        "preview_html": "https://zenodo.org/records/17500407?preview=1",
+        "doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl3",
+        "self_doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl3",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/zookeys.1257.163020.suppl3",
+        "reserve_doi": "https://zenodo.org/api/records/17500407/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500406",
+        "parent_html": "https://zenodo.org/records/17500406",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500407/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500407/sequence/default",
+        "files": "https://zenodo.org/api/records/17500407/files",
+        "media_files": "https://zenodo.org/api/records/17500407/media-files",
+        "archive": "https://zenodo.org/api/records/17500407/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500407/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500407/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500407/latest",
+        "versions": "https://zenodo.org/api/records/17500407/versions",
+        "draft": "https://zenodo.org/api/records/17500407/draft",
+        "access_links": "https://zenodo.org/api/records/17500407/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500407/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500407/access/users",
+        "access_request": "https://zenodo.org/api/records/17500407/access/request",
+        "access": "https://zenodo.org/api/records/17500407/access",
+        "communities": "https://zenodo.org/api/records/17500407/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500407/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500407/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500407/requests"
+      },
+      "updated": "2025-11-01T08:37:27.701270+00:00",
+      "recid": "17500407",
+      "revision": 5,
+      "files": [
+        {
+          "id": "5522e05f-ff0c-4048-872d-0baa2cd44c45",
+          "key": "oo_1454458.txt",
+          "size": 8348,
+          "checksum": "md5:44035cded43fea29545dfeeb1f8b5957",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500407/files/oo_1454458.txt/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:37:24.006240+00:00",
+      "modified": "2025-11-01T08:37:24.380095+00:00",
+      "id": 17500405,
+      "conceptrecid": "17500404",
+      "doi": "10.3897/zookeys.1257.163020.suppl2",
+      "doi_url": "https://doi.org/10.3897/zookeys.1257.163020.suppl2",
+      "metadata": {
+        "title": "Supplementary material 2 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+        "doi": "10.3897/zookeys.1257.163020.suppl2",
+        "publication_date": "2025-10-30",
+        "description": "COI sequences",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Neo, Ivan",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Loh, Rebecca Ker",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Cho, Tricia J. Y.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Puniamoorthy, Nalini",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Yeo, Darren C. J.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Tan, Ming Kai",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "keywords": [
+          "COI",
+          "molecular analysis",
+          "objective clustering",
+          "phylogenetics",
+          "pygmy grasshoppers",
+          "12S"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/zookeys.1257.163020",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://zenodo.org/record/17500164",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-zero"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500404"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Supplementary material 2 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500405",
+        "self_html": "https://zenodo.org/records/17500405",
+        "preview_html": "https://zenodo.org/records/17500405?preview=1",
+        "doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl2",
+        "self_doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl2",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/zookeys.1257.163020.suppl2",
+        "reserve_doi": "https://zenodo.org/api/records/17500405/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500404",
+        "parent_html": "https://zenodo.org/records/17500404",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500405/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500405/sequence/default",
+        "files": "https://zenodo.org/api/records/17500405/files",
+        "media_files": "https://zenodo.org/api/records/17500405/media-files",
+        "archive": "https://zenodo.org/api/records/17500405/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500405/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500405/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500405/latest",
+        "versions": "https://zenodo.org/api/records/17500405/versions",
+        "draft": "https://zenodo.org/api/records/17500405/draft",
+        "access_links": "https://zenodo.org/api/records/17500405/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500405/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500405/access/users",
+        "access_request": "https://zenodo.org/api/records/17500405/access/request",
+        "access": "https://zenodo.org/api/records/17500405/access",
+        "communities": "https://zenodo.org/api/records/17500405/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500405/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500405/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500405/requests"
+      },
+      "updated": "2025-11-01T08:37:24.380095+00:00",
+      "recid": "17500405",
+      "revision": 5,
+      "files": [
+        {
+          "id": "e2feca7a-71d8-403d-a5bf-7a516fe5d336",
+          "key": "oo_1454457.txt",
+          "size": 4270,
+          "checksum": "md5:ad939988e62e2b1ecc7c9332db4eddfb",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500405/files/oo_1454457.txt/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:37:21.196589+00:00",
+      "modified": "2025-11-01T08:37:21.550784+00:00",
+      "id": 17500403,
+      "conceptrecid": "17500402",
+      "doi": "10.3897/zookeys.1257.163020.suppl1",
+      "doi_url": "https://doi.org/10.3897/zookeys.1257.163020.suppl1",
+      "metadata": {
+        "title": "Supplementary material 1 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+        "doi": "10.3897/zookeys.1257.163020.suppl1",
+        "publication_date": "2025-10-30",
+        "description": "Material examined",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Neo, Ivan",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Loh, Rebecca Ker",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Cho, Tricia J. Y.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Puniamoorthy, Nalini",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Yeo, Darren C. J.",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          },
+          {
+            "name": "Tan, Ming Kai",
+            "affiliation": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "keywords": [
+          "COI",
+          "molecular analysis",
+          "objective clustering",
+          "phylogenetics",
+          "pygmy grasshoppers",
+          "12S"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/zookeys.1257.163020",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://zenodo.org/record/17500164",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-zero"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500402"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Supplementary material 1 from: Neo I, Loh RK, Cho TJY, Puniamoorthy N, Yeo DCJ, Tan MK (2025) First DNA barcodes and morphometric analysis of Singaporean Tetrigidae (Orthoptera, Caelifera) support color variations as intraspecific polymorphism through integrative taxonomy. ZooKeys 1257: 305-326. https://doi.org/10.3897/zookeys.1257.163020",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500403",
+        "self_html": "https://zenodo.org/records/17500403",
+        "preview_html": "https://zenodo.org/records/17500403?preview=1",
+        "doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl1",
+        "self_doi": "https://doi.org/10.3897/zookeys.1257.163020.suppl1",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/zookeys.1257.163020.suppl1",
+        "reserve_doi": "https://zenodo.org/api/records/17500403/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500402",
+        "parent_html": "https://zenodo.org/records/17500402",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500403/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500403/sequence/default",
+        "files": "https://zenodo.org/api/records/17500403/files",
+        "media_files": "https://zenodo.org/api/records/17500403/media-files",
+        "archive": "https://zenodo.org/api/records/17500403/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500403/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500403/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500403/latest",
+        "versions": "https://zenodo.org/api/records/17500403/versions",
+        "draft": "https://zenodo.org/api/records/17500403/draft",
+        "access_links": "https://zenodo.org/api/records/17500403/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500403/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500403/access/users",
+        "access_request": "https://zenodo.org/api/records/17500403/access/request",
+        "access": "https://zenodo.org/api/records/17500403/access",
+        "communities": "https://zenodo.org/api/records/17500403/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500403/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500403/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500403/requests"
+      },
+      "updated": "2025-11-01T08:37:21.550784+00:00",
+      "recid": "17500403",
+      "revision": 5,
+      "files": [
+        {
+          "id": "c80cdae4-5581-414c-ac8d-836764231773",
+          "key": "oo_1454456.xlsx",
+          "size": 42811,
+          "checksum": "md5:45d0a239fe766611d3147fad3265169c",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500403/files/oo_1454456.xlsx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:31:17.606670+00:00",
+      "modified": "2025-11-01T08:31:17.919815+00:00",
+      "id": 17500180,
+      "conceptrecid": "17500179",
+      "doi": "10.5281/zenodo.17500180",
+      "conceptdoi": "10.5281/zenodo.17500179",
+      "doi_url": "https://doi.org/10.5281/zenodo.17500180",
+      "metadata": {
+        "title": "Globalization and Organized Transborder Crimes: A Trending Analysis in West Africa",
+        "doi": "10.5281/zenodo.17500180",
+        "publication_date": "2025-11-01",
+        "description": "<p>Globalization, while fostering economic interdependence, technological advancement, and mobility across borders, has also facilitated the proliferation of transborder crimes in West Africa. This study examines the nexus between globalization and the surge of cross-border criminal activities in the region, including drug trafficking, human trafficking, arms smuggling, money laundering, cybercrime, and irregular migration. Drawing on empirical data from regional security reports, UNODC assessments, and ECOWAS monitoring frameworks, the paper analyzes how porous borders, weak institutional capacity, governance deficits, and socioeconomic inequalities interact with global networks of organized crime. The findings reveal that transnational criminal syndicates exploit advancements in transportation, communication, and trade liberalization to expand illicit markets and evade detection. Moreover, the convergence of globalization and local structural vulnerabilities has deepened security and developmental challenges, undermining state authority and regional stability. The study argues for a multidimensional response anchored in regional cooperation, intelligence sharing, harmonized legal frameworks, and strengthened law enforcement institutions. It concludes that addressing the globalization&ndash;crime nexus requires not only robust security mechanisms but also inclusive governance and socioeconomic reforms that tackle the root causes of vulnerability across West Africa.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Solomon Ayegba Usman, PhD",
+            "affiliation": "Department of Political Science, University of The Gambia, Faraba Banta Campus, The Gambia"
+          },
+          {
+            "name": "Saheed Ayinla Ogundare, PhD",
+            "affiliation": "Department of Political Science, Obafemi Awolowo university, Ile-Ife, Nigeria"
+          },
+          {
+            "name": "Ousman Mamakeh Bojang, PhD",
+            "affiliation": "Directorate of Planning and Quality Assurance (Kanifing Campus), and Department of History, University of The Gambia (Faraba Banta Campus), The Gambia"
+          },
+          {
+            "name": "Amadou B. Jobarteh",
+            "affiliation": "Department of Political Science, University of The Gambia, Faraba Banta Campus, The Gambia"
+          }
+        ],
+        "keywords": [
+          "Globalization, organized transborder crimes, West Africa, security, regional governance"
+        ],
+        "language": "ang",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "10",
+          "pages": "2048-2058",
+          "title": "INTERNATIONAL JOURNAL OF SOCIAL SCIENCE HUMANITY & MANAGEMENT RESEARCH",
+          "volume": "04"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500179"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Globalization and Organized Transborder Crimes: A Trending Analysis in West Africa",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500180",
+        "self_html": "https://zenodo.org/records/17500180",
+        "preview_html": "https://zenodo.org/records/17500180?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17500180",
+        "self_doi": "https://doi.org/10.5281/zenodo.17500180",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500180",
+        "reserve_doi": "https://zenodo.org/api/records/17500180/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500179",
+        "parent_html": "https://zenodo.org/records/17500179",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17500179",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500179",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500180/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500180/sequence/default",
+        "files": "https://zenodo.org/api/records/17500180/files",
+        "media_files": "https://zenodo.org/api/records/17500180/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17500180:24.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17500180:24.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17500180:24.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17500180:24.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17500180:24.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17500180:24.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17500180/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500180/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500180/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500180/latest",
+        "versions": "https://zenodo.org/api/records/17500180/versions",
+        "draft": "https://zenodo.org/api/records/17500180/draft",
+        "access_links": "https://zenodo.org/api/records/17500180/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500180/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500180/access/users",
+        "access_request": "https://zenodo.org/api/records/17500180/access/request",
+        "access": "https://zenodo.org/api/records/17500180/access",
+        "communities": "https://zenodo.org/api/records/17500180/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500180/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500180/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500180/requests"
+      },
+      "updated": "2025-11-01T08:31:17.919815+00:00",
+      "recid": "17500180",
+      "revision": 4,
+      "files": [
+        {
+          "id": "ac66a723-bc3a-4f59-a54f-ae566267e454",
+          "key": "24.pdf",
+          "size": 240488,
+          "checksum": "md5:c7634259ae0cb206f75f890463a90a7e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500180/files/24.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "409494"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:31:01.601655+00:00",
+      "modified": "2025-11-01T08:31:02.459586+00:00",
+      "id": 17500174,
+      "conceptrecid": "17500173",
+      "doi": "10.3897/zookeys.1257.120512",
+      "doi_url": "https://doi.org/10.3897/zookeys.1257.120512",
+      "metadata": {
+        "title": "Types matter: taxonomic status of Chanodichthys oxycephalus (Bleeker, 1871) (Cypriniformes, Xenocyprididae) and some relevant species of East Asia",
+        "doi": "10.3897/zookeys.1257.120512",
+        "publication_date": "2025-10-30",
+        "description": "<p>Issues concerning the identification of <i>Chanodichthys oxycephalus</i> are addressed. This species is a senior synonym of <i>Ch. oxycephaloides</i> and is restricted to the Chang-Jiang basin and adjacent lakes. Specimens previously identified as <i>Ch. oxycephalus</i>, represent misidentifications of either <i>Ch. abramoides</i> or <i>Ch. dabryi</i>. <i>Chanodichthys oxycephalus</i>, <i>Ch. abramoides</i>, and <i>Ch. dabryi</i> are confirmed as three distinct species. <i>Chanodichthys dabryi shinkainensis</i> is treated as a junior synonym of <i>Ch. abramoides</i>. Additional comments are provided on some cultrin fishes from Lakes Dongting and Xingkai mentioned in earlier literature. This study clears up the taxonomic confusion surrounding associated species.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Chen, Xiao",
+            "affiliation": "Institute of Hydrobiology, Chinese Academy of Sciences, Wuhan, China|Anhui Agricultural University, Hefei, China"
+          },
+          {
+            "name": "Su, Shiping",
+            "affiliation": "Anhui Agricultural University, Hefei, China"
+          },
+          {
+            "name": "Zhang, Xiaohua",
+            "affiliation": "Anhui Agricultural University, Hefei, China"
+          },
+          {
+            "name": "Van der Laan, Richard",
+            "affiliation": "Unaffiliated, Almere, Netherlands"
+          },
+          {
+            "name": "Zhang, E",
+            "affiliation": "Institute of Hydrobiology, Chinese Academy of Sciences, Wuhan, China"
+          }
+        ],
+        "keywords": [
+          "Cultrin fishes",
+          "nomenclature",
+          "species recognition",
+          "taxonomic chaos"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/zookeys.1257.120512.figure4",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/zookeys.1257.120512.figure5",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/zookeys.1257.120512.figure6",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/zookeys.1257.120512.figure2",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/zookeys.1257.120512.figure3",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/zookeys.1257.120512.figure1",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.34133/2022/9827986",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/mec.16540",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/zookeys.1108.79960",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.watbs.2022.100036",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1134/S0032945223040045",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1017/S0026749X00010167",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/bhl.part.12852",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3724/issn1000-3207-1994-1-45-d",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3724/issn1000-3207-1996-2-182-5",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2307/1437984",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/bhl.title.12103",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3724/issn1000-3207-2009-2-271-o",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/bhl.title.59530",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.11646/zootaxa.3681.2.1",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1134/S102279541904015X",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ympev.2006.06.014",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/p.314503",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.17520/biods.2021166",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3109/19401736.2014.915529",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-90-481-3458-8_27",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "B\u0103n\u0103rescu P (1967a) Notes on the genus Erythroculter Berg (Pisces, Cyprinidae), with description of a new subspecies. Revue Roumaine de Biologie Serie de Zoologie 12(4): 215\u2013227.",
+          "B\u0103n\u0103rescu P (1967b) Studies on the systematics of Cultrinae (Pisces, Cyprinidae) with description of a new genus. Revue Roumaine de Biologie Serie de Zoologie 12(5): 297\u2013308.",
+          "B\u0103n\u0103rescu P (1972) The status of some nominal species of Cultrinae and Xenocyprininae (Pisces, Cyprinidae). Revue Roumaine de Biologie Serie de Zoologie 17(6): 385\u2013390.",
+          "Bleeker P (1870) Mededeeling omtrent eenige nieuwe vischsoorten van China. Verslagen en Mededeelingen der Koninklijke Akademie van Wetenschappen. Afdeeling Natuurkunde, Series 2(4): 251\u2013253.",
+          "Bleeker P (1871a) Memoire sur les cyprino\u00efdes de Chine. Verhandelingen der Koninklijke Akademie van Amsterdam 12: 1\u201391[, pls 1\u201314].",
+          "Bleeker P (1871b) Sur les esp\u00e8ces du genre Culter Basil. Nederlandsch Tijdschrift voor de Dierkunde 4: 77\u201388.",
+          "Bleeker P (1873) Faune ichthyologique de Chine. Nederlandsch Tijdschrift voor de Dierkunde 4: 113\u2013154.",
+          "Bogutskaya NG, Naseka AM (1996) Cyclostomata and Fishes of Khanka Lake drainage area (Amur River Basin): an Annotated Check-list with Comments on Taxonomy and Zoogeography of the Region. GosNIORKh and Zin Ran. St. Petersburg, 89 pp. [In Russian]",
+          "Bogutskaya NG, Naseka AM (2004) Catalogue of Agnathans and Fishes of Fresh and Brackish Waters of Russia with Comments on Nomenclature and Taxonomy. Russian Academy of Sciences, KMK Scientific Press, Moscow, 389 pp. [In Russian]",
+          "Bogutskaya NG, Naseka AM, Shedko SV, Vasil'eva ED, Chereshnev IA (2008) The fishes of the Amur River: Updated check-list and zoogeography. Ichthyological Exploration of Freshwaters 19(4): 301\u2013366. http://www.pfeil-verlag.de/wp-content/uploads/2015/05/ief19_4_03.pdf",
+          "Chen WJ, Fu HY (2024) Fish of Jiangxi Province. Science Press, Beijing, 339 pp. [In Chinese]",
+          "Chen YY, Chu XL, Luo YL, Chen YR, Liu HZ, He MJ, Chen W, Yue PQ, He SP, Lin RD (1998) Fauna Sinica: Osteichthyes Cypriniformes II. Science Press, Beijing, 531 pp. [In Chinese]",
+          "Chen F, Wang YK, He J, Chen L, Xue G, Zhao Y, Peng YH, Smith C, Zhang J, Chen J, Xie P (2022) Molecular mechanisms of spawning habits for the adaptive radiation of endemic East Asian cyprinid fishes. Research 9827986: 2022/9827986. https://doi.org/10.34133/2022/9827986",
+          "Chen WT, Hubert N, Li YF, Xiang DG, Cai XW, Zhu SL, Yang JP, Zhou CJ, Li XH, Li J (2022a) Large scale DNA barcoding of the subfamily Culterinae (Cypriniformes: Xenocyprididae) in East Asia unveils geographic scale effect, taxonomic warnings and cryptic diversity. Molecular Ecology 31(14): 3871\u20133887. https://doi.org/10.1111/mec.16540",
+          "Chen X, Li ZF, Boda P, Fernandes IM, Xie ZC, Zhang E (2022b) Environmental filtering in the dry season and spatial structuring in the wet: Different fish community assembly rules revealed in a large subtropical floodplain lake. Environmental Science and Pollution Research International 29(46): 69875\u201369887.",
+          "Chen X, Wang M, Zhang E (2022c) Updated species checklist of fishes from Lake Dongting in Hunan Province, South China: Species diversity and conservation. ZooKeys 1108: 51\u201388. https://doi.org/10.3897/zookeys.1108.79960",
+          "Cheng PL, Yu D, Tang QY, Yang JQ, Chen YY, Liu HZ (2022) Macro-evolutionary patterns of East Asian opsariichthyin\u2013xenocyprinin\u2013cultrin fishes related to the formation of river and river-lake environments under monsoon climate. Water Biology and Security 1(2): 100036. https://doi.org/10.1016/j.watbs.2022.100036",
+          "Compilation Group XNC (1984) Fish of Henan Province. Henan Science and Technology Press, Zhengzhou, 193 pp. [In Chinese]",
+          "Duan P-X, Yang Z, Tang H-Y, Xiao Q, Gong Y, Xiao TY, Liu X-Y (2015) Study on age, growth, reproduction and the status of resource development of Culter oxycephaloides (Kreyenberg et Pappenheim) in the Xiao River. Acta Hydrobiologica Sinica 39(04): 695\u2013704. https://link.cnki.net/urlid/42.1230.Q.20150727.1424.016 [In Chinese]",
+          "Dybowski B (1872) Zur Kenntniss der Fischfauna des Amurgebietes. Verhandlungen der Kaiserlich-K\u00f6niglichen Zoologisch-Botanischen Gesellschaft in Wien 22: 209\u2013222.",
+          "Dyldin Y, Orlov A, Hanel L, Romanov V, Fricke R, Vasil'eva E (2023) Ichthyofauna of the fresh and brackish waters of Russia and adjacent areas: Annotated list with taxonomic comments. 2. Order Cypriniformes, Suborders Catostomoidei, Cobitoidei and Cyprinoidei. Journal of Ichthyology 63(4): 636\u2013686. https://doi.org/10.1134/S0032945223040045",
+          "Fricke R, Eschmeyer WN, Van der Laan R (2025) Eschmeyer's catalog of fishes: genera, species, references. http://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp [Accessed 13 January 2025]",
+          "Guo YS, Sun ZY, He XH, Jin W, Chen YL (2021) Colored Atlas of Fishes of Sichuan (I). Science Press, Beijing, 1012 pp. [In Chinese]",
+          "ICZN (1999) International Code of Zoological Nomenclature. Fourth Edition. The International Trust for Zoological Nomenclature, London, 306 pp. https://www.iczn.org/the-code/the-international-code-of-zoological-nomenclature/the-code-online/",
+          "Institute SFR and Department of Biology SNU (1992) Fish of Shaanxi Province. Shaanxi Science and Technology Press, Xi'an, 192 pp. [In Chinese]",
+          "Israeli R (1989) Consul de France in Mid-nineteenth-century China. Modern Asian Studies, 33 pp. https://doi.org/10.1017/S0026749X00010167",
+          "Kottelat M (2001) Fishes of Laos. Wildlife Heritage Trust Publications, Colombo.",
+          "Kottelat M (2013) The fishes of the inland waters of Southeast Asia: A catalogue and core bibliography of the fishes known to occur in freshwaters, mangroves and estuaries. The Raffles Bulletin of Zoology. Supplement 27: 1\u2013663.",
+          "Kreyenberg M, Pappenheim P (1908) Ein Beitrag zur Kenntnis der Fische der Jangtze und seiner Zufl\u00fcsse. Sitzungsberichte der Gesellschaft Naturforschender Freunde zu Berlin 1908: 95\u2013109. https://doi.org/10.5962/bhl.part.12852",
+          "Li SZ (1992) On the scientific names of Culter alburnus & C. erythropterus (Pisces: Cyprinidae). Acta Zootaxonomica Sinica 17(3): 128\u2013131. [In Chinese]",
+          "Luo YL (1994) Some clarifications on the Cultrinae fishes of China. Acta Hydrobiologica Sinica 18(1): 45\u201349. https://doi.org/10.3724/issn1000-3207-1994-1-45-d [In Chinese]",
+          "Luo GH (2005) History of Western Botanical and Zoological Studies in China. Shandong Education Press, Jinan, 444 pp. [In Chinese]",
+          "Luo YL, Chen YR (1998) Fauna Sinica: Osteichthyes Cypriniformes II Cultrinae. Science Press, Beijing, 112 pp. https://doi.org/10.3724/issn1000-3207-1996-2-182-5 [In Chinese]",
+          "Luo YL, Yue PQ (1996) Preliminary studies on phylogeny of subfamily Cultrinae (Cypriniformes: Cyprinidae). Acta Hydrobiologica Sinica 20(2): 182\u2013185. [In Chinese]",
+          "Myer GS (1940) The nomenclatural status of the Asiatic fish genus Culter. Copeia 1940(3): 199\u2013201. https://doi.org/10.2307/1437984",
+          "Nichols JT (1928) Chinese fresh-water fishes in the American Museum of Natural History's collections: A provisional check-list of the fresh-water fishes of China. Bulletin of the American Museum of Natural History 58(64): 1\u201362.",
+          "Nichols JT (1943) The Fresh-water Fishes of China. The American Museum of Natural History, New York, 388 pp. https://doi.org/10.5962/bhl.title.12103",
+          "Pan JH, Zhong L, Zheng CY, Wu HL, Liu JZ (1991) The Freshwater Fishes of Guangdong Province. Guangdong Technology Press, Guangzhou, 593 pp. [In Chinese]",
+          "Peng J-L, Wang X-Z, Wang D, He S-P (2009) Application of DNA barcoding based on the Mitochondrial COI gene sequences in classification of Culter (Pisces: Cyprinidae). Acta Hydrobiologica Sinica 33(2): 271\u2013276. https://doi.org/10.3724/issn1000-3207-2009-2-271-o [In Chinese]",
+          "Richardson J (1846) Report on the Ichthyology of the Seas of China and Japan. R. and J.E. Taylor, London, 153 pp. https://doi.org/10.5962/bhl.title.59530",
+          "Tang KL, Agnew MK, Hirt MV, Lumbantobing DN, Raley ME, Sado T, Teoh VH, Yang L, Bart HL, Harris PM, He S, Miya M, Saitoh K, Simons AM, Wood RM, Mayden RL (2013) Limits and phylogenetic relationships of East Asian fishes in the subfamily Oxygastrinae (Teleostei: Cypriniformes: Cyprinidae). Zootaxa 3681(2): 101\u2013135. https://doi.org/10.11646/zootaxa.3681.2.1",
+          "Turanov SV, Kartavtsev YP, Shapovalov ME (2019) The first attempt at studying the species diversity of fish in Lake Khanka using DNA barcoding techniques. Russian Journal of Genetics 55(4): 464\u2013472. https://doi.org/10.1134/S102279541904015X",
+          "Van der Laan R (2025) Freshwater Fish List (44th Edition.)",
+          "Wang W (2007) Study on Population Genetic Diversity of Culter alburnus and Phylogeny of Cultrinae, East China Normal University, Shanghai, 156 pp. [In Chinese]",
+          "Wang Q (2022) Nanjing Common Aquatic Wildlife Identification Manual, Nanjing University Press, Nanjing, 210 pp. [In Chinese]",
+          "Wang XZ, Li JB, He SP (2007) Molecular evidence for the monophyly of East Asian groups of Cyprinidae (Teleostei: Cypriniformes) derived from the nuclear recombination activating gene 2 sequences. Molecular Phylogenetics and Evolution 42(1): 157\u2013170. https://doi.org/10.1016/j.ympev.2006.06.014",
+          "Wang Y-L, He Y-F, Zhu Y-J, Wang X-G, Yang D-G (2017) Study on the Growth Characteristics and Resource Status of Humpback (Culter dabryi) in Lake Changhu. Chinese Journal of Zoology 52(6): 1015\u20131022. [In Chinese]",
+          "Wang L-H, Luo X-Z, Wang D, Li W, Li Z, Zou G-W, Liang H-W (2019) Identification analysis of DNA barcoding based on mitochondrial COI and Cytb genes in Culter fishes. Freshwater Fisheries 49(4): 22\u201328. [In Chinese]",
+          "Whitehead PJ (1970) The Reeves collection of Chinese fish drawings. Bulletin of the British Museum (Natural History). Historical Series 3(7): 191\u2013233. https://doi.org/10.5962/p.314503",
+          "Wu XW (1964) Chinese fishes of Cyprinidae (I). Science & Technology Press, Shanghai, 315 pp. [In Chinese]",
+          "Wu L (1989) Fish of Guizhou Province. Guizhou People Press, Guiyang, 346 pp. [In Chinese]",
+          "Wu YA, Li H, Liao FC, Yang X, Xie ZG (2021) The Fish Fauna of Hunan Province. Science Press, Beijing, 488 pp. [In Chinese]",
+          "Xiang DG, Li YF, Li XH, Chen WT, Ma XH (2021) Population structure and genetic diversity of Culter recurviceps revealed by multi-loci. Biodiversity Science 29(11): 1505\u20131512. https://doi.org/10.17520/biods.2021166 [In Chinese]",
+          "Xie ZG, Xie CX, Zhang E (2003) Sinibrama longianalis, a new cyprinid species (Pisces: Teleostei) from the upper Yangtze River basin in Guizhou, China. The Raffles Bulletin of Zoology 51(2): 403\u2013411.",
+          "Yang GR (1987) Fishes in Hubei Province. Hubei Science and Technology Press, Wuhan, 299 pp. [In Chinese]",
+          "Yang HR, Zhao HH, Sun JJ, Xie ZZ, Yang ZT, Liu L (2016) The complete mitochondrial genome of the Culter recurviceps (Teleostei, Cyprinidae). Mitochondrial DNA, Part A, DNA Mapping, Sequencing, and Analysis 27(1): 762\u2013763. https://doi.org/10.3109/19401736.2014.915529",
+          "Yao WQ (2010) Systematic Synopsis of Fishes in Anhui Province. Beijing Normal University Press and Anhui University Press, Hefei, 165 pp. [In Chinese]",
+          "Yih BL, Chu ZR (1959) Review of the genera Culter and Erythroculter of China. Acta Hydrobiologica Sinica 3(2): 170\u2013196. [In Chinese]",
+          "Zhang CG, Zhao YH (2016) Species Diversity and Distribution of Inland Fishes in China. Science Press, Beijing, 296 pp. [In Chinese]",
+          "Zhang X-G, Zhang H, Xiong B-X (2008) Subspecies validity for genus Culter (Teleostei: Cyprinidae) based on morphometrics analysis. Environmental Biology of Fishes a Fishes 2009(86): 193\u2013201. https://doi.org/10.1007/978-90-481-3458-8_27",
+          "Zhao WG (2022) Handbook of Fish Identification in the Heilong-Jiang Basin (China). Science Press, Beijing, 314 pp. [In Chinese]"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "",
+          "pages": "285-303",
+          "title": "ZooKeys",
+          "volume": "1257"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500173"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Types matter: taxonomic status of Chanodichthys oxycephalus (Bleeker, 1871) (Cypriniformes, Xenocyprididae) and some relevant species of East Asia",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500174",
+        "self_html": "https://zenodo.org/records/17500174",
+        "preview_html": "https://zenodo.org/records/17500174?preview=1",
+        "doi": "https://doi.org/10.3897/zookeys.1257.120512",
+        "self_doi": "https://doi.org/10.3897/zookeys.1257.120512",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/zookeys.1257.120512",
+        "reserve_doi": "https://zenodo.org/api/records/17500174/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500173",
+        "parent_html": "https://zenodo.org/records/17500173",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500174/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500174/sequence/default",
+        "files": "https://zenodo.org/api/records/17500174/files",
+        "media_files": "https://zenodo.org/api/records/17500174/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17500174:ZK_article_120512.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17500174:ZK_article_120512.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17500174:ZK_article_120512.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17500174:ZK_article_120512.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17500174:ZK_article_120512.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17500174:ZK_article_120512.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17500174/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500174/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500174/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500174/latest",
+        "versions": "https://zenodo.org/api/records/17500174/versions",
+        "draft": "https://zenodo.org/api/records/17500174/draft",
+        "access_links": "https://zenodo.org/api/records/17500174/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500174/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500174/access/users",
+        "access_request": "https://zenodo.org/api/records/17500174/access/request",
+        "access": "https://zenodo.org/api/records/17500174/access",
+        "communities": "https://zenodo.org/api/records/17500174/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500174/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500174/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500174/requests"
+      },
+      "updated": "2025-11-01T08:31:02.459586+00:00",
+      "recid": "17500174",
+      "revision": 5,
+      "files": [
+        {
+          "id": "5f6a341f-e900-45bf-974d-353ac668fda4",
+          "key": "ZK_article_120512.pdf",
+          "size": 6875288,
+          "checksum": "md5:ee5a20ff1e2477c71dfea10939eb5370",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500174/files/ZK_article_120512.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:27:02.607354+00:00",
+      "modified": "2025-11-01T08:27:02.834359+00:00",
+      "id": 17500133,
+      "conceptrecid": "17500132",
+      "doi": "10.5281/zenodo.17500133",
+      "conceptdoi": "10.5281/zenodo.17500132",
+      "doi_url": "https://doi.org/10.5281/zenodo.17500133",
+      "metadata": {
+        "title": "Reimagining Justice through Restorative and Rehabilitative Approaches: A Supplement to the Adversarial Criminal Litigation in India",
+        "doi": "10.5281/zenodo.17500133",
+        "publication_date": "2025-11-07",
+        "description": "<p><span lang=\"EN-US\">The concept of justice within the criminal justice system has evolved significantly from punitive and retributive models to more inclusive, restorative, and victim-centered approaches. The introductory part of the paper discusses \"Justice\" as a broader concept and a means of providing holistic and meaningful resolutions that satisfy the victim and offender and fulfil the larger goals of the community. This paper explores the multifaceted Dimensions of Justice under the Criminal Justice System, with a special focus on how modern criminology addresses the complex needs of both victims and offenders. The author has relied on the works of various scholars like Howard Zehr, Conrad Brunk, and John Braithwaite, among others, to understand how restorative Justice can supplement traditional retributive practices.</span><span lang=\"EN-US\">Part II of the Paper adopts a doctrinal method for studying the efficacy of Restorative Justice programs across the globe and their impact on the more extensive system by looking at the victim support strategies developed within and beyond the criminal justice system.&nbsp;</span><span lang=\"EN-US\">Part III of the Paper studies the current application of restorative principles in the Indian context. The author has explored areas wherein principles of Restorative Justice can be applied in dealing with specific interpersonal crimes in India. By emphasizing the experiences of victims and the potential for offender reform, restorative justice redefines the purpose of the criminal justice system&mdash;not as a mechanism of revenge but as a facilitator of social harmony and reconciliation. Victimology, trauma-informed practices, and community-based justice models are integral in this shift, offering more humane and empathetic responses to crime. This paper argues that a truly just system must balance legal procedures with emotional and social restoration. The evolution of criminology demonstrates an increasing awareness that justice must go beyond legal formalism to embrace dignity, respect, and the human condition. Through doctrinal and socio-legal analysis, the study highlights the urgent need for embedding humane justice as a core value within criminal jurisprudence.</span></p>\n<p><span lang=\"EN-US\">Lastly, the Paper concludes by putting across recommendations and future directions as to the necessary caution in applying restorative justice principles and focusing on developing a legal framework to address the myriad challenges posed by crimes</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Champaklal, Modi Umangkumar",
+            "affiliation": "Assistant Professor, Faculty of Law, The Maharaja Sayajirao University of Baroda"
+          }
+        ],
+        "keywords": [
+          "Restorative Justice, Victim-Centered Justice, Modern Criminology, Humane Justice, Criminal Justice System"
+        ],
+        "references": [
+          "Ahmed, S. (2022). Traditional conflict resolution mechanisms: A study of Salish in rural  Bangladesh. Asian Journal of Peacebuilding, 10(2), 113\u2013129.  Bharatiya Nyaya Sanhita, 2023, \u00a7\u00a7 395\u2013396 (India). Bhartiya Nagarik Suraksha Sanhita, 2023, \u00a7 359(1), 359(2) (India). Council of Europe. (1985). Recommendation No. R(85)11 on the position of victims in criminal law and procedural law. Adopted 28 June 1985.  Council of Europe. (1998). Recommendation No. R(98)1 on family mediation. Adopted 21 January 1998. Daly, K. (2015). What is restorative justice? Fresh answers to a vexed question. Victims & Offenders, 11(1), 9\u201329. https://doi.org/10.1080/15564886.2015.1107797 Dandurand, Y., Griffiths, C. T., Corrado, R. R., & Chin, V. (2006). Handbook on restorative justice programmes. United Nations. Gautam, U. (n.d.). Access to justice through plea bargaining as an alternative model to traditional criminal trial in India: A case study of select Indian states. Department of Justice, Government of India. In Re Alarming Rise in Number of Reported Child Rape Incidents, (2020) 7 SCC 87 (India). Initiatives of Change. (2020). Sri Lanka: Rebuilding trust through reconciliation. https://www.iofc.org/en/stories/sri-lanka-rebuilding-trust-through-reconciliation Jain, C. (2016). Compoundability of offences: Tracing the shift in the priorities of criminal justice. SCC Online. http://www.scconline.com Khan, S. A. (2017). Plea bargaining in India: A tool to provide restorative justice? In R. Thilagaraj & J. Liu (Eds.), Restorative justice in India: Traditional practice and contemporary applications (pp. 129\u2013141). Springer. https://doi.org/10.1007/978-3-319-47659-9_8 Laxmi v. Union of India, (2016) 3 SCC 669 (India). Ministry of Women and Child Development. (2023). Nari Adalat \u2013 Mission Shakti. https://wcd.gov.in/women/nari-adalat Mirsky, L. (n.d.). Albert Eglash and creative restitution: A precursor to restorative practices. International Institute for Restorative Practices. https://www.iirp.edu/news/albert-eglash-and-creative-restitution-a-precursor-to-restorative-practices Parivartan Kendra v. Union of India, (2016) 3 SCC 571 (India). Rochaeti, N., Safitri, M. Y., & Wahyuningsih, T. D. (2023). A restorative justice system in Indonesia: A close view from the indigenous peoples' practices. Sriwijaya Law Review, 7(1), 1\u201316. https://doi.org/10.28946/slrev.Vol7.Iss1.1672.pp1-16 Singapore Prison Service. (2021). Captains of Lives and the Yellow Ribbon Project. https://www.yellowribbon.gov.sg/ Sukendar, S., Ismawati, R., & Hikmah, N. (2023). Women's access to justice: Mediation for the victims of domestic violence in Central Java, Indonesia. Samarah: Jurnal Hukum Keluarga dan Hukum Islam, 7(1), 183\u2013206. https://doi.org/10.22373/sjhk.v7i1.13931 The Code of Criminal Procedure, 1973, \u00a7\u00a7 357, 357(1), 357(2), 357(3), 357A, 358, 359, & 250 (India). The Mediation Act, 2023, \u00a7 6 (India). The Print. (2024, May). Why HC ordered teen's release in Pune Porsche case: 'Must receive same treatment regardless of crime'. https://theprint.in/judiciary/why-hc-ordered-teens-release-in-pune-porsche-case-must-receive-same-treatment-regardless-of-crime/2148016/ United Nations Economic and Social Council (UN ECOSOC). (2000). Resolution 2000/14. https://www.unodc.org/pdf/criminal_justice/Basic%20Principles/2000_14.pdf United Nations Economic and Social Council (UN ECOSOC). (2002). Basic principles on the use of restorative justice programmes in criminal matters (Resolution 2002/12). https://www.unodc.org/pdf/criminal_justice/Basic%20Principles/2002_12.pdf United Nations Economic and Social Council (UN ECOSOC). (2016). Resolution E/RES/2016/17: Restorative justice in criminal matters. https://www.un.org/ecosoc/sites/www.un.org.ecosoc/files/documents/2022/ecosoc-resolution-2016-17.pdf United Nations Office on Drugs and Crime (UNODC). (2006). Handbook on restorative justice programmes. https://www.unodc.org/pdf/criminal_justice/06-56290_Ebook.pdf United Nations. (1985). Declaration of basic principles of justice for victims of crime and abuse of power. https://www.un.org/ruleoflaw/blog/document/declaration-of-basic-principles-of-justice-for-victims-of-crime-and-abuse-of-power/ United Nations. (1997, July 21). Resolution 1997/33 on the role of criminal law in the protection of victims. United Nations. (1998, July 28). Resolution 1998/23 on restorative justice in criminal matters. United Nations. (1999). Development and implementation of mediation and restorative justice measures in criminal justice (Resolution 1999/26, 43rd plenary meeting, 28 July 1999). United Nations Economic and Social Council. United Nations. (1999, July 28). Resolution 1999/26: Development and implementation of mediation and restorative justice measures in criminal justice. 43rd Plenary Meeting.  Van Ness, D. W. (2005). An overview of restorative justice around the world. United Nations 11th Congress on Crime Prevention and Criminal Justice. Wallis, P. (2014). Understanding restorative justice: How empathy can close the gap created by crime. Policy Press.   Why HC ordered teen's release in Pune Porsche case: 'Must receive same treatment regardless of crime'. (n.d.). ThePrint. https://theprint.in/judiciary/why-hc-ordered-teens-release-in-pune-porsche-case-must-receive-same-treatment-regardless-of-crime/2148016/ WUNRN. (2011). India \u2013 Mahila Panchayats create justice for grassroots women. http://www.wunrn.org/news/2011/09_11/09_12/091211_india3.htm Zehr, H. (1998). Justice as restoration, Justice as respect. The Justice Professional, 11(1\u20132), 71\u201387. https://doi.org/10.1080/1478601X.1998.9959489 Zehr, H. (2015). The little book of restorative justice (Rev. & updated ed.). Good Books."
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "i (Winter) Issue",
+          "title": "Central University of Karnataka Journal of Legal Studies",
+          "volume": "1"
+        },
+        "imprint": {
+          "place": "Karnataka, India"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500132"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Reimagining Justice through Restorative and Rehabilitative Approaches: A Supplement to the Adversarial Criminal Litigation in India",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500133",
+        "self_html": "https://zenodo.org/records/17500133",
+        "preview_html": "https://zenodo.org/records/17500133?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17500133",
+        "self_doi": "https://doi.org/10.5281/zenodo.17500133",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500133",
+        "reserve_doi": "https://zenodo.org/api/records/17500133/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500132",
+        "parent_html": "https://zenodo.org/records/17500132",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17500132",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500132",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500133/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500133/sequence/default",
+        "files": "https://zenodo.org/api/records/17500133/files",
+        "media_files": "https://zenodo.org/api/records/17500133/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17500133:6.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17500133:6.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17500133:6.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17500133:6.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17500133:6.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17500133:6.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17500133/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500133/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500133/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500133/latest",
+        "versions": "https://zenodo.org/api/records/17500133/versions",
+        "draft": "https://zenodo.org/api/records/17500133/draft",
+        "access_links": "https://zenodo.org/api/records/17500133/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500133/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500133/access/users",
+        "access_request": "https://zenodo.org/api/records/17500133/access/request",
+        "access": "https://zenodo.org/api/records/17500133/access",
+        "communities": "https://zenodo.org/api/records/17500133/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500133/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500133/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500133/requests"
+      },
+      "updated": "2025-11-01T08:27:02.834359+00:00",
+      "recid": "17500133",
+      "revision": 4,
+      "files": [
+        {
+          "id": "51e56e00-2034-4954-bc1b-4ae4e0d65008",
+          "key": "6.pdf",
+          "size": 332888,
+          "checksum": "md5:bcd5bba4b29dff3d4f4fa61b0c348af2",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500133/files/6.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1449547"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-01T08:24:05.760025+00:00",
+      "modified": "2025-11-01T08:24:06.101304+00:00",
+      "id": 17500119,
+      "conceptrecid": "17500118",
+      "doi": "10.5281/zenodo.17500119",
+      "conceptdoi": "10.5281/zenodo.17500118",
+      "doi_url": "https://doi.org/10.5281/zenodo.17500119",
+      "metadata": {
+        "title": "Synthesis, Characterization and Antibacterial Activity of New N-Substituted 1,2,4- Triazole Derivatives",
+        "doi": "10.5281/zenodo.17500119",
+        "publication_date": "2025-07-28",
+        "description": "<p>The compound 2-amino-3,5-dibromobenzohydrazide was synthesized by dissolving equimolar proportions of methyl-2-amino-3,5-dibenzoate and hydrazine hydrate in water and refluxed for 6 hours. The above compound and carbon disulphide was dissolved in alcoholic potassium hydroxide and refluxed for 4 hours, then poured in to ice-cold water and obtained potassium 2-(2-amino-3,5-dibromobenzoyl) hydrazine-1-carbodithionate. The obtained product was further treated with different functional groups such as isoniazide, 2-amino-4,6-dibromo benozoic acid hydrazide, phenyl hydrazine and hydrazine hydrate in 5ml of water and refluxed for 5 to 6 hours until the evolution of H2S ceases. The reaction mixtures were poured into ice-cold water, acidified with dil HCl. The obtained product was filtered, dried and recrystallized by using hot water. The lead compounds were characterized by melting point, TLC, calculated elemental analysis, IR, 1HNMR, mass spectral studies. The compounds were tested for anthelmintic studies and showed significant activity at low and high concentration compared to standard drugs; still further studies are requested.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Pavitra, Anant Hedge",
+            "affiliation": "P. G. Department of Pharmaceutical Chemistry, S. J. M. College of Pharmacy, NH4-Bypass, SJMIT Campus, Chitradurga, Karnataka, India"
+          },
+          {
+            "name": "Akkamma, Hanumappa Godihal",
+            "affiliation": "P. G. Department of Pharmaceutical Chemistry, S. J. M. College of Pharmacy, NH4-Bypass, SJMIT Campus, Chitradurga, Karnataka, India"
+          },
+          {
+            "name": "Vijay Kumar Miralagatti, Mathada Jagatageri",
+            "affiliation": "P. G. Department of Pharmaceutical Chemistry, S. J. M. College of Pharmacy, NH4-Bypass, SJMIT Campus, Chitradurga, Karnataka, India"
+          },
+          {
+            "name": "Basavaraja, Harti Shivappa",
+            "affiliation": "P. G. Department of Pharmaceutical Chemistry, S. J. M. College of Pharmacy, NH4-Bypass, SJMIT Campus, Chitradurga, Karnataka, India"
+          }
+        ],
+        "keywords": [
+          "1,2,4-triazoles; Methyl-2-amino-3,5-dibenzoate; Hydrazine hydrate; 2-amino-3,5-dibromobenzohydrazide; Anthelmintic activity"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "2",
+          "pages": "676-682",
+          "title": "Der Pharma Chemica",
+          "volume": "17"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17500118"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Synthesis, Characterization and Antibacterial Activity of New N-Substituted 1,2,4- Triazole Derivatives",
+      "links": {
+        "self": "https://zenodo.org/api/records/17500119",
+        "self_html": "https://zenodo.org/records/17500119",
+        "preview_html": "https://zenodo.org/records/17500119?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17500119",
+        "self_doi": "https://doi.org/10.5281/zenodo.17500119",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500119",
+        "reserve_doi": "https://zenodo.org/api/records/17500119/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17500118",
+        "parent_html": "https://zenodo.org/records/17500118",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17500118",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500118",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500119/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500119/sequence/default",
+        "files": "https://zenodo.org/api/records/17500119/files",
+        "media_files": "https://zenodo.org/api/records/17500119/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17500119:synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17500119:synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17500119:synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17500119:synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17500119:synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17500119:synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17500119/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17500119/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17500119/versions/latest",
+        "latest_html": "https://zenodo.org/records/17500119/latest",
+        "versions": "https://zenodo.org/api/records/17500119/versions",
+        "draft": "https://zenodo.org/api/records/17500119/draft",
+        "access_links": "https://zenodo.org/api/records/17500119/access/links",
+        "access_grants": "https://zenodo.org/api/records/17500119/access/grants",
+        "access_users": "https://zenodo.org/api/records/17500119/access/users",
+        "access_request": "https://zenodo.org/api/records/17500119/access/request",
+        "access": "https://zenodo.org/api/records/17500119/access",
+        "communities": "https://zenodo.org/api/records/17500119/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17500119/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17500119/request-deletion",
+        "requests": "https://zenodo.org/api/records/17500119/requests"
+      },
+      "updated": "2025-11-01T08:24:06.101304+00:00",
+      "recid": "17500119",
+      "revision": 4,
+      "files": [
+        {
+          "id": "d4b8568e-9dea-4e14-82f1-f7b027fe8b35",
+          "key": "synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf",
+          "size": 427039,
+          "checksum": "md5:570248689511e9440e9b5ed86f5afede",
+          "links": {
+            "self": "https://zenodo.org/api/records/17500119/files/synthesis-characterization-and--anthelmintic-activity-of-new-nsubstituted-124triazole-derivatives.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1172773"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true

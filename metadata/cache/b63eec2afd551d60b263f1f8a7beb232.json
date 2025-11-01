@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-04-01T09:38:06.129384",
+  "cache_date": "2025-11-01T11:57:17.997878",
   "data": {
     "paperId": "1c5a985b73b191a3d0784c959946eb17d285b0e2",
     "externalIds": {
@@ -12,17 +12,16 @@
     },
     "url": "https://www.semanticscholar.org/paper/1c5a985b73b191a3d0784c959946eb17d285b0e2",
     "title": "PhANNs, a fast and accurate tool and web server to classify phage structural proteins",
-    "abstract": "For any given bacteriophage genome or phage sequences in metagenomic data sets, we are unable to assign a function to 50-90% of genes. Structural protein-encoding genes constitute a large fraction of the average phage genome and are among the most divergent and difficult-to-identify genes using homology-based methods. To understand the functions encoded by phages, their contributions to their environments, and to help gauge their utility as potential phage therapy agents, we have developed a new approach to classify phage ORFs into ten major classes of structural proteins or into an \u201cother\u201d category. The resulting tool is named PhANNs (Phage Artificial Neural Networks). We built a database of 538,213 manually curated phage protein sequences that we split into eleven subsets (10 for cross-validation, one for testing) using a novel clustering method that ensures there are no homologous proteins between sets yet maintains the maximum sequence diversity for training. An Artificial Neural Network ensemble trained on features extracted from those sets reached a test F1-score of 0.875 and test accuracy of 86.2%. PhANNs can rapidly classify proteins into one of the ten classes, and non-phage proteins are classified as \u201cother\u201d, providing a new approach for functional annotation of phage proteins. PhANNs is open source and can be run from our web server or installed locally. Author Summary Bacteriophages (phages, viruses that infect bacteria) are the most abundant biological entity on Earth. They outnumber bacteria by a factor of ten. As phages are very different within them and from bacteria, and we have comparatively few phage genes in our database, we are unable to assign function to 50%-90% of phage genes. In this work, we developed PhANNs, a machine learning tool that can classify a phage gene as one of ten structural roles, or \u201cother\u201d. This approach does not require a similar gene to be known.",
     "venue": "bioRxiv",
     "year": 2020,
     "referenceCount": 35,
-    "citationCount": 69,
-    "influentialCitationCount": 9,
+    "citationCount": 83,
+    "influentialCitationCount": 11,
     "openAccessPdf": {
       "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007845&type=printable",
       "status": "GREEN",
       "license": "CCBY",
-      "disclaimer": "Notice: This abstract is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7660903, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7660903, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "authors": [
       {
@@ -56,16 +55,72 @@
     ],
     "citations": [
       {
+        "paperId": "681b895e844938fe7236e1133899d7e418a55e23",
+        "title": "Phage quest: a beginner\u2019s guide to explore viral diversity in the prokaryotic world"
+      },
+      {
+        "paperId": "6bea64205a4191230e1abc8b7eebdc61ebf21ae5",
+        "title": "Computational function prediction of bacteria and phage proteins."
+      },
+      {
+        "paperId": "5bb6f5232fcf78ce452258d4866d4772eec7d8c8",
+        "title": "ProteoKnight: Convolution-based phage virion protein classification and uncertainty analysis"
+      },
+      {
+        "paperId": "45fcdb9f08e3171e38edaba3deb380b2173d5312",
+        "title": "Synteny-aware functional annotation of bacteriophage genomes with Phynteny"
+      },
+      {
+        "paperId": "cbcb11663139792eca4b67cb2d2fbe306be44bb3",
+        "title": "Revisiting phage tail spike architecture: evidence for undetected receptor-binding proteins in Caudoviricetes with non-contractile tails"
+      },
+      {
+        "paperId": "8567f9e41d7b5fe7665dc482ab19a4f0f4f0189c",
+        "title": "BERTPVP: Identifying and Classifying Phage Virion Proteins Using Bidirectional Encoder Representations-Based Transformers"
+      },
+      {
+        "paperId": "5fb3398e5e0ec4c864af324db12614a7dd620784",
+        "title": "Phage therapy with nebulized cocktail BX004-A for chronic Pseudomonas aeruginosa infections in cystic fibrosis: a randomized first-in-human trial"
+      },
+      {
+        "paperId": "e46fd0b563a7d9123939fbf0d2a2e35b5ecdd422",
+        "title": "Systematic, high-throughput characterization of bacteriophage gene essentiality on diverse hosts."
+      },
+      {
+        "paperId": "4e6ce48795cf7b49ba3aa81e7af03f05ec1c4f98",
+        "title": "RBPseg: Toward a complete phage tail fiber structure atlas"
+      },
+      {
+        "paperId": "c830b030ac02bbf92f556596f8b3b03f9831e7e4",
+        "title": "ProtPhage: a deep learning framework for phage viral protein identification and functional annotation"
+      },
+      {
+        "paperId": "6ddb70e75fffbfb310238ce89ea7d7ccb97798a1",
+        "title": "Exo-Tox: Identifying Exotoxins from secreted bacterial proteins"
+      },
+      {
         "paperId": "071e10086285486d91f28c733f0263c781dd8b6e",
         "title": "Prophages in the infant gut are pervasively induced and may modulate the functionality of their hosts"
       },
       {
+        "paperId": "0c14a001142e7e7040478479168e9a416bb7d9b3",
+        "title": "Comprehensive Genomic Analysis of Klebsiella pneumoniae and Its Temperate N-15-like Phage: From Isolation to Functional Annotation"
+      },
+      {
         "paperId": "ef7f47291e82de27b672d59cd22188de95cfa08d",
-        "title": "The Gut Virome and Human Health: From Diversity to Personalized Medicine"
+        "title": "The gut virome and human health: From diversity to personalized medicine"
+      },
+      {
+        "paperId": "7cc27872f260db51361209301508cb9cea599b1d",
+        "title": "Genomic insights into bacteriophages: a new frontier in AMR detection and phage therapy"
       },
       {
         "paperId": "62033593d37c3e239a4a4fdc4d3aaf3f2f0891f3",
         "title": "Characterization and genomic insights into bacteriophages Kpph1 and Kpph9 against hypervirulent carbapenem-resistant Klebsiella pneumoniae"
+      },
+      {
+        "paperId": "7f92089401f87652ad60802b51796c69dff46128",
+        "title": "Empathi: embedding-based phage protein annotation tool by hierarchical assignment"
       },
       {
         "paperId": "7a6d194ed312cdbd61d21a8bd98d0c7b646c52be",
@@ -332,6 +387,7 @@
         "title": "PhageScope a well-annotated bacteriophage database with automatic analyses and visualizations"
       }
     ],
+    "abstract": "For any given bacteriophage genome or phage sequences in metagenomic data sets, we are unable to assign a function to 50-90% of genes. Structural protein-encoding genes constitute a large fraction of the average phage genome and are among the most divergent and difficult-to-identify genes using homology-based methods. To understand the functions encoded by phages, their contributions to their environments, and to help gauge their utility as potential phage therapy agents, we have developed a new approach to classify phage ORFs into ten major classes of structural proteins or into an \u201cother\u201d category. The resulting tool is named PhANNs (Phage Artificial Neural Networks). We built a database of 538,213 manually curated phage protein sequences that we split into eleven subsets (10 for cross-validation, one for testing) using a novel clustering method that ensures there are no homologous proteins between sets yet maintains the maximum sequence diversity for training. An Artificial Neural Network ensemble trained on features extracted from those sets reached a test F1-score of 0.875 and test accuracy of 86.2%. PhANNs can rapidly classify proteins into one of the ten classes, and non-phage proteins are classified as \u201cother\u201d, providing a new approach for functional annotation of phage proteins. PhANNs is open source and can be run from our web server or installed locally. Author Summary Bacteriophages (phages, viruses that infect bacteria) are the most abundant biological entity on Earth. They outnumber bacteria by a factor of ten. As phages are very different within them and from bacteria, and we have comparatively few phage genes in our database, we are unable to assign function to 50%-90% of phage genes. In this work, we developed PhANNs, a machine learning tool that can classify a phage gene as one of ten structural roles, or \u201cother\u201d. This approach does not require a similar gene to be known.",
     "references": [
       {
         "paperId": "14b4b167f29b4c2a6e25db0f32252fc21f98b749",

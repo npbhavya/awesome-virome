@@ -5,18 +5,18 @@
       "url": "https://github.com/deepmind/alphafold",
       "provider": "github",
       "description": "Open source code for AlphaFold 2.",
-      "stars": 13366,
-      "forks": 2359,
-      "open_issues": 298,
+      "stars": 13922,
+      "forks": 2500,
+      "open_issues": 295,
       "license": "Apache License 2.0",
       "languages": {
-        "Python": 852731,
-        "Shell": 18088,
-        "Dockerfile": 3560,
+        "Python": 879725,
+        "Shell": 18324,
+        "Dockerfile": 3594,
         "Jupyter Notebook": 738
       },
       "topics": [],
-      "updated_at": "2025-04-01T00:48:20Z",
+      "updated_at": "2025-10-31T18:46:25Z",
       "created_at": "2021-06-17T14:06:06Z",
       "latest_release": "v2.3.2"
     },
@@ -25,33 +25,34 @@
       "url": "https://github.com/lammps/lammps",
       "provider": "github",
       "description": "Public development project of the LAMMPS MD software package  ",
-      "stars": 2395,
-      "forks": 1788,
-      "open_issues": 94,
+      "stars": 2653,
+      "forks": 1893,
+      "open_issues": 113,
       "license": "GNU General Public License v2.0",
       "languages": {
-        "C++": 62246808,
+        "C++": 60838975,
         "Tcl": 4074185,
-        "C": 3601547,
+        "C": 3578613,
         "Cuda": 1327643,
-        "Python": 1056355,
-        "CMake": 669270,
-        "Fortran": 379525,
-        "Shell": 306861,
-        "Roff": 197279,
+        "Python": 982845,
+        "CMake": 698536,
+        "Fortran": 383118,
+        "Shell": 273081,
+        "Roff": 209566,
         "Perl": 173818,
-        "Makefile": 163134,
+        "Makefile": 133530,
         "Rich Text Format": 113367,
         "Arc": 70203,
-        "Cython": 38493,
+        "Cython": 41819,
         "Jupyter Notebook": 35767,
         "MATLAB": 28174,
-        "SWIG": 22141,
+        "SWIG": 23427,
         "NMODL": 12346,
         "Emacs Lisp": 6681,
         "xBase": 6592,
         "Metal": 5719,
         "Vim Script": 4166,
+        "HIP": 3430,
         "Pawn": 2957,
         "Sway": 1104,
         "M4": 419,
@@ -64,64 +65,62 @@
         "simulation",
         "kokkos"
       ],
-      "updated_at": "2025-04-01T07:23:42Z",
+      "updated_at": "2025-10-30T15:46:32Z",
       "created_at": "2013-08-09T17:45:11Z",
-      "latest_release": "stable_29Aug2024_update2"
+      "latest_release": "stable_22Jul2025_update1"
     },
     {
       "name": "BLAST+DIAMOND",
       "url": "https://github.com/bbuchfink/diamond",
       "provider": "github",
       "description": "Accelerated BLAST compatible local sequence aligner.",
-      "stars": 1121,
-      "forks": 181,
-      "open_issues": 188,
+      "stars": 1193,
+      "forks": 184,
+      "open_issues": 194,
       "license": "GNU General Public License v3.0",
       "languages": {
-        "C++": 8017326,
-        "C": 1426067,
-        "Python": 28314,
-        "CMake": 25640,
-        "Shell": 14058,
-        "Rust": 3974,
-        "Scheme": 2198,
-        "Dockerfile": 1960
+        "C++": 3488142,
+        "C": 528296,
+        "CMake": 20250,
+        "Shell": 3417,
+        "Dockerfile": 2034
       },
       "topics": [
         "sequence-alignment"
       ],
-      "updated_at": "2025-03-31T15:19:26Z",
+      "updated_at": "2025-10-30T08:09:40Z",
       "created_at": "2015-03-10T23:19:00Z",
-      "latest_release": "v2.1.11"
+      "latest_release": "v2.1.15"
     },
     {
       "name": "metaviralSPAdes-RNA",
       "url": "https://github.com/ablab/spades",
       "provider": "github",
       "description": "SPAdes Genome Assembler",
-      "stars": 803,
-      "forks": 146,
-      "open_issues": 266,
+      "stars": 874,
+      "forks": 153,
+      "open_issues": 286,
       "license": "Other",
       "languages": {
-        "C++": 68570626,
-        "C": 14007440,
-        "Python": 1550516,
-        "CMake": 421192,
+        "C++": 69020216,
+        "C": 14007844,
+        "Python": 1421281,
+        "CMake": 426724,
         "Perl": 264262,
         "Jupyter Notebook": 257766,
-        "Shell": 98415,
+        "Shell": 91560,
         "Roff": 83771,
         "Makefile": 67786,
         "JavaScript": 60342,
         "Lua": 47426,
+        "Starlark": 37655,
         "D": 29543,
         "HTML": 24990,
         "CSS": 24680,
-        "Starlark": 24401,
         "Java": 13432,
         "TeX": 9266,
         "R": 2846,
+        "Batchfile": 2065,
         "Dockerfile": 1253,
         "VBScript": 458
       },
@@ -134,82 +133,39 @@
         "metagenome-assembly",
         "next-generation-sequencing"
       ],
-      "updated_at": "2025-04-01T00:29:28Z",
+      "updated_at": "2025-10-27T12:30:28Z",
       "created_at": "2016-06-01T15:06:09Z",
-      "latest_release": "v4.1.0"
-    },
-    {
-      "name": "coronaSPAdes/metaviralSPAdes",
-      "url": "https://github.com/ablab/spades/tree/metaviral_publication",
-      "provider": "github",
-      "description": "SPAdes Genome Assembler",
-      "stars": 803,
-      "forks": 146,
-      "open_issues": 266,
-      "license": "Other",
-      "languages": {
-        "C++": 68570626,
-        "C": 14007440,
-        "Python": 1550516,
-        "CMake": 421192,
-        "Perl": 264262,
-        "Jupyter Notebook": 257766,
-        "Shell": 98415,
-        "Roff": 83771,
-        "Makefile": 67786,
-        "JavaScript": 60342,
-        "Lua": 47426,
-        "D": 29543,
-        "HTML": 24990,
-        "CSS": 24680,
-        "Starlark": 24401,
-        "Java": 13432,
-        "TeX": 9266,
-        "R": 2846,
-        "Dockerfile": 1253,
-        "VBScript": 458
-      },
-      "topics": [
-        "genome-assembly",
-        "sequence-assembler",
-        "sequencing",
-        "transcriptome-assembly",
-        "illumina",
-        "metagenome-assembly",
-        "next-generation-sequencing"
-      ],
-      "updated_at": "2025-04-01T00:29:28Z",
-      "created_at": "2016-06-01T15:06:09Z",
-      "latest_release": "v4.1.0"
+      "latest_release": "v4.2.0"
     },
     {
       "name": "coronaSPAdes",
       "url": "https://github.com/ablab/spades/tree/metaviral_publication",
       "provider": "github",
       "description": "SPAdes Genome Assembler",
-      "stars": 803,
-      "forks": 146,
-      "open_issues": 266,
+      "stars": 874,
+      "forks": 153,
+      "open_issues": 286,
       "license": "Other",
       "languages": {
-        "C++": 68570626,
-        "C": 14007440,
-        "Python": 1550516,
-        "CMake": 421192,
+        "C++": 69020216,
+        "C": 14007844,
+        "Python": 1421281,
+        "CMake": 426724,
         "Perl": 264262,
         "Jupyter Notebook": 257766,
-        "Shell": 98415,
+        "Shell": 91560,
         "Roff": 83771,
         "Makefile": 67786,
         "JavaScript": 60342,
         "Lua": 47426,
+        "Starlark": 37655,
         "D": 29543,
         "HTML": 24990,
         "CSS": 24680,
-        "Starlark": 24401,
         "Java": 13432,
         "TeX": 9266,
         "R": 2846,
+        "Batchfile": 2065,
         "Dockerfile": 1253,
         "VBScript": 458
       },
@@ -222,40 +178,115 @@
         "metagenome-assembly",
         "next-generation-sequencing"
       ],
-      "updated_at": "2025-04-01T00:29:28Z",
+      "updated_at": "2025-10-27T12:30:28Z",
       "created_at": "2016-06-01T15:06:09Z",
-      "latest_release": "v4.1.0"
+      "latest_release": "v4.2.0"
+    },
+    {
+      "name": "coronaSPAdes/metaviralSPAdes",
+      "url": "https://github.com/ablab/spades/tree/metaviral_publication",
+      "provider": "github",
+      "description": "SPAdes Genome Assembler",
+      "stars": 874,
+      "forks": 153,
+      "open_issues": 286,
+      "license": "Other",
+      "languages": {
+        "C++": 69020216,
+        "C": 14007844,
+        "Python": 1421281,
+        "CMake": 426724,
+        "Perl": 264262,
+        "Jupyter Notebook": 257766,
+        "Shell": 91560,
+        "Roff": 83771,
+        "Makefile": 67786,
+        "JavaScript": 60342,
+        "Lua": 47426,
+        "Starlark": 37655,
+        "D": 29543,
+        "HTML": 24990,
+        "CSS": 24680,
+        "Java": 13432,
+        "TeX": 9266,
+        "R": 2846,
+        "Batchfile": 2065,
+        "Dockerfile": 1253,
+        "VBScript": 458
+      },
+      "topics": [
+        "genome-assembly",
+        "sequence-assembler",
+        "sequencing",
+        "transcriptome-assembly",
+        "illumina",
+        "metagenome-assembly",
+        "next-generation-sequencing"
+      ],
+      "updated_at": "2025-10-27T12:30:28Z",
+      "created_at": "2016-06-01T15:06:09Z",
+      "latest_release": "v4.2.0"
     },
     {
       "name": "metaviralSPAdes",
       "url": "https://github.com/ablab/spades/tree/metaviral_publication",
       "provider": "github",
       "description": "SPAdes Genome Assembler",
-      "stars": 803,
-      "forks": 146,
-      "open_issues": 266,
+      "stars": 874,
+      "forks": 153,
+      "open_issues": 286,
       "license": "Other",
-      "languages": {},
-      "topics": [],
-      "updated_at": "2025-04-01T00:29:28Z",
+      "languages": {
+        "C++": 69020216,
+        "C": 14007844,
+        "Python": 1421281,
+        "CMake": 426724,
+        "Perl": 264262,
+        "Jupyter Notebook": 257766,
+        "Shell": 91560,
+        "Roff": 83771,
+        "Makefile": 67786,
+        "JavaScript": 60342,
+        "Lua": 47426,
+        "Starlark": 37655,
+        "D": 29543,
+        "HTML": 24990,
+        "CSS": 24680,
+        "Java": 13432,
+        "TeX": 9266,
+        "R": 2846,
+        "Batchfile": 2065,
+        "Dockerfile": 1253,
+        "VBScript": 458
+      },
+      "topics": [
+        "genome-assembly",
+        "sequence-assembler",
+        "sequencing",
+        "transcriptome-assembly",
+        "illumina",
+        "metagenome-assembly",
+        "next-generation-sequencing"
+      ],
+      "updated_at": "2025-10-27T12:30:28Z",
       "created_at": "2016-06-01T15:06:09Z",
-      "latest_release": null
+      "latest_release": "v4.2.0"
     },
     {
       "name": "Prodigal/MetaProdigal",
       "url": "https://github.com/hyattpd/Prodigal",
       "provider": "github",
       "description": "Prodigal Gene Prediction Software",
-      "stars": 478,
-      "forks": 86,
-      "open_issues": 44,
+      "stars": 512,
+      "forks": 91,
+      "open_issues": 48,
       "license": "GNU General Public License v3.0",
       "languages": {
         "C": 25936618,
         "Makefile": 1667
       },
       "topics": [],
-      "updated_at": "2025-03-31T15:11:31Z",
+      "updated_at": "2025-10-29T06:25:15Z",
       "created_at": "2013-07-11T20:45:22Z",
       "latest_release": "v2.6.3"
     },
@@ -264,16 +295,16 @@
       "url": "https://github.com/hyattpd/Prodigal",
       "provider": "github",
       "description": "Prodigal Gene Prediction Software",
-      "stars": 478,
-      "forks": 86,
-      "open_issues": 44,
+      "stars": 512,
+      "forks": 91,
+      "open_issues": 48,
       "license": "GNU General Public License v3.0",
       "languages": {
         "C": 25936618,
         "Makefile": 1667
       },
       "topics": [],
-      "updated_at": "2025-03-31T15:11:31Z",
+      "updated_at": "2025-10-29T06:25:15Z",
       "created_at": "2013-07-11T20:45:22Z",
       "latest_release": "v2.6.3"
     },
@@ -300,12 +331,12 @@
       "url": "https://github.com/biobakery/MetaPhlAn/releases/tag/4.1.0",
       "provider": "github",
       "description": "MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data",
-      "stars": 328,
-      "forks": 88,
-      "open_issues": 4,
+      "stars": 377,
+      "forks": 91,
+      "open_issues": 1,
       "license": "MIT License",
       "languages": {
-        "Python": 467394,
+        "Python": 511898,
         "R": 28518,
         "HTML": 10103,
         "TeX": 3454,
@@ -318,9 +349,9 @@
         "python",
         "metagenomics"
       ],
-      "updated_at": "2025-03-07T21:05:59Z",
+      "updated_at": "2025-11-01T06:45:46Z",
       "created_at": "2020-02-20T07:49:08Z",
-      "latest_release": "4.1.1"
+      "latest_release": null
     },
     {
       "name": "AMRFinder",
@@ -377,18 +408,18 @@
       "url": "https://github.com/apcamargo/genomad",
       "provider": "github",
       "description": "geNomad: Identification of mobile genetic elements",
-      "stars": 226,
-      "forks": 22,
-      "open_issues": 53,
+      "stars": 267,
+      "forks": 24,
+      "open_issues": 58,
       "license": "Other",
       "languages": {
-        "Python": 325212,
+        "Python": 325597,
         "Dockerfile": 301
       },
       "topics": [],
-      "updated_at": "2025-04-01T02:43:10Z",
+      "updated_at": "2025-10-31T21:09:55Z",
       "created_at": "2022-07-12T17:02:19Z",
-      "latest_release": "v1.11.0"
+      "latest_release": "v1.11.1"
     },
     {
       "name": "Viral-NGS",
@@ -425,40 +456,57 @@
       "latest_release": "v1.25.0"
     },
     {
+      "name": "Pharokka",
+      "url": "https://github.com/gbouras13/pharokka",
+      "provider": "github",
+      "description": "fast phage annotation program",
+      "stars": 182,
+      "forks": 25,
+      "open_issues": 7,
+      "license": "MIT License",
+      "languages": {
+        "Python": 340021,
+        "Jupyter Notebook": 220089,
+        "Shell": 15181
+      },
+      "topics": [],
+      "updated_at": "2025-10-18T08:50:12Z",
+      "created_at": "2021-12-08T14:03:12Z",
+      "latest_release": "v1.8.1"
+    },
+    {
       "name": "VIBRANT",
       "url": "https://github.com/AnantharamanLab/VIBRANT",
       "provider": "github",
       "description": "Virus Identification By iteRative ANnoTation",
-      "stars": 160,
-      "forks": 37,
+      "stars": 175,
+      "forks": 39,
       "open_issues": 54,
       "license": "GNU General Public License v3.0",
       "languages": {
         "Python": 181528
       },
       "topics": [],
-      "updated_at": "2025-03-24T05:30:25Z",
+      "updated_at": "2025-10-29T05:01:53Z",
       "created_at": "2019-10-09T18:41:17Z",
       "latest_release": "v1.2.1"
     },
     {
-      "name": "Pharokka",
-      "url": "https://github.com/gbouras13/pharokka",
+      "name": "DeepVirFinder",
+      "url": "https://github.com/jessieren/DeepVirFinder",
       "provider": "github",
-      "description": "fast phage annotation program",
-      "stars": 160,
-      "forks": 18,
-      "open_issues": 15,
-      "license": "MIT License",
+      "description": "Identifying viruses from metagenomic data by deep learning",
+      "stars": 148,
+      "forks": 30,
+      "open_issues": 38,
+      "license": "Other",
       "languages": {
-        "Python": 329696,
-        "Jupyter Notebook": 318341,
-        "Shell": 15181
+        "Python": 24868
       },
       "topics": [],
-      "updated_at": "2025-03-31T09:01:33Z",
-      "created_at": "2021-12-08T14:03:12Z",
-      "latest_release": "v1.7.5"
+      "updated_at": "2025-10-28T11:47:02Z",
+      "created_at": "2018-08-08T04:39:08Z",
+      "latest_release": null
     },
     {
       "name": "VirFinder",
@@ -550,23 +598,6 @@
       "latest_release": null
     },
     {
-      "name": "DeepVirFinder",
-      "url": "https://github.com/jessieren/DeepVirFinder",
-      "provider": "github",
-      "description": "Identifying viruses from metagenomic data by deep learning",
-      "stars": 129,
-      "forks": 32,
-      "open_issues": 43,
-      "license": "Other",
-      "languages": {
-        "Python": 24868
-      },
-      "topics": [],
-      "updated_at": "2025-03-25T05:12:29Z",
-      "created_at": "2018-08-08T04:39:08Z",
-      "latest_release": null
-    },
-    {
       "name": "DeepVirFinder-models",
       "url": "https://github.com/jessieren/DeepVirFinder/tree/master/models",
       "provider": "github",
@@ -622,6 +653,27 @@
       "latest_release": "v1.0"
     },
     {
+      "name": "VirSorter-DarkMatter",
+      "url": "https://github.com/simroux/VirSorter",
+      "provider": "github",
+      "description": "Source code of the VirSorter tool, also available as an App on CyVerse/iVirus (https://de.iplantcollaborative.org/de/)",
+      "stars": 104,
+      "forks": 30,
+      "open_issues": 34,
+      "license": "GNU General Public License v2.0",
+      "languages": {
+        "Perl": 140755,
+        "C": 10881,
+        "Roff": 1621,
+        "Dockerfile": 1220,
+        "Makefile": 577
+      },
+      "topics": [],
+      "updated_at": "2025-03-21T11:08:10Z",
+      "created_at": "2014-09-23T23:28:19Z",
+      "latest_release": "v1.0.6"
+    },
+    {
       "name": "What_the_phage",
       "url": "https://github.com/replikation/What_the_Phage",
       "provider": "github",
@@ -648,27 +700,6 @@
       "updated_at": "2025-02-24T14:54:13Z",
       "created_at": "2019-08-04T18:31:54Z",
       "latest_release": "v1.2.4"
-    },
-    {
-      "name": "VirSorter-DarkMatter",
-      "url": "https://github.com/simroux/VirSorter",
-      "provider": "github",
-      "description": "Source code of the VirSorter tool, also available as an App on CyVerse/iVirus (https://de.iplantcollaborative.org/de/)",
-      "stars": 104,
-      "forks": 30,
-      "open_issues": 34,
-      "license": "GNU General Public License v2.0",
-      "languages": {
-        "Perl": 140755,
-        "C": 10881,
-        "Roff": 1621,
-        "Dockerfile": 1220,
-        "Makefile": 577
-      },
-      "topics": [],
-      "updated_at": "2025-03-21T11:08:10Z",
-      "created_at": "2014-09-23T23:28:19Z",
-      "latest_release": "v1.0.6"
     },
     {
       "name": "VirSorter",
@@ -766,6 +797,28 @@
       "latest_release": null
     },
     {
+      "name": "PhiSpy",
+      "url": "https://github.com/linsalrob/PhiSpy",
+      "provider": "github",
+      "description": "Prediction of prophages from bacterial genomes",
+      "stars": 77,
+      "forks": 21,
+      "open_issues": 18,
+      "license": "MIT License",
+      "languages": {
+        "Jupyter Notebook": 573288,
+        "Python": 167894,
+        "C++": 9649,
+        "R": 682,
+        "C": 572,
+        "Makefile": 83
+      },
+      "topics": [],
+      "updated_at": "2025-03-08T13:22:38Z",
+      "created_at": "2016-06-13T01:42:45Z",
+      "latest_release": "v4.2.21"
+    },
+    {
       "name": "Phables",
       "url": "https://github.com/Vini2/phables",
       "provider": "github",
@@ -788,28 +841,6 @@
       "updated_at": "2025-01-13T13:44:31Z",
       "created_at": "2022-07-21T02:02:28Z",
       "latest_release": "v1.4.1"
-    },
-    {
-      "name": "PhiSpy",
-      "url": "https://github.com/linsalrob/PhiSpy",
-      "provider": "github",
-      "description": "Prediction of prophages from bacterial genomes",
-      "stars": 77,
-      "forks": 21,
-      "open_issues": 18,
-      "license": "MIT License",
-      "languages": {
-        "Jupyter Notebook": 573288,
-        "Python": 167894,
-        "C++": 9649,
-        "R": 682,
-        "C": 572,
-        "Makefile": 83
-      },
-      "topics": [],
-      "updated_at": "2025-03-08T13:22:38Z",
-      "created_at": "2016-06-13T01:42:45Z",
-      "latest_release": "v4.2.21"
     },
     {
       "name": "Phanotate",
@@ -976,21 +1007,21 @@
       "url": "https://github.com/shandley/hecatomb",
       "provider": "github",
       "description": "hecatomb is a virome analysis pipeline for analysis of Illumina sequence data",
-      "stars": 57,
-      "forks": 12,
-      "open_issues": 27,
+      "stars": 59,
+      "forks": 13,
+      "open_issues": 32,
       "license": "MIT License",
       "languages": {
-        "Python": 131126
+        "Python": 133464
       },
       "topics": [
         "virome",
         "viral-metagenomes",
         "snakemake"
       ],
-      "updated_at": "2025-01-16T14:31:39Z",
+      "updated_at": "2025-09-16T01:02:09Z",
       "created_at": "2019-10-14T16:29:07Z",
-      "latest_release": "v1.3.3"
+      "latest_release": "v.1.3.4"
     },
     {
       "name": "Viral-Track",
@@ -1014,7 +1045,7 @@
       "url": "https://github.com/mtisza1/Cenote-Taker2",
       "provider": "github",
       "description": "Cenote-Taker2: Discover and Annotate Divergent Viral Contigs (Please use Cenote-Taker 3 instead)",
-      "stars": 55,
+      "stars": 56,
       "forks": 7,
       "open_issues": 9,
       "license": "MIT License",
@@ -1042,7 +1073,7 @@
         "prophage",
         "prophage-prediction"
       ],
-      "updated_at": "2024-11-27T09:21:02Z",
+      "updated_at": "2025-04-23T12:48:14Z",
       "created_at": "2019-09-12T21:46:34Z",
       "latest_release": "v2.1.5"
     },
@@ -1071,58 +1102,23 @@
       "latest_release": "v1.4.0"
     },
     {
-      "name": "MARVEL",
-      "url": "https://github.com/LaboratorioBioinformatica/MARVEL",
+      "name": "Cenote-Taker 3",
+      "url": "https://github.com/mtisza1/Cenote-Taker3",
       "provider": "github",
-      "description": "MARVEL: Metagenomic Analyses and Retrieval of Viral ELements",
+      "description": "Discover and annotate the virome",
       "stars": 53,
-      "forks": 16,
-      "open_issues": 1,
-      "license": "GNU General Public License v3.0",
-      "languages": {},
-      "topics": [],
-      "updated_at": "2025-02-09T16:13:29Z",
-      "created_at": "2018-04-10T18:27:10Z",
-      "latest_release": null
-    },
-    {
-      "name": "WIsH",
-      "url": "https://github.com/soedinglab/WIsH",
-      "provider": "github",
-      "description": "Predict prokaryotic host for phage metagenomic sequences",
-      "stars": 52,
-      "forks": 10,
-      "open_issues": 2,
-      "license": "GNU General Public License v3.0",
+      "forks": 1,
+      "open_issues": 4,
+      "license": "MIT License",
       "languages": {
-        "C++": 23320,
-        "CMake": 577,
-        "Dockerfile": 305,
-        "R": 255,
-        "C": 73
+        "Python": 129690,
+        "Shell": 52226,
+        "Scala": 3272
       },
       "topics": [],
-      "updated_at": "2024-10-23T19:36:24Z",
-      "created_at": "2017-02-14T16:45:46Z",
-      "latest_release": null
-    },
-    {
-      "name": "BERTax",
-      "url": "https://github.com/f-kretschmer/bertax",
-      "provider": "github",
-      "description": "Taxonomic classification of DNA sequences",
-      "stars": 52,
-      "forks": 9,
-      "open_issues": 5,
-      "license": "GNU General Public License v3.0",
-      "languages": {
-        "Python": 26464,
-        "Dockerfile": 187
-      },
-      "topics": [],
-      "updated_at": "2025-03-21T14:54:21Z",
-      "created_at": "2021-02-10T10:11:35Z",
-      "latest_release": "v0.1"
+      "updated_at": "2025-10-16T18:13:09Z",
+      "created_at": "2023-08-14T22:00:08Z",
+      "latest_release": "v3.4.3"
     },
     {
       "name": "VAPiD",
@@ -1158,6 +1154,62 @@
       "updated_at": "2025-03-14T14:58:31Z",
       "created_at": "2016-12-15T06:42:21Z",
       "latest_release": "v1.3"
+    },
+    {
+      "name": "WIsH",
+      "url": "https://github.com/soedinglab/WIsH",
+      "provider": "github",
+      "description": "Predict prokaryotic host for phage metagenomic sequences",
+      "stars": 52,
+      "forks": 10,
+      "open_issues": 2,
+      "license": "GNU General Public License v3.0",
+      "languages": {
+        "C++": 23320,
+        "CMake": 577,
+        "Dockerfile": 305,
+        "R": 255,
+        "C": 73
+      },
+      "topics": [],
+      "updated_at": "2024-10-23T19:36:24Z",
+      "created_at": "2017-02-14T16:45:46Z",
+      "latest_release": null
+    },
+    {
+      "name": "MARVEL",
+      "url": "https://github.com/LaboratorioBioinformatica/MARVEL",
+      "provider": "github",
+      "description": "MARVEL: Metagenomic Analyses and Retrieval of Viral ELements",
+      "stars": 52,
+      "forks": 16,
+      "open_issues": 1,
+      "license": "GNU General Public License v3.0",
+      "languages": {
+        "Python": 18921
+      },
+      "topics": [],
+      "updated_at": "2025-09-09T09:16:04Z",
+      "created_at": "2018-04-10T18:27:10Z",
+      "latest_release": null
+    },
+    {
+      "name": "BERTax",
+      "url": "https://github.com/f-kretschmer/bertax",
+      "provider": "github",
+      "description": "Taxonomic classification of DNA sequences",
+      "stars": 52,
+      "forks": 9,
+      "open_issues": 5,
+      "license": "GNU General Public License v3.0",
+      "languages": {
+        "Python": 26464,
+        "Dockerfile": 187
+      },
+      "topics": [],
+      "updated_at": "2025-03-21T14:54:21Z",
+      "created_at": "2021-02-10T10:11:35Z",
+      "latest_release": "v0.1"
     },
     {
       "name": "Phigaro",
@@ -1245,25 +1297,6 @@
       "updated_at": "2024-12-27T07:54:23Z",
       "created_at": "2012-10-04T12:43:42Z",
       "latest_release": "v1.99.3"
-    },
-    {
-      "name": "Cenote-Taker 3",
-      "url": "https://github.com/mtisza1/Cenote-Taker3",
-      "provider": "github",
-      "description": "Discover and annotate the virome",
-      "stars": 39,
-      "forks": 1,
-      "open_issues": 6,
-      "license": "MIT License",
-      "languages": {
-        "Python": 121556,
-        "Shell": 52125,
-        "Scala": 3272
-      },
-      "topics": [],
-      "updated_at": "2025-03-07T10:49:34Z",
-      "created_at": "2023-08-14T22:00:08Z",
-      "latest_release": "v3.3.2"
     },
     {
       "name": "FAVITES",
@@ -1358,6 +1391,30 @@
       "latest_release": "5-c2e680a"
     },
     {
+      "name": "ViroProfiler",
+      "url": "https://github.com/deng-lab/viroprofiler",
+      "provider": "github",
+      "description": "A containerized bioinformatics pipeline for viral metagenomic data analysis",
+      "stars": 37,
+      "forks": 13,
+      "open_issues": 21,
+      "license": "MIT License",
+      "languages": {
+        "Nextflow": 128032,
+        "Python": 69941,
+        "Groovy": 43740,
+        "Dockerfile": 8916,
+        "Perl": 6397,
+        "HTML": 2499,
+        "Shell": 1932,
+        "R": 1902
+      },
+      "topics": [],
+      "updated_at": "2025-10-09T06:58:01Z",
+      "created_at": "2022-09-17T18:39:31Z",
+      "latest_release": "v0.2.5"
+    },
+    {
       "name": "PhageBoost",
       "url": "https://github.com/ku-cbd/PhageBoost",
       "provider": "github",
@@ -1374,6 +1431,45 @@
       "updated_at": "2025-02-12T21:42:54Z",
       "created_at": "2020-06-26T17:51:40Z",
       "latest_release": "v0.1.3"
+    },
+    {
+      "name": "Virtus",
+      "url": "https://github.com/yyoshiaki/VIRTUS",
+      "provider": "github",
+      "description": "A bioinformatics pipeline for viral transcriptome detection and quantification considering splicing.",
+      "stars": 35,
+      "forks": 8,
+      "open_issues": 8,
+      "license": "Other",
+      "languages": {
+        "Common Workflow Language": 62520,
+        "Python": 10906,
+        "Shell": 8946,
+        "Dockerfile": 730
+      },
+      "topics": [
+        "virus-detection",
+        "rnaseq",
+        "cwl"
+      ],
+      "updated_at": "2025-09-30T06:39:50Z",
+      "created_at": "2020-01-26T03:06:16Z",
+      "latest_release": null
+    },
+    {
+      "name": "RdRp-scan",
+      "url": "https://github.com/JustineCharon/RdRp-scan/",
+      "provider": "github",
+      "description": "Exploring the \"dusk matter\" of the RNA virosphere ",
+      "stars": 35,
+      "forks": 5,
+      "open_issues": 5,
+      "license": null,
+      "languages": {},
+      "topics": [],
+      "updated_at": "2024-07-28T04:13:08Z",
+      "created_at": "2021-11-15T22:23:40Z",
+      "latest_release": null
     },
     {
       "name": "BACPHLIP",
@@ -1395,46 +1491,42 @@
       "latest_release": null
     },
     {
-      "name": "RdRp-scan",
-      "url": "https://github.com/JustineCharon/RdRp-scan/",
+      "name": "ViraMiner-models",
+      "url": "https://github.com/NeuroCSUT/ViraMiner",
       "provider": "github",
-      "description": "Exploring the \"dusk matter\" of the RNA virosphere ",
-      "stars": 35,
-      "forks": 5,
-      "open_issues": 5,
+      "description": "CNN based classifier for detecting viral sequences among metagenomic contigs",
+      "stars": 33,
+      "forks": 16,
+      "open_issues": 2,
       "license": null,
-      "languages": {},
+      "languages": {
+        "Python": 54867
+      },
       "topics": [],
-      "updated_at": "2024-07-28T04:13:08Z",
-      "created_at": "2021-11-15T22:23:40Z",
+      "updated_at": "2024-12-14T08:55:44Z",
+      "created_at": "2019-03-07T12:16:57Z",
       "latest_release": null
     },
     {
-      "name": "Virtus",
-      "url": "https://github.com/yyoshiaki/VIRTUS",
+      "name": "DBSCAN-SWA",
+      "url": "https://github.com/HIT-ImmunologyLab/DBSCAN-SWA/",
       "provider": "github",
-      "description": "A bioinformatics pipeline for viral transcriptome detection and quantification considering splicing.",
-      "stars": 34,
-      "forks": 9,
-      "open_issues": 8,
-      "license": "Other",
+      "description": null,
+      "stars": 33,
+      "forks": 12,
+      "open_issues": 22,
+      "license": null,
       "languages": {
-        "Common Workflow Language": 62520,
-        "Python": 10906,
-        "Shell": 8946,
-        "Dockerfile": 730
+        "Python": 125139,
+        "HTML": 3301
       },
-      "topics": [
-        "virus-detection",
-        "rnaseq",
-        "cwl"
-      ],
-      "updated_at": "2024-10-03T18:27:00Z",
-      "created_at": "2020-01-26T03:06:16Z",
-      "latest_release": "v1.2.1"
+      "topics": [],
+      "updated_at": "2025-09-04T01:38:10Z",
+      "created_at": "2020-03-21T08:59:51Z",
+      "latest_release": null
     },
     {
-      "name": "ViraMiner-models",
+      "name": "viraMiner",
       "url": "https://github.com/NeuroCSUT/ViraMiner",
       "provider": "github",
       "description": "CNN based classifier for detecting viral sequences among metagenomic contigs",
@@ -1475,21 +1567,23 @@
       "latest_release": "v2.1.0"
     },
     {
-      "name": "viraMiner",
-      "url": "https://github.com/NeuroCSUT/ViraMiner",
+      "name": "VIPtree",
+      "url": "https://github.com/yosuken/ViPTreeGen",
       "provider": "github",
-      "description": "CNN based classifier for detecting viral sequences among metagenomic contigs",
+      "description": "a command line tool for viral proteomic tree generation, part of the ViPTree project: http://www.genome.jp/viptree",
       "stars": 33,
-      "forks": 16,
-      "open_issues": 2,
-      "license": null,
+      "forks": 7,
+      "open_issues": 4,
+      "license": "MIT License",
       "languages": {
-        "Python": 54867
+        "Ruby": 36832,
+        "Shell": 9779,
+        "R": 1345
       },
       "topics": [],
-      "updated_at": "2024-12-14T08:55:44Z",
-      "created_at": "2019-03-07T12:16:57Z",
-      "latest_release": null
+      "updated_at": "2025-10-13T12:10:29Z",
+      "created_at": "2018-02-08T07:00:26Z",
+      "latest_release": "v1.1.3"
     },
     {
       "name": "PastML",
@@ -1519,21 +1613,21 @@
       "latest_release": "1.9.41"
     },
     {
-      "name": "DBSCAN-SWA",
-      "url": "https://github.com/HIT-ImmunologyLab/DBSCAN-SWA/",
+      "name": "PhaGCN",
+      "url": "https://github.com/KennthShang/PhaGCN",
       "provider": "github",
-      "description": null,
+      "description": "GCN classifier for phage taxanomy classification",
       "stars": 31,
-      "forks": 13,
-      "open_issues": 21,
-      "license": null,
+      "forks": 5,
+      "open_issues": 2,
+      "license": "GNU General Public License v3.0",
       "languages": {
-        "Python": 125139,
-        "HTML": 3301
+        "Python": 89150,
+        "Shell": 869
       },
       "topics": [],
-      "updated_at": "2024-12-26T08:34:39Z",
-      "created_at": "2020-03-21T08:59:51Z",
+      "updated_at": "2025-09-09T09:00:12Z",
+      "created_at": "2021-02-05T08:00:19Z",
       "latest_release": null
     },
     {
@@ -1551,24 +1645,6 @@
       "topics": [],
       "updated_at": "2024-08-21T10:45:06Z",
       "created_at": "2020-02-25T21:10:23Z",
-      "latest_release": null
-    },
-    {
-      "name": "PhaGCN",
-      "url": "https://github.com/KennthShang/PhaGCN",
-      "provider": "github",
-      "description": "GCN classifier for phage taxanomy classification",
-      "stars": 31,
-      "forks": 5,
-      "open_issues": 2,
-      "license": "GNU General Public License v3.0",
-      "languages": {
-        "Python": 89150,
-        "Shell": 869
-      },
-      "topics": [],
-      "updated_at": "2025-02-20T05:36:03Z",
-      "created_at": "2021-02-05T08:00:19Z",
       "latest_release": null
     },
     {
@@ -1640,47 +1716,32 @@
       "latest_release": null
     },
     {
-      "name": "VIPtree",
-      "url": "https://github.com/yosuken/ViPTreeGen",
+      "name": "ViruSpy",
+      "url": "https://github.com/NCBI-Hackathons/ViruSpy",
       "provider": "github",
-      "description": "a command line tool for viral proteomic tree generation, part of the ViPTree project: http://www.genome.jp/viptree",
+      "description": "A pipeline for viral identification from metagenomic samples",
       "stars": 28,
-      "forks": 7,
-      "open_issues": 4,
+      "forks": 4,
+      "open_issues": 5,
       "license": "MIT License",
       "languages": {
-        "Ruby": 36832,
-        "Shell": 9779,
-        "R": 1345
+        "Shell": 22660,
+        "Python": 8763,
+        "Perl": 5801
       },
-      "topics": [],
-      "updated_at": "2025-03-27T10:56:24Z",
-      "created_at": "2018-02-08T07:00:26Z",
-      "latest_release": "v1.1.3"
-    },
-    {
-      "name": "ViroProfiler",
-      "url": "https://github.com/deng-lab/viroprofiler",
-      "provider": "github",
-      "description": "A containerized bioinformatics pipeline for viral metagenomic data analysis",
-      "stars": 28,
-      "forks": 12,
-      "open_issues": 19,
-      "license": "MIT License",
-      "languages": {
-        "Nextflow": 128032,
-        "Python": 69941,
-        "Groovy": 43740,
-        "Dockerfile": 8916,
-        "Perl": 6397,
-        "HTML": 2499,
-        "Shell": 1932,
-        "R": 1902
-      },
-      "topics": [],
-      "updated_at": "2025-02-04T08:14:57Z",
-      "created_at": "2022-09-17T18:39:31Z",
-      "latest_release": "v0.2.5"
+      "topics": [
+        "virus",
+        "viral",
+        "metagenomics",
+        "viral-contigs",
+        "sra",
+        "genome-assembly",
+        "virus-discovery",
+        "virus-integration"
+      ],
+      "updated_at": "2025-07-26T18:19:37Z",
+      "created_at": "2017-09-25T18:13:17Z",
+      "latest_release": null
     },
     {
       "name": "PHIST",
@@ -1709,34 +1770,6 @@
       "latest_release": "v1.2.1"
     },
     {
-      "name": "ViruSpy",
-      "url": "https://github.com/NCBI-Hackathons/ViruSpy",
-      "provider": "github",
-      "description": "A pipeline for viral identification from metagenomic samples",
-      "stars": 27,
-      "forks": 4,
-      "open_issues": 5,
-      "license": "MIT License",
-      "languages": {
-        "Shell": 22660,
-        "Python": 8763,
-        "Perl": 5801
-      },
-      "topics": [
-        "virus",
-        "viral",
-        "metagenomics",
-        "viral-contigs",
-        "sra",
-        "genome-assembly",
-        "virus-discovery",
-        "virus-integration"
-      ],
-      "updated_at": "2024-11-10T23:06:55Z",
-      "created_at": "2017-09-25T18:13:17Z",
-      "latest_release": null
-    },
-    {
       "name": "Jaeger",
       "url": "https://github.com/Yasas1994/Jaeger",
       "provider": "github",
@@ -1749,23 +1782,6 @@
       "topics": [],
       "updated_at": "2025-03-11T14:33:01Z",
       "created_at": "2021-06-22T13:34:03Z",
-      "latest_release": null
-    },
-    {
-      "name": "CHERRY",
-      "url": "https://github.com/KennthShang/CHERRY",
-      "provider": "github",
-      "description": "Host prediction for phages",
-      "stars": 25,
-      "forks": 7,
-      "open_issues": 2,
-      "license": "GNU General Public License v3.0",
-      "languages": {
-        "Python": 83189
-      },
-      "topics": [],
-      "updated_at": "2025-03-29T01:42:38Z",
-      "created_at": "2021-12-20T13:26:34Z",
       "latest_release": null
     },
     {
@@ -1785,6 +1801,23 @@
       "topics": [],
       "updated_at": "2022-08-19T02:58:04Z",
       "created_at": "2015-08-31T03:22:45Z",
+      "latest_release": null
+    },
+    {
+      "name": "CHERRY",
+      "url": "https://github.com/KennthShang/CHERRY",
+      "provider": "github",
+      "description": "Host prediction for phages",
+      "stars": 25,
+      "forks": 7,
+      "open_issues": 2,
+      "license": "GNU General Public License v3.0",
+      "languages": {
+        "Python": 83189
+      },
+      "topics": [],
+      "updated_at": "2025-03-29T01:42:38Z",
+      "created_at": "2021-12-20T13:26:34Z",
       "latest_release": null
     },
     {
@@ -1865,6 +1898,26 @@
       "latest_release": "0.0.6"
     },
     {
+      "name": "DePhT",
+      "url": "https://github.com/chg60/DEPhT",
+      "provider": "github",
+      "description": "Fast and sensitive discovery of complete phages and prophages in bacterial genome sequences",
+      "stars": 21,
+      "forks": 4,
+      "open_issues": 7,
+      "license": "GNU General Public License v3.0",
+      "languages": {
+        "HTML": 846269,
+        "Python": 353369
+      },
+      "topics": [
+        "bioinformatics"
+      ],
+      "updated_at": "2025-09-18T12:12:01Z",
+      "created_at": "2021-01-15T18:04:15Z",
+      "latest_release": "v1.2.2"
+    },
+    {
       "name": "CliqueSNV",
       "url": "https://github.com/vtsyvina/CliqueSNV",
       "provider": "github",
@@ -1888,6 +1941,24 @@
       "latest_release": null
     },
     {
+      "name": "DeepHost",
+      "url": "https://github.com/deepomicslab/DeepHost",
+      "provider": "github",
+      "description": "This is the repository for DeepHost, a phage host prediction tool.",
+      "stars": 20,
+      "forks": 0,
+      "open_issues": 0,
+      "license": null,
+      "languages": {
+        "Python": 11408,
+        "Cython": 3736
+      },
+      "topics": [],
+      "updated_at": "2025-06-10T01:32:35Z",
+      "created_at": "2021-04-18T08:30:47Z",
+      "latest_release": null
+    },
+    {
       "name": "VIDHOP",
       "url": "https://github.com/flomock/vidhop",
       "provider": "github",
@@ -1905,24 +1976,23 @@
       "latest_release": null
     },
     {
-      "name": "DePhT",
-      "url": "https://github.com/chg60/DEPhT",
+      "name": "VirHostMatcher-Net",
+      "url": "https://github.com/WeiliWw/VirHostMatcher-Net",
       "provider": "github",
-      "description": "Fast and sensitive discovery of complete phages and prophages in bacterial genome sequences",
-      "stars": 20,
-      "forks": 4,
-      "open_issues": 7,
-      "license": "GNU General Public License v3.0",
+      "description": "VirHostMatcher-Net: A network-based computational tool for predicting virus-host interactions.",
+      "stars": 19,
+      "forks": 1,
+      "open_issues": 9,
+      "license": null,
       "languages": {
-        "HTML": 846269,
-        "Python": 353369
+        "C++": 38933,
+        "Python": 38836,
+        "Shell": 133
       },
-      "topics": [
-        "bioinformatics"
-      ],
-      "updated_at": "2024-12-10T09:30:00Z",
-      "created_at": "2021-01-15T18:04:15Z",
-      "latest_release": "v1.2.2"
+      "topics": [],
+      "updated_at": "2024-09-24T05:29:35Z",
+      "created_at": "2018-02-20T04:29:02Z",
+      "latest_release": null
     },
     {
       "name": "VEGA",
@@ -1943,6 +2013,46 @@
       "updated_at": "2025-03-12T01:27:59Z",
       "created_at": "2020-01-28T18:02:48Z",
       "latest_release": "v1.1"
+    },
+    {
+      "name": "virMiner",
+      "url": "https://github.com/TingtZHENG/VirMiner",
+      "provider": "github",
+      "description": "Scripts to quality control for metagenomic raw data, including removing the adapters, low quality reads, bases or PCR duplicates",
+      "stars": 19,
+      "forks": 4,
+      "open_issues": 3,
+      "license": null,
+      "languages": {
+        "Perl": 103133,
+        "Shell": 24410,
+        "R": 832,
+        "Python": 58
+      },
+      "topics": [
+        "scripts"
+      ],
+      "updated_at": "2025-10-28T23:09:17Z",
+      "created_at": "2019-01-16T09:03:48Z",
+      "latest_release": null
+    },
+    {
+      "name": "HostG",
+      "url": "https://github.com/KennthShang/HostG",
+      "provider": "github",
+      "description": "Graph convolutional neural network for host prediction",
+      "stars": 19,
+      "forks": 2,
+      "open_issues": 0,
+      "license": null,
+      "languages": {
+        "Python": 95786,
+        "Shell": 869
+      },
+      "topics": [],
+      "updated_at": "2025-01-16T12:17:34Z",
+      "created_at": "2021-05-27T13:22:56Z",
+      "latest_release": null
     },
     {
       "name": "PhANNs",
@@ -1966,61 +2076,6 @@
       "latest_release": null
     },
     {
-      "name": "HostG",
-      "url": "https://github.com/KennthShang/HostG",
-      "provider": "github",
-      "description": "Graph convolutional neural network for host prediction",
-      "stars": 19,
-      "forks": 2,
-      "open_issues": 0,
-      "license": null,
-      "languages": {
-        "Python": 95786,
-        "Shell": 869
-      },
-      "topics": [],
-      "updated_at": "2025-01-16T12:17:34Z",
-      "created_at": "2021-05-27T13:22:56Z",
-      "latest_release": null
-    },
-    {
-      "name": "DeepHost",
-      "url": "https://github.com/deepomicslab/DeepHost",
-      "provider": "github",
-      "description": "This is the repository for DeepHost, a phage host prediction tool.",
-      "stars": 19,
-      "forks": 0,
-      "open_issues": 0,
-      "license": null,
-      "languages": {
-        "Python": 11408,
-        "Cython": 3736
-      },
-      "topics": [],
-      "updated_at": "2025-01-10T03:54:09Z",
-      "created_at": "2021-04-18T08:30:47Z",
-      "latest_release": null
-    },
-    {
-      "name": "VirHostMatcher-Net",
-      "url": "https://github.com/WeiliWw/VirHostMatcher-Net",
-      "provider": "github",
-      "description": "VirHostMatcher-Net: A network-based computational tool for predicting virus-host interactions.",
-      "stars": 19,
-      "forks": 1,
-      "open_issues": 6,
-      "license": null,
-      "languages": {
-        "C++": 38933,
-        "Python": 38836,
-        "Shell": 133
-      },
-      "topics": [],
-      "updated_at": "2024-09-24T05:29:35Z",
-      "created_at": "2018-02-20T04:29:02Z",
-      "latest_release": null
-    },
-    {
       "name": "ViromeQC",
       "url": "https://github.com/SegataLab/viromeqc",
       "provider": "github",
@@ -2039,25 +2094,6 @@
       "updated_at": "2024-10-22T14:47:21Z",
       "created_at": "2020-02-13T20:47:03Z",
       "latest_release": "1.0"
-    },
-    {
-      "name": "VirMine",
-      "url": "https://github.com/thatzopoulos/virMine",
-      "provider": "github",
-      "description": null,
-      "stars": 18,
-      "forks": 5,
-      "open_issues": 8,
-      "license": "MIT License",
-      "languages": {
-        "Python": 57457,
-        "Shell": 3984,
-        "Dockerfile": 2458
-      },
-      "topics": [],
-      "updated_at": "2023-04-13T03:30:00Z",
-      "created_at": "2017-07-27T04:08:43Z",
-      "latest_release": null
     },
     {
       "name": "VirMine-RNA",
@@ -2079,25 +2115,39 @@
       "latest_release": null
     },
     {
-      "name": "virMiner",
-      "url": "https://github.com/TingtZHENG/VirMiner",
+      "name": "VirMine",
+      "url": "https://github.com/thatzopoulos/virMine",
       "provider": "github",
-      "description": "Scripts to quality control for metagenomic raw data, including removing the adapters, low quality reads, bases or PCR duplicates",
+      "description": null,
       "stars": 18,
+      "forks": 5,
+      "open_issues": 8,
+      "license": "MIT License",
+      "languages": {
+        "Python": 57457,
+        "Shell": 3984,
+        "Dockerfile": 2458
+      },
+      "topics": [],
+      "updated_at": "2023-04-13T03:30:00Z",
+      "created_at": "2017-07-27T04:08:43Z",
+      "latest_release": null
+    },
+    {
+      "name": "PHACTS",
+      "url": "https://github.com/deprekate/PHACTS",
+      "provider": "github",
+      "description": "A simple program to classify the lifestyle of phages.",
+      "stars": 17,
       "forks": 4,
       "open_issues": 3,
-      "license": null,
+      "license": "GNU General Public License v3.0",
       "languages": {
-        "Perl": 103133,
-        "Shell": 24410,
-        "R": 832,
-        "Python": 58
+        "Python": 8325
       },
-      "topics": [
-        "scripts"
-      ],
-      "updated_at": "2024-10-08T14:44:36Z",
-      "created_at": "2019-01-16T09:03:48Z",
+      "topics": [],
+      "updated_at": "2025-03-14T00:54:47Z",
+      "created_at": "2018-10-17T17:55:01Z",
       "latest_release": null
     },
     {
@@ -2124,8 +2174,8 @@
       "provider": "github",
       "description": "Analysis pipeline for the identification of viral integration events in genomes using a chimeric read approach.",
       "stars": 17,
-      "forks": 9,
-      "open_issues": 21,
+      "forks": 11,
+      "open_issues": 24,
       "license": "MIT License",
       "languages": {
         "Python": 124093,
@@ -2145,26 +2195,9 @@
         "viral-integration",
         "virusintegrationfinder"
       ],
-      "updated_at": "2024-12-20T01:43:08Z",
+      "updated_at": "2025-08-17T20:16:52Z",
       "created_at": "2022-04-01T19:30:55Z",
       "latest_release": "0.1.1"
-    },
-    {
-      "name": "PHACTS",
-      "url": "https://github.com/deprekate/PHACTS",
-      "provider": "github",
-      "description": "A simple program to classify the lifestyle of phages.",
-      "stars": 17,
-      "forks": 4,
-      "open_issues": 3,
-      "license": "GNU General Public License v3.0",
-      "languages": {
-        "Python": 8325
-      },
-      "topics": [],
-      "updated_at": "2025-03-14T00:54:47Z",
-      "created_at": "2018-10-17T17:55:01Z",
-      "latest_release": null
     },
     {
       "name": "CoCoNet",
@@ -2202,25 +2235,6 @@
       "latest_release": null
     },
     {
-      "name": "PhageHostLearn",
-      "url": "https://github.com/dimiboeckaerts/PhageHostLearn",
-      "provider": "github",
-      "description": "Pairwise machine learning models for phage-host interaction prediction",
-      "stars": 16,
-      "forks": 3,
-      "open_issues": 1,
-      "license": "MIT License",
-      "languages": {
-        "Jupyter Notebook": 26965111,
-        "Python": 475459,
-        "Julia": 14098
-      },
-      "topics": [],
-      "updated_at": "2025-02-26T17:13:10Z",
-      "created_at": "2021-03-06T19:48:37Z",
-      "latest_release": "v1.0"
-    },
-    {
       "name": "PlaqueSizeTool",
       "url": "https://github.com/ellinium/plaque_size_tool",
       "provider": "github",
@@ -2235,24 +2249,6 @@
       "topics": [],
       "updated_at": "2024-07-18T16:35:20Z",
       "created_at": "2021-02-04T02:10:12Z",
-      "latest_release": null
-    },
-    {
-      "name": "CrisprOpenDB",
-      "url": "https://github.com/edzuf/CrisprOpenDB",
-      "provider": "github",
-      "description": null,
-      "stars": 16,
-      "forks": 8,
-      "open_issues": 8,
-      "license": null,
-      "languages": {
-        "Jupyter Notebook": 67738,
-        "Python": 29263
-      },
-      "topics": [],
-      "updated_at": "2024-07-24T14:19:52Z",
-      "created_at": "2020-02-26T20:02:41Z",
       "latest_release": null
     },
     {
@@ -2277,21 +2273,41 @@
       "latest_release": "v.1.0.0"
     },
     {
-      "name": "Virtifier",
-      "url": "https://github.com/crazyinter/Seq2Vec",
+      "name": "CrisprOpenDB",
+      "url": "https://github.com/edzuf/CrisprOpenDB",
       "provider": "github",
-      "description": "a novel encoding method for viral identification in metagenomics",
-      "stars": 15,
-      "forks": 2,
-      "open_issues": 3,
+      "description": null,
+      "stars": 16,
+      "forks": 8,
+      "open_issues": 8,
       "license": null,
       "languages": {
-        "Python": 18639
+        "Jupyter Notebook": 67738,
+        "Python": 29263
       },
       "topics": [],
-      "updated_at": "2024-11-22T02:49:22Z",
-      "created_at": "2019-12-26T08:50:54Z",
+      "updated_at": "2024-07-24T14:19:52Z",
+      "created_at": "2020-02-26T20:02:41Z",
       "latest_release": null
+    },
+    {
+      "name": "PhageHostLearn",
+      "url": "https://github.com/dimiboeckaerts/PhageHostLearn",
+      "provider": "github",
+      "description": "Pairwise machine learning models for phage-host interaction prediction",
+      "stars": 16,
+      "forks": 3,
+      "open_issues": 1,
+      "license": "MIT License",
+      "languages": {
+        "Jupyter Notebook": 26965111,
+        "Python": 475459,
+        "Julia": 14098
+      },
+      "topics": [],
+      "updated_at": "2025-02-26T17:13:10Z",
+      "created_at": "2021-03-06T19:48:37Z",
+      "latest_release": "v1.0"
     },
     {
       "name": "Phage tools",
@@ -2312,6 +2328,23 @@
       "latest_release": null
     },
     {
+      "name": "Virtifier",
+      "url": "https://github.com/crazyinter/Seq2Vec",
+      "provider": "github",
+      "description": "a novel encoding method for viral identification in metagenomics",
+      "stars": 15,
+      "forks": 2,
+      "open_issues": 3,
+      "license": null,
+      "languages": {
+        "Python": 18639
+      },
+      "topics": [],
+      "updated_at": "2024-11-22T02:49:22Z",
+      "created_at": "2019-12-26T08:50:54Z",
+      "latest_release": null
+    },
+    {
       "name": "mulitPHATE",
       "url": "https://github.com/carolzhou/multiPhATE",
       "provider": "github",
@@ -2327,25 +2360,6 @@
       "updated_at": "2022-10-03T12:52:02Z",
       "created_at": "2018-09-20T01:00:37Z",
       "latest_release": "v1.0"
-    },
-    {
-      "name": "HOPS",
-      "url": "https://github.com/rhuebler/HOPS",
-      "provider": "github",
-      "description": null,
-      "stars": 14,
-      "forks": 1,
-      "open_issues": 8,
-      "license": "GNU General Public License v3.0",
-      "languages": {
-        "Java": 58397,
-        "Shell": 1113,
-        "R": 546
-      },
-      "topics": [],
-      "updated_at": "2024-10-18T02:43:30Z",
-      "created_at": "2019-01-26T10:42:30Z",
-      "latest_release": "0.35"
     },
     {
       "name": "VirMet",
@@ -2379,6 +2393,64 @@
       "latest_release": "v1.2.0"
     },
     {
+      "name": "HOPS",
+      "url": "https://github.com/rhuebler/HOPS",
+      "provider": "github",
+      "description": null,
+      "stars": 14,
+      "forks": 1,
+      "open_issues": 8,
+      "license": "GNU General Public License v3.0",
+      "languages": {
+        "Java": 58397,
+        "Shell": 1113,
+        "R": 546
+      },
+      "topics": [],
+      "updated_at": "2024-10-18T02:43:30Z",
+      "created_at": "2019-01-26T10:42:30Z",
+      "latest_release": "0.35"
+    },
+    {
+      "name": "BacteriophageHostPrediction",
+      "url": "https://github.com/dimiboeckaerts/BacteriophageHostPrediction",
+      "provider": "github",
+      "description": "Code and database related to our manuscript \"Predicting bacteriophage hosts based on receptor-binding proteins\"",
+      "stars": 13,
+      "forks": 4,
+      "open_issues": 0,
+      "license": "MIT License",
+      "languages": {
+        "Jupyter Notebook": 1004982,
+        "Python": 39191,
+        "Julia": 5445
+      },
+      "topics": [],
+      "updated_at": "2025-07-06T09:20:41Z",
+      "created_at": "2019-12-03T12:52:39Z",
+      "latest_release": null
+    },
+    {
+      "name": "VIGA",
+      "url": "https://github.com/viralInformatics/VIGA",
+      "provider": "github",
+      "description": null,
+      "stars": 13,
+      "forks": 1,
+      "open_issues": 2,
+      "license": null,
+      "languages": {
+        "HTML": 12036272,
+        "TeX": 40727,
+        "Python": 38440,
+        "Shell": 5989
+      },
+      "topics": [],
+      "updated_at": "2024-10-28T07:30:06Z",
+      "created_at": "2023-04-26T06:04:28Z",
+      "latest_release": null
+    },
+    {
       "name": "OLGenie",
       "url": "https://github.com/chasewnelson/OLGenie",
       "provider": "github",
@@ -2410,42 +2482,22 @@
       "latest_release": "v1.0.0"
     },
     {
-      "name": "VIGA",
-      "url": "https://github.com/viralInformatics/VIGA",
+      "name": "viralMetagenomicsPipeline",
+      "url": "https://github.com/wclose/viralMetagenomicsPipeline",
       "provider": "github",
-      "description": null,
-      "stars": 13,
-      "forks": 1,
-      "open_issues": 2,
+      "description": "Pipeline for metagenomic community analysis using DNA isolated from virus-like particles",
+      "stars": 12,
+      "forks": 8,
+      "open_issues": 0,
       "license": null,
       "languages": {
-        "HTML": 12036272,
-        "TeX": 40727,
-        "Python": 38440,
-        "Shell": 5989
+        "Shell": 42900,
+        "R": 39447,
+        "Python": 22735
       },
       "topics": [],
-      "updated_at": "2024-10-28T07:30:06Z",
-      "created_at": "2023-04-26T06:04:28Z",
-      "latest_release": null
-    },
-    {
-      "name": "BacteriophageHostPrediction",
-      "url": "https://github.com/dimiboeckaerts/BacteriophageHostPrediction",
-      "provider": "github",
-      "description": "Code and database related to our manuscript \"Predicting bacteriophage hosts based on receptor-binding proteins\"",
-      "stars": 12,
-      "forks": 4,
-      "open_issues": 0,
-      "license": "MIT License",
-      "languages": {
-        "Jupyter Notebook": 1004982,
-        "Python": 39191,
-        "Julia": 5445
-      },
-      "topics": [],
-      "updated_at": "2025-01-13T07:30:26Z",
-      "created_at": "2019-12-03T12:52:39Z",
+      "updated_at": "2024-11-10T23:07:11Z",
+      "created_at": "2020-03-20T18:00:48Z",
       "latest_release": null
     },
     {
@@ -2466,22 +2518,37 @@
       "latest_release": "1.0.4"
     },
     {
-      "name": "viralMetagenomicsPipeline",
-      "url": "https://github.com/wclose/viralMetagenomicsPipeline",
+      "name": "PHP",
+      "url": "https://github.com/congyulu-bioinfo/PHP",
       "provider": "github",
-      "description": "Pipeline for metagenomic community analysis using DNA isolated from virus-like particles",
-      "stars": 12,
-      "forks": 8,
+      "description": "Prokaryotic virus Host Predictor (PHP) is a computational tool for host prediction of prokaryotic viruses based on Gaussian Model (GM). PHP takes the complete or partial genomic sequences of prokaryotic viruses as inputs. For each virus sequence, PHP automatically calculates the probability of host for 60,105 prokaryotic genomes and takes the prokaryotic genome with the largest probability as the predicted host. PHP would output the name of the prokaryotic genome with the largest score, and output the host score of all prokaryotic genomes.",
+      "stars": 11,
+      "forks": 3,
+      "open_issues": 2,
+      "license": "GNU Lesser General Public License v3.0",
+      "languages": {
+        "Python": 18950
+      },
+      "topics": [],
+      "updated_at": "2024-11-18T14:03:06Z",
+      "created_at": "2019-12-12T07:43:02Z",
+      "latest_release": null
+    },
+    {
+      "name": "INHERIT",
+      "url": "https://github.com/Celestial-Bai/INHERIT",
+      "provider": "github",
+      "description": null,
+      "stars": 11,
+      "forks": 3,
       "open_issues": 0,
       "license": null,
       "languages": {
-        "Shell": 42900,
-        "R": 39447,
-        "Python": 22735
+        "Python": 9999270
       },
       "topics": [],
-      "updated_at": "2024-11-10T23:07:11Z",
-      "created_at": "2020-03-20T18:00:48Z",
+      "updated_at": "2025-10-15T17:54:11Z",
+      "created_at": "2021-08-21T15:25:45Z",
       "latest_release": null
     },
     {
@@ -2508,23 +2575,6 @@
       ],
       "updated_at": "2024-10-09T09:42:40Z",
       "created_at": "2014-01-15T18:28:58Z",
-      "latest_release": null
-    },
-    {
-      "name": "PHP",
-      "url": "https://github.com/congyulu-bioinfo/PHP",
-      "provider": "github",
-      "description": "Prokaryotic virus Host Predictor (PHP) is a computational tool for host prediction of prokaryotic viruses based on Gaussian Model (GM). PHP takes the complete or partial genomic sequences of prokaryotic viruses as inputs. For each virus sequence, PHP automatically calculates the probability of host for 60,105 prokaryotic genomes and takes the prokaryotic genome with the largest probability as the predicted host. PHP would output the name of the prokaryotic genome with the largest score, and output the host score of all prokaryotic genomes.",
-      "stars": 11,
-      "forks": 3,
-      "open_issues": 2,
-      "license": "GNU Lesser General Public License v3.0",
-      "languages": {
-        "Python": 18950
-      },
-      "topics": [],
-      "updated_at": "2024-11-18T14:03:06Z",
-      "created_at": "2019-12-12T07:43:02Z",
       "latest_release": null
     },
     {
@@ -2566,40 +2616,6 @@
       "latest_release": null
     },
     {
-      "name": "INHERIT",
-      "url": "https://github.com/Celestial-Bai/INHERIT",
-      "provider": "github",
-      "description": null,
-      "stars": 10,
-      "forks": 3,
-      "open_issues": 0,
-      "license": null,
-      "languages": {
-        "Python": 9999270
-      },
-      "topics": [],
-      "updated_at": "2025-03-10T05:24:02Z",
-      "created_at": "2021-08-21T15:25:45Z",
-      "latest_release": null
-    },
-    {
-      "name": "MetaPhinder",
-      "url": "https://github.com/vanessajurtz/MetaPhinder",
-      "provider": "github",
-      "description": null,
-      "stars": 9,
-      "forks": 4,
-      "open_issues": 7,
-      "license": "GNU General Public License v3.0",
-      "languages": {
-        "Python": 7107
-      },
-      "topics": [],
-      "updated_at": "2024-07-12T06:09:36Z",
-      "created_at": "2016-09-14T14:05:09Z",
-      "latest_release": null
-    },
-    {
       "name": "vAMPirus",
       "url": "https://github.com/Aveglia/vAMPirus",
       "provider": "github",
@@ -2627,6 +2643,23 @@
       "latest_release": "2.0.5"
     },
     {
+      "name": "DeepVHPPI",
+      "url": "https://github.com/QData/DeepVHPPI",
+      "provider": "github",
+      "description": "Motif Transformers for Predicting Protein-Protein Interactions Between a Novel Virus and Humans",
+      "stars": 9,
+      "forks": 2,
+      "open_issues": 0,
+      "license": null,
+      "languages": {
+        "Python": 380760
+      },
+      "topics": [],
+      "updated_at": "2024-12-04T16:57:53Z",
+      "created_at": "2020-11-25T17:35:36Z",
+      "latest_release": null
+    },
+    {
       "name": "Virhunter",
       "url": "https://github.com/cbib/virhunter",
       "provider": "github",
@@ -2645,20 +2678,20 @@
       "latest_release": null
     },
     {
-      "name": "DeepVHPPI",
-      "url": "https://github.com/QData/DeepVHPPI",
+      "name": "MetaPhinder",
+      "url": "https://github.com/vanessajurtz/MetaPhinder",
       "provider": "github",
-      "description": "Motif Transformers for Predicting Protein-Protein Interactions Between a Novel Virus and Humans",
+      "description": null,
       "stars": 9,
-      "forks": 2,
-      "open_issues": 0,
-      "license": null,
+      "forks": 4,
+      "open_issues": 7,
+      "license": "GNU General Public License v3.0",
       "languages": {
-        "Python": 380760
+        "Python": 7107
       },
       "topics": [],
-      "updated_at": "2024-12-04T16:57:53Z",
-      "created_at": "2020-11-25T17:35:36Z",
+      "updated_at": "2024-07-12T06:09:36Z",
+      "created_at": "2016-09-14T14:05:09Z",
       "latest_release": null
     },
     {
@@ -2719,24 +2752,6 @@
       "latest_release": null
     },
     {
-      "name": "Deep6",
-      "url": "https://github.com/janfelix/Deep6",
-      "provider": "github",
-      "description": null,
-      "stars": 6,
-      "forks": 0,
-      "open_issues": 0,
-      "license": null,
-      "languages": {
-        "Python": 20774,
-        "R": 1574
-      },
-      "topics": [],
-      "updated_at": "2024-03-22T09:13:27Z",
-      "created_at": "2022-09-14T02:08:58Z",
-      "latest_release": null
-    },
-    {
       "name": "phaMers",
       "url": "https://github.com/jondeaton/PhaMers",
       "provider": "github",
@@ -2775,6 +2790,41 @@
       "latest_release": null
     },
     {
+      "name": "Deep6",
+      "url": "https://github.com/janfelix/Deep6",
+      "provider": "github",
+      "description": null,
+      "stars": 6,
+      "forks": 0,
+      "open_issues": 0,
+      "license": null,
+      "languages": {
+        "Python": 20774,
+        "R": 1574
+      },
+      "topics": [],
+      "updated_at": "2024-03-22T09:13:27Z",
+      "created_at": "2022-09-14T02:08:58Z",
+      "latest_release": null
+    },
+    {
+      "name": "PredPHI",
+      "url": "https://github.com/xialab-ahu/PredPHI",
+      "provider": "github",
+      "description": "PredPHI",
+      "stars": 5,
+      "forks": 0,
+      "open_issues": 3,
+      "license": null,
+      "languages": {
+        "Python": 22343
+      },
+      "topics": [],
+      "updated_at": "2024-10-31T06:30:11Z",
+      "created_at": "2020-07-20T02:57:41Z",
+      "latest_release": null
+    },
+    {
       "name": "VIPERA",
       "url": "https://github.com/PathoGenOmics-Lab/VIPERA",
       "provider": "github",
@@ -2801,23 +2851,6 @@
       "updated_at": "2025-03-11T14:12:12Z",
       "created_at": "2023-04-14T08:13:21Z",
       "latest_release": "v1.2.0"
-    },
-    {
-      "name": "PredPHI",
-      "url": "https://github.com/xialab-ahu/PredPHI",
-      "provider": "github",
-      "description": "PredPHI",
-      "stars": 5,
-      "forks": 0,
-      "open_issues": 3,
-      "license": null,
-      "languages": {
-        "Python": 22343
-      },
-      "topics": [],
-      "updated_at": "2024-10-31T06:30:11Z",
-      "created_at": "2020-07-20T02:57:41Z",
-      "latest_release": null
     },
     {
       "name": "HoloVir",
@@ -2873,24 +2906,26 @@
       "latest_release": "v1.0.1"
     },
     {
-      "name": "crassus",
-      "url": "https://github.com/dcarrillox/CrassUS",
+      "name": "PhageTB",
+      "url": "https://github.com/raghavagps/phagetb",
       "provider": "github",
-      "description": "A snakemake pipeline for identifying crAss-like bacteriophages in metagenomes",
+      "description": "A multi-level prediction of interaction between bacteriophages and pathogenic bacterial hosts",
       "stars": 4,
       "forks": 0,
-      "open_issues": 11,
-      "license": "MIT License",
+      "open_issues": 0,
+      "license": "GNU General Public License v3.0",
       "languages": {
-        "Python": 116174,
-        "R": 4139
+        "Python": 28712
       },
       "topics": [
-        "virus-identification",
-        "virus-classification"
+        "bacterial-infections",
+        "bioinformatics",
+        "phage-host-prediction",
+        "antibacterial-virus",
+        "bacterophage"
       ],
-      "updated_at": "2023-04-11T15:39:49Z",
-      "created_at": "2021-08-28T08:52:26Z",
+      "updated_at": "2024-11-29T06:51:40Z",
+      "created_at": "2022-03-14T14:58:02Z",
       "latest_release": null
     },
     {
@@ -2912,26 +2947,61 @@
       "latest_release": null
     },
     {
-      "name": "PhageTB",
-      "url": "https://github.com/raghavagps/phagetb",
+      "name": "crassus",
+      "url": "https://github.com/dcarrillox/CrassUS",
       "provider": "github",
-      "description": "A multi-level prediction of interaction between bacteriophages and pathogenic bacterial hosts",
+      "description": "A snakemake pipeline for identifying crAss-like bacteriophages in metagenomes",
       "stars": 4,
       "forks": 0,
-      "open_issues": 0,
-      "license": "GNU General Public License v3.0",
+      "open_issues": 11,
+      "license": "MIT License",
       "languages": {
-        "Python": 28712
+        "Python": 116174,
+        "R": 4139
       },
       "topics": [
-        "bacterial-infections",
-        "bioinformatics",
-        "phage-host-prediction",
-        "antibacterial-virus",
-        "bacterophage"
+        "virus-identification",
+        "virus-classification"
       ],
-      "updated_at": "2024-11-29T06:51:40Z",
-      "created_at": "2022-03-14T14:58:02Z",
+      "updated_at": "2023-04-11T15:39:49Z",
+      "created_at": "2021-08-28T08:52:26Z",
+      "latest_release": null
+    },
+    {
+      "name": "PhagePromoter",
+      "url": "https://github.com/martaS95/PhagePromoter",
+      "provider": "github",
+      "description": null,
+      "stars": 3,
+      "forks": 1,
+      "open_issues": 1,
+      "license": null,
+      "languages": {},
+      "topics": [],
+      "updated_at": "2025-02-07T13:59:08Z",
+      "created_at": "2019-03-26T17:15:12Z",
+      "latest_release": null
+    },
+    {
+      "name": "virAnnot",
+      "url": "https://github.com/marieBvr/virAnnot",
+      "provider": "github",
+      "description": null,
+      "stars": 3,
+      "forks": 1,
+      "open_issues": 1,
+      "license": null,
+      "languages": {
+        "Perl": 325417,
+        "Python": 208740,
+        "Jinja": 17283,
+        "Shell": 7709,
+        "R": 1195,
+        "HTML": 966
+      },
+      "topics": [],
+      "updated_at": "2024-03-20T15:45:23Z",
+      "created_at": "2018-03-07T10:02:25Z",
       "latest_release": null
     },
     {
@@ -2988,40 +3058,20 @@
       "latest_release": null
     },
     {
-      "name": "virAnnot",
-      "url": "https://github.com/marieBvr/virAnnot",
+      "name": "PB-LKS",
+      "url": "https://github.com/wanchunnie/PB-LKS",
       "provider": "github",
-      "description": null,
-      "stars": 3,
+      "description": "A python package for phage-host interaction prediction",
+      "stars": 2,
       "forks": 1,
-      "open_issues": 1,
-      "license": null,
+      "open_issues": 0,
+      "license": "Apache License 2.0",
       "languages": {
-        "Perl": 325417,
-        "Python": 208740,
-        "Jinja": 17283,
-        "Shell": 7709,
-        "R": 1195,
-        "HTML": 966
+        "Python": 27621
       },
       "topics": [],
-      "updated_at": "2024-03-20T15:45:23Z",
-      "created_at": "2018-03-07T10:02:25Z",
-      "latest_release": null
-    },
-    {
-      "name": "PhagePromoter",
-      "url": "https://github.com/martaS95/PhagePromoter",
-      "provider": "github",
-      "description": null,
-      "stars": 3,
-      "forks": 1,
-      "open_issues": 1,
-      "license": null,
-      "languages": {},
-      "topics": [],
-      "updated_at": "2025-02-07T13:59:08Z",
-      "created_at": "2019-03-26T17:15:12Z",
+      "updated_at": "2025-02-08T22:15:53Z",
+      "created_at": "2023-11-26T06:43:43Z",
       "latest_release": null
     },
     {
@@ -3042,41 +3092,6 @@
       "updated_at": "2024-04-26T06:21:30Z",
       "created_at": "2023-12-21T00:29:37Z",
       "latest_release": "v0.20"
-    },
-    {
-      "name": "PB-LKS",
-      "url": "https://github.com/wanchunnie/PB-LKS",
-      "provider": "github",
-      "description": "A python package for phage-host interaction prediction",
-      "stars": 2,
-      "forks": 1,
-      "open_issues": 0,
-      "license": "Apache License 2.0",
-      "languages": {
-        "Python": 27621
-      },
-      "topics": [],
-      "updated_at": "2025-02-08T22:15:53Z",
-      "created_at": "2023-11-26T06:43:43Z",
-      "latest_release": null
-    },
-    {
-      "name": "VirusTaxo",
-      "url": "https://github.com/nahid18/virustaxo-wf",
-      "provider": "github",
-      "description": "VirusTaxo workflow on LatchBio",
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "license": null,
-      "languages": {
-        "Python": 6117,
-        "Dockerfile": 307
-      },
-      "topics": [],
-      "updated_at": "2024-01-09T07:25:26Z",
-      "created_at": "2022-06-27T17:23:55Z",
-      "latest_release": null
     },
     {
       "name": "VFM",
@@ -3114,6 +3129,24 @@
       "latest_release": null
     },
     {
+      "name": "VirusTaxo",
+      "url": "https://github.com/nahid18/virustaxo-wf",
+      "provider": "github",
+      "description": "VirusTaxo workflow on LatchBio",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "license": null,
+      "languages": {
+        "Python": 6117,
+        "Dockerfile": 307
+      },
+      "topics": [],
+      "updated_at": "2024-01-09T07:25:26Z",
+      "created_at": "2022-06-27T17:23:55Z",
+      "latest_release": null
+    },
+    {
       "name": "PHERI",
       "url": "https://github.com/andynet/pheri",
       "provider": "github",
@@ -3132,18 +3165,18 @@
       "latest_release": null
     },
     {
-      "name": "VirMatcher",
-      "url": "https://bitbucket.org/MAVERICLab/virmatcher/src/master/",
+      "name": "vConTACT",
+      "url": "https://bitbucket.org/MAVERICLab/vcontact/src/master/",
       "provider": "bitbucket",
-      "description": "",
+      "description": "VContact is a tool to perform Guilt-by-contig-association automatic classification of viral contigs",
       "stars": null,
-      "forks": 0,
+      "forks": 1,
       "open_issues": null,
       "license": null,
       "languages": null,
       "topics": null,
-      "updated_at": "2025-03-07T13:58:29.777806+00:00",
-      "created_at": "2021-01-26T21:07:30.419700+00:00",
+      "updated_at": "2016-10-11T00:16:39.599252+00:00",
+      "created_at": "2015-10-21T20:56:24.058354+00:00",
       "latest_release": null
     },
     {
@@ -3177,28 +3210,6 @@
       "latest_release": null
     },
     {
-      "name": "isling",
-      "url": "https://github.com/szsctt/intvi_other-tools",
-      "provider": "github",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 3,
-      "license": null,
-      "languages": {
-        "C": 711938,
-        "Perl": 433531,
-        "Shell": 115866,
-        "Python": 77046,
-        "Dockerfile": 12070,
-        "Makefile": 2871
-      },
-      "topics": [],
-      "updated_at": "2021-08-15T11:13:35Z",
-      "created_at": "2020-11-17T02:32:14Z",
-      "latest_release": null
-    },
-    {
       "name": null,
       "url": null,
       "provider": null,
@@ -3229,21 +3240,43 @@
       "latest_release": null
     },
     {
-      "name": "vConTACT",
-      "url": "https://bitbucket.org/MAVERICLab/vcontact/src/master/",
+      "name": "VirMatcher",
+      "url": "https://bitbucket.org/MAVERICLab/virmatcher/src/master/",
       "provider": "bitbucket",
-      "description": "VContact is a tool to perform Guilt-by-contig-association automatic classification of viral contigs",
+      "description": "",
       "stars": null,
-      "forks": 1,
+      "forks": 0,
       "open_issues": null,
       "license": null,
       "languages": null,
       "topics": null,
-      "updated_at": "2016-10-11T00:16:39.599252+00:00",
-      "created_at": "2015-10-21T20:56:24.058354+00:00",
+      "updated_at": "2025-03-07T13:58:29.777806+00:00",
+      "created_at": "2021-01-26T21:07:30.419700+00:00",
+      "latest_release": null
+    },
+    {
+      "name": "isling",
+      "url": "https://github.com/szsctt/intvi_other-tools",
+      "provider": "github",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "license": null,
+      "languages": {
+        "C": 711938,
+        "Perl": 433531,
+        "Shell": 115866,
+        "Python": 77046,
+        "Dockerfile": 12070,
+        "Makefile": 2871
+      },
+      "topics": [],
+      "updated_at": "2021-08-15T11:13:35Z",
+      "created_at": "2020-11-17T02:32:14Z",
       "latest_release": null
     }
   ],
-  "generated_at": "2025-04-01T08:48:06.865744",
+  "generated_at": "2025-11-01T08:46:33.922466",
   "total_count": 151
 }

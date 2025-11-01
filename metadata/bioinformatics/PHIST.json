@@ -18,19 +18,18 @@
       "build": [
         "{{ compiler('cxx') }}",
         "make",
+        "pkg-config",
         "host:",
         "python",
         "kmer-db",
         "zlib",
         "run:",
         "python",
-        "kmer-db",
-        "zlib"
+        "kmer-db"
       ],
       "run": [
         "python",
-        "kmer-db",
-        "zlib"
+        "kmer-db"
       ],
       "host": [
         "python",
@@ -38,8 +37,7 @@
         "zlib",
         "run:",
         "python",
-        "kmer-db",
-        "zlib"
+        "kmer-db"
       ]
     },
     "installation": ""
@@ -53,5 +51,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2025-03-14T03:22:37.131999"
+  "last_updated": "2025-11-01T11:28:50.893193"
 }

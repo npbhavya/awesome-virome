@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-04-01T09:31:53.743797",
+  "cache_date": "2025-11-01T11:29:26.890942",
   "data": {
     "paperId": "829c18dfddcf9da890b97c695cffdf054e2945f4",
     "externalIds": {
@@ -11,17 +11,16 @@
     },
     "url": "https://www.semanticscholar.org/paper/829c18dfddcf9da890b97c695cffdf054e2945f4",
     "title": "HostPhinder: A Phage Host Prediction Tool",
-    "abstract": "The current dramatic increase of antibiotic resistant bacteria has revitalised the interest in bacteriophages as alternative antibacterial treatment. Meanwhile, the development of bioinformatics methods for analysing genomic data places high-throughput approaches for phage characterization within reach. Here, we present HostPhinder, a tool aimed at predicting the bacterial host of phages by examining the phage genome sequence. Using a reference database of 2196 phages with known hosts, HostPhinder predicts the host species of a query phage as the host of the most genomically similar reference phages. As a measure of genomic similarity the number of co-occurring k-mers (DNA sequences of length k) is used. Using an independent evaluation set, HostPhinder was able to correctly predict host genus and species for 81% and 74% of the phages respectively, giving predictions for more phages than BLAST and significantly outperforming BLAST on phages for which both had predictions. HostPhinder predictions on phage draft genomes from the INTESTI phage cocktail corresponded well with the advertised targets of the cocktail. Our study indicates that for most phages genomic similarity correlates well with related bacterial hosts. HostPhinder is available as an interactive web service [1] and as a stand alone download from the Docker registry [2].",
     "venue": "Viruses",
     "year": 2016,
     "referenceCount": 78,
-    "citationCount": 116,
+    "citationCount": 124,
     "influentialCitationCount": 9,
     "openAccessPdf": {
       "url": "https://www.mdpi.com/1999-4915/8/5/116/pdf?version=1462365918",
       "status": "GOLD",
       "license": "CCBY",
-      "disclaimer": "Notice: This abstract is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4885074, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4885074, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "authors": [
       {
@@ -55,6 +54,30 @@
     ],
     "citations": [
       {
+        "paperId": "ff26613572439279880afc879fdfc7845b63d8b4",
+        "title": "MoEPH: an adaptive fusion-based LLM for predicting phage-host interactions in health informatics"
+      },
+      {
+        "paperId": "681b895e844938fe7236e1133899d7e418a55e23",
+        "title": "Phage quest: a beginner\u2019s guide to explore viral diversity in the prokaryotic world"
+      },
+      {
+        "paperId": "ef0032f2487e00a8769a40437a10f0d5bcf09f97",
+        "title": "Computational approaches for virus host prediction: A review of methods and applications"
+      },
+      {
+        "paperId": "2729b35603ba2b9d1071e8854aa9ae497361e87a",
+        "title": "Bacteriophage Therapy: Discovery, Development, and FDA Approval Pathways"
+      },
+      {
+        "paperId": "458946da0694757f3bfa4c57c2767383a4706257",
+        "title": "Enhancing Strain-level Phage-Host Prediction through Experimentally Validated Negatives and Feature Optimization Strategies"
+      },
+      {
+        "paperId": "738e94856497330a3549afce58b8ce127fec6b8d",
+        "title": "Systematic bacteriophage selection for the lysis of multiple Pseudomonas aeruginosa strains"
+      },
+      {
         "paperId": "1e6998725d181ec2e36d0b7f541c029ee5d023d2",
         "title": "Weberviruses are gut-associated phages that infect Klebsiella spp"
       },
@@ -64,7 +87,7 @@
       },
       {
         "paperId": "2237680e97ea2230dfe5699f35d85e5e52ed22c0",
-        "title": "Are You My Host? An Overview of Methods Used to Link Bacteriophages with Hosts."
+        "title": "Are You My Host? An Overview of Methods Used to Link Bacteriophages with Hosts"
       },
       {
         "paperId": "a69e2ff8f0d06704dc655d04ffd18294c72eb294",
@@ -241,6 +264,10 @@
       {
         "paperId": "63bcfa38087b6235358418ea69d67b712af20fda",
         "title": "DeepHost: phage host prediction with convolutional neural network"
+      },
+      {
+        "paperId": "cfa4c650eb5a54b7fc87ad8efdb38959476e1084",
+        "title": "DeePhage: distinguishing virulent and temperate phage-derived sequences in metavirome data with a deep learning approach"
       },
       {
         "paperId": "e1b9b334b5c63e3dc574cc736c98aaef88b8d2cd",
@@ -517,8 +544,13 @@
       {
         "paperId": "ac316fbe06ac41e16cf46ae8fae7e5631b9f642d",
         "title": "Loyola eCommons Loyola eCommons"
+      },
+      {
+        "paperId": "701027f82f5ae1b2573d7ee33bec4ac880024541",
+        "title": "CM-PHI: combining multi-hop attention graph neural network with sequence semantic analysis to predict phage-host interaction"
       }
     ],
+    "abstract": "The current dramatic increase of antibiotic resistant bacteria has revitalised the interest in bacteriophages as alternative antibacterial treatment. Meanwhile, the development of bioinformatics methods for analysing genomic data places high-throughput approaches for phage characterization within reach. Here, we present HostPhinder, a tool aimed at predicting the bacterial host of phages by examining the phage genome sequence. Using a reference database of 2196 phages with known hosts, HostPhinder predicts the host species of a query phage as the host of the most genomically similar reference phages. As a measure of genomic similarity the number of co-occurring k-mers (DNA sequences of length k) is used. Using an independent evaluation set, HostPhinder was able to correctly predict host genus and species for 81% and 74% of the phages respectively, giving predictions for more phages than BLAST and significantly outperforming BLAST on phages for which both had predictions. HostPhinder predictions on phage draft genomes from the INTESTI phage cocktail corresponded well with the advertised targets of the cocktail. Our study indicates that for most phages genomic similarity correlates well with related bacterial hosts. HostPhinder is available as an interactive web service [1] and as a stand alone download from the Docker registry [2].",
     "references": [
       {
         "paperId": "8ba1532f29a2ad058772273da0aaebf7946da723",
@@ -781,16 +813,16 @@
         "title": "Docker"
       },
       {
-        "paperId": "0546a25d905d8851749e084403e7f6900744884b",
-        "title": "The evolving threat of antimicrobial resistance: Options for action"
-      },
-      {
         "paperId": null,
         "title": "WHO Antimicrobial Resistance: Global Report on Surveillance; World Health Organization"
       },
       {
         "paperId": null,
         "title": "Resistance: Global Report on Surveillance"
+      },
+      {
+        "paperId": "0546a25d905d8851749e084403e7f6900744884b",
+        "title": "The evolving threat of antimicrobial resistance: Options for action"
       },
       {
         "paperId": null,

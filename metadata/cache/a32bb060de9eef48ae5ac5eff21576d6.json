@@ -1,1071 +1,72 @@
 {
-  "cache_date": "2025-03-17T23:32:04.517155",
+  "cache_date": "2025-11-01T11:36:28.543439",
   "data": [
     {
-      "created": "2025-03-17T18:54:21.609644+00:00",
-      "modified": "2025-03-17T18:54:21.727749+00:00",
-      "id": 15041866,
-      "conceptrecid": "5513927",
-      "doi": "10.5281/zenodo.15041866",
-      "conceptdoi": "10.5281/zenodo.5513927",
-      "doi_url": "https://doi.org/10.5281/zenodo.15041866",
+      "created": "2025-11-01T10:46:25.890552+00:00",
+      "modified": "2025-11-01T10:46:27.080527+00:00",
+      "id": 17433855,
+      "conceptrecid": "17433854",
+      "doi": "10.5281/zenodo.17433855",
+      "conceptdoi": "10.5281/zenodo.17433854",
+      "doi_url": "https://doi.org/10.5281/zenodo.17433855",
       "metadata": {
-        "title": "Jdaviz",
-        "doi": "10.5281/zenodo.15041866",
-        "publication_date": "2025-03-17",
-        "description": "<h1>4.2 (2025-03-17)</h1>\n<h2>New Features</h2>\n<ul>\n<li><p>Added API and UI for renaming subsets to Subset Tools plugin. [#3356, #3392]</p>\n</li>\n<li><p>Added API for updating subsets to Subset Tools plugin. [#3484]</p>\n</li>\n<li><p>Viewer data-menus are now found in the legend on the right of the viewer. [#3281]</p>\n</li>\n<li><p>Added 'select_rows' method to plugin tables to enable changing\ncurent selection by indicies or slice. Also added 'select_all' and 'select_none'\nmethods to change active selection to all table items or clear all selected\nitems without clearing the table. [#3381]</p>\n</li>\n<li><p>Plugin API methods and attributes are now searchable from the plugin tray (and visible when API hints are enabled). [#3384]</p>\n</li>\n<li><p>Snackbar history logger has been moved from an overlay to a separate tab in the right sidebar tray. [#3466]</p>\n</li>\n</ul>\n<h3>Cubeviz</h3>\n<ul>\n<li>Enhancements for the cube sonification plugin. [#3377, #3387]</li>\n</ul>\n<h3>Imviz</h3>\n<ul>\n<li><p>Catalog Search now supports importing Astropy table object via <code>import_catalog</code> method. [#3425]</p>\n</li>\n<li><p>Enhance the Catalog Search plugin to support additional columns when loading catalog data from files. [#3359]</p>\n</li>\n<li><p>Catalog Search <code>clear_table</code> now removes all associated markers from the viewer. [#3359]</p>\n</li>\n<li><p>Catalog Search now shows a table of selected entries and allows selecting/deselecting via a tool in the image viewer. [#3429]</p>\n</li>\n<li><p>Virtual Observatory plugin to query resources and download data products. [#2872, #3470]</p>\n</li>\n</ul>\n<h3>Specviz2d</h3>\n<ul>\n<li>Implement the Unit Conversion plugin in Specviz2D. [#3253]</li>\n</ul>\n<h2>API Changes</h2>\n<ul>\n<li><p><code>jdaviz.test()</code> is no longer available. Use <code>pytest --pyargs jdaviz &lt;options&gt;</code>\ndirectly if you wish to test your copy of <code>jdaviz</code>. [#3451]</p>\n</li>\n<li><p><code>**kwargs</code> from <code>viz.plugins['Subset Tools'].import_region(..., **kwargs)</code> is removed, <code>region_format=None</code>\nis now explicitly supported. The default value for <code>max_num_regions</code> option\nis now 20 instead of <code>None</code> (load everything). [#3453, #3474]</p>\n</li>\n</ul>\n<h3>Cubeviz</h3>\n<ul>\n<li><p><code>cubeviz.load_regions()</code> and <code>cubeviz.load_regions_from_file()</code> are deprecated.\nUse <code>cubeviz.plugins['Subset Tools'].import_region()</code> instead. [#3474]</p>\n</li>\n<li><p>Cubeviz-specific helper-level methods are deprecated and will be removed in the future in favor of plugin APIs as configs are centralized. [#3388]</p>\n</li>\n</ul>\n<h3>Imviz</h3>\n<ul>\n<li><p>Orientation plugin: <code>link_type</code> and <code>wcs_use_affine</code> (previously deprecated) have now been removed. [#3385]</p>\n</li>\n<li><p><code>imviz.load_regions()</code> and <code>imviz.load_regions_from_file()</code> are deprecated.\nUse <code>imviz.plugins['Subset Tools'].import_region()</code> instead. [#3474]</p>\n</li>\n<li><p><code>imviz.get_catalog_source_results()</code> is deprecated.\nUse <code>imviz.plugins['Catalog Search'].export_table()</code> instead. [#3497]</p>\n</li>\n<li><p><code>get_aperture_photometry_results</code> helper-level method is deprecated and will be removed in the future in favor of plugin APIs as configs are centralized. [#3388]</p>\n</li>\n</ul>\n<h3>Specviz</h3>\n<ul>\n<li>Specviz-specific helper-level methods are deprecated and will be removed in the future in favor of plugin APIs as configs are centralized. [#3388]</li>\n</ul>\n<h3>Specviz2d</h3>\n<ul>\n<li>Specviz2d-specific helper-level methods are deprecated and will be removed in the future in favor of plugin APIs as configs are centralized. [#3388]</li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li><p>Fix showing dataset dropdown in cubeviz's spectral extraction for flux-cube products from other plugins. [#3411]</p>\n</li>\n<li><p>SDSS line list now in vacuum, and SDSS IV in air. Previously, they were incorrectly categorized.\nTo keep categorization correct, SDSS IV list no longer carries wavelengths less than 2000 Angstrom. [#3458]</p>\n</li>\n<li><p>Fixed some broken flux conversions that were dropping the factor of solid angle. [#3457]</p>\n</li>\n<li><p>subset_tools.get_regions uses app.get_subsets under the hood, which fixes retrieving composite subsets when sky linked as\nwell as an errant snackbar message when a mix of spectral/spatial subsets are present. [#3476]</p>\n</li>\n</ul>\n<h3>Cubeviz</h3>\n<ul>\n<li><p>Fixed copious warnings from spectrum-at-spaxel tool when data has INF. [#3368]</p>\n</li>\n<li><p>Hide spectral subset layer visibility in flux/uncertainty viewers when slice indicator\nis within the spectral subset bounds. [#3437]</p>\n</li>\n</ul>\n<h3>Imviz</h3>\n<ul>\n<li><p>Improve performance of re-rendering during orientation change. [#3452]</p>\n</li>\n<li><p>Fix incorrect matching between RA/Dec and pixel coordinates in Catalog search results. [#3464]</p>\n</li>\n<li><p>Fixed &quot;zoom to selected&quot; in Catalog Search plugin when multiple sources are selected. [#3482]</p>\n</li>\n</ul>\n<h3>Specviz</h3>\n<ul>\n<li>Fixed traceback in model fitting due to units not being represented as strings. [#3412]</li>\n</ul>\n<h3>Specviz2d</h3>\n<ul>\n<li><p>Fix subset linking/displaying between pixel/wavelength in Specviz2d viewers. [#2736]</p>\n</li>\n<li><p>Fixes missing API entry for spectral extraction's export_bg_spectrum.  [#3447]</p>\n</li>\n<li><p>Fixes default location of trace in spectral extraction when some columns are filled with all zeros or nans. [#3475]</p>\n</li>\n</ul>\n<h2>Other Changes and Additions</h2>\n<ul>\n<li><p>Bumped minimum version of <code>photutils</code> to v1.12.1. [#3432]</p>\n</li>\n<li><p>Refactored flux conversion to use a single function for all plugin/viewer flux/surface brightness\nconversions. [#3457]</p>\n</li>\n</ul>",
+        "title": "An innovative model on measuring CO\u2082 quality",
+        "doi": "10.5281/zenodo.17433855",
+        "publication_date": "2025-10-30",
+        "description": "<h2><strong>Description</strong></h2>\n<p>The purpose of this experimental procedure is the initiative to design and validate an innovative ultrasonic density measuring methodology, able to measure the quality of propane phase mixture in heat pumps. For the experiment, CO\u2082 was chosen as an alternative to propane.</p>\n<p>In detail,&nbsp;to test our model and investigate the ultrasonic wave specifics and parameters, we conducted experiments with no flow, steady, mixtures in a 5kg CO\u2082 pressurized bottle, as a preparatory step for full experimentation on the final CO\u2082 circuit, simulating the flow and dynamics of the real heat pump&rsquo;s heat exchange circuit. The primary goal was to estimate the CO\u2082 quality (gas-to-liquid mass ratio) based on changes in temperature and pressure as would appear in the real heat pump. The output for the new ultrasonic sensor will be a number showing the CO\u2082 quality and the flow rate inside the pipeline. The learning space used by this innovative sensor neural net will be based on the final experimentation on a concurrent real estimation of the quality and the flow coming from a circuit-embedded Coriolis flowmeter, along with capacitance measurements of the mixture. This preliminary experimentation tested and validated the ability to perform regression on ultrasonic measurements across the pipeline, predicting CO\u2082 gas-liquid ratios. Experiments were conducted with varying CO\u2082 levels in a pressurized bottle, sensor positions, ultrasonic frequencies, and excitation signal types.</p>\n<h2><strong>Experimental setup</strong></h2>\n<p>The experimental setup consisted of the following ultrasonic hardware. The excitation source is the QAWRUMS SCAL2 Handheld AE calibrator for ultrasonic signal generation with a G150 sensor. The ultrasonic waves acquisition system is the Mistras Micro-SHM, generating corresponding multi-channel recordings (reference image: &rdquo;Transmitter Receivers&rdquo;). The receiving sensors utilized are either 2 PKWDI integral preamplified wideband sensors with a 200-850 kHz operational bandwidth, or 3 PK15I integral preamplified resonant sensors with a bandwidth of 100-450 kHz, resonating at 150 kHz.&nbsp;</p>\n<h2><strong>Test specimen and experimental conditions</strong></h2>\n<p>A commercial CO\u2082 pressurized steel bottle was utilized (reference image: &rdquo;CO\u2082 Pressurized Bottle&rdquo;) with experiments conducted always under three CO\u2082 fill levels, firstly at full occupancy (100%), secondly, half-filled (50%), and thirdly, empty (0%). The experiments were conducted at room temperature. For each CO\u2082 level, measurements were acquired at three cross sections along the bottle&rsquo;s axis: at the top, middle, and bottom; with the source placed on one side and the receivers on the opposite side of the cross-section diameter. Typical mounting layouts of the ultrasonic source and receivers can be seen at the images named &ldquo;Sensors Topology 1-3&rdquo;. For the PK15I resonant sensors, sinusoidal waves of 80, 120, and 160 kHz were triggered, while for the PKWDI sensors, waves of 200, 300, 400, and 500 kHz. For the source pulse wave signal (applied in both sets of sensors), the pulse width was 10 &mu;s in duration.</p>\n<p>&nbsp;</p>\n<table style=\"margin-left: auto; border-collapse: collapse; width: 257px; border-width: 0px; border-spacing: 0px; margin-right: auto; height: 276.5px;\">\n<tbody>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 358.031px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">CO\u2082 bottle level (%): </span></strong><span lang=\"EN-GB\">100 / 50 / 0</span></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 358.031px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">Measurement height: </span></strong><span lang=\"EN-GB\">Up / Mid / Low</span></p>\n</td>\n</tr>\n<tr style=\"height: 38.5833px;\">\n<td style=\"padding: 0in 5.75pt; height: 38.5833px; width: 358.031px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">Pulse waves </span></strong><span lang=\"EN-GB\">10 </span><span lang=\"EN-GB\"><span lang=\"EL\">&mu;</span>s</span></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 358.031px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sinewave sensors</span></strong></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 39.5261px; padding: 0in 5.75pt; height: 47.5833px;\">\n<p><span lang=\"EN-GB\">PK15I</span></p>\n</td>\n<td style=\"width: 318.505px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"2\">\n<p><span lang=\"EN-GB\">80, 120, 160 kHz</span></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 39.5261px; padding: 0in 5.75pt; height: 47.5833px;\">\n<p><span lang=\"EN-GB\">PKWDI</span></p>\n</td>\n<td style=\"width: 318.505px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"2\">\n<p><span lang=\"EN-GB\">200, 300, 400, 500 kHz</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>For the data acquisition, the recording duration was 6 seconds per measurement, with a repetition of 5 measurements per configuration for statistical stability. Therefore, the acquired learning dataset was a combination of measurements for all excitation signals, at all levels and positions, resulting in 405 individual recordings/files.</p>\n<h2><strong>Data preprocessing</strong></h2>\n<p>The raw 3-channel files (in all experiments, two sets of sensors were used, one with 3 PK15I and the other with 2 PKWDI sensors) were parsed using the corresponding Python library. There was a temporal synchronization across channels using configurable timestamp tolerance. The waveforms were selected through energy-based selection (sum of squares) to identify a representative signal per channel. A Butterworth band-pass filter was applied. Mean-centering and resampling to uniform length (4096 samples) were used for waveform normalization. Time-frequency transformation<strong> </strong>was applied utilizing &ldquo;Continuous Wavelet Transform (CWT)&rdquo; using <em>PyWavelets,</em> utilizing <em>Complex Morlet (cmor1.5-1.0) wavelet, </em>and a resolution of 1024 scales spanning the observed frequency range. By this method, scalograms were generated and image-processed with<strong> </strong>robust percentile normalization to 8-bit grayscale, resizing to 1024&times;1024-pixel resolution, with an optional histogram equalization (global, auto-contrast, or CLAHE) (reference image: &rdquo;Typical Scalogram&rdquo;).</p>\n<p>Regarding the dataset organization, the acquired data were partitioned and organized in separate subdirectories for training, validation, and testing. From these initial DTA waveforms, corresponding scalograms were created, one set for each experiment, with each set consisting of one scalogram per channel. As input to the visual Machine Learning (ML) &amp; neural regressor, a stacked format of all channels per experiment was used. Thereby, in each batch of learning space, a stacked image with scalograms per channel was used. The stacked image had 3 pixels depth (one pixel per ultrasonic sensor/channel) and was augmented with 2 additional pixels with the current bottle&rsquo;s temperature and pressure, thereby creating a multi-pixel image feeding the regressor with fully descriptive data.</p>\n<h2><strong>Developed model architecture</strong></h2>\n<p>Our developed model has been originally designed having in mind modularity been capable of providing a set of state-of-the-art regression models. Thereby, it is a multi-fold model able upon proper configuration, to enable a built-in SVR machine, or neuronal architectures based on simple CNN, ResNet8, ResNet34, or EfficientNet-B0 regressors.&nbsp;</p>\n<h3><strong>&nbsp; &nbsp; &nbsp;Machine Learning Support Vector Regressor (SVR)</strong></h3>\n<p>To fully assess our developed model performance, firstly, the SVR was enabled, which is a supervised machine learning algorithm that predicts continuous values by fitting a curve through the data within a defined tolerance margin (tube). The concept of a tube around the regression line is that errors for data points within the tube are ignored and only points outside the tube contribute to the model's training, which are called \"support vectors\". SVR is very effective for small datasets with structured numerical features and offers fast training and inference.</p>\n<h3><strong>&nbsp; &nbsp; &nbsp;Neuronal Regressor</strong></h3>\n<p>The neuronal image regressors are used to predict a continuous output. A simple CNN, ResNet-18 &amp; 34, and EfficientNet-B0 topologies where used:</p>\n<p>1) Simple custom CNN of 2-stride pyramid with channel doubling and global average pooling.</p>\n<p>2) ResNet-18 (18 total layers, 8 residual blocks) with adapted first convolution for multi-channel input, modified classification head, and ResNet-34 (34 total layers, 16 residual blocks) with adapted first convolution for multi-channel input, modified classification head, both of which are Residual Networks (ResNet), differing primarily in depth and computational requirements. The choice between different ResNet depths involves a trade-off between performance and computational efficiency. ResNet-34 provides better feature extraction and accuracy, but with slower convergence.</p>\n<p>3) EfficientNet-B0, with multi-channel adaptation with pretrained ImageNet weights, which is a<em> </em>resource-efficient CNN excelling at image classification by using a compound scaling method to optimize the networks&rsquo; dimensions of depth, width, and resolution systematically.</p>\n<h2><strong>Evaluation</strong></h2>\n<p>The model&rsquo;s outputs are: mixture/medium flow rate, CO\u2082 phase quality in percentage, and mixture density.&nbsp; As outputs, due to the lack of a real flow meter (like Coriolis), mixture density, and quality, we used mockup data fitted to this static experiment with the CO\u2082 bottle. After all, we wish mainly to validate the efficiency of our model to regress well using these packed multi-pixel image input data on mockup data of flow, density, and quality, as they usually appear in heat pumps. The performance was evaluated by the following per-target metrics:</p>\n<p>-&nbsp;&nbsp; MAE (Mean Absolute Error), the average error of absolute differences between predictions and actual values</p>\n<p>-&nbsp;&nbsp; MSE (Mean Squared Error), the average of squared differences, which penalizes more the larger errors</p>\n<p>-&nbsp;&nbsp; RMSE (Root Mean Squared Error), the square root of MSE</p>\n<p>-&nbsp;&nbsp; R&sup2;, a coefficient of determination [0, 1], which is useful when comparing different models or datasets, with 1.0 meaning perfect predictions</p>\n<p>- Pearson Correlation coefficient (<em>r</em>) with a range of -1 to +1, with +/-1 meaning a perfect positive/negative linear relationship, and 0 meaning no linear relationship.&nbsp;</p>\n<p>Pearson measures how the pattern matches, if predictions correlate with actual values. It is a good metric for understanding relationships between the model and pattern, and for model comparison to better capture the pattern. R&sup2; measures if the values match, so how accurately the actual values are predicted.</p>\n<h2><strong>Results and conclusion</strong></h2>\n<p>The results of the CO\u2082 bottle experiments for the three target predictions of <em>flow rate</em>, <em>quality</em> and <em>density</em>, are very encouraging, with both the SVR model and neuronal regressor yielding quite good predictive performance for the evaluating metrics (reference images: &rdquo;SVR results&rdquo; and &ldquo;Neuronal regressor results&rdquo;). More specifically:&nbsp;</p>\n<p>&nbsp;</p>\n<div>\n<h3><strong>&nbsp; &nbsp; &nbsp;SVR validation results</strong></h3>\n<div>\n<table style=\"border-collapse: collapse; margin-left: auto; margin-right: auto; width: 37.0988%; height: 190.333px;\">\n<thead>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">&nbsp;</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MAE</strong></p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp;RMSE</strong></p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MSE</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; &nbsp; R&sup2;</strong></p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\"><strong>&nbsp; &nbsp; &nbsp;r</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Flow rate</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0495</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0657</p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0043</p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9806</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9961</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Quality</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0551</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0613</p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0038</p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9734</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9892</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Density</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0349</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0470</p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0022</p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9884</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9960</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<h3><strong>&nbsp; &nbsp; &nbsp;Neuronal Visual Regressor validation results</strong></h3>\n<div>\n<table style=\"border-collapse: collapse; margin-left: auto; margin-right: auto; width: 37.854%; height: 191.312px;\">\n<thead>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 47.5833px;\">&nbsp;</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MAE</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp;RMSE</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MSE</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; &nbsp; R&sup2;</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; &nbsp; &nbsp;r</strong></p>\n</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 48.5625px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 48.5625px;\">\n<p><strong>Flow rate</strong></p>\n</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp;0.0446</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp;0.0465</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp;0.0022</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp; 0.9903</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp; 0.9998</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Quality</strong></p>\n</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0438</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0564</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0032</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9775</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9900</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Density</strong></p>\n</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0328</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0384</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0015</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9923</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9991</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>\n<p>Based on the findings, the EfficientNet-B0 model outperforms the excellent predictive performance of the SVR model at the three targets. The highest accuracy is achieved at the density, with R&sup2;=0.9923, MAE=0.0328, and RMSE=0.0384. The model explains 99.23% of the variance and maintains exceptionally low prediction errors. Thus, the ultrasonic signal features are highly informative for density estimation in CO\u2082 mixtures. Flow prediction also shows excellent performance with a near-perfect correlation (r=0.9998), offering robust predictive capability with minimal error. The quality validation results show slightly lower but still strong performance with R&sup2;=0.9775, indicating some additional complexity in this target compared to density and flow.</p>\n</div>\n</div>",
         "access_right": "open",
         "creators": [
           {
-            "name": "JDADF Developers",
-            "affiliation": null
-          },
-          {
-            "name": "Averbukh, Jesse",
-            "affiliation": null,
-            "orcid": "0000-0002-0041-0363"
-          },
-          {
-            "name": "Bradley, Larry",
-            "affiliation": null,
-            "orcid": "0000-0002-7908-9284"
-          },
-          {
-            "name": "Buikhuizen, Mario",
-            "affiliation": null
-          },
-          {
-            "name": "Busko, Ivo",
-            "affiliation": null
-          },
-          {
-            "name": "Cherinka, Brian",
-            "affiliation": null,
-            "orcid": "0000-0002-4289-7923"
-          },
-          {
-            "name": "Conroy, Kyle",
-            "affiliation": null,
-            "orcid": "0000-0002-5442-8550"
-          },
-          {
-            "name": "Earl, Nicholas",
-            "affiliation": null,
-            "orcid": "0000-0003-1714-7415"
-          },
-          {
-            "name": "Fox, Ori",
-            "affiliation": null,
-            "orcid": "0000-0003-2238-1572"
-          },
-          {
-            "name": "Geda, Robel",
-            "affiliation": null,
-            "orcid": "0000-0003-1509-9966"
-          },
-          {
-            "name": "Green, Gilbert",
-            "affiliation": null,
-            "orcid": "0009-0004-2370-0699"
-          },
-          {
-            "name": "Jones, Craig",
-            "affiliation": null
-          },
-          {
-            "name": "Karatay, Hatice",
-            "affiliation": null,
-            "orcid": "0009-0003-9872-9384"
-          },
-          {
-            "name": "Kotler, Jenn",
-            "affiliation": null,
-            "orcid": "0000-0002-1294-7862"
-          },
-          {
-            "name": "Lim, Pey Lian",
-            "affiliation": null,
-            "orcid": "0000-0003-0079-4114"
-          },
-          {
-            "name": "Morris, Brett",
-            "affiliation": null,
-            "orcid": "0000-0003-2528-3409"
-          },
-          {
-            "name": "Nguyen, Duy",
-            "affiliation": null,
-            "orcid": "0000-0002-1534-336X"
-          },
-          {
-            "name": "O'Steen, Richard",
-            "affiliation": null,
-            "orcid": "0000-0002-2432-8946"
-          },
-          {
-            "name": "Ogaz, Sara",
-            "affiliation": null
-          },
-          {
-            "name": "Ogle, Patrick",
-            "affiliation": null,
-            "orcid": "0000-0002-3471-981X"
-          },
-          {
-            "name": "Otor, O. Justin",
-            "affiliation": null,
-            "orcid": "0000-0002-4679-5692"
-          },
-          {
-            "name": "Pacifici, Camilla",
-            "affiliation": null,
-            "orcid": "0000-0003-4196-0617"
-          },
-          {
-            "name": "Robitaille, Thomas",
-            "affiliation": null,
-            "orcid": "0000-0002-8642-1329"
-          },
-          {
-            "name": "Shanahan, Clare",
-            "affiliation": null,
-            "orcid": "0009-0008-4112-7418"
-          },
-          {
-            "name": "Tollerud, Erik",
-            "affiliation": null,
-            "orcid": "0000-0002-9599-310X"
-          },
-          {
-            "name": "Volfman, Sabrina",
+            "name": "Centre for Research and Technology Hellas",
             "affiliation": null
           }
         ],
         "related_identifiers": [
           {
-            "identifier": "https://github.com/spacetelescope/jdaviz/tree/v4.2.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "v4.2.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/spacetelescope/jdaviz"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "bsd-3-clause"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 46,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "5513927"
-              }
-            }
-          ]
-        },
-        "notes": "If you use this software, please cite it as below."
-      },
-      "title": "Jdaviz",
-      "links": {
-        "self": "https://zenodo.org/api/records/15041866",
-        "self_html": "https://zenodo.org/records/15041866",
-        "doi": "https://doi.org/10.5281/zenodo.15041866",
-        "self_doi": "https://doi.org/10.5281/zenodo.15041866",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15041866",
-        "parent": "https://zenodo.org/api/records/5513927",
-        "parent_html": "https://zenodo.org/records/5513927",
-        "parent_doi": "https://doi.org/10.5281/zenodo.5513927",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5513927",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15041866/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15041866/sequence/default",
-        "files": "https://zenodo.org/api/records/15041866/files",
-        "media_files": "https://zenodo.org/api/records/15041866/media-files",
-        "archive": "https://zenodo.org/api/records/15041866/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15041866/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15041866/versions/latest",
-        "latest_html": "https://zenodo.org/records/15041866/latest",
-        "versions": "https://zenodo.org/api/records/15041866/versions",
-        "draft": "https://zenodo.org/api/records/15041866/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15041866/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15041866/access/links",
-        "access_grants": "https://zenodo.org/api/records/15041866/access/grants",
-        "access_users": "https://zenodo.org/api/records/15041866/access/users",
-        "access_request": "https://zenodo.org/api/records/15041866/access/request",
-        "access": "https://zenodo.org/api/records/15041866/access",
-        "communities": "https://zenodo.org/api/records/15041866/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15041866/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15041866/requests"
-      },
-      "updated": "2025-03-17T18:54:21.727749+00:00",
-      "recid": "15041866",
-      "revision": 4,
-      "files": [
-        {
-          "id": "5a870a57-ff14-4a0b-a0ef-46f658937c75",
-          "key": "spacetelescope/jdaviz-v4.2.0.zip",
-          "size": 7241637,
-          "checksum": "md5:aa05cbb8bb7bed74d83fa612512cf8f2",
-          "links": {
-            "self": "https://zenodo.org/api/records/15041866/files/spacetelescope/jdaviz-v4.2.0.zip/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "21062"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 234,
-        "unique_downloads": 230,
-        "views": 2605,
-        "unique_views": 2407,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 3,
-        "version_views": 3
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-15T07:21:36.991291+00:00",
-      "modified": "2025-03-15T07:23:49.504408+00:00",
-      "id": 15030508,
-      "conceptrecid": "15030507",
-      "doi": "10.5281/zenodo.15030508",
-      "conceptdoi": "10.5281/zenodo.15030507",
-      "doi_url": "https://doi.org/10.5281/zenodo.15030508",
-      "metadata": {
-        "title": "Assessment and Learning Depiction of teachers' views The case of Second Chance Schools",
-        "doi": "10.5281/zenodo.15030508",
-        "publication_date": "2025-02-20",
-        "description": "<p><strong><span>Abstract</span></strong></p>\n<p><em><span>The institution of assessment is an integral part of the educational function and is connected with various parameters of education such as the identification of positive elements and weaknesses, the identification of problems, the prioritization of objectives, the assessment of educational planning, the utilization of the research efforts of the scientific and educational community, the assessment of educational work, and the professional development of teachers. Learning is an interrelated concept of assessment. In adult education, it has some special aspects in relation to the learning of children or adolescents, due to the differences in the experience, needs and motivations of adult learners. Adult education focuses on making learning more practical, connected with real needs and their daily lives, while teaching methods are adapted to be more flexible and encourage active participation. Through the present research and the formulation of the questionnaire, we wish to capture the views of teachers in second chance schools that are part of adult education regarding assessment. In this article, we examine the aspects of learning and assessment. The reference population is the entire teaching staff - hourly and seconded - of all Second Chance Schools in Greece.</span></em></p>\n<p><strong><span>Keywords:</span></strong><em><span> assessment, learning, second chance schools, adult education</span></em></p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "\u0391nastasia Papadopoulou1*, Antonios Bouras, DR2",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "assessment, learning, second chance schools, adult education"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "I",
-          "pages": "87-96",
-          "title": "ISRG Journal of Education, Humanities and Literature (ISRGJEHL)",
-          "volume": "II"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15030507"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Assessment and Learning Depiction of teachers' views The case of Second Chance Schools",
-      "links": {
-        "self": "https://zenodo.org/api/records/15030508",
-        "self_html": "https://zenodo.org/records/15030508",
-        "doi": "https://doi.org/10.5281/zenodo.15030508",
-        "self_doi": "https://doi.org/10.5281/zenodo.15030508",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15030508",
-        "parent": "https://zenodo.org/api/records/15030507",
-        "parent_html": "https://zenodo.org/records/15030507",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15030507",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15030507",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15030508/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15030508/sequence/default",
-        "files": "https://zenodo.org/api/records/15030508/files",
-        "media_files": "https://zenodo.org/api/records/15030508/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:15030508:ISRGJEHL1292025I.pdf/full/^10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:15030508:ISRGJEHL1292025I.pdf/full/^50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:15030508:ISRGJEHL1292025I.pdf/full/^100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:15030508:ISRGJEHL1292025I.pdf/full/^250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:15030508:ISRGJEHL1292025I.pdf/full/^750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:15030508:ISRGJEHL1292025I.pdf/full/^1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/15030508/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15030508/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15030508/versions/latest",
-        "latest_html": "https://zenodo.org/records/15030508/latest",
-        "versions": "https://zenodo.org/api/records/15030508/versions",
-        "draft": "https://zenodo.org/api/records/15030508/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15030508/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15030508/access/links",
-        "access_grants": "https://zenodo.org/api/records/15030508/access/grants",
-        "access_users": "https://zenodo.org/api/records/15030508/access/users",
-        "access_request": "https://zenodo.org/api/records/15030508/access/request",
-        "access": "https://zenodo.org/api/records/15030508/access",
-        "communities": "https://zenodo.org/api/records/15030508/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15030508/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15030508/requests"
-      },
-      "updated": "2025-03-15T07:23:49.504408+00:00",
-      "recid": "15030508",
-      "revision": 6,
-      "files": [
-        {
-          "id": "1fd646c2-ad04-4925-aeaa-5e045296f635",
-          "key": "ISRGJEHL1292025I.pdf",
-          "size": 976620,
-          "checksum": "md5:95d1739b8c4ee3fcfd2823ede7be95a9",
-          "links": {
-            "self": "https://zenodo.org/api/records/15030508/files/ISRGJEHL1292025I.pdf/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "587322"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 15,
-        "unique_downloads": 1,
-        "views": 5,
-        "unique_views": 3,
-        "version_downloads": 15,
-        "version_unique_downloads": 1,
-        "version_unique_views": 3,
-        "version_views": 5
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-15T07:17:20.727402+00:00",
-      "modified": "2025-03-15T07:17:20.922369+00:00",
-      "id": 15030453,
-      "conceptrecid": "15030452",
-      "doi": "10.5281/zenodo.15030453",
-      "conceptdoi": "10.5281/zenodo.15030452",
-      "doi_url": "https://doi.org/10.5281/zenodo.15030453",
-      "metadata": {
-        "title": "Assessment and Learning Depiction of teachers' views The case of Second Chance Schools",
-        "doi": "10.5281/zenodo.15030453",
-        "publication_date": "2025-03-15",
-        "description": "<p><strong><span>Abstract</span></strong></p>\n<p><em><span>The institution of assessment is an integral part of the educational function and is connected with various parameters of education such as the identification of positive elements and weaknesses, the identification of problems, the prioritization of objectives, the assessment of educational planning, the utilization of the research efforts of the scientific and educational community, the assessment of educational work, and the professional development of teachers. Learning is an interrelated concept of assessment. In adult education, it has some special aspects in relation to the learning of children or adolescents, due to the differences in the experience, needs and motivations of adult learners. Adult education focuses on making learning more practical, connected with real needs and their daily lives, while teaching methods are adapted to be more flexible and encourage active participation. Through the present research and the formulation of the questionnaire, we wish to capture the views of teachers in second chance schools that are part of adult education regarding assessment. In this article, we examine the aspects of learning and assessment. The reference population is the entire teaching staff - hourly and seconded - of all Second Chance Schools in Greece.</span></em></p>\n<p><strong><span>Keywords:</span></strong><em><span> assessment, learning, second chance schools, adult education</span></em></p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "\u0391nastasia Papadopoulou1*, Antonios Bouras, DR2",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "assessment, learning, second chance schools, adult education"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "I",
-          "pages": "79-88",
-          "title": "ISRG Journal of Education, Humanities and Literature (ISRGJEHL)",
-          "volume": "II"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15030452"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Assessment and Learning Depiction of teachers' views The case of Second Chance Schools",
-      "links": {
-        "self": "https://zenodo.org/api/records/15030453",
-        "self_html": "https://zenodo.org/records/15030453",
-        "doi": "https://doi.org/10.5281/zenodo.15030453",
-        "self_doi": "https://doi.org/10.5281/zenodo.15030453",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15030453",
-        "parent": "https://zenodo.org/api/records/15030452",
-        "parent_html": "https://zenodo.org/records/15030452",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15030452",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15030452",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15030453/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15030453/sequence/default",
-        "files": "https://zenodo.org/api/records/15030453/files",
-        "media_files": "https://zenodo.org/api/records/15030453/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:15030453:ISRGJEHL1292025I.pdf/full/^10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:15030453:ISRGJEHL1292025I.pdf/full/^50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:15030453:ISRGJEHL1292025I.pdf/full/^100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:15030453:ISRGJEHL1292025I.pdf/full/^250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:15030453:ISRGJEHL1292025I.pdf/full/^750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:15030453:ISRGJEHL1292025I.pdf/full/^1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/15030453/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15030453/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15030453/versions/latest",
-        "latest_html": "https://zenodo.org/records/15030453/latest",
-        "versions": "https://zenodo.org/api/records/15030453/versions",
-        "draft": "https://zenodo.org/api/records/15030453/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15030453/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15030453/access/links",
-        "access_grants": "https://zenodo.org/api/records/15030453/access/grants",
-        "access_users": "https://zenodo.org/api/records/15030453/access/users",
-        "access_request": "https://zenodo.org/api/records/15030453/access/request",
-        "access": "https://zenodo.org/api/records/15030453/access",
-        "communities": "https://zenodo.org/api/records/15030453/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15030453/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15030453/requests"
-      },
-      "updated": "2025-03-15T07:17:20.922369+00:00",
-      "recid": "15030453",
-      "revision": 4,
-      "files": [
-        {
-          "id": "cb71d53d-48ff-4d7b-8aba-cc072da1bdf2",
-          "key": "ISRGJEHL1292025I.pdf",
-          "size": 976932,
-          "checksum": "md5:7287ba702c874f8ec75b805c2a736bd0",
-          "links": {
-            "self": "https://zenodo.org/api/records/15030453/files/ISRGJEHL1292025I.pdf/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "587322"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 15,
-        "unique_downloads": 5,
-        "views": 4,
-        "unique_views": 3,
-        "version_downloads": 15,
-        "version_unique_downloads": 5,
-        "version_unique_views": 3,
-        "version_views": 4
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-14T19:01:58.178366+00:00",
-      "modified": "2025-03-14T20:25:21.201661+00:00",
-      "id": 15028053,
-      "conceptrecid": "15028052",
-      "doi": "10.5281/zenodo.15028053",
-      "conceptdoi": "10.5281/zenodo.15028052",
-      "doi_url": "https://doi.org/10.5281/zenodo.15028053",
-      "metadata": {
-        "title": "Consort Yu",
-        "doi": "10.5281/zenodo.15028053",
-        "publication_date": "2025-03-14",
-        "description": "In the piece 'Consort Yu' (with Max/MSP), I was inspired by the traditional Chinese Peking Opera 'The Hegemon-King Bids His Lady Farewell', which is about the fight between two kings, Xiang Yu and Liu Bang. In the opera, Xiang Yu is surrounded by Liu Bang's forces and on the verge of total defeat. Realizing the dire situation that has befallen them, Xiang Yu's wife, Consort Yu, begs to die alongside her husband, but he strongly refuses her wish. Afterwards, as he is distracted, Yu commits suicide with Xiang Yu's own sword. I tried to create connections between traditional Peking opera and contemporary electronic music. First, I used timbres and rhythms similar to those used by 'The Hegemon-King Bids His Lady Farewell'. Also, the musical use of unstable pulses, such as tempo rubato and voice glissando in Peking opera, can relate to the color of contemporary music. Second, I used traditional Peking opera singing style throughout the vocal part. I also used some similar lines from the Peking opera but changed some notes to add different harmonic colors. In the electronics, I sometimes imitated the rhythms the Peking opera, and at other times made different granulated layers of various singing styles in Peking opera. Moreover, I used Leap Motion to better control the gestures of Peking opera in a live performance setting.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Hsiao, Yao",
-            "affiliation": null
-          }
-        ],
-        "resource_type": {
-          "title": "Conference paper",
-          "type": "publication",
-          "subtype": "conferencepaper"
-        },
-        "journal": {},
-        "meeting": {
-          "title": "International Conference on New Interfaces for Musical Expression",
-          "acronym": "NIME",
-          "dates": "4 September - 6 September, 2024",
-          "place": "Utrecht, Netherlands",
-          "url": "https://nime.org"
-        },
-        "imprint": {},
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "nime_conference"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15028052"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Consort Yu",
-      "links": {
-        "self": "https://zenodo.org/api/records/15028053",
-        "self_html": "https://zenodo.org/records/15028053",
-        "doi": "https://doi.org/10.5281/zenodo.15028053",
-        "self_doi": "https://doi.org/10.5281/zenodo.15028053",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15028053",
-        "parent": "https://zenodo.org/api/records/15028052",
-        "parent_html": "https://zenodo.org/records/15028052",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15028052",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15028052",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15028053/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15028053/sequence/default",
-        "files": "https://zenodo.org/api/records/15028053/files",
-        "media_files": "https://zenodo.org/api/records/15028053/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:15028053:nime2024_music_25.pdf/full/^10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:15028053:nime2024_music_25.pdf/full/^50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:15028053:nime2024_music_25.pdf/full/^100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:15028053:nime2024_music_25.pdf/full/^250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:15028053:nime2024_music_25.pdf/full/^750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:15028053:nime2024_music_25.pdf/full/^1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/15028053/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15028053/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15028053/versions/latest",
-        "latest_html": "https://zenodo.org/records/15028053/latest",
-        "versions": "https://zenodo.org/api/records/15028053/versions",
-        "draft": "https://zenodo.org/api/records/15028053/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15028053/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15028053/access/links",
-        "access_grants": "https://zenodo.org/api/records/15028053/access/grants",
-        "access_users": "https://zenodo.org/api/records/15028053/access/users",
-        "access_request": "https://zenodo.org/api/records/15028053/access/request",
-        "access": "https://zenodo.org/api/records/15028053/access",
-        "communities": "https://zenodo.org/api/records/15028053/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15028053/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15028053/requests"
-      },
-      "updated": "2025-03-14T20:25:21.201661+00:00",
-      "recid": "15028053",
-      "revision": 7,
-      "files": [
-        {
-          "id": "b7d60d7c-6693-4f4d-8ccd-0e2da959a320",
-          "key": "nime2024_music_25.pdf",
-          "size": 130136,
-          "checksum": "md5:1943ed9122fb103fb8c8e8330ebb83ea",
-          "links": {
-            "self": "https://zenodo.org/api/records/15028053/files/nime2024_music_25.pdf/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "1186130"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 4,
-        "unique_downloads": 3,
-        "views": 4,
-        "unique_views": 4,
-        "version_downloads": 4,
-        "version_unique_downloads": 3,
-        "version_unique_views": 4,
-        "version_views": 4
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-14T19:01:10.223791+00:00",
-      "modified": "2025-03-14T20:22:55.133627+00:00",
-      "id": 15028005,
-      "conceptrecid": "15028004",
-      "doi": "10.5281/zenodo.15028005",
-      "conceptdoi": "10.5281/zenodo.15028004",
-      "doi_url": "https://doi.org/10.5281/zenodo.15028005",
-      "metadata": {
-        "title": "Three is a crowd? A prompt driven human-bot performance",
-        "doi": "10.5281/zenodo.15028005",
-        "publication_date": "2025-03-14",
-        "description": "This performance is an improvisational collaboration between a vocalist, an electronic musician, and a musical agent based on self organizing maps from curated music corpora. The back-and-forth in this musical conversation is based around the concept of a very simple control algorithm that controls the conversation through generated prompts. Each element of this performance controls and is controlled by the tightly regimented constraints around making musical meaning together. 'Three is a crowd?' is a continuation of Co-Creative Spaces presented at NIME 2023 and builds on both the experiences and software (CCCP) from that project. The agents in Co-Creative Spaces generate sound by picking from a corpus of recorded material from the human musicians. How these collections were curated and put together was an important artistic decision for the co-creation process. This gave the musicians a closeness to the material that was seen as positive, but at the same time there was a recurring wish that the agents could have their own voice to a greater extent. \"Three is a crowd?\" is the first step in exploring other ways of giving the non-human agents more explicit agency in a performance by introducing a simple control algorithm that will guide the musical performance through text-based prompts.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "W\u00e6rstad, Bernt Isak",
-            "affiliation": null
-          },
-          {
-            "name": "Kelkar, Tejaswinee",
-            "affiliation": null
-          }
-        ],
-        "resource_type": {
-          "title": "Conference paper",
-          "type": "publication",
-          "subtype": "conferencepaper"
-        },
-        "journal": {},
-        "meeting": {
-          "title": "International Conference on New Interfaces for Musical Expression",
-          "acronym": "NIME",
-          "dates": "4 September - 6 September, 2024",
-          "place": "Utrecht, Netherlands",
-          "url": "https://nime.org"
-        },
-        "imprint": {},
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "nime_conference"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15028004"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Three is a crowd? A prompt driven human-bot performance",
-      "links": {
-        "self": "https://zenodo.org/api/records/15028005",
-        "self_html": "https://zenodo.org/records/15028005",
-        "doi": "https://doi.org/10.5281/zenodo.15028005",
-        "self_doi": "https://doi.org/10.5281/zenodo.15028005",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15028005",
-        "parent": "https://zenodo.org/api/records/15028004",
-        "parent_html": "https://zenodo.org/records/15028004",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15028004",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15028004",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15028005/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15028005/sequence/default",
-        "files": "https://zenodo.org/api/records/15028005/files",
-        "media_files": "https://zenodo.org/api/records/15028005/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:15028005:nime2024_music_14.pdf/full/^10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:15028005:nime2024_music_14.pdf/full/^50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:15028005:nime2024_music_14.pdf/full/^100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:15028005:nime2024_music_14.pdf/full/^250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:15028005:nime2024_music_14.pdf/full/^750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:15028005:nime2024_music_14.pdf/full/^1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/15028005/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15028005/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15028005/versions/latest",
-        "latest_html": "https://zenodo.org/records/15028005/latest",
-        "versions": "https://zenodo.org/api/records/15028005/versions",
-        "draft": "https://zenodo.org/api/records/15028005/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15028005/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15028005/access/links",
-        "access_grants": "https://zenodo.org/api/records/15028005/access/grants",
-        "access_users": "https://zenodo.org/api/records/15028005/access/users",
-        "access_request": "https://zenodo.org/api/records/15028005/access/request",
-        "access": "https://zenodo.org/api/records/15028005/access",
-        "communities": "https://zenodo.org/api/records/15028005/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15028005/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15028005/requests"
-      },
-      "updated": "2025-03-14T20:22:55.133627+00:00",
-      "recid": "15028005",
-      "revision": 7,
-      "files": [
-        {
-          "id": "fd24e748-33d3-4ddd-8ef4-17f4f987354e",
-          "key": "nime2024_music_14.pdf",
-          "size": 176360,
-          "checksum": "md5:2ec8837f1df38b31880ed1a2a9827129",
-          "links": {
-            "self": "https://zenodo.org/api/records/15028005/files/nime2024_music_14.pdf/content"
-          }
-        },
-        {
-          "id": "057649f9-d752-408c-9262-c40d1c941c1a",
-          "key": "nime2024_music_14_file01.mp3",
-          "size": 19172943,
-          "checksum": "md5:7430d40a9d50c2cba908fefb04cbe064",
-          "links": {
-            "self": "https://zenodo.org/api/records/15028005/files/nime2024_music_14_file01.mp3/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "1186130"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 8,
-        "unique_downloads": 5,
-        "views": 4,
-        "unique_views": 4,
-        "version_downloads": 8,
-        "version_unique_downloads": 5,
-        "version_unique_views": 4,
-        "version_views": 4
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-14T16:11:45.450083+00:00",
-      "modified": "2025-03-14T16:11:45.587265+00:00",
-      "id": 15026066,
-      "conceptrecid": "13819430",
-      "doi": "10.5281/zenodo.15026066",
-      "conceptdoi": "10.5281/zenodo.13819430",
-      "doi_url": "https://doi.org/10.5281/zenodo.15026066",
-      "metadata": {
-        "title": "Meson spectroscopy in the Sp(4) gauge theory with three antisymmetric fermions\u2014Analysis workflow",
-        "doi": "10.5281/zenodo.15026066",
-        "publication_date": "2025-03-14",
-        "description": "<p>The workflow in this repository performs the analyses presented in the paper <a href=\"https://doi.org/10.48550/arXiv.2412.01170\">Meson spectroscopy in the Sp(4) gauge theory with three antisymmetric fermions</a>.</p>\n<h2>Requirements</h2>\n<ul>\n<li>Conda, for example, installed from <a href=\"https://github.com/conda-forge/miniforge\">Miniforge</a></li>\n<li><a href=\"https://snakemake.github.io/\">Snakemake</a>, which may be installed using Conda</li>\n<li>LaTeX, for example, from <a href=\"https://tug.org/texlive/\">TeX Live</a></li>\n</ul>\n<h3>Notes for Apple silicon users</h3>\n<p>This project uses Julia, installed via a Conda environment, which at time of writing is not available on Apple silicon. To automate the environment setup process for the workflow, an x86-64 version of Snakemake must be used.</p>\n<p>To set this up, create a new x86-64 Conda environment with Snakemake, using</p>\n<pre><code>conda create -n snakemake_x86 -c conda-forge -c bioconda snakemake\n</code></pre>\n<p>then activate this and install Mamba. At time of writing, Snakemake is not compatible with versions of Mamba from 2.0.0 onwards, so this version must be constrained for the Conda integration to work correctly:</p>\n<pre><code>conda activate snakemake_x86\nconda install -c conda-forge 'mamba&lt;2.0.0'\n</code></pre>\n<p>With this environment active, the steps below involving running <code>snakemake</code> should work correctly.</p>\n<h2>Setup</h2>\n<ol>\n<li>\n<p>Install the dependencies above.</p>\n</li>\n<li>\n<p>Clone this repository including submodules (or download its Zenodo release and <code>unzip</code> it) and <code>cd</code> into it:</p>\n<pre><code>git clone --recurse-submodules https://github.com/telos-collaboration/antisymmetric_analysis_2024\ncd antisymmetric_analysis_2024\n</code></pre>\n</li>\n<li>\n<p>Either:</p>\n<ol>\n<li>\n<p>Download the <code>raw_data.zip</code> file from <a href=\"https://doi.org/10.5281/zenodo.13819562\">the data release</a>, and extract it into the root of the repository, or</p>\n</li>\n<li>\n<p>Download the <code>correlators_smear.h5</code>, <code>correlators_wall.h5</code>, <code>flows.h5</code>, and <code>hmc.h5</code> files from <a href=\"https://doi.org/10.5281/zenodo.13819562\">the data release</a>, and place them into the <code>data_assets</code> directory. Instruct Snakemake that these files are up to date by running</p>\n<pre><code>snakemake --touch data_assets/{correlators_smear,correlators_wall,flows,hmc}.h5\n</code></pre>\n</li>\n</ol>\n</li>\n<li>\n<p>Download the <code>ensemble_metadata.csv</code> file from <a href=\"https://doi.org/10.5281/zenodo.13819562\">the data release</a>, and place it into the <code>metadata</code> directory.</p>\n</li>\n</ol>\n<h2>Running the workflow</h2>\n<p>The workflow is run using Snakemake:</p>\n<pre><code>snakemake --cores 1 --use-conda\n</code></pre>\n<p>where the number <code>1</code> may be replaced by the number of CPU cores you wish to allocate to the computation.</p>\n<p>Snakemake will automatically download and install all required Python packages. This requires an Internet connection; if you are running in an HPC environment where you would need to run the workflow without Internet access, details on how to preinstall the environment can be found in the <a href=\"https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html\">Snakemake documentation</a>.</p>\n<p>Using <code>--cores 6</code> on a MacBook Pro with an M1 Pro processor, the analysis takes around 13 minutes starting from HDF5 files, and around 5 hours starting from raw data.</p>\n<h2>Output</h2>\n<p>Output plots, tables, and definitions are placed in the <code>assets/plots</code>, <code>assets/tables</code>, and <code>assets/definitions</code>directories.</p>\n<p>Output data assets are placed into the <code>data_assets</code> directory.</p>\n<p>Intermediary data are placed in the <code>intermediary_data</code> directory.</p>\n<h2>Reusability</h2>\n<p>This workflow is relatively tailored to the data which it was originally written to analyse. Additional ensembles may be added to the analysis by adding relevant files to the <code>raw_data</code> directory, and adding corresponding entries to the files in the <code>metadata</code> directory. Tools present in the <code>tools</code> directory may be used to help determine some inputs for the latter; for example, the plateaux positions and lengths. However, extending the analysis in this way has not been as fully tested as the rest of the workflow, and is not guaranteed to be trivial for someone not already familiar with the code.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Bennett, Ed",
-            "affiliation": "Swansea University",
-            "orcid": "0000-0002-1678-6701"
-          },
-          {
-            "name": "Hong, Deog Ki",
-            "affiliation": "Pusan National University",
-            "orcid": "0000-0002-3923-4184"
-          },
-          {
-            "name": "Hsiao, Ho",
-            "affiliation": "University of Tsukuba",
-            "orcid": "0000-0002-8522-5190"
-          },
-          {
-            "name": "Lee, Jong-Wan",
-            "affiliation": "Institute for Basic Science",
-            "orcid": "0000-0002-4616-2422"
-          },
-          {
-            "name": "Lin, C.-J. David",
-            "affiliation": "Chung Yuan Christian University",
-            "orcid": "0000-0003-3743-0840"
-          },
-          {
-            "name": "Lucini, Biagio",
-            "affiliation": "Swansea University",
-            "orcid": "0000-0001-8974-8266"
-          },
-          {
-            "name": "Piai, Maurizio",
-            "affiliation": "Swansea University",
-            "orcid": "0000-0002-2251-0111"
-          },
-          {
-            "name": "Vadacchino, Davide",
-            "affiliation": "University of Plymouth",
-            "orcid": "0000-0002-5783-5602"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "10.5281/zenodo.13819562",
-            "relation": "requires",
-            "resource_type": "dataset",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.48550/arXiv.2412.01170",
-            "relation": "isReferencedBy",
-            "resource_type": "publication-preprint",
+            "identifier": "10.3030/101147440",
+            "relation": "isPartOf",
+            "resource_type": "model",
             "scheme": "doi"
           }
         ],
-        "version": "v1.1.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/telos-collaboration/antisymmetric_analysis_2024",
-          "code:programmingLanguage": [
-            {
-              "id": "python",
-              "title": {
-                "en": "Python"
-              }
-            },
-            {
-              "id": "snakemake",
-              "title": {
-                "en": "Snakemake"
-              }
-            },
-            {
-              "id": "julia",
-              "title": {
-                "en": "Julia"
-              }
-            }
-          ],
-          "code:developmentStatus": {
-            "id": "inactive",
-            "title": {
-              "en": "Inactive"
-            }
+        "dates": [
+          {
+            "type": "available"
           }
-        },
+        ],
         "resource_type": {
-          "title": "Workflow",
-          "type": "workflow"
+          "title": "Model",
+          "type": "model"
         },
+        "alternate_identifiers": [
+          {
+            "identifier": "Ultrasonic CO\u2082 quality model"
+          }
+        ],
         "license": {
           "id": "cc-by-4.0"
         },
         "grants": [
           {
-            "code": "EP/X017168/1",
-            "internal_id": "10.13039/100014013::EP/X017168/1",
-            "funder": {
-              "name": "UK Research and Innovation",
-              "doi": "10.13039/100014013",
-              "acronym": "UKRI"
-            },
-            "title": "Theoretical and Experimental Particle Physics at the Exascale Frontier",
-            "program": "EPSRC"
-          },
-          {
-            "code": "ST/X000648/1",
-            "internal_id": "10.13039/100014013::ST/X000648/1",
-            "funder": {
-              "name": "UK Research and Innovation",
-              "doi": "10.13039/100014013",
-              "acronym": "UKRI"
-            },
-            "title": "Theoretical Particle Physics and Cosmology",
-            "program": "STFC"
-          },
-          {
-            "code": "EP/V052489/1",
-            "internal_id": "10.13039/100014013::EP/V052489/1",
-            "funder": {
-              "name": "UK Research and Innovation",
-              "doi": "10.13039/100014013",
-              "acronym": "UKRI"
-            },
-            "title": "Reproducible analysis frameworks in Lattice Field Theory and STFC-enabled computational research in Wales",
-            "program": "EPSRC"
-          },
-          {
-            "code": "813942",
-            "internal_id": "10.13039/501100000780::813942",
+            "code": "101147440",
+            "internal_id": "10.13039/501100000780::101147440",
             "funder": {
               "name": "European Commission",
               "doi": "10.13039/501100000780",
               "acronym": "EC"
             },
-            "title": "European network for Particle physics, Lattice field theory and Extreme computing",
-            "acronym": "EuroPLEx",
-            "program": "H2020-EU.1.3.",
-            "url": "https://cordis.europa.eu/projects/813942"
-          },
-          {
-            "code": "ST/X000680/1",
-            "internal_id": "10.13039/100014013::ST/X000680/1",
-            "funder": {
-              "name": "UK Research and Innovation",
-              "doi": "10.13039/100014013",
-              "acronym": "UKRI"
-            },
-            "title": "Lattice investigations of strongly Interacting theories in the Standard Model and beyond.",
-            "program": "STFC"
+            "title": "SUSTAINABLE MULTI-FUNCTIONAL AND RECYCLABLE HEAT PUMPS",
+            "acronym": "Smart-Pumps",
+            "program": "HORIZON.2.5",
+            "url": "https://cordis.europa.eu/projects/101147440"
           }
         ],
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "13819430"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Meson spectroscopy in the Sp(4) gauge theory with three antisymmetric fermions\u2014Analysis workflow",
-      "links": {
-        "self": "https://zenodo.org/api/records/15026066",
-        "self_html": "https://zenodo.org/records/15026066",
-        "doi": "https://doi.org/10.5281/zenodo.15026066",
-        "self_doi": "https://doi.org/10.5281/zenodo.15026066",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15026066",
-        "parent": "https://zenodo.org/api/records/13819430",
-        "parent_html": "https://zenodo.org/records/13819430",
-        "parent_doi": "https://doi.org/10.5281/zenodo.13819430",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13819430",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15026066/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15026066/sequence/default",
-        "files": "https://zenodo.org/api/records/15026066/files",
-        "media_files": "https://zenodo.org/api/records/15026066/media-files",
-        "archive": "https://zenodo.org/api/records/15026066/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15026066/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15026066/versions/latest",
-        "latest_html": "https://zenodo.org/records/15026066/latest",
-        "versions": "https://zenodo.org/api/records/15026066/versions",
-        "draft": "https://zenodo.org/api/records/15026066/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15026066/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15026066/access/links",
-        "access_grants": "https://zenodo.org/api/records/15026066/access/grants",
-        "access_users": "https://zenodo.org/api/records/15026066/access/users",
-        "access_request": "https://zenodo.org/api/records/15026066/access/request",
-        "access": "https://zenodo.org/api/records/15026066/access",
-        "communities": "https://zenodo.org/api/records/15026066/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15026066/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15026066/requests"
-      },
-      "updated": "2025-03-14T16:11:45.587265+00:00",
-      "recid": "15026066",
-      "revision": 4,
-      "files": [
-        {
-          "id": "91ef6e0b-1407-482a-8e1e-76520c56e6c2",
-          "key": "antisymmetric_analysis_2024.zip",
-          "size": 153696,
-          "checksum": "md5:a2450a93b0107095e64a3cd3c77a099c",
-          "links": {
-            "self": "https://zenodo.org/api/records/15026066/files/antisymmetric_analysis_2024.zip/content"
-          }
-        },
-        {
-          "id": "9510c6ae-a3b8-416a-9374-fa92cb8d2c47",
-          "key": "README.md",
-          "size": 4394,
-          "checksum": "md5:f55fabc23e32d5e5fa304782372f9132",
-          "links": {
-            "self": "https://zenodo.org/api/records/15026066/files/README.md/content"
-          }
-        }
-      ],
-      "swh": {},
-      "owners": [
-        {
-          "id": "201137"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 24,
-        "unique_downloads": 23,
-        "views": 37,
-        "unique_views": 35,
-        "version_downloads": 7,
-        "version_unique_downloads": 7,
-        "version_unique_views": 5,
-        "version_views": 5
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-03-14T16:02:40.614720+00:00",
-      "modified": "2025-03-14T16:02:40.850696+00:00",
-      "id": 15025940,
-      "conceptrecid": "15025939",
-      "doi": "10.5281/zenodo.15025940",
-      "conceptdoi": "10.5281/zenodo.15025939",
-      "doi_url": "https://doi.org/10.5281/zenodo.15025940",
-      "metadata": {
-        "title": "The Allegorical Study of William Golding's Lord of the Flies and Its Significance",
-        "doi": "10.5281/zenodo.15025940",
-        "publication_date": "2025-03-10",
-        "description": "<p><span>In the words of Jesus in St. Mathew, 18:4, &ldquo;The greatest in the kingdom of heaven is the one who humbled himself and becomes like this child,&rdquo; childhood is presented as a state of innocent goodness, a state which may be regarded as the kingdom of heaven on earth. As adults, fallen from this happy state, we may hanker after a return to it and the possibility of such a conversion is held out to us by Jesus in the Biblical passage, St. Mathew, 18:3, &ldquo;I assure you that unless you change and become like children, you will never enter the Kingdom of Heaven.&rdquo; There is room for optimism about human nature of our Universe, for the speaker is the Creator and loving ruler of the Universe who came down to earth to suffer and die so that we might be redeemed or rescued from our wickedness and restored to the original purity and happiness as we see in children and remember as our experiences of childhood.</span></p>\n<p><span>But we live in a cruel world which can only be governed by malevolent demons whose delight is to torture us. If we wish to see an image of these dark gods or devils we need to look no further than children or our childhood, need only examine the ghastly and ferocious play of children, where we see how little devils torture and kill insects for fun, playing God with flies. From within and without we are beset by evil-in our human. The nature there is a terrifying propensity towards wanton cruelty which is evident even in children. There are number of occasions in the Bible which highlights that every inclination of man&rsquo;s heart is evil from childhood. David confesses before the Lord in Psalm, 51:5, &ldquo;I have been evil from the day I was born; from the time I was conceived I have been sinful.&rdquo;</span></p>\n<p><strong><span>Keywords:</span></strong><span> kingdom, humbled, conversion, nature, children.</span></p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "1Devesh Rao Bouddha , 2Dr. M.S. Rathore",
-            "affiliation": "1Research Scholar, Deptt. of English Jiwaji University, Gwalior (M.P.)"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "2456-6713",
-            "relation": "isSupplementTo",
-            "resource_type": "publication-article",
-            "scheme": "eissn"
-          }
-        ],
-        "dates": [
-          {
-            "type": "accepted",
-            "description": "OK"
-          }
-        ],
-        "language": "ang",
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "03",
-          "pages": "9-14",
-          "title": "International Educational Applied Research Journal",
-          "volume": "09"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "2456-6713"
-          }
-        ],
-        "license": {
-          "id": "cc-by-4.0"
-        },
         "communities": [
           {
-            "id": "2456-6713"
+            "id": "smart-pumps"
+          },
+          {
+            "id": "eu"
           }
         ],
         "relations": {
@@ -1075,106 +76,173 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15025939"
+                "pid_value": "17433854"
               }
             }
           ]
         }
       },
-      "title": "The Allegorical Study of William Golding's Lord of the Flies and Its Significance",
+      "title": "An innovative model on measuring CO\u2082 quality",
       "links": {
-        "self": "https://zenodo.org/api/records/15025940",
-        "self_html": "https://zenodo.org/records/15025940",
-        "doi": "https://doi.org/10.5281/zenodo.15025940",
-        "self_doi": "https://doi.org/10.5281/zenodo.15025940",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15025940",
-        "parent": "https://zenodo.org/api/records/15025939",
-        "parent_html": "https://zenodo.org/records/15025939",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15025939",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15025939",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15025940/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15025940/sequence/default",
-        "files": "https://zenodo.org/api/records/15025940/files",
-        "media_files": "https://zenodo.org/api/records/15025940/media-files",
-        "archive": "https://zenodo.org/api/records/15025940/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15025940/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15025940/versions/latest",
-        "latest_html": "https://zenodo.org/records/15025940/latest",
-        "versions": "https://zenodo.org/api/records/15025940/versions",
-        "draft": "https://zenodo.org/api/records/15025940/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15025940/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15025940/access/links",
-        "access_grants": "https://zenodo.org/api/records/15025940/access/grants",
-        "access_users": "https://zenodo.org/api/records/15025940/access/users",
-        "access_request": "https://zenodo.org/api/records/15025940/access/request",
-        "access": "https://zenodo.org/api/records/15025940/access",
-        "communities": "https://zenodo.org/api/records/15025940/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15025940/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15025940/requests"
+        "self": "https://zenodo.org/api/records/17433855",
+        "self_html": "https://zenodo.org/records/17433855",
+        "preview_html": "https://zenodo.org/records/17433855?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17433855",
+        "self_doi": "https://doi.org/10.5281/zenodo.17433855",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17433855",
+        "reserve_doi": "https://zenodo.org/api/records/17433855/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17433854",
+        "parent_html": "https://zenodo.org/records/17433854",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17433854",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17433854",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17433855/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17433855/sequence/default",
+        "files": "https://zenodo.org/api/records/17433855/files",
+        "media_files": "https://zenodo.org/api/records/17433855/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17433855/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17433855/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17433855/versions/latest",
+        "latest_html": "https://zenodo.org/records/17433855/latest",
+        "versions": "https://zenodo.org/api/records/17433855/versions",
+        "draft": "https://zenodo.org/api/records/17433855/draft",
+        "access_links": "https://zenodo.org/api/records/17433855/access/links",
+        "access_grants": "https://zenodo.org/api/records/17433855/access/grants",
+        "access_users": "https://zenodo.org/api/records/17433855/access/users",
+        "access_request": "https://zenodo.org/api/records/17433855/access/request",
+        "access": "https://zenodo.org/api/records/17433855/access",
+        "communities": "https://zenodo.org/api/records/17433855/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17433855/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17433855/request-deletion",
+        "requests": "https://zenodo.org/api/records/17433855/requests"
       },
-      "updated": "2025-03-14T16:02:40.850696+00:00",
-      "recid": "15025940",
+      "updated": "2025-11-01T10:46:27.080527+00:00",
+      "recid": "17433855",
       "revision": 4,
       "files": [
         {
-          "id": "579bdb37-ff1b-4e2c-834d-01fe7a9907ca",
-          "key": "03-Mar-2025.docx",
-          "size": 145056,
-          "checksum": "md5:4b280aecab0c3236cc8d0f077b734e4f",
+          "id": "d0a4ec13-555d-4008-9d87-acfaec1f63dd",
+          "key": "Transmitter Receivers.jpg",
+          "size": 1435580,
+          "checksum": "md5:f4915db3a9bccc05fc949190475b2e1a",
           "links": {
-            "self": "https://zenodo.org/api/records/15025940/files/03-Mar-2025.docx/content"
+            "self": "https://zenodo.org/api/records/17433855/files/Transmitter Receivers.jpg/content"
+          }
+        },
+        {
+          "id": "be481370-dc8d-4908-b325-aed0293c635d",
+          "key": "Sensors Topology 1.jpg",
+          "size": 1843719,
+          "checksum": "md5:3caf7217b6601753ac6e6d4a52be439e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/Sensors Topology 1.jpg/content"
+          }
+        },
+        {
+          "id": "e186fbf7-b06f-4e94-a0ed-a74e3f3bdf71",
+          "key": "Sensors Topology 3.jpg",
+          "size": 2234416,
+          "checksum": "md5:62463a22ae6681f61c450b9cdfbc5ef3",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/Sensors Topology 3.jpg/content"
+          }
+        },
+        {
+          "id": "bc8e1a38-8204-43df-bb53-ce7a90b824e2",
+          "key": "Typical Scalogram.png",
+          "size": 412042,
+          "checksum": "md5:86d4b009626a2d3f5108b63af3929ca9",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/Typical Scalogram.png/content"
+          }
+        },
+        {
+          "id": "42dda592-ef8a-474c-8ba5-cf2f580eb3b2",
+          "key": "SVR results.png",
+          "size": 91277,
+          "checksum": "md5:aaf6a4cd6c9351bfc2fa8ea3863953b4",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/SVR results.png/content"
+          }
+        },
+        {
+          "id": "564705f1-9ae6-43b5-9770-0dbb7b63d2a0",
+          "key": "CO2 Pressurized Bottle.jpg",
+          "size": 1840396,
+          "checksum": "md5:04c866c3662d931355386724d779887f",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/CO2 Pressurized Bottle.jpg/content"
+          }
+        },
+        {
+          "id": "6c2c88e1-37fa-4575-b558-c14b28f58aed",
+          "key": "Neuronal regressor results.png",
+          "size": 80801,
+          "checksum": "md5:a583daafed3d5ba5ab65acaaa59571d9",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/Neuronal regressor results.png/content"
+          }
+        },
+        {
+          "id": "78b868b7-38af-4f1a-90c8-18e62d54f5f3",
+          "key": "Sensors Topology 2.jpg",
+          "size": 1942458,
+          "checksum": "md5:6a3d405447b6ee06282faa4b7da19276",
+          "links": {
+            "self": "https://zenodo.org/api/records/17433855/files/Sensors Topology 2.jpg/content"
           }
         }
       ],
-      "swh": {},
+      "swh": null,
       "owners": [
         {
-          "id": "504696"
+          "id": "1424031"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 2,
-        "unique_downloads": 2,
-        "views": 3,
-        "unique_views": 3,
-        "version_downloads": 2,
-        "version_unique_downloads": 2,
-        "version_unique_views": 3,
-        "version_views": 3
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 1,
+        "version_views": 1
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-03-14T15:16:14.525998+00:00",
-      "modified": "2025-03-14T15:16:14.734548+00:00",
-      "id": 15025646,
-      "conceptrecid": "15025645",
-      "doi": "10.5281/zenodo.15025646",
-      "conceptdoi": "10.5281/zenodo.15025645",
-      "doi_url": "https://doi.org/10.5281/zenodo.15025646",
+      "created": "2025-10-31T16:40:41.462718+00:00",
+      "modified": "2025-10-31T16:40:41.605939+00:00",
+      "id": 17495872,
+      "conceptrecid": "14812821",
+      "doi": "10.5281/zenodo.17495872",
+      "conceptdoi": "10.5281/zenodo.14812821",
+      "doi_url": "https://doi.org/10.5281/zenodo.17495872",
       "metadata": {
-        "title": "Antisemitism on X: A Dataset Tracking Trends in Counter-Speech and Israel-Related Discourse Before and After October 7",
-        "doi": "10.5281/zenodo.15025646",
-        "publication_date": "2025-03-14",
-        "description": "<p><strong># Social Media &amp; Hate Research Lab, Institute for the Study of Contemporary Antisemitism (ISCA) at Indiana University</strong></p>\n<p><strong>&nbsp;</strong></p>\n<h1>Dataset Description</h1>\n<p>This dataset comprises 292 Top Tweets containing the keyword &ldquo;Jews,&rdquo; spanning various topics related to Jews, Israel, and antisemitism from September 2023 to May 2024. The annotation process was carried out using our annotation portal (<a href=\"https://annotate.osome.iu.edu/\" target=\"_new\">https://annotate.osome.iu.edu/</a>), which allows for the annotation of live data in its full context&mdash;including images and threads. The dataset includes tweet ID numbers, usernames, creation dates, tweet text, and classifications that indicate whether a tweet is antisemitic and/or calls out antisemitism.</p>\n<p><span>&nbsp;</span></p>\n<p>&nbsp;</p>\n<h1>Sampling</h1>\n<p>The dataset consists of four subsamples from different time periods. The samples were manually compiled using X&rsquo;s Advanced Search tool with two newly registered accounts to ensure that no prior search history influenced the results. The Advanced Search feature allowed keyword searches within specific time frames, and the keyword &ldquo;Jews&rdquo; was used across four distinct sampling periods: Period 1: September 7&ndash;13, 2023; Period 2: October 7&ndash;13, 2023; Period 3: May 1&ndash;6, 2024; Period 4: September 7&ndash;13, 2024. For each period, we collected the first 75 Top Tweets, totaling 300 tweets, of which 292 remained live after annotation. To capture a more complete dataset, searches were adjusted to two-day intervals, starting with Top Tweets before switching to Latest Tweets with a minimum threshold of 200 views per tweet. However, due to platform inconsistencies, some tweets with fewer than 200 views were included while others with significantly higher view counts appeared lower in the ranking.<a title=\"\" href=\"#_ftn1\" name=\"_ftnref1\"><span><span><span>[1]</span></span></span></a></p>\n<h1>Annotation Process</h1>\n<p>Each sample was annotated by three independent annotators. The annotators were students of the class &ldquo;Israel on Social Media. Conceptions, Misconceptions, and Controversies&rdquo; at Indiana University in the fall of 2024. The course included training on recognizing online antisemitism.</p>\n<p>Annotations included:</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Classification of tweets as antisemitic based on the Working Definition of Antisemitism by the International Holocaust Remembrance Alliance (IHRA).</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Identification of tweets that denounce or call out antisemitism.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Thematic analysis and categorization of accusations against Israel.</p>\n<p>Discrepancies in classification of antisemitism and calling out antisemitism were resolved through discussion among annotators, which increases the annotation quality.<a title=\"\" href=\"#_ftn2\" name=\"_ftnref2\"><span><span><span>[2]</span></span></span></a> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>\n<h1>File Description</h1>\n<p>The dataset is provided in CSV format, with each row representing a single tweet, including replies, quotes, and retweets. The file contains the following columns:</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>TweetID: Unique identifier for the tweet.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Username: Account that published the tweet.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Text: Full, unprocessed tweet text.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>CreateDate: Date the tweet was posted.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Biased: Label indicating whether the tweet is antisemitic or non-antisemitic.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Keyword: The keyword used in the query, which may appear in the tweet text, a mention, or the username.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>CallingOut: Tweets represent instances of \"calling out\" antisemitism</p>\n<p>&nbsp;</p>\n<h1>Observations</h1>\n<h2>1. Trends in Antisemitic and Counter-Speech Content</h2>\n<p>The dataset shows fluctuations in the prevalence of antisemitism and counter-speech in top tweets about Jews:<a title=\"\" href=\"#_ftn3\" name=\"_ftnref3\"><span><span><span>[3]</span></span></span></a></p>\n<p>&nbsp;</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Before October 7, 2023, antisemitism in top tweets was already high, with over a quarter of tweets (25%+) classified as antisemitic. However, tweets calling out antisemitism were equally prevalent.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>During the week after the Hamas attacks in Israel (October 7&ndash;13, 2023), the level of antisemitic tweets remained stable, but counter-speech increased to nearly 40% of tweets.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>By May 2024, more than half of the tweets were antisemitic, while tweets denouncing antisemitism dropped to 12%.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>In September 2024, antisemitism in top tweets had increased significantly compared to a year earlier (43%), yet counter-speech engagement also remained relatively high, making up one-third of all top tweets containing the word &ldquo;Jews&rdquo;.</p>\n<p>&nbsp;</p>\n<h2>2. Thematic Analysis</h2>\n<p>The topics covered in top tweets about Jews varied significantly across different periods:</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Before October 7, 2023, discussions about Jews focused twice as much on general themes (e.g., religion, U.S. politics) compared to the Middle East conflict.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>During the week following October 7, 75% of all top tweets were related to wars involving Israel, predominantly the war with Hamas.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>One year later (May 2024), the war in Gaza remained the dominant theme but fell below 40% of tweets.</p>\n<p><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Notably, tweets covering anti-Israel protests increased significantly after October 7. While they accounted for only 6% of tweets before 10/7, in all subsequent sampled periods, their share more than doubled.</p>\n<p>A key discussion in early May 2024 centered around the Antisemitism Awareness Act, which was passed by the U.S. House of Representatives on May 1, 2024. Many tweets referenced the bill, including a widely circulated post by Republican Representative Marjorie Taylor Greene, which amassed nearly 5 million views.<span> <a title=\"\" href=\"#_ftn4\" name=\"_ftnref4\"><span><span>[4]</span></span></a></span> In her tweet, she explained her reasons for voting against the bill and made a statement that could be interpreted as echoing the antisemitic accusation that Jews were responsible for the death of Jesus.</p>\n<p>&nbsp;</p>\n<h1>Acknowledgements&nbsp;</h1>\n<p>We wish to acknowledge the Advanced Cyberinfrastructure Curriculum Fellows Program for their exceptional support, with particular appreciation to Yu Ma and Tony Walker for the outstanding resources and assistance they provided.</p>\n<p>This work used Jetestream2 at Indiana University through allocation HUM200003 from the Advanced Cyberinfrastructure Coordination Ecosystem: Services &amp; Support (ACCESS) program, which is supported by U.S. National Science Foundation grants #2138259, #2138286, #2138307, #2137603, and #2138296.<a title=\"\" href=\"#_ftn5\" name=\"_ftnref5\"><span><span><span>[5]</span></span></span></a></p>\n<div><br>\n\n<div>\n<p><a title=\"\" href=\"#_ftnref1\" name=\"_ftn1\"><span><span><span>[1]</span></span></span></a> Due to platform limitations, the Advanced Search option stopped functioning after 40&ndash;45 minutes, even when alternating between two newly registered accounts. After approximately 20 minutes of use, search functionality frequently ceased, requiring several hours of waiting before resuming data collection. This issue, combined with inconsistencies in the &ldquo;Top Tweets&rdquo; ranking, may have influenced tweet selection.</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref2\" name=\"_ftn2\"><span><span><span>[2]</span></span></span></a> <span>Gunther Jikeli et al., &ldquo;Differences between Antisemitic and Non-Antisemitic English Language Tweets,&rdquo; <em>Computational and Mathematical Organization Theory</em>, September 9, 2022, https://doi.org/10.1007/s10588-022-09363-2.</span></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref3\" name=\"_ftn3\"><span><span><span>[3]</span></span></span></a> Please find more details in the research report <span>Myles Behar et al., &ldquo;The Image of Israel on X and TikTok After 10/7. Research Report, December 2024&rdquo; (Research Lab Social Media &amp; Hate at the Institute for the Study of Contemporary Antisemitism at Indiana University, December 2024), https://isca.indiana.edu/publication-research/social-media-project/documents-soc-media-proj/research-report-2024-the-image-of-israel-on-social-media-after-10-7-1.pdf.</span></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref4\" name=\"_ftn4\"><span><span><span>[4]</span></span></span></a> Antisemitism Awareness Act. Roll Call 172, Bill Number: H. R. 6090, 118th Congress, 2nd Session,&rdquo; Office of the Clerk, U.S. House of Representatives, May 1, 2024, https://clerk.house.gov/Votes/2024172.</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref5\" name=\"_ftn5\"><span><span><span>[5]</span></span></span></a> Timothy J. Boerner et al., &ldquo;ACCESS: Advancing Innovation: NSF&rsquo;s Advanced Cyberinfrastructure Coordination Ecosystem: Services &amp; Support,&rdquo; in <em>Practice and Experience in Advanced Research Computing </em>(PEARC &rsquo;23: Practice and Experience in Advanced Research Computing, Portland OR USA: ACM, 2023), 173&ndash;76, https://doi.org/10.1145/3569951.3597559.</p>\n</div>\n</div>",
+        "title": "Replication materials for \"Increasing risk of mass human heat mortality if historical weather patterns recur\"",
+        "doi": "10.5281/zenodo.17495872",
+        "publication_date": "2025-10-31",
+        "description": "<p>&nbsp;This repository provides code and data for \"Increasing risk of mass human heat mortality if historical weather patterns recur,\" published in Nature Climate Change, doi:10.1038/s41558-025-02480-1. You can read a preprint here: https://eartharxiv.org/repository/view/8375/</p>\n<p>## Organization</p>\n<p>The repository is organized into Scripts/, Figures/, and Data/ folders.</p>\n<p>- Data: This folder includes intermediate and processed summary data that enable replication of most the figures and numbers cited in the text. Some of the files for the climate model projections, raw observational data, and damage estimates are quite large, so they are not provided here but are publicly accessible or can be easily reproduced with the provided code. Details are below.</p>\n<p>- Scripts: Code required to reproduce the findings of our work is included in this folder. Scripts are written in Python/Jupyter and R. The Machine_Learning_Analysis subfolder within this folder contains the code necessary to reproduce the machine learning training and predictions, adapted from Trok et al. (2024), https://www.science.org/doi/10.1126/sciadv.adl3242. There is a separate README within this folder which contains more specific details for reproducing this component of the analysis should you wish to do so.&nbsp;</p>\n<p>- Figures: This is where figures will be saved if you run the scripts. There may be small differences between these figures and the final publication figures due to post-processing in Adobe Illustrator.</p>\n<p>## Data</p>\n<p>Much of the intermediate data required to reproduce the final figures and numbers in the paper are provided in the various folders within the Data directory, including the overall panel dataset that includes district-level mortality and temperature. However, much of the initial/raw data is too large to be hosted here. They are all publicly available at various locations:</p>\n<p>- The E-OBS station-based observations are available here: https://surfobs.climate.copernicus.eu/dataaccess/access_eobs.php#datafiles</p>\n<p>- The Eurostat mortality and population data are available here: https://ec.europa.eu/eurostat/data/database?node_code=demomwk. Weekly mortality is denoted by the `demo_r_mweek3` code and population is denoted by the `demo_r_pjanaggr3` code.&nbsp;</p>\n<p>- CMIP6 monthly temperature data (used for the adaptation analysis) is generally available from the Earth System Grid Federation (e.g., https://aims2.llnl.gov/search/cmip6/). Our analysis uses monthly temperature (tas_Amon) from the historical and SSP3-7.0 scenarios.</p>\n<p>## Scripts</p>\n<p>Each script performs one component of the analysis.</p>\n<p>- Aggregate_EuropeWide_E-OBS_Data.py takes the raw E-OBS input data and aggregates it to district-level (NUTS) boundaries at the daily and weekly level. This script was run remotely on an HPC system and may require significant memory.</p>\n<p>- Construct_Eurostat_Panel.R combines the E-OBS district-level data with matching weekly mortality and temperature data and produces a final panel dataset spanning 2000-2022.</p>\n<p>- Europe_Mortality_Regressions.R performs the regression analysis to derive the exposure-response functions.<br>&nbsp;&nbsp;<br>- Plot_Event_Timeseries.ipynb plots and sets the time periods of each event.</p>\n<p>- Counterfactual_Events.py combines the E-OBS data and neural network predictions to create counterfactual versions of each historical event at varying levels of global warming. This script was run remotely on an HPC system and may require significant memory.</p>\n<p>- CMIP6_EU_Scaling.py and CMIP6_Adaptation_Scaling.ipynb aggregate CMIP6 projections to the EU district level and calculate the scaling between global mean temperature and district-level temperature (for use in the adaptation analysis).</p>\n<p>- Counterfactual_Event_Mortality.py performs the final calculations of each event's mortality at varying levels of global warming.&nbsp;</p>\n<p>- Figures.ipynb plots most of the figures shown in the main text and supplementary material.&nbsp;</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Jikeli, Guenther",
-            "affiliation": "Indiana University",
-            "orcid": "0000-0002-6897-2565"
-          },
+            "name": "Callahan, Christopher",
+            "affiliation": null
+          }
+        ],
+        "dates": [
           {
-            "name": "Miehling, Daniel",
-            "affiliation": "Indiana University",
-            "orcid": "0000-0002-8728-379X"
-          },
-          {
-            "name": "Soemer, Katharina",
-            "affiliation": "Goethe University Frankfurt",
-            "orcid": "0000-0003-2304-8106"
+            "type": "available"
           }
         ],
         "resource_type": {
@@ -1187,236 +255,464 @@
         "relations": {
           "version": [
             {
-              "index": 0,
+              "index": 2,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15025645"
+                "pid_value": "14812821"
               }
             }
           ]
         }
       },
-      "title": "Antisemitism on X: A Dataset Tracking Trends in Counter-Speech and Israel-Related Discourse Before and After October 7",
+      "title": "Replication materials for \"Increasing risk of mass human heat mortality if historical weather patterns recur\"",
       "links": {
-        "self": "https://zenodo.org/api/records/15025646",
-        "self_html": "https://zenodo.org/records/15025646",
-        "doi": "https://doi.org/10.5281/zenodo.15025646",
-        "self_doi": "https://doi.org/10.5281/zenodo.15025646",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15025646",
-        "parent": "https://zenodo.org/api/records/15025645",
-        "parent_html": "https://zenodo.org/records/15025645",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15025645",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15025645",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15025646/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15025646/sequence/default",
-        "files": "https://zenodo.org/api/records/15025646/files",
-        "media_files": "https://zenodo.org/api/records/15025646/media-files",
-        "archive": "https://zenodo.org/api/records/15025646/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15025646/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15025646/versions/latest",
-        "latest_html": "https://zenodo.org/records/15025646/latest",
-        "versions": "https://zenodo.org/api/records/15025646/versions",
-        "draft": "https://zenodo.org/api/records/15025646/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15025646/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15025646/access/links",
-        "access_grants": "https://zenodo.org/api/records/15025646/access/grants",
-        "access_users": "https://zenodo.org/api/records/15025646/access/users",
-        "access_request": "https://zenodo.org/api/records/15025646/access/request",
-        "access": "https://zenodo.org/api/records/15025646/access",
-        "communities": "https://zenodo.org/api/records/15025646/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15025646/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15025646/requests"
+        "self": "https://zenodo.org/api/records/17495872",
+        "self_html": "https://zenodo.org/records/17495872",
+        "preview_html": "https://zenodo.org/records/17495872?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17495872",
+        "self_doi": "https://doi.org/10.5281/zenodo.17495872",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17495872",
+        "reserve_doi": "https://zenodo.org/api/records/17495872/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/14812821",
+        "parent_html": "https://zenodo.org/records/14812821",
+        "parent_doi": "https://doi.org/10.5281/zenodo.14812821",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14812821",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17495872/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17495872/sequence/default",
+        "files": "https://zenodo.org/api/records/17495872/files",
+        "media_files": "https://zenodo.org/api/records/17495872/media-files",
+        "archive": "https://zenodo.org/api/records/17495872/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17495872/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17495872/versions/latest",
+        "latest_html": "https://zenodo.org/records/17495872/latest",
+        "versions": "https://zenodo.org/api/records/17495872/versions",
+        "draft": "https://zenodo.org/api/records/17495872/draft",
+        "access_links": "https://zenodo.org/api/records/17495872/access/links",
+        "access_grants": "https://zenodo.org/api/records/17495872/access/grants",
+        "access_users": "https://zenodo.org/api/records/17495872/access/users",
+        "access_request": "https://zenodo.org/api/records/17495872/access/request",
+        "access": "https://zenodo.org/api/records/17495872/access",
+        "communities": "https://zenodo.org/api/records/17495872/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17495872/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17495872/request-deletion",
+        "requests": "https://zenodo.org/api/records/17495872/requests"
       },
-      "updated": "2025-03-14T15:16:14.734548+00:00",
-      "recid": "15025646",
+      "updated": "2025-10-31T16:40:41.605939+00:00",
+      "recid": "17495872",
       "revision": 4,
       "files": [
         {
-          "id": "e1df4a94-21fe-406d-8f08-e1787f4d2bc3",
-          "key": "dataset_14_03_25.csv",
-          "size": 93821,
-          "checksum": "md5:c24595353113e56b91b4c4023ea34b4e",
+          "id": "e856e58d-907e-45b9-a7d5-7594aa35cc0f",
+          "key": "Replication_v2.zip",
+          "size": 857046841,
+          "checksum": "md5:0642debbb475356fb17f007ffed3d05f",
           "links": {
-            "self": "https://zenodo.org/api/records/15025646/files/dataset_14_03_25.csv/content"
+            "self": "https://zenodo.org/api/records/17495872/files/Replication_v2.zip/content"
           }
         }
       ],
-      "swh": {},
+      "swh": null,
       "owners": [
         {
-          "id": "1187384"
+          "id": "101579"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 26,
-        "unique_downloads": 21,
-        "views": 24,
-        "unique_views": 22,
-        "version_downloads": 26,
-        "version_unique_downloads": 21,
-        "version_unique_views": 22,
-        "version_views": 24
+        "downloads": 9,
+        "unique_downloads": 9,
+        "views": 71,
+        "unique_views": 54,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 1,
+        "version_views": 2
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-03-14T14:44:23.308515+00:00",
-      "modified": "2025-03-14T14:46:00.240994+00:00",
-      "id": 15025529,
-      "conceptrecid": "15015686",
-      "doi": "10.5281/zenodo.15025529",
-      "conceptdoi": "10.5281/zenodo.15015686",
-      "doi_url": "https://doi.org/10.5281/zenodo.15025529",
+      "created": "2025-10-31T15:01:54.965047+00:00",
+      "modified": "2025-10-31T15:01:55.135175+00:00",
+      "id": 17494910,
+      "conceptrecid": "17494909",
+      "doi": "10.5281/zenodo.17494910",
+      "conceptdoi": "10.5281/zenodo.17494909",
+      "doi_url": "https://doi.org/10.5281/zenodo.17494910",
       "metadata": {
-        "title": "Iris",
-        "doi": "10.5281/zenodo.15025529",
-        "publication_date": "2025",
-        "description": "<h1>Artifact for ASPLOS 2026 Submission#135</h1>\n<h3>&nbsp;</h3>\n<h2><strong>Table of Contents</strong></h2>\n<ul>\n<li>Background</li>\n<li>Install</li>\n<li>Usage</li>\n</ul>\n<h2><strong>Background</strong></h2>\n<p><em><strong>Iris</strong></em> is a validation tool designed for Optimization Modulo Theories (OMT) solvers, such as Z3 and OptiMathSAT. It enables users to validating OMT solvers by transforming existing SMT files, parallelizing solver runs for multiple files, and experimenting with different theories, including Integer and Real.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Install</strong></h2>\n<div>\n<div><strong>Pre-requisites</strong>: Ensure your system has the following dependencies installed for Iris to operate smoothly:</div>\n<br>\n<div>&nbsp;</div>\n<div>1. <strong>Python Packages</strong>: Certain functionalities of Aries require specific Python package. Install it via:</div>\n<div>\n<pre><code>pip install antlr4-python3-runtime==4.9.2</code></pre>\n</div>\n<div>2. <strong>Solvers</strong>: Direct interaction with the solvers is a cornerstone of Iris' testing process. Please build the solvers you wish to test, such as <a href=\"https://github.com/Z3Prover/z3\" target=\"_new\">Z3</a> and <a href=\"https://optimathsat.disi.unitn.it\">OptiMathSAT</a>, as per their installation manuals.</div>\n<div>3. <strong>SMT-LIB</strong>: Iris performs mutations on seed files to unearth bugs. These seeds can be generated by <a href=\"https://github.com/wintered/ET\">ET</a>.</div>\n<div>&nbsp;</div>\n</div>\n<h2><strong>Usage</strong></h2>\n<div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>Iris is executed via the command line with the following structure:</div>\n<div>\n<ul>\n<li>Navigate to Aries's source directory:</li>\n</ul>\n<div>\n<pre><code>cd Iris-v1.0/src</code></pre>\n</div>\n<ul>\n<li>To start validating with a solver, execute:</li>\n</ul>\n</div>\n<div>\n<pre><code>python3 __main__.py --seed_dir &lt;path_to_seed_files&gt; --solver &lt;z3|optimathsat&gt;\\<br> --solver_bin &lt;path_to_solver_executable&gt; --temp_dir &lt;path_to_temp_directory&gt;\\<br> --theory &lt;int|real&gt; --core_num &lt;number_of_cores&gt;</code></pre>\n</div>\n</div>\n<div>For example:</div>\n<div>&nbsp;</div>\n<div>To run Iris with Z3, using a sample directory and 4 CPU cores:</div>\n<div>\n<pre><code>python3 __main__.py --seed_dir samples/ --solver z3\\<br> --solver_bin /usr/local/bin/z3 --temp_dir ./temp --theory int --core_num 4</code></pre>\n</div>\n<div>\n<pre><br><br></pre>\n</div>",
+        "title": "NERC Environmental Data Service Workshop -\u00a0Shaping the Future of AI-Ready,\u00a0User-Driven Environmental Data",
+        "doi": "10.5281/zenodo.17494910",
+        "publication_date": "2025-10-31",
+        "description": "<div>\n<p><span lang=\"EN-GB\"><span>Presentation delivered at the 2025 NERC Digital Gathering at Cranfield University.&nbsp;</span></span></p>\n<p><span lang=\"EN-GB\"><span>Abstract</span><span>:</span></span><span>&nbsp;</span></p>\n</div>\n<div>\n<p><span lang=\"EN-GB\"><span>This workshop offers the opportunity to learn more about the Environmental Data Service (following on from the talk). We will explore how we are improving our data to ensure AI and non-specialists are better able to tackle multi-disciplinary environmental challenges</span><span>.&nbsp;&nbsp;</span></span><span>&nbsp;</span></p>\n</div>\n<div>\n<p><span lang=\"EN-GB\"><span>The workshop will focus on the EDS AMPLIFY project and its end-to-end workflow for environmental sensor data. We have a proof-of-concept service that combines temperature data from multiple data sources (e.g. ship, </span><span>aircraft</span><span>, ground-based stations) in near-real time. Upcoming projects will expand the breadth of data that we make available; both sensor data and </span><span>additional</span><span> data services (land cover, marine, climate data, satellite data). We would like to explore your views on where we should focus and how we would best ensure users can discover, pick </span><span>up</span><span> and use such resources. If you are someone who uses or produces data (especially sensor data) then </span><span>we&rsquo;d</span><span> love to get your views on the work so far and future direction of our roadmap.&nbsp;</span></span><span>&nbsp;</span></p>\n</div>\n<div>\n<p><span lang=\"EN-GB\"><span>The workshop will be a bit like a hackathon but not about coding. We are particularly interested in exploring the possible user journeys of the future. How do you wish you could combine, access, and analyse data from multiple sources or across disciplines? What data services do decisions makers need for cross-sector environmental challenges in line with Government missions? What new tools and techniques are </span><span>emerging</span><span>? </span><span>We&rsquo;d</span><span> love to explore your views and needs on these topics. This is your opportunity to have your voice heard on what happens next with our data services.</span></span><span>&nbsp;</span></p>\n</div>\n<div>\n<p><span lang=\"EN-GB\"><span>The workshop will also offer the opportunity for individuals to delve into the technical details (where </span><span>appropriate)</span><span> with our team. We hope to </span><span>identify</span><span> opportunities for future collaboration.&nbsp;</span></span><span>&nbsp;</span></p>\n</div>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Anonymous",
-            "affiliation": null
+            "name": "Townsend, Poppy",
+            "affiliation": "Science and Technology Facilities Council",
+            "orcid": "0000-0001-7189-8258"
+          },
+          {
+            "name": "Pepler, Sam",
+            "affiliation": "Science and Technology Facilities Council",
+            "orcid": "0000-0001-5307-911X"
+          },
+          {
+            "name": "Watson, Carl",
+            "affiliation": "British Geological Survey",
+            "orcid": "0000-0003-4940-5503"
+          },
+          {
+            "name": "Darroch, Louise",
+            "affiliation": "British Oceanographic Data Centre (National Oceanography Centre)",
+            "orcid": "0000-0003-4163-9575"
+          },
+          {
+            "name": "Kokkinaki, Alexandra",
+            "affiliation": "British Oceanographic Data Centre",
+            "orcid": "0000-0001-8042-6391"
+          },
+          {
+            "name": "Walsh, Colm",
+            "affiliation": "National Oceanography Centre",
+            "orcid": "0009-0009-0994-1003"
+          },
+          {
+            "name": "Clare, James",
+            "affiliation": "British Oceanographic Data Centre (National Oceanography Centre)"
+          },
+          {
+            "name": "Rawsthorne, Helen Mair",
+            "affiliation": "UK Centre for Ecology & Hydrology",
+            "orcid": "0000-0002-6540-8547"
+          },
+          {
+            "name": "Samreen, Faiza",
+            "affiliation": "UK Centre for Ecology & Hydrology",
+            "orcid": "0000-0002-9522-0713"
+          },
+          {
+            "name": "Kingdon, Andrew",
+            "affiliation": "British Geological Survey",
+            "orcid": "0000-0003-4979-588X"
+          },
+          {
+            "name": "Stephens, Ag",
+            "affiliation": "Science and Technology Facilities Council",
+            "orcid": "0000-0002-1038-7988"
+          },
+          {
+            "name": "Tvaranavicius, Paulius",
+            "affiliation": "British Geological Survey"
+          },
+          {
+            "name": "Alexander, Jesse",
+            "affiliation": "Science and Technology Facilities Council",
+            "orcid": "0009-0006-2877-3197"
           }
         ],
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Presentation",
+          "type": "presentation"
+        },
+        "meeting": {
+          "title": "NERC Digital Gathering",
+          "dates": "7-9 October 2025",
+          "place": "Cranfield University",
+          "url": "https://sites.google.com/ncas.ac.uk/digitalgathering2025/home?authuser=0"
         },
         "license": {
           "id": "cc-by-4.0"
         },
+        "communities": [
+          {
+            "id": "ceda-document-repository"
+          }
+        ],
         "relations": {
           "version": [
             {
-              "index": 1,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15015686"
+                "pid_value": "17494909"
               }
             }
           ]
         }
       },
-      "title": "Iris",
+      "title": "NERC Environmental Data Service Workshop -\u00a0Shaping the Future of AI-Ready,\u00a0User-Driven Environmental Data",
       "links": {
-        "self": "https://zenodo.org/api/records/15025529",
-        "self_html": "https://zenodo.org/records/15025529",
-        "doi": "https://doi.org/10.5281/zenodo.15025529",
-        "self_doi": "https://doi.org/10.5281/zenodo.15025529",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15025529",
-        "parent": "https://zenodo.org/api/records/15015686",
-        "parent_html": "https://zenodo.org/records/15015686",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15015686",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15015686",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15025529/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15025529/sequence/default",
-        "files": "https://zenodo.org/api/records/15025529/files",
-        "media_files": "https://zenodo.org/api/records/15025529/media-files",
-        "archive": "https://zenodo.org/api/records/15025529/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15025529/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15025529/versions/latest",
-        "latest_html": "https://zenodo.org/records/15025529/latest",
-        "versions": "https://zenodo.org/api/records/15025529/versions",
-        "draft": "https://zenodo.org/api/records/15025529/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15025529/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15025529/access/links",
-        "access_grants": "https://zenodo.org/api/records/15025529/access/grants",
-        "access_users": "https://zenodo.org/api/records/15025529/access/users",
-        "access_request": "https://zenodo.org/api/records/15025529/access/request",
-        "access": "https://zenodo.org/api/records/15025529/access",
-        "communities": "https://zenodo.org/api/records/15025529/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15025529/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15025529/requests"
+        "self": "https://zenodo.org/api/records/17494910",
+        "self_html": "https://zenodo.org/records/17494910",
+        "preview_html": "https://zenodo.org/records/17494910?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17494910",
+        "self_doi": "https://doi.org/10.5281/zenodo.17494910",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17494910",
+        "reserve_doi": "https://zenodo.org/api/records/17494910/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17494909",
+        "parent_html": "https://zenodo.org/records/17494909",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17494909",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17494909",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17494910/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17494910/sequence/default",
+        "files": "https://zenodo.org/api/records/17494910/files",
+        "media_files": "https://zenodo.org/api/records/17494910/media-files",
+        "archive": "https://zenodo.org/api/records/17494910/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17494910/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17494910/versions/latest",
+        "latest_html": "https://zenodo.org/records/17494910/latest",
+        "versions": "https://zenodo.org/api/records/17494910/versions",
+        "draft": "https://zenodo.org/api/records/17494910/draft",
+        "access_links": "https://zenodo.org/api/records/17494910/access/links",
+        "access_grants": "https://zenodo.org/api/records/17494910/access/grants",
+        "access_users": "https://zenodo.org/api/records/17494910/access/users",
+        "access_request": "https://zenodo.org/api/records/17494910/access/request",
+        "access": "https://zenodo.org/api/records/17494910/access",
+        "communities": "https://zenodo.org/api/records/17494910/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17494910/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17494910/request-deletion",
+        "requests": "https://zenodo.org/api/records/17494910/requests"
       },
-      "updated": "2025-03-14T14:46:00.240994+00:00",
-      "recid": "15025529",
-      "revision": 6,
+      "updated": "2025-10-31T15:01:55.135175+00:00",
+      "recid": "17494910",
+      "revision": 4,
       "files": [
         {
-          "id": "fea95246-da15-4c41-84db-f4c2d065433e",
-          "key": "Iris-1.0.zip",
-          "size": 2081800,
-          "checksum": "md5:c8b5413bf564d0e4c89454e98beca533",
+          "id": "9e213b47-b1db-4d7a-ade4-d5ad232fb5fc",
+          "key": "LR5 - 1410 - EDS workshop Shaping the Future of AI-Ready, User-Driven Environmental Data _- P Townsend et al .pptx",
+          "size": 12977328,
+          "checksum": "md5:9677c2e6995b4788dd60fb910e68efc5",
           "links": {
-            "self": "https://zenodo.org/api/records/15025529/files/Iris-1.0.zip/content"
+            "self": "https://zenodo.org/api/records/17494910/files/LR5 - 1410 - EDS workshop Shaping the Future of AI-Ready, User-Driven Environmental Data _- P Townsend et al .pptx/content"
           }
         }
       ],
-      "swh": {
-        "swhid": "swh:1:dir:09bb3ee87e3865c13dbabcbdbc23014727749c1a;origin=https://doi.org/10.5281/zenodo.15015686;visit=swh:1:snp:48cb4f893310308af33f195ace69269821b6e0d8;anchor=swh:1:rel:3dc05e25036524f699e588ee35c1ce772d8b488a;path=Iris-1.0"
-      },
+      "swh": null,
       "owners": [
         {
-          "id": "251748"
+          "id": "260920"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 5,
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 19,
+        "unique_views": 16,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 16,
+        "version_views": 19
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-10-31T14:30:06.851415+00:00",
+      "modified": "2025-10-31T14:30:07.139376+00:00",
+      "id": 17494628,
+      "conceptrecid": "17494627",
+      "doi": "10.5281/zenodo.17494628",
+      "conceptdoi": "10.5281/zenodo.17494627",
+      "doi_url": "https://doi.org/10.5281/zenodo.17494628",
+      "metadata": {
+        "title": "DALIA Use Cases and User Stories",
+        "doi": "10.5281/zenodo.17494628",
+        "publication_date": "2025-10-31",
+        "description": "<div>&nbsp;</div>\n<div>\n<p>In today&rsquo;s digital society, the ability to handle, understand, and manage data in an efficient way is increasingly recognized as a fundamental skill across all disciplines. The DALIA project (DAta LIteracy Alliance [1]) aims to foster data literacy by providing high-quality, openly accessible educational resources (OER). These materials are designed to meet the diverse needs of learners and professionals at various educational levels, levels of RDM experience, and disciplinary backgrounds. The resources are contributed by a wide range of institutions, including the National Research Data Infrastructure (NFDI) consortia, national Research Data Management (RDM) initiatives, data competence centers, and other stakeholders from the research and education landscape. To enable efficient access and use of these learning materials, DALIA is developing a knowledge graph that supports semantic linking and integration, adhering to the FAIR principles&mdash;Findable, Accessible, Interoperable, and Reusable [2,3].</p>\n<p>A central element of the DALIA platform development is the implementation of an agile, user-centred approach. Core to this methodology are user stories, which articulate specific user needs and expectations in a structured, scenario-based format [4]. Each user story is framed as: &ldquo;As a [role with specific RDM experience], I have the [need/requirement] to be fulfilled by a [knowledge base function].&rdquo; This format ensures that requirements are clearly linked to both the user context and the intended system functionality, while maintaining cross-disciplinary applicability.</p>\n<p>Based on these user stories, more detailed use cases are developed, specifying triggers, user actions, system responses, expected outcomes, and acceptance criteria. These use cases guide the iterative design and development of the platform and ensure alignment with real-world needs. The user stories encompass both, the perspectives of learners&mdash;seeking relevant learning materials&mdash;and contributors, who wish to publish content, share feedback, or access usage reports.</p>\n<p>The initial set of user stories was developed by combining general community input and a structured community workshop. Participants were invited to describe their needs via a targeted survey, considering their role, educational level, specialization, and intended use of the platform. This participatory process enabled the integration of a wide range of perspectives and ensured that the platform supports diverse usage scenarios. Through continuous refinement of user stories and active community involvement, DALIA remains adaptive, inclusive, and responsive to evolving user needs in the field of research data management and data literacy.</p>\n<h3>References</h3>\n<p>[1] DALIA Search Platform, &ldquo;Search platform for OER regarding data literacy&rdquo; <a href=\"https://search.dalia.education/basic\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://search.dalia.education/basic</a> (07.04.2025)<br>[2] M. D. Wilkinson et al., &ldquo;&bdquo;The FAIR Guiding Principles for scientific data management and stewardship&rdquo;, Sci. Data, 3, 160018, 2016, doi: 10.1038/sdata.2016.18.<br>[3] L. Garcia et al., &ldquo;Ten simple rules for making training materials FAIR&rdquo;, PLOS Comp. Biol. 16 (5), e1007854 2020, doi: <a href=\"https://doi.org/10.1371/journal.pcbi.1007854\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://doi.org/10.1371/journal.pcbi.1007854</a>.<br>[4] I. Jacobson et al., &ldquo;Object-oriented software engineering: a use case driven approach&rdquo;, Wokingham; Reading, MA (USA), ACM Press, 1992, ISBN: 0-201-54435-0.</p>\n<p>&nbsp;</p>\n<p>DALIA is currently funded by the Federal Ministry of Research, Technology, and Space (BMFTR) and the funding measure from the EU&rsquo;s Capacity Building and Resilience Facility under the funding code 16DWWQP07.</p>\n</div>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "H\u00fcppe, Henrika Maria",
+            "affiliation": null,
+            "orcid": "0000-0002-0570-7924"
+          },
+          {
+            "name": "Alessandra, Kuntz",
+            "affiliation": null,
+            "orcid": "0000-0002-8259-2577"
+          },
+          {
+            "name": "Rosalie, Dalhoff",
+            "affiliation": null,
+            "orcid": "0000-0001-7145-3929"
+          },
+          {
+            "name": "Schmidt, Regina Ulrike Sophie",
+            "affiliation": null,
+            "orcid": "0000-0001-8049-4706"
+          },
+          {
+            "name": "Kleinhans, Agnes",
+            "affiliation": null,
+            "orcid": "0009-0003-7531-5891"
+          },
+          {
+            "name": "Xia, Ning",
+            "affiliation": null,
+            "orcid": "0009-0006-8245-5958"
+          },
+          {
+            "name": "Haugwitz, Jan-Michael",
+            "affiliation": null,
+            "orcid": "0009-0007-3576-3947"
+          },
+          {
+            "name": "Will, Moritz",
+            "affiliation": null,
+            "orcid": "0000-0003-4822-9122"
+          }
+        ],
+        "keywords": [
+          "Data Literacy",
+          "Research data management",
+          "DALIA",
+          "OER",
+          "Use Case"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Publication",
+          "type": "publication"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "dalia"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17494627"
+              }
+            }
+          ]
+        }
+      },
+      "title": "DALIA Use Cases and User Stories",
+      "links": {
+        "self": "https://zenodo.org/api/records/17494628",
+        "self_html": "https://zenodo.org/records/17494628",
+        "preview_html": "https://zenodo.org/records/17494628?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17494628",
+        "self_doi": "https://doi.org/10.5281/zenodo.17494628",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17494628",
+        "reserve_doi": "https://zenodo.org/api/records/17494628/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17494627",
+        "parent_html": "https://zenodo.org/records/17494627",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17494627",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17494627",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17494628/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17494628/sequence/default",
+        "files": "https://zenodo.org/api/records/17494628/files",
+        "media_files": "https://zenodo.org/api/records/17494628/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17494628:DALIA_User_Cases_de.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17494628:DALIA_User_Cases_de.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17494628:DALIA_User_Cases_de.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17494628:DALIA_User_Cases_de.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17494628:DALIA_User_Cases_de.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17494628:DALIA_User_Cases_de.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17494628/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17494628/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17494628/versions/latest",
+        "latest_html": "https://zenodo.org/records/17494628/latest",
+        "versions": "https://zenodo.org/api/records/17494628/versions",
+        "draft": "https://zenodo.org/api/records/17494628/draft",
+        "access_links": "https://zenodo.org/api/records/17494628/access/links",
+        "access_grants": "https://zenodo.org/api/records/17494628/access/grants",
+        "access_users": "https://zenodo.org/api/records/17494628/access/users",
+        "access_request": "https://zenodo.org/api/records/17494628/access/request",
+        "access": "https://zenodo.org/api/records/17494628/access",
+        "communities": "https://zenodo.org/api/records/17494628/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17494628/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17494628/request-deletion",
+        "requests": "https://zenodo.org/api/records/17494628/requests"
+      },
+      "updated": "2025-10-31T14:30:07.139376+00:00",
+      "recid": "17494628",
+      "revision": 4,
+      "files": [
+        {
+          "id": "c8ac3500-404d-4c1b-a183-e7dee19c8519",
+          "key": "DALIA_User_Cases_de.pdf",
+          "size": 1119342,
+          "checksum": "md5:f1d72f3aece7a80e8f85c3db3d48f86b",
+          "links": {
+            "self": "https://zenodo.org/api/records/17494628/files/DALIA_User_Cases_de.pdf/content"
+          }
+        },
+        {
+          "id": "097a403d-5f87-44e3-8883-fa276414c33f",
+          "key": "DALIA_User_Cases_en.pdf",
+          "size": 1110598,
+          "checksum": "md5:c604f61f0ae588af892f6e6b86730c30",
+          "links": {
+            "self": "https://zenodo.org/api/records/17494628/files/DALIA_User_Cases_en.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "261515"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 6,
         "unique_downloads": 5,
-        "views": 11,
-        "unique_views": 8,
-        "version_downloads": 2,
-        "version_unique_downloads": 2,
-        "version_unique_views": 3,
+        "views": 4,
+        "unique_views": 4,
+        "version_downloads": 6,
+        "version_unique_downloads": 5,
+        "version_unique_views": 4,
         "version_views": 4
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-03-14T14:42:55.617706+00:00",
-      "modified": "2025-03-14T14:42:55.741140+00:00",
-      "id": 15025368,
-      "conceptrecid": "10785276",
-      "doi": "10.5281/zenodo.15025368",
-      "conceptdoi": "10.5281/zenodo.10785276",
-      "doi_url": "https://doi.org/10.5281/zenodo.15025368",
+      "created": "2025-10-30T18:29:39.336657+00:00",
+      "modified": "2025-10-30T18:29:39.896259+00:00",
+      "id": 17487413,
+      "conceptrecid": "17487412",
+      "doi": "10.5281/zenodo.17487413",
+      "conceptdoi": "10.5281/zenodo.17487412",
+      "doi_url": "https://doi.org/10.5281/zenodo.17487413",
       "metadata": {
-        "title": "ICON Mesh Splitter version 1.3 -  A program to create irregular computational meshes for ICON-O",
-        "doi": "10.5281/zenodo.15025368",
-        "publication_date": "2025-03-14",
-        "description": "<p>Icon Mesh Splitter (IMS) is a simple Linux console tool for generating meshes for the ICON-O ocean model<br>(Korn et al. 2022). The resulting NetCDF mesh file can be read and used directly by ICON-O.<br>In this version of the program, only global grids are generated. These are based on the ETOPO_2022 topography<br>(NOAA 2022) with manipulated values in the area of the southeastern North Sea to obtain a more<br>accurate land-sea mask.</p>\n<p>The other base is the icosahedron, a polyhedron formed by 20 equilateral triangles. This rather coarse<br>global mesh is refined using the bisectional method. Here, 3 new vertices are introduced at half the length<br>of the 3 sides of the triangle. If these three new vertices are connected by three new sides, 4 new equilateral<br>triangles are created from the old triangle.</p>\n<p>IMS always starts with a uniform icosahedral grid of the global sphere with a resolution of about 160 km.<br>This grid is created by a fivefold bisectional refinement of the original 20 sided icosahedron.<br>The number of cells in this grid is therefore 20*4*4*4*4*4 = 20480. This grid, with optionally removed land cells, is the<br>first mesh that the IMS offers, if the user does not wish to refine it further.</p>\n<p>However, the user must define a global matrix of the desired grid refinements using a so-called \"levelmap\".<br>With this, IMS can be instructed to refine the grid only regionally, and thus generates an irregular grid.</p>\n<p>In addition, the user can activate \"coastal refinement\" for the different refinement levels.</p>\n<p>You find more information about the mesh generation technique in Logemann et al. (2021).</p>\n<p>&nbsp;</p>\n<p>Korn, P., Br&uuml;ggemann, N., Jungclaus, J. H., Lorenz, S. J., Gutjahr, O., Haak, H., et al. (2022). ICON-O: The ocean<br>component of the ICON Earth system model&mdash;Global simulation characteristics and local telescoping capability. Journal<br>of Advances in Modeling Earth Systems, 14, e2021MS002952. https://doi.org/10.1029/2021MS002952</p>\n<p>Logemann, K., Linardakis, L., Korn, P., &amp; Schrum, C. (2021). Global tide simulations with ICON-O: Testing the model<br>performance on highly irregular meshes. Ocean Dynamics, 21(1), 43&ndash;57. https://doi.org/10.1007/s10236-020-01428-7</p>\n<p>NOAA National Centers for Environmental Information. (2022): ETOPO 2022 15 Arc-Second Global Relief Model.<br>NOAA National Centers for Environmental Information. DOI: 10.25921/fd45-gt74</p>",
+        "title": "Hydrodynamic outflows and the lunar volatile element depletion",
+        "doi": "10.5281/zenodo.17487413",
+        "publication_date": "2025-10-30",
+        "description": "<p>These three worksheets written for Maplesoft's Maple 2020 software package were used to produce FIgures 1, 2, and 3 &nbsp;(C-O-H-adiabats.mw) and Figure 4 (C-O-H-Na-adiabats.mw, adiabatic-solutions.mw) of the accompanying publication. PDF versions are also included for those readers without access to the Maple 2020 software package or those who wish to reproduce the presented results in other software packages or platforms.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Logemann, Kai",
-            "affiliation": "Helmholtz-Zentrum Hereon",
-            "orcid": "0000-0002-7341-0073"
-          },
+            "name": "Pahlevan, Kaveh",
+            "affiliation": null
+          }
+        ],
+        "dates": [
           {
-            "name": "Klockmann, Marlene",
-            "affiliation": "Institute of Oceanography, University of Hamburg",
-            "orcid": "0000-0003-1012-830X"
+            "type": "submitted"
           }
         ],
-        "references": [
-          "Logemann, K., Linardakis, L., Korn, P., & Schrum, C. (2021). Global tide simulations with ICON-O: Testing the model performance on highly irregular meshes. Ocean Dynamics, 21(1), 43\u201357. https://doi.org/10.1007/s10236-020-01428-7"
-        ],
-        "custom": {
-          "code:programmingLanguage": [
-            {
-              "id": "fortran_free_form",
-              "title": {
-                "en": "Fortran Free Form"
-              }
-            }
-          ],
-          "code:developmentStatus": {
-            "id": "active",
-            "title": {
-              "en": "Active"
-            }
-          }
-        },
+        "version": "1.0",
+        "language": "eng",
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Computational notebook",
+          "type": "software",
+          "subtype": "computationalnotebook"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -1424,77 +720,782 @@
         "relations": {
           "version": [
             {
-              "index": 4,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "10785276"
+                "pid_value": "17487412"
               }
             }
           ]
         }
       },
-      "title": "ICON Mesh Splitter version 1.3 -  A program to create irregular computational meshes for ICON-O",
+      "title": "Hydrodynamic outflows and the lunar volatile element depletion",
       "links": {
-        "self": "https://zenodo.org/api/records/15025368",
-        "self_html": "https://zenodo.org/records/15025368",
-        "doi": "https://doi.org/10.5281/zenodo.15025368",
-        "self_doi": "https://doi.org/10.5281/zenodo.15025368",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15025368",
-        "parent": "https://zenodo.org/api/records/10785276",
-        "parent_html": "https://zenodo.org/records/10785276",
-        "parent_doi": "https://doi.org/10.5281/zenodo.10785276",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10785276",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15025368/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15025368/sequence/default",
-        "files": "https://zenodo.org/api/records/15025368/files",
-        "media_files": "https://zenodo.org/api/records/15025368/media-files",
-        "archive": "https://zenodo.org/api/records/15025368/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15025368/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15025368/versions/latest",
-        "latest_html": "https://zenodo.org/records/15025368/latest",
-        "versions": "https://zenodo.org/api/records/15025368/versions",
-        "draft": "https://zenodo.org/api/records/15025368/draft",
-        "reserve_doi": "https://zenodo.org/api/records/15025368/draft/pids/doi",
-        "access_links": "https://zenodo.org/api/records/15025368/access/links",
-        "access_grants": "https://zenodo.org/api/records/15025368/access/grants",
-        "access_users": "https://zenodo.org/api/records/15025368/access/users",
-        "access_request": "https://zenodo.org/api/records/15025368/access/request",
-        "access": "https://zenodo.org/api/records/15025368/access",
-        "communities": "https://zenodo.org/api/records/15025368/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15025368/communities-suggestions",
-        "requests": "https://zenodo.org/api/records/15025368/requests"
+        "self": "https://zenodo.org/api/records/17487413",
+        "self_html": "https://zenodo.org/records/17487413",
+        "preview_html": "https://zenodo.org/records/17487413?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17487413",
+        "self_doi": "https://doi.org/10.5281/zenodo.17487413",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17487413",
+        "reserve_doi": "https://zenodo.org/api/records/17487413/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17487412",
+        "parent_html": "https://zenodo.org/records/17487412",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17487412",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17487412",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17487413/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17487413/sequence/default",
+        "files": "https://zenodo.org/api/records/17487413/files",
+        "media_files": "https://zenodo.org/api/records/17487413/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17487413:C-O-H-Na-adiabats.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17487413:C-O-H-Na-adiabats.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17487413:C-O-H-Na-adiabats.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17487413:C-O-H-Na-adiabats.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17487413:C-O-H-Na-adiabats.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17487413:C-O-H-Na-adiabats.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17487413/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17487413/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17487413/versions/latest",
+        "latest_html": "https://zenodo.org/records/17487413/latest",
+        "versions": "https://zenodo.org/api/records/17487413/versions",
+        "draft": "https://zenodo.org/api/records/17487413/draft",
+        "access_links": "https://zenodo.org/api/records/17487413/access/links",
+        "access_grants": "https://zenodo.org/api/records/17487413/access/grants",
+        "access_users": "https://zenodo.org/api/records/17487413/access/users",
+        "access_request": "https://zenodo.org/api/records/17487413/access/request",
+        "access": "https://zenodo.org/api/records/17487413/access",
+        "communities": "https://zenodo.org/api/records/17487413/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17487413/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17487413/request-deletion",
+        "requests": "https://zenodo.org/api/records/17487413/requests"
       },
-      "updated": "2025-03-14T14:42:55.741140+00:00",
-      "recid": "15025368",
+      "updated": "2025-10-30T18:29:39.896259+00:00",
+      "recid": "17487413",
       "revision": 4,
       "files": [
         {
-          "id": "398748e1-6535-498a-910c-75075d17ce49",
-          "key": "ims1.3.zip",
-          "size": 8081647163,
-          "checksum": "md5:c46105b59ce88a53c1669cf61dabf17e",
+          "id": "78246b87-5260-4790-8183-62d0c78bfb71",
+          "key": "C-O-H-Na-adiabats.pdf",
+          "size": 262078,
+          "checksum": "md5:e43c8e6f5582e5f55412eece68996bc5",
           "links": {
-            "self": "https://zenodo.org/api/records/15025368/files/ims1.3.zip/content"
+            "self": "https://zenodo.org/api/records/17487413/files/C-O-H-Na-adiabats.pdf/content"
+          }
+        },
+        {
+          "id": "2430083d-703f-4272-9128-ebf5f7f987f3",
+          "key": "C-O-H-adiabats.pdf",
+          "size": 278876,
+          "checksum": "md5:426429c2e6b4e6197b5f8507a8d23c28",
+          "links": {
+            "self": "https://zenodo.org/api/records/17487413/files/C-O-H-adiabats.pdf/content"
+          }
+        },
+        {
+          "id": "c7050ced-f3d7-4d66-8e78-0aba6d331710",
+          "key": "C-O-H-Na-adiabats.mw",
+          "size": 147396,
+          "checksum": "md5:9c860385410c7f0de9f7b491eaef6c6f",
+          "links": {
+            "self": "https://zenodo.org/api/records/17487413/files/C-O-H-Na-adiabats.mw/content"
+          }
+        },
+        {
+          "id": "af07cc20-a853-401f-bd86-e8223d1e41be",
+          "key": "adiabatic-solutions.pdf",
+          "size": 67661,
+          "checksum": "md5:0f73c0ccb949475df3876d8c09ad4459",
+          "links": {
+            "self": "https://zenodo.org/api/records/17487413/files/adiabatic-solutions.pdf/content"
+          }
+        },
+        {
+          "id": "1bbcc5e0-0a51-467c-b7fe-20e7d6b5fb4f",
+          "key": "adiabatic-solutions.mw",
+          "size": 43904,
+          "checksum": "md5:4595628c0700592177d6ddf740b6e834",
+          "links": {
+            "self": "https://zenodo.org/api/records/17487413/files/adiabatic-solutions.mw/content"
+          }
+        },
+        {
+          "id": "a62b384d-cef4-4b84-9e54-b1d94af2db87",
+          "key": "C-O-H-adiabats.mw",
+          "size": 155142,
+          "checksum": "md5:608c04501a6e283870671d929e277c82",
+          "links": {
+            "self": "https://zenodo.org/api/records/17487413/files/C-O-H-adiabats.mw/content"
           }
         }
       ],
-      "swh": {},
+      "swh": null,
       "owners": [
         {
-          "id": "1079365"
+          "id": "544690"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 28,
-        "unique_downloads": 26,
-        "views": 273,
-        "unique_views": 250,
+        "downloads": 7,
+        "unique_downloads": 4,
+        "views": 5,
+        "unique_views": 2,
+        "version_downloads": 7,
+        "version_unique_downloads": 4,
+        "version_unique_views": 2,
+        "version_views": 5
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-10-30T14:54:48.430623+00:00",
+      "modified": "2025-10-30T14:54:48.610070+00:00",
+      "id": 17484942,
+      "conceptrecid": "8256234",
+      "doi": "10.5281/zenodo.17484942",
+      "conceptdoi": "10.5281/zenodo.8256234",
+      "doi_url": "https://doi.org/10.5281/zenodo.17484942",
+      "metadata": {
+        "title": "TRE/SDE Data access agreement",
+        "doi": "10.5281/zenodo.17484942",
+        "publication_date": "2025-10-30",
+        "description": "<h3><em>[If you are looking at an old version this will show as 'restricted' and a link to the newest version will show at the top of the page]</em></h3>\n<p>This Data Access Agreement (DAA) is freely available to use and is intended for use where data is accessed within a Trusted Research Environment (TRE) for the purposes of research and development for the public good.&nbsp;</p>\n<p>The DAA has been developed by the Pan UK Data Governance Steering Group, a working Group of the UK Health Data Research Alliance representing data custodians and policymakers across the four nations of the UK. The Steering Group is focused on simplifying and streamlining data access governance processes.</p>\n<p>The DAA terms and conditions should not be modified. The annexes are customisable to allow for differences between TREs.&nbsp;</p>\n<p><strong>We are providing a Personal Data/CPI and a Non-Personal Data template</strong></p>\n<p>The latter intended for use only where the data accessed in the TRE and the Data Output are both not considered Personal Data or Confidential Patient Information (CPI) from the perspective of the Approved User and their Approved User Organisation who are accessing the data on behalf of the Sponsor Organisation. If research will involve access to Data that is Personal Data or CPI, or the creation of Data Outputs that are likely to become Personal Data or CPI in the hands of the intended recipients, the Personal Data version must be used.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "TRE Legal Toolkit Action Force, Pan UK Data Governance Steering Group, UK Health Data Research Alliance",
+            "affiliation": "HDR UK"
+          }
+        ],
+        "keywords": [
+          "data access agreement",
+          "DAA",
+          "data sharing agreement",
+          "data governance",
+          "trusted research environment",
+          "TRE",
+          "secure data environment",
+          "SDE",
+          "research contract",
+          "data safe haven",
+          "five safes framework"
+        ],
+        "dates": [
+          {
+            "type": "available",
+            "description": "V7.1 22.10.25 (non) V8.0 30.10.25 (personal/CPI)"
+          }
+        ],
+        "version": "8.0 personal/CPI 7.1 non-personal",
+        "language": "eng",
+        "resource_type": {
+          "title": "Other",
+          "type": "other"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "hdruk"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 14,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "8256234"
+              }
+            }
+          ]
+        },
+        "notes": "<p>We wish to encourage widespread adoption of this template and it is freely available to use. If you do plan to adopt this template or would like to discuss any queries please get in touch: informationgovernance@hdruk.ac.uk</p>"
+      },
+      "title": "TRE/SDE Data access agreement",
+      "links": {
+        "self": "https://zenodo.org/api/records/17484942",
+        "self_html": "https://zenodo.org/records/17484942",
+        "preview_html": "https://zenodo.org/records/17484942?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17484942",
+        "self_doi": "https://doi.org/10.5281/zenodo.17484942",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17484942",
+        "reserve_doi": "https://zenodo.org/api/records/17484942/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/8256234",
+        "parent_html": "https://zenodo.org/records/8256234",
+        "parent_doi": "https://doi.org/10.5281/zenodo.8256234",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8256234",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17484942/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17484942/sequence/default",
+        "files": "https://zenodo.org/api/records/17484942/files",
+        "media_files": "https://zenodo.org/api/records/17484942/media-files",
+        "archive": "https://zenodo.org/api/records/17484942/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17484942/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17484942/versions/latest",
+        "latest_html": "https://zenodo.org/records/17484942/latest",
+        "versions": "https://zenodo.org/api/records/17484942/versions",
+        "draft": "https://zenodo.org/api/records/17484942/draft",
+        "access_links": "https://zenodo.org/api/records/17484942/access/links",
+        "access_grants": "https://zenodo.org/api/records/17484942/access/grants",
+        "access_users": "https://zenodo.org/api/records/17484942/access/users",
+        "access_request": "https://zenodo.org/api/records/17484942/access/request",
+        "access": "https://zenodo.org/api/records/17484942/access",
+        "communities": "https://zenodo.org/api/records/17484942/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17484942/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17484942/request-deletion",
+        "requests": "https://zenodo.org/api/records/17484942/requests"
+      },
+      "updated": "2025-10-30T14:54:48.610070+00:00",
+      "recid": "17484942",
+      "revision": 4,
+      "files": [
+        {
+          "id": "582a6acf-9745-4515-b500-7345889aab77",
+          "key": "DAA v8.0 30.10.25 Personal Data_CPI version .docx",
+          "size": 162298,
+          "checksum": "md5:f9560245a0d1452e0b0dc95b207631c1",
+          "links": {
+            "self": "https://zenodo.org/api/records/17484942/files/DAA v8.0 30.10.25 Personal Data_CPI version .docx/content"
+          }
+        },
+        {
+          "id": "49a65a40-de60-46b4-ba07-5cea4dd122a4",
+          "key": "DAA v7.1 23.10.2025 Non-personal data.docx",
+          "size": 130542,
+          "checksum": "md5:c40ba7090a819f78adef99aceb84948e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17484942/files/DAA v7.1 23.10.2025 Non-personal data.docx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "598805"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 2109,
+        "unique_downloads": 1847,
+        "views": 4657,
+        "unique_views": 4221,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 2,
-        "version_views": 2
+        "version_unique_views": 3,
+        "version_views": 3
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-10-30T12:04:15.704519+00:00",
+      "modified": "2025-10-30T12:04:15.938582+00:00",
+      "id": 17483904,
+      "conceptrecid": "17483903",
+      "doi": "10.5281/zenodo.17483904",
+      "conceptdoi": "10.5281/zenodo.17483903",
+      "doi_url": "https://doi.org/10.5281/zenodo.17483904",
+      "metadata": {
+        "title": "Techniques for interactive visual examination of autonomous vessel performance",
+        "doi": "10.5281/zenodo.17483904",
+        "publication_date": "2024-08-30",
+        "description": "<p><span>This work dives into different aspects of autonomous vessel functionality that developers may wish to analyse, Employing various visual displays, interaction techniques and associated measurements.</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Andrienko, Natalia",
+            "affiliation": "City University",
+            "orcid": "0000-0003-3313-1560"
+          },
+          {
+            "name": "Andrienko, Gennady",
+            "affiliation": "City University",
+            "orcid": "0000-0002-8574-6295"
+          },
+          {
+            "name": "Zissis, Dimitris",
+            "affiliation": "University of East Anglia",
+            "orcid": "0000-0002-6957-3494"
+          },
+          {
+            "name": "Troupiotis-Kapeliaris, Alexandros",
+            "affiliation": null,
+            "orcid": "0000-0001-8726-6693"
+          }
+        ],
+        "resource_type": {
+          "title": "Conference proceeding",
+          "type": "publication",
+          "subtype": "conferenceproceeding"
+        },
+        "meeting": {
+          "title": "7th International Workshop on Big Data Visual Exploration and Analytics",
+          "acronym": "VLDB",
+          "dates": "30 August 2024",
+          "place": "Guangzhou, China"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "grants": [
+          {
+            "code": "101092749",
+            "internal_id": "10.13039/501100000780::101092749",
+            "funder": {
+              "name": "European Commission",
+              "doi": "10.13039/501100000780",
+              "acronym": "EC"
+            },
+            "title": "Critical Action Planning over Extreme-Scale Data",
+            "acronym": "CREXDATA",
+            "program": "HORIZON.2.4",
+            "url": "https://cordis.europa.eu/projects/101092749"
+          }
+        ],
+        "communities": [
+          {
+            "id": "crexdata"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17483903"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Techniques for interactive visual examination of autonomous vessel performance",
+      "links": {
+        "self": "https://zenodo.org/api/records/17483904",
+        "self_html": "https://zenodo.org/records/17483904",
+        "preview_html": "https://zenodo.org/records/17483904?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17483904",
+        "self_doi": "https://doi.org/10.5281/zenodo.17483904",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17483904",
+        "reserve_doi": "https://zenodo.org/api/records/17483904/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17483903",
+        "parent_html": "https://zenodo.org/records/17483903",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17483903",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17483903",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17483904/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17483904/sequence/default",
+        "files": "https://zenodo.org/api/records/17483904/files",
+        "media_files": "https://zenodo.org/api/records/17483904/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17483904:Natalia%20Andrienko%20et%20al_August.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17483904:Natalia%20Andrienko%20et%20al_August.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17483904:Natalia%20Andrienko%20et%20al_August.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17483904:Natalia%20Andrienko%20et%20al_August.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17483904:Natalia%20Andrienko%20et%20al_August.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17483904:Natalia%20Andrienko%20et%20al_August.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17483904/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17483904/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17483904/versions/latest",
+        "latest_html": "https://zenodo.org/records/17483904/latest",
+        "versions": "https://zenodo.org/api/records/17483904/versions",
+        "draft": "https://zenodo.org/api/records/17483904/draft",
+        "access_links": "https://zenodo.org/api/records/17483904/access/links",
+        "access_grants": "https://zenodo.org/api/records/17483904/access/grants",
+        "access_users": "https://zenodo.org/api/records/17483904/access/users",
+        "access_request": "https://zenodo.org/api/records/17483904/access/request",
+        "access": "https://zenodo.org/api/records/17483904/access",
+        "communities": "https://zenodo.org/api/records/17483904/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17483904/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17483904/request-deletion",
+        "requests": "https://zenodo.org/api/records/17483904/requests"
+      },
+      "updated": "2025-10-30T12:04:15.938582+00:00",
+      "recid": "17483904",
+      "revision": 4,
+      "files": [
+        {
+          "id": "32c1f41f-5fd5-4e55-908f-923c4802f40a",
+          "key": "Natalia Andrienko et al_August.pdf",
+          "size": 2850351,
+          "checksum": "md5:bb5acd8ba761feed6ec59120a4db9cd7",
+          "links": {
+            "self": "https://zenodo.org/api/records/17483904/files/Natalia Andrienko et al_August.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1122623"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 1,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 2,
+        "version_unique_downloads": 1,
+        "version_unique_views": 1,
+        "version_views": 1
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-10-30T09:41:18.110160+00:00",
+      "modified": "2025-10-30T09:41:18.445274+00:00",
+      "id": 17482485,
+      "conceptrecid": "17482484",
+      "doi": "10.5281/zenodo.17482485",
+      "conceptdoi": "10.5281/zenodo.17482484",
+      "doi_url": "https://doi.org/10.5281/zenodo.17482485",
+      "metadata": {
+        "title": "THE USE OF DERIVATIONAL AFFIXES IN O'TKIR HOSHIMOV'S WORK THE AFFAIRS OF THE WORLD",
+        "doi": "10.5281/zenodo.17482485",
+        "publication_date": "2025-10-29",
+        "description": "<p><em><span lang=\"EN-US\">As we live in this world, I believe there is one thing we must fully understand. The ones who brought us into existence from nothing, who became the reason for our coming into this world, and who &ndash; without caring for their own comfort &ndash; sacrificed their needs, endured both heat and cold for our sake, are our parents.<br>This article provides an in-depth analysis of the use of derivational affixes in the novella &ldquo;The Affairs of the World&rdquo; by the writer O&lsquo;tkir Hoshimov. When reading this work, one feels as if the events are taking place in one&rsquo;s own past, making it impossible to put the book down. The book contains the line: &ldquo;I wish all the mothers in the world would read this story.&rdquo; Through this sentence, it becomes evident that the work reflects the essence of motherhood and the love of mothers all over the world.</span></em></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Norbo'tayeva, Gozal Murtozi qizi",
+            "affiliation": null
+          }
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "16",
+          "pages": "14-18",
+          "title": "GOLDEN BRAIN",
+          "volume": "3"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17482484"
+              }
+            }
+          ]
+        }
+      },
+      "title": "THE USE OF DERIVATIONAL AFFIXES IN O'TKIR HOSHIMOV'S WORK THE AFFAIRS OF THE WORLD",
+      "links": {
+        "self": "https://zenodo.org/api/records/17482485",
+        "self_html": "https://zenodo.org/records/17482485",
+        "preview_html": "https://zenodo.org/records/17482485?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17482485",
+        "self_doi": "https://doi.org/10.5281/zenodo.17482485",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17482485",
+        "reserve_doi": "https://zenodo.org/api/records/17482485/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17482484",
+        "parent_html": "https://zenodo.org/records/17482484",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17482484",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17482484",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17482485/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17482485/sequence/default",
+        "files": "https://zenodo.org/api/records/17482485/files",
+        "media_files": "https://zenodo.org/api/records/17482485/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17482485:14-18.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17482485:14-18.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17482485:14-18.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17482485:14-18.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17482485:14-18.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17482485:14-18.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17482485/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17482485/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17482485/versions/latest",
+        "latest_html": "https://zenodo.org/records/17482485/latest",
+        "versions": "https://zenodo.org/api/records/17482485/versions",
+        "draft": "https://zenodo.org/api/records/17482485/draft",
+        "access_links": "https://zenodo.org/api/records/17482485/access/links",
+        "access_grants": "https://zenodo.org/api/records/17482485/access/grants",
+        "access_users": "https://zenodo.org/api/records/17482485/access/users",
+        "access_request": "https://zenodo.org/api/records/17482485/access/request",
+        "access": "https://zenodo.org/api/records/17482485/access",
+        "communities": "https://zenodo.org/api/records/17482485/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17482485/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17482485/request-deletion",
+        "requests": "https://zenodo.org/api/records/17482485/requests"
+      },
+      "updated": "2025-10-30T09:41:18.445274+00:00",
+      "recid": "17482485",
+      "revision": 4,
+      "files": [
+        {
+          "id": "9c903611-75b5-47da-afd7-a0fe0d8ab130",
+          "key": "14-18.pdf",
+          "size": 213625,
+          "checksum": "md5:7104913ecb991e928efd45643cf31ac3",
+          "links": {
+            "self": "https://zenodo.org/api/records/17482485/files/14-18.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "337827"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 3,
+        "unique_downloads": 2,
+        "views": 4,
+        "unique_views": 4,
+        "version_downloads": 3,
+        "version_unique_downloads": 2,
+        "version_unique_views": 4,
+        "version_views": 4
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-10-29T20:13:17.200419+00:00",
+      "modified": "2025-10-29T20:13:17.709011+00:00",
+      "id": 17478563,
+      "conceptrecid": "17478562",
+      "doi": "10.5281/zenodo.17478563",
+      "conceptdoi": "10.5281/zenodo.17478562",
+      "doi_url": "https://doi.org/10.5281/zenodo.17478563",
+      "metadata": {
+        "title": "Relative Information and Quantum Free Particle exp(ipx) Part 2",
+        "doi": "10.5281/zenodo.17478563",
+        "publication_date": "2025-10-29",
+        "description": "<p dir=\"ltr\">In Part 1, we noted that (1) suggests that quantum mechanics is based on relative information. (1) provides the example of a person Robert who may be at home or at the office. A direct measurement of his location would settle the matter, but if this is not possible, (1) suggests there is relative information, namely a second person, Mary, who knows Robert&rsquo;s whereabouts. Thus, one may obtain the value of Robert&rsquo;s location without measuring it.&nbsp;</p>\n<p dir=\"ltr\">&nbsp;&nbsp;We suggested in Part 1, that this scenario fits the momentum variable. A direct measurement involves an impulse hit (if one does not know rest mass mo). In classical physics, if a direct measurement of impulse cannot be done, one does not know the momentum. Quantum mechanics of a free particle, however, involves exp(ipx) which allows for 2-slit interference. Thus, one may find p from interference pattern results without measuring p using an impulse hit. In Part 1, we suggested that the relationship between x and p in exp(ipx) arises from introducing probability into Newtonian 2-body elastic scattering. We suggested that for an initial (e1,e2) energy and (p1,p2) momentum vectors, any (ei,ej), (pi,pj) which conserve energy and momentum have the same product probability. This suggests exp(ip) as a probability for p as there is no real value weight. P, however, depends on the direction of the x-axis and so to have p,x to the right and -p, x to the left yield the same probability, one may introduce exp(ipx). Generalizing, one may create the Lorentz invariant exp(-iEt+ipx).</p>\n<p dir=\"ltr\">&nbsp;&nbsp;&nbsp;Here, we wish to provide a second argument for p being linked with x. Again, there is an interaction and inherent probability, as in the above case, and one must again make the assumption of equal probabilities for (ei,ej), (pi,pj) pairs. We use the example of 1-D reflection-refraction at an n1-n2 index of refraction junction. We argue that conservation of probability:&nbsp; 1= P(reflect) + P(refract) may be written in terms of dynamic variables as:&nbsp; AAp &ndash; p BB = p2 CC, where AA, BB and CC are fluxes of the incident, reflected and refracted photons. Physically, this is a momentum balance equation which would hold on average or in a steady stream case. In other words, it represents an equilibrium scenario and this usually requires many particles, not one.&nbsp;</p>\n<p dir=\"ltr\">&nbsp;&nbsp;The problem is that the probabilities to reflect and refract hold for a single photon. How can a single photon possibly sense an equilibrium scenario which contains the incident, reflected and refracted photon probabilities? In a previous note, we argued that this is possible if there is an inherent uncertainty in x associated with the incident, reflected and refracted photons. This then represents a probability in x linked to a free particle and so should be represented by a unit modulus complex number&nbsp; exp(i f(p,x)). If p&rarr;-p and x&rarr; -x, one should have the same result. Furthermore, if one assumes that P(p1)P(p2) = P(p1+p2) as in the elastic Newtonian scattering problem, one once again arrives at exp(ipx). Thus, a relative variable, namely x, appears, but in this case it exists to allow for a single particle to create an equilibrium scenario which involves all possible outcomes. This same physics seems to occur in the 2-slit scenario as well. This, then, seems to be the basis of free particle quantum physics, the idea of a relative variable which allows one to sample different outcomes.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ruggeri, Francesco R.",
+            "affiliation": null
+          }
+        ],
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17478562"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Relative Information and Quantum Free Particle exp(ipx) Part 2",
+      "links": {
+        "self": "https://zenodo.org/api/records/17478563",
+        "self_html": "https://zenodo.org/records/17478563",
+        "preview_html": "https://zenodo.org/records/17478563?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17478563",
+        "self_doi": "https://doi.org/10.5281/zenodo.17478563",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17478563",
+        "reserve_doi": "https://zenodo.org/api/records/17478563/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17478562",
+        "parent_html": "https://zenodo.org/records/17478562",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17478562",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17478562",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17478563/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17478563/sequence/default",
+        "files": "https://zenodo.org/api/records/17478563/files",
+        "media_files": "https://zenodo.org/api/records/17478563/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17478563:physRelInfoQM2.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17478563:physRelInfoQM2.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17478563:physRelInfoQM2.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17478563:physRelInfoQM2.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17478563:physRelInfoQM2.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17478563:physRelInfoQM2.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17478563/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17478563/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17478563/versions/latest",
+        "latest_html": "https://zenodo.org/records/17478563/latest",
+        "versions": "https://zenodo.org/api/records/17478563/versions",
+        "draft": "https://zenodo.org/api/records/17478563/draft",
+        "access_links": "https://zenodo.org/api/records/17478563/access/links",
+        "access_grants": "https://zenodo.org/api/records/17478563/access/grants",
+        "access_users": "https://zenodo.org/api/records/17478563/access/users",
+        "access_request": "https://zenodo.org/api/records/17478563/access/request",
+        "access": "https://zenodo.org/api/records/17478563/access",
+        "communities": "https://zenodo.org/api/records/17478563/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17478563/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17478563/request-deletion",
+        "requests": "https://zenodo.org/api/records/17478563/requests"
+      },
+      "updated": "2025-10-29T20:13:17.709011+00:00",
+      "recid": "17478563",
+      "revision": 4,
+      "files": [
+        {
+          "id": "fa8ba0a6-2503-4a62-ac53-9ba6bbacf79e",
+          "key": "physRelInfoQM2.pdf",
+          "size": 102864,
+          "checksum": "md5:dc2ed22f1e33938ad6fc41403d2f664d",
+          "links": {
+            "self": "https://zenodo.org/api/records/17478563/files/physRelInfoQM2.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "42699"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 7,
+        "unique_downloads": 5,
+        "views": 5,
+        "unique_views": 5,
+        "version_downloads": 7,
+        "version_unique_downloads": 5,
+        "version_unique_views": 5,
+        "version_views": 5
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-10-29T06:57:00.651149+00:00",
+      "modified": "2025-10-29T06:57:00.787885+00:00",
+      "id": 17471386,
+      "conceptrecid": "17471385",
+      "doi": "10.5281/zenodo.17471386",
+      "conceptdoi": "10.5281/zenodo.17471385",
+      "doi_url": "https://doi.org/10.5281/zenodo.17471386",
+      "metadata": {
+        "title": "ELECTRICAL MACHINES:  CONCEPTS AND APPLICATIONS",
+        "doi": "10.5281/zenodo.17471386",
+        "publication_date": "2025-10-30",
+        "description": "<p>Electrical machines are the backbone of modern industry, serving&nbsp; as the essential drivers of power generation, automation, and&nbsp; motion control across diverse sectors. Building upon the&nbsp; fundamentals introduced in the earlier study of electrical&nbsp; machines, Electrical Machines: Concepts And Applications takes&nbsp; a deeper dive into the operational principles, characteristics, and&nbsp; applications of advanced machine types, with a strong focus on&nbsp; both theoretical insights and practical perspectives.&nbsp; categories&nbsp;<br>This book is designed to offer comprehensive coverage of three&nbsp; core&nbsp; of&nbsp; machines&mdash;synchronous generators,&nbsp; synchronous motors, and three-phase induction motors along&nbsp; with their starting and speed control techniques. In addition, it&nbsp; provides an introduction to single-phase induction motors and&nbsp; special machines, including stepper, servo, and hysteresis motors,&nbsp; which play a vital role in today&rsquo;s technological landscape.</p>\n<p>The text is organized into five coherent units:&nbsp;<br>1. Synchronous Generators &ndash; covering construction, EMF&nbsp; equations, armature reaction, and performance under various&nbsp; loading conditions.&nbsp;<br>2. Synchronous Motors &ndash; exploring operating principles, starting&nbsp; methods, torque characteristics, and performance with excitation&nbsp; variations.&nbsp;<br>3. Three-Phase Induction Motors &ndash; analyzing construction,&nbsp; operating&nbsp; principles,&nbsp; equivalent Characteristicss, and power flow.&nbsp; circuits,&nbsp; Torque-Speed&nbsp;<br>4. Starting and Speed Control of Three-Phase Induction Motors &ndash; detailing practical approaches to starting methods and techniques for optimizing performance.&nbsp;<br>5. Single-Phase Induction Motors and Special Machines &ndash; introducing construction, operation, and applications of widely used special-purpose machines. Each chapter is carefully structured to build progressively on earlier concepts, ensuring clarity and continuity for learners. Illustrations, solved examples, and practice problems have been&nbsp;<br>incorporated to enhance understanding and promote problem&nbsp;solving skills.&nbsp;<br>The primary objective of this book is to serve as a reliable resource for students, engineers, and professionals who wish to strengthen their knowledge of electrical machines. It aims to bridge the gap between academic learning and industrial practice by combining analytical depth with practical relevance. Writing this book has been an enlightening and rewarding endeavor. I express my heartfelt gratitude to my colleagues, students, and industry experts whose valuable suggestions and&nbsp; encouragement have significantly shaped its development. It is my sincere hope that this book will inspire readers to engage with the subject critically and practically, fostering both technical mastery and professional competence in the fascinating field of electrical machines.</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Authors</p>",
+        "access_right": "restricted",
+        "creators": [
+          {
+            "name": "Dr JENNATHU BEEVI",
+            "affiliation": "Associate Professor in  the Department of EEE,  B.S. Abdur Rahman Crescent Institute of  Science and Technology, Chennai."
+          },
+          {
+            "name": "Dr JAYASHREE RAMASUBRAMANIAM",
+            "affiliation": "Professor at B.S.Abdur Rahman Institute of Science and Technology."
+          },
+          {
+            "name": "Dr K SARMILA HAR BEAGAM",
+            "affiliation": "Assistant  Professor  (Sel.Gr)  in   B.S. Abdur Rahman Crescent Institute of  Science and Technology, Chennai, India."
+          },
+          {
+            "name": "Dr DIVYA VIJAY",
+            "affiliation": "Assistant Professor in the  Department of Electrical and Electronics Engineering at B.S. Abdur  Rahman Institute of Science and Technology, Chennai, India."
+          }
+        ],
+        "resource_type": {
+          "title": "Book",
+          "type": "publication",
+          "subtype": "book"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17471385"
+              }
+            }
+          ]
+        }
+      },
+      "title": "ELECTRICAL MACHINES:  CONCEPTS AND APPLICATIONS",
+      "links": {
+        "self": "https://zenodo.org/api/records/17471386",
+        "self_html": "https://zenodo.org/records/17471386",
+        "preview_html": "https://zenodo.org/records/17471386?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17471386",
+        "self_doi": "https://doi.org/10.5281/zenodo.17471386",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17471386",
+        "reserve_doi": "https://zenodo.org/api/records/17471386/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17471385",
+        "parent_html": "https://zenodo.org/records/17471385",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17471385",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17471385",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17471386/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17471386/sequence/default",
+        "files": "https://zenodo.org/api/records/17471386/files",
+        "media_files": "https://zenodo.org/api/records/17471386/media-files",
+        "archive": "https://zenodo.org/api/records/17471386/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17471386/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17471386/versions/latest",
+        "latest_html": "https://zenodo.org/records/17471386/latest",
+        "versions": "https://zenodo.org/api/records/17471386/versions",
+        "draft": "https://zenodo.org/api/records/17471386/draft",
+        "access_links": "https://zenodo.org/api/records/17471386/access/links",
+        "access_grants": "https://zenodo.org/api/records/17471386/access/grants",
+        "access_users": "https://zenodo.org/api/records/17471386/access/users",
+        "access_request": "https://zenodo.org/api/records/17471386/access/request",
+        "access": "https://zenodo.org/api/records/17471386/access",
+        "communities": "https://zenodo.org/api/records/17471386/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17471386/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17471386/request-deletion",
+        "requests": "https://zenodo.org/api/records/17471386/requests"
+      },
+      "updated": "2025-10-29T06:57:00.787885+00:00",
+      "recid": "17471386",
+      "revision": 4,
+      "files": [],
+      "swh": null,
+      "owners": [
+        {
+          "id": "488162"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 1,
+        "views": 3,
+        "unique_views": 3,
+        "version_downloads": 2,
+        "version_unique_downloads": 1,
+        "version_unique_views": 3,
+        "version_views": 3
       },
       "state": "done",
       "submitted": true

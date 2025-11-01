@@ -18,10 +18,15 @@
       "build": [
         "make",
         "{{ compiler('c') }}",
-        "unzip"
+        "host:",
+        "unzip",
+        "zlib"
       ],
       "run": [],
-      "host": []
+      "host": [
+        "unzip",
+        "zlib"
+      ]
     },
     "installation": ""
   },
@@ -34,5 +39,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2025-03-14T03:31:06.164926"
+  "last_updated": "2025-11-01T12:01:00.348164"
 }
