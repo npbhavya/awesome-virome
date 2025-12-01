@@ -1,0 +1,2044 @@
+{
+  "cache_date": "2025-12-01T08:56:07.910041",
+  "data": [
+    {
+      "created": "2025-12-01T08:33:09.109300+00:00",
+      "modified": "2025-12-01T08:33:13.930536+00:00",
+      "id": 17775363,
+      "conceptrecid": "17775362",
+      "doi": "10.5281/zenodo.17775363",
+      "conceptdoi": "10.5281/zenodo.17775362",
+      "doi_url": "https://doi.org/10.5281/zenodo.17775363",
+      "metadata": {
+        "title": "Source Code and Input Files for SERGHEI-Taihu",
+        "doi": "10.5281/zenodo.17775363",
+        "publication_date": "2025-12-01",
+        "description": "<p>The coupled surface-subsurface flow model SERGHEI(SWE-RE) customized for simulating lake-groundwater interaction at Lake Taihu. The source codes and input files are stored in this repository. The simulation results are analyzed in the submitted journal article entitled \"Quantifying Lacustrine Groundwater Discharge in Lake Taihu with Integrated Hydrodynamic Modeling\".</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Li, Zhi",
+            "affiliation": "Tongji University",
+            "orcid": "0000-0002-9346-4706"
+          }
+        ],
+        "resource_type": {
+          "title": "Model",
+          "type": "model"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17775362"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Source Code and Input Files for SERGHEI-Taihu",
+      "links": {
+        "self": "https://zenodo.org/api/records/17775363",
+        "self_html": "https://zenodo.org/records/17775363",
+        "preview_html": "https://zenodo.org/records/17775363?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17775363",
+        "self_doi": "https://doi.org/10.5281/zenodo.17775363",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775363",
+        "reserve_doi": "https://zenodo.org/api/records/17775363/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17775362",
+        "parent_html": "https://zenodo.org/records/17775362",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17775362",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775362",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775363/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775363/sequence/default",
+        "files": "https://zenodo.org/api/records/17775363/files",
+        "media_files": "https://zenodo.org/api/records/17775363/media-files",
+        "archive": "https://zenodo.org/api/records/17775363/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17775363/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17775363/versions/latest",
+        "latest_html": "https://zenodo.org/records/17775363/latest",
+        "versions": "https://zenodo.org/api/records/17775363/versions",
+        "draft": "https://zenodo.org/api/records/17775363/draft",
+        "access_links": "https://zenodo.org/api/records/17775363/access/links",
+        "access_grants": "https://zenodo.org/api/records/17775363/access/grants",
+        "access_users": "https://zenodo.org/api/records/17775363/access/users",
+        "access_request": "https://zenodo.org/api/records/17775363/access/request",
+        "access": "https://zenodo.org/api/records/17775363/access",
+        "communities": "https://zenodo.org/api/records/17775363/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17775363/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17775363/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17775363/file-modification",
+        "requests": "https://zenodo.org/api/records/17775363/requests"
+      },
+      "updated": "2025-12-01T08:33:13.930536+00:00",
+      "recid": "17775363",
+      "revision": 4,
+      "files": [
+        {
+          "id": "21171b0a-b070-47fc-8d39-7dfc560371d5",
+          "key": "Parallel.h",
+          "size": 2115,
+          "checksum": "md5:45f199c0a3476ffa5f70777f38b7efee",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Parallel.h/content"
+          }
+        },
+        {
+          "id": "ead2079d-bb8f-43c5-8a62-964eb152786a",
+          "key": "const.h",
+          "size": 4967,
+          "checksum": "md5:24f46d0892853f630c952d54e9f731a8",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/const.h/content"
+          }
+        },
+        {
+          "id": "5d8bba34-caac-4d3b-a22d-28c7233a7fc8",
+          "key": "wt.input",
+          "size": 985809,
+          "checksum": "md5:5360fe5e8f48ade177be75a39e1cd7da",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt.input/content"
+          }
+        },
+        {
+          "id": "35f6ad2f-386e-4e3d-aa13-b54970c8979d",
+          "key": "extbc.input",
+          "size": 864,
+          "checksum": "md5:42b7b481ad4064da81f0aad7baa65881",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/extbc.input/content"
+          }
+        },
+        {
+          "id": "455e94ff-f7a2-4004-bd6f-7732f15d0c52",
+          "key": "wt-WS.input",
+          "size": 75,
+          "checksum": "md5:7ce7e54bfbe7a97ec63dbd7c45f16696",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-WS.input/content"
+          }
+        },
+        {
+          "id": "15de5dae-918b-4e27-b616-f3b0309b7274",
+          "key": "polygon-river-GJ.input",
+          "size": 58,
+          "checksum": "md5:aacdb89c8c1453d2ec0c428ef73bf4b1",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-GJ.input/content"
+          }
+        },
+        {
+          "id": "b839eba5-5a9b-4e50-b51a-d42aaf8ae556",
+          "key": "polygon-river-WX.input",
+          "size": 58,
+          "checksum": "md5:73ef6fdb61372439342f05674f6afd5b",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-WX.input/content"
+          }
+        },
+        {
+          "id": "dad341b8-547a-4a3f-aa86-508e6b2a3d5e",
+          "key": "wt-MH.input",
+          "size": 75,
+          "checksum": "md5:5dd74d1e10ae55c830e2d0f87054c3c1",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-MH.input/content"
+          }
+        },
+        {
+          "id": "36e952c3-d1cb-40ee-9be4-8966dd4e4d3b",
+          "key": "wt-JJQ.input",
+          "size": 75,
+          "checksum": "md5:70ecc68b643f94d7dfdd58b6f7571fb6",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-JJQ.input/content"
+          }
+        },
+        {
+          "id": "48fd5d69-0ace-4450-aa10-51a1e466d05c",
+          "key": "sw.input",
+          "size": 273,
+          "checksum": "md5:ee0c6ff91e5a00d647fa1fdee7d5e9e3",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/sw.input/content"
+          }
+        },
+        {
+          "id": "987137fc-9055-432f-b44a-b67a8671083f",
+          "key": "SourceSink.h",
+          "size": 33048,
+          "checksum": "md5:f529cdd6114afd3a18ac8a0b7b75ea94",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/SourceSink.h/content"
+          }
+        },
+        {
+          "id": "4375871c-892b-4316-8c5b-a87c2e443e7f",
+          "key": "GwInit.h",
+          "size": 55271,
+          "checksum": "md5:31a44a692f3bd3d3514ff86257fd2413",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwInit.h/content"
+          }
+        },
+        {
+          "id": "c7080049-3263-453b-b281-ba754c2c801d",
+          "key": "polygon-gw-JJQ.input",
+          "size": 1332,
+          "checksum": "md5:1acd1c578d6ea9c80f017c0760d8e0ad",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-JJQ.input/content"
+          }
+        },
+        {
+          "id": "e1d23e55-a4ab-4815-a32a-8522b7c26083",
+          "key": "hydrograph-WX.input",
+          "size": 5822,
+          "checksum": "md5:13d5d37db0d191749d4f104aed1087f7",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-WX.input/content"
+          }
+        },
+        {
+          "id": "deac7264-72a2-41c5-8090-c76454e2ef44",
+          "key": "hydrograph-WY.input",
+          "size": 6043,
+          "checksum": "md5:b3b2074f7c7ba2d257bc346a98d5dc95",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-WY.input/content"
+          }
+        },
+        {
+          "id": "2ce6cf5f-3dc9-4965-a409-cfcd82d24505",
+          "key": "hydrograph-TX.input",
+          "size": 6196,
+          "checksum": "md5:229401a0e5365ce0c53c3c93da0c83e3",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-TX.input/content"
+          }
+        },
+        {
+          "id": "b3a2c877-c66c-454f-8504-d805406c44c0",
+          "key": "polygon-gw-DH.input",
+          "size": 1129,
+          "checksum": "md5:f1195eb1dbd48e2fc31dd996d48c9bdd",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-DH.input/content"
+          }
+        },
+        {
+          "id": "aecee658-e02f-42b8-af07-ab12c2ec5ade",
+          "key": "polygon-river-BD.input",
+          "size": 58,
+          "checksum": "md5:7c8ad25243b6dffb16e1f74c49e736b8",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-BD.input/content"
+          }
+        },
+        {
+          "id": "2dae63bb-b76a-45aa-84bd-501a191b5910",
+          "key": "polygon-gw-WS.input",
+          "size": 1055,
+          "checksum": "md5:540187115c761a367f5c7d6eb36f5d66",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-WS.input/content"
+          }
+        },
+        {
+          "id": "caf0d767-f13a-4251-93e4-4bceb7477909",
+          "key": "State.h",
+          "size": 3943,
+          "checksum": "md5:74918baee2359c19fb77c0c0d149b51e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/State.h/content"
+          }
+        },
+        {
+          "id": "f5cae8b5-8536-4ef4-aaf2-afcd3e20ccf5",
+          "key": "gwbc.input",
+          "size": 3141,
+          "checksum": "md5:91bbc7b26362e852ac8299b3004a71c6",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/gwbc.input/content"
+          }
+        },
+        {
+          "id": "acb270e5-972e-4e2f-b53f-706fc6a5f7c7",
+          "key": "Edges.h",
+          "size": 4201,
+          "checksum": "md5:19e177b87bdb12e83faa4929a91d74fc",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Edges.h/content"
+          }
+        },
+        {
+          "id": "7fcfcd70-ca84-4e23-a6ce-365c37d9485e",
+          "key": "geometry.h",
+          "size": 2427,
+          "checksum": "md5:37b25f5c53c1f815cb37af9c0fd3beb6",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/geometry.h/content"
+          }
+        },
+        {
+          "id": "9a52736c-c8b0-4747-94d9-4dc1b33634d2",
+          "key": "hydrograph-LX.input",
+          "size": 39,
+          "checksum": "md5:9ed8d0d0daf9d55785c055128f8e6cd9",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-LX.input/content"
+          }
+        },
+        {
+          "id": "6930f819-3a48-4098-9846-8bf7759ec0b9",
+          "key": "soilID.input",
+          "size": 2536108,
+          "checksum": "md5:aa59d377b8d3bce18bb1489fb9dcedf8",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/soilID.input/content"
+          }
+        },
+        {
+          "id": "b8ab79ab-4413-4bb6-8231-ed7e43133298",
+          "key": "rainfall.input",
+          "size": 96353,
+          "checksum": "md5:7dcfe02abff143a89d61d30e8fe33f89",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/rainfall.input/content"
+          }
+        },
+        {
+          "id": "291c2a30-9471-4d25-9c36-3510a46cdae2",
+          "key": "wt-CS.input",
+          "size": 76,
+          "checksum": "md5:031e5582a029a6fc6bd91d369e9d4491",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-CS.input/content"
+          }
+        },
+        {
+          "id": "15ba5bfb-4073-4ec4-8510-f7b25797eae2",
+          "key": "polygon-gw-DP.input",
+          "size": 374,
+          "checksum": "md5:c275ffdc7be263309cc8d12b740aace0",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-DP.input/content"
+          }
+        },
+        {
+          "id": "a4e90ef8-669b-42e0-94ea-6f7f6f2874cb",
+          "key": "polygon-gw-DQ.input",
+          "size": 455,
+          "checksum": "md5:18736dc7612e83987bdc03b5759eeb9e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-DQ.input/content"
+          }
+        },
+        {
+          "id": "4b1820ed-08a4-4d1f-a444-ceaff9591a2e",
+          "key": "hydrograph-BD.input",
+          "size": 5883,
+          "checksum": "md5:407df38b780cb0cc6e760d5bb10006e6",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-BD.input/content"
+          }
+        },
+        {
+          "id": "d62881f6-dbaa-49be-be25-b4ad54f959a8",
+          "key": "wt-SJ.input",
+          "size": 75,
+          "checksum": "md5:865fcf3259c72677e73a78dedc562119",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-SJ.input/content"
+          }
+        },
+        {
+          "id": "de8c9b8a-2be4-46b0-a3a0-b216c30653b4",
+          "key": "polygon-river-LX.input",
+          "size": 58,
+          "checksum": "md5:f17624ec05ddc79c0ab713d03bebb5c2",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-LX.input/content"
+          }
+        },
+        {
+          "id": "f1c7ec46-5851-479f-a7b5-0feedca8658f",
+          "key": "polygon-gw-ZT1.input",
+          "size": 853,
+          "checksum": "md5:9bef51b257d125f2fff1e4ecbb318d61",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-ZT1.input/content"
+          }
+        },
+        {
+          "id": "d1987568-55a8-4148-bdc0-735c0fa4321b",
+          "key": "hydrograph-CD.input",
+          "size": 6070,
+          "checksum": "md5:b00e391bc4fc5d9fab57e215791e2bcc",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-CD.input/content"
+          }
+        },
+        {
+          "id": "6afc448e-5ae2-4041-83e2-d3700be16af9",
+          "key": "hydrograph-GJ.input",
+          "size": 6137,
+          "checksum": "md5:96d345008b9b38b88802869e7e6e8214",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-GJ.input/content"
+          }
+        },
+        {
+          "id": "36fea109-7186-418c-aafc-cb2d005574e0",
+          "key": "hydrograph-TP.input",
+          "size": 6193,
+          "checksum": "md5:ab22e0ea8885d2c85c15f2ed12458ab2",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/hydrograph-TP.input/content"
+          }
+        },
+        {
+          "id": "3cbf52b8-7a6d-4820-9960-2b495f7d59c5",
+          "key": "dem.input",
+          "size": 1182567,
+          "checksum": "md5:defb28416cc0573ed5ded6f01db09ef1",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/dem.input/content"
+          }
+        },
+        {
+          "id": "31fe6ce9-06ad-4ab8-aa53-08dada8f398e",
+          "key": "polygon-river-TX.input",
+          "size": 54,
+          "checksum": "md5:110f396a6169939c99ec94bf16c542d4",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-TX.input/content"
+          }
+        },
+        {
+          "id": "af3bfcbb-5489-4968-a7f5-105fbd6ebb75",
+          "key": "GwDomain.h",
+          "size": 2629,
+          "checksum": "md5:76a1c6f1e2de3dd578e67463c9ee6e21",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwDomain.h/content"
+          }
+        },
+        {
+          "id": "f72917e4-be8c-4249-87a4-a48123a7f98a",
+          "key": "Parser.h",
+          "size": 55586,
+          "checksum": "md5:b79fd575ac75484af1e3df81c1e8cbd4",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Parser.h/content"
+          }
+        },
+        {
+          "id": "75e55c11-3220-4ba8-989e-0158429ba1c1",
+          "key": "polygon-river-TP.input",
+          "size": 58,
+          "checksum": "md5:6ff4ab7b0aa93465a0eee03f799cc945",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-TP.input/content"
+          }
+        },
+        {
+          "id": "54a57636-059d-4cef-a209-53613c1686e5",
+          "key": "GwSolver.h",
+          "size": 5729,
+          "checksum": "md5:f219e59a63a33b1862722719a6058728",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwSolver.h/content"
+          }
+        },
+        {
+          "id": "e09fe0a8-dd0c-435c-a26e-4ea6f4929f01",
+          "key": "vg.input",
+          "size": 588,
+          "checksum": "md5:8bf96e79c40a5cc5cb85d3343aa98a10",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/vg.input/content"
+          }
+        },
+        {
+          "id": "41a5cc90-4fe1-4a69-ad01-86621cdf0f6a",
+          "key": "polygon-river-CD.input",
+          "size": 54,
+          "checksum": "md5:1e00f6c6bc2f4fe9621e764c81d2bafd",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-CD.input/content"
+          }
+        },
+        {
+          "id": "874e2399-4ba8-4e01-9a60-934a399e86e6",
+          "key": "Vegetation.h",
+          "size": 724,
+          "checksum": "md5:a43baa721814a8171821a5aa9f2b59a3",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Vegetation.h/content"
+          }
+        },
+        {
+          "id": "11497d44-f13f-4005-877f-e5e66781bb2b",
+          "key": "polygon-gw-SJ.input",
+          "size": 455,
+          "checksum": "md5:f25944bd39e6a9b97b8e2d4fed499353",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-SJ.input/content"
+          }
+        },
+        {
+          "id": "00ea2af4-0dbc-4272-8401-36382397f884",
+          "key": "Domain.h",
+          "size": 8634,
+          "checksum": "md5:d3c2a3575e03ef7901ade1074a0d2104",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Domain.h/content"
+          }
+        },
+        {
+          "id": "041cff08-1afe-4c0d-b2cb-bf7053dce9b3",
+          "key": "wt-DP.input",
+          "size": 75,
+          "checksum": "md5:14248b6b8b8d6da7a05891afef9a4a99",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-DP.input/content"
+          }
+        },
+        {
+          "id": "bf265376-cd41-4a59-a81f-29967215a634",
+          "key": "polygontop.input",
+          "size": 51,
+          "checksum": "md5:acdf4ff5188bc23299540ac1bb3cc0fd",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygontop.input/content"
+          }
+        },
+        {
+          "id": "ed4c4a37-bfb4-41a5-9c5b-2e47c7d6175d",
+          "key": "polygon-river-WY.input",
+          "size": 58,
+          "checksum": "md5:6de4b186d5c1f24be343f245bde469d5",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-river-WY.input/content"
+          }
+        },
+        {
+          "id": "0411d106-095c-497a-9370-5f4e0c07cf48",
+          "key": "polygon-gw-MH.input",
+          "size": 539,
+          "checksum": "md5:95fba1025b63e34cf20e9d7ff75643d6",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-MH.input/content"
+          }
+        },
+        {
+          "id": "0bede2e0-4beb-4fa8-8aa7-550acdc74eb4",
+          "key": "Solvers.h",
+          "size": 4946,
+          "checksum": "md5:d24814dd2b75ffc8a4b5f45393007fca",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Solvers.h/content"
+          }
+        },
+        {
+          "id": "134c6d64-6519-48a6-a513-78d8760c7583",
+          "key": "parameters.input",
+          "size": 604,
+          "checksum": "md5:69df84e3b151643e78fdfe63ad281266",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/parameters.input/content"
+          }
+        },
+        {
+          "id": "3f7c2e70-f15d-4347-b3c9-805be2d223ad",
+          "key": "wt-ZT1.input",
+          "size": 75,
+          "checksum": "md5:b86cbe9f1c42f12c046f502a9423dfdf",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-ZT1.input/content"
+          }
+        },
+        {
+          "id": "5d191ec0-0bff-42b0-aa10-6fdcc15edb63",
+          "key": "subsurface.input",
+          "size": 769,
+          "checksum": "md5:79f18df15fdcbc37b44a3653d4755513",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/subsurface.input/content"
+          }
+        },
+        {
+          "id": "a65828aa-cfea-409d-8f4d-b3edf72f841a",
+          "key": "polygon-gw-CS.input",
+          "size": 647,
+          "checksum": "md5:7f739726dce7cac3a720bd49baa34b2c",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/polygon-gw-CS.input/content"
+          }
+        },
+        {
+          "id": "a0d49d46-fbc1-47c7-9e99-20248301a5d2",
+          "key": "wt-DQ.input",
+          "size": 75,
+          "checksum": "md5:feff1d084483c8b5ac68aa58ab541887",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-DQ.input/content"
+          }
+        },
+        {
+          "id": "ca541199-8063-4179-b9e9-e51d4557342f",
+          "key": "wind.input",
+          "size": 103511,
+          "checksum": "md5:6aafc0ac9e7bf6a8bfc63d0d4f1319b8",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wind.input/content"
+          }
+        },
+        {
+          "id": "aca410a1-bcd3-4d2e-857a-d1f37bf9fbb0",
+          "key": "wt-DH.input",
+          "size": 77,
+          "checksum": "md5:adb922988fe16900ba10ba0d800feae0",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/wt-DH.input/content"
+          }
+        },
+        {
+          "id": "4c947eb3-ffc7-49af-9bc1-685a047d2924",
+          "key": "CMakeLists.txt",
+          "size": 13260,
+          "checksum": "md5:da83534d39e2e1ae5bb28d237d3b55a8",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/CMakeLists.txt/content"
+          }
+        },
+        {
+          "id": "3b32a8e0-349b-4fc2-903c-4c638b6f07ab",
+          "key": "ParticleTracking.h",
+          "size": 42845,
+          "checksum": "md5:83b280852e09ac4531b5b887f3287213",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/ParticleTracking.h/content"
+          }
+        },
+        {
+          "id": "bb063255-6e0b-411c-b3f7-e34bd43c766b",
+          "key": "DomainIntegrator.h",
+          "size": 7292,
+          "checksum": "md5:c15fc134bccc4ddaf062f58c88556e5d",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/DomainIntegrator.h/content"
+          }
+        },
+        {
+          "id": "f54695a4-1873-436f-8d48-945d07b220d7",
+          "key": "GwMatrix.h",
+          "size": 3775,
+          "checksum": "md5:24d0198df65d28596a97bf6624c5ac58",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwMatrix.h/content"
+          }
+        },
+        {
+          "id": "c712a9e2-8836-485b-b7ec-71f01f33cd8d",
+          "key": "SArray.h",
+          "size": 7005,
+          "checksum": "md5:61094a68b19779cdfe81e9abedd91e28",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/SArray.h/content"
+          }
+        },
+        {
+          "id": "f9357f67-f949-46b8-b8ec-0be2d52bd170",
+          "key": "GwIntegrator.h",
+          "size": 3989,
+          "checksum": "md5:21316dd01e2062ffa703c16a0ff7b711",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwIntegrator.h/content"
+          }
+        },
+        {
+          "id": "52fc3e35-dbf3-4b6b-baad-8ab4590629fb",
+          "key": "define.h",
+          "size": 4707,
+          "checksum": "md5:4b44fc609803a9675f2753c1f2ce8bad",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/define.h/content"
+          }
+        },
+        {
+          "id": "1258344b-0d9b-4206-91d8-69c8f5b0e7ac",
+          "key": "KokkosSparse_pcg.hpp",
+          "size": 7337,
+          "checksum": "md5:31c76fdd426a414a5f1347c1d92d45d9",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/KokkosSparse_pcg.hpp/content"
+          }
+        },
+        {
+          "id": "e409b314-b166-49ec-bc46-f69d7286bc05",
+          "key": "BC.h",
+          "size": 20963,
+          "checksum": "md5:66aa97540a190df23f3776629228d765",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/BC.h/content"
+          }
+        },
+        {
+          "id": "26fa9dd0-3edc-4e01-a0e2-c25e49a50d5c",
+          "key": "GwFunction.h",
+          "size": 28776,
+          "checksum": "md5:b50eebd662c27e7912fcf492679708a4",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwFunction.h/content"
+          }
+        },
+        {
+          "id": "8ffb6aa3-495a-4c9b-96b3-b49dc64f91ce",
+          "key": "serghei.h",
+          "size": 13628,
+          "checksum": "md5:4baa9c05f8d7a3bbeda285efc05be89c",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/serghei.h/content"
+          }
+        },
+        {
+          "id": "5663d586-7a48-42a4-8c6b-b3603d815543",
+          "key": "GwState.h",
+          "size": 3547,
+          "checksum": "md5:efe34ac4dbb3dc0945c99ddf45ae27f4",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwState.h/content"
+          }
+        },
+        {
+          "id": "77c2b798-695e-452b-9b8a-d59247b0b429",
+          "key": "GwBC.h",
+          "size": 32249,
+          "checksum": "md5:6761c793918eac09763afab5f0830523",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwBC.h/content"
+          }
+        },
+        {
+          "id": "f1f14e03-f995-43dd-93ac-391ccc026ee3",
+          "key": "driver.cpp",
+          "size": 668,
+          "checksum": "md5:9c11e58f9e214388c6957eb7a938da83",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/driver.cpp/content"
+          }
+        },
+        {
+          "id": "113f566b-2b9b-415f-ac5f-fa43e8e126b8",
+          "key": "tools.h",
+          "size": 22569,
+          "checksum": "md5:3d51892732ac2de7c75ef371ccfac8fa",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/tools.h/content"
+          }
+        },
+        {
+          "id": "ef657377-1970-4373-be26-1c26d08e878d",
+          "key": "Indexing.h",
+          "size": 1876,
+          "checksum": "md5:dc7fc4bc16fba1f94d2150b8a8dbd8a0",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Indexing.h/content"
+          }
+        },
+        {
+          "id": "21c61838-0bf2-4048-94fb-c270a4eab821",
+          "key": "Initializer.h",
+          "size": 5040,
+          "checksum": "md5:fe4ca8d0406e4607de973a3612c49893",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Initializer.h/content"
+          }
+        },
+        {
+          "id": "c8b97e17-ba1c-4d6d-a45e-2d1af9b2097c",
+          "key": "rasterTools.h",
+          "size": 3386,
+          "checksum": "md5:7c0a4c1fa134b0eae8f185dd36e750a2",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/rasterTools.h/content"
+          }
+        },
+        {
+          "id": "736f81fb-0cd5-477c-b5a2-57495503687b",
+          "key": "FileIO.h",
+          "size": 79962,
+          "checksum": "md5:1a829b831dbcae21a6d560f196a21c0d",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/FileIO.h/content"
+          }
+        },
+        {
+          "id": "fc007331-208f-4f28-8b57-422d17bd5122",
+          "key": "TimeIntegrator.h",
+          "size": 12766,
+          "checksum": "md5:a90b470031078937180ee4a3d2665d81",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/TimeIntegrator.h/content"
+          }
+        },
+        {
+          "id": "28614c4a-24b9-404e-ae5d-ee0661fc4b2c",
+          "key": "GwMPI.h",
+          "size": 9440,
+          "checksum": "md5:4479d649f366dc1da12682a89c689015",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/GwMPI.h/content"
+          }
+        },
+        {
+          "id": "63ba5b21-b9d6-4a0d-8fa7-0ffdaf8d46b6",
+          "key": "Exchange.h",
+          "size": 11692,
+          "checksum": "md5:cd881f0f7d73c453e8c6194e8cf91d26",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775363/files/Exchange.h/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1172713"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T08:23:40.503783+00:00",
+      "modified": "2025-12-01T08:23:40.800693+00:00",
+      "id": 17775284,
+      "conceptrecid": "17775283",
+      "doi": "10.5281/zenodo.17775284",
+      "conceptdoi": "10.5281/zenodo.17775283",
+      "doi_url": "https://doi.org/10.5281/zenodo.17775284",
+      "metadata": {
+        "title": "Advancing diagnostics and radiotherapy through photon-counting CT",
+        "doi": "10.5281/zenodo.17775284",
+        "publication_date": "2025",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Vrbaski, Stevan",
+            "affiliation": "University of Novi Sad",
+            "orcid": "0000-0003-3722-7447"
+          }
+        ],
+        "keywords": [
+          "photon-counting CT",
+          "particle therapy",
+          "material characterization",
+          "multi-contrast"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Conference proceeding",
+          "type": "publication",
+          "subtype": "conferenceproceeding"
+        },
+        "meeting": {
+          "title": "17th International Conference Medical Physics in the Baltic states",
+          "dates": "6-8.11.2025.",
+          "place": "Kaunas, Lithuania"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "mfuns"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17775283"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Advancing diagnostics and radiotherapy through photon-counting CT",
+      "links": {
+        "self": "https://zenodo.org/api/records/17775284",
+        "self_html": "https://zenodo.org/records/17775284",
+        "preview_html": "https://zenodo.org/records/17775284?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17775284",
+        "self_doi": "https://doi.org/10.5281/zenodo.17775284",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775284",
+        "reserve_doi": "https://zenodo.org/api/records/17775284/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17775283",
+        "parent_html": "https://zenodo.org/records/17775283",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17775283",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775283",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775284/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775284/sequence/default",
+        "files": "https://zenodo.org/api/records/17775284/files",
+        "media_files": "https://zenodo.org/api/records/17775284/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17775284:Medical%20physics%20in%20Baltic%20states%202025%20Advancing%20diagnostics%20and%20radiotherapy%20through%20photon-counting%20CT.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17775284:Medical%20physics%20in%20Baltic%20states%202025%20Advancing%20diagnostics%20and%20radiotherapy%20through%20photon-counting%20CT.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17775284:Medical%20physics%20in%20Baltic%20states%202025%20Advancing%20diagnostics%20and%20radiotherapy%20through%20photon-counting%20CT.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17775284:Medical%20physics%20in%20Baltic%20states%202025%20Advancing%20diagnostics%20and%20radiotherapy%20through%20photon-counting%20CT.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17775284:Medical%20physics%20in%20Baltic%20states%202025%20Advancing%20diagnostics%20and%20radiotherapy%20through%20photon-counting%20CT.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17775284:Medical%20physics%20in%20Baltic%20states%202025%20Advancing%20diagnostics%20and%20radiotherapy%20through%20photon-counting%20CT.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17775284/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17775284/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17775284/versions/latest",
+        "latest_html": "https://zenodo.org/records/17775284/latest",
+        "versions": "https://zenodo.org/api/records/17775284/versions",
+        "draft": "https://zenodo.org/api/records/17775284/draft",
+        "access_links": "https://zenodo.org/api/records/17775284/access/links",
+        "access_grants": "https://zenodo.org/api/records/17775284/access/grants",
+        "access_users": "https://zenodo.org/api/records/17775284/access/users",
+        "access_request": "https://zenodo.org/api/records/17775284/access/request",
+        "access": "https://zenodo.org/api/records/17775284/access",
+        "communities": "https://zenodo.org/api/records/17775284/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17775284/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17775284/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17775284/file-modification",
+        "requests": "https://zenodo.org/api/records/17775284/requests"
+      },
+      "updated": "2025-12-01T08:23:40.800693+00:00",
+      "recid": "17775284",
+      "revision": 4,
+      "files": [
+        {
+          "id": "f231d7d4-cf8c-4a07-9e92-c0cfd626efcf",
+          "key": "Medical physics in Baltic states 2025 Advancing diagnostics and radiotherapy through photon-counting CT.pdf",
+          "size": 552143,
+          "checksum": "md5:5613029e50c4237bebbdcd3b030e0437",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775284/files/Medical physics in Baltic states 2025 Advancing diagnostics and radiotherapy through photon-counting CT.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1088843"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T07:56:13.121202+00:00",
+      "modified": "2025-12-01T07:56:13.907021+00:00",
+      "id": 17774560,
+      "conceptrecid": "17774559",
+      "doi": "10.5281/zenodo.17774560",
+      "conceptdoi": "10.5281/zenodo.17774559",
+      "doi_url": "https://doi.org/10.5281/zenodo.17774560",
+      "metadata": {
+        "title": "AI Peer Review Acceleration of LLM-Generated Glioblastoma Clinical Trial Patient Matching ML, FDA/ICH/ISO, and FastAPI",
+        "doi": "10.5281/zenodo.17774560",
+        "publication_date": "2025-12-01",
+        "description": "<p>Human peer review was an effective technique to address quality, originality, and errors of non-LLM generated work. Researcher-AI trust has since then grown due to performant large language model (LLM) benchmark improvements and author implementations across different model manufacturers for processing frequent, complex, and voluminous data. This single human-AI team has led to the emergence of readily available artificial intelligence peer review. A primary benefit of AI peer review is the ability to appropriately conduct iterative analyses and corrections throughout the entire manuscript process. This responsible method improves on over-worked and fatigued human recommendations provided after manuscript completion. Here, a maximum efficiency study was performed in 14 days with the author utilizing a prior glioblastoma clinical trial matching guidance and a TrialGPT paper as inputs to output a prompt for developing a Python deep learning pipeline. A 10 file dataset and clinical BERT model notebook were generated by Sonnet 4.5 Extended, followed by repetitions of code fixes and optimizations to yield a final notebook at a low test set performance of 67.3%. A triple AI peer review conducted by Sonnet, GPT 5.1, and Grok 4.1 all yielded the primary recommendation to upgrade to a tabular model, which was more suitable for the csv dataset.</p>\n<p>ChatGPT then identified the most appropriate selection: an open source TabPFN-v2-clf model from Hugging Face. The Sonnet recommendations also included detailed instruction for five-fold cross-validation, SHAP explainability, and bias analysis incorporation. An AI peer review evaluation standard for ML workflows based criterion and efficiency metrics was generated by Opus 4.5 with highest efficiencies based on the least number of humans, prompts, and time at the lowest LLM cost. Subsequent evaluation of the current workflow with an overall quality of 87.5%, and 0.831 efficiency based on human, prompt, time, and cost metrics. The ChatGPT identified model and Sonnet review instructions were implemented into the prior notebook to yield a new notebook that saw an acceleration in research progress with a test set accuracy improvement to 94.0% with few-shot learning along with peer review corrections. A regulatory compliance prompt was created, followed by full document generations of FDA 21 CFR Part 820, ICH-GCP E6(R2), and ISO 14971 addressing quality, clinical practice, and risk management. Several attempts to create an effective FastAPI code repository by Sonnet were initially unsuccessful, however an Opus/Sonnet prompting strategy yielded a FastAPI interface with three successful glioblastoma patient clinical trial match predictions. AI as a senior software engineer and as a senior regulatory analyst were also employed as part of the AI peer review process</p>\n<p>The purpose of this AI peer review study was to place the world&rsquo;s focus back on innovating active and real world medical AI advancements in a fraction of the time. Measuring the effect AI implementation has on large workforces can be challenging to quantify. The conversational human-AI R&amp;D relationship has become increasingly solitude: therefore this single author project should be viewed as the standard for new workflows going into the future. This next evolution of peer review is especially suitable for hard working researchers in less favorable economic, educational, and affiliation conditions, such as the author of the paper. This process is afforded by low cost, fast, and easy to use state of the art LLMs from Anthropic, Google, OpenAI, and xAI; marking the pivot away from slow and irresponsible use of human peer review for LLM-generated data, and back to fast automation of patient health applications at scale. Many authors of less influence can now improve their speed of development and gain reputation in papers by simply providing prompts, LLMs, AI peer review recommendations, and corrections they made - without the need for paid review or journals. Interested parties can then view the author&rsquo;s peer review findings alongside the paper. Trust for the AI peer review process was established over a series of human-AI works reflected in LLM code and non-code benchmarking, applications in literature, and prior author works using AI in review roles coordinated across judging, external validation, cross-verification, meta-verification, and tests according to FDA/ICH guidance.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Kawchak, Kevin",
+            "affiliation": "ChemicalQDevice",
+            "orcid": "0009-0007-5457-8667"
+          }
+        ],
+        "keywords": [
+          "Clinical Trial Patient Matching",
+          "Glioblastoma",
+          "LLM Machine Learning Code Generation"
+        ],
+        "dates": [
+          {
+            "type": "created"
+          }
+        ],
+        "language": "eng",
+        "custom": {
+          "code:codeRepository": "https://github.com/kevinkawchak/glioblastoma-api",
+          "code:programmingLanguage": [
+            {
+              "id": "python",
+              "title": {
+                "en": "Python"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17774559"
+              }
+            }
+          ]
+        }
+      },
+      "title": "AI Peer Review Acceleration of LLM-Generated Glioblastoma Clinical Trial Patient Matching ML, FDA/ICH/ISO, and FastAPI",
+      "links": {
+        "self": "https://zenodo.org/api/records/17774560",
+        "self_html": "https://zenodo.org/records/17774560",
+        "preview_html": "https://zenodo.org/records/17774560?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17774560",
+        "self_doi": "https://doi.org/10.5281/zenodo.17774560",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774560",
+        "reserve_doi": "https://zenodo.org/api/records/17774560/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17774559",
+        "parent_html": "https://zenodo.org/records/17774559",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17774559",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774559",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774560/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774560/sequence/default",
+        "files": "https://zenodo.org/api/records/17774560/files",
+        "media_files": "https://zenodo.org/api/records/17774560/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17774560:AI%20Peer%20Review%20Acceleration%20of%20LLM-Generated%20Glioblastoma%20Clinical%20Trial%20Patient%20Matching%20ML,%20FDA:ICH:ISO,%20and%20FastAPI.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17774560:AI%20Peer%20Review%20Acceleration%20of%20LLM-Generated%20Glioblastoma%20Clinical%20Trial%20Patient%20Matching%20ML,%20FDA:ICH:ISO,%20and%20FastAPI.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17774560:AI%20Peer%20Review%20Acceleration%20of%20LLM-Generated%20Glioblastoma%20Clinical%20Trial%20Patient%20Matching%20ML,%20FDA:ICH:ISO,%20and%20FastAPI.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17774560:AI%20Peer%20Review%20Acceleration%20of%20LLM-Generated%20Glioblastoma%20Clinical%20Trial%20Patient%20Matching%20ML,%20FDA:ICH:ISO,%20and%20FastAPI.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17774560:AI%20Peer%20Review%20Acceleration%20of%20LLM-Generated%20Glioblastoma%20Clinical%20Trial%20Patient%20Matching%20ML,%20FDA:ICH:ISO,%20and%20FastAPI.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17774560:AI%20Peer%20Review%20Acceleration%20of%20LLM-Generated%20Glioblastoma%20Clinical%20Trial%20Patient%20Matching%20ML,%20FDA:ICH:ISO,%20and%20FastAPI.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17774560/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17774560/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17774560/versions/latest",
+        "latest_html": "https://zenodo.org/records/17774560/latest",
+        "versions": "https://zenodo.org/api/records/17774560/versions",
+        "draft": "https://zenodo.org/api/records/17774560/draft",
+        "access_links": "https://zenodo.org/api/records/17774560/access/links",
+        "access_grants": "https://zenodo.org/api/records/17774560/access/grants",
+        "access_users": "https://zenodo.org/api/records/17774560/access/users",
+        "access_request": "https://zenodo.org/api/records/17774560/access/request",
+        "access": "https://zenodo.org/api/records/17774560/access",
+        "communities": "https://zenodo.org/api/records/17774560/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17774560/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17774560/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17774560/file-modification",
+        "requests": "https://zenodo.org/api/records/17774560/requests"
+      },
+      "updated": "2025-12-01T07:56:13.907021+00:00",
+      "recid": "17774560",
+      "revision": 4,
+      "files": [
+        {
+          "id": "cc19d937-b75a-4453-ac79-66ade0cd2e8c",
+          "key": "AI Peer Review Acceleration of LLM-Generated Glioblastoma Clinical Trial Patient Matching ML, FDA:ICH:ISO, and FastAPI.pdf",
+          "size": 793480,
+          "checksum": "md5:0243029d91c6987896c03efaa7ac6b89",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774560/files/AI Peer Review Acceleration of LLM-Generated Glioblastoma Clinical Trial Patient Matching ML, FDA:ICH:ISO, and FastAPI.pdf/content"
+          }
+        },
+        {
+          "id": "6f9b0d5c-ae3a-4d3e-a294-f93656b1474c",
+          "key": "Inputs.zip",
+          "size": 28862182,
+          "checksum": "md5:c596392476444bbac4a12ab6e07b3302",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774560/files/Inputs.zip/content"
+          }
+        },
+        {
+          "id": "0b29228d-b37b-4635-b496-43da37aa4078",
+          "key": "Outputs.zip",
+          "size": 25562946,
+          "checksum": "md5:3f2d6296eafc903bb66f07975da2d335",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774560/files/Outputs.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1171568"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 1,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 2,
+        "version_unique_downloads": 1,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T07:39:12.181574+00:00",
+      "modified": "2025-12-01T07:39:12.451156+00:00",
+      "id": 17775010,
+      "conceptrecid": "17775009",
+      "doi": "10.5281/zenodo.17775010",
+      "conceptdoi": "10.5281/zenodo.17775009",
+      "doi_url": "https://doi.org/10.5281/zenodo.17775010",
+      "metadata": {
+        "title": "Establishment of a Strategic Financing Mechanism for Sustained Construction and Maintenance of Zambia's Public Roads-A Case for Lusaka District",
+        "doi": "10.5281/zenodo.17775010",
+        "publication_date": "2025-12-01",
+        "description": "<p>Investment in physical infrastructure, such as roads, bridges, airports, sea ports, water ports, railways etc., is a fundamental ingredient in the growth and economic development of a country. Compared to countries like Singapore, South Korea and China, countries in Sub-Saharan Africa have significantly underinvested in infrastructure over the years, resulting in stunted growth. Zambia, which has a large infrastructure funding gap, and a ballooning government debt, cannot rely solely on the government to meet its infrastructure funding needs. This study looked at establishment of a strategic financing mechanism for sustained construction and maintenance of Zambia&rsquo;s public roads- a case of Lusaka district. The study adopted pragmatism philosophy, focusing on practical, real-world outcomes. It combined quantitative and qualitative methods to address establishment of a strategic financing mechanism for sustained construction and maintenance of Zambia&rsquo;s public roads (Tashakkori &amp; Teddlie, 2010). A mixed-methods approach was used, integrating both qualitative and quantitative techniques. Qualitative methods (interviews, focus groups) explored strategic mechanism of sustained financing for construction and maintenance of Zambia&rsquo;s public roads, while quantitative surveys measured ways of sustaining the financing for construction and maintenance of the public roads This approach provided a comprehensive understanding of how to have a strategic mechanism to fund the construction and maintenance of public roads in Zambia (Creswell &amp; Plano Clark, 2017). The study applied both deductive and inductive approaches. Data collected was analysed using the Dedose Software for the qualitative part and for the quantitative part a thematic analysis was used to come up with the results. Zambia has in place legal and institutional frameworks (Tembo, 2015) that are necessary for effective and efficient road asset management. This study established that a number of financing strategies or frame works for road construction and maintenance such as RoadSIP 1 and II and RoadSIP III (yet to be launched), performed fairly well albeit some challenges. It also established that most road projects under implementation are under the government&rsquo;s balance sheet and that, the Road sector&rsquo;s indebtedness to local Contractors and Consultants was increasing and the financing gap was widening. Zambia would need to spend an average of $1.6 billion a year over the decade 2022&ndash;30 to develop the infrastructure found in the rest of the developing world (Foster and Dominguez, 2010). To close this financial gap required raising more funds and looking for more effective ways to meet infrastructure targets. The study established that since traditional funding methods for road construction and maintenance in Zambia such as tax revenues and loans are becoming unsustainable, there is need to look for other alternatives. The study established the potential strategic sources of funding for sustained construction and maintenance of Zambia&rsquo;s public roads include public private partnerships, equity financing, road tolls and establishment of a State Infrastructure Bank(s). The study also established a Strategic Road Financing Framework (SRFFW) that clearly illustrates the interconnection between institutional governance, revenue diversification, community engagement, and sustainability. To Address financing challenges, it was recommended that there is need to increase Public-Private Partnerships (PPPs) by inviting the private sector to participate in the construction, maintenance, and financing of roads.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Joseph Mwinga",
+            "affiliation": "University of Zambia"
+          },
+          {
+            "name": "Richard Mwale Kasongo",
+            "affiliation": "University of Zambia"
+          }
+        ],
+        "keywords": [
+          "Road Construction and Maintenance, Strategic Funding, Private Public Partnerships, Inadequate Financing, Strategic Road Financing Framework."
+        ],
+        "language": "ang",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "11",
+          "pages": "7551-7564",
+          "title": "Journal of Economics, Finance And Management Studies",
+          "volume": "08"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17775009"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Establishment of a Strategic Financing Mechanism for Sustained Construction and Maintenance of Zambia's Public Roads-A Case for Lusaka District",
+      "links": {
+        "self": "https://zenodo.org/api/records/17775010",
+        "self_html": "https://zenodo.org/records/17775010",
+        "preview_html": "https://zenodo.org/records/17775010?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17775010",
+        "self_doi": "https://doi.org/10.5281/zenodo.17775010",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775010",
+        "reserve_doi": "https://zenodo.org/api/records/17775010/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17775009",
+        "parent_html": "https://zenodo.org/records/17775009",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17775009",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775009",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775010/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775010/sequence/default",
+        "files": "https://zenodo.org/api/records/17775010/files",
+        "media_files": "https://zenodo.org/api/records/17775010/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17775010:44.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17775010:44.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17775010:44.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17775010:44.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17775010:44.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17775010:44.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17775010/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17775010/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17775010/versions/latest",
+        "latest_html": "https://zenodo.org/records/17775010/latest",
+        "versions": "https://zenodo.org/api/records/17775010/versions",
+        "draft": "https://zenodo.org/api/records/17775010/draft",
+        "access_links": "https://zenodo.org/api/records/17775010/access/links",
+        "access_grants": "https://zenodo.org/api/records/17775010/access/grants",
+        "access_users": "https://zenodo.org/api/records/17775010/access/users",
+        "access_request": "https://zenodo.org/api/records/17775010/access/request",
+        "access": "https://zenodo.org/api/records/17775010/access",
+        "communities": "https://zenodo.org/api/records/17775010/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17775010/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17775010/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17775010/file-modification",
+        "requests": "https://zenodo.org/api/records/17775010/requests"
+      },
+      "updated": "2025-12-01T07:39:12.451156+00:00",
+      "recid": "17775010",
+      "revision": 4,
+      "files": [
+        {
+          "id": "b4b1632b-b05f-4e99-ab9f-dbf22422f4db",
+          "key": "44.pdf",
+          "size": 535262,
+          "checksum": "md5:7a22eae45323c5c770fc28f48a4f3cb5",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775010/files/44.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "190052"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 3,
+        "unique_downloads": 2,
+        "views": 5,
+        "unique_views": 4,
+        "version_downloads": 3,
+        "version_unique_downloads": 2,
+        "version_unique_views": 4,
+        "version_views": 5
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T07:38:35.226583+00:00",
+      "modified": "2025-12-01T07:39:39.014417+00:00",
+      "id": 17775019,
+      "conceptrecid": "17775018",
+      "doi": "10.5281/zenodo.17775019",
+      "conceptdoi": "10.5281/zenodo.17775018",
+      "doi_url": "https://doi.org/10.5281/zenodo.17775019",
+      "metadata": {
+        "title": "Digital Sovereignty with Free Software: From the French OSPO to Software Heritage",
+        "doi": "10.5281/zenodo.17775019",
+        "publication_date": "2025-11-25",
+        "description": "<p><a href=\"https://www.softwareheritage.org/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Software Heritage</a> collects publicly available source code from numerous software projects and tracks their ongoing development.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Guerry, Bastien",
+            "affiliation": "Software Heritage"
+          }
+        ],
+        "keywords": [
+          "Software Preservation",
+          "Source Code Archiving",
+          "OSPO"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Presentation",
+          "type": "presentation"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "software-heritage"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17775018"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Digital Sovereignty with Free Software: From the French OSPO to Software Heritage",
+      "links": {
+        "self": "https://zenodo.org/api/records/17775019",
+        "self_html": "https://zenodo.org/records/17775019",
+        "preview_html": "https://zenodo.org/records/17775019?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17775019",
+        "self_doi": "https://doi.org/10.5281/zenodo.17775019",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775019",
+        "reserve_doi": "https://zenodo.org/api/records/17775019/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17775018",
+        "parent_html": "https://zenodo.org/records/17775018",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17775018",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775018",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775019/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775019/sequence/default",
+        "files": "https://zenodo.org/api/records/17775019/files",
+        "media_files": "https://zenodo.org/api/records/17775019/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17775019:bastien-guerry-digital-sovereignty-2025.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17775019:bastien-guerry-digital-sovereignty-2025.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17775019:bastien-guerry-digital-sovereignty-2025.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17775019:bastien-guerry-digital-sovereignty-2025.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17775019:bastien-guerry-digital-sovereignty-2025.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17775019:bastien-guerry-digital-sovereignty-2025.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17775019/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17775019/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17775019/versions/latest",
+        "latest_html": "https://zenodo.org/records/17775019/latest",
+        "versions": "https://zenodo.org/api/records/17775019/versions",
+        "draft": "https://zenodo.org/api/records/17775019/draft",
+        "access_links": "https://zenodo.org/api/records/17775019/access/links",
+        "access_grants": "https://zenodo.org/api/records/17775019/access/grants",
+        "access_users": "https://zenodo.org/api/records/17775019/access/users",
+        "access_request": "https://zenodo.org/api/records/17775019/access/request",
+        "access": "https://zenodo.org/api/records/17775019/access",
+        "communities": "https://zenodo.org/api/records/17775019/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17775019/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17775019/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17775019/file-modification",
+        "requests": "https://zenodo.org/api/records/17775019/requests"
+      },
+      "updated": "2025-12-01T07:39:39.014417+00:00",
+      "recid": "17775019",
+      "revision": 6,
+      "files": [
+        {
+          "id": "fffbb3b3-7765-492d-a6a9-b650ac091eef",
+          "key": "bastien-guerry-digital-sovereignty-2025.pdf",
+          "size": 7083395,
+          "checksum": "md5:20fc7e91b3d52c1fab4f5558ab7ef544",
+          "links": {
+            "self": "https://zenodo.org/api/records/17775019/files/bastien-guerry-digital-sovereignty-2025.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1266360"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 4,
+        "unique_downloads": 2,
+        "views": 9,
+        "unique_views": 7,
+        "version_downloads": 4,
+        "version_unique_downloads": 2,
+        "version_unique_views": 7,
+        "version_views": 9
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T07:28:54.319173+00:00",
+      "modified": "2025-12-01T07:28:54.652652+00:00",
+      "id": 17774912,
+      "conceptrecid": "17774911",
+      "doi": "10.5281/zenodo.17774912",
+      "conceptdoi": "10.5281/zenodo.17774911",
+      "doi_url": "https://doi.org/10.5281/zenodo.17774912",
+      "metadata": {
+        "title": "Real-Time Phishing URL Detection Using Hybrid Machine Learning and Heuristic Analysis",
+        "doi": "10.5281/zenodo.17774912",
+        "publication_date": "2025-12-01",
+        "description": "<p><em><span lang=\"EN\">Phishing sites still cause big problems online, often resulting in stolen money, leaked info, or fake identities being created. Older detection methods use only machine learning or fixed rules, which makes them less accurate and slow during live use. Instead, this study introduces a mixed approach combining smart algorithms with practical URL checks that work instantly. The system tests five types - Logistic Regression, Decision Tree, Random Forest, Support Vector Machine, along with K-Nearest Neighbors - using a known public set of phishing links. A quick heuristic tool checks URL structure - then an advanced mix layer decides the outcome. Tests show this combined method beats single models by being more accurate and stable. On top of that, a live web app built with Streamlit lets users test any URL, complete with confidence levels and clear feature insights. The project boosts clarity, real-world use, and trust in spotting today's phishing attempts.</span></em></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ande Amshutha",
+            "affiliation": null
+          },
+          {
+            "name": "Gajanan M Naik",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Phishing Detection, Machine Learning, URL Classification, Hybrid Model, Ensemble Learning, Cyber security, Streamlit, Heuristic Analysis"
+        ],
+        "references": [
+          "1.\tT. Swetha, S. M. Seshaiah, K. L. Hemalatha, S. V. N. Murthy and B. H. Manjunatha Kumar, \"Hybrid Machine Learning Approach for Real-Time Malicious URL Detection Using SOM-RMO and RBFN with Tabu Search,\" VTU Research Publication, Karnataka, India, 2024.",
+          "2.\tC. Do Xuan, H. D. Nguyen and V. N. Tisenko, \"Malicious URL Detection Based on Machine Learning,\" Int. J. Adv. Computer Science and Applications (IJACSA), vol. 11, no. 1, pp. 101\u2013108, 2020.",
+          "3.\tC. Rupa, G. Srivastava, S. Bhattacharya, P. Reddy and T. R. Gadekallu, \"A Machine Learning Driven Threat Intelligence System for Malicious URL Detection,\" in Proc. 16th Int. Conf. Availability, Reliability and Security, pp. 1-7, 2021.",
+          "4.\tA. S. Raja, R. Vinodini and A. Kavitha, \"Lexical Features Based Malicious URL Detection Using Machine Learning Techniques,\" Materials Today: Proceedings, vol. 47, pp. 163-166, 2021.",
+          "5.\tM. Aljabri et al., \"Detecting Malicious URLs Using Machine Learning Techniques: Review and Research Directions,\" IEEE Access, vol. 10, pp. 121395-121417, 2022.",
+          "6.\tS. H. Ahammad et al., \"Phishing URL Detection Using Machine Learning Methods,\" Advances in Engineering Software, vol. 173, p. 103288, 2022.",
+          "7.\tS. Mythreya, A. S. D. Murthy, K. Saikumar and V. Rajesh, \"Prediction and Prevention of Malicious URL Using ML and LR Techniques,\" in Handbook of Research on Technologies for E-Collaboration During Global Crises, pp. 302-315, IGI Global, 2022.",
+          "8.\tB. Janet and A. Nikam, \"Real-Time Malicious URL Detection on Twitch Using Machine Learning,\" in Proc. Int. Conf. Electronics and Renewable Systems (ICEARS), pp. 1185-1189, 2022.",
+          "9.\tG. Pradeepa and R. Devi, \"Review of Malicious URL Detection Using Machine Learning,\" in Soft Computing for Security Applications, Springer, pp. 97-105, 2022.",
+          "10.\tA. Karim, M. Shahroz, K. Mustofa, S. B. Belhaouari and S. R. K. Joga, \"Phishing Detection System Through Hybrid Machine Learning Based on URL,\" IEEE Access, vol. 11, pp. 36805-36822, 2023."
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "2",
+          "pages": "8-17",
+          "title": "Research and Reviews: Advancement in Cyber Security",
+          "volume": "3"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "compub"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17774911"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Real-Time Phishing URL Detection Using Hybrid Machine Learning and Heuristic Analysis",
+      "links": {
+        "self": "https://zenodo.org/api/records/17774912",
+        "self_html": "https://zenodo.org/records/17774912",
+        "preview_html": "https://zenodo.org/records/17774912?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17774912",
+        "self_doi": "https://doi.org/10.5281/zenodo.17774912",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774912",
+        "reserve_doi": "https://zenodo.org/api/records/17774912/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17774911",
+        "parent_html": "https://zenodo.org/records/17774911",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17774911",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774911",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774912/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774912/sequence/default",
+        "files": "https://zenodo.org/api/records/17774912/files",
+        "media_files": "https://zenodo.org/api/records/17774912/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17774912:Real-Time%20Phishing%20URL%20Detection%20-HBRP%20Publication.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17774912:Real-Time%20Phishing%20URL%20Detection%20-HBRP%20Publication.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17774912:Real-Time%20Phishing%20URL%20Detection%20-HBRP%20Publication.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17774912:Real-Time%20Phishing%20URL%20Detection%20-HBRP%20Publication.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17774912:Real-Time%20Phishing%20URL%20Detection%20-HBRP%20Publication.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17774912:Real-Time%20Phishing%20URL%20Detection%20-HBRP%20Publication.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17774912/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17774912/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17774912/versions/latest",
+        "latest_html": "https://zenodo.org/records/17774912/latest",
+        "versions": "https://zenodo.org/api/records/17774912/versions",
+        "draft": "https://zenodo.org/api/records/17774912/draft",
+        "access_links": "https://zenodo.org/api/records/17774912/access/links",
+        "access_grants": "https://zenodo.org/api/records/17774912/access/grants",
+        "access_users": "https://zenodo.org/api/records/17774912/access/users",
+        "access_request": "https://zenodo.org/api/records/17774912/access/request",
+        "access": "https://zenodo.org/api/records/17774912/access",
+        "communities": "https://zenodo.org/api/records/17774912/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17774912/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17774912/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17774912/file-modification",
+        "requests": "https://zenodo.org/api/records/17774912/requests"
+      },
+      "updated": "2025-12-01T07:28:54.652652+00:00",
+      "recid": "17774912",
+      "revision": 4,
+      "files": [
+        {
+          "id": "b1087294-65b8-48fe-8f96-3c31e6c36f18",
+          "key": "Real-Time Phishing URL Detection -HBRP Publication.pdf",
+          "size": 740712,
+          "checksum": "md5:205c2943c2012a587e5ee97d5983c3b1",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774912/files/Real-Time Phishing URL Detection -HBRP Publication.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "109378"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 1,
+        "version_views": 1
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T07:27:14.517568+00:00",
+      "modified": "2025-12-01T07:27:14.871259+00:00",
+      "id": 17774950,
+      "conceptrecid": "17774949",
+      "doi": "10.5281/zenodo.17774950",
+      "conceptdoi": "10.5281/zenodo.17774949",
+      "doi_url": "https://doi.org/10.5281/zenodo.17774950",
+      "metadata": {
+        "title": "Federated Machine Learning for Secure and Personalized Healthcare: A Cloud-Edge Framework for Data-Driven Precision Medicine",
+        "doi": "10.5281/zenodo.17774950",
+        "publication_date": "2025-09-30",
+        "description": "<p>Healthcare systems are quickly increasing in using machine learning for precision medicine, management of clinical workflows and to improve patient outcomes. However, the dependence on centrally collected data is problematic in terms of privacy, scalability, and interoperability with real-time clinical decision support. This paper describes a new federated machine learning computing framework that combines cloud-edge computing, health monitoring sensors, and secure aggregation protocols in order to deliver data-driven, personalized healthcare while maintaining patient privacy. The performance of the framework is validated through a pilot simulation on multimodal datasets, showing higher accuracy, lower latency, and resiliency in the face of cyber threats. By integrating concepts of precision medicine, artificial intelligence driven healthcare and wearable technologies, the proposed model fills the innovation vs. clinical adoption gap as we strive for scalable data-driven approaches to care delivery.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Mariam, Qazi Rubyya",
+            "affiliation": "Department of Information Technology, Washington University of Science and Technology, Alexandria, VA-22314, USA."
+          }
+        ],
+        "keywords": [
+          "Federated learning",
+          "Precision medicine",
+          "AI in healthcare",
+          "Cloud-edge computing",
+          "Cybersecurity",
+          "Wearable sensors"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "3",
+          "pages": "1570-1575",
+          "title": "World Journal of Advanced Research and Reviews",
+          "volume": "27"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "10.30574/wjarr.2025.27.3.3305"
+          }
+        ],
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "wjarr"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17774949"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Federated Machine Learning for Secure and Personalized Healthcare: A Cloud-Edge Framework for Data-Driven Precision Medicine",
+      "links": {
+        "self": "https://zenodo.org/api/records/17774950",
+        "self_html": "https://zenodo.org/records/17774950",
+        "preview_html": "https://zenodo.org/records/17774950?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17774950",
+        "self_doi": "https://doi.org/10.5281/zenodo.17774950",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774950",
+        "reserve_doi": "https://zenodo.org/api/records/17774950/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17774949",
+        "parent_html": "https://zenodo.org/records/17774949",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17774949",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774949",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774950/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774950/sequence/default",
+        "files": "https://zenodo.org/api/records/17774950/files",
+        "media_files": "https://zenodo.org/api/records/17774950/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17774950:WJARR-2025-3305.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17774950:WJARR-2025-3305.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17774950:WJARR-2025-3305.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17774950:WJARR-2025-3305.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17774950:WJARR-2025-3305.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17774950:WJARR-2025-3305.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17774950/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17774950/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17774950/versions/latest",
+        "latest_html": "https://zenodo.org/records/17774950/latest",
+        "versions": "https://zenodo.org/api/records/17774950/versions",
+        "draft": "https://zenodo.org/api/records/17774950/draft",
+        "access_links": "https://zenodo.org/api/records/17774950/access/links",
+        "access_grants": "https://zenodo.org/api/records/17774950/access/grants",
+        "access_users": "https://zenodo.org/api/records/17774950/access/users",
+        "access_request": "https://zenodo.org/api/records/17774950/access/request",
+        "access": "https://zenodo.org/api/records/17774950/access",
+        "communities": "https://zenodo.org/api/records/17774950/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17774950/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17774950/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17774950/file-modification",
+        "requests": "https://zenodo.org/api/records/17774950/requests"
+      },
+      "updated": "2025-12-01T07:27:14.871259+00:00",
+      "recid": "17774950",
+      "revision": 4,
+      "files": [
+        {
+          "id": "c9af2e24-7adf-4a7d-8f9b-3f71bc84e891",
+          "key": "WJARR-2025-3305.pdf",
+          "size": 628410,
+          "checksum": "md5:86794abff1f7533c91068387fd7e140e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774950/files/WJARR-2025-3305.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "155121"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 1,
+        "version_views": 1
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T07:21:21.305736+00:00",
+      "modified": "2025-12-01T07:21:21.542669+00:00",
+      "id": 17774904,
+      "conceptrecid": "4733033",
+      "doi": "10.5281/zenodo.17774904",
+      "conceptdoi": "10.5281/zenodo.4733033",
+      "doi_url": "https://doi.org/10.5281/zenodo.17774904",
+      "metadata": {
+        "title": "Manim \u2013 Mathematical Animation Framework",
+        "doi": "10.5281/zenodo.17774904",
+        "publication_date": "2025-12-01",
+        "description": "<h2>What's Changed</h2>\n<h3>Breaking Changes and Deprecations</h3>\n<h3>New Features</h3>\n<ul>\n<li>Introduce seed in <code>random_color</code> method to produce colors deterministically by @ishu9bansal in https://github.com/ManimCommunity/manim/pull/4265</li>\n<li>Add support for arithmetic operators <code>//</code>, <code>%</code>, <code>*</code>, <code>**</code> and <code>/</code> on <code>ValueTracker</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4351</li>\n<li>Add <code>TangentialArc</code> mobject by @Brainsucker92 in https://github.com/ManimCommunity/manim/pull/4469</li>\n</ul>\n<h3>Fixed Bugs and Enhancements</h3>\n<ul>\n<li>Fix environment formating for Tex() mobject by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4159</li>\n<li>Improved consistency of rate_function implementations by @BenKirkels in https://github.com/ManimCommunity/manim/pull/4144</li>\n<li>Make new <code>Code</code> mobject compatible with OpenGL renderer by @behackl in https://github.com/ManimCommunity/manim/pull/4164</li>\n<li>Fix HSL color ordering in ManimColor by @thehugwizard in https://github.com/ManimCommunity/manim/pull/4202</li>\n<li>Fix return type of <code>Polygram.get_vertex_groups()</code> and rename variables in <code>.round_corners()</code> by @chopan050 in https://github.com/ManimCommunity/manim/pull/4063</li>\n<li>Improve <code>Mobject.align_data</code> docstring by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4152</li>\n<li>Fix :meth:<code>VMobject.pointwise_become_partial</code> failing when <code>vmobject</code> is <code>self</code> by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4193</li>\n<li>Fix <code>add_points_as_corners</code> not connecting single point to existing path by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4219</li>\n<li>Complete typing for logger_utils.py by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4134</li>\n<li>Fix(graph): Allow any Line subclass as edge_type in Graph/DiGraph by @Akshat-Mishra-py in https://github.com/ManimCommunity/manim/pull/4251</li>\n<li>Replace exceptions, remove unused parameters, and fix type hints in <code>Animation</code>, <code>ShowPartial</code>, <code>Create</code>, <code>ShowPassingFlash</code>, and <code>DrawBorderThenFill</code> by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4214</li>\n<li>Fix: <code>Axes</code> submobject colors are not being set properly by @ishu9bansal in https://github.com/ManimCommunity/manim/pull/4291</li>\n<li>Refactor <code>Rotating</code> and add docstrings to <code>Mobject.rotate()</code> and <code>Rotating</code> by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4147</li>\n<li>Fix default config of <code>manim init project</code> to use correct <code>pixel_height</code> and <code>pixel_width</code> by @StevenH34 in https://github.com/ManimCommunity/manim/pull/4213</li>\n<li>Handle opacity and transparent images by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4313</li>\n<li>Gracefully fall back when version metadata is missing by @mohiuddin-khan-shiam in https://github.com/ManimCommunity/manim/pull/4324</li>\n<li>Fix for issue 4255 - Do not clear points when the number of curves is zero by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4320</li>\n<li>Use utf-8 encoding to read generated .tex files. by @OliverStrait in https://github.com/ManimCommunity/manim/pull/4334</li>\n<li>Add zero to vmobject points to remove negative zeros in <code>get_mobject_key</code> by @elshorbagyx in https://github.com/ManimCommunity/manim/pull/4332</li>\n<li>Ensure <code>stroke_width</code> attribute of <code>SVGMobject</code> is not set to <code>None</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4319</li>\n<li>Fix <code>Prism</code> incorrectly rendering with <code>dimensions=[2, 2, 2]</code> in OpenGL by @ra1u in https://github.com/ManimCommunity/manim/pull/4003</li>\n<li>Fix <code>BraceLabel.change_label()</code> and document <code>BraceText</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4347</li>\n<li>Include <code>Text.gradient</code> in hash to properly regenerate <code>Text</code> when its gradient changes by @AbhilashaTandon in https://github.com/ManimCommunity/manim/pull/4099</li>\n<li>Fixed surface animations in OpenGL by @nubDotDev in https://github.com/ManimCommunity/manim/pull/4286</li>\n<li>Add type hints and support for arithmetic operators <code>+</code> and <code>-</code> on <code>ValueTracker</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4129</li>\n<li>Fix duplicate references in <code>Scene.mobjects</code> after <code>ReplacementTransform</code> with existing target mobject by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4242</li>\n<li>Optimize <code>always_redraw()</code> by reducing <code>Mobject</code> copying in <code>Mobject.become()</code> by @chopan050 in https://github.com/ManimCommunity/manim/pull/4357</li>\n<li>Enhance <code>manim cfg show</code> output and add info-level logging for config files read  by @xnov18 in https://github.com/ManimCommunity/manim/pull/4375</li>\n<li>Let <code>Cube</code> use Bevel type line joints by @nubDotDev in https://github.com/ManimCommunity/manim/pull/4361</li>\n<li>Properly define <code>init_points</code> methods for use in OpenGL instead of defining <code>init_points = generate_points</code> by @chopan050 in https://github.com/ManimCommunity/manim/pull/4360</li>\n<li>Allow passing a tuple to <code>buff</code> in <code>SurroundingRectangle</code> to specify buffer in x and y direction independently by @nubDotDev in https://github.com/ManimCommunity/manim/pull/4390</li>\n<li>Rewrite <code>color_gradient</code> to always return a list of ManimColors by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4380</li>\n<li>Ensure leading whitespace does not change line height for lines in CodeMobject by @behackl in https://github.com/ManimCommunity/manim/pull/4392</li>\n<li>Simplify the function <code>remove_invisible_chars</code> in <code>text_mobject.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4394</li>\n<li>Fix some config options specified via <code>--config_file</code> not being respected properly by @behackl in https://github.com/ManimCommunity/manim/pull/4401</li>\n<li>Fix: Correct resolution tuple order to (height, width) by @Nikhil172913832 in https://github.com/ManimCommunity/manim/pull/4440</li>\n<li>Ensure that start and end points are stored as float values in Line3D by @SirJamesClarkMaxwell in https://github.com/ManimCommunity/manim/pull/4080</li>\n<li>OpenGL: Fix iterated nesting in <code>DecimalNumber.set_value</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4373</li>\n<li>Update default resolution in CLI to match Manim's 1920x1080 default settings by @SASHAKT1290 in https://github.com/ManimCommunity/manim/pull/4452</li>\n<li>Better parsing of color styles in CodeMobject by @SirJamesClarkMaxwell in https://github.com/ManimCommunity/manim/pull/4454</li>\n<li>Allow selection of all scenes to render using '*' by @NightyStudios in https://github.com/ManimCommunity/manim/pull/4470</li>\n<li>Prevent mutation of <code>about_point</code> in <code>apply_points_function_about_point</code> by @Morkunas in https://github.com/ManimCommunity/manim/pull/4478</li>\n<li>Fix behavior of <code>Mobject.suspend_updating</code>: when only suspending parent mobject, let children continue updating by @behackl in https://github.com/ManimCommunity/manim/pull/4402</li>\n<li>Allow passing a <code>buff</code> to <code>LabeledDot</code> by @nubDotDev in https://github.com/ManimCommunity/manim/pull/4403</li>\n<li>Pass ndarrays to <code>mapbox_earcut.triangulate_float32()</code> to fix <code>TypeError</code> in <code>mapbox_earcut==2.0.0</code> by @GuiCT in https://github.com/ManimCommunity/manim/pull/4479</li>\n<li>Fix duplicated arrow tips in DashedVMobject (issue #3220) by @jakekinchen in https://github.com/ManimCommunity/manim/pull/4484</li>\n</ul>\n<h3>Documentation</h3>\n<ul>\n<li>Add docstring to :meth:<code>.Mobject.get_family</code> by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4127</li>\n<li>Fix link formatting and clarify the distinction between Manim versions in index.rst by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4131</li>\n<li>Add instructions for installing system utilities <code>cairo</code> and <code>pkg-config</code> via Homebrew on MacOS by @behackl in https://github.com/ManimCommunity/manim/pull/4146</li>\n<li>Add missing line break in Code of Conduct's conflict of interest policy by @Hasan-Mesbaul-Ali-Taher in https://github.com/ManimCommunity/manim/pull/4185</li>\n<li>Fix links to Pango website by @ragibson in https://github.com/ManimCommunity/manim/pull/4217</li>\n<li>Replace poetry with uv in the README by @xinoehp512 in https://github.com/ManimCommunity/manim/pull/4226</li>\n<li>Improve docstring for <code>interpolate</code> method in <code>Mobject</code> class by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4149</li>\n<li>Add docstrings to <code>Line</code> and remove <code>None</code> handling for <code>path_arc</code> parameter by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4223</li>\n<li>Add docstring to :meth:<code>Mobject.family_members_with_points</code> by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4128</li>\n<li>Update incorrect docstring for :attr:<code>ManimConfig.gui_location</code> property by @SAYAN02-DEV in https://github.com/ManimCommunity/manim/pull/4254</li>\n<li>Fix formatting of color space documentation by @behackl in https://github.com/ManimCommunity/manim/pull/4274</li>\n<li>Enhance and Paraphrase Description of ManimCE in README.md by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4141</li>\n<li>docs: add explanation about the rate_func in the custom animation by @pedropxoto in https://github.com/ManimCommunity/manim/pull/4278</li>\n<li>Fixed artifact in docstring of Animation by @barollet in https://github.com/ManimCommunity/manim/pull/4283</li>\n<li>Rename update function <code>dot_position</code> to <code>update_label</code> in <code>.add_updater</code> example by @irvanalhaq9 in https://github.com/ManimCommunity/manim/pull/4196</li>\n<li>Fix Microsoft typo in <code>TexFontTemplateLibrary</code> scene in <code>example_scenes/advanced_tex_fonts.py</code> by @alterdim in https://github.com/ManimCommunity/manim/pull/4305</li>\n<li>Improved readability, grammar, as well as added docstrings for consistency  by @NASAnerd05 in https://github.com/ManimCommunity/manim/pull/4267</li>\n<li>Add docstrings for <code>ChangingDecimal</code> and <code>ChangeDecimalToValue</code> by @haveheartt in https://github.com/ManimCommunity/manim/pull/4346</li>\n<li>Fix Sphinx exceptions when trying to build documentation via latex / as pdf by @behackl in https://github.com/ManimCommunity/manim/pull/4370</li>\n<li>Added license information to documentation landing page by @Nikil-D-Gr8 in https://github.com/ManimCommunity/manim/pull/3986</li>\n<li>Set the default Python version to 3.13 in the uv installation guide by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4480</li>\n</ul>\n<h3>Maintenance and Testing</h3>\n<ul>\n<li>Change project management tool from poetry to uv by @behackl in https://github.com/ManimCommunity/manim/pull/4138</li>\n<li>Re-add ffmpeg as dependency within Docker image by @behackl in https://github.com/ManimCommunity/manim/pull/4150</li>\n<li>Add tests for Matrix, DecimalMatrix, IntegerMatrix by @pdrzan in https://github.com/ManimCommunity/manim/pull/4279</li>\n<li>Add tests for polylabel utility by @giolucasd in https://github.com/ManimCommunity/manim/pull/4269</li>\n<li>Add support for <code>pycodestyle W</code> rule in Ruff by @KaiqueDultra in https://github.com/ManimCommunity/manim/pull/4276</li>\n<li>Fix files with few MyPy typing errors by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4263</li>\n<li>Explicitly mention all files that mypy should ignore in the <code>mypy.ini</code> configuration file by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4306</li>\n<li>Remove dead code from <code>scene.py</code> and <code>vector_space_scene.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4310</li>\n<li>Add type annotations to <code>scene.py</code> and <code>vector_space_scene.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4260</li>\n<li>Replace setup-texlive-action in CI workflow by @behackl in https://github.com/ManimCommunity/manim/pull/4326</li>\n<li>Adding type annotations to polyhedra.py and matrix.py by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4322</li>\n<li>Handling typing errors in text/numbers.py by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4317</li>\n<li>Move <code>configure_pygui</code> into a <code>Scene</code> method and remove <code>manim.gui</code> by @chopan050 in https://github.com/ManimCommunity/manim/pull/4314</li>\n<li>Add typing annotations to svg_mobject.py by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4318</li>\n<li>Add type annotations to <code>mobject/svg/brace.py</code> and default to <code>label_constructor=Text</code> in <code>BraceText</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4309</li>\n<li>Add classes <code>MethodWithArgs</code>, <code>SceneInteractContinue</code> and <code>SceneInteractRerun</code> inside new module <code>manim.data_structures</code> by @chopan050 in https://github.com/ManimCommunity/manim/pull/4315</li>\n<li>Fix typo in import of OpenGLCamera in <code>utils/hashing.py</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4352</li>\n<li>Add type annotations to <code>manim/renderer/shader.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4350</li>\n<li>Add type annotations to <code>tex_mobject.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4355</li>\n<li>Add type annotations to <code>three_d_camera.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4356</li>\n<li>Revert change of default value for tex_environment by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4358</li>\n<li>Add type hints to <code>scene_file_writer.py</code>, <code>section.py</code>, and <code>zoomed_scene.py</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4133</li>\n<li>Add type annotations for most of <code>camera</code> and <code>mobject.graphing</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4125</li>\n<li>Add <code>VectorNDLike</code> type aliases by @chopan050 in https://github.com/ManimCommunity/manim/pull/4068</li>\n<li>Add type annotations to <code>dot_cloud.py</code>, <code>vectorized_mobject_rendering.py</code> and <code>opengl_three_dimensions.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4359</li>\n<li>Add type annotations to <code>indication.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4367</li>\n<li>Add type annotations to <code>composition.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4366</li>\n<li>Add type annotations to <code>growing.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4368</li>\n<li>Add type annotations to <code>movement.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4371</li>\n<li>Exclude check for cyclic imports by CodeQL by @behackl in https://github.com/ManimCommunity/manim/pull/4384</li>\n<li>Refactor imports from <code>collections.abc</code>, <code>typing</code> and <code>typing_extensions</code> for Python 3.9 by @chopan050 in https://github.com/ManimCommunity/manim/pull/4353</li>\n<li>Add type annotations to <code>opengl_renderer_window.py</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4363</li>\n<li>Rename <code>SceneFileWriter.save_final_image()</code> to <code>save_image()</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4378</li>\n<li>Add type annotations to <code>text_mobject.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4381</li>\n<li>Rename types like <code>RGBA_Array_Float</code> to <code>FloatRGBA</code> and add types like <code>FloatRGBA_Array</code> by @chopan050 in https://github.com/ManimCommunity/manim/pull/4386</li>\n<li>Add type annotations to <code>opengl_geometry.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4396</li>\n<li>Add type annotations to <code>moving_camera.py</code> by @henrikmidtiby in https://github.com/ManimCommunity/manim/pull/4397</li>\n<li>Add type annotations to <code>opengl_mobject.py</code> by @RBerga06 in https://github.com/ManimCommunity/manim/pull/4398</li>\n<li>Fix failing pre-commit tests by @cclauss in https://github.com/ManimCommunity/manim/pull/4434</li>\n<li>Add type annotations to  <code>cairo_renderer.py</code> by @fmuenkel in https://github.com/ManimCommunity/manim/pull/4393</li>\n<li>Fix type errors and add typings for <code>Mobject.apply_function()</code>, its derivatives, and other utility functions by @godalming123 in https://github.com/ManimCommunity/manim/pull/4228</li>\n<li>Bump macOS image from deprecated macos-13 to macos-15-intel by @chopan050 in https://github.com/ManimCommunity/manim/pull/4481</li>\n<li>Prepare new release <code>v0.19.1</code> and bump minimum required Python version to 3.10 by @behackl in https://github.com/ManimCommunity/manim/pull/4490</li>\n</ul>\n<h3>Dependency Version Changes</h3>\n<ul>\n<li>Bump typing extensions minimum version by @JasonGrace2282 in https://github.com/ManimCommunity/manim/pull/4121</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4122</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4140</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4148</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4181</li>\n<li>Bump astral-sh/setup-uv from 5 to 6 by @dependabot[bot] in https://github.com/ManimCommunity/manim/pull/4234</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4204</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4391</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4405</li>\n<li>Bump actions/setup-python from 5 to 6 by @dependabot[bot] in https://github.com/ManimCommunity/manim/pull/4433</li>\n<li>Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/ManimCommunity/manim/pull/4418</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4409</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4460</li>\n<li>[pre-commit.ci] pre-commit autoupdate by @pre-commit-ci[bot] in https://github.com/ManimCommunity/manim/pull/4467</li>\n<li>Bump github/codeql-action from 3 to 4 by @dependabot[bot] in https://github.com/ManimCommunity/manim/pull/4466</li>\n<li>Bump astral-sh/setup-uv from 6 to 7 by @dependabot[bot] in https://github.com/ManimCommunity/manim/pull/4465</li>\n<li>Bump actions/upload-artifact from 4 to 5 by @dependabot[bot] in https://github.com/ManimCommunity/manim/pull/4464</li>\n</ul>\n<h2>New Contributors</h2>\n<ul>\n<li>@BenKirkels made their first contribution in https://github.com/ManimCommunity/manim/pull/4144</li>\n<li>@Hasan-Mesbaul-Ali-Taher made their first contribution in https://github.com/ManimCommunity/manim/pull/4185</li>\n<li>@ragibson made their first contribution in https://github.com/ManimCommunity/manim/pull/4217</li>\n<li>@thehugwizard made their first contribution in https://github.com/ManimCommunity/manim/pull/4202</li>\n<li>@xinoehp512 made their first contribution in https://github.com/ManimCommunity/manim/pull/4226</li>\n<li>@SAYAN02-DEV made their first contribution in https://github.com/ManimCommunity/manim/pull/4254</li>\n<li>@Akshat-Mishra-py made their first contribution in https://github.com/ManimCommunity/manim/pull/4251</li>\n<li>@pdrzan made their first contribution in https://github.com/ManimCommunity/manim/pull/4279</li>\n<li>@pedropxoto made their first contribution in https://github.com/ManimCommunity/manim/pull/4278</li>\n<li>@giolucasd made their first contribution in https://github.com/ManimCommunity/manim/pull/4269</li>\n<li>@KaiqueDultra made their first contribution in https://github.com/ManimCommunity/manim/pull/4276</li>\n<li>@ishu9bansal made their first contribution in https://github.com/ManimCommunity/manim/pull/4291</li>\n<li>@StevenH34 made their first contribution in https://github.com/ManimCommunity/manim/pull/4213</li>\n<li>@alterdim made their first contribution in https://github.com/ManimCommunity/manim/pull/4305</li>\n<li>@mohiuddin-khan-shiam made their first contribution in https://github.com/ManimCommunity/manim/pull/4324</li>\n<li>@elshorbagyx made their first contribution in https://github.com/ManimCommunity/manim/pull/4332</li>\n<li>@NASAnerd05 made their first contribution in https://github.com/ManimCommunity/manim/pull/4267</li>\n<li>@ra1u made their first contribution in https://github.com/ManimCommunity/manim/pull/4003</li>\n<li>@AbhilashaTandon made their first contribution in https://github.com/ManimCommunity/manim/pull/4099</li>\n<li>@nubDotDev made their first contribution in https://github.com/ManimCommunity/manim/pull/4286</li>\n<li>@haveheartt made their first contribution in https://github.com/ManimCommunity/manim/pull/4346</li>\n<li>@xnov18 made their first contribution in https://github.com/ManimCommunity/manim/pull/4375</li>\n<li>@Nikil-D-Gr8 made their first contribution in https://github.com/ManimCommunity/manim/pull/3986</li>\n<li>@RBerga06 made their first contribution in https://github.com/ManimCommunity/manim/pull/4398</li>\n<li>@Nikhil172913832 made their first contribution in https://github.com/ManimCommunity/manim/pull/4440</li>\n<li>@SASHAKT1290 made their first contribution in https://github.com/ManimCommunity/manim/pull/4452</li>\n<li>@Brainsucker92 made their first contribution in https://github.com/ManimCommunity/manim/pull/4469</li>\n<li>@NightyStudios made their first contribution in https://github.com/ManimCommunity/manim/pull/4470</li>\n<li>@Morkunas made their first contribution in https://github.com/ManimCommunity/manim/pull/4478</li>\n<li>@GuiCT made their first contribution in https://github.com/ManimCommunity/manim/pull/4479</li>\n<li>@godalming123 made their first contribution in https://github.com/ManimCommunity/manim/pull/4228</li>\n<li>@jakekinchen made their first contribution in https://github.com/ManimCommunity/manim/pull/4484</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/ManimCommunity/manim/compare/v0.19.0...v0.19.1</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "The Manim Community Developers",
+            "affiliation": null
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/ManimCommunity/manim/tree/v0.19.1",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v0.19.1",
+        "custom": {
+          "code:codeRepository": "https://github.com/ManimCommunity/manim"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 23,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "4733033"
+              }
+            }
+          ]
+        },
+        "notes": "We acknowledge the importance of good software to support research, and we note that research becomes more valuable when it is communicated effectively. To demonstrate the value of Manim, we ask that you cite Manim in your work."
+      },
+      "title": "Manim \u2013 Mathematical Animation Framework",
+      "links": {
+        "self": "https://zenodo.org/api/records/17774904",
+        "self_html": "https://zenodo.org/records/17774904",
+        "preview_html": "https://zenodo.org/records/17774904?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17774904",
+        "self_doi": "https://doi.org/10.5281/zenodo.17774904",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774904",
+        "reserve_doi": "https://zenodo.org/api/records/17774904/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/4733033",
+        "parent_html": "https://zenodo.org/records/4733033",
+        "parent_doi": "https://doi.org/10.5281/zenodo.4733033",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4733033",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774904/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774904/sequence/default",
+        "files": "https://zenodo.org/api/records/17774904/files",
+        "media_files": "https://zenodo.org/api/records/17774904/media-files",
+        "archive": "https://zenodo.org/api/records/17774904/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17774904/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17774904/versions/latest",
+        "latest_html": "https://zenodo.org/records/17774904/latest",
+        "versions": "https://zenodo.org/api/records/17774904/versions",
+        "draft": "https://zenodo.org/api/records/17774904/draft",
+        "access_links": "https://zenodo.org/api/records/17774904/access/links",
+        "access_grants": "https://zenodo.org/api/records/17774904/access/grants",
+        "access_users": "https://zenodo.org/api/records/17774904/access/users",
+        "access_request": "https://zenodo.org/api/records/17774904/access/request",
+        "access": "https://zenodo.org/api/records/17774904/access",
+        "communities": "https://zenodo.org/api/records/17774904/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17774904/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17774904/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17774904/file-modification",
+        "requests": "https://zenodo.org/api/records/17774904/requests"
+      },
+      "updated": "2025-12-01T07:21:21.542669+00:00",
+      "recid": "17774904",
+      "revision": 4,
+      "files": [
+        {
+          "id": "3bc2c966-529a-4781-ab04-ab3be7f5d602",
+          "key": "ManimCommunity/manim-v0.19.1.zip",
+          "size": 7450613,
+          "checksum": "md5:a663f386a96e77e66e62f4903ad20d4a",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774904/files/ManimCommunity/manim-v0.19.1.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "218289"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 219,
+        "unique_downloads": 219,
+        "views": 1988,
+        "unique_views": 1910,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T06:51:15.702916+00:00",
+      "modified": "2025-12-01T06:51:15.959519+00:00",
+      "id": 17774675,
+      "conceptrecid": "7424594",
+      "doi": "10.5281/zenodo.17774675",
+      "conceptdoi": "10.5281/zenodo.7424594",
+      "doi_url": "https://doi.org/10.5281/zenodo.17774675",
+      "metadata": {
+        "title": "applied-geodesy/jag3d: JAG3Dv20251201",
+        "doi": "10.5281/zenodo.17774675",
+        "publication_date": "2025-12-01",
+        "description": "<h1>JAG3D &amp; modules</h1>\n<ul>\n<li>To avoid conflicts with invalid UNC paths, the JAVA object <a href=\"https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/io/File.html\">File</a> has been replaced by <a href=\"https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/nio/file/Path.html\">Path</a>, cf. https://software.applied-geodesy.org/forum/?id=14918</li>\n<li>Missing entries in i18n translation files have been added</li>\n</ul>\n<h1>International Course on Engineering Surveying 2026</h1>\n<p>The method of least-squares developed by Gauss is one of the most important analytical tools in geodesy and metrology for ensuring accurate and reliable data analysis and results. In modern engineering geodesy, it plays a crucial role in analyzing both planned and existing geodetic networks as well as in verifying their congruence. Beside the coordinates of a network, the method provides the dispersion of the estimated parameters and essential quantities for quality evaluation.</p>\n<p>At the <em>21th International Course on Engineering Surveying</em>, the principles of geodetic network adjustment are recapitulated within the specific tutorial named <em>network analysis</em>. The conference will be held at TU Graz from February 10 to 13, 2026 - save the date. The network analysis tutorial offers a practical introduction to the fundamentals of adjustment calculations. Through guided case studies, participants will explore how adjustment methods work and gain a deeper understanding of the key parameters involved. Based on this knowledge, the congruence of networks is evaluated within the framework of deformation analysis. Moreover, the tutorial demonstrates how the adjustment results can be integrated into existing workflows and further processed. For the practical part, the powerful open source least-squares software package Java\u00b7Applied\u00b7Geodesy\u00b73D is used.</p>\n<p>Join fellow users, get hands-on experience with JAG3D, get directly in touch with the developer, and expand your professional network during the <a href=\"https://ingenieurvermessungskurs.com/\">Course on Engineering Surveying</a>. See you soon in Graz!</p>\n<p><a href=\"https://ingenieurvermessungskurs.com/\"></a></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Michael L\u00f6sler",
+            "affiliation": null
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/applied-geodesy/jag3d/tree/v20251201",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v20251201",
+        "custom": {
+          "code:codeRepository": "https://github.com/applied-geodesy/jag3d"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "gpl-3.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 39,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "7424594"
+              }
+            }
+          ]
+        }
+      },
+      "title": "applied-geodesy/jag3d: JAG3Dv20251201",
+      "links": {
+        "self": "https://zenodo.org/api/records/17774675",
+        "self_html": "https://zenodo.org/records/17774675",
+        "preview_html": "https://zenodo.org/records/17774675?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17774675",
+        "self_doi": "https://doi.org/10.5281/zenodo.17774675",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774675",
+        "reserve_doi": "https://zenodo.org/api/records/17774675/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/7424594",
+        "parent_html": "https://zenodo.org/records/7424594",
+        "parent_doi": "https://doi.org/10.5281/zenodo.7424594",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7424594",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774675/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774675/sequence/default",
+        "files": "https://zenodo.org/api/records/17774675/files",
+        "media_files": "https://zenodo.org/api/records/17774675/media-files",
+        "archive": "https://zenodo.org/api/records/17774675/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17774675/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17774675/versions/latest",
+        "latest_html": "https://zenodo.org/records/17774675/latest",
+        "versions": "https://zenodo.org/api/records/17774675/versions",
+        "draft": "https://zenodo.org/api/records/17774675/draft",
+        "access_links": "https://zenodo.org/api/records/17774675/access/links",
+        "access_grants": "https://zenodo.org/api/records/17774675/access/grants",
+        "access_users": "https://zenodo.org/api/records/17774675/access/users",
+        "access_request": "https://zenodo.org/api/records/17774675/access/request",
+        "access": "https://zenodo.org/api/records/17774675/access",
+        "communities": "https://zenodo.org/api/records/17774675/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17774675/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17774675/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17774675/file-modification",
+        "requests": "https://zenodo.org/api/records/17774675/requests"
+      },
+      "updated": "2025-12-01T06:51:15.959519+00:00",
+      "recid": "17774675",
+      "revision": 4,
+      "files": [
+        {
+          "id": "4a9e90b6-82a7-4060-b6f5-4e9e98e37028",
+          "key": "applied-geodesy/jag3d-v20251201.zip",
+          "size": 9872623,
+          "checksum": "md5:f162a0c25b5242326ec8103d262284fc",
+          "links": {
+            "self": "https://zenodo.org/api/records/17774675/files/applied-geodesy/jag3d-v20251201.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "80669"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 175,
+        "unique_downloads": 174,
+        "views": 732,
+        "unique_views": 721,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-01T06:41:44.669447+00:00",
+      "modified": "2025-12-01T06:41:44.937044+00:00",
+      "id": 17764865,
+      "conceptrecid": "17764864",
+      "doi": "10.5281/zenodo.17764865",
+      "conceptdoi": "10.5281/zenodo.17764864",
+      "doi_url": "https://doi.org/10.5281/zenodo.17764865",
+      "metadata": {
+        "title": "KEY TO REPORTING PLS-SEM RESULTS",
+        "doi": "10.5281/zenodo.17764865",
+        "publication_date": "2025-12-01",
+        "description": "<p><span lang=\"EN-US\">Structural Equation Modelling (SEM) is predicated on the establishment of a causal relationship between endogenous and exogenous latent variables by measuring them with the help of indicators. These causal relationships, established on the basis of extant literature, are represented by a proposed research model, and hypotheses are designed and tested simultaneously. This method is usually analysed using covariance-based (CB-SEM) and variance-based (PLS-SEM) approaches. In numerous academic studies, the dominant approach for fitting and hypothesis testing of research models describing the relationships between latent variables has been the use of LISREL and AMOS software for covariance-based structural equation modelling. In recent years, there has been increase in the number of papers in which SEM analyses are performed with the PLS-SEM approach compared to CB-SEM. The present study commences with a discussion of CB-SEM and PLS-SEM, followed by the provision of straightforward and pragmatic guidance on the presentation of results in the context of PLS-SEM analysis, which constitutes the primary focus of the study. The paper initiates with an examination of the rationale behind the utilisation of PLS-SEM, subsequently offering a concise overview of the fundamental principles for the reporting of PLS-SEM outcomes. The paper also provides a brief overview of the basic concepts of sample size, assumptions, model predictive power, Importance-Performance Map (IPMA) and moderating in PLS-SEM.</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "YILMAZ UZ, CANAN",
+            "affiliation": "\u0130skenderun Technical University",
+            "orcid": "0000-0002-4798-2262"
+          }
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "2",
+          "pages": "53 - 65",
+          "title": "Structural Equation Modelling and Multivariate Research",
+          "volume": "2"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "semmr"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17764864"
+              }
+            }
+          ]
+        }
+      },
+      "title": "KEY TO REPORTING PLS-SEM RESULTS",
+      "links": {
+        "self": "https://zenodo.org/api/records/17764865",
+        "self_html": "https://zenodo.org/records/17764865",
+        "preview_html": "https://zenodo.org/records/17764865?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17764865",
+        "self_doi": "https://doi.org/10.5281/zenodo.17764865",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17764865",
+        "reserve_doi": "https://zenodo.org/api/records/17764865/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17764864",
+        "parent_html": "https://zenodo.org/records/17764864",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17764864",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17764864",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17764865/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17764865/sequence/default",
+        "files": "https://zenodo.org/api/records/17764865/files",
+        "media_files": "https://zenodo.org/api/records/17764865/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17764865:Manuscript%2001.12.25.04%20Copyedited.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17764865:Manuscript%2001.12.25.04%20Copyedited.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17764865:Manuscript%2001.12.25.04%20Copyedited.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17764865:Manuscript%2001.12.25.04%20Copyedited.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17764865:Manuscript%2001.12.25.04%20Copyedited.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17764865:Manuscript%2001.12.25.04%20Copyedited.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17764865/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17764865/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17764865/versions/latest",
+        "latest_html": "https://zenodo.org/records/17764865/latest",
+        "versions": "https://zenodo.org/api/records/17764865/versions",
+        "draft": "https://zenodo.org/api/records/17764865/draft",
+        "access_links": "https://zenodo.org/api/records/17764865/access/links",
+        "access_grants": "https://zenodo.org/api/records/17764865/access/grants",
+        "access_users": "https://zenodo.org/api/records/17764865/access/users",
+        "access_request": "https://zenodo.org/api/records/17764865/access/request",
+        "access": "https://zenodo.org/api/records/17764865/access",
+        "communities": "https://zenodo.org/api/records/17764865/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17764865/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17764865/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17764865/file-modification",
+        "requests": "https://zenodo.org/api/records/17764865/requests"
+      },
+      "updated": "2025-12-01T06:41:44.937044+00:00",
+      "recid": "17764865",
+      "revision": 4,
+      "files": [
+        {
+          "id": "a5ff95e6-4923-42c4-bd0d-b933b1c29e2a",
+          "key": "Manuscript 01.12.25.04 Copyedited.pdf",
+          "size": 909826,
+          "checksum": "md5:f0d72f2cb106567253df8b084e58db7e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17764865/files/Manuscript 01.12.25.04 Copyedited.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1231067"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    }
+  ]
+}

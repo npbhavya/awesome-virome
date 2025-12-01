@@ -1,6 +1,638 @@
 {
-  "cache_date": "2025-11-01T08:48:39.161950",
+  "cache_date": "2025-12-01T08:56:05.422589",
   "data": [
+    {
+      "created": "2025-11-12T18:50:56.364811+00:00",
+      "modified": "2025-11-12T18:50:57.031880+00:00",
+      "id": 17593732,
+      "conceptrecid": "5248783",
+      "doi": "10.5281/zenodo.17593732",
+      "conceptdoi": "10.5281/zenodo.5248783",
+      "doi_url": "https://doi.org/10.5281/zenodo.17593732",
+      "metadata": {
+        "title": "Developing Accurate and Scalable Simulators of Production Workflow Management Systems with WRENCH",
+        "doi": "10.5281/zenodo.17593732",
+        "publication_date": "2025-11-12",
+        "description": "<p><a href=\"https://wrench-project.org\">WRENCH</a> is a simulation framework for building simulators of Cyberinfrastructure platforms, systems, and applications. WRENCH implements high-level simulation abstractions on top of the <a href=\"https://simgrid.org\">SimGrid</a> simulation framework, so as to make it possible to build simulators that are accurate, that can run scalably on a single computer, and that can be implemented with minimal software development effort.</p>\n<p>This release includes:</p>\n<ul>\n<li>Implementation of <code>CustomEvent</code> and <code>CustomMessage</code> classes so that Controllers can trigger an event in another controller, which opens up new simulator design possibilities and is already used in two simulators out there.</li>\n<li>Minor bug fixes and code/documentation cleanups.</li>\n</ul>\n<p><strong>Note</strong>: WRENCH 2.8 requires <strong><a href=\"https://simgrid.org\">SimGrid 4.1</a></strong>  and <strong><a href=\"https://github.com/simgrid/file-system-module\">SimGrid FSMod 0.4</a></strong></p>\n<p>Documentation and additional information:</p>\n<ul>\n<li>Simulation 101 (Complete newcomers): <a href=\"https://wrench-project.org/wrench/2.5/simulation_101.html\">https://wrench-project.org/wrench/2.5/simulation_101.html</a></li>\n<li>WRENCH 101 (Beginners): <a href=\"https://wrench-project.org/wrench/2.5/wrench_101.html\">https://wrench-project.org/wrench/2.5/wrench_101.html</a></li>\n<li>WRENCH 102 (Users):  <a href=\"https://wrench-project.org/wrench/2.5/wrench_102.html\">https://wrench-project.org/wrench/2.5/wrench_102.html</a></li>\n</ul>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Casanova, Henri",
+            "affiliation": null,
+            "orcid": "0000-0001-6310-0365"
+          },
+          {
+            "name": "Ferreira da Silva, Rafael",
+            "affiliation": null,
+            "orcid": "0000-0002-1720-0928"
+          },
+          {
+            "name": "Tanaka, Ryan",
+            "affiliation": null
+          },
+          {
+            "name": "Pandey, Suraj",
+            "affiliation": null
+          },
+          {
+            "name": "Jethwani, Gautam",
+            "affiliation": null
+          },
+          {
+            "name": "Koch, William",
+            "affiliation": null
+          },
+          {
+            "name": "Albrecht, Spencer",
+            "affiliation": null
+          },
+          {
+            "name": "Oeth, James",
+            "affiliation": null
+          },
+          {
+            "name": "Suter, Frederic",
+            "affiliation": null,
+            "orcid": "0000-0003-1902-1955"
+          }
+        ],
+        "keywords": [
+          "workflow",
+          "distributed-systems",
+          "hpc",
+          "reproducible-research",
+          "simulation-framework",
+          "batch-job",
+          "scientific-workflows",
+          "workflow-management-system",
+          "simulation-modeling",
+          "scheduling-simulator",
+          "workflow-simulator"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/wrench-project/wrench/tree/v2.8",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v2.8",
+        "custom": {
+          "code:codeRepository": "https://github.com/wrench-project/wrench"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "lgpl-3.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 13,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "5248783"
+              }
+            }
+          ]
+        },
+        "notes": "If you use this software, please cite it using these metadata."
+      },
+      "title": "Developing Accurate and Scalable Simulators of Production Workflow Management Systems with WRENCH",
+      "links": {
+        "self": "https://zenodo.org/api/records/17593732",
+        "self_html": "https://zenodo.org/records/17593732",
+        "preview_html": "https://zenodo.org/records/17593732?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17593732",
+        "self_doi": "https://doi.org/10.5281/zenodo.17593732",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17593732",
+        "reserve_doi": "https://zenodo.org/api/records/17593732/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/5248783",
+        "parent_html": "https://zenodo.org/records/5248783",
+        "parent_doi": "https://doi.org/10.5281/zenodo.5248783",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5248783",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17593732/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17593732/sequence/default",
+        "files": "https://zenodo.org/api/records/17593732/files",
+        "media_files": "https://zenodo.org/api/records/17593732/media-files",
+        "archive": "https://zenodo.org/api/records/17593732/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17593732/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17593732/versions/latest",
+        "latest_html": "https://zenodo.org/records/17593732/latest",
+        "versions": "https://zenodo.org/api/records/17593732/versions",
+        "draft": "https://zenodo.org/api/records/17593732/draft",
+        "access_links": "https://zenodo.org/api/records/17593732/access/links",
+        "access_grants": "https://zenodo.org/api/records/17593732/access/grants",
+        "access_users": "https://zenodo.org/api/records/17593732/access/users",
+        "access_request": "https://zenodo.org/api/records/17593732/access/request",
+        "access": "https://zenodo.org/api/records/17593732/access",
+        "communities": "https://zenodo.org/api/records/17593732/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17593732/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17593732/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17593732/file-modification",
+        "requests": "https://zenodo.org/api/records/17593732/requests"
+      },
+      "updated": "2025-11-12T18:50:57.031880+00:00",
+      "recid": "17593732",
+      "revision": 4,
+      "files": [
+        {
+          "id": "195241a1-3147-4b44-97c7-58dbe68a7c66",
+          "key": "wrench-project/wrench-v2.8.zip",
+          "size": 2688063,
+          "checksum": "md5:264f4940dafab3060c31c5b4de346b92",
+          "links": {
+            "self": "https://zenodo.org/api/records/17593732/files/wrench-project/wrench-v2.8.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:c3c30c87b5a579abbdfd2d7b6d4d9f212d57e297;origin=https://doi.org/10.5281/zenodo.5248783;visit=swh:1:snp:f114ffa8ceffb349500179962d9cccec47174f8f;anchor=swh:1:rel:fbb83de14cd842a8a7ebce82a793c1ebc71b811a;path=wrench-project-wrench-1bfc372"
+      },
+      "owners": [
+        {
+          "id": "201749"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 155,
+        "unique_downloads": 155,
+        "views": 530,
+        "unique_views": 513,
+        "version_downloads": 2,
+        "version_unique_downloads": 2,
+        "version_unique_views": 18,
+        "version_views": 18
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-05T23:09:28.346720+00:00",
+      "modified": "2025-11-05T23:09:28.495909+00:00",
+      "id": 17537920,
+      "conceptrecid": "17410951",
+      "doi": "10.5281/zenodo.17537920",
+      "conceptdoi": "10.5281/zenodo.17410951",
+      "doi_url": "https://doi.org/10.5281/zenodo.17537920",
+      "metadata": {
+        "title": "The Long-term Data Workflow from Creator to Re-user: How Can This Be Managed Best for Future Benefit for Research and Development of Predictive Tools",
+        "doi": "10.5281/zenodo.17537920",
+        "publication_date": "2025-10-17",
+        "description": "<p>This co-located session (<a href=\"https://idw2025.org/co-located-events/#workflow\">https://idw2025.org/co-located-events/#workflow</a>), associated with International Data Week 2025 (<a href=\"https://idw2025.org/\">https://idw2025.org/</a>) brought together experts from the sciences, data infrastructure, and data curation to examine how long-term data workflows&mdash;from creation through to re-use&mdash;can be better managed to support future research and the development of predictive tools. As research increasingly relies on vast and complex datasets, this discussion explored the challenges and opportunities involved in collecting, storing, curating, and reusing data over time and across domains.</p>\n<p>Focusing on issues such as sustainability, trust, and interoperability, the session considered how emerging technologies, ethical frameworks, and collaborative infrastructure can help ensure long-term value from national and global data assets. Through cross-sector dialogue, participants reflected on what makes data truly reusable, who benefits from reuse, and how we can better integrate data management into the research lifecycle, particularly for repeatable, large-scale, or sensitive datasets. The goal is to foster a shared understanding of the end-to-end data pipeline and to identify ways to improve its efficiency, transparency, and impact for future scientific and policy outcomes.</p>\n<p>We organised discussion around three themes stimulated by presentations as follows:</p>\n<p dir=\"ltr\"><strong>Data creator and user</strong></p>\n<ul>\n<li>\n<p dir=\"ltr\">Craig Thornton (Queensland Government), Sarah Hegarty (Swinburn University), John Carter (Queensland Government), Janet Davies (Queensland University of Technology)</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Repositories and data storage</strong></p>\n<ul>\n<li>\n<p dir=\"ltr\">Peter Marendy (Queensland CyberInfrastructure Foundation), Siddeswara Guru (Australia's Terrestrial Ecosystem Research Network),&nbsp;Lagi Reupena (Secretariat of the Pacific Regional Environment Programme),&nbsp;Graham Parton (NERC Environmental Data Service)</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Horizon scanning</strong></p>\n<ul>\n<li>\n<p dir=\"ltr\">Shelley Stall (American Geophysical Union), Wim Hugo (Dutch national centre of expertise and repository for research data), Mark Gray (Pawsey Supercomputing Research Centre), Francis P.Crawley (Committee on Data of the International Science Council)</p>\n</li>\n</ul>\n<p>The presentations by each of the participants have been aggregated into a single document.</p>\n<p>Version 2 corrects a date error in one presentation.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Thornton, Craig",
+            "affiliation": "Queensland Department of Natural Resources and Mines",
+            "orcid": "0000-0003-1927-9198"
+          },
+          {
+            "name": "Hegarty, Sarah",
+            "affiliation": "Swinburne University of Technology",
+            "orcid": "0000-0001-7970-0170"
+          },
+          {
+            "name": "Carter, John O.",
+            "affiliation": "Queensland Department of Environment, Tourism, Science and Innovation (DETSI)"
+          },
+          {
+            "name": "Davies, Janet",
+            "affiliation": "Queensland University of Technology",
+            "orcid": "0000-0002-6378-4119"
+          },
+          {
+            "name": "Marendy, Peter",
+            "affiliation": "Queensland Cyber Infrastructure Foundation",
+            "orcid": "0000-0002-5499-9863"
+          },
+          {
+            "name": "Guru, Siddeswara",
+            "affiliation": "Australia's Terrestrial Ecosystem Research Network",
+            "orcid": "0000-0002-3903-254X"
+          },
+          {
+            "name": "Reupena, Lagi",
+            "affiliation": "Pacific Regional Environment Programme"
+          },
+          {
+            "name": "Parton, Graham",
+            "affiliation": "Environmental Data Service (EDS) UK",
+            "orcid": "0000-0003-4157-0352"
+          },
+          {
+            "name": "Stall, Shelley",
+            "affiliation": "American Geophysical Union",
+            "orcid": "0000-0003-2926-8353"
+          },
+          {
+            "name": "Hugo, Wim",
+            "affiliation": "Dutch national centre of expertise and repository for research data (DANS)",
+            "orcid": "0000-0002-0255-5101"
+          },
+          {
+            "name": "Gray, Mark",
+            "affiliation": "Pawsey Supercomputing Research Centre",
+            "orcid": "0009-0008-4982-7849"
+          },
+          {
+            "name": "Crawley, Francis P.",
+            "affiliation": "Good Clinical Practice Alliance - Europe (GCPA)",
+            "orcid": "0000-0002-6893-5916"
+          },
+          {
+            "name": "Bird, Stephen",
+            "affiliation": "Queensland Cyber Infrastructure Foundation",
+            "orcid": "0009-0001-9846-0990"
+          },
+          {
+            "name": "Maurer, Gregory E.",
+            "affiliation": "New Mexico State University",
+            "orcid": "0000-0002-3007-8058"
+          },
+          {
+            "name": "Stahlman, Gretchen",
+            "affiliation": "Florida State University",
+            "orcid": "0000-0001-8814-863X"
+          },
+          {
+            "name": "Specht, Alison",
+            "affiliation": "Terrestrial Ecosystem Research Network",
+            "orcid": "0000-0002-2623-0854"
+          },
+          {
+            "name": "Wraith, Jenna",
+            "affiliation": "Queensland Cyber Infrastructure Foundation",
+            "orcid": "0000-0002-8730-6939"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Thornton, Craig",
+            "affiliation": "Queensland Department of Natural Resources and Mines",
+            "type": "Producer",
+            "orcid": "0000-0003-1927-9198"
+          }
+        ],
+        "resource_type": {
+          "title": "Publication",
+          "type": "publication"
+        },
+        "meeting": {
+          "title": "International Data Week 2025",
+          "acronym": "IDW25",
+          "dates": "13-16 November 2025",
+          "place": "Brisbane, Australia",
+          "url": "https://idw2025.org/",
+          "session": "TERN-QCIF co-located meeting, 17 November"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "alison-specht"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17410951"
+              }
+            }
+          ]
+        }
+      },
+      "title": "The Long-term Data Workflow from Creator to Re-user: How Can This Be Managed Best for Future Benefit for Research and Development of Predictive Tools",
+      "links": {
+        "self": "https://zenodo.org/api/records/17537920",
+        "self_html": "https://zenodo.org/records/17537920",
+        "preview_html": "https://zenodo.org/records/17537920?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17537920",
+        "self_doi": "https://doi.org/10.5281/zenodo.17537920",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17537920",
+        "reserve_doi": "https://zenodo.org/api/records/17537920/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17410951",
+        "parent_html": "https://zenodo.org/records/17410951",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17410951",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17410951",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17537920/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17537920/sequence/default",
+        "files": "https://zenodo.org/api/records/17537920/files",
+        "media_files": "https://zenodo.org/api/records/17537920/media-files",
+        "archive": "https://zenodo.org/api/records/17537920/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17537920/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17537920/versions/latest",
+        "latest_html": "https://zenodo.org/records/17537920/latest",
+        "versions": "https://zenodo.org/api/records/17537920/versions",
+        "draft": "https://zenodo.org/api/records/17537920/draft",
+        "access_links": "https://zenodo.org/api/records/17537920/access/links",
+        "access_grants": "https://zenodo.org/api/records/17537920/access/grants",
+        "access_users": "https://zenodo.org/api/records/17537920/access/users",
+        "access_request": "https://zenodo.org/api/records/17537920/access/request",
+        "access": "https://zenodo.org/api/records/17537920/access",
+        "communities": "https://zenodo.org/api/records/17537920/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17537920/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17537920/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17537920/file-modification",
+        "requests": "https://zenodo.org/api/records/17537920/requests"
+      },
+      "updated": "2025-11-05T23:09:28.495909+00:00",
+      "recid": "17537920",
+      "revision": 4,
+      "files": [
+        {
+          "id": "b0e5a3cb-10ce-4189-8b93-1bc252195c62",
+          "key": "IDW2025-co-located session_251023_v2.pptx",
+          "size": 45543100,
+          "checksum": "md5:980e2c938bcf1c4487fcb02142c2cd79",
+          "links": {
+            "self": "https://zenodo.org/api/records/17537920/files/IDW2025-co-located session_251023_v2.pptx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "107129"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 90,
+        "unique_downloads": 45,
+        "views": 62,
+        "unique_views": 59,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 10,
+        "version_views": 10
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-04T15:58:19.545252+00:00",
+      "modified": "2025-11-10T14:54:07.740558+00:00",
+      "id": 17524915,
+      "conceptrecid": "17524914",
+      "doi": "10.5281/zenodo.17524915",
+      "conceptdoi": "10.5281/zenodo.17524914",
+      "doi_url": "https://doi.org/10.5281/zenodo.17524915",
+      "metadata": {
+        "title": "Calling Out Antisemitism: A Dataset for Distinguishing Between Antisemitic and Counter-Antisemitic Discourse",
+        "doi": "10.5281/zenodo.17524915",
+        "publication_date": "2025-11-04",
+        "description": "<h2><strong>Calling Out Antisemitism: A Dataset for Distinguishing Between Antisemitic and Counter-Antisemitic Discourse</strong></h2>\n<p>A Dataset by the <a href=\"https://isca.indiana.edu/publication-research/social-media-project/index.html\">Social Media &amp; Hate Research Lab</a>, Institute for the Study of Contemporary Antisemitism (ISCA), Borns Jewish Studies Program, Indiana University Bloomington</p>\n<p>&nbsp;</p>\n<h3><strong>Dataset Overview</strong></h3>\n<p>This dataset represents a <em><strong>re-annotation</strong></em> of a subset of tweets from the dataset <strong><a href=\"https://zenodo.org/records/14448399\">Antisemitism on Twitter: A Dataset for Machine Learning and Text Analytics</a></strong>. The original dataset (<a href=\"https://arxiv.org/abs/2304.14599\">Jikeli et al., 2023</a>) contained <strong>11,311</strong> tweets collected between<strong> January 2019 and April 2023</strong>, labeled for antisemitic content following the <strong>IHRA working definition of antisemitism</strong>.</p>\n<p>The current release focuses on <strong>894 tweets</strong> from two time periods that were <strong>re-annotated to identify &ldquo;calling out antisemitism&rdquo;</strong>&mdash;tweets that explicitly condemn, counter, or discuss antisemitic language or expressions.</p>\n<ul>\n<li><strong>Jews </strong>(September&ndash;December 2022): <strong>459 </strong>tweets, including <strong>140 </strong>calling out antisemitism (30.50%) and <strong>88 </strong>antisemitic tweets (19.17%). &nbsp;</li>\n<li><strong>Israel </strong>(January&ndash;April 2023): <strong>435 </strong>tweets, including <strong>42 </strong>calling out antisemitism (9.66%) and <strong>87 </strong>antisemitic tweets (20.00%).</li>\n</ul>\n<p>Combined, these subsets provide additional annotation layers that capture &ldquo;calling out antisemitism&rdquo; &mdash; tweets that raise awareness about, condemn, or counter antisemitic content within antisemitism-related conversations on X (formerly Twitter).</p>\n<p>&nbsp;</p>\n<h3><strong>Relation to the Original Dataset</strong></h3>\n<p>The original dataset included <strong>random samples of tweets containing relevant keywords</strong> (&ldquo;Jews,&rdquo; &ldquo;Israel,&rdquo; &ldquo;ZioNazi*,&rdquo; &ldquo;K---s&rdquo;) between January 2019 and April 2023. It featured annotation for antisemitism, bias, and related discourse dimensions. &nbsp;<br>This new release extends that work by adding a <strong>&ldquo;Calling Out&rdquo;</strong> label to better capture the ways users engage with or challenge antisemitic content.</p>\n<p>&nbsp;</p>\n<h3><strong>Annotation Process</strong></h3>\n<p>Annotation was performed via the <a href=\"https://annotate.osome.iu.edu\">AnnotHate Portal</a>, enabling annotation in full conversational and visual context (including images, quoted material, and replies). &nbsp;<br>All tweets were annotated by <strong>two trained annotators</strong> from the Social Media &amp; Hate Research Lab. Discrepancies were discussed collaboratively to ensure high inter-annotator reliability. &nbsp;<br>The <strong>&ldquo;Calling Out&rdquo;</strong> category was used to distinguish tweets that <strong>actively call out or condemn antisemitism</strong> from those that propagate it. These subsets were <strong>re-annotated by a trained expert</strong> to ensure consistency and reliability.</p>\n<p>&nbsp;</p>\n<h3><strong>File Description</strong></h3>\n<p>The dataset is provided in <strong>CSV format</strong>, where each row represents a single tweet.</p>\n<p><strong>Columns include:</strong></p>\n<ul>\n<li>id: Unique identifier for each tweet &nbsp;</li>\n<li>created_at: Timestamp of publication &nbsp;</li>\n<li>Biased: Binary label indicating whether the tweet is antisemitic (1) or not (0) &nbsp;</li>\n<li>Keyword: Search keyword used in the query (&ldquo;Jews&rdquo; or &ldquo;Israel&rdquo;)</li>\n<li>text: Full, unprocessed tweet text &nbsp;</li>\n<li>CallingOut: Binary label indicating whether the tweet calls out or condemns antisemitism (1) or not (0)</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Acknowledgements</strong></h3>\n<p>This work utilized <strong>Jetstream2</strong> at Indiana University through allocation HUM200003 from the Advanced Cyberinfrastructure Coordination Ecosystem: Services &amp; Support (ACCESS) program, supported by the U.S. National Science Foundation (grants #2138259, #2138286, #2138307, #2137603, and #2138296).</p>\n<p>&nbsp;</p>\n<h3><strong>References</strong></h3>\n<p>Jikeli, G., Karali, S. Miehling, D. Soemer, K. (2023): Antisemitic Messages? A Guide to High-Quality Annotation and a Labeled Dataset of Tweets. https://arxiv.org/abs/2304.14599</p>\n<p>Jikeli, G., Karali, S., Miehling, D., &amp; Soemer, K. (2024). Antisemitism on Twitter: A Dataset for Machine Learning and Text Analytics [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14448399</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Miehling, Daniel",
+            "affiliation": "Indiana University",
+            "orcid": "0000-0002-8728-379X"
+          },
+          {
+            "name": "Jikeli, Guenther",
+            "affiliation": "Indiana University",
+            "orcid": "0000-0002-6897-2565"
+          },
+          {
+            "name": "Soemer, Katharina",
+            "affiliation": "Goethe University Frankfurt",
+            "orcid": "0000-0003-2304-8106"
+          }
+        ],
+        "dates": [
+          {
+            "type": "available"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17524914"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Calling Out Antisemitism: A Dataset for Distinguishing Between Antisemitic and Counter-Antisemitic Discourse",
+      "links": {
+        "self": "https://zenodo.org/api/records/17524915",
+        "self_html": "https://zenodo.org/records/17524915",
+        "preview_html": "https://zenodo.org/records/17524915?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17524915",
+        "self_doi": "https://doi.org/10.5281/zenodo.17524915",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17524915",
+        "reserve_doi": "https://zenodo.org/api/records/17524915/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17524914",
+        "parent_html": "https://zenodo.org/records/17524914",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17524914",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17524914",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17524915/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17524915/sequence/default",
+        "files": "https://zenodo.org/api/records/17524915/files",
+        "media_files": "https://zenodo.org/api/records/17524915/media-files",
+        "archive": "https://zenodo.org/api/records/17524915/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17524915/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17524915/versions/latest",
+        "latest_html": "https://zenodo.org/records/17524915/latest",
+        "versions": "https://zenodo.org/api/records/17524915/versions",
+        "draft": "https://zenodo.org/api/records/17524915/draft",
+        "access_links": "https://zenodo.org/api/records/17524915/access/links",
+        "access_grants": "https://zenodo.org/api/records/17524915/access/grants",
+        "access_users": "https://zenodo.org/api/records/17524915/access/users",
+        "access_request": "https://zenodo.org/api/records/17524915/access/request",
+        "access": "https://zenodo.org/api/records/17524915/access",
+        "communities": "https://zenodo.org/api/records/17524915/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17524915/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17524915/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17524915/file-modification",
+        "requests": "https://zenodo.org/api/records/17524915/requests"
+      },
+      "updated": "2025-11-10T14:54:07.740558+00:00",
+      "recid": "17524915",
+      "revision": 12,
+      "files": [
+        {
+          "id": "d0699047-bd47-4936-9fac-4b9c045590b2",
+          "key": "re_annotated_gold_standard.csv",
+          "size": 266395,
+          "checksum": "md5:e5a5886c889fa7faa0261df7e8bf5e37",
+          "links": {
+            "self": "https://zenodo.org/api/records/17524915/files/re_annotated_gold_standard.csv/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1187384"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 22,
+        "unique_downloads": 15,
+        "views": 21,
+        "unique_views": 15,
+        "version_downloads": 22,
+        "version_unique_downloads": 15,
+        "version_unique_views": 15,
+        "version_views": 21
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-04T14:17:38.959043+00:00",
+      "modified": "2025-11-04T14:38:35.622173+00:00",
+      "id": 17523796,
+      "conceptrecid": "17523795",
+      "doi": "10.5281/zenodo.17523796",
+      "conceptdoi": "10.5281/zenodo.17523795",
+      "doi_url": "https://doi.org/10.5281/zenodo.17523796",
+      "metadata": {
+        "title": "Antisemitism after 10/7 in posts on X containing the keyword \"Israel\" (November\u2013December 2023)",
+        "doi": "10.5281/zenodo.17523796",
+        "publication_date": "2025-11-04",
+        "description": "<h2><strong>A Dataset by the&nbsp;<a href=\"https://isca.indiana.edu/publication-research/social-media-project/index.html\">Social Media &amp; Hate Research Lab</a>, Institute for the Study of Contemporary Antisemitism (ISCA), Borns Jewish Studies Program.</strong></h2>\n<p>&nbsp;</p>\n<h2><strong>DATASET OVERVIEW</strong></h2>\n<p>This dataset contains 737 English-language tweets mentioning &ldquo;Israel,&rdquo; collected between November and December 2023. It includes topics related to Jews, Israel, and antisemitism, with dual annotations for both antisemitic content and tweets calling out antisemitism.</p>\n<p>&nbsp;</p>\n<h2><strong>DATA COLLECTION METHODOLOGY</strong></h2>\n<p>Data were collected from the Twitter/X Archive using the keyword &ldquo;Israel&rdquo; during November and December 2023. Due to API restrictions, we collected 100 posts three times per day. Technical issues with our data collection system resulted in occasional downtime; however, we maintained consistent data collection for the first three weeks of both months (November 1&ndash;21 and December 1&ndash;21).</p>\n<p><br><strong>November 2023</strong>: 4,369 posts collected; 500 randomly sampled for analysis.<br><strong>December 2023</strong>: 4,792 posts collected; 500 randomly sampled for analysis.</p>\n<p>&nbsp;</p>\n<p><strong>After excluding deleted tweets or unavailable accounts:</strong></p>\n<p><strong>November 2023</strong> included <strong>381 tweets</strong>, of which <strong>115</strong> were classified as <strong>antisemitic </strong>(<strong>30.18%</strong>).<br><strong>December 2023</strong> included <strong>356 tweets</strong>, of which <strong>99 </strong>were classified as <strong>antisemitic </strong>(<strong>27.81%</strong>).</p>\n<p>&nbsp;</p>\n<p>In total, 737 tweets were annotated, and 214 (29.04%) were classified as antisemitic. Additionally, 20 tweets in November (5.25%) and 24 in December (6.74%) were annotated as calling out antisemitism.</p>\n<p>&nbsp;</p>\n<h3><strong>ANNOTATION PROCESS</strong></h3>\n<p>Annotation was conducted via the AnnotHate Portal (<a href=\"https://annotate.osome.iu.edu/\">annotate.osome.iu.edu</a>; see Jikeli, Soemer, &amp; Karali, 2024), which allows annotators to review posts in full conversational and visual context, including images, threads, and quoted material. Each tweet was annotated by two independent annotators affiliated with the Social Media &amp; Hate Research Lab at Indiana University. Annotators underwent extensive training in discourse analysis, antisemitism typology, and multimodal contextualization. A second annotation round was conducted to specifically identify tweets that call out or condemn antisemitism, aiming to reduce false positives in deep-learning and hate-speech detection models.</p>\n<p>&nbsp;</p>\n<h3><strong>FILE DESCRIPTION</strong></h3>\n<p>The dataset is provided in CSV format, where each row represents a single tweet.</p>\n<p><strong>Columns include:</strong></p>\n<ul>\n<li>id: Unique identifier for each tweet</li>\n<li>text: Full, unprocessed tweet text</li>\n<li>created_at: Timestamp of publication</li>\n<li>Antisemitism: Binary label indicating whether the tweet is antisemitic (1) or not (0)</li>\n<li>calling_out: Binary label indicating whether the tweet explicitly calls out or condemns antisemitism (1) or not (0)</li>\n</ul>\n<p>&nbsp;</p>\n<h2><strong>ACCESS TO FULL DATASET</strong></h2>\n<p>In accordance with Twitter/X data-sharing policies, the public release includes only tweet IDs and annotations. We are happy to provide the full dataset, including tweet text, upon request for non-commercial research purposes.<br>For access inquiries, please contact us via <a href=\"mailto:damieh@iu.edu\" target=\"_blank\" rel=\"noopener\">mail</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>ACKNOWLEDGEMENTS</strong></h2>\n<p>We gratefully acknowledge the Advanced Cyberinfrastructure Curriculum Fellows Program for their support, with special thanks to Yu Ma and Tony Walker for their exceptional resources and assistance.<br>This work utilized Jetstream2 at Indiana University through allocation HUM200003 from the Advanced Cyberinfrastructure Coordination Ecosystem: Services &amp; Support (ACCESS) program, supported by the U.S. National Science Foundation (grants #2138259, #2138286, #2138307, #2137603, and #2138296).</p>\n<p>&nbsp;</p>\n<h2><strong>REFERENCES</strong></h2>\n<p>Jikeli, Gunther, Soemer, Katharina &amp; Karali, Sameer (2024). Annotating live messages on social media. Testing the efficiency of the AnnotHate &ndash; live data annotation portal. Journal of Computational Social Science 7, 571&ndash;585.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Miehling, Daniel",
+            "affiliation": "Indiana University",
+            "orcid": "0000-0002-8728-379X"
+          },
+          {
+            "name": "Soemer, Katharina",
+            "affiliation": "Goethe University Frankfurt",
+            "orcid": "0000-0003-2304-8106"
+          },
+          {
+            "name": "Axelrod, David",
+            "affiliation": "Indiana University",
+            "orcid": "0000-0002-9840-8711"
+          },
+          {
+            "name": "Jikeli, Gunther",
+            "affiliation": "Indiana University",
+            "orcid": "0000-0003-2789-8124"
+          }
+        ],
+        "dates": [
+          {
+            "type": "available"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17523795"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Antisemitism after 10/7 in posts on X containing the keyword \"Israel\" (November\u2013December 2023)",
+      "links": {
+        "self": "https://zenodo.org/api/records/17523796",
+        "self_html": "https://zenodo.org/records/17523796",
+        "preview_html": "https://zenodo.org/records/17523796?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17523796",
+        "self_doi": "https://doi.org/10.5281/zenodo.17523796",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17523796",
+        "reserve_doi": "https://zenodo.org/api/records/17523796/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17523795",
+        "parent_html": "https://zenodo.org/records/17523795",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17523795",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17523795",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17523796/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17523796/sequence/default",
+        "files": "https://zenodo.org/api/records/17523796/files",
+        "media_files": "https://zenodo.org/api/records/17523796/media-files",
+        "archive": "https://zenodo.org/api/records/17523796/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17523796/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17523796/versions/latest",
+        "latest_html": "https://zenodo.org/records/17523796/latest",
+        "versions": "https://zenodo.org/api/records/17523796/versions",
+        "draft": "https://zenodo.org/api/records/17523796/draft",
+        "access_links": "https://zenodo.org/api/records/17523796/access/links",
+        "access_grants": "https://zenodo.org/api/records/17523796/access/grants",
+        "access_users": "https://zenodo.org/api/records/17523796/access/users",
+        "access_request": "https://zenodo.org/api/records/17523796/access/request",
+        "access": "https://zenodo.org/api/records/17523796/access",
+        "communities": "https://zenodo.org/api/records/17523796/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17523796/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17523796/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17523796/file-modification",
+        "requests": "https://zenodo.org/api/records/17523796/requests"
+      },
+      "updated": "2025-11-04T14:38:35.622173+00:00",
+      "recid": "17523796",
+      "revision": 12,
+      "files": [
+        {
+          "id": "4af0071c-be62-4ed8-9738-ddbfca7f2b64",
+          "key": "737_post_10_07.csv",
+          "size": 37625,
+          "checksum": "md5:a8bdb2fd32be23b56e867719098cb130",
+          "links": {
+            "self": "https://zenodo.org/api/records/17523796/files/737_post_10_07.csv/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1187384"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 32,
+        "unique_downloads": 20,
+        "views": 31,
+        "unique_views": 19,
+        "version_downloads": 32,
+        "version_unique_downloads": 20,
+        "version_unique_views": 19,
+        "version_views": 31
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2025-10-28T01:44:25.685191+00:00",
       "modified": "2025-10-28T01:44:26.955175+00:00",
@@ -123,6 +755,7 @@
         "communities": "https://zenodo.org/api/records/17458941/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17458941/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17458941/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17458941/file-modification",
         "requests": "https://zenodo.org/api/records/17458941/requests"
       },
       "updated": "2025-10-28T01:44:26.955175+00:00",
@@ -147,14 +780,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 4,
-        "unique_downloads": 4,
-        "views": 41,
-        "unique_views": 39,
-        "version_downloads": 4,
-        "version_unique_downloads": 4,
-        "version_unique_views": 39,
-        "version_views": 41
+        "downloads": 13,
+        "unique_downloads": 13,
+        "views": 47,
+        "unique_views": 45,
+        "version_downloads": 13,
+        "version_unique_downloads": 13,
+        "version_unique_views": 45,
+        "version_views": 47
       },
       "state": "done",
       "submitted": true
@@ -298,6 +931,7 @@
         "communities": "https://zenodo.org/api/records/17459323/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17459323/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17459323/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17459323/file-modification",
         "requests": "https://zenodo.org/api/records/17459323/requests"
       },
       "updated": "2025-10-28T01:43:25.817408+00:00",
@@ -489,6 +1123,7 @@
         "communities": "https://zenodo.org/api/records/17450619/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17450619/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17450619/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17450619/file-modification",
         "requests": "https://zenodo.org/api/records/17450619/requests"
       },
       "updated": "2025-10-26T20:10:51.381632+00:00",
@@ -513,14 +1148,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 10,
-        "unique_downloads": 6,
-        "views": 6,
-        "unique_views": 5,
-        "version_downloads": 10,
-        "version_unique_downloads": 6,
-        "version_unique_views": 5,
-        "version_views": 6
+        "downloads": 14,
+        "unique_downloads": 10,
+        "views": 9,
+        "unique_views": 8,
+        "version_downloads": 14,
+        "version_unique_downloads": 10,
+        "version_unique_views": 8,
+        "version_views": 9
       },
       "state": "done",
       "submitted": true
@@ -651,6 +1286,7 @@
         "communities": "https://zenodo.org/api/records/17450530/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17450530/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17450530/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17450530/file-modification",
         "requests": "https://zenodo.org/api/records/17450530/requests"
       },
       "updated": "2025-10-26T19:52:12.542246+00:00",
@@ -792,6 +1428,7 @@
         "communities": "https://zenodo.org/api/records/17450406/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17450406/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17450406/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17450406/file-modification",
         "requests": "https://zenodo.org/api/records/17450406/requests"
       },
       "updated": "2025-10-26T19:25:53.575466+00:00",
@@ -816,14 +1453,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 4,
-        "unique_downloads": 3,
-        "views": 2,
-        "unique_views": 2,
-        "version_downloads": 4,
-        "version_unique_downloads": 3,
-        "version_unique_views": 2,
-        "version_views": 2
+        "downloads": 5,
+        "unique_downloads": 4,
+        "views": 6,
+        "unique_views": 6,
+        "version_downloads": 5,
+        "version_unique_downloads": 4,
+        "version_unique_views": 6,
+        "version_views": 6
       },
       "state": "done",
       "submitted": true
@@ -947,6 +1584,7 @@
         "communities": "https://zenodo.org/api/records/17450370/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17450370/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17450370/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17450370/file-modification",
         "requests": "https://zenodo.org/api/records/17450370/requests"
       },
       "updated": "2025-10-26T19:19:59.012035+00:00",
@@ -971,713 +1609,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 7,
-        "unique_downloads": 5,
-        "views": 3,
-        "unique_views": 3,
-        "version_downloads": 7,
-        "version_unique_downloads": 5,
-        "version_unique_views": 3,
-        "version_views": 3
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-26T18:43:20.891349+00:00",
-      "modified": "2025-10-26T18:43:21.058046+00:00",
-      "id": 17450124,
-      "conceptrecid": "17450123",
-      "doi": "10.5281/zenodo.17450124",
-      "conceptdoi": "10.5281/zenodo.17450123",
-      "doi_url": "https://doi.org/10.5281/zenodo.17450124",
-      "metadata": {
-        "title": "Unified Component API: Supporting Standardized Middleware Integration and Flexible Interoperability in Cyberinfrastructure",
-        "doi": "10.5281/zenodo.17450124",
-        "publication_date": "2025-10-26",
-        "description": "<p>Modern cyberinfrastructure supports an increasingly complex ecosystem of scientific workflows that span on-field sensors, edge computing devices, high-performance computing (HPC) centers, and hybrid cloud environments. Within the NSF ICICLE AI Institute, we are developing tools across project thrusts such as AI for Cyberinfrastructure (AI4CI) and Cyberinfrastructure for AI (CI4AI), guided by user-driven domains like digital agriculture and animal ecology to enable an edge-centric continuum. However, as these modules are developed by independent research groups in collaboration with domain scientists, they often lack interoperability within and across thrusts.<br><br>To address these challenges, we propose a unified reference API framework as an initial step toward integrating these components into a cohesive system, starting with middleware tools developed within the AI4CI thrust. We present the design and implementation of the Unified Component API (UCA), which adopts a narrow waist architecture to unify Intelligent Middleware Technologies (IMT) components with standardized lifecycle management methods (\\texttt{Start}, \\texttt{Stop}, \\texttt{Terminate}, and \\texttt{Restart}), along with service invocations such as \\texttt{InferenceService} using \\texttt{HARPRuntimeInference} and \\texttt{GPUDistributedInference}. This design enables plug-and-play integration tailored to specific execution scenarios. We demonstrate these capabilities through the Smart Scheduler, a modular component for AI-enhanced HPC job provisioning that orchestrates auxiliary tools such as workload profilers, data generators, and estimators. Our results show how UCA simplifies user interactions and supports rapid development and testing of alternative implementations, enabling extensible and scalable cyberinfrastructure systems across diverse scientific domains.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Nick, Cliffel",
-            "affiliation": "Ohio State University"
-          },
-          {
-            "name": "Vallabhajosyula, Manikya Swathi",
-            "affiliation": "The Ohio State University",
-            "orcid": "0000-0002-9094-1722"
-          },
-          {
-            "name": "Jingxin, Wang",
-            "affiliation": "Rutgers University\u2013Newark"
-          },
-          {
-            "name": "Zhao, Zhang",
-            "affiliation": "Rutgers University\u2013Newark"
-          },
-          {
-            "name": "Ramnath, Rajiv",
-            "affiliation": "Ohio State University",
-            "orcid": "0000-0003-0093-8560"
-          }
-        ],
-        "keywords": [
-          "Cyberinfrastructure",
-          "Unified Component API (UCA)",
-          "AI for Cyberinfrastructure (AI4CI)",
-          "Systems Middleware",
-          "Plug-and-Play Architecture",
-          "High-Performance Computing (HPC)"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Conference paper",
-          "type": "publication",
-          "subtype": "conferencepaper"
-        },
-        "meeting": {
-          "title": "Science Gateways 2025",
-          "acronym": "SG25",
-          "dates": "October 28-30, 2025",
-          "place": "Green Bay, WI",
-          "url": "https://sciencegateways.org/gateways2025",
-          "session": "Papers"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "gateways2025"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17450123"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Unified Component API: Supporting Standardized Middleware Integration and Flexible Interoperability in Cyberinfrastructure",
-      "links": {
-        "self": "https://zenodo.org/api/records/17450124",
-        "self_html": "https://zenodo.org/records/17450124",
-        "preview_html": "https://zenodo.org/records/17450124?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17450124",
-        "self_doi": "https://doi.org/10.5281/zenodo.17450124",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17450124",
-        "reserve_doi": "https://zenodo.org/api/records/17450124/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17450123",
-        "parent_html": "https://zenodo.org/records/17450123",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17450123",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17450123",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17450124/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17450124/sequence/default",
-        "files": "https://zenodo.org/api/records/17450124/files",
-        "media_files": "https://zenodo.org/api/records/17450124/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17450124:Gateways2025_paper_23.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17450124:Gateways2025_paper_23.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17450124:Gateways2025_paper_23.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17450124:Gateways2025_paper_23.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17450124:Gateways2025_paper_23.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17450124:Gateways2025_paper_23.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17450124/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17450124/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17450124/versions/latest",
-        "latest_html": "https://zenodo.org/records/17450124/latest",
-        "versions": "https://zenodo.org/api/records/17450124/versions",
-        "draft": "https://zenodo.org/api/records/17450124/draft",
-        "access_links": "https://zenodo.org/api/records/17450124/access/links",
-        "access_grants": "https://zenodo.org/api/records/17450124/access/grants",
-        "access_users": "https://zenodo.org/api/records/17450124/access/users",
-        "access_request": "https://zenodo.org/api/records/17450124/access/request",
-        "access": "https://zenodo.org/api/records/17450124/access",
-        "communities": "https://zenodo.org/api/records/17450124/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17450124/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17450124/request-deletion",
-        "requests": "https://zenodo.org/api/records/17450124/requests"
-      },
-      "updated": "2025-10-26T18:43:21.058046+00:00",
-      "recid": "17450124",
-      "revision": 4,
-      "files": [
-        {
-          "id": "705e36b9-3893-4a4f-9d93-b583fb245732",
-          "key": "Gateways2025_paper_23.pdf",
-          "size": 962666,
-          "checksum": "md5:b28f6f804547e9c312893f13b110162a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17450124/files/Gateways2025_paper_23.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "249160"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 4,
-        "unique_downloads": 3,
-        "views": 2,
-        "unique_views": 2,
-        "version_downloads": 4,
-        "version_unique_downloads": 3,
-        "version_unique_views": 2,
-        "version_views": 2
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-26T17:27:26.094674+00:00",
-      "modified": "2025-10-26T17:27:26.296745+00:00",
-      "id": 17449729,
-      "conceptrecid": "17449727",
-      "doi": "10.5281/zenodo.17449729",
-      "conceptdoi": "10.5281/zenodo.17449727",
-      "doi_url": "https://doi.org/10.5281/zenodo.17449729",
-      "metadata": {
-        "title": "Develop and deliver a Science Gateway or an HPC portal on OneSciencePlace - Tutorial",
-        "doi": "10.5281/zenodo.17449729",
-        "publication_date": "2025-10-26",
-        "description": "<p>OneSciencePlace&reg; is a modern, extensible, fully managed, and composable platform that enables the creation of an HPC portal, a science gateway, a data sharing hub, or a publication repository through an intuitive, low-code/no-code environment. Designed to cater to the complete spectrum of the research ecosystem, OneSciencePlace empowers principal investigators, educators, research teams, HPC administrators, and institutional stakeholders alike. Whether serving a single user, a classroom, a collaborative research group, or a campus-wide initiative, the platform scales effortlessly to meet diverse needs.<br><br>At its core, everything on OneSciencePlace consists of content, including applications, data, publications, and tools, which facilitates the curation, presentation, and extension of scientific resources. With built-in FAIRness (Findable, Accessible, Interoperable, Reusable) and seamless integration across computational and storage backends (on-premises or cloud), OneSciencePlace redefines the delivery of cyberinfrastructure at a fraction of the cost and with minimal administrative burden.<br><br>The OneSciencePlace platform is built on a collection of mature technologies, including Drupal, SeedMeLab, Tapis, and others. It can seamlessly interface with multiple compute resources, including Linux hosts, HPC clusters, and storage resources such as POSIX file systems or S3 object storage.<br><br>The tutorial builds on last year&rsquo;s success and will include the latest developments of the OneSciencePlace platform. This tutorial will focus on Science Gateway and HPC portal use cases, guiding attendees to explore OneSciencePlace in a hands-on way.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Chourasia, Amit",
-            "affiliation": "University of California, San Diego",
-            "orcid": "0000-0002-3190-1528"
-          },
-          {
-            "name": "Youn, Choonhan",
-            "affiliation": "University of California, San Diego",
-            "orcid": "0000-0002-5070-6736"
-          },
-          {
-            "name": "Winjum, Benjamin",
-            "affiliation": "University of California, Los Angeles",
-            "orcid": "0000-0001-6576-849X"
-          },
-          {
-            "name": "Jerome, Ronquillo",
-            "affiliation": "University of California, Los Angeles"
-          }
-        ],
-        "keywords": [
-          "HPC Portal",
-          "Science Gateway",
-          "Data Management"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Conference paper",
-          "type": "publication",
-          "subtype": "conferencepaper"
-        },
-        "meeting": {
-          "title": "Science Gateways 2025",
-          "acronym": "SG25",
-          "dates": "October 28-30, 2025",
-          "place": "Green Bay, WI",
-          "url": "https://sciencegateways.org/gateways2025",
-          "session": "Tutorials"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "gateways2025"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17449727"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Develop and deliver a Science Gateway or an HPC portal on OneSciencePlace - Tutorial",
-      "links": {
-        "self": "https://zenodo.org/api/records/17449729",
-        "self_html": "https://zenodo.org/records/17449729",
-        "preview_html": "https://zenodo.org/records/17449729?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17449729",
-        "self_doi": "https://doi.org/10.5281/zenodo.17449729",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17449729",
-        "reserve_doi": "https://zenodo.org/api/records/17449729/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17449727",
-        "parent_html": "https://zenodo.org/records/17449727",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17449727",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17449727",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17449729/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17449729/sequence/default",
-        "files": "https://zenodo.org/api/records/17449729/files",
-        "media_files": "https://zenodo.org/api/records/17449729/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17449729:Gateways2025_paper_12.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17449729:Gateways2025_paper_12.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17449729:Gateways2025_paper_12.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17449729:Gateways2025_paper_12.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17449729:Gateways2025_paper_12.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17449729:Gateways2025_paper_12.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17449729/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17449729/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17449729/versions/latest",
-        "latest_html": "https://zenodo.org/records/17449729/latest",
-        "versions": "https://zenodo.org/api/records/17449729/versions",
-        "draft": "https://zenodo.org/api/records/17449729/draft",
-        "access_links": "https://zenodo.org/api/records/17449729/access/links",
-        "access_grants": "https://zenodo.org/api/records/17449729/access/grants",
-        "access_users": "https://zenodo.org/api/records/17449729/access/users",
-        "access_request": "https://zenodo.org/api/records/17449729/access/request",
-        "access": "https://zenodo.org/api/records/17449729/access",
-        "communities": "https://zenodo.org/api/records/17449729/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17449729/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17449729/request-deletion",
-        "requests": "https://zenodo.org/api/records/17449729/requests"
-      },
-      "updated": "2025-10-26T17:27:26.296745+00:00",
-      "recid": "17449729",
-      "revision": 4,
-      "files": [
-        {
-          "id": "60b018f3-726f-4675-bf34-6e13b99f03d6",
-          "key": "Gateways2025_paper_12.pdf",
-          "size": 160313,
-          "checksum": "md5:1cb8107b0ea3f5d951d23b12f47942e8",
-          "links": {
-            "self": "https://zenodo.org/api/records/17449729/files/Gateways2025_paper_12.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "249160"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 5,
-        "unique_downloads": 3,
-        "views": 2,
-        "unique_views": 2,
-        "version_downloads": 5,
-        "version_unique_downloads": 3,
-        "version_unique_views": 2,
-        "version_views": 2
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-26T14:58:04.369187+00:00",
-      "modified": "2025-10-26T14:58:04.532621+00:00",
-      "id": 17448647,
-      "conceptrecid": "17448646",
-      "doi": "10.5281/zenodo.17448647",
-      "conceptdoi": "10.5281/zenodo.17448646",
-      "doi_url": "https://doi.org/10.5281/zenodo.17448647",
-      "metadata": {
-        "title": "Preliminary Results from the AI Blueprint Factory",
-        "doi": "10.5281/zenodo.17448647",
-        "publication_date": "2025-10-26",
-        "description": "<p>Advancements in Artificial Intelligence (AI), including generative systems like ChatGPT and DeepSeek, are motivating a revolution in academic research computing. Academic researchers are turning to AI to make fundamental strides in their research, creating and providing new models and algorithms, AI-ready datasets, AI-relevant cyberinfrastructure, and more. However, the academic sphere lags behind the private sector in AI resource availability and adoption. Science gateways have long facilitated academic research by simplifying the access and use of advanced computing resources, and promoting collaboration. Can science gateways help academic research communities by promoting access to advanced AI resources, new algorithms and models, and AI-ready datasets?<br><br>The NSF Center of Excellence for Science Gateways (SGX3) founded an initiative called the AI Blueprint Factory to address this question. The Blueprint Factory will identify technical capabilities required to support evolving scientific and computing needs, and consider how science gateways can help.<br><br>The purpose of the AI Blueprint Factory is to ascertain the AI needs of research communities that use national-scale computing infrastructure, and to make 5 to 10 year forecasts of needed features and resources. Its study team is interviewing researchers across disciplines and seniority levels to determine perceived needs, opportunities, and gaps in AI research support. The focus is not on supporting core AI research, but rather on fostering the utilization of AI techniques in domain science research.<br><br>In this paper, we introduce and describe the study, and summarize the initial set of researcher interviews.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Sperhac, Jeanette",
-            "affiliation": "University of California, San Diego",
-            "orcid": "0000-0003-0436-9318"
-          },
-          {
-            "name": "Gesing, Sandra",
-            "affiliation": "San Diego Supercomputer Center",
-            "orcid": "0000-0002-6051-0673"
-          },
-          {
-            "name": "Quick, Rob",
-            "affiliation": "Indiana University",
-            "orcid": "0000-0002-0994-728X"
-          },
-          {
-            "name": "Stubbs, Joe",
-            "affiliation": "Indiana University Bloomington",
-            "orcid": "0000-0002-8644-0300"
-          },
-          {
-            "name": "Garcia, Christian",
-            "affiliation": "Texas Advanced Computing Center"
-          },
-          {
-            "name": "Chan, Chi-kwan",
-            "affiliation": "University of Arizona",
-            "orcid": "0000-0001-6337-6126"
-          },
-          {
-            "name": "Deelman, Ewa",
-            "affiliation": "University of Southern California",
-            "orcid": "0000-0001-5106-503X"
-          },
-          {
-            "name": "Connolly, Amy",
-            "affiliation": "Ohio State University",
-            "orcid": "0000-0003-0049-5448"
-          },
-          {
-            "name": "Wu, Huanmei",
-            "affiliation": "Temple Universtiy",
-            "orcid": "0000-0003-0346-6044"
-          }
-        ],
-        "keywords": [
-          "science gateways",
-          "machine learning",
-          "artificial intelligence",
-          "cyberinfrastructure",
-          "high performance computing",
-          "scientific software"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Conference paper",
-          "type": "publication",
-          "subtype": "conferencepaper"
-        },
-        "meeting": {
-          "title": "Science Gateways 2025",
-          "acronym": "SG25",
-          "dates": "October 28-30, 2025",
-          "place": "Green Bay, WI",
-          "url": "https://sciencegateways.org/gateways2025",
-          "session": "Papers"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "gateways2025"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17448646"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Preliminary Results from the AI Blueprint Factory",
-      "links": {
-        "self": "https://zenodo.org/api/records/17448647",
-        "self_html": "https://zenodo.org/records/17448647",
-        "preview_html": "https://zenodo.org/records/17448647?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17448647",
-        "self_doi": "https://doi.org/10.5281/zenodo.17448647",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17448647",
-        "reserve_doi": "https://zenodo.org/api/records/17448647/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17448646",
-        "parent_html": "https://zenodo.org/records/17448646",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17448646",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17448646",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17448647/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17448647/sequence/default",
-        "files": "https://zenodo.org/api/records/17448647/files",
-        "media_files": "https://zenodo.org/api/records/17448647/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17448647:Gateways2025_paper_4.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17448647:Gateways2025_paper_4.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17448647:Gateways2025_paper_4.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17448647:Gateways2025_paper_4.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17448647:Gateways2025_paper_4.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17448647:Gateways2025_paper_4.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17448647/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17448647/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17448647/versions/latest",
-        "latest_html": "https://zenodo.org/records/17448647/latest",
-        "versions": "https://zenodo.org/api/records/17448647/versions",
-        "draft": "https://zenodo.org/api/records/17448647/draft",
-        "access_links": "https://zenodo.org/api/records/17448647/access/links",
-        "access_grants": "https://zenodo.org/api/records/17448647/access/grants",
-        "access_users": "https://zenodo.org/api/records/17448647/access/users",
-        "access_request": "https://zenodo.org/api/records/17448647/access/request",
-        "access": "https://zenodo.org/api/records/17448647/access",
-        "communities": "https://zenodo.org/api/records/17448647/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17448647/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17448647/request-deletion",
-        "requests": "https://zenodo.org/api/records/17448647/requests"
-      },
-      "updated": "2025-10-26T14:58:04.532621+00:00",
-      "recid": "17448647",
-      "revision": 4,
-      "files": [
-        {
-          "id": "f60b4db2-2366-494a-8585-57fbb389831e",
-          "key": "Gateways2025_paper_4.pdf",
-          "size": 91108,
-          "checksum": "md5:6a6760ed7a573f49c551dd0b43b6603f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17448647/files/Gateways2025_paper_4.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "249160"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 8,
-        "unique_downloads": 4,
-        "views": 4,
-        "unique_views": 3,
-        "version_downloads": 8,
-        "version_unique_downloads": 4,
-        "version_unique_views": 3,
-        "version_views": 4
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-23T12:12:28.170479+00:00",
-      "modified": "2025-10-23T12:12:28.566167+00:00",
-      "id": 17410952,
-      "conceptrecid": "17410951",
-      "doi": "10.5281/zenodo.17410952",
-      "conceptdoi": "10.5281/zenodo.17410951",
-      "doi_url": "https://doi.org/10.5281/zenodo.17410952",
-      "metadata": {
-        "title": "The Long-term Data Workflow from Creator to Re-user: How Can This Be Managed Best for Future Benefit for Research and Development of Predictive Tools",
-        "doi": "10.5281/zenodo.17410952",
-        "publication_date": "2025-10-17",
-        "description": "<p>This co-located session (<a href=\"https://idw2025.org/co-located-events/#workflow\">https://idw2025.org/co-located-events/#workflow</a>), associated with International Data Week 2025 (<a href=\"https://idw2025.org/\">https://idw2025.org/</a>) brought together experts from the sciences, data infrastructure, and data curation to examine how long-term data workflows&mdash;from creation through to re-use&mdash;can be better managed to support future research and the development of predictive tools. As research increasingly relies on vast and complex datasets, this discussion explored the challenges and opportunities involved in collecting, storing, curating, and reusing data over time and across domains.</p>\n<p>Focusing on issues such as sustainability, trust, and interoperability, the session considered how emerging technologies, ethical frameworks, and collaborative infrastructure can help ensure long-term value from national and global data assets. Through cross-sector dialogue, participants reflected on what makes data truly reusable, who benefits from reuse, and how we can better integrate data management into the research lifecycle, particularly for repeatable, large-scale, or sensitive datasets. The goal is to foster a shared understanding of the end-to-end data pipeline and to identify ways to improve its efficiency, transparency, and impact for future scientific and policy outcomes.</p>\n<p>We organised discussion around three themes stimulated by presentations as follows:</p>\n<p dir=\"ltr\"><strong>Data creator and user</strong></p>\n<ul>\n<li>\n<p dir=\"ltr\">Craig Thornton (Queensland Government), Sarah Hegarty (Swinburn University), John Carter (Queensland Government), Janet Davies (Queensland University of Technology)</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Repositories and data storage</strong></p>\n<ul>\n<li>\n<p dir=\"ltr\">Peter Marendy (Queensland CyberInfrastructure Foundation), Siddeswara Guru (Australia's Terrestrial Ecosystem Research Network),&nbsp;Lagi Reupena (Secretariat of the Pacific Regional Environment Programme),&nbsp;Graham Parton (NERC Environmental Data Service)</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Horizon scanning</strong></p>\n<ul>\n<li>\n<p dir=\"ltr\">Shelley Stall (American Geophysical Union), Wim Hugo (Dutch national centre of expertise and repository for research data), Mark Gray (Pawsey Supercomputing Research Centre), Francis P.Crawley (Committee on Data of the International Science Council)</p>\n</li>\n</ul>\n<p>The presentations by each of the participants have been aggregated into a single document.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Thornton, Craig",
-            "affiliation": "Queensland Department of Natural Resources and Mines",
-            "orcid": "0000-0003-1927-9198"
-          },
-          {
-            "name": "Hegarty, Sarah",
-            "affiliation": "Swinburne University of Technology",
-            "orcid": "0000-0001-7970-0170"
-          },
-          {
-            "name": "Carter, John O.",
-            "affiliation": "Queensland Department of Environment, Tourism, Science and Innovation (DETSI)"
-          },
-          {
-            "name": "Davies, Janet",
-            "affiliation": "Queensland University of Technology",
-            "orcid": "0000-0002-6378-4119"
-          },
-          {
-            "name": "Marendy, Peter",
-            "affiliation": "Queensland Cyber Infrastructure Foundation",
-            "orcid": "0000-0002-5499-9863"
-          },
-          {
-            "name": "Guru, Siddeswara",
-            "affiliation": "Australia's Terrestrial Ecosystem Research Network",
-            "orcid": "0000-0002-3903-254X"
-          },
-          {
-            "name": "Reupena, Lagi",
-            "affiliation": "Pacific Regional Environment Programme"
-          },
-          {
-            "name": "Parton, Graham",
-            "affiliation": "Environmental Data Service (EDS) UK",
-            "orcid": "0000-0003-4157-0352"
-          },
-          {
-            "name": "Stall, Shelley",
-            "affiliation": "American Geophysical Union",
-            "orcid": "0000-0003-2926-8353"
-          },
-          {
-            "name": "Hugo, Wim",
-            "affiliation": "Dutch national centre of expertise and repository for research data (DANS)",
-            "orcid": "0000-0002-0255-5101"
-          },
-          {
-            "name": "Gray, Mark",
-            "affiliation": "Pawsey Supercomputing Research Centre",
-            "orcid": "0009-0008-4982-7849"
-          },
-          {
-            "name": "Crawley, Francis P.",
-            "affiliation": "Good Clinical Practice Alliance - Europe (GCPA)",
-            "orcid": "0000-0002-6893-5916"
-          },
-          {
-            "name": "Bird, Stephen",
-            "affiliation": "Queensland Cyber Infrastructure Foundation",
-            "orcid": "0009-0001-9846-0990"
-          },
-          {
-            "name": "Maurer, Gregory E.",
-            "affiliation": "New Mexico State University",
-            "orcid": "0000-0002-3007-8058"
-          },
-          {
-            "name": "Stahlman, Gretchen",
-            "affiliation": "Florida State University",
-            "orcid": "0000-0001-8814-863X"
-          },
-          {
-            "name": "Specht, Alison",
-            "affiliation": "Terrestrial Ecosystem Research Network",
-            "orcid": "0000-0002-2623-0854"
-          },
-          {
-            "name": "Wraith, Jenna",
-            "affiliation": "Queensland Cyber Infrastructure Foundation",
-            "orcid": "0000-0002-8730-6939"
-          }
-        ],
-        "contributors": [
-          {
-            "name": "Thornton, Craig",
-            "affiliation": "Queensland Department of Natural Resources and Mines",
-            "type": "Producer",
-            "orcid": "0000-0003-1927-9198"
-          }
-        ],
-        "resource_type": {
-          "title": "Publication",
-          "type": "publication"
-        },
-        "meeting": {
-          "title": "International Data Week 2025",
-          "acronym": "IDW25",
-          "dates": "13-16 November 2025",
-          "place": "Brisbane, Australia",
-          "url": "https://idw2025.org/",
-          "session": "TERN-QCIF co-located meeting, 17 November"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "alison-specht"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17410951"
-              }
-            }
-          ]
-        }
-      },
-      "title": "The Long-term Data Workflow from Creator to Re-user: How Can This Be Managed Best for Future Benefit for Research and Development of Predictive Tools",
-      "links": {
-        "self": "https://zenodo.org/api/records/17410952",
-        "self_html": "https://zenodo.org/records/17410952",
-        "preview_html": "https://zenodo.org/records/17410952?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17410952",
-        "self_doi": "https://doi.org/10.5281/zenodo.17410952",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17410952",
-        "reserve_doi": "https://zenodo.org/api/records/17410952/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17410951",
-        "parent_html": "https://zenodo.org/records/17410951",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17410951",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17410951",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17410952/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17410952/sequence/default",
-        "files": "https://zenodo.org/api/records/17410952/files",
-        "media_files": "https://zenodo.org/api/records/17410952/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17410952:IDW2025-TERN-QCIF_co-located%20session_251023.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17410952:IDW2025-TERN-QCIF_co-located%20session_251023.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17410952:IDW2025-TERN-QCIF_co-located%20session_251023.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17410952:IDW2025-TERN-QCIF_co-located%20session_251023.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17410952:IDW2025-TERN-QCIF_co-located%20session_251023.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17410952:IDW2025-TERN-QCIF_co-located%20session_251023.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17410952/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17410952/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17410952/versions/latest",
-        "latest_html": "https://zenodo.org/records/17410952/latest",
-        "versions": "https://zenodo.org/api/records/17410952/versions",
-        "draft": "https://zenodo.org/api/records/17410952/draft",
-        "access_links": "https://zenodo.org/api/records/17410952/access/links",
-        "access_grants": "https://zenodo.org/api/records/17410952/access/grants",
-        "access_users": "https://zenodo.org/api/records/17410952/access/users",
-        "access_request": "https://zenodo.org/api/records/17410952/access/request",
-        "access": "https://zenodo.org/api/records/17410952/access",
-        "communities": "https://zenodo.org/api/records/17410952/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17410952/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17410952/request-deletion",
-        "requests": "https://zenodo.org/api/records/17410952/requests"
-      },
-      "updated": "2025-10-23T12:12:28.566167+00:00",
-      "recid": "17410952",
-      "revision": 4,
-      "files": [
-        {
-          "id": "a2bd2d9a-da4e-4f4a-9a37-8aefd61309cc",
-          "key": "IDW2025-TERN-QCIF_co-located session_251023.pdf",
-          "size": 5334197,
-          "checksum": "md5:b1bb14c2e933f5393e808fe9bc196b4d",
-          "links": {
-            "self": "https://zenodo.org/api/records/17410952/files/IDW2025-TERN-QCIF_co-located session_251023.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "107129"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 71,
-        "unique_downloads": 30,
-        "views": 35,
-        "unique_views": 33,
-        "version_downloads": 71,
-        "version_unique_downloads": 30,
-        "version_unique_views": 33,
-        "version_views": 35
+        "downloads": 9,
+        "unique_downloads": 7,
+        "views": 6,
+        "unique_views": 6,
+        "version_downloads": 9,
+        "version_unique_downloads": 7,
+        "version_unique_views": 6,
+        "version_views": 6
       },
       "state": "done",
       "submitted": true

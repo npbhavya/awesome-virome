@@ -1,6 +1,281 @@
 {
-  "cache_date": "2025-11-01T10:38:54.082300",
+  "cache_date": "2025-12-01T09:26:38.748784",
   "data": [
+    {
+      "created": "2025-11-28T08:50:45.882259+00:00",
+      "modified": "2025-11-28T08:50:46.153330+00:00",
+      "id": 17747521,
+      "conceptrecid": "15090769",
+      "doi": "10.5281/zenodo.17747521",
+      "conceptdoi": "10.5281/zenodo.15090769",
+      "doi_url": "https://doi.org/10.5281/zenodo.17747521",
+      "metadata": {
+        "title": "sanger-tol/metagenomeassembly v1.3.0 - Glasgow Peggie",
+        "doi": "10.5281/zenodo.17747521",
+        "publication_date": "2025-11-28",
+        "description": "<h2>[<a href=\"https://github.com/sanger-tol/metagenomeassembly/releases/tag/1.3.0\">1.3.0</a>] - Glasgow Peggie - [2025-11-28]</h2>\n<h3><code>Added</code></h3>\n<ul>\n<li>Switch the read mapping and Hi-C mapping to use the new sanger-tol subworkflows. (by @prototaxites)</li>\n<li>gunzip all assemblies and operate on assemblies in decompressed space internally. (by @prototaxites)</li>\n<li>Operate on decompressed assemblies downstream to avoid lack of bgzipping. (by @prototaxites)</li>\n</ul>\n<h3><code>Fixed</code></h3>\n<ul>\n<li>Sometimes MAGScoT fails, for unknown reasons. The pipeline will no longer exit if this happens. (by @prototaxites)</li>\n<li>If no circular contigs are found, a FASTA file will no longer be written and GeNomad will no longer run (and fail). (by @prototaxites)</li>\n<li>Change the minimum percent identity during read mapping to 99% to reflect accuracy of PacBio reads. (by @prototaxites)</li>\n</ul>\n<h3><code>Deprecated</code></h3>\n<ul>\n<li>Removed the parameter <code>params.hic_mapping_merge_mode</code>, as we now use the new Hi-C mapping subworkflow. (by @prototaxites)</li>\n<li>Removed the parameter <code>params.enable_assembly</code> - assembly now always runs by default unless an assembly is provided. (by @prototaxites)</li>\n</ul>\n<h3><code>Dependencies</code></h3>\n<p>| module                     | tools    | old versions | new versions |\n| -------------------------- | -------- | ------------ | ------------ |\n| gunzip                     | gzip     | -            | 1.13         |\n| gzip_get_decompressed_size | gzip     | 1.13         | -            |\n| fastxalign/pyfastxindex    | pyfastx  | -            | 2.2.0        |\n| fastxalign/minimap2align   | pyfastx  | -            | 2.2.0        |\n| fastxalign/minimap2align   | minimap2 | -            | 2.30         |\n| fastxalign/minimap2align   | samtools | -            | 1.22.1       |\n| cramalign/gencramchunks    | -        | -            | 1.1.0        |\n| cramalign/bwamem2align     | bwa-mem2 | -            | 1.22.1       |\n| cramalign/bwamem2align     | samtools | -            | 1.22.1       |\n| cramalign/minimap2align    | minimap2 | -            | 2.30         |\n| cramalign/minimap2align    | samtools | -            | 1.22.1       |\n| minimap2/align             | minimap2 | 2.2.9        | -            |\n| minimap2/align             | samtools | 1.21         | -            |\n| samtools/sort              | samtools | -            | 1.22.1       |\n| samtools/mergedup          | samtools | -            | 1.22.1       |\n| samtools/faidx             | samtools | -            | 1.22.1       |\n| samtools/splitheader       | samtools | -            | 1.22.1       |</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Downie, Jim",
+            "affiliation": "Wellcome Sanger Institute",
+            "orcid": "0000-0002-7175-0533"
+          },
+          {
+            "name": "Eagles, Will",
+            "affiliation": "Wellcome Sanger Institute",
+            "orcid": "0009-0006-9956-0404"
+          },
+          {
+            "name": "Gettle, Noah",
+            "affiliation": "Wellcome Sanger Institute",
+            "orcid": "0000-0003-3407-4086"
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/sanger-tol/metagenomeassembly/tree/1.3.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "1.3.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/sanger-tol/metagenomeassembly"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "communities": [
+          {
+            "id": "sanger-tol"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 8,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "15090769"
+              }
+            }
+          ]
+        },
+        "notes": "If you use this software, please cite it using the metadata from this file and all references from CITATIONS.md ."
+      },
+      "title": "sanger-tol/metagenomeassembly v1.3.0 - Glasgow Peggie",
+      "links": {
+        "self": "https://zenodo.org/api/records/17747521",
+        "self_html": "https://zenodo.org/records/17747521",
+        "preview_html": "https://zenodo.org/records/17747521?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17747521",
+        "self_doi": "https://doi.org/10.5281/zenodo.17747521",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17747521",
+        "reserve_doi": "https://zenodo.org/api/records/17747521/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/15090769",
+        "parent_html": "https://zenodo.org/records/15090769",
+        "parent_doi": "https://doi.org/10.5281/zenodo.15090769",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15090769",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17747521/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17747521/sequence/default",
+        "files": "https://zenodo.org/api/records/17747521/files",
+        "media_files": "https://zenodo.org/api/records/17747521/media-files",
+        "archive": "https://zenodo.org/api/records/17747521/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17747521/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17747521/versions/latest",
+        "latest_html": "https://zenodo.org/records/17747521/latest",
+        "versions": "https://zenodo.org/api/records/17747521/versions",
+        "draft": "https://zenodo.org/api/records/17747521/draft",
+        "access_links": "https://zenodo.org/api/records/17747521/access/links",
+        "access_grants": "https://zenodo.org/api/records/17747521/access/grants",
+        "access_users": "https://zenodo.org/api/records/17747521/access/users",
+        "access_request": "https://zenodo.org/api/records/17747521/access/request",
+        "access": "https://zenodo.org/api/records/17747521/access",
+        "communities": "https://zenodo.org/api/records/17747521/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17747521/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17747521/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17747521/file-modification",
+        "requests": "https://zenodo.org/api/records/17747521/requests"
+      },
+      "updated": "2025-11-28T08:50:46.153330+00:00",
+      "recid": "17747521",
+      "revision": 4,
+      "files": [
+        {
+          "id": "68fabf51-7def-44ab-b647-c776d4fbc117",
+          "key": "sanger-tol/metagenomeassembly-1.3.0.zip",
+          "size": 5768733,
+          "checksum": "md5:ce1db5054ff0c29b2b486ac7b8a2b8d1",
+          "links": {
+            "self": "https://zenodo.org/api/records/17747521/files/sanger-tol/metagenomeassembly-1.3.0.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "305572"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 90,
+        "unique_downloads": 88,
+        "views": 270,
+        "unique_views": 245,
+        "version_downloads": 9,
+        "version_unique_downloads": 9,
+        "version_unique_views": 25,
+        "version_views": 26
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-11-10T12:11:52.834748+00:00",
+      "modified": "2025-11-10T12:11:53.049258+00:00",
+      "id": 17571055,
+      "conceptrecid": "7013076",
+      "doi": "10.5281/zenodo.17571055",
+      "conceptdoi": "10.5281/zenodo.7013076",
+      "doi_url": "https://doi.org/10.5281/zenodo.17571055",
+      "metadata": {
+        "title": "apcamargo/genomad: geNomad v1.11.2",
+        "doi": "10.5281/zenodo.17571055",
+        "publication_date": "2025-11-10",
+        "description": "<h3>Fixed</h3>\n<ul>\n<li>Fix version reporting.</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li>Added support for Zstandard-compressed (<code>.zst</code>) input files for Python versions 3.14 and above.</li>\n</ul>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ant\u00f4nio Camargo",
+            "affiliation": "University of S\u00e3o Paulo"
+          },
+          {
+            "name": "Diego Alvarez S.",
+            "affiliation": "University of Magallanes"
+          },
+          {
+            "name": "Fomalhaut Bell",
+            "affiliation": "Fudan University"
+          },
+          {
+            "name": "Lander De Coninck",
+            "affiliation": null
+          },
+          {
+            "name": "Michal Ziemski",
+            "affiliation": "ETH Z\u00fcrich"
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/apcamargo/genomad/tree/v1.11.2",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v1.11.2",
+        "custom": {
+          "code:codeRepository": "https://github.com/apcamargo/genomad"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 26,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "7013076"
+              }
+            }
+          ]
+        }
+      },
+      "title": "apcamargo/genomad: geNomad v1.11.2",
+      "links": {
+        "self": "https://zenodo.org/api/records/17571055",
+        "self_html": "https://zenodo.org/records/17571055",
+        "preview_html": "https://zenodo.org/records/17571055?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17571055",
+        "self_doi": "https://doi.org/10.5281/zenodo.17571055",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17571055",
+        "reserve_doi": "https://zenodo.org/api/records/17571055/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/7013076",
+        "parent_html": "https://zenodo.org/records/7013076",
+        "parent_doi": "https://doi.org/10.5281/zenodo.7013076",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7013076",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17571055/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17571055/sequence/default",
+        "files": "https://zenodo.org/api/records/17571055/files",
+        "media_files": "https://zenodo.org/api/records/17571055/media-files",
+        "archive": "https://zenodo.org/api/records/17571055/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17571055/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17571055/versions/latest",
+        "latest_html": "https://zenodo.org/records/17571055/latest",
+        "versions": "https://zenodo.org/api/records/17571055/versions",
+        "draft": "https://zenodo.org/api/records/17571055/draft",
+        "access_links": "https://zenodo.org/api/records/17571055/access/links",
+        "access_grants": "https://zenodo.org/api/records/17571055/access/grants",
+        "access_users": "https://zenodo.org/api/records/17571055/access/users",
+        "access_request": "https://zenodo.org/api/records/17571055/access/request",
+        "access": "https://zenodo.org/api/records/17571055/access",
+        "communities": "https://zenodo.org/api/records/17571055/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17571055/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17571055/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17571055/file-modification",
+        "requests": "https://zenodo.org/api/records/17571055/requests"
+      },
+      "updated": "2025-11-10T12:11:53.049258+00:00",
+      "recid": "17571055",
+      "revision": 4,
+      "files": [
+        {
+          "id": "b73dfcc2-db56-4629-b27e-5fcf82b5bb4d",
+          "key": "apcamargo/genomad-v1.11.2.zip",
+          "size": 28382379,
+          "checksum": "md5:9aa90fe7fef21d5dbdab57566b3f9d1e",
+          "links": {
+            "self": "https://zenodo.org/api/records/17571055/files/apcamargo/genomad-v1.11.2.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:724862e1684c1e4d2547823d5d92eeb03bb7f3c9;origin=https://doi.org/10.5281/zenodo.7013076;visit=swh:1:snp:8b80870aeee267b943c6b4ba1ad65c5138607da4;anchor=swh:1:rel:454bb91e99c9dd959b680d035fe9d031ab7afce0;path=apcamargo-genomad-a35f788"
+      },
+      "owners": [
+        {
+          "id": "84401"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 270,
+        "unique_downloads": 257,
+        "views": 1662,
+        "unique_views": 1592,
+        "version_downloads": 2,
+        "version_unique_downloads": 2,
+        "version_unique_views": 12,
+        "version_views": 13
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2025-09-03T06:57:26.980026+00:00",
       "modified": "2025-09-03T06:57:27.802336+00:00",
@@ -88,6 +363,7 @@
         "communities": "https://zenodo.org/api/records/16616313/communities",
         "communities-suggestions": "https://zenodo.org/api/records/16616313/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/16616313/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/16616313/file-modification",
         "requests": "https://zenodo.org/api/records/16616313/requests"
       },
       "updated": "2025-09-03T06:57:27.802336+00:00",
@@ -184,14 +460,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 27,
-        "unique_downloads": 26,
-        "views": 31,
-        "unique_views": 27,
-        "version_downloads": 27,
-        "version_unique_downloads": 26,
-        "version_unique_views": 27,
-        "version_views": 31
+        "downloads": 38,
+        "unique_downloads": 37,
+        "views": 41,
+        "unique_views": 37,
+        "version_downloads": 38,
+        "version_unique_downloads": 37,
+        "version_unique_views": 37,
+        "version_views": 41
       },
       "state": "done",
       "submitted": true
@@ -285,6 +561,7 @@
         "communities": "https://zenodo.org/api/records/16807783/communities",
         "communities-suggestions": "https://zenodo.org/api/records/16807783/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/16807783/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/16807783/file-modification",
         "requests": "https://zenodo.org/api/records/16807783/requests"
       },
       "updated": "2025-08-11T19:58:39.616572+00:00",
@@ -317,135 +594,6 @@
         "version_unique_downloads": 2,
         "version_unique_views": 12,
         "version_views": 13
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-06-10T21:26:40.253195+00:00",
-      "modified": "2025-06-10T21:26:40.441772+00:00",
-      "id": 15635930,
-      "conceptrecid": "7013076",
-      "doi": "10.5281/zenodo.15635930",
-      "conceptdoi": "10.5281/zenodo.7013076",
-      "doi_url": "https://doi.org/10.5281/zenodo.15635930",
-      "metadata": {
-        "title": "apcamargo/genomad: geNomad v1.11.1",
-        "doi": "10.5281/zenodo.15635930",
-        "publication_date": "2025-06-10",
-        "description": "<h3>Changed</h3>\n<ul>\n<li>Simplify the <code>softmax</code> function implementation and add an <code>axis</code> parameter.</li>\n<li>Use <code>os.sched_getaffinity</code> instead of <code>multiprocessing.cpu_count()</code> to determine the number of available CPUs.</li>\n</ul>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Ant\u00f4nio Camargo",
-            "affiliation": "DOE Joint Genome Institute"
-          },
-          {
-            "name": "Lander De Coninck",
-            "affiliation": null
-          },
-          {
-            "name": "Michal Ziemski",
-            "affiliation": "ETH Z\u00fcrich"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/apcamargo/genomad/tree/v1.11.1",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "v1.11.1",
-        "custom": {
-          "code:codeRepository": "https://github.com/apcamargo/genomad"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 25,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "7013076"
-              }
-            }
-          ]
-        }
-      },
-      "title": "apcamargo/genomad: geNomad v1.11.1",
-      "links": {
-        "self": "https://zenodo.org/api/records/15635930",
-        "self_html": "https://zenodo.org/records/15635930",
-        "preview_html": "https://zenodo.org/records/15635930?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.15635930",
-        "self_doi": "https://doi.org/10.5281/zenodo.15635930",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15635930",
-        "reserve_doi": "https://zenodo.org/api/records/15635930/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/7013076",
-        "parent_html": "https://zenodo.org/records/7013076",
-        "parent_doi": "https://doi.org/10.5281/zenodo.7013076",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7013076",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15635930/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15635930/sequence/default",
-        "files": "https://zenodo.org/api/records/15635930/files",
-        "media_files": "https://zenodo.org/api/records/15635930/media-files",
-        "archive": "https://zenodo.org/api/records/15635930/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15635930/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15635930/versions/latest",
-        "latest_html": "https://zenodo.org/records/15635930/latest",
-        "versions": "https://zenodo.org/api/records/15635930/versions",
-        "draft": "https://zenodo.org/api/records/15635930/draft",
-        "access_links": "https://zenodo.org/api/records/15635930/access/links",
-        "access_grants": "https://zenodo.org/api/records/15635930/access/grants",
-        "access_users": "https://zenodo.org/api/records/15635930/access/users",
-        "access_request": "https://zenodo.org/api/records/15635930/access/request",
-        "access": "https://zenodo.org/api/records/15635930/access",
-        "communities": "https://zenodo.org/api/records/15635930/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15635930/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/15635930/request-deletion",
-        "requests": "https://zenodo.org/api/records/15635930/requests"
-      },
-      "updated": "2025-06-10T21:26:40.441772+00:00",
-      "recid": "15635930",
-      "revision": 4,
-      "files": [
-        {
-          "id": "88efce0e-e387-446e-bbd0-7c8daacfc71b",
-          "key": "apcamargo/genomad-v1.11.1.zip",
-          "size": 28382153,
-          "checksum": "md5:181b8c4f859e342b07a271806f45433a",
-          "links": {
-            "self": "https://zenodo.org/api/records/15635930/files/apcamargo/genomad-v1.11.1.zip/content"
-          }
-        }
-      ],
-      "swh": {
-        "swhid": "swh:1:dir:4618fe988382c558ec2c8dec4283ab2d6c1e6127;origin=https://doi.org/10.5281/zenodo.7013076;visit=swh:1:snp:d5d248d29a26720c5f27086070549da5cdeaa7df;anchor=swh:1:rel:230f7d0034b052c90f2f51a0faa85fafe23fe43d;path=apcamargo-genomad-2ba0fbd"
-      },
-      "owners": [
-        {
-          "id": "84401"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 244,
-        "unique_downloads": 231,
-        "views": 1593,
-        "unique_views": 1525,
-        "version_downloads": 11,
-        "version_unique_downloads": 11,
-        "version_unique_views": 42,
-        "version_views": 43
       },
       "state": "done",
       "submitted": true
@@ -529,6 +677,7 @@
         "communities": "https://zenodo.org/api/records/14886553/communities",
         "communities-suggestions": "https://zenodo.org/api/records/14886553/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/14886553/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/14886553/file-modification",
         "requests": "https://zenodo.org/api/records/14886553/requests"
       },
       "updated": "2025-02-18T19:07:47.908045+00:00",
@@ -580,14 +729,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 11765,
-        "unique_downloads": 6537,
-        "views": 9035,
-        "unique_views": 8140,
-        "version_downloads": 2669,
-        "version_unique_downloads": 1710,
-        "version_unique_views": 1435,
-        "version_views": 1674
+        "downloads": 12408,
+        "unique_downloads": 6946,
+        "views": 9305,
+        "unique_views": 8387,
+        "version_downloads": 3129,
+        "version_unique_downloads": 1941,
+        "version_unique_views": 1598,
+        "version_views": 1859
       },
       "state": "done",
       "submitted": true
@@ -673,6 +822,7 @@
         "communities": "https://zenodo.org/api/records/13737161/communities",
         "communities-suggestions": "https://zenodo.org/api/records/13737161/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/13737161/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/13737161/file-modification",
         "requests": "https://zenodo.org/api/records/13737161/requests"
       },
       "updated": "2024-09-10T09:39:26.467842+00:00",
@@ -810,6 +960,7 @@
         "communities": "https://zenodo.org/api/records/13643307/communities",
         "communities-suggestions": "https://zenodo.org/api/records/13643307/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/13643307/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/13643307/file-modification",
         "requests": "https://zenodo.org/api/records/13643307/requests"
       },
       "updated": "2024-09-05T10:30:31.757949+00:00",
@@ -852,12 +1003,12 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 51,
-        "unique_downloads": 43,
+        "downloads": 57,
+        "unique_downloads": 49,
         "views": 43,
         "unique_views": 38,
-        "version_downloads": 51,
-        "version_unique_downloads": 43,
+        "version_downloads": 57,
+        "version_unique_downloads": 49,
         "version_unique_views": 38,
         "version_views": 43
       },
@@ -940,6 +1091,7 @@
         "communities": "https://zenodo.org/api/records/13686166/communities",
         "communities-suggestions": "https://zenodo.org/api/records/13686166/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/13686166/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/13686166/file-modification",
         "requests": "https://zenodo.org/api/records/13686166/requests"
       },
       "updated": "2024-09-04T20:37:53.882012+00:00",
@@ -964,14 +1116,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 95,
-        "unique_downloads": 53,
-        "views": 26,
-        "unique_views": 25,
-        "version_downloads": 95,
-        "version_unique_downloads": 53,
-        "version_unique_views": 25,
-        "version_views": 26
+        "downloads": 97,
+        "unique_downloads": 55,
+        "views": 28,
+        "unique_views": 27,
+        "version_downloads": 97,
+        "version_unique_downloads": 55,
+        "version_unique_views": 27,
+        "version_views": 28
       },
       "state": "done",
       "submitted": true
@@ -1049,6 +1201,7 @@
         "communities": "https://zenodo.org/api/records/11945948/communities",
         "communities-suggestions": "https://zenodo.org/api/records/11945948/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/11945948/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/11945948/file-modification",
         "requests": "https://zenodo.org/api/records/11945948/requests"
       },
       "updated": "2024-06-17T12:54:16.487747+00:00",
@@ -1073,12 +1226,12 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 441,
-        "unique_downloads": 284,
+        "downloads": 443,
+        "unique_downloads": 286,
         "views": 47,
         "unique_views": 45,
-        "version_downloads": 441,
-        "version_unique_downloads": 284,
+        "version_downloads": 443,
+        "version_unique_downloads": 286,
         "version_unique_views": 45,
         "version_views": 47
       },
@@ -1171,6 +1324,7 @@
         "communities": "https://zenodo.org/api/records/11225564/communities",
         "communities-suggestions": "https://zenodo.org/api/records/11225564/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/11225564/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/11225564/file-modification",
         "requests": "https://zenodo.org/api/records/11225564/requests"
       },
       "updated": "2024-05-21T15:06:01.782850+00:00",
@@ -1366,120 +1520,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 125,
-        "unique_downloads": 119,
+        "downloads": 127,
+        "unique_downloads": 121,
         "views": 52,
         "unique_views": 51,
-        "version_downloads": 125,
-        "version_unique_downloads": 119,
+        "version_downloads": 127,
+        "version_unique_downloads": 121,
         "version_unique_views": 51,
         "version_views": 52
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2023-10-16T12:44:33.952104+00:00",
-      "modified": "2023-10-16T12:44:34.091351+00:00",
-      "id": 10008202,
-      "conceptrecid": "10008201",
-      "doi": "10.5281/zenodo.10008202",
-      "conceptdoi": "10.5281/zenodo.10008201",
-      "doi_url": "https://doi.org/10.5281/zenodo.10008202",
-      "metadata": {
-        "title": "geNomad output",
-        "doi": "10.5281/zenodo.10008202",
-        "publication_date": "2023-10-16",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Pustam, Aarti",
-            "affiliation": null
-          }
-        ],
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "10008201"
-              }
-            }
-          ]
-        }
-      },
-      "title": "geNomad output",
-      "links": {
-        "self": "https://zenodo.org/api/records/10008202",
-        "self_html": "https://zenodo.org/records/10008202",
-        "preview_html": "https://zenodo.org/records/10008202?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.10008202",
-        "self_doi": "https://doi.org/10.5281/zenodo.10008202",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10008202",
-        "reserve_doi": "https://zenodo.org/api/records/10008202/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/10008201",
-        "parent_html": "https://zenodo.org/records/10008201",
-        "parent_doi": "https://doi.org/10.5281/zenodo.10008201",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10008201",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10008202/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10008202/sequence/default",
-        "files": "https://zenodo.org/api/records/10008202/files",
-        "media_files": "https://zenodo.org/api/records/10008202/media-files",
-        "archive": "https://zenodo.org/api/records/10008202/files-archive",
-        "archive_media": "https://zenodo.org/api/records/10008202/media-files-archive",
-        "latest": "https://zenodo.org/api/records/10008202/versions/latest",
-        "latest_html": "https://zenodo.org/records/10008202/latest",
-        "versions": "https://zenodo.org/api/records/10008202/versions",
-        "draft": "https://zenodo.org/api/records/10008202/draft",
-        "access_links": "https://zenodo.org/api/records/10008202/access/links",
-        "access_grants": "https://zenodo.org/api/records/10008202/access/grants",
-        "access_users": "https://zenodo.org/api/records/10008202/access/users",
-        "access_request": "https://zenodo.org/api/records/10008202/access/request",
-        "access": "https://zenodo.org/api/records/10008202/access",
-        "communities": "https://zenodo.org/api/records/10008202/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/10008202/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/10008202/request-deletion",
-        "requests": "https://zenodo.org/api/records/10008202/requests"
-      },
-      "updated": "2023-10-16T12:44:34.091351+00:00",
-      "recid": "10008202",
-      "revision": 4,
-      "files": [
-        {
-          "id": "6f0aea3c-ee71-4558-833b-9c34b09b6b83",
-          "key": "geNomad output.xlsx",
-          "size": 608519,
-          "checksum": "md5:c6e07614e37e891d29d3a238545c98ba",
-          "links": {
-            "self": "https://zenodo.org/api/records/10008202/files/geNomad output.xlsx/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "463861"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 32,
-        "unique_views": 30,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 30,
-        "version_views": 32
       },
       "state": "done",
       "submitted": true

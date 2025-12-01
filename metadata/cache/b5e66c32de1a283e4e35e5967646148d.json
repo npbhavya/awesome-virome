@@ -1,0 +1,262 @@
+{
+  "cache_date": "2025-12-01T08:56:46.255661",
+  "data": {
+    "paperId": "3f19021356a331cbe455f635e48068937a3a2b6e",
+    "externalIds": {
+      "PubMedCentral": "6549370",
+      "MAG": "2948377673",
+      "DBLP": "journals/bmcbi/ChenHS19",
+      "DOI": "10.1186/s12859-019-2878-2",
+      "CorpusId": 174809265,
+      "PubMed": "31164077"
+    },
+    "url": "https://www.semanticscholar.org/paper/3f19021356a331cbe455f635e48068937a3a2b6e",
+    "title": "TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data",
+    "venue": "BMC Bioinformatics",
+    "year": 2019,
+    "referenceCount": 45,
+    "citationCount": 9,
+    "influentialCitationCount": 0,
+    "openAccessPdf": {
+      "url": "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-019-2878-2",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6549370, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "authors": [
+      {
+        "authorId": "2108154263",
+        "name": "Jiao Chen"
+      },
+      {
+        "authorId": "2110010635",
+        "name": "Jiating Huang"
+      },
+      {
+        "authorId": "1790053",
+        "name": "Yanni Sun"
+      }
+    ],
+    "citations": [
+      {
+        "paperId": "c37ec074305946cc595ea6268e122236d17a4e5f",
+        "title": "Deep Learning for Cancer Detection Based on Genomic and Imaging Data: A Comprehensive Review"
+      },
+      {
+        "paperId": "75f731cecc8ccf0ad00430e589557cba0ba648e1",
+        "title": "UnCoVar: a reproducible and scalable workflow for transparent and robust virus variant calling and lineage assignment using SARS-CoV-2 as an example"
+      },
+      {
+        "paperId": "fa5272e861b918da89edeaff5f2a97c86b3fec73",
+        "title": "Setu: a pipeline for the robust assembly of SARS-CoV-2 genomes"
+      },
+      {
+        "paperId": "1ebcd2ef5d9d54bbd63a1dc138f89107af55cf81",
+        "title": "Current trends in RNA virus detection through metatranscriptome sequencing data"
+      },
+      {
+        "paperId": "0aaeb0dcce424448fd6cd02b731b44a469ac1139",
+        "title": "Agnostic Sequencing for Detection of Viral Pathogens"
+      },
+      {
+        "paperId": "54fec744074e2f7e47cffea1d7bfe532ce1f19ef",
+        "title": "Benchmark of thirteen bioinformatic pipelines for metagenomic virus diagnostics using datasets from clinical samples."
+      },
+      {
+        "paperId": "3396b94cec802408e2814601b3d6bde4c618b3a1",
+        "title": "Recommendations for the introduction of metagenomic next-generation sequencing in clinical virology, part II: bioinformatic analysis and reporting."
+      },
+      {
+        "paperId": "fe38ef4e4e19585b795048489c7645a2c29e3765",
+        "title": "VirStrain: a strain identification tool for RNA viruses"
+      },
+      {
+        "paperId": "8e2771d73d6afdf867abd36d61667670568d318e",
+        "title": "Mosquito-Borne Viral Diseases: Control and Prevention in the Genomics Era"
+      }
+    ],
+    "abstract": "Strain-level RNA virus characterization is essential for developing prevention and treatment strategies. Viral metagenomic data, which can contain sequences of both known and novel viruses, provide new opportunities for characterizing RNA viruses. Although there are a number of pipelines for analyzing viruses in metagenomic data, they have different limitations. First, viruses that lack closely related reference genomes cannot be detected with high sensitivity. Second, strain-level analysis is usually missing. In this study, we developed a hybrid pipeline named TAR-VIR that reconstructs viral strains without relying on complete or high-quality reference genomes. It is optimized for identifying RNA viruses from metagenomic data by combining an effective read classification method and our in-house strain-level de novo assembly tool. TAR-VIR was tested on both simulated and real viral metagenomic data sets. The results demonstrated that TAR-VIR competes favorably with other tested tools. TAR-VIR can be used standalone for viral strain reconstruction from metagenomic data. Or, its read recruiting stage can be used with other de novo assembly tools for superior viral functional and taxonomic analyses. The source code and the documentation of TAR-VIR are available at https://github.com/chjiao/TAR-VIR.",
+    "references": [
+      {
+        "paperId": "38b6634cd639fcb94166d9492b84bc9fef380f7e",
+        "title": "Overview of Virus Metagenomic Classification Methods and Their Biological Applications"
+      },
+      {
+        "paperId": "2a19c7a1924beb1034e07a2cb02eb267b8e8cfb5",
+        "title": "A Survey of Virus Recombination Uncovers Canonical Features of Artificial Chimeras Generated During Deep Sequencing Library Preparation"
+      },
+      {
+        "paperId": "2ddefee6c7450a2f9c90fdd3ec8a2e53d0ccd420",
+        "title": "De novo haplotype reconstruction in viral quasispecies using paired-end read guided path finding"
+      },
+      {
+        "paperId": "a67019bf7bb923c360e995d94af4b291db435fc1",
+        "title": "Discovery of an expansive bacteriophage family that includes the most abundant viruses from the human gut"
+      },
+      {
+        "paperId": "9e4cfd330eccf32ba7f8672ae0c6af4c7ffa87bf",
+        "title": "Taxonomic structure and functional association of foxtail millet root microbiome"
+      },
+      {
+        "paperId": "baeb739e1802be1c911a1b2af2b6393c866217d6",
+        "title": "Nontargeted virus sequence discovery pipeline and virus clustering for metagenomic data"
+      },
+      {
+        "paperId": "9f2b3fff62f2a64a878fd8b2a258bb372df917b0",
+        "title": "metaSPAdes: a new versatile metagenomic assembler."
+      },
+      {
+        "paperId": "76d4e26aeff09a10a1a5a144343ca0fe5378c4d2",
+        "title": "De novo assembly of viral quasispecies using overlap graphs"
+      },
+      {
+        "paperId": "de64592c6c3786b48b73cac2debc515c642e31f0",
+        "title": "drVM: a new tool for efficient genome assembly of known eukaryotic viruses from metagenomes"
+      },
+      {
+        "paperId": "fe490ac441250ad1967fe160accb01e256ebaea4",
+        "title": "MetaQUAST: evaluation of metagenome assemblies"
+      },
+      {
+        "paperId": "d0620683a194e739baca5c13917899ad7e5b2337",
+        "title": "VIP: an integrated pipeline for metagenomics of virus identification and discovery"
+      },
+      {
+        "paperId": "51d301528024f90682573e58ca84a5421760e86a",
+        "title": "ViromeScan: a new tool for metagenomic viral community profiling"
+      },
+      {
+        "paperId": "c6070db5f2e62a14f9c6bb5a90ac20fb8580087e",
+        "title": "VirusTAP: Viral Genome-Targeted Assembly Pipeline"
+      },
+      {
+        "paperId": "dd5fa294673a2606e37f334e7e5ec2b1ba53d24d",
+        "title": "Virome analysis of antiretroviral-treated HIV patients shows no correlation between T-cell activation and anelloviruses levels."
+      },
+      {
+        "paperId": "8128a4cf0965d25acc1e2767feec617422784f75",
+        "title": "Karect: accurate correction of substitution, insertion and deletion errors for next-generation sequencing data"
+      },
+      {
+        "paperId": "42d65c146db1c9874da25a685147ba7d92b214d0",
+        "title": "Lessons from Ebola: Improving infectious disease surveillance to inform outbreak management"
+      },
+      {
+        "paperId": "2772e527dc57592395ade364f55a7663512574ee",
+        "title": "Early life dynamics of the human gut virome and bacterial microbiome in infants"
+      },
+      {
+        "paperId": "34e8eac75ea58fa04b6d5749a564e8916440a3b5",
+        "title": "ViQuaS: an improved reconstruction pipeline for viral quasispecies spectra generated by next-generation sequencing"
+      },
+      {
+        "paperId": "291eb3e7643d635624bad51912db056084e32118",
+        "title": "Unraveling the Web of Viroinformatics: Computational Tools and Databases in Virus Research"
+      },
+      {
+        "paperId": "d4d6bef7e3df07197a9882a89f140a394e3c6a5c",
+        "title": "A cloud-compatible bioinformatics pipeline for ultrarapid pathogen identification from next-generation sequencing of clinical samples"
+      },
+      {
+        "paperId": "d76f06b0156534df4d79e91a7330ffdeee04dcb3",
+        "title": "VGA: A method for viral quasispecies assembly from ultra-deep sequencing data"
+      },
+      {
+        "paperId": "0dccb88b4afcb167d5e2072df2dc78e47d1acf01",
+        "title": "Metavir 2: new tools for viral metagenome comparison and assembled virome analysis"
+      },
+      {
+        "paperId": "f6cd11d6dcb1573d371fd221fb5c67a5d77c6b4f",
+        "title": "Viral Quasispecies Assembly via Maximal Clique Enumeration"
+      },
+      {
+        "paperId": "1b06040c3368d711f69e91685fdc8d7366f0a5f2",
+        "title": "Expanding the Marine Virosphere Using Metagenomics"
+      },
+      {
+        "paperId": "a31c592c923c79f43927763701cecd32e1f8d1b0",
+        "title": "An elegant algorithm for the construction of suffix arrays"
+      },
+      {
+        "paperId": "18002ee979061d6dde60d2d84375bb2feb1555b1",
+        "title": "PRICE: Software for the Targeted Assembly of Components of (Meta) Genomic Sequence Data"
+      },
+      {
+        "paperId": "c22cdf94cd8c28cda75205f4060550370d6a93cc",
+        "title": "Readjoiner: a fast and memory efficient string graph-based sequence assembler"
+      },
+      {
+        "paperId": "8f80cc9ad154795fbbf187c660d4c13a60deb7ed",
+        "title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing"
+      },
+      {
+        "paperId": "6fca260e9a3c37e246cc15e7639d1a5fa2aed465",
+        "title": "Fast gapped-read alignment with Bowtie 2"
+      },
+      {
+        "paperId": "3db83bc91d0aa801301a9c063bbfd9d4202f89f2",
+        "title": "Efficient de novo assembly of large genomes using compressed data structures."
+      },
+      {
+        "paperId": "cdb91f039a0e7f5fde482d930f2acab358758691",
+        "title": "ART: a next-generation sequencing read simulator"
+      },
+      {
+        "paperId": "e692654e1c0a3478ad4ba8b7c38f33a67be0b624",
+        "title": "Quasispecies dynamics with network constraints."
+      },
+      {
+        "paperId": "83e21271aa794fd03ec49c059ec6fb831307a3b5",
+        "title": "ViPR: an open bioinformatics database and analysis resource for virology research"
+      },
+      {
+        "paperId": "a66b2486a1ae6580944eabb8a6fc9449caa205c0",
+        "title": "BLAST+: architecture and applications"
+      },
+      {
+        "paperId": "eb41f630c7fbd1b41a4fbb41dc4b1bffa8e1cf95",
+        "title": "BIOINFORMATICS ORIGINAL PAPER"
+      },
+      {
+        "paperId": "6a23ca4f444df5fee30d0b1bd12c5c73e62e93e9",
+        "title": "VISTA: computational tools for comparative genomics"
+      },
+      {
+        "paperId": "cb1cfedf62d45ea4b2fcbd56080e7aec83c27124",
+        "title": "SARS: epidemiology"
+      },
+      {
+        "paperId": "a21dc8520bb5faf821493e9aeaff197150643504",
+        "title": "Simple Linear Work Suffix Array Construction"
+      },
+      {
+        "paperId": "f5e5f365acc6f00c014c523c65efd9df6cee2606",
+        "title": "Linear-Time Longest-Common-Prefix Computation in Suffix Arrays and Its Applications"
+      },
+      {
+        "paperId": "13116757b56edaea0844471249af6aadb278af95",
+        "title": "Ecogenomics and potential biogeochemical impacts of globally abundant ocean 1 viruses 2"
+      },
+      {
+        "paperId": null,
+        "title": "BMTagger: Best Match Tagger for removing human reads from metagenomics"
+      },
+      {
+        "paperId": "21f389aabe2491d620ce920e3bad2b12521fa025",
+        "title": "Algorithms on Strings, Trees, and Sequences - Computer Science and Computational Biology"
+      },
+      {
+        "paperId": "af56e6d4901dcd0f589bf969e604663d40f1be5d",
+        "title": "A Block-sorting Lossless Data Compression Algorithm"
+      },
+      {
+        "paperId": "a1dc62ebec4811133d72713a2929358e29627c00",
+        "title": "Distributed under Creative Commons Cc-by 4.0 Virsorter: Mining Viral Signal from Microbial Genomic Data"
+      },
+      {
+        "paperId": "54f0c3d233d3ea7f6849bfc9eb4427daaa16384e",
+        "title": "phylogenetic and functional analysis of metagenomes"
+      }
+    ]
+  }
+}

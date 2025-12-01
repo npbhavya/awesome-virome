@@ -1,0 +1,3204 @@
+{
+  "cache_date": "2025-12-01T08:55:53.333455",
+  "data": [
+    {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2025-02-21T00:32:57Z",
+        "timestamp": 1740097977005,
+        "version": "3.37.3"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 18,
+      "publisher": "Cold Spring Harbor Laboratory",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                5
+              ]
+            ],
+            "date-time": "2017-01-05T00:00:00Z",
+            "timestamp": 1483574400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Backround</jats:title><jats:p>Complete and accurate annotation of sequenced genomes is of paramount importance to their utility and analysis. Differences in gene prediction pipelines mean that genome sequences for a species can differ considerably in the quality and quantity of their predicted genes. Furthermore, genes that are present in genome sequences sometimes fail to be detected by computational gene prediction methods. Erroneously unannotated genes can lead to oversights and inaccurate assertions in biological investigations, especially for smaller-scale genome projects which rely heavily on computational prediction.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>Here we present OrthoFiller, a tool designed to address the problem of finding and adding such missing genes to genome annotations. OrthoFiller leverages information from multiple related species to identify those genes whose existence can be verified through comparison with known gene families, but which have not been predicted. By simulating missing gene annotations in real sequence datasets from both plants and fungi we demonstrate the accuracy and utility of OrthoFiller for finding missing genes and improving genome annotation. Furthermore, we show that applying OrthoFiller to existing \u201ccomplete\u201d genome annotations can identify and correct substantial numbers of erroneously missing genes in these two sets of species.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>We show that significant improvements in the completeness of genome annotations can be made by leveraging information from multiple species.</jats:p></jats:sec>",
+      "DOI": "10.1101/098566",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            6
+          ]
+        ],
+        "date-time": "2017-01-06T06:10:16Z",
+        "timestamp": 1483683016000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "OrthoFiller: utilising data from multiple species to improve the completeness of genome annotations"
+      ],
+      "prefix": "10.1101",
+      "author": [
+        {
+          "given": "Michael P.",
+          "family": "Dunne",
+          "sequence": "first",
+          "affiliation": []
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8583-5362",
+          "authenticated-orcid": false,
+          "given": "Steven",
+          "family": "Kelly",
+          "sequence": "additional",
+          "affiliation": []
+        }
+      ],
+      "member": "246",
+      "reference": [
+        {
+          "key": "2024080313121792000_098566v1.1",
+          "first-page": "295",
+          "article-title": "The $1,000 genome",
+          "volume": "507",
+          "year": "2014",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024080313121792000_098566v1.2",
+          "unstructured": "K. Wetterstrand , \u201cDNA Sequencing Costs: Data from the NHGRI Genome Sequencing Program (GSP),\u201d Mar-2016. [Online]. Available: www.genome.gov/sequencingcosts."
+        },
+        {
+          "key": "2024080313121792000_098566v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3174"
+        },
+        {
+          "key": "2024080313121792000_098566v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. F. Denton , J. Lugo-Martinez , A. E. Tucker , D. R. Schrider , W. C. Warren , and M. W. Hahn , \u201cExtensive Error in the Number of Genes Inferred from Draft Genome Assemblies,\u201d PLOS Comput. Biol., vol. 10, no. 12, 2014.",
+          "DOI": "10.1371/journal.pcbi.1003998"
+        },
+        {
+          "key": "2024080313121792000_098566v1.5",
+          "unstructured": "E. V. Koonin and M. Y. Galperin , \u201cGenome Annotation and Analysis,\u201d in Sequence - Evolution - Function: Computational Approaches in Comparative Genomics., Boston: Kluwer Academic."
+        },
+        {
+          "issue": "1",
+          "key": "2024080313121792000_098566v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1186/1471-2105-15-19",
+          "article-title": "Automated alignment-based curation of gene models in filamentous fungi",
+          "volume": "15",
+          "year": "2014",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2024080313121792000_098566v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-015-0721-2"
+        },
+        {
+          "issue": "2",
+          "key": "2024080313121792000_098566v1.8",
+          "first-page": "465",
+          "article-title": "AUGUSTUS: A web server for gene prediction in eukaryotes that allows user-defined constraints",
+          "volume": "33",
+          "year": "2005",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024080313121792000_098566v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1095781"
+        },
+        {
+          "key": "2024080313121792000_098566v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02579"
+        },
+        {
+          "key": "2024080313121792000_098566v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1567-1364.2008.00409.x"
+        },
+        {
+          "key": "2024080313121792000_098566v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr944"
+        },
+        {
+          "key": "2024080313121792000_098566v1.13",
+          "unstructured": "R. Leinonen , H. Sugawara , and M. Shumway , \u201cThe sequence read archive,\u201d vol. 454, pp. 1\u20133, 2010."
+        },
+        {
+          "key": "2024080313121792000_098566v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/mst010"
+        },
+        {
+          "key": "2024080313121792000_098566v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. D. Finn , J. Clements , and S. R. Eddy , \u201cHMMER web server: interactive sequence similarity searching,\u201d Nucleic Acids Res., p. gkr367, 2011.",
+          "DOI": "10.1093/nar/gkr367"
+        },
+        {
+          "key": "2024080313121792000_098566v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/sysbio/sys062"
+        },
+        {
+          "key": "2024080313121792000_098566v1.17",
+          "unstructured": "D. M. Stasinopoulos and R. A. Rigby , \u201cGeneralized additive models for location scale and shape (GAMLSS) in R,\u201d J. Stat. Softw., vol. VV, no. Ii."
+        },
+        {
+          "key": "2024080313121792000_098566v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1017351108"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/098566",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            3
+          ]
+        ],
+        "date-time": "2024-08-03T20:18:24Z",
+        "timestamp": 1722716304000
+      },
+      "score": 27.98834,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/098566"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            5
+          ]
+        ]
+      },
+      "references-count": 18,
+      "URL": "https://doi.org/10.1101/098566",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    },
+    {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2025-11-28T17:22:05Z",
+        "timestamp": 1764350525968,
+        "version": "3.37.3"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "Cold Spring Harbor Laboratory",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            31
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Recent long-read assemblies often exceed the quality and completeness of available reference genomes, making validation challenging. Here we present Merqury, a novel tool for reference-free assembly evaluation based on efficient k-mer set operations. By comparing k-mers in a <jats:italic>de novo</jats:italic> assembly to those found in unassembled high-accuracy reads, Merqury estimates base-level accuracy and completeness. For trios, Merqury can also evaluate haplotype-specific accuracy, completeness, phase block continuity, and switch errors. Multiple visualizations, such as k-mer spectrum plots, can be generated for evaluation. We demonstrate on both human and plant genomes that Merqury is a fast and robust method for assembly validation.</jats:p><jats:sec><jats:title>Availability of data and material</jats:title><jats:p>Project name: Merqury</jats:p><jats:p>Project home page: <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/marbl/merqury\">https://github.com/marbl/merqury</jats:ext-link>, <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/marbl/meryl\">https://github.com/marbl/meryl</jats:ext-link></jats:p><jats:p>Archived version: <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/marbl/merqury/releases/tag/v1.0\">https://github.com/marbl/merqury/releases/tag/v1.0</jats:ext-link></jats:p><jats:p>Operating system(s): Platform independent</jats:p><jats:p>Programming language: C++, Java, Perl</jats:p><jats:p>Other requirements: gcc 4.8 or higher, java 1.6 or higher</jats:p><jats:p>License: Public domain (see <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/marbl/merqury/blob/master/README.license\">https://github.com/marbl/merqury/blob/master/README.license</jats:ext-link>) Any restrictions to use by non-academics: No restrictions applied</jats:p></jats:sec>",
+      "DOI": "10.1101/2020.03.15.992941",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            17
+          ]
+        ],
+        "date-time": "2020-03-17T21:09:36Z",
+        "timestamp": 1584479376000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 21,
+      "title": [
+        "Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies"
+      ],
+      "prefix": "10.1101",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9809-8127",
+          "authenticated-orcid": false,
+          "given": "Arang",
+          "family": "Rhie",
+          "sequence": "first",
+          "affiliation": []
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8431-1428",
+          "authenticated-orcid": false,
+          "given": "Brian P.",
+          "family": "Walenz",
+          "sequence": "additional",
+          "affiliation": []
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1472-8962",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Koren",
+          "sequence": "additional",
+          "affiliation": []
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2983-8934",
+          "authenticated-orcid": false,
+          "given": "Adam M.",
+          "family": "Phillippy",
+          "sequence": "additional",
+          "affiliation": []
+        }
+      ],
+      "member": "246",
+      "reference": [
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1162986"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1155",
+          "DOI": "10.1038/s41587-019-0217-9",
+          "article-title": "Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome",
+          "volume": "37",
+          "year": "2019",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4060"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.214874.116"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1067799"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2206"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3454"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature20098"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4035"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1174",
+          "DOI": "10.1038/nbt.4277",
+          "article-title": "De novo assembly of haplotype-resolved genomes with trio binning",
+          "volume": "36",
+          "year": "2018",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "i115",
+          "DOI": "10.1093/bioinformatics/bty290",
+          "article-title": "Strand-seq enables reliable separation of long reads by chromosome via expectation maximization",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/327064"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/810341"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/855049"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.15"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "3210",
+          "DOI": "10.1093/bioinformatics/btv351",
+          "article-title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+          "volume": "31",
+          "year": "2015",
+          "journal-title": "Bioinforma. Oxf. Engl"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw663"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "i142",
+          "DOI": "10.1093/bioinformatics/bty266",
+          "article-title": "Versatile genome assembly evaluation with QUAST-LG",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinforma. Oxf. Engl"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1007308"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09078-0"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.213462.116"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "498",
+          "DOI": "10.1089/cmb.2014.0157",
+          "article-title": "WhatsHap: Weighted Haplotype Assembly for Future-Generation Sequencing Reads",
+          "volume": "22",
+          "year": "2015",
+          "journal-title": "J. Comput. Biol. J. Comput. Mol. Cell Biol"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2835"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.24",
+          "first-page": "1",
+          "article-title": "Extensive sequencing of seven human genomes to characterize benchmark reference materials",
+          "volume": "3",
+          "year": "2016",
+          "journal-title": "Sci. Data"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0054-x"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.210500.116"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/735928"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3257"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-020-0210-7"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.30",
+          "unstructured": "Human Pangenome Reference Consortium. Human Pangenome Reference Consortium https://humanpangenome.org/."
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.31",
+          "unstructured": "Vertebrate Genomes Project. Vertebrate Genomes Project https://vertebrategenomesproject.org."
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.215087.116"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2474"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa025"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx153"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1754"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbs017"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "232",
+          "DOI": "10.1186/s13059-019-1841-x",
+          "article-title": "Mash Screen: high-throughput sequence containment estimation for genome discovery",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.39",
+          "first-page": "1005",
+          "article-title": "A large genome center\u2019s improvements to the Illumina sequencing system. Nat",
+          "volume": "5",
+          "year": "2008",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.40",
+          "first-page": "291",
+          "article-title": "Amplification-free Illumina sequencing-library preparation facilitates improved mapping and assembly of (G+C)-biased genomes. Nat",
+          "volume": "6",
+          "year": "2009",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-13-1"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn548"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth266"
+        },
+        {
+          "key": "2020040410250680000_2020.03.15.992941v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.8.3.175"
+        },
+        {
+          "journal-title": "Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM",
+          "year": "2013",
+          "key": "2020040410250680000_2020.03.15.992941v2.45"
+        },
+        {
+          "journal-title": "Haplotype-based variant detection from short-read sequencing",
+          "year": "2012",
+          "key": "2020040410250680000_2020.03.15.992941v2.46"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.03.15.992941",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            12,
+            8
+          ]
+        ],
+        "date-time": "2020-12-08T02:43:13Z",
+        "timestamp": 1607395393000
+      },
+      "score": 26.73132,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.03.15.992941"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            17
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2020.03.15.992941",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13059-020-02134-9",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2025-10-30T22:39:17Z",
+        "timestamp": 1761863957630,
+        "version": "3.37.3"
+      },
+      "reference-count": 31,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                3,
+                27
+              ]
+            ],
+            "date-time": "2019-03-27T00:00:00Z",
+            "timestamp": 1553644800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                3,
+                27
+              ]
+            ],
+            "date-time": "2019-03-27T00:00:00Z",
+            "timestamp": 1553644800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000051",
+          "name": "National Human Genome Research Institute",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "U41HG002273"
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000051",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "BMC Bioinformatics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1186/s12859-019-2752-2",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            27
+          ]
+        ],
+        "date-time": "2019-03-27T17:11:37Z",
+        "timestamp": 1553706697000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 21,
+      "title": [
+        "GO functional similarity clustering depends on similarity measure, clustering method, and annotation completeness"
+      ],
+      "prefix": "10.1186",
+      "volume": "20",
+      "author": [
+        {
+          "given": "Meng",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": []
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9074-3507",
+          "authenticated-orcid": false,
+          "given": "Paul D.",
+          "family": "Thomas",
+          "sequence": "additional",
+          "affiliation": []
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            27
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "2752_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "25",
+          "DOI": "10.1038/75556",
+          "volume": "25",
+          "author": "M Ashburner",
+          "year": "2000",
+          "unstructured": "Ashburner M, Ball C, Blake J, Botstein D, Butler H, Cherry J, et al. Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat Genet. 2000;25(1):25\u20139. \n                    https://doi.org/10.1038/75556\n                    \n                  .",
+          "journal-title": "Nat Genet"
+        },
+        {
+          "issue": "Database issue",
+          "key": "2752_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "D1049",
+          "DOI": "10.1093/nar/gku1179",
+          "volume": "43",
+          "author": "Gene Ontology C",
+          "year": "2015",
+          "unstructured": "Gene Ontology C. Ontology Consortium: going forward. Nucleic Acids Res. 2015;43(Database issue):D1049\u201356. \n                    https://doi.org/10.1093/nar/gku1179\n                    \n                  .",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "issue": "D1",
+          "key": "2752_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "D183",
+          "DOI": "10.1093/nar/gkw1138",
+          "volume": "45",
+          "author": "H Mi",
+          "year": "2017",
+          "unstructured": "Mi H, Huang X, Muruganujan A, Tang H, Mills C, Kang D, et al. PANTHER version 11: expanded annotation data from Gene Ontology and Reactome pathways, and data analysis tool enhancements. Nucleic Acids Res. 2017;45(D1):D183\u20139.",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2752_CR4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Nota B. Gogadget: an R Package for Interpretation and Visualization of GO Enrichment Results. Mol Inform. 2016;36(5\u20136). \n                    https://doi.org/10.1002/minf.201600132\n                    \n                  .",
+          "DOI": "10.1002/minf.201600132"
+        },
+        {
+          "issue": "43",
+          "key": "2752_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "15545",
+          "DOI": "10.1073/pnas.0506580102",
+          "volume": "102",
+          "author": "A Subramanian",
+          "year": "2005",
+          "unstructured": "Subramanian A, Tamayo P, Mootha V, Mukherjee S, Ebert B, Gillette M, et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles. Proc Natl Acad Sci U S A. 2005;102(43):15545\u201350. \n                    https://doi.org/10.1073/pnas.0506580102\n                    \n                  .",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "issue": "2",
+          "key": "2752_CR6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0055635",
+          "volume": "8",
+          "author": "B Chang",
+          "year": "2013",
+          "unstructured": "Chang B, Kustra R, Tian W. Functional-network-based gene set analysis using gene-ontology. PLoS One. 2013;8(2):e55635. \n                    https://doi.org/10.1371/journal.pone.0055635\n                    \n                  .",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2752_CR7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Oliveira G, Santos A. Using the Gene Ontology tool to produce de novo protein-protein interaction networks with IS_A relationship. Genet Mol Res. 2016;15(4). \n                    https://doi.org/10.4238/gmr15049273\n                    \n                  .",
+          "DOI": "10.4238/gmr15049273"
+        },
+        {
+          "key": "2752_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "103",
+          "DOI": "10.1016/j.brainres.2007.07.047",
+          "volume": "1177",
+          "author": "Z Feng",
+          "year": "2007",
+          "unstructured": "Feng Z, Davis D, S\u2019asik R, Patel H, Drummond J, Patel P. Pathway and gene ontology based analysis of gene expression in a rat model of cerebral ischemic tolerance. Brain Res. 2007;1177:103\u201323. \n                    https://doi.org/10.1016/j.brainres.2007.07.047\n                    \n                  .",
+          "journal-title": "Brain Res"
+        },
+        {
+          "key": "2752_CR9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hill D, D\u2019Eustachio P, Berardini T, Mungall C, Renedo N, Blake J. Modeling biochemical pathways in the gene ontology. Database (Oxford). 2016. \n                    https://doi.org/10.1093/database/baw126\n                    \n                  .",
+          "DOI": "10.1093/database/baw126"
+        },
+        {
+          "key": "2752_CR10",
+          "first-page": "296",
+          "volume-title": "In Proceedings of the 15th International Conference on Machine Learning",
+          "author": "D Lin",
+          "year": "1998",
+          "unstructured": "Lin D. An information-theoretic definition of similarity. In: In Proceedings of the 15th International Conference on Machine Learning. San Francisco, CA: Morgan Kaufmann; 1998. p. 296\u2013304."
+        },
+        {
+          "key": "2752_CR11",
+          "unstructured": "Jiang J, Conrath DW. Semantic Similarity Based on Corpus Statistics and Lexical Taxonomy. In: Proc of 10th International Conference on Research in Computational Linguistics, ROCLING\u201997. Taiwan; 1997. 12. Resnik P. Using information content to evaluate semantic similarity in a taxonomy. In: In Proceedings of the 14th International Joint Conference on Artificial Intelligence; 1995. p. 448\u2013453."
+        },
+        {
+          "issue": "Database issue",
+          "key": "2752_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "D434",
+          "DOI": "10.1093/nar/gkm806",
+          "volume": "36",
+          "author": "A Schlicker",
+          "year": "2008",
+          "unstructured": "Schlicker A, Albrecht M. FunSimMat: a comprehensive functional similarity database. Nucleic Acids Res. 2008;36(Database issue):D434\u20139. \n                    https://doi.org/10.1093/nar/gkm806\n                    \n                  .",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "issue": "10",
+          "key": "2752_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "1275",
+          "DOI": "10.1093/bioinformatics/btg153",
+          "volume": "19",
+          "author": "PW Lord",
+          "year": "2003",
+          "unstructured": "Lord PW, Stevens R, Brass A, Goble C. Investigating semantic similarity measures across the Gene Ontology: the relationship between sequence and annotation. Bioinformatics. 2003;19(10):1275\u201383.",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2752_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "302",
+          "DOI": "10.1186/1471-2105-7-302",
+          "volume": "7",
+          "author": "A Schlicker",
+          "year": "2006",
+          "unstructured": "Schlicker A, Domingues F, Rahnenfu\u00a8hrer J, Lengauer T. A new measure for functional similarity of gene products based on Gene Ontology. BMC Bioinf. 2006;7:302. \n                    https://doi.org/10.1186/1471-2105-7-302\n                    \n                  .",
+          "journal-title": "BMC Bioinf"
+        },
+        {
+          "key": "2752_CR15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-468",
+          "volume": "9",
+          "author": "B Sheehan",
+          "year": "2008",
+          "unstructured": "Sheehan B, Quigley A, Gaudin B, Dobson S. A relation based measure of semantic similarity for Gene Ontology annotations. BMC Bioinf. 2008;9:468. \n                    https://doi.org/10.1186/1471-2105-9-468\n                    \n                  .",
+          "journal-title": "BMC Bioinf"
+        },
+        {
+          "key": "2752_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "3",
+          "DOI": "10.1186/2041-1480-2-3",
+          "volume": "2",
+          "author": "M Alvarez",
+          "year": "2011",
+          "unstructured": "Alvarez M, Qi X, Yan C. A shortest-path graph kernel for estimating gene product semantic similarity. J Biomed Semant. 2011;2:3. \n                    https://doi.org/10.1186/2041-1480-2-3\n                    \n                  .",
+          "journal-title": "J Biomed Semant"
+        },
+        {
+          "key": "2752_CR17",
+          "unstructured": "Bodenreider O, Aubry M, Burgun A. Non-lexical approaches to identifying associative relations in the gene ontology. Pac Symp Biocomput. 2005;10:91\u2013102. \n                    https://psb.stanford.edu/psb-online/proceedings/psb05/bodenreider.pdf\n                    \n                  ."
+        },
+        {
+          "issue": "7",
+          "key": "2752_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "e1000443",
+          "DOI": "10.1371/journal.pcbi.1000443",
+          "volume": "5",
+          "author": "C Pesquita",
+          "year": "2009",
+          "unstructured": "Pesquita C, Faria D, Falc\u02dcao A, Lord P, Couto F. Semantic similarity in biomedical ontologies. PLoS Comput Biol. 2009;5(7):e1000443. \n                    https://doi.org/10.1371/journal.pcbi.1000443\n                    \n                  .",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "issue": "8",
+          "key": "2752_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "967",
+          "DOI": "10.1093/bioinformatics/btl042",
+          "volume": "22",
+          "author": "X Guo",
+          "year": "2006",
+          "unstructured": "Guo X, Liu R, Shriver C, Hu H, Liebman M. Assessing semantic similarity measures for the characterization of human regulatory pathways. Bioinformatics. 2006;22(8):967\u201373. \n                    https://doi.org/10.1093/bioinformatics/btl042\n                    \n                  .",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2752_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "e113859",
+          "DOI": "10.1371/journal.pone.0113859.eCollection2014",
+          "volume": "9",
+          "author": "G Mazandu",
+          "year": "2014",
+          "unstructured": "Mazandu G, Mulder N. Information content-based Gene Ontology functional similarity measures: which one to use for a given biological data type? PLoS One. 2014;9(12):e113859. \n                    https://doi.org/10.1371/journal.pone.0113859.eCollection2014\n                    \n                  .",
+          "journal-title": "PLoS One"
+        },
+        {
+          "issue": "7",
+          "key": "2752_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "e21800",
+          "DOI": "10.1371/journal.pone.0021800",
+          "volume": "6",
+          "author": "F Supek",
+          "year": "2011",
+          "unstructured": "Supek F, Bo\u02c7snjak M, S\u02c7kunca N, S\u02c7muc T. REVIGO summarizes and visualizes long lists of gene ontology terms. PLoS One. 2011;6(7):e21800. \n                    https://doi.org/10.1371/journal.pone.0021800\n                    \n                  .",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2752_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "117",
+          "DOI": "10.1186/1752-0509-5-117",
+          "volume": "5",
+          "author": "J Cho",
+          "year": "2011",
+          "unstructured": "Cho J, Wang K, Galas D. An integrative approach to inferring biologically meaningful gene modules. BMC Syst Biol. 2011;5:117. \n                    https://doi.org/10.1186/1752-0509-5-117\n                    \n                  .",
+          "journal-title": "BMC Syst Biol"
+        },
+        {
+          "issue": "301",
+          "key": "2752_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "236",
+          "DOI": "10.1080/01621459.1963.10500845",
+          "volume": "58",
+          "author": "JHJ Ward",
+          "year": "1963",
+          "unstructured": "Ward JHJ. Hierarchical Grouping to Optimize an Objective Function. J Am Stat Assoc. 1963;58(301):236\u201344. \n                    https://doi.org/10.1080/01621459.1963.10500845\n                    \n                  .",
+          "journal-title": "J Am Stat Assoc"
+        },
+        {
+          "issue": "2",
+          "key": "2752_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "151",
+          "DOI": "10.1007/s00357-005-0012-9",
+          "volume": "22",
+          "author": "GJ Szekely",
+          "year": "2005",
+          "unstructured": "Szekely GJ, Rizzo ML. Hierarchical Clustering via Joint Between-Within Distances: Extending Ward\u2019s Minimum Variance Method. J Classif. 2005;22(2):151\u201383.",
+          "journal-title": "J Classif"
+        },
+        {
+          "issue": "12",
+          "key": "2752_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "i34",
+          "DOI": "10.1093/bioinformatics/btu282",
+          "volume": "30",
+          "author": "M Kramer",
+          "year": "2014",
+          "unstructured": "Kramer M, Dutkowski J, Yu M, Bafna V, Ideker T. Inferring gene ontologies from pairwise similarity data. Bioinformatics. 2014;30(12):i34\u201342. \n                    https://doi.org/10.1093/bioinformatics/btu282\n                    \n                  .",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "11",
+          "key": "2752_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "609",
+          "DOI": "10.1016/j.tig.2013.09.005",
+          "volume": "29",
+          "author": "C Dessimoz",
+          "year": "2013",
+          "unstructured": "Dessimoz C, S\u02c7kunca N, Thomas P. CAFA and the open world of protein function predictions. Trends Genet. 2013;29(11):609\u201310. \n                    https://doi.org/10.1016/j.tig.2013.09.005\n                    \n                  .",
+          "journal-title": "Trends Genet"
+        },
+        {
+          "key": "2752_CR27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-166",
+          "volume": "8",
+          "author": "H Frohlich",
+          "year": "2007",
+          "unstructured": "Frohlich H, Speer N, Poustka A, Beissbarth T. GOSim\u2013an R-package for computation of information theoretic GO similarities between terms and gene products. BMC Bioinf. 2007;8:166. \n                    https://doi.org/10.1186/1471-2105-8-166\n                    \n                  .",
+          "journal-title": "BMC Bioinf"
+        },
+        {
+          "issue": "1",
+          "key": "2752_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "11",
+          "DOI": "10.1186/1756-0381-1-11",
+          "volume": "1",
+          "author": "K Ovaska",
+          "year": "2008",
+          "unstructured": "Ovaska K, Laakso M, Hautaniemi S. Fast gene ontology based clustering for microarray experiments. BioData Min. 2008;1(1):11. \n                    https://doi.org/10.1186/1756-0381-1-11\n                    \n                  .",
+          "journal-title": "BioData Min"
+        },
+        {
+          "issue": "7",
+          "key": "2752_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "976",
+          "DOI": "10.1093/bioinformatics/btq064",
+          "volume": "26",
+          "author": "G Yu",
+          "year": "2010",
+          "unstructured": "Yu G, Li F, Qin Y, Bo X, Wu Y, Wang S. GOSemSim: an R package for measuring semantic similarity among GO terms and gene products. Bioinformatics. 2010;26(7):976\u20138. \n                    https://doi.org/10.1093/bioinformatics/btq064\n                    \n                  .",
+          "journal-title": "Bioinformatics."
+        },
+        {
+          "issue": "1",
+          "key": "2752_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "73",
+          "DOI": "10.1093/nar/26.1.73",
+          "volume": "26",
+          "author": "JM Cherry",
+          "year": "1998",
+          "unstructured": "Cherry JM, Adler C, Ball C, Chervitz SA, Dwight SS, Hester ET, et al. SGD: Saccharomyces Genome Database. Nucleic Acids Res. 1998;26(1):73\u20139. \n                    https://doi.org/10.1093/nar/26.1.73\n                    \n                  .",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "issue": "Database issue",
+          "key": "2752_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "D476",
+          "DOI": "10.1093/nar/gkh125",
+          "volume": "32",
+          "author": "C Bult",
+          "year": "2004",
+          "unstructured": "Bult C, Blake J, Richardson J, Kadin J, Eppig J, Baldarelli R, et al. The Mouse Genome Database (MGD): integrating biology with the genome. Nucleic Acids Res. 2004;32(Database issue):D476\u201381. \n                    https://doi.org/10.1093/nar/gkh125\n                    \n                  .",
+          "journal-title": "Nucleic Acids Res"
+        }
+      ],
+      "container-title": [
+        "BMC Bioinformatics"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1186/s12859-019-2752-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1186/s12859-019-2752-2/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1186/s12859-019-2752-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2020-05-14T11:26:27Z",
+        "timestamp": 1589455587000
+      },
+      "score": 25.659168,
+      "resource": {
+        "primary": {
+          "URL": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2752-2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            27
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "2752"
+      ],
+      "URL": "https://doi.org/10.1186/s12859-019-2752-2",
+      "ISSN": [
+        "1471-2105"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "1471-2105"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            27
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "25 August 2018",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "19 March 2019",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "27 March 2019",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Not applicable",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics approval and consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors declare that they have no competing interests.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Publisher\u2019s Note"
+          }
+        }
+      ],
+      "article-number": "155"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            29
+          ]
+        ],
+        "date-time": "2025-11-29T16:18:28Z",
+        "timestamp": 1764433108891
+      },
+      "reference-count": 6,
+      "publisher": "Oxford University Press (OUP)",
+      "issue": "22",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                7,
+                7
+              ]
+            ],
+            "date-time": "2017-07-07T00:00:00Z",
+            "timestamp": 1499385600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Along with the increasing accessibility to comprehensive sequence information, such as whole genomes and transcriptomes, the demand for assessing their quality has been multiplied. To this end, metrics based on sequence lengths, such as N50, have become a standard, but they only evaluate one aspect of assembly quality. Conversely, analyzing the coverage of pre-selected reference protein-coding genes provides essential content-based quality assessment, but the currently available pipelines for this purpose, CEGMA and BUSCO, do not have a user-friendly interface to serve as a uniform environment for assembly completeness assessment.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Here, we introduce a brand-new web server, gVolante, which provides an online tool for (i) on-demand completeness assessment of sequence sets by means of the previously developed pipelines CEGMA and BUSCO and (ii) browsing pre-computed completeness scores for publicly available data in its database section. Completeness assessments performed on gVolante report scores based on not just the coverage of reference genes but also on sequence lengths (e.g. N50 scaffold length), allowing quality control in multiple aspects. Using gVolante, one can compare the quality of original assemblies between their multiple versions (obtained through program choice and parameter tweaking, for example) and evaluate them in comparison to the scores of public resources found in the database section.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>gVoalte is freely available at https://gvolante.riken.jp/.</jats:p>\n               </jats:sec>",
+      "DOI": "10.1093/bioinformatics/btx445",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            6
+          ]
+        ],
+        "date-time": "2017-07-06T11:11:39Z",
+        "timestamp": 1499339499000
+      },
+      "page": "3635-3637",
+      "source": "Crossref",
+      "is-referenced-by-count": 301,
+      "title": [
+        "gVolante for standardizing completeness assessment of genome and transcriptome assemblies"
+      ],
+      "prefix": "10.1093",
+      "volume": "33",
+      "author": [
+        {
+          "given": "Osamu",
+          "family": "Nishimura",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Phyloinformatics Unit, RIKEN Center for Life Science Technologies, Kobe, Hyogo, Japan"
+            }
+          ]
+        },
+        {
+          "given": "Yuichiro",
+          "family": "Hara",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Phyloinformatics Unit, RIKEN Center for Life Science Technologies, Kobe, Hyogo, Japan"
+            }
+          ]
+        },
+        {
+          "given": "Shigehiro",
+          "family": "Kuraku",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Phyloinformatics Unit, RIKEN Center for Life Science Technologies, Kobe, Hyogo, Japan"
+            }
+          ]
+        }
+      ],
+      "member": "286",
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            7
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2023051308381408100_btx445-B1",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.1186/2047-217X-2-10",
+          "article-title": "Assemblathon 2: evaluating de novo methods of genome assembly in three vertebrate species",
+          "volume": "2",
+          "author": "Bradnam",
+          "year": "2013",
+          "journal-title": "GigaScience"
+        },
+        {
+          "key": "2023051308381408100_btx445-B2",
+          "doi-asserted-by": "crossref",
+          "first-page": "977",
+          "DOI": "10.1186/s12864-015-2007-1",
+          "article-title": "Optimizing and benchmarking de novo transcriptome sequencing: from library preparation to assembly evaluation",
+          "volume": "16",
+          "author": "Hara",
+          "year": "2015",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2023051308381408100_btx445-B3",
+          "doi-asserted-by": "crossref",
+          "first-page": "W22",
+          "DOI": "10.1093/nar/gkt389",
+          "article-title": "aLeaves facilitates on-demand exploration of metazoan gene family trees on MAFFT sequence alignment server with enhanced interactivity",
+          "volume": "41",
+          "author": "Kuraku",
+          "year": "2013",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023051308381408100_btx445-B4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1093/bioinformatics/btm071",
+          "article-title": "CEGMA: a pipeline to accurately annotate core genes in eukaryotic genomes",
+          "volume": "23",
+          "author": "Parra",
+          "year": "2007",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023051308381408100_btx445-B5",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1093/nar/gkn916",
+          "article-title": "Assessing the gene space in draft genomes",
+          "volume": "37",
+          "author": "Parra",
+          "year": "2009",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023051308381408100_btx445-B6",
+          "doi-asserted-by": "crossref",
+          "first-page": "3210",
+          "DOI": "10.1093/bioinformatics/btv351",
+          "article-title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+          "volume": "31",
+          "author": "Simao",
+          "year": "2015",
+          "journal-title": "Bioinformatics"
+        }
+      ],
+      "container-title": [
+        "Bioinformatics"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://academic.oup.com/bioinformatics/article-pdf/33/22/3635/50307343/bioinformatics_33_22_3635.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/bioinformatics/article-pdf/33/22/3635/50307343/bioinformatics_33_22_3635.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2023-05-13T08:38:27Z",
+        "timestamp": 1683967107000
+      },
+      "score": 24.810627,
+      "resource": {
+        "primary": {
+          "URL": "https://academic.oup.com/bioinformatics/article/33/22/3635/3933262"
+        }
+      },
+      "editor": [
+        {
+          "given": "John",
+          "family": "Hancock",
+          "sequence": "additional",
+          "affiliation": []
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            7
+          ]
+        ]
+      },
+      "references-count": 6,
+      "journal-issue": {
+        "issue": "22",
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              15
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1093/bioinformatics/btx445",
+      "ISSN": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "1367-4803"
+        },
+        {
+          "type": "electronic",
+          "value": "1367-4811"
+        }
+      ],
+      "published-other": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            23
+          ]
+        ],
+        "date-time": "2025-11-23T18:19:24Z",
+        "timestamp": 1763921964472,
+        "version": "3.45.0"
+      },
+      "reference-count": 0,
+      "publisher": "PeerJ",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "DOI": "10.7717/peerj.10119/table-1",
+      "type": "component",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2020-10-30T05:58:06Z",
+        "timestamp": 1604037486000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Table 1: Reconstructed genome coverage and completeness."
+      ],
+      "prefix": "10.7717",
+      "member": "4443",
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2020-10-30T05:58:14Z",
+        "timestamp": 1604037494000
+      },
+      "score": 23.797348,
+      "resource": {
+        "primary": {
+          "URL": "https://peerj.com/articles/10119/table-1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            null
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.7717/peerj.10119/table-1"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            30
+          ]
+        ],
+        "date-time": "2025-11-30T22:30:25Z",
+        "timestamp": 1764541825514,
+        "version": "3.45.0"
+      },
+      "reference-count": 11,
+      "publisher": "Oxford University Press (OUP)",
+      "issue": "19",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            10,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Genomics has revolutionized biological research, but quality assessment of the resulting assembled sequences is complicated and remains mostly limited to technical measures like N50.</jats:p>\n                  <jats:p>Results: We propose a measure for quantitative assessment of genome assembly and annotation completeness based on evolutionarily informed expectations of gene content. We implemented the assessment procedure in open-source software, with sets of Benchmarking Universal Single-Copy Orthologs, named BUSCO.</jats:p>\n                  <jats:p>Availability and implementation: Software implemented in Python and datasets available for download from http://busco.ezlab.org.</jats:p>\n                  <jats:p>Contact: \u00a0evgeny.zdobnov@unige.ch</jats:p>\n                  <jats:p>Supplementary information: \u00a0Supplementary data are available at Bioinformatics online.</jats:p>",
+      "DOI": "10.1093/bioinformatics/btv351",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            11
+          ]
+        ],
+        "date-time": "2015-06-11T00:09:00Z",
+        "timestamp": 1433981340000
+      },
+      "page": "3210-3212",
+      "source": "Crossref",
+      "is-referenced-by-count": 11703,
+      "title": [
+        "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs"
+      ],
+      "prefix": "10.1093",
+      "volume": "31",
+      "author": [
+        {
+          "given": "Felipe A.",
+          "family": "Sim\u00e3o",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Genetic Medicine and Development, University of Geneva Medical School and Swiss Institute of Bioinformatics, rue Michel-Servet 1, 1211 Geneva, Switzerland"
+            }
+          ]
+        },
+        {
+          "given": "Robert M.",
+          "family": "Waterhouse",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Genetic Medicine and Development, University of Geneva Medical School and Swiss Institute of Bioinformatics, rue Michel-Servet 1, 1211 Geneva, Switzerland"
+            }
+          ]
+        },
+        {
+          "given": "Panagiotis",
+          "family": "Ioannidis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Genetic Medicine and Development, University of Geneva Medical School and Swiss Institute of Bioinformatics, rue Michel-Servet 1, 1211 Geneva, Switzerland"
+            }
+          ]
+        },
+        {
+          "given": "Evgenia V.",
+          "family": "Kriventseva",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Genetic Medicine and Development, University of Geneva Medical School and Swiss Institute of Bioinformatics, rue Michel-Servet 1, 1211 Geneva, Switzerland"
+            }
+          ]
+        },
+        {
+          "given": "Evgeny M.",
+          "family": "Zdobnov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Genetic Medicine and Development, University of Geneva Medical School and Swiss Institute of Bioinformatics, rue Michel-Servet 1, 1211 Geneva, Switzerland"
+            }
+          ]
+        }
+      ],
+      "member": "286",
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            9
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2023020202302672300_btv351-B1",
+          "doi-asserted-by": "crossref",
+          "first-page": "435",
+          "DOI": "10.1093/bioinformatics/bts723",
+          "article-title": "ALE: a generic assembly likelihood evaluation framework for assessing the accuracy of genome and metagenome assemblies",
+          "volume": "29",
+          "author": "Clark",
+          "year": "2013",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023020202302672300_btv351-B2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002195",
+          "DOI": "10.1371/journal.pcbi.1002195",
+          "article-title": "Accelerated profile HMM searches",
+          "volume": "7",
+          "author": "Eddy",
+          "year": "2011",
+          "journal-title": "PLoS Comput. Biol."
+        },
+        {
+          "key": "2023020202302672300_btv351-B3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1072",
+          "DOI": "10.1093/bioinformatics/btt086",
+          "article-title": "QUAST: quality assessment tool for genome assemblies",
+          "volume": "29",
+          "author": "Gurevich",
+          "year": "2013",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023020202302672300_btv351-B4",
+          "doi-asserted-by": "crossref",
+          "first-page": "R47",
+          "DOI": "10.1186/gb-2013-14-5-r47",
+          "article-title": "REAPR: a universal tool for genome assembly evaluation",
+          "volume": "14",
+          "author": "Hunt",
+          "year": "2013",
+          "journal-title": "Genome Biol."
+        },
+        {
+          "key": "2023020202302672300_btv351-B5",
+          "doi-asserted-by": "crossref",
+          "first-page": "757",
+          "DOI": "10.1093/bioinformatics/btr010",
+          "article-title": "A novel hybrid gene prediction method employing protein multiple sequence alignments",
+          "volume": "27",
+          "author": "Keller",
+          "year": "2011",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023020202302672300_btv351-B6",
+          "doi-asserted-by": "crossref",
+          "first-page": "881",
+          "DOI": "10.1038/nmeth.2575",
+          "article-title": "Accurate and universal delineation of prokaryotic species",
+          "volume": "10",
+          "author": "Mende",
+          "year": "2013",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2023020202302672300_btv351-B7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1093/bioinformatics/btm071",
+          "article-title": "CEGMA: a pipeline to accurately annotate core genes in eukaryotic genomes",
+          "volume": "23",
+          "author": "Parra",
+          "year": "2007",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023020202302672300_btv351-B8",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1093/nar/gkn916",
+          "article-title": "Assessing the gene space in draft genomes",
+          "volume": "37",
+          "author": "Parra",
+          "year": "2009",
+          "journal-title": "Nucleic Acids Res."
+        },
+        {
+          "key": "2023020202302672300_btv351-B9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1228",
+          "DOI": "10.1093/bioinformatics/btu023",
+          "article-title": "Exploring genome characteristics and sequence quality without a reference",
+          "volume": "30",
+          "author": "Simpson",
+          "year": "2014",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023020202302672300_btv351-B10",
+          "doi-asserted-by": "crossref",
+          "first-page": "75",
+          "DOI": "10.1093/gbe/evq083",
+          "article-title": "Correlating traits of gene retention, sequence divergence, duplicability and essentiality",
+          "volume": "3",
+          "author": "Waterhouse",
+          "year": "2011",
+          "journal-title": "Genome Biol. Evol."
+        },
+        {
+          "key": "2023020202302672300_btv351-B11",
+          "doi-asserted-by": "crossref",
+          "first-page": "D358",
+          "DOI": "10.1093/nar/gks1116",
+          "article-title": "OrthoDB: a hierarchical catalog of animal, fungal and bacterial orthologs",
+          "volume": "41",
+          "author": "Waterhouse",
+          "year": "2013",
+          "journal-title": "Nucleic Acids Res."
+        }
+      ],
+      "container-title": [
+        "Bioinformatics"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://academic.oup.com/bioinformatics/article-pdf/31/19/3210/49035194/bioinformatics_31_19_3210.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/bioinformatics/article-pdf/31/19/3210/49035194/bioinformatics_31_19_3210.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2023-02-01T22:49:21Z",
+        "timestamp": 1675291761000
+      },
+      "score": 23.003172,
+      "resource": {
+        "primary": {
+          "URL": "https://academic.oup.com/bioinformatics/article/31/19/3210/211866"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            9
+          ]
+        ]
+      },
+      "references-count": 11,
+      "journal-issue": {
+        "issue": "19",
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1093/bioinformatics/btv351",
+      "ISSN": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "1367-4811"
+        },
+        {
+          "type": "print",
+          "value": "1367-4803"
+        }
+      ],
+      "published-other": {
+        "date-parts": [
+          [
+            2015,
+            10,
+            1
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            9
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2025-11-20T23:45:31Z",
+        "timestamp": 1763682331661,
+        "version": "3.45.0"
+      },
+      "reference-count": 30,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2019-04-15T00:00:00Z",
+            "timestamp": 1555286400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2019-04-15T00:00:00Z",
+            "timestamp": 1555286400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001711",
+          "name": "Schweizerischer Nationalfonds zur F\u00f6rderung der Wissenschaftlichen Forschung",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "151780"
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001711",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "GM108492"
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DEB-1441715"
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100007917",
+          "name": "Agricultural Research Service",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "CA-R-PPA-5062-H."
+          ],
+          "id": [
+            {
+              "id": "10.13039/100007917",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "BMC Bioinformatics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1186/s12859-019-2782-9",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            15
+          ]
+        ],
+        "date-time": "2019-04-15T11:04:16Z",
+        "timestamp": 1555326256000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 26,
+      "title": [
+        "FGMP: assessing fungal genome completeness"
+      ],
+      "prefix": "10.1186",
+      "volume": "20",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2990-2185",
+          "authenticated-orcid": false,
+          "given": "Ousmane H.",
+          "family": "Ciss\u00e9",
+          "sequence": "first",
+          "affiliation": []
+        },
+        {
+          "given": "Jason E.",
+          "family": "Stajich",
+          "sequence": "additional",
+          "affiliation": []
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            15
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2782_CR1",
+          "first-page": "23",
+          "volume": "19",
+          "author": "JI Sohn",
+          "year": "2018",
+          "unstructured": "Sohn JI, Nam JW. The present and future of de novo whole-genome assembly. Brief Bioinform. 2018;19:23\u201340.",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "key": "2782_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "431",
+          "DOI": "10.1038/nature12352",
+          "volume": "499",
+          "author": "C Rinke",
+          "year": "2013",
+          "unstructured": "Rinke C, Schwientek P, Sczyrba A, Ivanova NN, Anderson IJ, Cheng JF, Darling A, Malfatti S, Swan BK, Gies EA, Dodsworth JA, Hedlund BP, Tsiamis G, Sievert SM, Liu WT, Eisen JA, Hallam SJ, Kyrpides NC, Stepanauskas R, Rubin EM, Hugenholtz P, Woyke T. Insights into the phylogeny and coding potential of microbial dark matter. Nature. 2013;499:431\u20137.",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2782_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "804",
+          "DOI": "10.1038/nature06244",
+          "volume": "449",
+          "author": "PJ Turnbaugh",
+          "year": "2007",
+          "unstructured": "Turnbaugh PJ, Ley RE, Hamady M, Fraser-Liggett CM, Knight R, Gordon JI. The human microbiome project. Nature. 2007;449:804\u201310.",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2782_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "1543",
+          "DOI": "10.1126/science.1194573",
+          "volume": "330",
+          "author": "PD Spanu",
+          "year": "2010",
+          "unstructured": "Spanu PD, Abbott JC, Amselem J, Burgis TA, Soanes DM, Stuber K, van Themaat EV, Brown JK, Butcher SA, Gurr SJ, Lebrun MH, Ridout CJ, Schulze-Lefert P, Talbot NJ, Ahmadinejad N, Ametz C, Barton GR, Benjdia M, Bidzinski P, Bindschedler LV, Both M, Brewer MT, Cadle-Davidson L, Cadle-Davidson MM, Collemare J, Cramer R, Frenkel O, Godfrey D, Harriman J, Hoede C, King BC, Klages S, Kleemann J, Knoll D, Koti PS, Kreplak J, Lopez-Ruiz FJ, Lu X, Maekawa T, Mahanil S, Micali C, Milgroom MG, Montana G, Noir S, O'Connell RJ, Oberhaensli S, Parlange F, Pedersen C, Quesneville H, Reinhardt R, Rott M, Sacristan S, Schmidt SM, Schon M, Skamnioti P, Sommer H, Stephens A, Takahara H, Thordal-Christensen H, Vigouroux M, Wessling R, Wicker T, Panstruga R. Genome expansion and gene loss in powdery mildew fungi reveal tradeoffs in extreme parasitism. Science. 2010;330:1543\u20136.",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2782_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "410",
+          "DOI": "10.1038/ng.3223",
+          "volume": "47",
+          "author": "A Kohler",
+          "year": "2015",
+          "unstructured": "Kohler A, Kuo A, Nagy LG, Morin E, Barry KW, Buscot F, Canback B, Choi C, Cichocki N, Clum A, Colpaert J, Copeland A, Costa MD, Dore J, Floudas D, Gay G, Girlanda M, Henrissat B, Herrmann S, Hess J, Hogberg N, Johansson T, Khouja HR, LaButti K, Lahrmann U, Levasseur A, Lindquist EA, Lipzen A, Marmeisse R, Martino E, Murat C, Ngan CY, Nehls U, Plett JM, Pringle A, Ohm RA, Perotto S, Peter M, Riley R, Rineau F, Ruytinx J, Salamov A, Shah F, Sun H, Tarkka M, Tritt A, Veneault-Fourrey C, Zuccaro A, Mycorrhizal Genomics Initiative C, Tunlid A, Grigoriev IV, Hibbett DS, Martin F. Convergent losses of decay mechanisms and rapid turnover of symbiosis genes in mycorrhizal mutualists. Nat Genet. 2015;47:410\u20135.",
+          "journal-title": "Nat Genet"
+        },
+        {
+          "key": "2782_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "10",
+          "DOI": "10.1186/2047-217X-2-10",
+          "volume": "2",
+          "author": "KR Bradnam",
+          "year": "2013",
+          "unstructured": "Bradnam KR, Fass JN, Alexandrov A, Baranay P, Bechner M, Birol I, Boisvert S, Chapman JA, Chapuis G, Chikhi R, Chitsaz H, Chou WC, Corbeil J, Del Fabbro C, Docking TR, Durbin R, Earl D, Emrich S, Fedotov P, Fonseca NA, Ganapathy G, Gibbs RA, Gnerre S, Godzaridis E, Goldstein S, Haimel M, Hall G, Haussler D, Hiatt JB, Ho IY, Howard J, Hunt M, Jackman SD, Jaffe DB, Jarvis ED, Jiang H, Kazakov S, Kersey PJ, Kitzman JO, Knight JR, Koren S, Lam TW, Lavenier D, Laviolette F, Li Y, Li Z, Liu B, Liu Y, Luo R, Maccallum I, Macmanes MD, Maillet N, Melnikov S, Naquin D, Ning Z, Otto TD, Paten B, Paulo OS, Phillippy AM, Pina-Martins F, Place M, Przybylski D, Qin X, Qu C, Ribeiro FJ, Richards S, Rokhsar DS, Ruby JG, Scalabrin S, Schatz MC, Schwartz DC, Sergushichev A, Sharpe T, Shaw TI, Shendure J, Shi Y, Simpson JT, Song H, Tsarev F, Vezzi F, Vicedomini R, Vieira BM, Wang J, Worley KC, Yin S, Yiu SM, Yuan J, Zhang G, Zhang H, Zhou S, Korf IF. Assemblathon 2: evaluating de novo methods of genome assembly in three vertebrate species. Gigascience. 2013;2:10.",
+          "journal-title": "Gigascience"
+        },
+        {
+          "key": "2782_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "1061",
+          "DOI": "10.1093/bioinformatics/btm071",
+          "volume": "23",
+          "author": "G Parra",
+          "year": "2007",
+          "unstructured": "Parra G, Bradnam K, Korf I. CEGMA: a pipeline to accurately annotate core genes in eukaryotic genomes. Bioinformatics. 2007;23:1061\u20137.",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2782_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "289",
+          "DOI": "10.1093/nar/gkn916",
+          "volume": "37",
+          "author": "G Parra",
+          "year": "2009",
+          "unstructured": "Parra G, Bradnam K, Ning Z, Keane T, Korf I. Assessing the gene space in draft genomes. Nucleic Acids Res. 2009;37:289\u201397.",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "issue": "3",
+          "key": "2782_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "543",
+          "DOI": "10.1093/molbev/msx319",
+          "volume": "35",
+          "author": "Robert M Waterhouse",
+          "year": "2017",
+          "unstructured": "Waterhouse RM, Seppey M, Simao FA, Manni M, Ioannidis P, Klioutchnikov G, Kriventseva EV, Zdobnov EM. BUSCO applications from quality assessments to gene prediction and phylogenomics. Mol Biol Evol. 2018;35(3):543-8.",
+          "journal-title": "Molecular Biology and Evolution"
+        },
+        {
+          "key": "2782_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "456",
+          "DOI": "10.1186/1471-2105-9-456",
+          "volume": "9",
+          "author": "S Marthey",
+          "year": "2008",
+          "unstructured": "Marthey S, Aguileta G, Rodolphe F, Gendrault A, Giraud T, Fournier E, Lopez-Villavicencio M, Gautier A, Lebrun MH, Chiapello H. FUNYBASE: a FUNgal phYlogenomic dataBASE. BMC Bioinformatics. 2008;9:456.",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2782_CR11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Stajich JE. Fungal Genomes and Insights into the Evolution of the Kingdom. Microbiol Spectr. 2016;5(4):FUNK-0055-2016. \n                    https://doi.org/10.1128/microbiolspec.FUNK-0055-2016\n                    \n                  .",
+          "DOI": "10.1128/microbiolspec.FUNK-0055-2016"
+        },
+        {
+          "key": "2782_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "557",
+          "DOI": "10.1101/gr.131383.111",
+          "volume": "22",
+          "author": "SL Salzberg",
+          "year": "2012",
+          "unstructured": "Salzberg SL, Phillippy AM, Zimin A, Puiu D, Magoc T, Koren S, Treangen TJ, Schatz MC, Delcher AL, Roberts M, Marcais G, Pop M, Yorke JA. GAGE: a critical evaluation of genome assemblies and assembly algorithms. Genome Res. 2012;22:557\u201367.",
+          "journal-title": "Genome Res"
+        },
+        {
+          "key": "2782_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "329",
+          "DOI": "10.1038/nrg3174",
+          "volume": "13",
+          "author": "M Yandell",
+          "year": "2012",
+          "unstructured": "Yandell M, Ence D. A beginner's guide to eukaryotic genome annotation. Nat Rev Genet. 2012;13:329\u201342.",
+          "journal-title": "Nat Rev Genet"
+        },
+        {
+          "key": "2782_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "R47",
+          "DOI": "10.1186/gb-2013-14-5-r47",
+          "volume": "14",
+          "author": "M Hunt",
+          "year": "2013",
+          "unstructured": "Hunt M, Kikuchi T, Sanders M, Newbold C, Berriman M, Otto TD. REAPR: a universal tool for genome assembly evaluation. Genome Biol. 2013;14:R47.",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2782_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "1072",
+          "DOI": "10.1093/bioinformatics/btt086",
+          "volume": "29",
+          "author": "A Gurevich",
+          "year": "2013",
+          "unstructured": "Gurevich A, Saveliev V, Vyahhi N, Tesler G. QUAST: quality assessment tool for genome assemblies. Bioinformatics. 2013;29:1072\u20135.",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2782_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "475",
+          "DOI": "10.1038/s41592-018-0046-7",
+          "volume": "15",
+          "author": "B Gruning",
+          "year": "2018",
+          "unstructured": "Gruning B, Dale R, Sjodin A, Chapman BA, Rowe J, Tomkins-Tinch CH, Valieris R, Koster J, Bioconda T. Bioconda: sustainable and comprehensive software distribution for the life sciences. Nat Methods. 2018;15:475\u20136.",
+          "journal-title": "Nat Methods"
+        },
+        {
+          "key": "2782_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "D240",
+          "DOI": "10.1093/nar/gku1158",
+          "volume": "43",
+          "author": "AM Altenhoff",
+          "year": "2015",
+          "unstructured": "Altenhoff AM, Skunca N, Glover N, Train CM, Sueki A, Pilizota I, Gori K, Tomiczek B, Muller S, Redestig H, Gonnet GH, Dessimoz C. The OMA orthology database in 2015: function predictions, better plant support, synteny view and other improvements. Nucleic Acids Res. 2015;43:D240\u20139.",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2782_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "3389",
+          "DOI": "10.1093/nar/25.17.3389",
+          "volume": "25",
+          "author": "SF Altschul",
+          "year": "1997",
+          "unstructured": "Altschul SF, Madden TL, Schaffer AA, Zhang J, Zhang Z, Miller W, Lipman DJ, Gapped BLAST. PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25:3389\u2013402.",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2782_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "276",
+          "DOI": "10.1016/S0168-9525(00)02024-2",
+          "volume": "16",
+          "author": "P Rice",
+          "year": "2000",
+          "unstructured": "Rice P, Longden I, Bleasby A. EMBOSS: the European molecular biology open software suite. Trends Genet. 2000;16:276\u20137.",
+          "journal-title": "Trends Genet"
+        },
+        {
+          "issue": "10",
+          "key": "2782_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "e1002195",
+          "DOI": "10.1371/journal.pcbi.1002195",
+          "volume": "7",
+          "author": "SR Eddy",
+          "year": "2011",
+          "unstructured": "Eddy SR. Accelerated profile HMM searches. PLoS Comput Biol. 2011;7(10):e1002195.",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2782_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "1692",
+          "DOI": "10.1093/nar/gkl091",
+          "volume": "34",
+          "author": "IM Wallace",
+          "year": "2006",
+          "unstructured": "Wallace IM, O'Sullivan O, Higgins DG, Notredame C. M-Coffee: combining multiple sequence alignment methods with T-Coffee. Nucleic Acids Res. 2006;34:1692\u20139.",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2782_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "31",
+          "DOI": "10.1186/1471-2105-6-31",
+          "volume": "6",
+          "author": "GS Slater",
+          "year": "2005",
+          "unstructured": "Slater GS, Birney E. Automated generation of heuristics for biological sequence comparison. BMC bioinformatics. 2005;6:31.",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2782_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "62",
+          "DOI": "10.1186/1471-2105-7-62",
+          "volume": "7",
+          "author": "M Stanke",
+          "year": "2006",
+          "unstructured": "Stanke M, Schoffmann O, Morgenstern B, Waack S. Gene prediction in eukaryotes with a generalized hidden Markov model that uses hints from external sources. BMC bioinformatics. 2006;7:62.",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2782_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "1236",
+          "DOI": "10.1093/bioinformatics/btu031",
+          "volume": "30",
+          "author": "P Jones",
+          "year": "2014",
+          "unstructured": "Jones P, Binns D, Chang HY, Fraser M, Li W, McAnulla C, McWilliam H, Maslen J, Mitchell A, Nuka G, Pesseat S, Quinn AF, Sangrador-Vegas A, Scheremetjew M, Yong SY, Lopez R, Hunter S. InterProScan 5: genome-scale protein function classification. Bioinformatics. 2014;30:1236\u201340.",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2782_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "487",
+          "DOI": "10.1101/gr.113985.110",
+          "volume": "21",
+          "author": "SM Kielbasa",
+          "year": "2011",
+          "unstructured": "Kielbasa SM, Wan R, Sato K, Horton P, Frith MC. Adaptive seeds tame genomic sequence comparison. Genome Res. 2011;21:487\u201393.",
+          "journal-title": "Genome Res"
+        },
+        {
+          "key": "2782_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "841",
+          "DOI": "10.1093/bioinformatics/btq033",
+          "volume": "26",
+          "author": "AR Quinlan",
+          "year": "2010",
+          "unstructured": "Quinlan AR, Hall IM. BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics. 2010;26:841\u20132.",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2782_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "W202",
+          "DOI": "10.1093/nar/gkp335",
+          "volume": "37",
+          "author": "TL Bailey",
+          "year": "2009",
+          "unstructured": "Bailey TL, Boden M, Buske FA, Frith M, Grant CE, Clementi L, Ren J, Li WW, Noble WS. MEME SUITE: tools for motif discovery and searching. Nucleic Acids Res. 2009;37:W202\u20138.",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2782_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "e51",
+          "DOI": "10.1002/cpbi.51",
+          "volume": "62",
+          "author": "I Kalvari",
+          "year": "2018",
+          "unstructured": "Kalvari I, Nawrocki EP, Argasinska J, Quinones-Olvera N, Finn RD, Bateman A, Petrov AI. Non-coding RNA analysis using the Rfam database. Curr Protoc Bioinformatics. 2018;62:e51.",
+          "journal-title": "Curr Protoc Bioinformatics"
+        },
+        {
+          "key": "2782_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "413",
+          "DOI": "10.1007/s00239-011-9441-8",
+          "volume": "72",
+          "author": "V Lopez-Ramirez",
+          "year": "2011",
+          "unstructured": "Lopez-Ramirez V, Alcaraz LD, Moreno-Hagelsieb G, Olmedo-Alvarez G. Phylogenetic distribution and evolutionary history of bacterial DEAD-box proteins. J Mol Evol. 2011;72:413\u201331.",
+          "journal-title": "J Mol Evol"
+        },
+        {
+          "key": "2782_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "1812",
+          "DOI": "10.1093/molbev/msx116",
+          "volume": "34",
+          "author": "S Kumar",
+          "year": "2017",
+          "unstructured": "Kumar S, Stecher G, Suleski M, Hedges SB. TimeTree: a resource for timelines, Timetrees, and divergence times. Mol Biol Evol. 2017;34:1812\u20139.",
+          "journal-title": "Mol Biol Evol"
+        }
+      ],
+      "container-title": [
+        "BMC Bioinformatics"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1186/s12859-019-2782-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1186/s12859-019-2782-9/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1186/s12859-019-2782-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2020-05-14T07:26:52Z",
+        "timestamp": 1589441212000
+      },
+      "score": 22.70121,
+      "resource": {
+        "primary": {
+          "URL": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2782-9"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            15
+          ]
+        ]
+      },
+      "references-count": 30,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "2782"
+      ],
+      "URL": "https://doi.org/10.1186/s12859-019-2782-9",
+      "ISSN": [
+        "1471-2105"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "1471-2105"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            15
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "22 October 2018",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "27 March 2019",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "15 April 2019",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics approval and consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors declare that they have no competing interests.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Publisher\u2019s Note"
+          }
+        }
+      ],
+      "article-number": "184"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            23
+          ]
+        ],
+        "date-time": "2025-11-23T19:46:46Z",
+        "timestamp": 1763927206431,
+        "version": "3.45.0"
+      },
+      "reference-count": 0,
+      "publisher": "PeerJ",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "DOI": "10.7717/peerj.8068/supp-12",
+      "type": "component",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2019-11-20T03:27:38Z",
+        "timestamp": 1574220458000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Table S5: Completeness of\n                      <i>SE</i>\n                      INPer genome collection"
+      ],
+      "prefix": "10.7717",
+      "member": "4443",
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2019-11-20T03:27:43Z",
+        "timestamp": 1574220463000
+      },
+      "score": 22.47895,
+      "resource": {
+        "primary": {
+          "URL": "https://peerj.com/articles/8068/supp-12"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            null
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.7717/peerj.8068/supp-12"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2025-02-21T00:58:39Z",
+        "timestamp": 1740099519719,
+        "version": "3.37.3"
+      },
+      "reference-count": 0,
+      "publisher": "PeerJ",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "DOI": "10.7287/peerj.preprints.27693/supp-2",
+      "type": "dataset",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            29
+          ]
+        ],
+        "date-time": "2019-04-29T16:38:14Z",
+        "timestamp": 1556555894000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "prefix": "10.7287",
+      "member": "4443",
+      "container-title": [
+        "Supplemental Information 2: Completeness of <i>SE </i>INPer genome collection"
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2019-08-05T14:21:37Z",
+        "timestamp": 1565014897000
+      },
+      "score": 22.321377,
+      "resource": {
+        "primary": {
+          "URL": "https://peerj.com/preprints/27693/supp-2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            null
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.7287/peerj.preprints.27693/supp-2",
+      "relation": {
+        "is-referenced-by": [
+          {
+            "id-type": "doi",
+            "id": "10.7287/peerj.preprints.27693",
+            "asserted-by": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            25
+          ]
+        ],
+        "date-time": "2025-09-25T17:12:15Z",
+        "timestamp": 1758820335083,
+        "version": "3.37.3"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 41,
+      "publisher": "Cold Spring Harbor Laboratory",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Microbes, we can learn how microbes influence the surrounding environment, contribute to human health, and understand which pathogen interactions result in differences in disease severity. Metagenomics can be used as a tool to explore the interactions between microbes. Metagenomic assemblies built using long read nanopore data depend on the read level accuracy. The read level accuracy of nanopore sequencing has made dramatic improvements over the past several years. However, we do not know if the increased read level accuracy allows for faster assemblers to make as accurate metagenomic assemblies as slower assemblers. Here, we present the results of a benchmarking study comparing three commonly used long read assemblers, Flye, Raven, and Redbean. We used a prepared DNA standard of seven bacteria as our input community. We prepared a sequencing library on the VolTRAX V2 sequence using a MinION mk1b. We basecalled using the latest version of Guppy with the super-accuracy model. We found that increasing read depth benefited each of the assemblers, and nearly complete community member chromosomes were assembled with as little as 10x read depth. Polishing assemblies using Medaka had a predictable improvement in quality. Some assemblers struggled with particular members of the bacterial community, but we found Flye to be the most robust across taxa. We found Flye was the most effective assembler for recovering plasmids. Based on Flye\u2019s consistency for chromosomes and increased effectiveness at assembling plasmids, we would recommend using Flye in future metagenomic studies.</jats:p>",
+      "DOI": "10.1101/2022.11.23.517703",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            24
+          ]
+        ],
+        "date-time": "2022-11-24T14:22:06Z",
+        "timestamp": 1669299726000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Accuracy and completeness of long read metagenomic assemblies"
+      ],
+      "prefix": "10.1101",
+      "author": [
+        {
+          "given": "Jeremy",
+          "family": "Buttler",
+          "sequence": "first",
+          "affiliation": []
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2437-7019",
+          "authenticated-orcid": false,
+          "given": "Devin",
+          "family": "Drown",
+          "sequence": "additional",
+          "affiliation": []
+        }
+      ],
+      "member": "246",
+      "reference": [
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-1935-5"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq625"
+        },
+        {
+          "issue": "1",
+          "key": "2022112504500488000_2022.11.23.517703v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1186/s13059-021-02566-x",
+          "article-title": "viralFlye: Assembling Viruses and Identifying Their Hosts from Long-Read Metagenomics Data",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Genome Biology"
+        },
+        {
+          "issue": "2",
+          "key": "2022112504500488000_2022.11.23.517703v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "278",
+          "DOI": "10.3390/v14020278",
+          "article-title": "The Human Virome: Viral Metagenomics, Relations with Human Diseases, and Therapeutic Applications",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Viruses"
+        },
+        {
+          "issue": "5",
+          "key": "2022112504500488000_2022.11.23.517703v1.5",
+          "first-page": "e00062",
+          "article-title": "Mockrobiota: A Public Resource for Microbiome Bioinformatics Benchmarking",
+          "volume": "1",
+          "year": "2016",
+          "journal-title": "mSystems"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Breckell, Georgia L , and Olin K Silander . 2021. \u201cDo You Want to Build a Genome? Benchmarking Hybrid Bacterial Genome Assembly Methods.\u201d bioRxiv, n. pag. https://doi.org/10.1101/2021.11.07.467652.",
+          "DOI": "10.1101/2021.11.07.467652"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/jgv.0.000871"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "596626",
+          "DOI": "10.3389/fmicb.2020.596626",
+          "article-title": "High-Quality Genome-Scale Models from Error-Prone, Long-Read Assemblies",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in Microbiology"
+        },
+        {
+          "issue": "23",
+          "key": "2022112504500488000_2022.11.23.517703v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "9161",
+          "DOI": "10.3390/ijms21239161",
+          "article-title": "Benchmarking Long-Read Assemblers for Genomic Analyses of Bacterial Pathogens Using Oxford Nanopore Sequencing",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-020-07041-8"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty149"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.12",
+          "unstructured": "Dowle, Matt , and Arun Srinivasan . 2021. Data.table: Extension of \u2018Data.frame\u2019. https://CRAN.R-project.org/package=data.table."
+        },
+        {
+          "issue": "Suppl 4",
+          "key": "2022112504500488000_2022.11.23.517703v1.13",
+          "first-page": "27",
+          "article-title": "Metagenomics and Antibiotics",
+          "volume": "18",
+          "year": "2012",
+          "journal-title": "Clinical Microbiology and Infection"
+        },
+        {
+          "issue": "May",
+          "key": "2022112504500488000_2022.11.23.517703v1.14",
+          "first-page": "215",
+          "article-title": "African Swine Fever Virus: An Emerging DNA Arbovirus",
+          "volume": "7",
+          "year": "2020",
+          "journal-title": "Frontiers in Veterinary Science"
+        },
+        {
+          "issue": "1",
+          "key": "2022112504500488000_2022.11.23.517703v1.15",
+          "first-page": "23",
+          "article-title": "Evaluation of Strategies for the Assembly of Diverse Bacterial Genomes Using MinION Long-Read Sequencing",
+          "volume": "20",
+          "year": "2018",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4060"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.17",
+          "unstructured": "Kassambara, Alboukadel. 2020. Ggpubr: \u2019Ggplot2\u2019 Based Publication Ready Plots. https://CRAN.R-project.org/package=ggpubr."
+        },
+        {
+          "issue": "11",
+          "key": "2022112504500488000_2022.11.23.517703v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1103",
+          "DOI": "10.1038/s41592-020-00971-x",
+          "article-title": "metaFlye: Scalable Long-Read Metagenome Assembly Using Repeat Graphs",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0072-8"
+        },
+        {
+          "issue": "42",
+          "key": "2022112504500488000_2022.11.23.517703v1.20",
+          "first-page": "e00883",
+          "article-title": "Complete Genome Sequence of a Virulent African Swine Fever Virus from a Domestic Pig in Ukraine",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Microbiology Resource Announcements"
+        },
+        {
+          "issue": "4",
+          "key": "2022112504500488000_2022.11.23.517703v1.21",
+          "first-page": "e00111",
+          "article-title": "Viro-logical and Immunological Outcomes of Coinfections",
+          "volume": "31",
+          "year": "2018",
+          "journal-title": "Clinical Microbiology Reviews"
+        },
+        {
+          "issue": "1",
+          "key": "2022112504500488000_2022.11.23.517703v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "13588",
+          "DOI": "10.1038/s41598-020-70491-3",
+          "article-title": "Assembly Methods for Nanopore-Based Metagenomic Sequencing: A Comparative Study",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv697"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.24",
+          "unstructured": "Neuwirth, Erich. 2014. RColorBrewer: ColorBrewer Palettes. https://CRAN.R-project.org/package=RColorBrewer."
+        },
+        {
+          "issue": "13",
+          "key": "2022112504500488000_2022.11.23.517703v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "2193",
+          "DOI": "10.1093/bioinformatics/bty841",
+          "article-title": "BulkVis: A Graphical Viewer for Oxford Nanopore Bulk Fast5 Files",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2022112504500488000_2022.11.23.517703v1.26",
+          "first-page": "e01315",
+          "article-title": "Third-Generation Sequencing in the Clinical Laboratory: Exploring the Advantages and Challenges of Nanopore Sequencing",
+          "volume": "58",
+          "year": "2019",
+          "journal-title": "Journal of Clinical Microbiology"
+        },
+        {
+          "issue": "1",
+          "key": "2022112504500488000_2022.11.23.517703v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "13341",
+          "DOI": "10.1038/s41598-018-31554-8",
+          "article-title": "Viral Communities Associated with Porcine Respiratory Disease Complex in Intensive Commercial Farms in Sichuan Province, China",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.28",
+          "unstructured": "R Core Team. n.d. \u201cR. A Language and Environment for Statistical Computing.\u201d R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org."
+        },
+        {
+          "issue": "4",
+          "key": "2022112504500488000_2022.11.23.517703v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "278",
+          "DOI": "10.1007/s40484-019-0181-x",
+          "article-title": "Overlap Graphs and de Bruijn Graphs: Data Structures for de Novo Genome Assembly in the Big Data Era",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Quantitative Biology"
+        },
+        {
+          "issue": "2",
+          "key": "2022112504500488000_2022.11.23.517703v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "155",
+          "DOI": "10.1038/s41592-019-0669-3",
+          "article-title": "Fast and Accurate Long-Read Assembly with Wtdbg2",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sereika, Mantas , Rasmus Hansen Kirkegaard , S\u00f8ren Michael Karst , Thomas Yssing Michaelsen , Emil Aarre S\u00f8rensen , Rasmus Dam Wollenberg , and Mads Albertsen . 2021. \u201cOxford Nanopore R10.4 Long-Read Sequencing Enables Near-Perfect Bacterial Genomes from Pure Cultures and Metagenomes Without Short-Read or Reference Polishing.\u201d bioRxiv, n. pag. https://doi.org/10.1101/2021.10.27.466057.",
+          "DOI": "10.1101/2021.10.27.466057"
+        },
+        {
+          "issue": "1",
+          "key": "2022112504500488000_2022.11.23.517703v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.1038/s41597-019-0287-z",
+          "article-title": "Shotgun Metagenome Data of a Defined Mock Community Using Oxford Nanopore, PacBio and Illumina Technologies",
+          "volume": "6",
+          "year": "2019",
+          "journal-title": "Scientific Data"
+        },
+        {
+          "issue": "4",
+          "key": "2022112504500488000_2022.11.23.517703v1.33",
+          "first-page": "332",
+          "article-title": "Time and Memory-Efficient Genome Assembly with Raven",
+          "volume": "1",
+          "year": "2021",
+          "journal-title": "Nature Computational Science"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.214270.116"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "2138",
+          "DOI": "10.12688/f1000research.21782.1",
+          "article-title": "Benchmarking of Long-Read Assemblers for Prokaryote Whole Genome Sequencing",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "F1000Research"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-021-02483-z"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.37",
+          "unstructured": "Wickham, Hadley. 2019. Stringr: Simple, Consistent Wrappers for Common String Operations. https://CRAN.R-project.org/package=stringr."
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.38",
+          "unstructured": "Wickham, Hadley. 2021. Tidyr: Tidy Messy Data. https://CRAN.R-project.org/package=tidyr."
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.39",
+          "unstructured": "Wilke, Claus O. 2020. Cowplot: Streamlined Plot Theme and Plot Annotations for \u2019Ggplot2\u2019. https://CRAN.R-project.org/package=cowplot."
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1541-0420.2011.01616.x"
+        },
+        {
+          "key": "2022112504500488000_2022.11.23.517703v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "6301",
+          "DOI": "10.1016/j.csbj.2021.11.028",
+          "article-title": "A Review of Computational Tools for Generating Metagenome-Assembled Genomes from Metagenomic Sequencing Data",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.23.517703",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            29
+          ]
+        ],
+        "date-time": "2024-04-29T16:07:51Z",
+        "timestamp": 1714406871000
+      },
+      "score": 22.167969,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.23.517703"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "references-count": 41,
+      "URL": "https://doi.org/10.1101/2022.11.23.517703",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.3390/microorganisms11010096",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  ]
+}
