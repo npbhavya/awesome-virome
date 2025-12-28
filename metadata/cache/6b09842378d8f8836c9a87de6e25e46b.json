@@ -1,12 +1,12 @@
 {
-  "cache_date": "2025-11-23T08:22:01.378427",
+  "cache_date": "2025-12-28T08:23:22.371719",
   "data": [
     {
-      "url": "https://api.github.com/repos/ncbi/amr/releases/218076968",
-      "assets_url": "https://api.github.com/repos/ncbi/amr/releases/218076968/assets",
-      "upload_url": "https://uploads.github.com/repos/ncbi/amr/releases/218076968/assets{?name,label}",
-      "html_url": "https://github.com/ncbi/amr/releases/tag/amrfinder_v4.0.23",
-      "id": 218076968,
+      "url": "https://api.github.com/repos/ncbi/amr/releases/267872003",
+      "assets_url": "https://api.github.com/repos/ncbi/amr/releases/267872003/assets",
+      "upload_url": "https://uploads.github.com/repos/ncbi/amr/releases/267872003/assets{?name,label}",
+      "html_url": "https://github.com/ncbi/amr/releases/tag/amrfinder_v4.2.5",
+      "id": 267872003,
       "author": {
         "login": "evolarjun",
         "id": 27437102,
@@ -28,22 +28,22 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCPz1hc4M_5co",
-      "tag_name": "amrfinder_v4.0.23",
+      "node_id": "RE_kwDOCPz1hc4P92cD",
+      "tag_name": "amrfinder_v4.2.5",
       "target_commitish": "master",
-      "name": "AMRFinderPlus v4.0.23",
+      "name": "AMRFinderPlus v4.2.5",
       "draft": false,
       "immutable": false,
       "prerelease": false,
-      "created_at": "2025-05-12T18:53:11Z",
-      "updated_at": "2025-05-12T18:59:33Z",
-      "published_at": "2025-05-12T18:59:33Z",
+      "created_at": "2025-12-05T19:51:06Z",
+      "updated_at": "2025-12-05T20:15:25Z",
+      "published_at": "2025-12-05T20:15:25Z",
       "assets": [
         {
-          "url": "https://api.github.com/repos/ncbi/amr/releases/assets/254018320",
-          "id": 254018320,
-          "node_id": "RA_kwDOCPz1hc4PJAMQ",
-          "name": "amrfinder_binaries_v4.0.23.tar.gz",
+          "url": "https://api.github.com/repos/ncbi/amr/releases/assets/324873349",
+          "id": 324873349,
+          "node_id": "RA_kwDOCPz1hc4TXSyF",
+          "name": "amrfinder_binaries_v4.2.5.tar.gz",
           "label": null,
           "uploader": {
             "login": "evolarjun",
@@ -68,17 +68,17 @@
           },
           "content_type": "application/x-gzip",
           "state": "uploaded",
-          "size": 4122011,
-          "digest": null,
-          "download_count": 963,
-          "created_at": "2025-05-12T18:55:57Z",
-          "updated_at": "2025-05-12T18:55:57Z",
-          "browser_download_url": "https://github.com/ncbi/amr/releases/download/amrfinder_v4.0.23/amrfinder_binaries_v4.0.23.tar.gz"
+          "size": 5709603,
+          "digest": "sha256:30b3a91f7026a4482850f8a6583cb26a7b6ef0ecf1349e95553f3f5cd5276617",
+          "download_count": 159,
+          "created_at": "2025-12-05T20:13:39Z",
+          "updated_at": "2025-12-05T20:13:40Z",
+          "browser_download_url": "https://github.com/ncbi/amr/releases/download/amrfinder_v4.2.5/amrfinder_binaries_v4.2.5.tar.gz"
         }
       ],
-      "tarball_url": "https://api.github.com/repos/ncbi/amr/tarball/amrfinder_v4.0.23",
-      "zipball_url": "https://api.github.com/repos/ncbi/amr/zipball/amrfinder_v4.0.23",
-      "body": "At some point the [PGAP](https://github.com/ncbi/pgap) GFF file output will be standardized to match other GFF files produced at NCBI; this release is to handle the small change in PGAP output. This release has no other differences from version 4.0.22, so if you're not using the `--pgap` or `--annotation_format pgap` options there is no need to update.\r\n\r\nWith the` --pgap` or `--annotation_format pgap` options AMRFinderPlus previously relied on the older non-standard format for the `Name=` section of the attributes field of the GFF to identify the associated protein sequence. With this update the `--pgap` option will parse either version of the GFF output of PGAP."
+      "tarball_url": "https://api.github.com/repos/ncbi/amr/tarball/amrfinder_v4.2.5",
+      "zipball_url": "https://api.github.com/repos/ncbi/amr/zipball/amrfinder_v4.2.5",
+      "body": "This is a bug fix release (https://github.com/ncbi/amr/issues/174). \r\n\r\nVersion 4.2.4 run with a downloaded database with the `--organism Klebsiella_pneumoniae` option failed with released version 4.2.4 because the automatic database download missed an essential file.\r\n\r\nPlease install version 4.2.5 and run `amrfinder --force_update` to re-download the complete AMRFinderPlus database."
     }
   ]
 }
