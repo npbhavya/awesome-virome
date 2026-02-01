@@ -1,12 +1,12 @@
 {
-  "cache_date": "2025-12-28T08:23:22.371719",
+  "cache_date": "2026-02-01T08:28:26.545267",
   "data": [
     {
-      "url": "https://api.github.com/repos/ncbi/amr/releases/267872003",
-      "assets_url": "https://api.github.com/repos/ncbi/amr/releases/267872003/assets",
-      "upload_url": "https://uploads.github.com/repos/ncbi/amr/releases/267872003/assets{?name,label}",
-      "html_url": "https://github.com/ncbi/amr/releases/tag/amrfinder_v4.2.5",
-      "id": 267872003,
+      "url": "https://api.github.com/repos/ncbi/amr/releases/280045384",
+      "assets_url": "https://api.github.com/repos/ncbi/amr/releases/280045384/assets",
+      "upload_url": "https://uploads.github.com/repos/ncbi/amr/releases/280045384/assets{?name,label}",
+      "html_url": "https://github.com/ncbi/amr/releases/tag/amrfinder_v4.2.7",
+      "id": 280045384,
       "author": {
         "login": "evolarjun",
         "id": 27437102,
@@ -28,22 +28,22 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCPz1hc4P92cD",
-      "tag_name": "amrfinder_v4.2.5",
+      "node_id": "RE_kwDOCPz1hc4QsSdI",
+      "tag_name": "amrfinder_v4.2.7",
       "target_commitish": "master",
-      "name": "AMRFinderPlus v4.2.5",
+      "name": "AMRFinderPlus v4.2.7 ",
       "draft": false,
       "immutable": false,
       "prerelease": false,
-      "created_at": "2025-12-05T19:51:06Z",
-      "updated_at": "2025-12-05T20:15:25Z",
-      "published_at": "2025-12-05T20:15:25Z",
+      "created_at": "2026-01-26T18:05:38Z",
+      "updated_at": "2026-01-26T19:36:36Z",
+      "published_at": "2026-01-26T19:36:36Z",
       "assets": [
         {
-          "url": "https://api.github.com/repos/ncbi/amr/releases/assets/324873349",
-          "id": 324873349,
-          "node_id": "RA_kwDOCPz1hc4TXSyF",
-          "name": "amrfinder_binaries_v4.2.5.tar.gz",
+          "url": "https://api.github.com/repos/ncbi/amr/releases/assets/346233131",
+          "id": 346233131,
+          "node_id": "RA_kwDOCPz1hc4Uoxkr",
+          "name": "amrfinder_binaries_v4.2.7.tar.gz",
           "label": null,
           "uploader": {
             "login": "evolarjun",
@@ -68,17 +68,17 @@
           },
           "content_type": "application/x-gzip",
           "state": "uploaded",
-          "size": 5709603,
-          "digest": "sha256:30b3a91f7026a4482850f8a6583cb26a7b6ef0ecf1349e95553f3f5cd5276617",
-          "download_count": 159,
-          "created_at": "2025-12-05T20:13:39Z",
-          "updated_at": "2025-12-05T20:13:40Z",
-          "browser_download_url": "https://github.com/ncbi/amr/releases/download/amrfinder_v4.2.5/amrfinder_binaries_v4.2.5.tar.gz"
+          "size": 5737939,
+          "digest": "sha256:68045a8bccdbe3c5dcdf941bebe2352ed419758a9914c41f48f0bbbd6fbade56",
+          "download_count": 40,
+          "created_at": "2026-01-26T19:33:57Z",
+          "updated_at": "2026-01-26T19:33:57Z",
+          "browser_download_url": "https://github.com/ncbi/amr/releases/download/amrfinder_v4.2.7/amrfinder_binaries_v4.2.7.tar.gz"
         }
       ],
-      "tarball_url": "https://api.github.com/repos/ncbi/amr/tarball/amrfinder_v4.2.5",
-      "zipball_url": "https://api.github.com/repos/ncbi/amr/zipball/amrfinder_v4.2.5",
-      "body": "This is a bug fix release (https://github.com/ncbi/amr/issues/174). \r\n\r\nVersion 4.2.4 run with a downloaded database with the `--organism Klebsiella_pneumoniae` option failed with released version 4.2.4 because the automatic database download missed an essential file.\r\n\r\nPlease install version 4.2.5 and run `amrfinder --force_update` to re-download the complete AMRFinderPlus database."
+      "tarball_url": "https://api.github.com/repos/ncbi/amr/tarball/amrfinder_v4.2.7",
+      "zipball_url": "https://api.github.com/repos/ncbi/amr/zipball/amrfinder_v4.2.7",
+      "body": "This is a bug fix release, it should make no difference in AMRFinderPlus results\r\n\r\nAMRFinderPlus 4.2.7 contains a fix for issue https://github.com/ncbi/amr/issues/180, a bug that caused AMRFinderPlus to crash when an HMM hit to a protein is not detected by any blast alignments. This appears to be a rare situation, at least in Pathogen Detection data. We saw one incident in ~200,000 annotated assemblies, but possibly it is more common in other datasets.\r\n\r\nIt also includes some minor improvements in curl code and testing."
     }
   ]
 }
