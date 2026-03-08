@@ -1,12 +1,12 @@
 {
-  "cache_date": "2026-02-01T08:26:03.751755",
+  "cache_date": "2026-03-08T08:25:13.142005",
   "data": [
     {
-      "url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/271246903",
-      "assets_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/271246903/assets",
-      "upload_url": "https://uploads.github.com/repos/WrightonLabCSU/DRAM/releases/271246903/assets{?name,label}",
-      "html_url": "https://github.com/WrightonLabCSU/DRAM/releases/tag/v2.0.0-beta22",
-      "id": 271246903,
+      "url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/293167041",
+      "assets_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/293167041/assets",
+      "upload_url": "https://uploads.github.com/repos/WrightonLabCSU/DRAM/releases/293167041/assets{?name,label}",
+      "html_url": "https://github.com/WrightonLabCSU/DRAM/releases/tag/v2.0.0-beta25",
+      "id": 293167041,
       "author": {
         "login": "madeline-scyphers",
         "id": 93053005,
@@ -28,21 +28,20 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCiVGq84QKuY3",
-      "tag_name": "v2.0.0-beta22",
+      "node_id": "RE_kwDOCiVGq84ReV_B",
+      "tag_name": "v2.0.0-beta25",
       "target_commitish": "dev",
-      "name": "v2.0.0-beta22 Release",
+      "name": "v2.0.0-beta Release",
       "draft": false,
       "immutable": false,
       "prerelease": true,
-      "created_at": "2025-12-17T21:55:50Z",
-      "updated_at": "2025-12-17T21:56:04Z",
-      "published_at": "2025-12-17T21:56:04Z",
+      "created_at": "2026-03-04T21:03:37Z",
+      "updated_at": "2026-03-04T21:09:14Z",
+      "published_at": "2026-03-04T21:09:14Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/tarball/v2.0.0-beta22",
-      "zipball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/zipball/v2.0.0-beta22",
-      "body": "## What's Changed\r\n* Bugfix/info sheet a rank fix by @madeline-scyphers in https://github.com/WrightonLabCSU/DRAM/pull/479\r\n\r\n\r\n**Full Changelog**: https://github.com/WrightonLabCSU/DRAM/compare/v2.0.0-beta21...v2.0.0-beta22",
-      "mentions_count": 1
+      "tarball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/tarball/v2.0.0-beta25",
+      "zipball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/zipball/v2.0.0-beta25",
+      "body": "## 2.0.0-beta25 - 2026-03-04\r\n\r\n### Highlights\r\n\r\nBugfixes for utilizing `--input_genes` instead of `--input_fasta`.  Various subtle \r\nproblems and edge cases with using `--input_genes`,  also now new ability to use \r\n`--rename` on already called genes with `--input_genes`.\r\n\r\n[c95aa83](https://github.com/WrightonLabCSU/DRAM/commit/c95aa83c8164531af536a818359ea807cc44de67)...[d8d3cb8](https://github.com/WrightonLabCSU/DRAM/commit/d8d3cb85e5c6ca743272d7c03b0b4d78878c4280)\r\n\r\n### Bug Fixes\r\n\r\n- Bugfixes for using input_genes parameter ([d8d3cb8](https://github.com/WrightonLabCSU/DRAM/commit/d8d3cb85e5c6ca743272d7c03b0b4d78878c4280))\r\n\r\n- Skip tRNA and rRNA when using input_genes unless trna and rrna\r\ninput sheet provided since they require raw fasta file to produce.\r\n- new parse_faa file to generate called_table summary file\r\nthat leave error message on non-zero exit code telling people\r\nto check the headers metadata in case they don't match with prodigal\r\noutput metadata.\r\n- use the same parsing code parse_faa.sh from above to generate\r\nsumamry table for DRAM if using input_fasta and input_genes so\r\nless likely of bug in one spot isn't noticed if other is working.\r\n- fix bugs where downstream stuff would pass dummy sheet to summarize\r\nand then that wouldn't properly handle it\r\n- add ability to rename headers with input_genes with --rename flag\r\nwith rename_headers.py script and rename_proteins.nf"
     }
   ]
 }
