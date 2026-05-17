@@ -1,12 +1,12 @@
 {
-  "cache_date": "2026-04-12T08:43:52.850304",
+  "cache_date": "2026-05-17T09:33:48.818965",
   "data": [
     {
-      "url": "https://api.github.com/repos/niemasd/ViralMSA/releases/260356195",
-      "assets_url": "https://api.github.com/repos/niemasd/ViralMSA/releases/260356195/assets",
-      "upload_url": "https://uploads.github.com/repos/niemasd/ViralMSA/releases/260356195/assets{?name,label}",
-      "html_url": "https://github.com/niemasd/ViralMSA/releases/tag/1.1.46",
-      "id": 260356195,
+      "url": "https://api.github.com/repos/niemasd/ViralMSA/releases/320032338",
+      "assets_url": "https://api.github.com/repos/niemasd/ViralMSA/releases/320032338/assets",
+      "upload_url": "https://uploads.github.com/repos/niemasd/ViralMSA/releases/320032338/assets{?name,label}",
+      "html_url": "https://github.com/niemasd/ViralMSA/releases/tag/1.1.47",
+      "id": 320032338,
       "author": {
         "login": "niemasd",
         "id": 4195510,
@@ -28,21 +28,21 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOD0u1ls4PhLhj",
-      "tag_name": "1.1.46",
+      "node_id": "RE_kwDOD0u1ls4TE05S",
+      "tag_name": "1.1.47",
       "target_commitish": "master",
-      "name": "ViralMSA v1.1.46",
+      "name": "ViralMSA v1.1.47",
       "draft": false,
       "immutable": false,
       "prerelease": false,
-      "created_at": "2025-11-06T17:24:03Z",
-      "updated_at": "2025-11-06T17:24:52Z",
-      "published_at": "2025-11-06T17:24:44Z",
+      "created_at": "2026-05-10T00:30:07Z",
+      "updated_at": "2026-05-10T00:31:26Z",
+      "published_at": "2026-05-10T00:31:19Z",
       "assets": [
         {
-          "url": "https://api.github.com/repos/niemasd/ViralMSA/releases/assets/313390726",
-          "id": 313390726,
-          "node_id": "RA_kwDOD0u1ls4SrfaG",
+          "url": "https://api.github.com/repos/niemasd/ViralMSA/releases/assets/416321059",
+          "id": 416321059,
+          "node_id": "RA_kwDOD0u1ls4Y0I4j",
           "name": "ViralMSA.py",
           "label": "",
           "uploader": {
@@ -68,17 +68,17 @@
           },
           "content_type": "binary/octet-stream",
           "state": "uploaded",
-          "size": 51187,
-          "digest": "sha256:175c42630975726a0dcd1a024232b28c258ea19597f836670d1fc1fc4a2dc291",
-          "download_count": 102,
-          "created_at": "2025-11-06T17:24:52Z",
-          "updated_at": "2025-11-06T17:24:52Z",
-          "browser_download_url": "https://github.com/niemasd/ViralMSA/releases/download/1.1.46/ViralMSA.py"
+          "size": 49332,
+          "digest": "sha256:9ca7169672236a86429031ddbb35e1b75a9cf0a3978db724c2a894ba7bd0a6d7",
+          "download_count": 0,
+          "created_at": "2026-05-10T00:31:26Z",
+          "updated_at": "2026-05-10T00:31:26Z",
+          "browser_download_url": "https://github.com/niemasd/ViralMSA/releases/download/1.1.47/ViralMSA.py"
         }
       ],
-      "tarball_url": "https://api.github.com/repos/niemasd/ViralMSA/tarball/1.1.46",
-      "zipball_url": "https://api.github.com/repos/niemasd/ViralMSA/zipball/1.1.46",
-      "body": "* Updated reference genomes"
+      "tarball_url": "https://api.github.com/repos/niemasd/ViralMSA/tarball/1.1.47",
+      "zipball_url": "https://api.github.com/repos/niemasd/ViralMSA/zipball/1.1.47",
+      "body": "* Pull [`REFS.JSON`](https://github.com/Niema-Lab/Reference-Genomes/releases/latest/download/REFS.json) from the internet again\r\n    * I did this previously, but I reverted to a hard-coded `REFS_JSON` variable for speed when failing to download (e.g. no internet)\r\n    * Now, I first check if the reference genome exists locally if given a GenBank ID or file path\r\n    * Thus, I only attempt to download `REFS.JSON` if I determine I absolutely need to download a reference genome\r\n    * Also, I only attempt to download `REFS.JSON` once, and if it fails, I remember (and also fail immediately everywhere it's attempted)"
     }
   ]
 }
