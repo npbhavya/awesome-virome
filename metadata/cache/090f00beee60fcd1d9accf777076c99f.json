@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-04-01T09:46:58.193037",
+  "cache_date": "2026-06-01T17:35:00.133909",
   "data": {
     "paperId": "4b700b725867cc34ef4123bd150ca19e94768b90",
     "externalIds": {
@@ -10,17 +10,16 @@
     },
     "url": "https://www.semanticscholar.org/paper/4b700b725867cc34ef4123bd150ca19e94768b90",
     "title": "Comparison of the Web Tools ARG-ANNOT and ResFinder for Detection of Resistance Genes in Bacteria",
-    "abstract": "It was with great interest that I read the paper \u201cARG-ANNOT; a New Bioinformatic Tool To Discover Antibiotic Resistance Genes in Bacterial Genomes\u201d by S. K. Gupta et al. (1). Detection of antimicrobial resistance genes in whole-genome sequencing data with a fast and easy-to-use method is important for outbreak investigation, source tracking, diagnostics, and epidemiological surveillance, and further research is highly desirable. ARG-ANNOT is the first database to include detection of point mutations in chromosomic target genes known to be associated with antimicrobial resistance. Even though ARG-ANNOT covers only a segment of all known point mutations, it is a good start. However, I have a few comments regarding the paper. The ARG-ANNOT database contains the gene tetR, which is a regulatory gene and not a resistance gene. Furthermore, the authors of ARG-ANNOT have compared their results with the results of ResFinder (2) and found that the ARGANNOT database contains significantly more genes. The explanation for this is that the original version of ResFinder was unable to detect genes present in multiple copies. However, the current version of ResFinder (online since 1 November 2013) does detect multiple copies of genes (2) and would thus be better suited for comparable evaluations of the databases. The authors of ARG-ANNOT comment that the input sequence has to cover at least two-fifths of the length of an antimicrobial resistance gene in the database, with an identity of 50% (1), before it is detected as a resistance gene by ResFinder, and thus ARG-ANNOT is better for detection of putative new or unknown antimicrobial resistance genes with low similarities. In the current version of ResFinder, it is, in addition, possible to change the default settings, and we now allow down to 30% identity and 20% length coverage. However, when this low coverage and percentage of identity is allowed, one could argue that the specificity will diminish. The default parameters chosen for ResFinder have carefully been chosen to keep the specificity and to avoid unspecific hits. With the default settings, Zankari et al. have compared ResFinder with traditional antimicrobial susceptibility tests using 200 isolates from pigs covering four different bacterial species and observed a 99.74% concordance between predicted and phenotypic antimicrobial susceptibility (3). Further studies comparing conventional methods and novel whole-genome sequencing approaches are warranted.",
     "venue": "Antimicrobial Agents and Chemotherapy",
     "year": 2014,
     "referenceCount": 3,
-    "citationCount": 42,
+    "citationCount": 44,
     "influentialCitationCount": 1,
     "openAccessPdf": {
       "url": "https://aac.asm.org/content/aac/58/8/4986.full.pdf",
       "status": "BRONZE",
       "license": null,
-      "disclaimer": "Notice: This abstract is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1128/AAC.02620-14?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1128/AAC.02620-14, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract', 'references'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1128/AAC.02620-14?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1128/AAC.02620-14, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "authors": [
       {
@@ -30,8 +29,16 @@
     ],
     "citations": [
       {
+        "paperId": "0ca4fb83e015cb067578967c5485d7b53d78db68",
+        "title": "Advancements and challenges in bioinformatics tools for microbial genomics in the last decade: Toward the smart integration of bioinformatics tools, digital resources, and emerging technologies for the analysis of complex biological data."
+      },
+      {
         "paperId": "0f9a8ce4359a387e7041b69b09dd4498a2fa99a2",
         "title": "A novel broad-spectrum bacteriophage cocktail against methicillin-resistant Staphylococcus aureus: Isolation, characterization, and therapeutic potential in a mastitis mouse model"
+      },
+      {
+        "paperId": "a75ff1b8e5d0c1759eeaf4fc8be7e43342009c09",
+        "title": "Sentinel Surveillance reveals phylogenetic diversity and detection of linear plasmids harboring vanA and optrA among enterococci collected in the United States"
       },
       {
         "paperId": "d02d3c9d85a7791e3239fc286802af930a2b3624",
@@ -198,19 +205,7 @@
         "title": "Dissemination of Multiresistant Bacteria : Their Selection, Transmission, Virulence and Resistance"
       }
     ],
-    "references": [
-      {
-        "paperId": "a2fdbd3e9fc03b51f0825473a783a51994913bfe",
-        "title": "ARG-ANNOT, a New Bioinformatic Tool To Discover Antibiotic Resistance Genes in Bacterial Genomes"
-      },
-      {
-        "paperId": "7d93cc7f6cabf9189167e5c8c745d89931f12bc4",
-        "title": "Genotyping using whole-genome sequencing is a realistic alternative to surveillance based on phenotypic antimicrobial susceptibility testing."
-      },
-      {
-        "paperId": "6f0d0664b4762ee86b54de9e1fa9a16019cc5003",
-        "title": "Identification of acquired antimicrobial resistance genes"
-      }
-    ]
+    "abstract": null,
+    "references": null
   }
 }

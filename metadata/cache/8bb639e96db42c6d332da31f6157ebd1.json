@@ -1,21 +1,25 @@
 {
-  "cache_date": "2025-11-01T11:57:11.371528",
+  "cache_date": "2026-06-01T18:37:27.761347",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            30
+            2026,
+            5,
+            29
           ]
         ],
-        "date-time": "2025-10-30T22:43:14Z",
-        "timestamp": 1761864194800,
-        "version": "3.37.3"
+        "date-time": "2026-05-29T14:50:09Z",
+        "timestamp": 1780066209229,
+        "version": "3.54.0"
       },
       "update-to": [
         {
+          "DOI": "10.1371/journal.pcbi.1007845",
+          "type": "new_version",
+          "label": "New version",
+          "source": "publisher",
           "updated": {
             "date-parts": [
               [
@@ -26,11 +30,7 @@
             ],
             "date-time": "2020-11-12T00:00:00Z",
             "timestamp": 1605139200000
-          },
-          "DOI": "10.1371/journal.pcbi.1007845",
-          "type": "new_version",
-          "source": "publisher",
-          "label": "New version"
+          }
         }
       ],
       "reference-count": 35,
@@ -62,6 +62,13 @@
           "award": [
             "W911NF-17-2-0105"
           ],
+          "award-info": [
+            {
+              "award-number": [
+                "W911NF-17-2-0105"
+              ]
+            }
+          ],
           "id": [
             {
               "id": "10.13039/100011039",
@@ -76,6 +83,13 @@
           "doi-asserted-by": "publisher",
           "award": [
             "0827278"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "0827278"
+              ]
+            }
           ],
           "id": [
             {
@@ -95,7 +109,7 @@
       "short-container-title": [
         "PLoS Comput Biol"
       ],
-      "abstract": "<jats:p>For any given bacteriophage genome or phage-derived sequences in metagenomic data sets, we are unable to assign a function to 50\u201390% of genes, or more. Structural protein-encoding genes constitute a large fraction of the average phage genome and are among the most divergent and difficult-to-identify genes using homology-based methods. To understand the functions encoded by phages, their contributions to their environments, and to help gauge their utility as potential phage therapy agents, we have developed a new approach to classify phage ORFs into ten major classes of structural proteins or into an \u201cother\u201d category. The resulting tool is named PhANNs (Phage Artificial Neural Networks). We built a database of 538,213 manually curated phage protein sequences that we split into eleven subsets (10 for cross-validation, one for testing) using a novel clustering method that ensures there are no homologous proteins between sets yet maintains the maximum sequence diversity for training. An Artificial Neural Network ensemble trained on features extracted from those sets reached a test F<jats:sub>1</jats:sub>-score of 0.875 and test accuracy of 86.2%. PhANNs can rapidly classify proteins into one of the ten structural classes or, if not predicted to fall in one of the ten classes, as \u201cother,\u201d providing a new approach for functional annotation of phage proteins. PhANNs is open source and can be run from our web server or installed locally.</jats:p>",
+      "abstract": "<jats:p>\n                    For any given bacteriophage genome or phage-derived sequences in metagenomic data sets, we are unable to assign a function to 50\u201390% of genes, or more. Structural protein-encoding genes constitute a large fraction of the average phage genome and are among the most divergent and difficult-to-identify genes using homology-based methods. To understand the functions encoded by phages, their contributions to their environments, and to help gauge their utility as potential phage therapy agents, we have developed a new approach to classify phage ORFs into ten major classes of structural proteins or into an \u201cother\u201d category. The resulting tool is named PhANNs (Phage Artificial Neural Networks). We built a database of 538,213 manually curated phage protein sequences that we split into eleven subsets (10 for cross-validation, one for testing) using a novel clustering method that ensures there are no homologous proteins between sets yet maintains the maximum sequence diversity for training. An Artificial Neural Network ensemble trained on features extracted from those sets reached a test F\n                    <jats:sub>1</jats:sub>\n                    -score of 0.875 and test accuracy of 86.2%. PhANNs can rapidly classify proteins into one of the ten structural classes or, if not predicted to fall in one of the ten classes, as \u201cother,\u201d providing a new approach for functional annotation of phage proteins. PhANNs is open source and can be run from our web server or installed locally.\n                  </jats:p>",
       "DOI": "10.1371/journal.pcbi.1007845",
       "type": "journal-article",
       "created": {
@@ -106,13 +120,13 @@
             2
           ]
         ],
-        "date-time": "2020-11-02T18:47:47Z",
-        "timestamp": 1604342867000
+        "date-time": "2020-11-02T13:47:47Z",
+        "timestamp": 1604324867000
       },
       "page": "e1007845",
       "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
       "source": "Crossref",
-      "is-referenced-by-count": 76,
+      "is-referenced-by-count": 84,
       "title": [
         "PhANNs, a fast and accurate tool and web server to classify phage structural proteins"
       ],
@@ -125,13 +139,25 @@
           "given": "Vito Adrian",
           "family": "Cantu",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "given": "Peter",
           "family": "Salamon",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-6893-2846",
@@ -139,19 +165,37 @@
           "given": "Victor",
           "family": "Seguritan",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "given": "Jackson",
           "family": "Redfield",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "given": "David",
           "family": "Salamon",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0001-8383-8949",
@@ -159,7 +203,13 @@
           "given": "Robert A.",
           "family": "Edwards",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-8454-5248",
@@ -167,7 +217,13 @@
           "given": "Anca M.",
           "family": "Segall",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         }
       ],
       "member": "340",
@@ -423,10 +479,10 @@
           "unstructured": "Chollet F, others. Keras [Internet]. 2015. Available from: https://keras.io"
         },
         {
+          "key": "pcbi.1007845.ref023",
           "article-title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems",
-          "year": "2015",
           "author": "Mart\u00edn Abadi",
-          "key": "pcbi.1007845.ref023"
+          "year": "2015"
         },
         {
           "issue": "4",
@@ -552,6 +608,10 @@
       ],
       "updated-by": [
         {
+          "DOI": "10.1371/journal.pcbi.1007845",
+          "type": "new_version",
+          "label": "New version",
+          "source": "publisher",
           "updated": {
             "date-parts": [
               [
@@ -562,11 +622,7 @@
             ],
             "date-time": "2020-11-12T00:00:00Z",
             "timestamp": 1605139200000
-          },
-          "DOI": "10.1371/journal.pcbi.1007845",
-          "type": "new_version",
-          "source": "publisher",
-          "label": "New version"
+          }
         }
       ],
       "container-title": [
@@ -589,10 +645,10 @@
             12
           ]
         ],
-        "date-time": "2020-11-12T19:05:50Z",
-        "timestamp": 1605207950000
+        "date-time": "2020-11-12T14:05:50Z",
+        "timestamp": 1605189950000
       },
-      "score": 11.998496,
+      "score": 11.924711,
       "resource": {
         "primary": {
           "URL": "https://dx.plos.org/10.1371/journal.pcbi.1007845"
@@ -603,7 +659,13 @@
           "given": "Mihaela",
           "family": "Pertea",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
         }
       ],
       "issued": {
@@ -643,8 +705,8 @@
       ],
       "issn-type": [
         {
-          "type": "electronic",
-          "value": "1553-7358"
+          "value": "1553-7358",
+          "type": "electronic"
         }
       ],
       "published": {
@@ -666,14 +728,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
+            2026,
             4,
-            15
+            6
           ]
         ],
-        "date-time": "2025-04-15T13:36:36Z",
-        "timestamp": 1744724196544,
-        "version": "3.37.3"
+        "date-time": "2026-04-06T14:51:16Z",
+        "timestamp": 1775487076936,
+        "version": "3.50.1"
       },
       "posted": {
         "date-parts": [
@@ -686,7 +748,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 34,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -718,7 +780,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>For any given bacteriophage genome or phage sequences in metagenomic data sets, we are unable to assign a function to 50-90% of genes. Structural protein-encoding genes constitute a large fraction of the average phage genome and are among the most divergent and difficult-to-identify genes using homology-based methods. To understand the functions encoded by phages, their contributions to their environments, and to help gauge their utility as potential phage therapy agents, we have developed a new approach to classify phage ORFs into ten major classes of structural proteins or into an \u201cother\u201d category. The resulting tool is named PhANNs (Phage Artificial Neural Networks). We built a database of 538,213 manually curated phage protein sequences that we split into eleven subsets (10 for cross-validation, one for testing) using a novel clustering method that ensures there are no homologous proteins between sets yet maintains the maximum sequence diversity for training. An Artificial Neural Network ensemble trained on features extracted from those sets reached a test F<jats:sub>1</jats:sub>-score of 0.875 and test accuracy of 86.2%. PhANNs can rapidly classify proteins into one of the ten classes, and non-phage proteins are classified as \u201cother\u201d, providing a new approach for functional annotation of phage proteins. PhANNs is open source and can be run from our web server or installed locally.</jats:p><jats:sec><jats:title>Author Summary</jats:title><jats:p>Bacteriophages (phages, viruses that infect bacteria) are the most abundant biological entity on Earth. They outnumber bacteria by a factor of ten. As phages are very different within them and from bacteria, and we have comparatively few phage genes in our database, we are unable to assign function to 50%-90% of phage genes. In this work, we developed PhANNs, a machine learning tool that can classify a phage gene as one of ten structural roles, or \u201cother\u201d. This approach does not require a similar gene to be known.</jats:p></jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  For any given bacteriophage genome or phage sequences in metagenomic data sets, we are unable to assign a function to 50-90% of genes. Structural protein-encoding genes constitute a large fraction of the average phage genome and are among the most divergent and difficult-to-identify genes using homology-based methods. To understand the functions encoded by phages, their contributions to their environments, and to help gauge their utility as potential phage therapy agents, we have developed a new approach to classify phage ORFs into ten major classes of structural proteins or into an \u201cother\u201d category. The resulting tool is named PhANNs (Phage Artificial Neural Networks). We built a database of 538,213 manually curated phage protein sequences that we split into eleven subsets (10 for cross-validation, one for testing) using a novel clustering method that ensures there are no homologous proteins between sets yet maintains the maximum sequence diversity for training. An Artificial Neural Network ensemble trained on features extracted from those sets reached a test F\n                  <jats:sub>1</jats:sub>\n                  -score of 0.875 and test accuracy of 86.2%. PhANNs can rapidly classify proteins into one of the ten classes, and non-phage proteins are classified as \u201cother\u201d, providing a new approach for functional annotation of phage proteins. PhANNs is open source and can be run from our web server or installed locally.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>Bacteriophages (phages, viruses that infect bacteria) are the most abundant biological entity on Earth. They outnumber bacteria by a factor of ten. As phages are very different within them and from bacteria, and we have comparatively few phage genes in our database, we are unable to assign function to 50%-90% of phage genes. In this work, we developed PhANNs, a machine learning tool that can classify a phage gene as one of ten structural roles, or \u201cother\u201d. This approach does not require a similar gene to be known.</jats:p>\n                </jats:sec>",
       "DOI": "10.1101/2020.04.03.023523",
       "type": "posted-content",
       "created": {
@@ -729,15 +791,15 @@
             4
           ]
         ],
-        "date-time": "2020-04-04T10:35:14Z",
-        "timestamp": 1585996514000
+        "date-time": "2020-04-04T06:35:14Z",
+        "timestamp": 1585982114000
       },
       "source": "Crossref",
-      "is-referenced-by-count": 12,
+      "is-referenced-by-count": 13,
       "title": [
         "PhANNs, a fast and accurate tool and web server to classify phage structural proteins"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0000-0002-3168-5140",
@@ -745,13 +807,25 @@
           "given": "Vito Adrian",
           "family": "Cantu",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Peter",
           "family": "Salamon",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-6893-2846",
@@ -759,34 +833,64 @@
           "given": "Victor",
           "family": "Seguritan",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Jackson",
           "family": "Redfield",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "David",
           "family": "Salamon",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Robert A.",
           "family": "Edwards",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Anca M.",
           "family": "Segall",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "issue": "1",
@@ -1009,15 +1113,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            8,
-            4
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-08-04T10:05:33Z",
-        "timestamp": 1722765933000
+        "date-time": "2026-01-15T00:12:20Z",
+        "timestamp": 1768435940000
       },
-      "score": 15.851391,
+      "score": 15.134559,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.04.03.023523"

@@ -1,6 +1,118 @@
 {
-  "cache_date": "2025-11-01T10:46:10.652222",
+  "cache_date": "2026-06-01T16:19:13.655102",
   "data": [
+    {
+      "created": "2026-04-28T07:24:04.659094+00:00",
+      "modified": "2026-05-05T09:45:22.556787+00:00",
+      "id": 19832418,
+      "conceptrecid": "19832417",
+      "doi": "10.5281/zenodo.19832418",
+      "conceptdoi": "10.5281/zenodo.19832417",
+      "doi_url": "https://doi.org/10.5281/zenodo.19832418",
+      "metadata": {
+        "title": "SerraPHIM supplementary material",
+        "doi": "10.5281/zenodo.19832418",
+        "publication_date": "2026-04-28",
+        "description": "<h1><strong>SerraPHIM supplementary material and workflow archive</strong></h1>\n<p>This Zenodo record contains supplementary material for <strong>SerraPHIM </strong>(<em>Serratia Phage&ndash;Host Interaction Model</em>), a thesis-stage bioinformatics and machine-learning framework developed for strain-level phage&ndash;host compatibility prioritization in a <em>Serratia</em>-focused setting.</p>\n<p>SerraPHIM was designed to move beyond sequence-similarity-only phage host prediction by integrating several mechanistically interpretable evidence layers:</p>\n<p>1. phage genome annotation and receptor-binding protein (RBP) candidate discovery;<br>2. bacterial genome annotation and phage receptor candidate (PRC) prioritization;<br>3. protein structure prediction and sequence-/structure-based redundancy reduction;<br>4. docking-based approximation of RBP&ndash;PRC structural compatibility;<br>5. bacterial defense, CRISPR-related, and phage anti-defense annotation;<br>6. specialist-model construction for docking, defense, and final organism-level ranking;<br>7. final phage ranking for sequenced bacterial genomes.</p>\n<p>The repository should be interpreted as a&nbsp;<strong>research workflow archive and reproducibility package</strong>, not as a polished standalone software release. It contains scripts, Slurm batch files, configuration files, selected input datasets, derived datasets, logs, plots, model outputs, inference outputs, and selected large-scale workflow products generated or used during the SerraPHIM development workflow.</p>\n<p>The accompanying thesis itself is not included in this public Zenodo record.</p>\n<h2>Zenodo record</h2>\n<p>- Zenodo record: <a href=\"https://zenodo.org/records/19832418\">https://zenodo.org/records/19832418</a>&nbsp;<br>- Concept DOI: <a href=\"https://doi.org/10.5281/zenodo.19832417\">https://doi.org/10.5281/zenodo.19832417</a>&nbsp;</p>\n<h2>Archive organization</h2>\n<p>The main archive is organized into two top-level directories that mirror the practical separation between user-space and project-space storage on the HPC filesystem used during the project:</p>\n<p>- <code>serraphim_hpc_home/</code><br>&nbsp; Relevant contents from the user-space HPC working directory, corresponding to <code>$HOME/serraphim_hpc</code>.</p>\n<p>- <code>serraphim_hpc_project/</code><br>&nbsp; Relevant contents from the project-space HPC workflow directory, corresponding to <code>$PROJECT/serraphim</code>.</p>\n<p>This separation reflects how the workflow was developed and executed on the GWDG Scientific Compute Cluster / NHR@G&ouml;ttingen environment, where container-related files, requirement files, helper scripts, and tool setup files were kept under the user home directory, while large workflow inputs, outputs, logs, and model artifacts were written under the project directory.</p>\n<h2>Included material</h2>\n<p>The deposited material includes, among other files:</p>\n<ul>\n<li>workflow and analysis scripts;</li>\n<li>Slurm&nbsp;<code>sbatch</code>&nbsp;job scripts;</li>\n<li>configuration files;</li>\n<li>selected input files and curated workflow inputs;</li>\n<li>RBP and PRC master-table-related outputs;</li>\n<li><strong>ESM3/Forge</strong> and <strong>AlphaFold Server</strong> structure-generation outputs where included;</li>\n<li>pre-docking clustering outputs;</li>\n<li><strong>HADDOCK3 </strong>docking summaries and selected docking-related outputs;</li>\n<li><strong>DefenseFinder</strong>, <strong>AntiDefenseFinder</strong>, and <strong>CRISPRidentify </strong>outputs where included;</li>\n<li>docking-specialist datasets, trained/inferred outputs, and logs;</li>\n<li>defense-specialist datasets and outputs;</li>\n<li>ranking-specialist datasets, pseudo-label experiment outputs, teacher/student ranking outputs, ablation outputs, and final inference outputs;</li>\n<li>downstream analysis plots and tables used to summarize workflow behavior;</li>\n<li>production logs and inference logs.</li>\n</ul>\n<h2>Material intentionally omitted or partially included</h2>\n<p>Some directories and files were intentionally omitted or only partially included to keep the Zenodo deposit practically distributable.</p>\n<p>Examples include:</p>\n<ul>\n<li>very large public databases;</li>\n<li>cache directories;</li>\n<li>test directories and non-informative temporary output;</li>\n<li>the complete <strong>PhageScope </strong>download directory;</li>\n<li>the full <strong>Bakta </strong>annotation directory;</li>\n<li>parts of the complete phage annotation and inmembrane output trees;</li>\n<li>very large raw/intermediate files that can be regenerated from public sources or were too large to include reasonably;</li>\n<li>licensed or access-restricted third-party model files, especially <strong>SignalP 6.0</strong> model files.</li>\n</ul>\n<p>For <strong>inmembrane</strong>, the combined aggregated Gram-negative surfaceome summary is included, and one representative genome-level output directory was retained for detailed inspection of the internal output structure. The full multi-genome inmembrane output tree was not deposited completely.</p>\n<p>For <strong>SignalP 6.0</strong>, the downloadable model/package files were <strong>not redistributed</strong>. Users who wish to rerun the <strong>inmembrane </strong>workflow must request the <strong>SignalP 6.0</strong> fast package from DTU Health Tech and install it manually according to the upstream terms and instructions.</p>\n<h2>Main workflow overview</h2>\n<p>The SerraPHIM workflow was executed primarily on HPC through <strong>Slurm </strong>and <strong>Apptainer</strong>. The broad production order was:</p>\n<p>1. prepare local/WSL Python environments and sanitize requirements;<br>2. build the unified <strong>Apptainer </strong>container on the HPC cluster;<br>3. install or stage required external databases into bound project directories;<br>4. download and curate bacterial genomes from <strong>NCBI</strong>;<br>5. download and curate phage genomes/metadata from <strong>PhageScope</strong>;<br>6. annotate bacterial genomes with <strong>Bakta</strong>;<br>7. annotate phage genomes with <strong>pharokka &rarr; PHOLD &rarr; Phynteny</strong>;<br>8. run the modernized <strong>inmembrane </strong>workflow to prioritize bacterial PRCs;<br>9. run <strong>PhageRBPdetect v4</strong> to add classifier-based RBP evidence;<br>10. build RBP &amp; PRC master tables and create sequence-based cluster with <strong>MMseqs2</strong>;<br>11. fold sequence-cluster representatives with <strong>ESM3/Forge</strong>;<br>12. handle <strong>ESM3 </strong>special cases, including non-standard amino acids, <strong>Forge </strong>potential-sequence-of-concern flags, and long proteins;<br>13. fold long proteins manually with <strong>AlphaFold Server</strong> where possible;<br>14. perform pre-docking structure-based clustering with <strong>Foldseek</strong>;<br>15. transfer required workflow state from SCC project storage to the NHR project space for large-scale docking;<br>16. run <strong>HADDOCK3 </strong>docking simulations;<br>17. archive large <strong>HADDOCK3 </strong>outputs and retain summary tables for downstream modeling;<br>18. build the docking-specialist training dataset;<br>19. build RBP/PRC sequence- and structure-similarity tables for leakage-aware model splitting;<br>20. tune and train the docking specialist;<br>21. build the docking-specialist inference dataset;<br>22. infer ambiguous and unsimulated docking pairs;<br>23. run <strong>DefenseFinder</strong>, <strong>AntiDefenseFinder</strong>, and <strong>CRISPRidentify</strong>;<br>24. build the defense-specialist dataset;<br>25. build the organism-level ranking-specialist dataset;<br>26. run exploratory pseudo-label experiments;<br>27. train the final teacher/student ranking specialist;<br>28. run ranking-specialist ablation studies;<br>29. generate the final inference/ranking outputs;<br>30. run downstream analysis scripts for figures, tables, and workflow summaries.<br><br></p>\n<h2>Reconstructing omitted prerequisites</h2>\n<p>The deposited archive is not expected to be directly rerunnable without additional setup. Several large, licensed, access-restricted, or environment-specific prerequisites must be recreated manually. In particular, users should expect to adapt paths, rebuild or provide the included Apptainer/Singularity container under <code>serraphim_hpc_home/containers/sif/serraphim_unified.sif</code>, stage external databases, request licensed model files where required, and provide their own API credentials for remote services such as EvolutionaryScale Forge.</p>\n<h3>HPC environment</h3>\n<p>The original workflow was executed on a Slurm-based HPC environment using Apptainer. Most production jobs were run on the GWDG Scientific Compute Cluster (SCC), with the large docking campaign additionally extended to an NHR@G&ouml;ttingen test project allocation.</p>\n<p>The scripts assume an HPC-like environment with variables equivalent to:</p>\n<p><code>$HOME</code><br><code>$PROJECT</code></p>\n<p>The original workflow used two main filesystem roots:</p>\n<p><code>$HOME/serraphim_hpc</code><br><code>$PROJECT/serraphim</code></p>\n<p>Inside the Apptainer container, selected host directories were commonly exposed under:</p>\n<p><code>/opt/serraphim</code></p>\n<p>Users rerunning the workflow should inspect and adapt all paths in:</p>\n<p><code>seraphim_hpc_home/config/</code><br><code>seraphim_hpc_home/slurm/</code><br><code>seraphim_hpc_project/serraphim/sbatch/</code><br><code>seraphim_hpc_project/serraphim/config/</code><br><code>seraphim_hpc_project/serraphim/scripts/</code></p>\n<p>Important note: many Slurm scripts intentionally bind specific subdirectories rather than binding a large parent directory such as the entire project root. This was done to avoid masking container-internal paths and to keep tool-specific runtime environments stable.</p>\n<h3>Container image</h3>\n<p>The workflow used a unified Apptainer image built from the provided container definition and sanitized requirement files.</p>\n<p>A typical expected image path was:</p>\n<p><code>$HOME/serraphim_hpc/containers/sif/serraphim_unified.sif</code></p>\n<p>The image was built through a Slurm job similar to:</p>\n<p><code>sbatch $HOME/serraphim_hpc/slurm/build_container.sbatch</code></p>\n<p>After building the image, the container should be tested before running production jobs. In the original workflow, this was done with a helper script similar to:</p>\n<p><code>$HOME/serraphim_hpc/scripts/test_serraphim_unified_container.sh</code></p>\n<p>The container bundled the main SerraPHIM Python environments and command-line dependencies, while large databases, workflow inputs, outputs, and selected model files were kept outside the image and exposed through Apptainer bind mounts.</p>\n<h3>Python environments and requirements</h3>\n<p>The original local development setup used WSL/Ubuntu with pyenv environments. The main environments were:</p>\n<p><code>serraphim_v2</code><br><code>serraphim_inmembrane</code><br><code>serraphim_haddock3</code></p>\n<p>The HPC container was built from sanitized requirement files exported from these environments. The sanitized requirements are included in the archive where relevant, but users should expect that exact dependency resolution may need adjustment on a new system.</p>\n<h3>External databases</h3>\n<p>Several tool databases were intentionally omitted because they are large, public, or easier to recreate than redistribute. They must be installed into project-side database directories and exposed to the container.</p>\n<p>A typical host-to-container binding used during database setup was:</p>\n<p><code>$PROJECT/serraphim/db:/opt/serraphim/db</code></p>\n<p>The main database bootstrap included the following resources:</p>\n<ul>\n<li><strong>pharokka </strong>database;</li>\n<li><strong>PHOLD </strong>database;</li>\n<li><strong>Phynteny </strong>models;</li>\n<li><strong>Bakta </strong>database;</li>\n<li><strong>AMRFinderPlus </strong>database used by <strong>Bakta</strong>;</li>\n<li><strong>DefenseFinder </strong>/ <strong>AntiDefenseFinder </strong>models;</li>\n<li><strong>HMMER </strong>profile databases used by the modernized <strong>inmembrane </strong>workflow;</li>\n<li><strong>CRISPRidentify </strong>/ <strong>CRISPRcasIdentifier </strong>model assets.</li>\n</ul>\n<p>Typical database setup commands used the container with `/opt/serraphim/db` bound to the project database directory. Depending on package versions, exact command names may differ, but the original setup followed this logic:</p>\n<p><code>install_databases.py -o /opt/serraphim/db/pharokka_db</code></p>\n<p><code>phold install -t 8 --foldseek_gpu --extended_db --database /opt/serraphim/db/phold_db</code></p>\n<p><code>install_models -o /opt/serraphim/db/phynteny_models</code></p>\n<p><code>amrfinder_update --force_update --database /opt/serraphim/db/bakta_db/db/amrfinderplus-db/</code></p>\n<p><code>bakta_db download --output /opt/serraphim/db/bakta_db --type full</code></p>\n<p>Users should check the current upstream documentation for each tool before recreating the environment, as command names, database formats, and installation procedures may change.</p>\n<h3>SignalP 6.0 fast package</h3>\n<p><strong>SignalP 6.0</strong> was used as part of the modernized inmembrane workflow. The SignalP 6.0 fast package and model files were not redistributed in this Zenodo archive.</p>\n<p>To recreate this part of the workflow:</p>\n<p>1. Request the <strong>SignalP 6.0</strong> fast package from DTU Health Tech:</p>\n<p>&nbsp; &nbsp;<a href=\"https://services.healthtech.dtu.dk/services/SignalP-6.0/\">SignalP 6.0 service page</a></p>\n<p>&nbsp; &nbsp;<a href=\"https://services.healthtech.dtu.dk/cgi-bin/sw_request?software=signalp&amp;version=6.0&amp;packageversion=6.0i&amp;platform=fast\">SignalP 6.0 fast package request page</a>&nbsp;</p>\n<p>2. Follow the upstream installation instructions:</p>\n<p>&nbsp; &nbsp;<a href=\"https://github.com/fteufel/signalp-6.0\">SignalP 6.0 GitHub repository</a>&nbsp;</p>\n<p>&nbsp; &nbsp;<a href=\"https://github.com/fteufel/signalp-6.0/blob/main/installation_instructions.md\">SignalP 6.0 installation instructions</a>&nbsp;</p>\n<p>3. Install the package into an <strong>inmembrane</strong>-compatible Python environment.</p>\n<p>4. Copy the SignalP model files into the installed package&rsquo;s expected <code>model_weights/</code> directory.</p>\n<p>5. Convert model weights for GPU execution if needed, for example with:</p>\n<p><code>signalp6_convert_models gpu &lt;SIGNALP_MODEL_WEIGHTS_DIRECTORY&gt;</code></p>\n<p>In the original workflow, <strong>SignalP 6.0</strong> was handled carefully because of dependency conflicts with other PyTorch-based tools. In particular, the <strong>inmembrane</strong>-related environment was kept separate from parts of the phage annotation stack.</p>\n<h3>CRISPRidentify and CRISPRcasIdentifier models</h3>\n<p><strong>CRISPRidentify </strong>was used together with <strong>CRISPRcasIdentifier</strong>-related model assets. The required model archives were obtained manually from upstream CRISPRcasIdentifier resources and staged under the project-side tools directory.</p>\n<p>The expected archives were:</p>\n<p><code>HMM_sets.tar.gz</code><br><code>trained_models.tar.gz</code></p>\n<p>They were staged under a directory similar to:</p>\n<p><code>$PROJECT/serraphim/tools/</code></p>\n<p>and extracted into:</p>\n<p><code>$PROJECT/serraphim/tools/crispridentify_models/</code></p>\n<p>The resulting extracted model directory was expected to contain paths such as:</p>\n<p><code>crispridentify_models/HMM_sets/HMM2019/</code><br><code>crispridentify_models/trained_models/HMM2019_features.joblib</code></p>\n<p>When running <strong>CRISPRidentify </strong>through <strong>Apptainer</strong>, the model directories were bound into the internal container path expected by <strong>CRISPRcasIdentifier</strong>.</p>\n<p>Users should also sanitize FASTA headers before <strong>CRISPRidentify </strong>runs, especially for genome or contig names containing slashes, spaces, or other characters that may be interpreted as unsafe path separators.</p>\n<h3>ESM3 / Forge API access</h3>\n<p>Protein structure generation was performed primarily through the EvolutionaryScale <strong>Forge API</strong> using the <strong>ESM Python SDK</strong>.</p>\n<p>Relevant links:</p>\n<p>- <a href=\"https://github.com/evolutionaryscale/esm\">ESM GitHub repository</a>&nbsp;<br>- <a href=\"https://www.evolutionaryscale.ai/\">EvolutionaryScale website</a>&nbsp;<br>- <a href=\"https://forge.evolutionaryscale.ai/\">Forge API</a>&nbsp;</p>\n<p>Users rerunning structure generation must obtain their own <strong>Forge API</strong> access and provide their own API key. The API key should be set through the environment and should never be hard-coded into public scripts or redistributed. The hard-coded ESM/Forge API key included in the scripts for convenience during development has now been invalidaded.</p>\n<p>Typical environment variable:</p>\n<p><code>ESM_API_KEY=&lt;your-own-forge-api-key&gt;</code></p>\n<p>The workflow used both cheaper <code>fold()</code> calls and more expensive <code>generate(track=\"structure\")</code>-style calls. The <code>generate()</code> path consumes substantially more Forge credits because token usage scales approximately with sequence length and the number of structure-generation steps. The production scripts therefore included explicit credit budgeting and daily-limit handling.</p>\n<p>Special <strong>ESM3/Forge</strong> cases handled in the workflow included:</p>\n<ul>\n<li>non-standard amino acids, especially&nbsp;<code>X</code>;</li>\n<li>sequences flagged by <strong>Forge </strong>as potential sequences of concern;</li>\n<li>long sequences outside the practical <strong>ESM3 </strong>input range used in the project;</li>\n<li>reruns of masked non-standard-amino-acid sequences;</li>\n<li>reruns of potential-sequence-of-concern proteins only after elevated access was granted.</li>\n</ul>\n<p>Non-standard amino-acid sequences were rerun by masking unsupported residues before structure generation. In the resulting PDB files, these positions may appear as unknown residues.</p>\n<h3>AlphaFold Server fallback for long proteins</h3>\n<p>Long candidate proteins outside the practical <strong>ESM3 </strong>range were folded manually through <strong>AlphaFold Server</strong> where possible (5000 aa protein sequence length limit still applies).</p>\n<p>Relevant link: <a href=\"https://alphafoldserver.com/\">AlphaFold Server</a></p>\n<p>The original workflow used the top-ranked <strong>AlphaFold Server</strong> model, typically the <code>model_0</code> output. <strong>AlphaFold Server</strong> returns structures in mmCIF format. These <code>.cif</code> files were manually converted to <code>.pdb</code> format using <strong>PyMOL </strong>before reintegration into the SerraPHIM directory structure.</p>\n<p>Long phage RBP structures were placed in the paths where the downstream docking workflow expected RBP structures to appear. Long bacterial PRC structures were handled separately and, because the complete docking campaign could not be finished for the full planned pair space, some long PRCs were ultimately handled through docking-specialist inference rather than through explicit <strong>HADDOCK3 </strong>simulation.</p>\n<p>One exceptionally long PRC sequence exceeded even the practical <strong>AlphaFold Server</strong> handling range and was excluded from the structural part of the study.</p>\n<h3>HADDOCK3 and storage considerations</h3>\n<p><strong>HADDOCK3 </strong>was used for large-scale docking simulations.</p>\n<p>Relevant link: <a href=\"https://github.com/haddocking/haddock3\">HADDOCK3 GitHub repository</a></p>\n<p>Users rerunning docking should install <strong>HADDOCK3 </strong>and ensure that all <strong>HADDOCK3 </strong>and <strong>CNS</strong>-related requirements are satisfied according to the upstream <strong>HADDOCK3</strong> documentation and license conditions.</p>\n<p>The docking simulation stage was the most computation- and storage-intensive part of the workflow. The original campaign generated several terabytes of raw <strong>HADDOCK3 </strong>output. The workflow therefore extracted compact summary tables for downstream modeling and archived or moved large pair-specific run outputs to cold storage.</p>\n<p>Reruns should plan for:</p>\n<ul>\n<li>large temporary working directories;</li>\n<li>substantial CPU time;</li>\n<li>long Slurm wall times;</li>\n<li>many pair-specific output directories;</li>\n<li>compression and archiving of completed docking runs;</li>\n<li>careful cleanup of incomplete run directories after interrupted jobs.</li>\n</ul>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ntokos, Spyridon",
+            "affiliation": null
+          }
+        ],
+        "resource_type": {
+          "title": "Workflow",
+          "type": "workflow"
+        },
+        "thesis": {
+          "university": "University of G\u00f6ttingen"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19832417"
+              }
+            }
+          ]
+        }
+      },
+      "title": "SerraPHIM supplementary material",
+      "links": {
+        "self": "https://zenodo.org/api/records/19832418",
+        "self_html": "https://zenodo.org/records/19832418",
+        "preview_html": "https://zenodo.org/records/19832418?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.19832418",
+        "self_doi": "https://doi.org/10.5281/zenodo.19832418",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19832418",
+        "reserve_doi": "https://zenodo.org/api/records/19832418/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19832417",
+        "parent_html": "https://zenodo.org/records/19832417",
+        "parent_doi": "https://doi.org/10.5281/zenodo.19832417",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19832417",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19832418/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19832418/sequence/default",
+        "files": "https://zenodo.org/api/records/19832418/files",
+        "media_files": "https://zenodo.org/api/records/19832418/media-files",
+        "archive": "https://zenodo.org/api/records/19832418/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19832418/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19832418/versions/latest",
+        "latest_html": "https://zenodo.org/records/19832418/latest",
+        "versions": "https://zenodo.org/api/records/19832418/versions",
+        "draft": "https://zenodo.org/api/records/19832418/draft",
+        "access_links": "https://zenodo.org/api/records/19832418/access/links",
+        "access_grants": "https://zenodo.org/api/records/19832418/access/grants",
+        "access_users": "https://zenodo.org/api/records/19832418/access/users",
+        "access_request": "https://zenodo.org/api/records/19832418/access/request",
+        "access": "https://zenodo.org/api/records/19832418/access",
+        "communities": "https://zenodo.org/api/records/19832418/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19832418/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19832418/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19832418/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19832418/quota-increase",
+        "requests": "https://zenodo.org/api/records/19832418/requests"
+      },
+      "updated": "2026-05-05T09:45:22.556787+00:00",
+      "recid": "19832418",
+      "revision": 5,
+      "files": [
+        {
+          "id": "1a0dcd38-0d69-4f6b-a9c3-ca1a6bbe09a7",
+          "key": "SerraPHIM_thesis.tar.gz",
+          "size": 18975153167,
+          "checksum": "md5:e72d47c87a0305d8294549c1127ad793",
+          "links": {
+            "self": "https://zenodo.org/api/records/19832418/files/SerraPHIM_thesis.tar.gz/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1627497"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 84,
+        "unique_views": 74,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 74,
+        "version_views": 84
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2024-01-16T18:39:49.437011+00:00",
       "modified": "2024-01-16T18:39:49.571545+00:00",
@@ -81,6 +193,8 @@
         "communities": "https://zenodo.org/api/records/10519957/communities",
         "communities-suggestions": "https://zenodo.org/api/records/10519957/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/10519957/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/10519957/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/10519957/quota-increase",
         "requests": "https://zenodo.org/api/records/10519957/requests"
       },
       "updated": "2024-01-16T18:39:49.571545+00:00",
@@ -105,14 +219,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 80,
-        "unique_downloads": 79,
-        "views": 561,
-        "unique_views": 537,
-        "version_downloads": 18,
-        "version_unique_downloads": 18,
-        "version_unique_views": 142,
-        "version_views": 148
+        "downloads": 149,
+        "unique_downloads": 148,
+        "views": 801,
+        "unique_views": 773,
+        "version_downloads": 38,
+        "version_unique_downloads": 38,
+        "version_unique_views": 283,
+        "version_views": 293
       },
       "state": "done",
       "submitted": true
@@ -194,6 +308,8 @@
         "communities": "https://zenodo.org/api/records/10515367/communities",
         "communities-suggestions": "https://zenodo.org/api/records/10515367/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/10515367/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/10515367/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/10515367/quota-increase",
         "requests": "https://zenodo.org/api/records/10515367/requests"
       },
       "updated": "2024-01-15T20:57:49.467913+00:00",
@@ -218,14 +334,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 743,
-        "unique_downloads": 537,
-        "views": 320,
-        "unique_views": 297,
-        "version_downloads": 734,
-        "version_unique_downloads": 528,
-        "version_unique_views": 259,
-        "version_views": 281
+        "downloads": 816,
+        "unique_downloads": 587,
+        "views": 429,
+        "unique_views": 402,
+        "version_downloads": 800,
+        "version_unique_downloads": 571,
+        "version_unique_views": 350,
+        "version_views": 376
       },
       "state": "done",
       "submitted": true

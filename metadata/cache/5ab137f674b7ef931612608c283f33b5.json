@@ -1,20 +1,20 @@
 {
-  "cache_date": "2025-11-01T11:58:05.967178",
+  "cache_date": "2026-06-01T16:42:47.045849",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            9,
-            11
+            2026,
+            5,
+            28
           ]
         ],
-        "date-time": "2025-09-11T22:29:35Z",
-        "timestamp": 1757629775467,
-        "version": "3.44.0"
+        "date-time": "2026-05-28T00:13:46Z",
+        "timestamp": 1779927226128,
+        "version": "3.53.1"
       },
-      "reference-count": 36,
+      "reference-count": 38,
       "publisher": "SAGE Publications",
       "issue": "4",
       "license": [
@@ -30,17 +30,35 @@
             "date-time": "2021-12-01T00:00:00Z",
             "timestamp": 1638316800000
           },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2021-12-01T00:00:00Z",
+            "timestamp": 1638316800000
+          },
           "content-version": "tdm",
           "delay-in-days": 0,
-          "URL": "https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/"
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
         }
       ],
       "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
+        "domain": [
+          "journals.sagepub.com"
+        ],
+        "crossmark-restriction": true
       },
       "short-container-title": [
-        "PHAGE"
+        "PHAGE: Therapy, Applications, and Research"
       ],
       "published-print": {
         "date-parts": [
@@ -51,6 +69,7 @@
           ]
         ]
       },
+      "abstract": "<jats:sec>\n                    <jats:title>Background:</jats:title>\n                    <jats:p>Fast and computationally efficient strategies are required to explore genomic relationships within an increasingly large and diverse phage sequence space. Here, we present PhageClouds, a novel approach using a graph database of phage genomic sequences and their intergenomic distances to explore the phage genomic sequence space.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods:</jats:title>\n                    <jats:p>\n                      A total of 640,000 phage genomic sequences were retrieved from a variety of databases and public virome assemblies. Intergenomic distances were calculated with dashing, an alignment-free method suitable for handling massive data sets. These data were used to build a Neo4j\n                      <jats:sup>\u00ae</jats:sup>\n                      graph database.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>PhageClouds supported the search of related phages among all complete phage genomes from GenBank for a single query phage in just 10\u2009s. Moreover, PhageClouds expanded the number of closely related phage sequences detected for both finished and draft phage genomes, in comparison with searches exclusively targeting phage entries from GenBank.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions:</jats:title>\n                    <jats:p>PhageClouds is a novel resource that will facilitate the analysis of phage genomic sequences and the characterization of assembled phage genomes.</jats:p>\n                  </jats:sec>",
       "DOI": "10.1089/phage.2021.0008",
       "type": "journal-article",
       "created": {
@@ -65,8 +84,9 @@
         "timestamp": 1639743216000
       },
       "page": "194-203",
+      "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
       "source": "Crossref",
-      "is-referenced-by-count": 21,
+      "is-referenced-by-count": 27,
       "title": [
         "From Trees to Clouds: PhageClouds for Fast Comparison of \u223c640,000 Phage Genomic Sequences and Host-Centric Visualization Using Genomic Network Graphs"
       ],
@@ -86,6 +106,12 @@
             {
               "name": "Max Planck Tandem Group in Computational Biology, Department of Biological Sciences, Universidad de los Andes, Bogota, Colombia."
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -95,6 +121,12 @@
           "affiliation": [
             {
               "name": "Department of Genetics and Genome Biology, University of Leicester, Leicester, United Kingdom."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -106,6 +138,12 @@
             {
               "name": "Warwick Medical School of Life Sciences, University of Warwick, Coventry, United Kingdom."
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -115,6 +153,12 @@
           "affiliation": [
             {
               "name": "Warwick Medical School of Life Sciences, University of Warwick, Coventry, United Kingdom."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -126,6 +170,12 @@
             {
               "name": "Section for Evolutionary Genomics, The GLOBE Institute, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark."
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -135,6 +185,12 @@
           "affiliation": [
             {
               "name": "Max Planck Tandem Group in Computational Biology, Department of Biological Sciences, Universidad de los Andes, Bogota, Colombia."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -151,6 +207,12 @@
             {
               "name": "Center for Evolutionary Hologenomics, Globe Institute, University of Copenhagen, Copenhagen, Denmark."
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -160,6 +222,12 @@
           "affiliation": [
             {
               "name": "Department of Genetics and Genome Biology, University of Leicester, Leicester, United Kingdom."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -174,210 +242,246 @@
             {
               "name": "Center for Evolutionary Hologenomics, Globe Institute, University of Copenhagen, Copenhagen, Denmark."
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         }
       ],
       "member": "179",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            16
+          ]
+        ]
+      },
       "reference": [
         {
-          "key": "B1",
+          "key": "e_1_3_6_2_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1128/AAC.45.3.649-659.2001"
         },
         {
-          "key": "B2",
+          "key": "e_1_3_6_3_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/S0140-6736(11)60401-7"
         },
         {
-          "key": "B3",
+          "key": "e_1_3_6_4_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.micres.2016.04.008"
         },
         {
-          "key": "B4",
+          "key": "e_1_3_6_5_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/nature19366"
         },
         {
-          "key": "B5",
+          "key": "e_1_3_6_6_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.3389/fevo.2018.00006"
         },
         {
-          "key": "B6",
+          "key": "e_1_3_6_7_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.cell.2015.01.002"
         },
         {
-          "key": "B7",
+          "key": "e_1_3_6_8_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1093/nar/gkaa946"
         },
         {
-          "key": "B8",
+          "key": "e_1_3_6_9_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.7554/eLife.08490"
         },
         {
-          "key": "B9",
+          "key": "e_1_3_6_10_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.cell.2019.03.040"
         },
         {
-          "key": "B10",
+          "key": "e_1_3_6_11_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.cell.2021.01.029"
         },
         {
-          "key": "B11",
+          "key": "e_1_3_6_12_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/s41579-019-0311-5"
         },
         {
-          "key": "B12",
+          "key": "e_1_3_6_13_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s13059-016-0997-x"
         },
         {
-          "key": "B13",
+          "key": "e_1_3_6_14_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.12688/f1000research.19675.1"
         },
         {
-          "key": "B14",
+          "key": "e_1_3_6_15_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/s41467-018-07641-9"
         },
         {
-          "key": "B15",
+          "key": "e_1_3_6_16_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/nmicrobiol.2017.112"
         },
         {
-          "key": "B16",
+          "key": "e_1_3_6_17_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.3390/v13030506"
         },
         {
-          "key": "B17",
+          "key": "e_1_3_6_18_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1046/j.1365-2958.2001.02228.x"
         },
         {
-          "key": "B18",
+          "key": "e_1_3_6_19_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1111/j.1574-6968.2004.tb09654.x"
         },
         {
-          "key": "B19",
+          "key": "e_1_3_6_20_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1128/AEM.70.2.1017-1022.2004"
         },
         {
-          "key": "B20",
+          "key": "e_1_3_6_21_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/s41564-019-0448-z"
         },
         {
-          "key": "B21",
+          "key": "e_1_3_6_22_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.tim.2015.12.003"
         },
         {
-          "key": "B22",
+          "key": "e_1_3_6_23_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1080/19420889.2017.1296614"
         },
         {
-          "key": "B23",
+          "key": "e_1_3_6_24_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1093/molbev/msn023"
         },
         {
-          "key": "B24",
+          "key": "e_1_3_6_25_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1128/mBio.01870-17"
         },
         {
-          "key": "B25",
-          "doi-asserted-by": "crossref",
+          "key": "e_1_3_6_26_2",
           "first-page": "1",
-          "DOI": "10.1038/nbt.4341",
+          "article-title": "Taxonomic assignment of uncultivated prokaryotic virus genomes is enabled by gene-sharing networks",
           "volume": "37",
           "author": "Jang H",
           "year": "2019",
+          "unstructured": "Jang H, , Bolduc B, , Zablocki O, et al. Taxonomic assignment of uncultivated prokaryotic virus genomes is enabled by gene-sharing networks. Nat Biotechnol. 2019; 37:1\u20138.",
           "journal-title": "Nat Biotechnol"
         },
         {
-          "key": "B26",
+          "key": "e_1_3_6_27_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/s41587-020-0501-8"
         },
         {
-          "key": "B28",
+          "key": "e_1_3_6_28_2",
+          "unstructured": "ter Horst AM Santos-Medell\u00edn C Sorensen JW et al. Minnesota peat viromes reveal terrestrial and aquatic niche partitioning for local and global viral populations. bioRxiv. 2020 [cited 2021 Jul 8]. p. 2020.12.15.422944. https://www.biorxiv.org/content/10.1101/2020.12.15.422944v1 (accessed July8 2021)."
+        },
+        {
+          "key": "e_1_3_6_29_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1073/pnas.2023202118"
         },
         {
-          "key": "B29",
+          "key": "e_1_3_6_30_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.chom.2020.08.003"
         },
         {
-          "key": "B30",
+          "key": "e_1_3_6_31_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s40168-021-01010-3"
         },
         {
-          "key": "B31",
+          "key": "e_1_3_6_32_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.csbj.2020.10.036"
         },
         {
-          "key": "B33",
-          "doi-asserted-by": "publisher",
-          "DOI": "10.1093/nargab/lqaa109"
+          "key": "e_1_3_6_33_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Michniewski S Rihtman B Cook R et al. Identification of a new family of \u201cmegaphages\u201d that are abundant in the marine environment. bioRxiv. 2021. http://biorxiv.org/lookup/doi/10.1101/2021.07.26.453748 (accessed August3 2021).",
+          "DOI": "10.1101/2021.07.26.453748"
         },
         {
-          "key": "B34",
+          "issue": "1",
+          "key": "e_1_3_6_34_2",
+          "article-title": "Rapid discovery of novel prophages using biological feature engineering and machine learning",
+          "volume": "3",
+          "author": "Sir\u00e9n K",
+          "year": "2021",
+          "unstructured": "Sir\u00e9n K, , Millard A, , Petersen B, et al. Rapid discovery of novel prophages using biological feature engineering and machine learning. NAR Genom Bioinform. 2021; 3(1):lqaa109.",
+          "journal-title": "NAR Genom Bioinform"
+        },
+        {
+          "key": "e_1_3_6_35_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s13059-019-1875-0"
         },
         {
-          "key": "B35",
+          "key": "e_1_3_6_36_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1111/1462-2920.14979"
         },
         {
-          "key": "B36",
+          "key": "e_1_3_6_37_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1089/phage.2020.0015"
         },
         {
-          "key": "B37",
+          "key": "e_1_3_6_38_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1093/sysbio/syz036"
         },
         {
-          "key": "B38",
+          "key": "e_1_3_6_39_2",
           "doi-asserted-by": "publisher",
           "DOI": "10.3390/v12111268"
         }
       ],
       "container-title": [
-        "PHAGE"
+        "PHAGE: Therapy, Applications, and Research"
       ],
       "language": "en",
       "link": [
         {
-          "URL": "https://www.liebertpub.com/doi/full-xml/10.1089/phage.2021.0008",
+          "URL": "https://journals.sagepub.com/doi/full-xml/10.1089/phage.2021.0008",
           "content-type": "application/xml",
           "content-version": "vor",
           "intended-application": "text-mining"
         },
         {
-          "URL": "https://www.liebertpub.com/doi/pdf/10.1089/phage.2021.0008",
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1089/phage.2021.0008",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1089/phage.2021.0008",
           "content-type": "unspecified",
           "content-version": "vor",
           "intended-application": "similarity-checking"
@@ -386,18 +490,18 @@
       "deposited": {
         "date-parts": [
           [
-            2025,
-            9,
-            10
+            2026,
+            5,
+            1
           ]
         ],
-        "date-time": "2025-09-10T15:33:57Z",
-        "timestamp": 1757518437000
+        "date-time": "2026-05-01T23:19:51Z",
+        "timestamp": 1777677591000
       },
-      "score": 12.399586,
+      "score": 11.26517,
       "resource": {
         "primary": {
-          "URL": "https://www.liebertpub.com/doi/10.1089/phage.2021.0008"
+          "URL": "https://journals.sagepub.com/doi/10.1089/phage.2021.0008"
         }
       },
       "issued": {
@@ -409,7 +513,7 @@
           ]
         ]
       },
-      "references-count": 36,
+      "references-count": 38,
       "journal-issue": {
         "issue": "4",
         "published-print": {
@@ -432,12 +536,12 @@
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "2641-6530"
+          "value": "2641-6530",
+          "type": "print"
         },
         {
-          "type": "electronic",
-          "value": "2641-6549"
+          "value": "2641-6549",
+          "type": "electronic"
         }
       ],
       "published": {

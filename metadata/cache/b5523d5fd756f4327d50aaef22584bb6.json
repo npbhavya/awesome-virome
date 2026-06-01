@@ -1,705 +1,6 @@
 {
-  "cache_date": "2025-11-01T10:43:07.857812",
+  "cache_date": "2026-06-01T16:17:21.934850",
   "data": [
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2025,
-            10,
-            4
-          ]
-        ],
-        "date-time": "2025-10-04T22:24:57Z",
-        "timestamp": 1759616697979,
-        "version": "3.37.3"
-      },
-      "reference-count": 49,
-      "publisher": "Oxford University Press (OUP)",
-      "issue": "1",
-      "license": [
-        {
-          "start": {
-            "date-parts": [
-              [
-                2019,
-                7,
-                12
-              ]
-            ],
-            "date-time": "2019-07-12T00:00:00Z",
-            "timestamp": 1562889600000
-          },
-          "content-version": "vor",
-          "delay-in-days": 0,
-          "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
-        }
-      ],
-      "funder": [
-        {
-          "name": "Elsa Neumann Scholarship of the State of Berlin"
-        },
-        {
-          "name": "German Academic Scholarship Foundation"
-        }
-      ],
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            1
-          ]
-        ]
-      },
-      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Motivation</jats:title><jats:p>We expect novel pathogens to arise due to their fast-paced evolution, and new species to be discovered thanks to advances in DNA sequencing and metagenomics. Moreover, recent developments in synthetic biology raise concerns that some strains of bacteria could be modified for malicious purposes. Traditional approaches to open-view pathogen detection depend on databases of known organisms, which limits their performance on unknown, unrecognized and unmapped sequences. In contrast, machine learning methods can infer pathogenic phenotypes from single NGS reads, even though the biological context is unavailable.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>We present DeePaC, a Deep Learning Approach to Pathogenicity Classification. It includes a flexible framework allowing easy evaluation of neural architectures with reverse-complement parameter sharing. We show that convolutional neural networks and LSTMs outperform the state-of-the-art based on both sequence homology and machine learning. Combining a deep learning approach with integrating the predictions for both mates in a read pair results in cutting the error rate almost in half in comparison to the previous state-of-the-art.</jats:p></jats:sec><jats:sec><jats:title>Availability and implementation</jats:title><jats:p>The code and the models are available at: https://gitlab.com/rki_bioinformatics/DeePaC.</jats:p></jats:sec><jats:sec><jats:title>Supplementary information</jats:title><jats:p>Supplementary data are available at Bioinformatics online.</jats:p></jats:sec>",
-      "DOI": "10.1093/bioinformatics/btz541",
-      "type": "journal-article",
-      "created": {
-        "date-parts": [
-          [
-            2019,
-            7,
-            11
-          ]
-        ],
-        "date-time": "2019-07-11T11:10:55Z",
-        "timestamp": 1562843455000
-      },
-      "page": "81-89",
-      "source": "Crossref",
-      "is-referenced-by-count": 55,
-      "title": [
-        "DeePaC: predicting pathogenic potential of novel DNA with reverse-complement neural networks"
-      ],
-      "prefix": "10.1093",
-      "volume": "36",
-      "author": [
-        {
-          "ORCID": "https://orcid.org/0000-0001-6893-2371",
-          "authenticated-orcid": false,
-          "given": "Jakub M",
-          "family": "Bartoszewicz",
-          "sequence": "first",
-          "affiliation": [
-            {
-              "name": "Bioinformatics Unit (MF1), Department of Methodology and Research Infrastructure, Robert Koch Institute , 13353 Berlin, Germany"
-            },
-            {
-              "name": "Department of Mathematics and Computer Science, Free University of Berlin , 14195 Berlin, Germany"
-            }
-          ]
-        },
-        {
-          "given": "Anja",
-          "family": "Seidel",
-          "sequence": "additional",
-          "affiliation": [
-            {
-              "name": "Bioinformatics Unit (MF1), Department of Methodology and Research Infrastructure, Robert Koch Institute , 13353 Berlin, Germany"
-            },
-            {
-              "name": "Department of Mathematics and Computer Science, Free University of Berlin , 14195 Berlin, Germany"
-            }
-          ]
-        },
-        {
-          "given": "Robert",
-          "family": "Rentzsch",
-          "sequence": "additional",
-          "affiliation": [
-            {
-              "name": "Bioinformatics Unit (MF1), Department of Methodology and Research Infrastructure, Robert Koch Institute , 13353 Berlin, Germany"
-            }
-          ]
-        },
-        {
-          "given": "Bernhard Y",
-          "family": "Renard",
-          "sequence": "additional",
-          "affiliation": [
-            {
-              "name": "Bioinformatics Unit (MF1), Department of Methodology and Research Infrastructure, Robert Koch Institute , 13353 Berlin, Germany"
-            }
-          ]
-        }
-      ],
-      "member": "286",
-      "published-online": {
-        "date-parts": [
-          [
-            2019,
-            7,
-            12
-          ]
-        ]
-      },
-      "reference": [
-        {
-          "key": "2023013109502483600_btz541-B1",
-          "doi-asserted-by": "crossref",
-          "first-page": "831",
-          "DOI": "10.1038/nbt.3300",
-          "article-title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
-          "volume": "33",
-          "author": "Alipanahi",
-          "year": "2015",
-          "journal-title": "Nat. Biotechnol"
-        },
-        {
-          "key": "2023013109502483600_btz541-B2",
-          "doi-asserted-by": "crossref",
-          "first-page": "403",
-          "DOI": "10.1016/S0022-2836(05)80360-2",
-          "article-title": "Basic local alignment search tool",
-          "volume": "215",
-          "author": "Altschul",
-          "year": "1990",
-          "journal-title": "J. Mol. Biol"
-        },
-        {
-          "key": "2023013109502483600_btz541-B3",
-          "doi-asserted-by": "crossref",
-          "first-page": "i715",
-          "DOI": "10.1093/bioinformatics/bty595",
-          "article-title": "PAIPline: pathogen identification in metagenomic and clinical next generation sequencing samples",
-          "volume": "34",
-          "author": "Andrusch",
-          "year": "2018",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "2023013109502483600_btz541-B4",
-          "doi-asserted-by": "crossref",
-          "first-page": "2001",
-          "DOI": "10.1093/bioinformatics/bty928",
-          "article-title": "BacPaCS\u2014Bacterial Pathogenicity Classification via Sparse-SVM",
-          "volume": "35",
-          "author": "Barash",
-          "year": "2019",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "year": "2019",
-          "author": "Brendel",
-          "key": "2023013109502483600_btz541-B5"
-        },
-        {
-          "key": "2023013109502483600_btz541-B6",
-          "doi-asserted-by": "crossref",
-          "first-page": "2177",
-          "DOI": "10.1093/bioinformatics/bty964",
-          "article-title": "An equivariant Bayesian convolutional network predicts recombination hotspots and accurately resolves binding motifs",
-          "volume": "35",
-          "author": "Brown",
-          "year": "2019",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "2023013109502483600_btz541-B7",
-          "doi-asserted-by": "crossref",
-          "first-page": "3035",
-          "DOI": "10.1093/bioinformatics/bty222",
-          "article-title": "pysster: classification of biological sequences by learning sequence and structure motifs with convolutional neural networks",
-          "volume": "34",
-          "author": "Budach",
-          "year": "2018",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "2023013109502483600_btz541-B8",
-          "doi-asserted-by": "crossref",
-          "first-page": "889",
-          "DOI": "10.1093/cid/ciu913",
-          "article-title": "Editorial commentary: unbiased next-generation sequencing and new pathogen discovery: undeniable advantages and still-existing drawbacks",
-          "volume": "60",
-          "author": "Calistri",
-          "year": "2015",
-          "journal-title": "Clin. Infect. Dis"
-        },
-        {
-          "year": "2015",
-          "author": "Carter",
-          "key": "2023013109502483600_btz541-B9"
-        },
-        {
-          "key": "2023013109502483600_btz541-B10",
-          "doi-asserted-by": "crossref",
-          "first-page": "D666",
-          "DOI": "10.1093/nar/gky901",
-          "article-title": "IMG/M v.5.0: an integrated data management and comparative analysis system for microbial genomes and microbiomes",
-          "volume": "47",
-          "author": "Chen",
-          "year": "2019",
-          "journal-title": "Nucleic Acids Res"
-        },
-        {
-          "first-page": "2990",
-          "year": "2016",
-          "author": "Cohen",
-          "key": "2023013109502483600_btz541-B11"
-        },
-        {
-          "key": "2023013109502483600_btz541-B12",
-          "doi-asserted-by": "crossref",
-          "first-page": "e77302.",
-          "DOI": "10.1371/journal.pone.0077302",
-          "article-title": "PathogenFinder\u2014distinguishing friend from foe using bacterial whole genome sequence data",
-          "volume": "8",
-          "author": "Cosentino",
-          "year": "2013",
-          "journal-title": "PLoS One"
-        },
-        {
-          "key": "2023013109502483600_btz541-B13",
-          "doi-asserted-by": "crossref",
-          "first-page": "39194.",
-          "DOI": "10.1038/srep39194",
-          "article-title": "PaPrBaG: a machine learning approach for the detection of novel pathogens from NGS data",
-          "volume": "7",
-          "author": "Deneke",
-          "year": "2017",
-          "journal-title": "Sci. Rep"
-        },
-        {
-          "key": "2023013109502483600_btz541-B14",
-          "doi-asserted-by": "crossref",
-          "first-page": "1771",
-          "DOI": "10.1056/NEJMoa1106483",
-          "article-title": "Epidemic profile of Shiga-toxin-producing Escherichia coli O104:H4 outbreak in Germany",
-          "volume": "365",
-          "author": "Frank",
-          "year": "2011",
-          "journal-title": "N. Engl. J. Med"
-        },
-        {
-          "key": "2023013109502483600_btz541-B15",
-          "doi-asserted-by": "crossref",
-          "first-page": "i629",
-          "DOI": "10.1093/bioinformatics/bty575",
-          "article-title": "Discovering epistatic feature interactions from neural network models of regulatory DNA sequences",
-          "volume": "34",
-          "author": "Greenside",
-          "year": "2018",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "first-page": "1026",
-          "year": "2015",
-          "author": "He",
-          "key": "2023013109502483600_btz541-B16"
-        },
-        {
-          "year": "2010",
-          "author": "Holtgrewe",
-          "key": "2023013109502483600_btz541-B17"
-        },
-        {
-          "key": "2023013109502483600_btz541-B18",
-          "doi-asserted-by": "crossref",
-          "first-page": "33.",
-          "DOI": "10.1186/2049-2618-2-33",
-          "article-title": "PathoScope 2.0: a complete computational framework for strain identification in environmental or clinical sequencing samples",
-          "volume": "2",
-          "author": "Hong",
-          "year": "2014",
-          "journal-title": "Microbiome"
-        },
-        {
-          "first-page": "448",
-          "year": "2015",
-          "author": "Ioffe",
-          "key": "2023013109502483600_btz541-B19"
-        },
-        {
-          "key": "2023013109502483600_btz541-B20",
-          "doi-asserted-by": "crossref",
-          "first-page": "990",
-          "DOI": "10.1101/gr.200535.115",
-          "article-title": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks",
-          "volume": "26",
-          "author": "Kelley",
-          "year": "2016",
-          "journal-title": "Genome Res"
-        },
-        {
-          "year": "2014",
-          "author": "Kingma",
-          "key": "2023013109502483600_btz541-B21"
-        },
-        {
-          "year": "2017",
-          "author": "Kopp",
-          "key": "2023013109502483600_btz541-B22"
-        },
-        {
-          "key": "2023013109502483600_btz541-B23",
-          "doi-asserted-by": "crossref",
-          "first-page": "357",
-          "DOI": "10.1038/nmeth.1923",
-          "article-title": "Fast gapped-read alignment with Bowtie 2",
-          "volume": "9",
-          "author": "Langmead",
-          "year": "2012",
-          "journal-title": "Nat. Methods"
-        },
-        {
-          "key": "2023013109502483600_btz541-B24",
-          "doi-asserted-by": "crossref",
-          "first-page": "25.",
-          "DOI": "10.3389/fcimb.2014.00025",
-          "article-title": "The diagnosis of infectious diseases by whole genome next generation sequencing: a new era is opening",
-          "volume": "4",
-          "author": "Lecuit",
-          "year": "2014",
-          "journal-title": "Front. Cell. Infect. Microbiol"
-        },
-        {
-          "key": "2023013109502483600_btz541-B25",
-          "doi-asserted-by": "crossref",
-          "first-page": "436",
-          "DOI": "10.1038/nature14539",
-          "article-title": "Deep learning",
-          "volume": "521",
-          "author": "LeCun",
-          "year": "2015",
-          "journal-title": "Nature"
-        },
-        {
-          "key": "2023013109502483600_btz541-B26",
-          "doi-asserted-by": "crossref",
-          "first-page": "1754",
-          "DOI": "10.1093/bioinformatics/btp324",
-          "article-title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
-          "volume": "25",
-          "author": "Li",
-          "year": "2009",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "2023013109502483600_btz541-B27",
-          "doi-asserted-by": "crossref",
-          "first-page": "e0117711.",
-          "DOI": "10.1371/journal.pone.0117711",
-          "article-title": "Metagenomic profiling of known and unknown microbes with MicrobeGPS",
-          "volume": "10",
-          "author": "Lindner",
-          "year": "2015",
-          "journal-title": "Plos One"
-        },
-        {
-          "key": "2023013109502483600_btz541-B28",
-          "doi-asserted-by": "crossref",
-          "first-page": "917",
-          "DOI": "10.1093/bioinformatics/btw659",
-          "article-title": "HiLive: real-time mapping of illumina reads while sequencing",
-          "volume": "33",
-          "author": "Lindner",
-          "year": "2017",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "2023013109502483600_btz541-B29",
-          "doi-asserted-by": "crossref",
-          "first-page": "5970",
-          "DOI": "10.1073/pnas.1521291113",
-          "article-title": "Scaling laws predict global microbial diversity",
-          "volume": "113",
-          "author": "Locey",
-          "year": "2016",
-          "journal-title": "Proc. Natl. Acad. Sci. USA"
-        },
-        {
-          "year": "2018",
-          "author": "Loka",
-          "key": "2023013109502483600_btz541-B30"
-        },
-        {
-          "key": "2023013109502483600_btz541-B31",
-          "doi-asserted-by": "crossref",
-          "first-page": "82.",
-          "DOI": "10.1186/s13073-018-0593-7",
-          "article-title": "Whole-genome epidemiology, characterisation, and phylogenetic reconstruction of Staphylococcus aureus strains in a paediatric hospital",
-          "volume": "10",
-          "author": "Manara",
-          "year": "2018",
-          "journal-title": "Genome Med"
-        },
-        {
-          "volume-title": "Biodefense in the Age of Synthetic Biology",
-          "year": "2018",
-          "key": "2023013109502483600_btz541-B32"
-        },
-        {
-          "volume-title": "Sequence-Based Classification of Select Agents: A Brighter Line",
-          "year": "2010",
-          "key": "2023013109502483600_btz541-B33"
-        },
-        {
-          "key": "2023013109502483600_btz541-B34",
-          "doi-asserted-by": "crossref",
-          "first-page": "3135.",
-          "DOI": "10.1038/s41467-018-05378-z",
-          "article-title": "Deep learning to predict the lab-of-origin of engineered DNA",
-          "volume": "9",
-          "author": "Nielsen",
-          "year": "2018",
-          "journal-title": "Nat. Commun"
-        },
-        {
-          "year": "2018",
-          "author": "Onimaru",
-          "key": "2023013109502483600_btz541-B35"
-        },
-        {
-          "year": "2018",
-          "author": "Piro",
-          "key": "2023013109502483600_btz541-B36"
-        },
-        {
-          "key": "2023013109502483600_btz541-B37",
-          "doi-asserted-by": "crossref",
-          "first-page": "e1005403.",
-          "DOI": "10.1371/journal.pcbi.1005403",
-          "article-title": "Imputation for transcription factor binding predictions based on deep learning",
-          "volume": "13",
-          "author": "Qin",
-          "year": "2017",
-          "journal-title": "PLOS Comput. Biol"
-        },
-        {
-          "key": "2023013109502483600_btz541-B38",
-          "doi-asserted-by": "crossref",
-          "first-page": "e107",
-          "DOI": "10.1093/nar/gkw226",
-          "article-title": "DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences",
-          "volume": "44",
-          "author": "Quang",
-          "year": "2016",
-          "journal-title": "Nucleic Acids Res"
-        },
-        {
-          "year": "2017",
-          "author": "Quang",
-          "key": "2023013109502483600_btz541-B39"
-        },
-        {
-          "key": "2023013109502483600_btz541-B40",
-          "first-page": "205969",
-          "volume-title": "Adv. Bioinforma",
-          "author": "Rosen",
-          "year": "2008"
-        },
-        {
-          "key": "2023013109502483600_btz541-B41",
-          "doi-asserted-by": "crossref",
-          "first-page": "127",
-          "DOI": "10.1093/bioinformatics/btq619",
-          "article-title": "NBC: the Na\u00efve Bayes Classification tool webserver for taxonomic classification of metagenomic reads",
-          "volume": "27",
-          "author": "Rosen",
-          "year": "2011",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "year": "2017",
-          "author": "Shrikumar",
-          "key": "2023013109502483600_btz541-B42"
-        },
-        {
-          "key": "2023013109502483600_btz541-B43",
-          "first-page": "1929",
-          "article-title": "Dropout: a simple way to prevent neural networks from overfitting",
-          "volume": "15",
-          "author": "Srivastava",
-          "year": "2014",
-          "journal-title": "J. Mach. Learn. Res"
-        },
-        {
-          "key": "2023013109502483600_btz541-B44",
-          "doi-asserted-by": "crossref",
-          "first-page": "902",
-          "DOI": "10.1038/nmeth.3589",
-          "article-title": "MetaPhlAn2 for enhanced metagenomic taxonomic profiling",
-          "volume": "12",
-          "author": "Truong",
-          "year": "2015",
-          "journal-title": "Nat. Methods"
-        },
-        {
-          "key": "2023013109502483600_btz541-B45",
-          "doi-asserted-by": "crossref",
-          "first-page": "D535",
-          "DOI": "10.1093/nar/gkw1017",
-          "article-title": "Improvements to PATRIC, the all-bacterial bioinformatics database and analysis resource center",
-          "volume": "45",
-          "author": "Wattam",
-          "year": "2017",
-          "journal-title": "Nucleic Acids Res"
-        },
-        {
-          "key": "2023013109502483600_btz541-B46",
-          "doi-asserted-by": "crossref",
-          "first-page": "E5096",
-          "DOI": "10.1073/pnas.1608281113",
-          "article-title": "Extrapolating abundance curves has no predictive power for estimating microbial biodiversity",
-          "volume": "113",
-          "author": "Willis",
-          "year": "2016",
-          "journal-title": "Proc. Natl. Acad. Sci. USA"
-        },
-        {
-          "key": "2023013109502483600_btz541-B47",
-          "doi-asserted-by": "crossref",
-          "first-page": "R46.",
-          "DOI": "10.1186/gb-2014-15-3-r46",
-          "article-title": "Kraken: ultrafast metagenomic sequence classification using exact alignments",
-          "volume": "15",
-          "author": "Wood",
-          "year": "2014",
-          "journal-title": "Genome Biol"
-        },
-        {
-          "key": "2023013109502483600_btz541-B48",
-          "doi-asserted-by": "crossref",
-          "first-page": "i121",
-          "DOI": "10.1093/bioinformatics/btw255",
-          "article-title": "Convolutional neural network architectures for predicting DNA\u2013protein binding",
-          "volume": "32",
-          "author": "Zeng",
-          "year": "2016",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "2023013109502483600_btz541-B49",
-          "doi-asserted-by": "crossref",
-          "first-page": "931",
-          "DOI": "10.1038/nmeth.3547",
-          "article-title": "Predicting effects of noncoding variants with deep learning-based sequence model",
-          "volume": "12",
-          "author": "Zhou",
-          "year": "2015",
-          "journal-title": "Nat. Methods"
-        }
-      ],
-      "container-title": [
-        "Bioinformatics"
-      ],
-      "language": "en",
-      "link": [
-        {
-          "URL": "http://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btz541/28971344/btz541.pdf",
-          "content-type": "application/pdf",
-          "content-version": "am",
-          "intended-application": "syndication"
-        },
-        {
-          "URL": "https://academic.oup.com/bioinformatics/article-pdf/36/1/81/48981489/bioinformatics_36_1_81.pdf",
-          "content-type": "application/pdf",
-          "content-version": "vor",
-          "intended-application": "syndication"
-        },
-        {
-          "URL": "https://academic.oup.com/bioinformatics/article-pdf/36/1/81/48981489/bioinformatics_36_1_81.pdf",
-          "content-type": "unspecified",
-          "content-version": "vor",
-          "intended-application": "similarity-checking"
-        }
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2023,
-            9,
-            18
-          ]
-        ],
-        "date-time": "2023-09-18T05:15:35Z",
-        "timestamp": 1695014135000
-      },
-      "score": 13.791736,
-      "resource": {
-        "primary": {
-          "URL": "https://academic.oup.com/bioinformatics/article/36/1/81/5531656"
-        }
-      },
-      "editor": [
-        {
-          "given": "Inanc",
-          "family": "Birol",
-          "sequence": "additional",
-          "affiliation": []
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2019,
-            7,
-            12
-          ]
-        ]
-      },
-      "references-count": 49,
-      "journal-issue": {
-        "issue": "1",
-        "published-print": {
-          "date-parts": [
-            [
-              2020,
-              1,
-              1
-            ]
-          ]
-        }
-      },
-      "URL": "https://doi.org/10.1093/bioinformatics/btz541",
-      "relation": {
-        "has-preprint": [
-          {
-            "id-type": "doi",
-            "id": "10.1101/535286",
-            "asserted-by": "object"
-          }
-        ]
-      },
-      "ISSN": [
-        "1367-4803",
-        "1367-4811"
-      ],
-      "issn-type": [
-        {
-          "type": "print",
-          "value": "1367-4803"
-        },
-        {
-          "type": "electronic",
-          "value": "1367-4811"
-        }
-      ],
-      "published-other": {
-        "date-parts": [
-          [
-            2020,
-            1,
-            1
-          ]
-        ]
-      },
-      "published": {
-        "date-parts": [
-          [
-            2019,
-            7,
-            12
-          ]
-        ]
-      }
-    },
     {
       "institution": [
         {
@@ -709,14 +10,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            2,
-            21
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-02-21T00:32:59Z",
-        "timestamp": 1740097979880,
-        "version": "3.37.3"
+        "date-time": "2026-01-15T10:27:12Z",
+        "timestamp": 1768472832952,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -729,7 +30,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 47,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
@@ -743,7 +44,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Motivation:</jats:title><jats:p>We expect novel pathogens to arise due to their fast-paced evolution, and new species to be discovered thanks to advances in DNA sequencing and metagenomics. What is more, recent developments in synthetic biology raise concerns that some strains of bacteria could be modified for malicious purposes. Traditional approaches to open-view pathogen detection depend on databases of known organisms, limiting their performance on unknown, unrecognized, and unmapped sequences. In contrast, machine learning methods can infer pathogenic phenotypes from single NGS reads even though the biological context is unavailable. However, modern neural architectures treat DNA as a simple character string and may predict conflicting labels for a given sequence and its reverse-complement. This undesirable property may impact model performance.</jats:p></jats:sec><jats:sec><jats:title>Results:</jats:title><jats:p>We present DeePaC, a Deep Learning Approach to Pathogenicity Classification. It includes a universal, extensible framework for neural architectures ensuring identical predictions for any given DNA sequence and its reverse-complement. We implement reverse-complement convolutional neural networks and LSTMs, which outperform the state-of-the-art methods based on both sequence homology and machine learning. Combining a reverse-complement architecture with integrating the predictions for both mates in a read pair results in cutting the error rate almost in half in comparison to the previous state-of-the-art.</jats:p></jats:sec><jats:sec><jats:title>Availability:</jats:title><jats:p>The code and the models are available at:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://gitlab.com/rki_bioinformatics/DeePaC\">https://gitlab.com/rki_bioinformatics/DeePaC</jats:ext-link></jats:p></jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation:</jats:title>\n                  <jats:p>We expect novel pathogens to arise due to their fast-paced evolution, and new species to be discovered thanks to advances in DNA sequencing and metagenomics. What is more, recent developments in synthetic biology raise concerns that some strains of bacteria could be modified for malicious purposes. Traditional approaches to open-view pathogen detection depend on databases of known organisms, limiting their performance on unknown, unrecognized, and unmapped sequences. In contrast, machine learning methods can infer pathogenic phenotypes from single NGS reads even though the biological context is unavailable. However, modern neural architectures treat DNA as a simple character string and may predict conflicting labels for a given sequence and its reverse-complement. This undesirable property may impact model performance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results:</jats:title>\n                  <jats:p>We present DeePaC, a Deep Learning Approach to Pathogenicity Classification. It includes a universal, extensible framework for neural architectures ensuring identical predictions for any given DNA sequence and its reverse-complement. We implement reverse-complement convolutional neural networks and LSTMs, which outperform the state-of-the-art methods based on both sequence homology and machine learning. Combining a reverse-complement architecture with integrating the predictions for both mates in a read pair results in cutting the error rate almost in half in comparison to the previous state-of-the-art.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability:</jats:title>\n                  <jats:p>\n                    The code and the models are available at:\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://gitlab.com/rki_bioinformatics/DeePaC\">https://gitlab.com/rki_bioinformatics/DeePaC</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
       "DOI": "10.1101/535286",
       "type": "posted-content",
       "created": {
@@ -754,15 +55,15 @@
             31
           ]
         ],
-        "date-time": "2019-01-31T23:15:19Z",
-        "timestamp": 1548976519000
+        "date-time": "2019-01-31T18:15:19Z",
+        "timestamp": 1548958519000
       },
       "source": "Crossref",
       "is-referenced-by-count": 2,
       "title": [
         "DeePaC: Predicting pathogenic potential of novel DNA with a universal framework for reverse-complement neural networks"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0000-0001-6893-2371",
@@ -770,13 +71,25 @@
           "given": "Jakub M.",
           "family": "Bartoszewicz",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Anja",
           "family": "Seidel",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0003-0932-8777",
@@ -784,7 +97,13 @@
           "given": "Robert",
           "family": "Rentzsch",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0003-4589-9809",
@@ -792,10 +111,16 @@
           "given": "Bernhard Y.",
           "family": "Renard",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2019122110350922000_535286v2.1",
@@ -1091,15 +416,15 @@
       "deposited": {
         "date-parts": [
           [
-            2023,
-            9,
-            13
+            2026,
+            1,
+            14
           ]
         ],
-        "date-time": "2023-09-13T09:53:52Z",
-        "timestamp": 1694598832000
+        "date-time": "2026-01-14T22:05:19Z",
+        "timestamp": 1768428319000
       },
-      "score": 16.80621,
+      "score": 16.343485,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/535286"
@@ -1192,13 +517,25 @@
           "given": "RenuB",
           "family": "Pattanshetty",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "DeepaC.",
           "family": "Metgud",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "2581",
@@ -1311,7 +648,7 @@
         "date-time": "2023-08-05T14:45:30Z",
         "timestamp": 1691246730000
       },
-      "score": 16.02771,
+      "score": 16.063576,
       "resource": {
         "primary": {
           "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_44_20"
@@ -1339,230 +676,6 @@
         "189944"
       ],
       "URL": "https://doi.org/10.4103/ijptr.ijptr_44_20",
-      "ISSN": [
-        "2666-3481"
-      ],
-      "issn-type": [
-        {
-          "type": "print",
-          "value": "2666-3481"
-        }
-      ],
-      "published": {
-        "date-parts": [
-          [
-            2020
-          ]
-        ]
-      }
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2024,
-            12,
-            11
-          ]
-        ],
-        "date-time": "2024-12-11T00:44:18Z",
-        "timestamp": 1733877858183,
-        "version": "3.30.1"
-      },
-      "reference-count": 15,
-      "publisher": "Medknow",
-      "issue": "1",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "short-container-title": [
-        "Indian J Phys Ther Res"
-      ],
-      "published-print": {
-        "date-parts": [
-          [
-            2020
-          ]
-        ]
-      },
-      "DOI": "10.4103/ijptr.ijptr_16_20",
-      "type": "journal-article",
-      "created": {
-        "date-parts": [
-          [
-            2020,
-            7,
-            3
-          ]
-        ],
-        "date-time": "2020-07-03T15:46:31Z",
-        "timestamp": 1593791191000
-      },
-      "page": "1",
-      "source": "Crossref",
-      "is-referenced-by-count": 1,
-      "title": [
-        "COVID-19 pandemic: An emerging physical therapy paradigm"
-      ],
-      "prefix": "10.4103",
-      "volume": "2",
-      "author": [
-        {
-          "given": "DeepaC",
-          "family": "Metgud",
-          "sequence": "first",
-          "affiliation": []
-        },
-        {
-          "given": "Renu",
-          "family": "Pattanshetty",
-          "sequence": "additional",
-          "affiliation": []
-        },
-        {
-          "given": "Aarti",
-          "family": "Welling",
-          "sequence": "additional",
-          "affiliation": []
-        }
-      ],
-      "member": "2581",
-      "reference": [
-        {
-          "key": "key-10.4103/2666-3481.288859-1",
-          "first-page": "1039",
-          "volume-title": "2019 novel coronavirus-important information for clinicians",
-          "author": "Del",
-          "year": "2020",
-          "journal-title": "JAMA"
-        },
-        {
-          "key": "#cr-split#-key-10.4103/2666-3481.288859-2.1",
-          "unstructured": "World Health Organisation. Coronavirus Disease 2019 (COVID-19) Situation Report 46. World Health Organisation"
-        },
-        {
-          "key": "#cr-split#-key-10.4103/2666-3481.288859-2.2",
-          "unstructured": "2020. Available from: https://www.who.int/docs/default-source/coronaviruse/situation-reports. [Last accessed on 2020 Apr 16]."
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-3",
-          "unstructured": "Rights, Roles and Responsibilities of Health Workers, Including Key Considerations for Occupational Safety and Health: Interim Guidance; 2020. p. 1-2. Available from: https://www.who.int/publications-detail/coronavirus-disease-(covid-19)-outbreak-rights-roles-and-responsibilities-of-health-workers-including-key-considerations-for-occupational-safety-and-health. [Last accessed on 2020 Apr 16]."
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-4",
-          "doi-asserted-by": "crossref",
-          "unstructured": "Thomas P, Baldwin C, Bissett B, Boden I, Gosse R, Granger CL, et al. Physiotherapy management for COVID-19 in acute hospital settings. Version 1.0. J Physiother 2020;66:73-82. Available from: https://www.wcpt.org/sites/wcpt.org/files/files/wcptnews/images/Physiotherapy_Guideline_COVID-19. [Last accessed on 2020Apr 17].",
-          "DOI": "10.1016/j.jphys.2020.03.011"
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-5",
-          "first-page": "1626",
-          "volume-title": "ICU-acquired weakness and recovery from critical illness",
-          "author": "Kress",
-          "year": "2014",
-          "journal-title": "N Engl J Med"
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-6",
-          "unstructured": "NSW Government Health. Physiotherapist Deployed to Assist on COVID-19 Frontline; 2020. Available from: https://www.health.nsw.gov.au/news/Pages/20200329_02.aspx. [Last accessed on 2020 Apr 18]."
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-7",
-          "first-page": "507",
-          "volume-title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: A descriptive study",
-          "author": "Chen",
-          "year": "2020",
-          "journal-title": "Lancet"
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-8",
-          "first-page": "e48",
-          "volume-title": "Prone position in management of COVID-19 patients; a commentary",
-          "author": "Ghelichkhani",
-          "year": "2020",
-          "journal-title": "Arch Acad Emerg Med"
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-9",
-          "first-page": "1293",
-          "volume-title": "Functional disability 5 years after acute respiratory distress syndrome",
-          "author": "Herridge",
-          "year": "2011",
-          "journal-title": "N Engl J Med"
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-10",
-          "first-page": "78",
-          "volume-title": "Critical illness myopathy and polyneuropathy - A challenge for physiotherapists in the intensive care units.Indian J Crit Care Med?",
-          "author": "Pattanshetty",
-          "year": "2011",
-          "journal-title": ""
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-11",
-          "first-page": "73",
-          "volume-title": "Physiotherapy management for COVID-19 in the acute hospital setting: Clinical practice recommendations",
-          "author": "Thomas",
-          "year": "2020",
-          "journal-title": "J Physiother"
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-12",
-          "unstructured": "Cieloszczyk A, Lewko A, Sliwka A, Wtoch T, Pyszora A. Recommendations for physiotherapy of adult patients with COVID-19. The Polish Chamber of Physiotherapist; 2020. Available from: https://www.wcpt.org/sites/wcpt.org/files/files/wcptnews/images/Recommendations/physiotherapy/adult/patients/with/COVID-19_POLISH.pdf. [Last accessed on 2020 Apr 18]."
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-13",
-          "unstructured": "AarogyaSetu IVRS. Ministry of Health Government of India; 2020. Available from: https://www.mohfw.gov.in/pdf/AAROGYASETUIVRS1921.pdf. [Last accessed on 2020 May 18]."
-        },
-        {
-          "key": "key-10.4103/2666-3481.288859-14",
-          "unstructured": "Mishra N. PGI Chandigad uses Postural Therapy for Early Patient Recovery. Tribune News Service; April 26, 2020. Available from: https://www.tribuneindia.com/news/chandigarh/pgi-uses-postural-therapy-for-early-patient-recovery-. [Last accessed on 2020 Apr 28]."
-        }
-      ],
-      "container-title": [
-        "Indian Journal of Physical Therapy and Research"
-      ],
-      "language": "en",
-      "deposited": {
-        "date-parts": [
-          [
-            2023,
-            8,
-            5
-          ]
-        ],
-        "date-time": "2023-08-05T14:45:48Z",
-        "timestamp": 1691246748000
-      },
-      "score": 15.500481,
-      "resource": {
-        "primary": {
-          "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_16_20"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2020
-          ]
-        ]
-      },
-      "references-count": 15,
-      "journal-issue": {
-        "issue": "1",
-        "published-print": {
-          "date-parts": [
-            [
-              2020
-            ]
-          ]
-        }
-      },
-      "alternative-id": [
-        "288859"
-      ],
-      "URL": "https://doi.org/10.4103/ijptr.ijptr_16_20",
       "ISSN": [
         "2666-3481"
       ],
@@ -1636,13 +749,25 @@
           "given": "DeepaC",
           "family": "Metgud",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Renu",
           "family": "Pattanshetty",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "2581",
@@ -1771,7 +896,7 @@
         "date-time": "2023-08-05T14:44:22Z",
         "timestamp": 1691246662000
       },
-      "score": 15.488631,
+      "score": 15.292614,
       "resource": {
         "primary": {
           "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_74_19"
@@ -1872,13 +997,25 @@
           "given": "DeepaC",
           "family": "Metgud",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "RenuB",
           "family": "Pattanshetty",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "2581",
@@ -1897,7 +1034,7 @@
         "date-time": "2023-08-05T14:44:39Z",
         "timestamp": 1691246679000
       },
-      "score": 15.340496,
+      "score": 15.245953,
       "resource": {
         "primary": {
           "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_21_19"
@@ -1938,6 +1075,248 @@
         "date-parts": [
           [
             2019
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ],
+        "date-time": "2026-05-04T18:25:48Z",
+        "timestamp": 1777919148716,
+        "version": "3.51.4"
+      },
+      "reference-count": 15,
+      "publisher": "Medknow",
+      "issue": "1",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Indian J Phys Ther Res"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "DOI": "10.4103/ijptr.ijptr_16_20",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2020-07-03T15:46:31Z",
+        "timestamp": 1593791191000
+      },
+      "page": "1",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "COVID-19 pandemic: An emerging physical therapy paradigm"
+      ],
+      "prefix": "10.4103",
+      "volume": "2",
+      "author": [
+        {
+          "given": "DeepaC",
+          "family": "Metgud",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Renu",
+          "family": "Pattanshetty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aarti",
+          "family": "Welling",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "2581",
+      "reference": [
+        {
+          "key": "key-10.4103/2666-3481.288859-1",
+          "first-page": "1039",
+          "volume-title": "2019 novel coronavirus-important information for clinicians",
+          "author": "Del",
+          "year": "2020",
+          "journal-title": "JAMA"
+        },
+        {
+          "key": "#cr-split#-key-10.4103/2666-3481.288859-2.1",
+          "unstructured": "World Health Organisation. Coronavirus Disease 2019 (COVID-19) Situation Report 46. World Health Organisation"
+        },
+        {
+          "key": "#cr-split#-key-10.4103/2666-3481.288859-2.2",
+          "unstructured": "2020. Available from: https://www.who.int/docs/default-source/coronaviruse/situation-reports. [Last accessed on 2020 Apr 16]."
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-3",
+          "unstructured": "Rights, Roles and Responsibilities of Health Workers, Including Key Considerations for Occupational Safety and Health: Interim Guidance; 2020. p. 1-2. Available from: https://www.who.int/publications-detail/coronavirus-disease-(covid-19)-outbreak-rights-roles-and-responsibilities-of-health-workers-including-key-considerations-for-occupational-safety-and-health. [Last accessed on 2020 Apr 16]."
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thomas P, Baldwin C, Bissett B, Boden I, Gosse R, Granger CL, et al. Physiotherapy management for COVID-19 in acute hospital settings. Version 1.0. J Physiother 2020;66:73-82. Available from: https://www.wcpt.org/sites/wcpt.org/files/files/wcptnews/images/Physiotherapy_Guideline_COVID-19. [Last accessed on 2020Apr 17].",
+          "DOI": "10.1016/j.jphys.2020.03.011"
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-5",
+          "first-page": "1626",
+          "volume-title": "ICU-acquired weakness and recovery from critical illness",
+          "author": "Kress",
+          "year": "2014",
+          "journal-title": "N Engl J Med"
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-6",
+          "unstructured": "NSW Government Health. Physiotherapist Deployed to Assist on COVID-19 Frontline; 2020. Available from: https://www.health.nsw.gov.au/news/Pages/20200329_02.aspx. [Last accessed on 2020 Apr 18]."
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-7",
+          "first-page": "507",
+          "volume-title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: A descriptive study",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "Lancet"
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-8",
+          "first-page": "e48",
+          "volume-title": "Prone position in management of COVID-19 patients; a commentary",
+          "author": "Ghelichkhani",
+          "year": "2020",
+          "journal-title": "Arch Acad Emerg Med"
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-9",
+          "first-page": "1293",
+          "volume-title": "Functional disability 5 years after acute respiratory distress syndrome",
+          "author": "Herridge",
+          "year": "2011",
+          "journal-title": "N Engl J Med"
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-10",
+          "first-page": "78",
+          "volume-title": "Critical illness myopathy and polyneuropathy - A challenge for physiotherapists in the intensive care units.Indian J Crit Care Med?",
+          "author": "Pattanshetty",
+          "year": "2011",
+          "journal-title": ""
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-11",
+          "first-page": "73",
+          "volume-title": "Physiotherapy management for COVID-19 in the acute hospital setting: Clinical practice recommendations",
+          "author": "Thomas",
+          "year": "2020",
+          "journal-title": "J Physiother"
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-12",
+          "unstructured": "Cieloszczyk A, Lewko A, Sliwka A, Wtoch T, Pyszora A. Recommendations for physiotherapy of adult patients with COVID-19. The Polish Chamber of Physiotherapist; 2020. Available from: https://www.wcpt.org/sites/wcpt.org/files/files/wcptnews/images/Recommendations/physiotherapy/adult/patients/with/COVID-19_POLISH.pdf. [Last accessed on 2020 Apr 18]."
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-13",
+          "unstructured": "AarogyaSetu IVRS. Ministry of Health Government of India; 2020. Available from: https://www.mohfw.gov.in/pdf/AAROGYASETUIVRS1921.pdf. [Last accessed on 2020 May 18]."
+        },
+        {
+          "key": "key-10.4103/2666-3481.288859-14",
+          "unstructured": "Mishra N. PGI Chandigad uses Postural Therapy for Early Patient Recovery. Tribune News Service; April 26, 2020. Available from: https://www.tribuneindia.com/news/chandigarh/pgi-uses-postural-therapy-for-early-patient-recovery-. [Last accessed on 2020 Apr 28]."
+        }
+      ],
+      "container-title": [
+        "Indian Journal of Physical Therapy and Research"
+      ],
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2023-08-05T14:45:48Z",
+        "timestamp": 1691246748000
+      },
+      "score": 15.240736,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_16_20"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "references-count": 15,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "288859"
+      ],
+      "URL": "https://doi.org/10.4103/ijptr.ijptr_16_20",
+      "ISSN": [
+        "2666-3481"
+      ],
+      "issn-type": [
+        {
+          "value": "2666-3481",
+          "type": "print"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
           ]
         ]
       }
@@ -2033,6 +1412,12 @@
             {
               "name": "University of Science and Technology,Department of Computer Science and Engineering,Chittagong,Bangladesh"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -2043,6 +1428,12 @@
             {
               "name": "University of Science and Technology,Department of Computer Science and Engineering,Chittagong,Bangladesh"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -2052,6 +1443,12 @@
           "affiliation": [
             {
               "name": "University of Science and Technology,Department of Electrical and Electronics Engineering,Chittagong,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         }
@@ -2222,7 +1619,7 @@
         "date-time": "2025-06-11T05:41:04Z",
         "timestamp": 1749620464000
       },
-      "score": 14.974306,
+      "score": 14.88173,
       "resource": {
         "primary": {
           "URL": "https://ieeexplore.ieee.org/document/11022001/"
@@ -2253,140 +1650,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            3,
-            19
+            2026,
+            4,
+            14
           ]
         ],
-        "date-time": "2025-03-19T13:20:19Z",
-        "timestamp": 1742390419104,
-        "version": "3.30.1"
-      },
-      "reference-count": 0,
-      "publisher": "Medknow",
-      "issue": "1",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "short-container-title": [
-        "Indian J Phys Ther Res"
-      ],
-      "published-print": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
-      "DOI": "10.4103/ijptr.ijptr_14_19",
-      "type": "journal-article",
-      "created": {
-        "date-parts": [
-          [
-            2023,
-            8,
-            5
-          ]
-        ],
-        "date-time": "2023-08-05T14:44:38Z",
-        "timestamp": 1691246678000
-      },
-      "page": "42",
-      "source": "Crossref",
-      "is-referenced-by-count": 2,
-      "title": [
-        "Balance and agility testing in normal and hearing-impaired children: A Case\u2013Control study"
-      ],
-      "prefix": "10.4103",
-      "volume": "1",
-      "author": [
-        {
-          "given": "DeepaC",
-          "family": "Metgud",
-          "sequence": "first",
-          "affiliation": []
-        },
-        {
-          "given": "Pushkar",
-          "family": "Topkar",
-          "sequence": "additional",
-          "affiliation": []
-        }
-      ],
-      "member": "2581",
-      "container-title": [
-        "Indian Journal of Physical Therapy and Research"
-      ],
-      "language": "en",
-      "deposited": {
-        "date-parts": [
-          [
-            2023,
-            8,
-            5
-          ]
-        ],
-        "date-time": "2023-08-05T14:45:32Z",
-        "timestamp": 1691246732000
-      },
-      "score": 14.393244,
-      "resource": {
-        "primary": {
-          "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_14_19"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
-      "references-count": 0,
-      "journal-issue": {
-        "issue": "1",
-        "published-print": {
-          "date-parts": [
-            [
-              2019
-            ]
-          ]
-        }
-      },
-      "alternative-id": [
-        "261989"
-      ],
-      "URL": "https://doi.org/10.4103/ijptr.ijptr_14_19",
-      "ISSN": [
-        "2666-3481"
-      ],
-      "issn-type": [
-        {
-          "type": "print",
-          "value": "2666-3481"
-        }
-      ],
-      "published": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      }
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2025,
-            10,
-            13
-          ]
-        ],
-        "date-time": "2025-10-13T09:18:02Z",
-        "timestamp": 1760347082879,
-        "version": "3.37.3"
+        "date-time": "2026-04-14T00:21:06Z",
+        "timestamp": 1776126066386,
+        "version": "3.50.1"
       },
       "reference-count": 39,
       "publisher": "Royal Society of Chemistry (RSC)",
@@ -2416,6 +1687,13 @@
           "doi-asserted-by": "publisher",
           "award": [
             "PhD Fellowship to H. C."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "PhD Fellowship to H. C."
+              ]
+            }
           ],
           "id": [
             {
@@ -2452,7 +1730,7 @@
       "page": "898-909",
       "update-policy": "https://doi.org/10.1039/rsc_crossmark_policy",
       "source": "Crossref",
-      "is-referenced-by-count": 17,
+      "is-referenced-by-count": 21,
       "title": [
         "DeepAC \u2013 conditional transformer-based chemical language model for the prediction of activity cliffs formed by bioactive compounds"
       ],
@@ -2467,6 +1745,12 @@
             {
               "name": "Department of Life Science Informatics and Data Science, B-IT, LIMES Program Unit Chemical Biology and Medicinal Chemistry, Rheinische Friedrich-Wilhelms-Universit\u00e4t, Friedrich-Hirzebruch-Allee 5/6, D-53115 Bonn, Germany"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -2476,6 +1760,12 @@
           "affiliation": [
             {
               "name": "Department of Life Science Informatics and Data Science, B-IT, LIMES Program Unit Chemical Biology and Medicinal Chemistry, Rheinische Friedrich-Wilhelms-Universit\u00e4t, Friedrich-Hirzebruch-Allee 5/6, D-53115 Bonn, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         },
@@ -2488,6 +1778,12 @@
           "affiliation": [
             {
               "name": "Department of Life Science Informatics and Data Science, B-IT, LIMES Program Unit Chemical Biology and Medicinal Chemistry, Rheinische Friedrich-Wilhelms-Universit\u00e4t, Friedrich-Hirzebruch-Allee 5/6, D-53115 Bonn, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         }
@@ -2751,9 +2047,9 @@
           "unstructured": "V.Nair  and  G. E.Hinton ,  ICML ,  2010 ,  pp. 807\u2013814"
         },
         {
-          "year": "2016",
-          "author": "Ba",
           "key": "D2DD00077F/cit27/1",
+          "author": "Ba",
+          "year": "2016",
           "unstructured": "J.Ba ,  J. R.Kiros  and  G. E.Hinton , arXiv preprint arXiv:1607.06450,  2016"
         },
         {
@@ -2884,7 +2180,7 @@
         "date-time": "2024-04-17T19:29:01Z",
         "timestamp": 1713382141000
       },
-      "score": 13.798472,
+      "score": 14.369727,
       "resource": {
         "primary": {
           "URL": "https://xlink.rsc.org/?DOI=D2DD00077F"
@@ -2916,14 +2212,152 @@
       ],
       "issn-type": [
         {
-          "type": "electronic",
-          "value": "2635-098X"
+          "value": "2635-098X",
+          "type": "electronic"
         }
       ],
       "published": {
         "date-parts": [
           [
             2022
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T16:46:18Z",
+        "timestamp": 1772210778435,
+        "version": "3.50.1"
+      },
+      "reference-count": 0,
+      "publisher": "Medknow",
+      "issue": "1",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Indian J Phys Ther Res"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "DOI": "10.4103/ijptr.ijptr_14_19",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2023-08-05T14:44:38Z",
+        "timestamp": 1691246678000
+      },
+      "page": "42",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Balance and agility testing in normal and hearing-impaired children: A Case\u2013Control study"
+      ],
+      "prefix": "10.4103",
+      "volume": "1",
+      "author": [
+        {
+          "given": "DeepaC",
+          "family": "Metgud",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pushkar",
+          "family": "Topkar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "2581",
+      "container-title": [
+        "Indian Journal of Physical Therapy and Research"
+      ],
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2023-08-05T14:45:32Z",
+        "timestamp": 1691246732000
+      },
+      "score": 14.326761,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.lww.com/10.4103/ijptr.ijptr_14_19"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "261989"
+      ],
+      "URL": "https://doi.org/10.4103/ijptr.ijptr_14_19",
+      "ISSN": [
+        "2666-3481"
+      ],
+      "issn-type": [
+        {
+          "value": "2666-3481",
+          "type": "print"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
           ]
         ]
       }
@@ -2984,7 +2418,13 @@
           "given": "John",
           "family": "Howell",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "281",
@@ -3011,7 +2451,7 @@
         "date-time": "2021-03-12T21:26:52Z",
         "timestamp": 1615584412000
       },
-      "score": 13.510036,
+      "score": 13.417286,
       "resource": {
         "primary": {
           "URL": "https://direct.mit.edu/live/article/56864"
@@ -3054,6 +2494,129 @@
         "date-parts": [
           [
             1981,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            30
+          ]
+        ],
+        "date-time": "2022-03-30T11:38:47Z",
+        "timestamp": 1648640327558
+      },
+      "reference-count": 0,
+      "publisher": "MIT Press - Journals",
+      "issue": "4",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "LIVE"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1980,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1162/live.1980.0.4.1",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            3,
+            23
+          ]
+        ],
+        "date-time": "2015-03-23T14:18:40Z",
+        "timestamp": 1427120320000
+      },
+      "page": "1-46",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "<i>LIVE</i>, No. 4 (complete issue)"
+      ],
+      "prefix": "10.1162",
+      "volume": "4",
+      "member": "281",
+      "container-title": [
+        "LIVE"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://www.mitpressjournals.org/doi/pdf/10.1162/live.1980.0.4.1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            12
+          ]
+        ],
+        "date-time": "2021-03-12T21:26:47Z",
+        "timestamp": 1615584407000
+      },
+      "score": 13.391348,
+      "resource": {
+        "primary": {
+          "URL": "https://direct.mit.edu/live/article/56869"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1980,
+            1
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              1980,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1162/live.1980.0.4.1"
+      ],
+      "URL": "https://doi.org/10.1162/live.1980.0.4.1",
+      "ISSN": [
+        "2374-2240"
+      ],
+      "issn-type": [
+        {
+          "value": "2374-2240",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1980,
             1
           ]
         ]

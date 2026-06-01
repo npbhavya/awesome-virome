@@ -1,947 +1,477 @@
 {
-  "cache_date": "2025-11-01T11:31:26.280619",
+  "cache_date": "2026-06-01T16:41:07.682280",
   "data": [
     {
-      "created": "2025-11-01T10:46:25.890552+00:00",
-      "modified": "2025-11-01T10:46:27.080527+00:00",
-      "id": 17433855,
-      "conceptrecid": "17433854",
-      "doi": "10.5281/zenodo.17433855",
-      "conceptdoi": "10.5281/zenodo.17433854",
-      "doi_url": "https://doi.org/10.5281/zenodo.17433855",
+      "created": "2026-06-01T16:34:58.409237+00:00",
+      "modified": "2026-06-01T16:34:58.508810+00:00",
+      "id": 20493273,
+      "conceptrecid": "20492201",
+      "doi": "10.5281/zenodo.20493273",
+      "conceptdoi": "10.5281/zenodo.20492201",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493273",
       "metadata": {
-        "title": "An innovative model on measuring CO\u2082 quality",
-        "doi": "10.5281/zenodo.17433855",
-        "publication_date": "2025-10-30",
-        "description": "<h2><strong>Description</strong></h2>\n<p>The purpose of this experimental procedure is the initiative to design and validate an innovative ultrasonic density measuring methodology, able to measure the quality of propane phase mixture in heat pumps. For the experiment, CO\u2082 was chosen as an alternative to propane.</p>\n<p>In detail,&nbsp;to test our model and investigate the ultrasonic wave specifics and parameters, we conducted experiments with no flow, steady, mixtures in a 5kg CO\u2082 pressurized bottle, as a preparatory step for full experimentation on the final CO\u2082 circuit, simulating the flow and dynamics of the real heat pump&rsquo;s heat exchange circuit. The primary goal was to estimate the CO\u2082 quality (gas-to-liquid mass ratio) based on changes in temperature and pressure as would appear in the real heat pump. The output for the new ultrasonic sensor will be a number showing the CO\u2082 quality and the flow rate inside the pipeline. The learning space used by this innovative sensor neural net will be based on the final experimentation on a concurrent real estimation of the quality and the flow coming from a circuit-embedded Coriolis flowmeter, along with capacitance measurements of the mixture. This preliminary experimentation tested and validated the ability to perform regression on ultrasonic measurements across the pipeline, predicting CO\u2082 gas-liquid ratios. Experiments were conducted with varying CO\u2082 levels in a pressurized bottle, sensor positions, ultrasonic frequencies, and excitation signal types.</p>\n<h2><strong>Experimental setup</strong></h2>\n<p>The experimental setup consisted of the following ultrasonic hardware. The excitation source is the QAWRUMS SCAL2 Handheld AE calibrator for ultrasonic signal generation with a G150 sensor. The ultrasonic waves acquisition system is the Mistras Micro-SHM, generating corresponding multi-channel recordings (reference image: &rdquo;Transmitter Receivers&rdquo;). The receiving sensors utilized are either 2 PKWDI integral preamplified wideband sensors with a 200-850 kHz operational bandwidth, or 3 PK15I integral preamplified resonant sensors with a bandwidth of 100-450 kHz, resonating at 150 kHz.&nbsp;</p>\n<h2><strong>Test specimen and experimental conditions</strong></h2>\n<p>A commercial CO\u2082 pressurized steel bottle was utilized (reference image: &rdquo;CO\u2082 Pressurized Bottle&rdquo;) with experiments conducted always under three CO\u2082 fill levels, firstly at full occupancy (100%), secondly, half-filled (50%), and thirdly, empty (0%). The experiments were conducted at room temperature. For each CO\u2082 level, measurements were acquired at three cross sections along the bottle&rsquo;s axis: at the top, middle, and bottom; with the source placed on one side and the receivers on the opposite side of the cross-section diameter. Typical mounting layouts of the ultrasonic source and receivers can be seen at the images named &ldquo;Sensors Topology 1-3&rdquo;. For the PK15I resonant sensors, sinusoidal waves of 80, 120, and 160 kHz were triggered, while for the PKWDI sensors, waves of 200, 300, 400, and 500 kHz. For the source pulse wave signal (applied in both sets of sensors), the pulse width was 10 &mu;s in duration.</p>\n<p>&nbsp;</p>\n<table style=\"margin-left: auto; border-collapse: collapse; width: 257px; border-width: 0px; border-spacing: 0px; margin-right: auto; height: 276.5px;\">\n<tbody>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 358.031px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">CO\u2082 bottle level (%): </span></strong><span lang=\"EN-GB\">100 / 50 / 0</span></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 358.031px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">Measurement height: </span></strong><span lang=\"EN-GB\">Up / Mid / Low</span></p>\n</td>\n</tr>\n<tr style=\"height: 38.5833px;\">\n<td style=\"padding: 0in 5.75pt; height: 38.5833px; width: 358.031px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">Pulse waves </span></strong><span lang=\"EN-GB\">10 </span><span lang=\"EN-GB\"><span lang=\"EL\">&mu;</span>s</span></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 358.031px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"3\">\n<p><strong><span lang=\"EN-GB\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sinewave sensors</span></strong></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 39.5261px; padding: 0in 5.75pt; height: 47.5833px;\">\n<p><span lang=\"EN-GB\">PK15I</span></p>\n</td>\n<td style=\"width: 318.505px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"2\">\n<p><span lang=\"EN-GB\">80, 120, 160 kHz</span></p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 39.5261px; padding: 0in 5.75pt; height: 47.5833px;\">\n<p><span lang=\"EN-GB\">PKWDI</span></p>\n</td>\n<td style=\"width: 318.505px; padding: 0in 5.75pt; height: 47.5833px;\" colspan=\"2\">\n<p><span lang=\"EN-GB\">200, 300, 400, 500 kHz</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>For the data acquisition, the recording duration was 6 seconds per measurement, with a repetition of 5 measurements per configuration for statistical stability. Therefore, the acquired learning dataset was a combination of measurements for all excitation signals, at all levels and positions, resulting in 405 individual recordings/files.</p>\n<h2><strong>Data preprocessing</strong></h2>\n<p>The raw 3-channel files (in all experiments, two sets of sensors were used, one with 3 PK15I and the other with 2 PKWDI sensors) were parsed using the corresponding Python library. There was a temporal synchronization across channels using configurable timestamp tolerance. The waveforms were selected through energy-based selection (sum of squares) to identify a representative signal per channel. A Butterworth band-pass filter was applied. Mean-centering and resampling to uniform length (4096 samples) were used for waveform normalization. Time-frequency transformation<strong> </strong>was applied utilizing &ldquo;Continuous Wavelet Transform (CWT)&rdquo; using <em>PyWavelets,</em> utilizing <em>Complex Morlet (cmor1.5-1.0) wavelet, </em>and a resolution of 1024 scales spanning the observed frequency range. By this method, scalograms were generated and image-processed with<strong> </strong>robust percentile normalization to 8-bit grayscale, resizing to 1024&times;1024-pixel resolution, with an optional histogram equalization (global, auto-contrast, or CLAHE) (reference image: &rdquo;Typical Scalogram&rdquo;).</p>\n<p>Regarding the dataset organization, the acquired data were partitioned and organized in separate subdirectories for training, validation, and testing. From these initial DTA waveforms, corresponding scalograms were created, one set for each experiment, with each set consisting of one scalogram per channel. As input to the visual Machine Learning (ML) &amp; neural regressor, a stacked format of all channels per experiment was used. Thereby, in each batch of learning space, a stacked image with scalograms per channel was used. The stacked image had 3 pixels depth (one pixel per ultrasonic sensor/channel) and was augmented with 2 additional pixels with the current bottle&rsquo;s temperature and pressure, thereby creating a multi-pixel image feeding the regressor with fully descriptive data.</p>\n<h2><strong>Developed model architecture</strong></h2>\n<p>Our developed model has been originally designed having in mind modularity been capable of providing a set of state-of-the-art regression models. Thereby, it is a multi-fold model able upon proper configuration, to enable a built-in SVR machine, or neuronal architectures based on simple CNN, ResNet8, ResNet34, or EfficientNet-B0 regressors.&nbsp;</p>\n<h3><strong>&nbsp; &nbsp; &nbsp;Machine Learning Support Vector Regressor (SVR)</strong></h3>\n<p>To fully assess our developed model performance, firstly, the SVR was enabled, which is a supervised machine learning algorithm that predicts continuous values by fitting a curve through the data within a defined tolerance margin (tube). The concept of a tube around the regression line is that errors for data points within the tube are ignored and only points outside the tube contribute to the model's training, which are called \"support vectors\". SVR is very effective for small datasets with structured numerical features and offers fast training and inference.</p>\n<h3><strong>&nbsp; &nbsp; &nbsp;Neuronal Regressor</strong></h3>\n<p>The neuronal image regressors are used to predict a continuous output. A simple CNN, ResNet-18 &amp; 34, and EfficientNet-B0 topologies where used:</p>\n<p>1) Simple custom CNN of 2-stride pyramid with channel doubling and global average pooling.</p>\n<p>2) ResNet-18 (18 total layers, 8 residual blocks) with adapted first convolution for multi-channel input, modified classification head, and ResNet-34 (34 total layers, 16 residual blocks) with adapted first convolution for multi-channel input, modified classification head, both of which are Residual Networks (ResNet), differing primarily in depth and computational requirements. The choice between different ResNet depths involves a trade-off between performance and computational efficiency. ResNet-34 provides better feature extraction and accuracy, but with slower convergence.</p>\n<p>3) EfficientNet-B0, with multi-channel adaptation with pretrained ImageNet weights, which is a<em> </em>resource-efficient CNN excelling at image classification by using a compound scaling method to optimize the networks&rsquo; dimensions of depth, width, and resolution systematically.</p>\n<h2><strong>Evaluation</strong></h2>\n<p>The model&rsquo;s outputs are: mixture/medium flow rate, CO\u2082 phase quality in percentage, and mixture density.&nbsp; As outputs, due to the lack of a real flow meter (like Coriolis), mixture density, and quality, we used mockup data fitted to this static experiment with the CO\u2082 bottle. After all, we wish mainly to validate the efficiency of our model to regress well using these packed multi-pixel image input data on mockup data of flow, density, and quality, as they usually appear in heat pumps. The performance was evaluated by the following per-target metrics:</p>\n<p>-&nbsp;&nbsp; MAE (Mean Absolute Error), the average error of absolute differences between predictions and actual values</p>\n<p>-&nbsp;&nbsp; MSE (Mean Squared Error), the average of squared differences, which penalizes more the larger errors</p>\n<p>-&nbsp;&nbsp; RMSE (Root Mean Squared Error), the square root of MSE</p>\n<p>-&nbsp;&nbsp; R&sup2;, a coefficient of determination [0, 1], which is useful when comparing different models or datasets, with 1.0 meaning perfect predictions</p>\n<p>- Pearson Correlation coefficient (<em>r</em>) with a range of -1 to +1, with +/-1 meaning a perfect positive/negative linear relationship, and 0 meaning no linear relationship.&nbsp;</p>\n<p>Pearson measures how the pattern matches, if predictions correlate with actual values. It is a good metric for understanding relationships between the model and pattern, and for model comparison to better capture the pattern. R&sup2; measures if the values match, so how accurately the actual values are predicted.</p>\n<h2><strong>Results and conclusion</strong></h2>\n<p>The results of the CO\u2082 bottle experiments for the three target predictions of <em>flow rate</em>, <em>quality</em> and <em>density</em>, are very encouraging, with both the SVR model and neuronal regressor yielding quite good predictive performance for the evaluating metrics (reference images: &rdquo;SVR results&rdquo; and &ldquo;Neuronal regressor results&rdquo;). More specifically:&nbsp;</p>\n<p>&nbsp;</p>\n<div>\n<h3><strong>&nbsp; &nbsp; &nbsp;SVR validation results</strong></h3>\n<div>\n<table style=\"border-collapse: collapse; margin-left: auto; margin-right: auto; width: 37.0988%; height: 190.333px;\">\n<thead>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">&nbsp;</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MAE</strong></p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp;RMSE</strong></p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MSE</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; &nbsp; R&sup2;</strong></p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\"><strong>&nbsp; &nbsp; &nbsp;r</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Flow rate</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0495</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0657</p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0043</p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9806</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9961</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Quality</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0551</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0613</p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0038</p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9734</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9892</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 18.6393%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Density</strong></p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0349</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0470</p>\n</td>\n<td style=\"width: 16.5966%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0022</p>\n</td>\n<td style=\"width: 16.3413%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9884</p>\n</td>\n<td style=\"width: 16.086%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.9960</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<h3><strong>&nbsp; &nbsp; &nbsp;Neuronal Visual Regressor validation results</strong></h3>\n<div>\n<table style=\"border-collapse: collapse; margin-left: auto; margin-right: auto; width: 37.854%; height: 191.312px;\">\n<thead>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 47.5833px;\">&nbsp;</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MAE</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp;RMSE</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; MSE</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; &nbsp; R&sup2;</strong></p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>&nbsp; &nbsp; &nbsp;r</strong></p>\n</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 48.5625px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 48.5625px;\">\n<p><strong>Flow rate</strong></p>\n</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp;0.0446</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp;0.0465</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp;0.0022</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp; 0.9903</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 48.5625px;\">\n<p>&nbsp; 0.9998</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Quality</strong></p>\n</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0438</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0564</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0032</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9775</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9900</p>\n</td>\n</tr>\n<tr style=\"height: 47.5833px;\">\n<td style=\"width: 20.2669%; padding: 0.75pt; height: 47.5833px;\">\n<p><strong>Density</strong></p>\n</td>\n<td style=\"width: 14.5121%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0328</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0384</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp;0.0015</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9923</p>\n</td>\n<td style=\"width: 16.2636%; padding: 0.75pt; height: 47.5833px;\">\n<p>&nbsp; 0.9991</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>\n<p>Based on the findings, the EfficientNet-B0 model outperforms the excellent predictive performance of the SVR model at the three targets. The highest accuracy is achieved at the density, with R&sup2;=0.9923, MAE=0.0328, and RMSE=0.0384. The model explains 99.23% of the variance and maintains exceptionally low prediction errors. Thus, the ultrasonic signal features are highly informative for density estimation in CO\u2082 mixtures. Flow prediction also shows excellent performance with a near-perfect correlation (r=0.9998), offering robust predictive capability with minimal error. The quality validation results show slightly lower but still strong performance with R&sup2;=0.9775, indicating some additional complexity in this target compared to density and flow.</p>\n</div>\n</div>",
+        "title": "H3 Integrated Information Geometry: Phi as Hyperbolic Geodesic Curvature and ZPL as the Binding Problem Solution",
+        "doi": "10.5281/zenodo.20493273",
+        "publication_date": "2026-06-01",
+        "description": "Integrated Information Theory Phi realized as H3 geodesic curvature of system phase trajectory. Theorem OG-CON01: For K22 system, Phi=kappa^2*(1-exp(-lambda_coherence*t)) saturating at kappa^2=2.567 for perfectly integrated systems. Binding problem solved by ZPL: |sum_k exp(2*pi*i*k/231)|=0 algebraically guarantees zero net phase disagreement across all 231 gate pairings. Theorem OG-CON02: Neural system satisfying ZPL + KAM (lambda&lt;0.01) is in maximally coherent integrated state. Sefirot potential provides topological map of conscious states from Malkuth (high entropy) to Kether (ZPL satisfied). kappa=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
         "access_right": "open",
         "creators": [
           {
-            "name": "Centre for Research and Technology Hellas",
-            "affiliation": null
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
           }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "consciousness",
+          "IIT",
+          "binding problem",
+          "H3 geometry",
+          "neural coherence",
+          "cognitive science",
+          "integrated information"
+        ],
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20492201"
+              }
+            }
+          ]
+        }
+      },
+      "title": "H3 Integrated Information Geometry: Phi as Hyperbolic Geodesic Curvature and ZPL as the Binding Problem Solution",
+      "links": {
+        "self": "https://zenodo.org/api/records/20493273",
+        "self_html": "https://zenodo.org/records/20493273",
+        "preview_html": "https://zenodo.org/records/20493273?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493273",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493273",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493273",
+        "reserve_doi": "https://zenodo.org/api/records/20493273/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20492201",
+        "parent_html": "https://zenodo.org/records/20492201",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20492201",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20492201",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493273/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493273/sequence/default",
+        "files": "https://zenodo.org/api/records/20493273/files",
+        "media_files": "https://zenodo.org/api/records/20493273/media-files",
+        "archive": "https://zenodo.org/api/records/20493273/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493273/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493273/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493273/latest",
+        "versions": "https://zenodo.org/api/records/20493273/versions",
+        "draft": "https://zenodo.org/api/records/20493273/draft",
+        "access_links": "https://zenodo.org/api/records/20493273/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493273/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493273/access/users",
+        "access_request": "https://zenodo.org/api/records/20493273/access/request",
+        "access": "https://zenodo.org/api/records/20493273/access",
+        "communities": "https://zenodo.org/api/records/20493273/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493273/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493273/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493273/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493273/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493273/requests"
+      },
+      "updated": "2026-06-01T16:34:58.508810+00:00",
+      "recid": "20493273",
+      "revision": 4,
+      "files": [
+        {
+          "id": "c47bac36-cef8-4bdf-b300-4f3b3ebf16cf",
+          "key": "pfmi_compliance_zkp_proof.zip",
+          "size": 2532,
+          "checksum": "md5:fcb7748c503613cf2351f660aec5576c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20493273/files/pfmi_compliance_zkp_proof.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:34:38.598709+00:00",
+      "modified": "2026-06-01T16:34:38.941922+00:00",
+      "id": 20494274,
+      "conceptrecid": "20494273",
+      "doi": "10.5281/zenodo.20494274",
+      "conceptdoi": "10.5281/zenodo.20494273",
+      "doi_url": "https://doi.org/10.5281/zenodo.20494274",
+      "metadata": {
+        "title": "Enoclerus zebra",
+        "doi": "10.5281/zenodo.20494274",
+        "publication_date": "2025-12-19",
+        "description": "<p><b><i>Enoclerus zebra</i> (Chevrolat, 1843)</b></p><p>NicaRagua, N. Segovia, CeRRo Jesus, VI-7-2013, floweRs CRoton dRaco, 1100m, tRoPic net 13.97&deg;N, 86.18&deg;W, B. RabeR, D. HeffeRn 7 E. van den BeRghe (JNRC).</p><p>GuatemaLa, Huehuetenango DePt., La Laguna, 735, HoteL deL Bosque, N 15.76419&deg; W 91.84991&deg;, 5 SePt 2019, geneRaL coLLecting (WSUC).</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Rifkind, Jacques",
+            "affiliation": "CaLifoRnia State CoLLection of ARthRoPods 3294 Meadowview Road, SacRamento, CA 95832 USA"
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy",
+          "Animalia",
+          "Arthropoda",
+          "Insecta",
+          "Coleoptera",
+          "Cleridae",
+          "Enoclerus",
+          "Enoclerus zebra"
         ],
         "related_identifiers": [
           {
-            "identifier": "10.3030/101147440",
+            "identifier": "10.64338/im.1163.v7hl4",
             "relation": "isPartOf",
-            "resource_type": "model",
+            "resource_type": "publication-article",
             "scheme": "doi"
-          }
-        ],
-        "dates": [
-          {
-            "type": "available"
-          }
-        ],
-        "resource_type": {
-          "title": "Model",
-          "type": "model"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "Ultrasonic CO\u2082 quality model"
-          }
-        ],
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "grants": [
-          {
-            "code": "101147440",
-            "internal_id": "10.13039/501100000780::101147440",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "SUSTAINABLE MULTI-FUNCTIONAL AND RECYCLABLE HEAT PUMPS",
-            "acronym": "Smart-Pumps",
-            "program": "HORIZON.2.5",
-            "url": "https://cordis.europa.eu/projects/101147440"
-          }
-        ],
-        "communities": [
-          {
-            "id": "eu"
           },
           {
-            "id": "smart-pumps"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17433854"
-              }
-            }
-          ]
-        }
-      },
-      "title": "An innovative model on measuring CO\u2082 quality",
-      "links": {
-        "self": "https://zenodo.org/api/records/17433855",
-        "self_html": "https://zenodo.org/records/17433855",
-        "preview_html": "https://zenodo.org/records/17433855?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17433855",
-        "self_doi": "https://doi.org/10.5281/zenodo.17433855",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17433855",
-        "reserve_doi": "https://zenodo.org/api/records/17433855/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17433854",
-        "parent_html": "https://zenodo.org/records/17433854",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17433854",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17433854",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17433855/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17433855/sequence/default",
-        "files": "https://zenodo.org/api/records/17433855/files",
-        "media_files": "https://zenodo.org/api/records/17433855/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17433855:Transmitter%20Receivers.jpg/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17433855/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17433855/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17433855/versions/latest",
-        "latest_html": "https://zenodo.org/records/17433855/latest",
-        "versions": "https://zenodo.org/api/records/17433855/versions",
-        "draft": "https://zenodo.org/api/records/17433855/draft",
-        "access_links": "https://zenodo.org/api/records/17433855/access/links",
-        "access_grants": "https://zenodo.org/api/records/17433855/access/grants",
-        "access_users": "https://zenodo.org/api/records/17433855/access/users",
-        "access_request": "https://zenodo.org/api/records/17433855/access/request",
-        "access": "https://zenodo.org/api/records/17433855/access",
-        "communities": "https://zenodo.org/api/records/17433855/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17433855/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17433855/request-deletion",
-        "requests": "https://zenodo.org/api/records/17433855/requests"
-      },
-      "updated": "2025-11-01T10:46:27.080527+00:00",
-      "recid": "17433855",
-      "revision": 4,
-      "files": [
-        {
-          "id": "d0a4ec13-555d-4008-9d87-acfaec1f63dd",
-          "key": "Transmitter Receivers.jpg",
-          "size": 1435580,
-          "checksum": "md5:f4915db3a9bccc05fc949190475b2e1a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/Transmitter Receivers.jpg/content"
-          }
-        },
-        {
-          "id": "be481370-dc8d-4908-b325-aed0293c635d",
-          "key": "Sensors Topology 1.jpg",
-          "size": 1843719,
-          "checksum": "md5:3caf7217b6601753ac6e6d4a52be439e",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/Sensors Topology 1.jpg/content"
-          }
-        },
-        {
-          "id": "e186fbf7-b06f-4e94-a0ed-a74e3f3bdf71",
-          "key": "Sensors Topology 3.jpg",
-          "size": 2234416,
-          "checksum": "md5:62463a22ae6681f61c450b9cdfbc5ef3",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/Sensors Topology 3.jpg/content"
-          }
-        },
-        {
-          "id": "bc8e1a38-8204-43df-bb53-ce7a90b824e2",
-          "key": "Typical Scalogram.png",
-          "size": 412042,
-          "checksum": "md5:86d4b009626a2d3f5108b63af3929ca9",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/Typical Scalogram.png/content"
-          }
-        },
-        {
-          "id": "42dda592-ef8a-474c-8ba5-cf2f580eb3b2",
-          "key": "SVR results.png",
-          "size": 91277,
-          "checksum": "md5:aaf6a4cd6c9351bfc2fa8ea3863953b4",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/SVR results.png/content"
-          }
-        },
-        {
-          "id": "564705f1-9ae6-43b5-9770-0dbb7b63d2a0",
-          "key": "CO2 Pressurized Bottle.jpg",
-          "size": 1840396,
-          "checksum": "md5:04c866c3662d931355386724d779887f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/CO2 Pressurized Bottle.jpg/content"
-          }
-        },
-        {
-          "id": "6c2c88e1-37fa-4575-b558-c14b28f58aed",
-          "key": "Neuronal regressor results.png",
-          "size": 80801,
-          "checksum": "md5:a583daafed3d5ba5ab65acaaa59571d9",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/Neuronal regressor results.png/content"
-          }
-        },
-        {
-          "id": "78b868b7-38af-4f1a-90c8-18e62d54f5f3",
-          "key": "Sensors Topology 2.jpg",
-          "size": 1942458,
-          "checksum": "md5:6a3d405447b6ee06282faa4b7da19276",
-          "links": {
-            "self": "https://zenodo.org/api/records/17433855/files/Sensors Topology 2.jpg/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1424031"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 1,
-        "unique_views": 1,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 1,
-        "version_views": 1
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-11-01T08:04:23.523958+00:00",
-      "modified": "2025-11-01T08:04:23.654317+00:00",
-      "id": 17500020,
-      "conceptrecid": "17500019",
-      "doi": "10.5281/zenodo.17500020",
-      "conceptdoi": "10.5281/zenodo.17500019",
-      "doi_url": "https://doi.org/10.5281/zenodo.17500020",
-      "metadata": {
-        "title": "Hyperparameters of RSM, U-Net, SVM",
-        "doi": "10.5281/zenodo.17500020",
-        "publication_date": "2025-11-01",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Tian, Wenbin",
-            "affiliation": null
-          }
-        ],
-        "resource_type": {
-          "title": "Other",
-          "type": "other"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17500019"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Hyperparameters of RSM, U-Net, SVM",
-      "links": {
-        "self": "https://zenodo.org/api/records/17500020",
-        "self_html": "https://zenodo.org/records/17500020",
-        "preview_html": "https://zenodo.org/records/17500020?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17500020",
-        "self_doi": "https://doi.org/10.5281/zenodo.17500020",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500020",
-        "reserve_doi": "https://zenodo.org/api/records/17500020/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17500019",
-        "parent_html": "https://zenodo.org/records/17500019",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17500019",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17500019",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17500020/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17500020/sequence/default",
-        "files": "https://zenodo.org/api/records/17500020/files",
-        "media_files": "https://zenodo.org/api/records/17500020/media-files",
-        "archive": "https://zenodo.org/api/records/17500020/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17500020/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17500020/versions/latest",
-        "latest_html": "https://zenodo.org/records/17500020/latest",
-        "versions": "https://zenodo.org/api/records/17500020/versions",
-        "draft": "https://zenodo.org/api/records/17500020/draft",
-        "access_links": "https://zenodo.org/api/records/17500020/access/links",
-        "access_grants": "https://zenodo.org/api/records/17500020/access/grants",
-        "access_users": "https://zenodo.org/api/records/17500020/access/users",
-        "access_request": "https://zenodo.org/api/records/17500020/access/request",
-        "access": "https://zenodo.org/api/records/17500020/access",
-        "communities": "https://zenodo.org/api/records/17500020/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17500020/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17500020/request-deletion",
-        "requests": "https://zenodo.org/api/records/17500020/requests"
-      },
-      "updated": "2025-11-01T08:04:23.654317+00:00",
-      "recid": "17500020",
-      "revision": 4,
-      "files": [
-        {
-          "id": "b62675f4-fc6c-458d-8d4c-152e0a66892b",
-          "key": "Hyperparameters.txt",
-          "size": 3380,
-          "checksum": "md5:388cddb59e69f141e8e9025cfb390912",
-          "links": {
-            "self": "https://zenodo.org/api/records/17500020/files/Hyperparameters.txt/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1316995"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 4,
-        "unique_views": 1,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 1,
-        "version_views": 4
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-11-01T00:37:16.168916+00:00",
-      "modified": "2025-11-01T00:37:16.552546+00:00",
-      "id": 17498051,
-      "conceptrecid": "17498050",
-      "doi": "10.5281/zenodo.17498051",
-      "conceptdoi": "10.5281/zenodo.17498050",
-      "doi_url": "https://doi.org/10.5281/zenodo.17498051",
-      "metadata": {
-        "title": "INCIDENCES SOCIOECONOMIQUES DES PRATIQUES DE GESTION DURABLE DES TERRES AGRICOLES DANS LA COMMUNE DE SINENDE AU BENIN",
-        "doi": "10.5281/zenodo.17498051",
-        "publication_date": "2025-11-01",
-        "description": "<p><span lang=\"EN-US\">Land degradation threatens agriculture in Sub-Saharan Africa. This study assesses the determinants of adoption and the socio-economic impact of Sustainable Land Management (SLM) practices for maize production in Sinend&eacute;, a semi-arid commune in Northern Benin. A mixed-methods approach combined a quantitative survey of 150 stratified farm households (including 30% female-headed households) and 15 qualitative interviews with key stakeholders. Analyses (logistic/linear regression, cost comparison) were performed using R.</span></p>\n<p><span lang=\"EN-US\">Key findings indicate that access to agricultural credit is the main enabling factor for SLM adoption (OR &asymp; 1.65). Conversely, support from extension agents shows a negative correlation, while conventional socio-demographic factors are non-significant. SLM adoption reduces maize production costs by approximately 25%. Economically, organic fertilization offers the highest profitability (net margin, capital productivity), whereas organo-mineral fertilization maximizes yield per hectare. The combined application of multiple SLM measures is positively correlated with increased farm income.</span></p>\n<p><span lang=\"EN-US\">SLM practices are economically beneficial in Sinend&eacute;, but their adoption is hindered by financial barriers and the potential inadequacy of extension services. Recommendations include improving access to suitable credit, reforming agricultural advisory services to integrate local knowledge, and encouraging combinations of SLM practices tailored to farmers&rsquo; objectives. Integrating these elements into public policies is crucial for sustainable and resilient agriculture.</span></p>\n<p><strong><span lang=\"EN-US\">Keywords</span></strong><span lang=\"EN-US\">: <span>Socioeconomic impact, Sustainable Land Management, agricultural practices, Agricultural land, Sinend&eacute;.</span></span></p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Azaratou OROU SIKA",
-            "affiliation": null
+            "identifier": "http://publication.plazi.org/id/FFB8FFC22160FFFCFFC6476FFF8BFFD6",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
           },
           {
-            "name": "Moussa GIBIGAYE",
-            "affiliation": null
-          },
-          {
-            "name": "Aboudou Ramanou ABOUDOU YACOUBOU MAMA",
-            "affiliation": null
-          }
-        ],
-        "resource_type": {
-          "title": "Publication",
-          "type": "publication"
-        },
-        "journal": {
-          "title": "Revue Internationale de la Recherche Scientifique (Revue-IRS) - ISSN : 2958-8413"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17498050"
-              }
-            }
-          ]
-        }
-      },
-      "title": "INCIDENCES SOCIOECONOMIQUES DES PRATIQUES DE GESTION DURABLE DES TERRES AGRICOLES DANS LA COMMUNE DE SINENDE AU BENIN",
-      "links": {
-        "self": "https://zenodo.org/api/records/17498051",
-        "self_html": "https://zenodo.org/records/17498051",
-        "preview_html": "https://zenodo.org/records/17498051?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17498051",
-        "self_doi": "https://doi.org/10.5281/zenodo.17498051",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17498051",
-        "reserve_doi": "https://zenodo.org/api/records/17498051/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17498050",
-        "parent_html": "https://zenodo.org/records/17498050",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17498050",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17498050",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17498051/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17498051/sequence/default",
-        "files": "https://zenodo.org/api/records/17498051/files",
-        "media_files": "https://zenodo.org/api/records/17498051/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17498051:RIRS.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17498051:RIRS.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17498051:RIRS.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17498051:RIRS.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17498051:RIRS.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17498051:RIRS.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17498051/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17498051/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17498051/versions/latest",
-        "latest_html": "https://zenodo.org/records/17498051/latest",
-        "versions": "https://zenodo.org/api/records/17498051/versions",
-        "draft": "https://zenodo.org/api/records/17498051/draft",
-        "access_links": "https://zenodo.org/api/records/17498051/access/links",
-        "access_grants": "https://zenodo.org/api/records/17498051/access/grants",
-        "access_users": "https://zenodo.org/api/records/17498051/access/users",
-        "access_request": "https://zenodo.org/api/records/17498051/access/request",
-        "access": "https://zenodo.org/api/records/17498051/access",
-        "communities": "https://zenodo.org/api/records/17498051/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17498051/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17498051/request-deletion",
-        "requests": "https://zenodo.org/api/records/17498051/requests"
-      },
-      "updated": "2025-11-01T00:37:16.552546+00:00",
-      "recid": "17498051",
-      "revision": 4,
-      "files": [
-        {
-          "id": "779925ec-f7da-47a8-878d-a7fc67565ea9",
-          "key": "RIRS.pdf",
-          "size": 529986,
-          "checksum": "md5:418d63187ed18eb6c6812492cccaf87c",
-          "links": {
-            "self": "https://zenodo.org/api/records/17498051/files/RIRS.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "472015"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 1,
-        "unique_views": 1,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 1,
-        "version_views": 1
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-31T21:16:08.839466+00:00",
-      "modified": "2025-10-31T21:16:09.122608+00:00",
-      "id": 17497384,
-      "conceptrecid": "17497383",
-      "doi": "10.5281/zenodo.17497384",
-      "conceptdoi": "10.5281/zenodo.17497383",
-      "doi_url": "https://doi.org/10.5281/zenodo.17497384",
-      "metadata": {
-        "title": "Cosmology of Quantum Triadic Graphs",
-        "doi": "10.5281/zenodo.17497384",
-        "publication_date": "2025-10-31",
-        "description": "<p>This paper presents <em>Cosmology of Quantum Triadic Graphs: Structural Emergence in the Relational Time Superposition Hypothesis (RTSH) Model</em>, the first computational formulation of a cosmological network governed by quantum-inspired causal rules. In this model, new nodes attach to a growing causal graph through a Grover-based quantum selection mechanism, followed by a coherence-driven <em>quantum triadic closure</em> and a semilocal causal noise term.</p>\n<p>The resulting networks exhibit filamentary and quasi-spherical morphologies, high clustering coefficients, truncated power-law degree distributions, and small-world causal coherence &mdash; structural signatures reminiscent of the large-scale cosmic web. The paper interprets these properties within the RTSH framework, where spacetime emerges as a self-optimizing network of quantum collapses.</p>\n<p>To our knowledge, this is the first formulation of a quantum triadic closure mechanism &mdash; a coherence-driven analogue of classical triadic closure &mdash; designed to capture local reinforcement of causal correlations in quantum-relational networks.</p>\n<p>The full simulation code (Qiskit + NetworkX + Matplotlib) is included as <em>Appendix C</em> and reproduces all figures and metrics discussed in the text.</p>\n<p><strong>Keywords:</strong><br>RTSH, quantum networks, causal graphs, triadic closure, Grover algorithm, emergent spacetime, complex systems, cosmology of graphs.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Charles C., Gon\u00e7alves J\u00fanior",
-            "affiliation": "Universidade Federal de Minas Gerais",
-            "orcid": "0009-0000-0164-0411"
-          }
-        ],
-        "keywords": [
-          "RTSH",
-          "causal graphs",
-          "quantum triadic closure",
-          "complex networks",
-          "emergent  spacetime",
-          "Grover algorithm"
-        ],
-        "dates": [
-          {
-            "type": "submitted",
-            "description": "Date the work was completed"
-          }
-        ],
-        "version": "v1",
-        "references": [
-          "Penrose, R. (1996). On Gravity's Role in Quantum State Reduction. General Rela tivity and Gravitation, 28(5), 581\u2013600",
-          "Penrose, R. (2016). Fashion, Faith, and Fantasy in the New Physics of the Universe.  Princeton University Press",
-          "Grover, L. K. (1997). Quantum Mechanics Helps in Searching for a Needle in a  Haystack. Physical Review Letters, 79(2), 325\u2013328",
-          "Barab\u00e1si, A.-L., & Albert, R. (1999). Emergence of Scaling in Random Networks.  Science, 286(5439), 509\u2013512",
-          "Watts, D. J., & Strogatz, S. H. (1998). Collective Dynamics of 'Small-World' Net works. Nature, 393(6684), 440\u2013442",
-          "Sorkin, R. D. (2003). Causal Sets: Discrete Gravity. In A. Gomberoff & D. Marolf  (Eds.), Lectures on Quantum Gravity (pp. 305\u2013327). Springer",
-          "Gon\u00e7alves, C. (2025). Relational Time Superposition Hypothesis (RTSH) (Vers\u00e3o v4). Zenodo. https://doi.org/10.5281/zenodo.16623845"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Publication",
-          "type": "publication"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17497383"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Cosmology of Quantum Triadic Graphs",
-      "links": {
-        "self": "https://zenodo.org/api/records/17497384",
-        "self_html": "https://zenodo.org/records/17497384",
-        "preview_html": "https://zenodo.org/records/17497384?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17497384",
-        "self_doi": "https://doi.org/10.5281/zenodo.17497384",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17497384",
-        "reserve_doi": "https://zenodo.org/api/records/17497384/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17497383",
-        "parent_html": "https://zenodo.org/records/17497383",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17497383",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17497383",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17497384/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17497384/sequence/default",
-        "files": "https://zenodo.org/api/records/17497384/files",
-        "media_files": "https://zenodo.org/api/records/17497384/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17497384:Cosmology%20of%20Quantum%20Triadic%20Graphs.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17497384:Cosmology%20of%20Quantum%20Triadic%20Graphs.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17497384:Cosmology%20of%20Quantum%20Triadic%20Graphs.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17497384:Cosmology%20of%20Quantum%20Triadic%20Graphs.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17497384:Cosmology%20of%20Quantum%20Triadic%20Graphs.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17497384:Cosmology%20of%20Quantum%20Triadic%20Graphs.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17497384/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17497384/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17497384/versions/latest",
-        "latest_html": "https://zenodo.org/records/17497384/latest",
-        "versions": "https://zenodo.org/api/records/17497384/versions",
-        "draft": "https://zenodo.org/api/records/17497384/draft",
-        "access_links": "https://zenodo.org/api/records/17497384/access/links",
-        "access_grants": "https://zenodo.org/api/records/17497384/access/grants",
-        "access_users": "https://zenodo.org/api/records/17497384/access/users",
-        "access_request": "https://zenodo.org/api/records/17497384/access/request",
-        "access": "https://zenodo.org/api/records/17497384/access",
-        "communities": "https://zenodo.org/api/records/17497384/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17497384/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17497384/request-deletion",
-        "requests": "https://zenodo.org/api/records/17497384/requests"
-      },
-      "updated": "2025-10-31T21:16:09.122608+00:00",
-      "recid": "17497384",
-      "revision": 4,
-      "files": [
-        {
-          "id": "990e02e3-883b-4a02-a987-098bd079a80f",
-          "key": "Cosmology of Quantum Triadic Graphs.pdf",
-          "size": 1396129,
-          "checksum": "md5:97f770b6c6914125f2038d8862a0f84a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17497384/files/Cosmology of Quantum Triadic Graphs.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1363786"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 18,
-        "unique_downloads": 14,
-        "views": 14,
-        "unique_views": 13,
-        "version_downloads": 18,
-        "version_unique_downloads": 14,
-        "version_unique_views": 13,
-        "version_views": 14
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-31T15:59:02.953763+00:00",
-      "modified": "2025-10-31T15:59:03.211311+00:00",
-      "id": 17495521,
-      "conceptrecid": "17495520",
-      "doi": "10.21334/NPOLAR.2025.80B69907",
-      "doi_url": "https://doi.org/10.21334/NPOLAR.2025.80B69907",
-      "metadata": {
-        "title": "Pan-Arctic Gateway transports since 2004",
-        "doi": "10.21334/NPOLAR.2025.80B69907",
-        "publication_date": "2025-10-31",
-        "description": "<p>This data set encompasses input data and adjusted data derived with an inverse model of ocean velocity, temperature and salinity obtained from ocean moorings and hydrography from the four main Arctic Gateways Fram Strait, Barents Sea Opening, Bering Strait and Davis Strait. The data are provided as monthly averages and are gridded on vertical (gateway) sections with 4 m vertical distance and 3 km horizontal spacing. Derived data products of pan-Arctic net heat transport and freshwater transport obtained from the inverse-model adjusted data fields are also provided.</p>\n<p>The data set starts in October 2004 and initially is provided up to May 2022. Newer versions of the data sets (e.g. updates/extensions in time, or adjustments in set up/approach) will be uploaded once available.</p>\n<p>The mooring data from the Arctic Gateways are provided by the Norwegian Polar Institute (Troms&oslash;, Norway), the Alfred Wegener Institute (Bremerhaven, Germany), the Institute for Marine Research (Bergen, Norway) and the Applied Physics Laboratory, Univ. of Washington (Seattle, USA).</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Fredriksen, H.",
-            "affiliation": null
-          },
-          {
-            "name": "de Steur, L.",
-            "affiliation": null
-          },
-          {
-            "name": "von Appen, W.",
-            "affiliation": null
-          },
-          {
-            "name": "Ingvaldsen, R.",
-            "affiliation": null
-          },
-          {
-            "name": "McPherson, R.",
-            "affiliation": null
-          },
-          {
-            "name": "Lee, C.",
-            "affiliation": null
-          },
-          {
-            "name": "Lenetsky, J.",
-            "affiliation": null
-          },
-          {
-            "name": "Woodgate, R.",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "OCEAN CIRCULATION",
-          "WATER TEMPERATURE",
-          "SALINITY",
-          "SEA ICE"
-        ],
-        "dates": [
-          {
-            "type": "available"
-          }
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "grants": [
-          {
-            "code": "101059547",
-            "internal_id": "10.13039/501100000780::101059547",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Explaining and Predicting the Ocean Conveyor",
-            "acronym": "EPOC",
-            "program": "HORIZON.2.6",
-            "url": "https://cordis.europa.eu/projects/101059547"
-          }
-        ],
-        "communities": [
-          {
-            "id": "epoc"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17495520"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Pan-Arctic Gateway transports since 2004",
-      "links": {
-        "self": "https://zenodo.org/api/records/17495521",
-        "self_html": "https://zenodo.org/records/17495521",
-        "preview_html": "https://zenodo.org/records/17495521?preview=1",
-        "doi": "https://doi.org/10.21334/NPOLAR.2025.80B69907",
-        "self_doi": "https://doi.org/10.21334/NPOLAR.2025.80B69907",
-        "self_doi_html": "https://zenodo.org/doi/10.21334/NPOLAR.2025.80B69907",
-        "reserve_doi": "https://zenodo.org/api/records/17495521/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17495520",
-        "parent_html": "https://zenodo.org/records/17495520",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17495521/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17495521/sequence/default",
-        "files": "https://zenodo.org/api/records/17495521/files",
-        "media_files": "https://zenodo.org/api/records/17495521/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17495521:ScreenshotDataset.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17495521:ScreenshotDataset.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17495521:ScreenshotDataset.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17495521:ScreenshotDataset.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17495521:ScreenshotDataset.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17495521:ScreenshotDataset.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17495521/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17495521/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17495521/versions/latest",
-        "latest_html": "https://zenodo.org/records/17495521/latest",
-        "versions": "https://zenodo.org/api/records/17495521/versions",
-        "draft": "https://zenodo.org/api/records/17495521/draft",
-        "access_links": "https://zenodo.org/api/records/17495521/access/links",
-        "access_grants": "https://zenodo.org/api/records/17495521/access/grants",
-        "access_users": "https://zenodo.org/api/records/17495521/access/users",
-        "access_request": "https://zenodo.org/api/records/17495521/access/request",
-        "access": "https://zenodo.org/api/records/17495521/access",
-        "communities": "https://zenodo.org/api/records/17495521/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17495521/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17495521/request-deletion",
-        "requests": "https://zenodo.org/api/records/17495521/requests"
-      },
-      "updated": "2025-10-31T15:59:03.211311+00:00",
-      "recid": "17495521",
-      "revision": 4,
-      "files": [
-        {
-          "id": "5f0480cb-fc90-4833-8a29-2e8ec57f0660",
-          "key": "ScreenshotDataset.pdf",
-          "size": 520023,
-          "checksum": "md5:32e6cd061b2c171fa3bea632a16b3e42",
-          "links": {
-            "self": "https://zenodo.org/api/records/17495521/files/ScreenshotDataset.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "477767"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 14,
-        "unique_downloads": 11,
-        "views": 30,
-        "unique_views": 27,
-        "version_downloads": 14,
-        "version_unique_downloads": 11,
-        "version_unique_views": 27,
-        "version_views": 30
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-31T15:49:54.547977+00:00",
-      "modified": "2025-10-31T15:49:55.356966+00:00",
-      "id": 17495400,
-      "conceptrecid": "17495399",
-      "doi": "10.5281/zenodo.17495400",
-      "conceptdoi": "10.5281/zenodo.17495399",
-      "doi_url": "https://doi.org/10.5281/zenodo.17495400",
-      "metadata": {
-        "title": "Dark-Field and Attenuation X-ray U-Net for Lung Tumor Detection",
-        "doi": "10.5281/zenodo.17495400",
-        "publication_date": "2025-10-31",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Dey, Joyoni",
-            "affiliation": null
-          }
-        ],
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17495399"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Dark-Field and Attenuation X-ray U-Net for Lung Tumor Detection",
-      "links": {
-        "self": "https://zenodo.org/api/records/17495400",
-        "self_html": "https://zenodo.org/records/17495400",
-        "preview_html": "https://zenodo.org/records/17495400?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17495400",
-        "self_doi": "https://doi.org/10.5281/zenodo.17495400",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17495400",
-        "reserve_doi": "https://zenodo.org/api/records/17495400/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17495399",
-        "parent_html": "https://zenodo.org/records/17495399",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17495399",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17495399",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17495400/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17495400/sequence/default",
-        "files": "https://zenodo.org/api/records/17495400/files",
-        "media_files": "https://zenodo.org/api/records/17495400/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17495400:README_INSTRUCTIONS.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17495400:README_INSTRUCTIONS.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17495400:README_INSTRUCTIONS.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17495400:README_INSTRUCTIONS.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17495400:README_INSTRUCTIONS.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17495400:README_INSTRUCTIONS.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17495400/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17495400/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17495400/versions/latest",
-        "latest_html": "https://zenodo.org/records/17495400/latest",
-        "versions": "https://zenodo.org/api/records/17495400/versions",
-        "draft": "https://zenodo.org/api/records/17495400/draft",
-        "access_links": "https://zenodo.org/api/records/17495400/access/links",
-        "access_grants": "https://zenodo.org/api/records/17495400/access/grants",
-        "access_users": "https://zenodo.org/api/records/17495400/access/users",
-        "access_request": "https://zenodo.org/api/records/17495400/access/request",
-        "access": "https://zenodo.org/api/records/17495400/access",
-        "communities": "https://zenodo.org/api/records/17495400/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17495400/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17495400/request-deletion",
-        "requests": "https://zenodo.org/api/records/17495400/requests"
-      },
-      "updated": "2025-10-31T15:49:55.356966+00:00",
-      "recid": "17495400",
-      "revision": 4,
-      "files": [
-        {
-          "id": "902c0edc-bdc9-4dce-8a32-cf303c89dcaf",
-          "key": "2D_ATTN_DFI_WithDisplayNew.zip",
-          "size": 634504150,
-          "checksum": "md5:e49c3aecf23caf504020ca11f21c8cde",
-          "links": {
-            "self": "https://zenodo.org/api/records/17495400/files/2D_ATTN_DFI_WithDisplayNew.zip/content"
-          }
-        },
-        {
-          "id": "21dc867d-2627-4d1d-aa01-7c9293a03cc5",
-          "key": "README_INSTRUCTIONS.pdf",
-          "size": 66543,
-          "checksum": "md5:05129f9723ba67b07c0fe9f7cde03013",
-          "links": {
-            "self": "https://zenodo.org/api/records/17495400/files/README_INSTRUCTIONS.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1449127"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 7,
-        "unique_downloads": 6,
-        "views": 10,
-        "unique_views": 7,
-        "version_downloads": 7,
-        "version_unique_downloads": 6,
-        "version_unique_views": 7,
-        "version_views": 10
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-31T15:43:17.765957+00:00",
-      "modified": "2025-10-31T15:43:17.890962+00:00",
-      "id": 17495370,
-      "conceptrecid": "17238797",
-      "doi": "10.5281/zenodo.17495370",
-      "conceptdoi": "10.5281/zenodo.17238797",
-      "doi_url": "https://doi.org/10.5281/zenodo.17495370",
-      "metadata": {
-        "title": "GENBoostGPU: GPU-accelerated elastic net boosting for large-scale epigenomics",
-        "doi": "10.5281/zenodo.17495370",
-        "publication_date": "2025-10-31",
-        "description": "GENBoostGPU provides a scalable framework for running elastic net regression with boosting across thousands of CpG sites, leveraging GPU acceleration with RAPIDS cuML, CuPy, and cuDF. It supports SNP preprocessing, cis-window filtering, LD clumping, missing data imputation, and phenotype integration \u2014 all optimized for large-scale epigenomics.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Benjamin, Kynon J. M.",
-            "affiliation": "Northwestern University",
-            "orcid": "0000-0003-2016-4646"
-          },
-          {
-            "name": "Bennett, Alexis",
-            "affiliation": "Northwestern University"
-          }
-        ],
-        "keywords": [
-          "genomics",
-          "epigenomics",
-          "dna-methylation",
-          "elastic-net",
-          "boosting",
-          "gpu",
-          "snp-heritability",
-          "rapids",
-          "cupy",
-          "cuml"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/heart-gen/GENBoostGPU",
-            "relation": "isSupplementTo",
+            "identifier": "https://biodiversitypmc.sibils.org/collections/plazi/038187BA216CFFF0FF06478AFE7FFE48",
+            "relation": "isSourceOf",
             "scheme": "url"
           }
         ],
-        "version": "v0.2.0",
         "custom": {
-          "code:codeRepository": "https://github.com/heart-gen/GENBoostGPU"
+          "dwc:family": [
+            "Cleridae"
+          ],
+          "dwc:genus": [
+            "Enoclerus"
+          ],
+          "dwc:kingdom": [
+            "Animalia"
+          ],
+          "dwc:order": [
+            "Coleoptera"
+          ],
+          "dwc:phylum": [
+            "Arthropoda"
+          ],
+          "dwc:scientificNameAuthorship": [
+            "Chevrolat"
+          ],
+          "dwc:specificEpithet": [
+            "zebra"
+          ],
+          "dwc:taxonRank": [
+            "species"
+          ],
+          "openbiodiv:TaxonomicConceptLabel": [
+            "Enoclerus zebra (Chevrolat, 1843) sec. Rifkind, 2025"
+          ]
         },
+        "resource_type": {
+          "title": "Taxonomic treatment",
+          "type": "publication",
+          "subtype": "taxonomictreatment"
+        },
+        "journal": {
+          "pages": "11",
+          "title": "On the identity of Enoclerus crabronarius (SPinoLa), with the descRiPtion of a new sPecies of Enoclerus Gahan, and new distRibutionaL RecoRds foR Mexican and CentRaL AmeRican CLeRidae (CoLeoPteRa), pp. 1-12 in Insecta Mundi",
+          "volume": "2025"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "http://treatment.plazi.org/id/038187BA216CFFF0FF06478AFE7FFE48"
+          }
+        ],
+        "license": {
+          "id": "cc-zero"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20494273"
+              }
+            }
+          ]
+        },
+        "notes": "Published as part of <i>Rifkind, Jacques, 2025, On the identity of Enoclerus crabronarius (SPinoLa), with the descRiPtion of a new sPecies of Enoclerus Gahan, and new distRibutionaL RecoRds foR Mexican and CentRaL AmeRican CLeRidae (CoLeoPteRa), pp. 1-12 in Insecta Mundi 2025</i> on page 11, DOI: 10.64338/im.1163.v7hl4"
+      },
+      "title": "Enoclerus zebra",
+      "links": {
+        "self": "https://zenodo.org/api/records/20494274",
+        "self_html": "https://zenodo.org/records/20494274",
+        "preview_html": "https://zenodo.org/records/20494274?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20494274",
+        "self_doi": "https://doi.org/10.5281/zenodo.20494274",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20494274",
+        "reserve_doi": "https://zenodo.org/api/records/20494274/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20494273",
+        "parent_html": "https://zenodo.org/records/20494273",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20494273",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20494273",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20494274/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20494274/sequence/default",
+        "files": "https://zenodo.org/api/records/20494274/files",
+        "media_files": "https://zenodo.org/api/records/20494274/media-files",
+        "archive": "https://zenodo.org/api/records/20494274/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20494274/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20494274/versions/latest",
+        "latest_html": "https://zenodo.org/records/20494274/latest",
+        "versions": "https://zenodo.org/api/records/20494274/versions",
+        "draft": "https://zenodo.org/api/records/20494274/draft",
+        "access_links": "https://zenodo.org/api/records/20494274/access/links",
+        "access_grants": "https://zenodo.org/api/records/20494274/access/grants",
+        "access_users": "https://zenodo.org/api/records/20494274/access/users",
+        "access_request": "https://zenodo.org/api/records/20494274/access/request",
+        "access": "https://zenodo.org/api/records/20494274/access",
+        "communities": "https://zenodo.org/api/records/20494274/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20494274/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20494274/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20494274/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20494274/quota-increase",
+        "requests": "https://zenodo.org/api/records/20494274/requests"
+      },
+      "updated": "2026-06-01T16:34:38.941922+00:00",
+      "recid": "20494274",
+      "revision": 5,
+      "files": [
+        {
+          "id": "cb00f291-0554-4391-97b6-088ff905e257",
+          "key": "treatment.html",
+          "size": 669,
+          "checksum": "md5:1c4ac83140a997418d83686c0ed8c3fd",
+          "links": {
+            "self": "https://zenodo.org/api/records/20494274/files/treatment.html/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:34:04.465231+00:00",
+      "modified": "2026-06-01T16:34:04.582565+00:00",
+      "id": 20493231,
+      "conceptrecid": "20492190",
+      "doi": "10.5281/zenodo.20493231",
+      "conceptdoi": "10.5281/zenodo.20492190",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493231",
+      "metadata": {
+        "title": "Ramanujan Spectral Gap Bound for Electronic Band Gap Engineering and Anderson Localization Prevention",
+        "doi": "10.5281/zenodo.20493231",
+        "publication_date": "2026-06-01",
+        "description": "K22 Ramanujan expander spectral gap lambda_1=22/21 appears in condensed matter as ratio for Anderson localization. Super-Ramanujan condition kappa^2=2.567 provides Anderson delocalization certificate. Theorem OG-MAT01: H3 Laplacian spectrum lowest eigenvalue kappa^2-1=1.567&gt;0 corresponding to band gap hbar*kappa^2/m*. Graphene analogy: Dirac cone slope = hbar*v_F*kappa where kappa sets cone curvature. ZPL applied to crystal symmetry groups: Bravais lattice passing ZPL has zero net piezoelectric response. kappa=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "materials science",
+          "band gap",
+          "Anderson localization",
+          "Ramanujan",
+          "condensed matter",
+          "superconductors"
+        ],
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20492190"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Ramanujan Spectral Gap Bound for Electronic Band Gap Engineering and Anderson Localization Prevention",
+      "links": {
+        "self": "https://zenodo.org/api/records/20493231",
+        "self_html": "https://zenodo.org/records/20493231",
+        "preview_html": "https://zenodo.org/records/20493231?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493231",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493231",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493231",
+        "reserve_doi": "https://zenodo.org/api/records/20493231/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20492190",
+        "parent_html": "https://zenodo.org/records/20492190",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20492190",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20492190",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493231/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493231/sequence/default",
+        "files": "https://zenodo.org/api/records/20493231/files",
+        "media_files": "https://zenodo.org/api/records/20493231/media-files",
+        "archive": "https://zenodo.org/api/records/20493231/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493231/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493231/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493231/latest",
+        "versions": "https://zenodo.org/api/records/20493231/versions",
+        "draft": "https://zenodo.org/api/records/20493231/draft",
+        "access_links": "https://zenodo.org/api/records/20493231/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493231/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493231/access/users",
+        "access_request": "https://zenodo.org/api/records/20493231/access/request",
+        "access": "https://zenodo.org/api/records/20493231/access",
+        "communities": "https://zenodo.org/api/records/20493231/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493231/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493231/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493231/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493231/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493231/requests"
+      },
+      "updated": "2026-06-01T16:34:04.582565+00:00",
+      "recid": "20493231",
+      "revision": 4,
+      "files": [
+        {
+          "id": "675927e4-8120-4f66-975b-3166bbfde276",
+          "key": "pfmi_compliance_zkp_proof.zip",
+          "size": 2532,
+          "checksum": "md5:fcb7748c503613cf2351f660aec5576c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20493231/files/pfmi_compliance_zkp_proof.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:33:57.728777+00:00",
+      "modified": "2026-06-01T16:33:57.843640+00:00",
+      "id": 20493228,
+      "conceptrecid": "20491427",
+      "doi": "10.5281/zenodo.20493228",
+      "conceptdoi": "10.5281/zenodo.20491427",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493228",
+      "metadata": {
+        "title": "KAM Stability Certificates for Circadian Rhythms and H\u00b3 Geodesic Phylogenetic Distance Metrics",
+        "doi": "10.5281/zenodo.20493228",
+        "publication_date": "2026-06-01",
+        "description": "Biological oscillators are near-integrable Hamiltonians governed by KAM theory. Theorem OG-BIO01: Circadian oscillator passing KAMCheck() maintains amplitude stability under perturbations \u03b5&lt;1/21\u22484.76% \u2014 matching jet-lag recovery bounds. H\u00b3 geodesic distance computes evolutionary divergence with lower distortion than Euclidean embedding. ZPL applied to gene regulatory networks: GRN passing ZPL has zero net transcriptional bias \u2014 formal homeostasis certificate. Applications: drug chronotherapy, cancer cell cycle disruption, CRISPR off-target minimization. \u03ba=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "circadian",
+          "phylogenetics",
+          "KAM",
+          "gene regulatory",
+          "evolutionary biology",
+          "H3 geometry"
+        ],
         "resource_type": {
           "title": "Software",
           "type": "software"
         },
         "license": {
-          "id": "gpl-3.0-or-later"
+          "id": "cc-by-4.0"
         },
         "relations": {
           "version": [
@@ -950,104 +480,608 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17238797"
+                "pid_value": "20491427"
               }
             }
           ]
-        },
-        "notes": "If you use GENBoostGPU in your research, please cite this software using the provided DOI."
+        }
       },
-      "title": "GENBoostGPU: GPU-accelerated elastic net boosting for large-scale epigenomics",
+      "title": "KAM Stability Certificates for Circadian Rhythms and H\u00b3 Geodesic Phylogenetic Distance Metrics",
       "links": {
-        "self": "https://zenodo.org/api/records/17495370",
-        "self_html": "https://zenodo.org/records/17495370",
-        "preview_html": "https://zenodo.org/records/17495370?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17495370",
-        "self_doi": "https://doi.org/10.5281/zenodo.17495370",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17495370",
-        "reserve_doi": "https://zenodo.org/api/records/17495370/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17238797",
-        "parent_html": "https://zenodo.org/records/17238797",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17238797",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17238797",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17495370/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17495370/sequence/default",
-        "files": "https://zenodo.org/api/records/17495370/files",
-        "media_files": "https://zenodo.org/api/records/17495370/media-files",
-        "archive": "https://zenodo.org/api/records/17495370/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17495370/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17495370/versions/latest",
-        "latest_html": "https://zenodo.org/records/17495370/latest",
-        "versions": "https://zenodo.org/api/records/17495370/versions",
-        "draft": "https://zenodo.org/api/records/17495370/draft",
-        "access_links": "https://zenodo.org/api/records/17495370/access/links",
-        "access_grants": "https://zenodo.org/api/records/17495370/access/grants",
-        "access_users": "https://zenodo.org/api/records/17495370/access/users",
-        "access_request": "https://zenodo.org/api/records/17495370/access/request",
-        "access": "https://zenodo.org/api/records/17495370/access",
-        "communities": "https://zenodo.org/api/records/17495370/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17495370/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17495370/request-deletion",
-        "requests": "https://zenodo.org/api/records/17495370/requests"
+        "self": "https://zenodo.org/api/records/20493228",
+        "self_html": "https://zenodo.org/records/20493228",
+        "preview_html": "https://zenodo.org/records/20493228?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493228",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493228",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493228",
+        "reserve_doi": "https://zenodo.org/api/records/20493228/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491427",
+        "parent_html": "https://zenodo.org/records/20491427",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491427",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491427",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493228/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493228/sequence/default",
+        "files": "https://zenodo.org/api/records/20493228/files",
+        "media_files": "https://zenodo.org/api/records/20493228/media-files",
+        "archive": "https://zenodo.org/api/records/20493228/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493228/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493228/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493228/latest",
+        "versions": "https://zenodo.org/api/records/20493228/versions",
+        "draft": "https://zenodo.org/api/records/20493228/draft",
+        "access_links": "https://zenodo.org/api/records/20493228/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493228/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493228/access/users",
+        "access_request": "https://zenodo.org/api/records/20493228/access/request",
+        "access": "https://zenodo.org/api/records/20493228/access",
+        "communities": "https://zenodo.org/api/records/20493228/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493228/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493228/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493228/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493228/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493228/requests"
       },
-      "updated": "2025-10-31T15:43:17.890962+00:00",
-      "recid": "17495370",
+      "updated": "2026-06-01T16:33:57.843640+00:00",
+      "recid": "20493228",
       "revision": 4,
       "files": [
         {
-          "id": "5b982e5a-c66a-4cbf-8c6e-e30c066e9ab0",
-          "key": "heart-gen/GENBoostGPU-v0.2.0.zip",
-          "size": 153403,
-          "checksum": "md5:48d4eae3843d41761c06a5640f26b33c",
+          "id": "815d9f5e-9dd9-45f8-bcd9-6772b9c9542f",
+          "key": "pfmi_compliance_zkp_proof.zip",
+          "size": 2532,
+          "checksum": "md5:fcb7748c503613cf2351f660aec5576c",
           "links": {
-            "self": "https://zenodo.org/api/records/17495370/files/heart-gen/GENBoostGPU-v0.2.0.zip/content"
+            "self": "https://zenodo.org/api/records/20493228/files/pfmi_compliance_zkp_proof.zip/content"
           }
         }
       ],
-      "swh": {
-        "swhid": "swh:1:dir:5327133a3c1bed41dfd5a4d0000e4598756ca424;origin=https://doi.org/10.5281/zenodo.17238797;visit=swh:1:snp:38d4842796b42968588754f07892015db4241bbd;anchor=swh:1:rel:fe249745ac9de64c1463dfc231acda6911355452;path=heart-gen-GENBoostGPU-8ab5000"
-      },
+      "swh": null,
       "owners": [
         {
-          "id": "259262"
+          "id": "1358538"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 21,
-        "unique_downloads": 21,
-        "views": 78,
-        "unique_views": 72,
-        "version_downloads": 9,
-        "version_unique_downloads": 9,
-        "version_unique_views": 33,
-        "version_views": 37
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-10-31T15:04:00.412610+00:00",
-      "modified": "2025-10-31T15:04:01.484850+00:00",
-      "id": 17495015,
-      "conceptrecid": "17495014",
-      "doi": "10.5281/zenodo.17495015",
-      "conceptdoi": "10.5281/zenodo.17495014",
-      "doi_url": "https://doi.org/10.5281/zenodo.17495015",
+      "created": "2026-06-01T16:33:50.995479+00:00",
+      "modified": "2026-06-01T16:33:51.154685+00:00",
+      "id": 20493224,
+      "conceptrecid": "20492187",
+      "doi": "10.5281/zenodo.20493224",
+      "conceptdoi": "10.5281/zenodo.20492187",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493224",
       "metadata": {
-        "title": "Dark-Field and Attenuation X-ray U-Net for Lung Tumor Detection",
-        "doi": "10.5281/zenodo.17495015",
-        "publication_date": "2025-10-31",
+        "title": "H3 Geodesic Trajectory Optimization for Non-Keplerian Spacecraft Propulsion via Kappa-Curvature Thrust Geometry",
+        "doi": "10.5281/zenodo.20493224",
+        "publication_date": "2026-06-01",
+        "description": "Classical rocket trajectory optimization assumes Euclidean/Newtonian geometry. OmegaFlow v13: minimum-energy path between orbital states is H3 geodesic. Theorem OG-PROP01: Geodesic thrust arcs in H3 have delta-v strictly less than or equal to Euclidean cost. ZPL ensures zero net phase drag on EM field \u2014 cavity satisfying ZPL has zero systematic vacuum radiation pressure imbalance. KAM tori in H3 phase space describe stable non-decaying propulsion orbits. Applications: solar sail steering, plasma thruster tuning, optimal low-thrust interplanetary transfer. kappa=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
         "access_right": "open",
         "creators": [
           {
-            "name": "Dey, Joyoni",
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "spacecraft propulsion",
+          "trajectory optimization",
+          "H3 geometry",
+          "electromagnetic propulsion",
+          "KAM",
+          "orbital mechanics"
+        ],
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20492187"
+              }
+            }
+          ]
+        }
+      },
+      "title": "H3 Geodesic Trajectory Optimization for Non-Keplerian Spacecraft Propulsion via Kappa-Curvature Thrust Geometry",
+      "links": {
+        "self": "https://zenodo.org/api/records/20493224",
+        "self_html": "https://zenodo.org/records/20493224",
+        "preview_html": "https://zenodo.org/records/20493224?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493224",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493224",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493224",
+        "reserve_doi": "https://zenodo.org/api/records/20493224/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20492187",
+        "parent_html": "https://zenodo.org/records/20492187",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20492187",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20492187",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493224/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493224/sequence/default",
+        "files": "https://zenodo.org/api/records/20493224/files",
+        "media_files": "https://zenodo.org/api/records/20493224/media-files",
+        "archive": "https://zenodo.org/api/records/20493224/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493224/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493224/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493224/latest",
+        "versions": "https://zenodo.org/api/records/20493224/versions",
+        "draft": "https://zenodo.org/api/records/20493224/draft",
+        "access_links": "https://zenodo.org/api/records/20493224/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493224/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493224/access/users",
+        "access_request": "https://zenodo.org/api/records/20493224/access/request",
+        "access": "https://zenodo.org/api/records/20493224/access",
+        "communities": "https://zenodo.org/api/records/20493224/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493224/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493224/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493224/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493224/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493224/requests"
+      },
+      "updated": "2026-06-01T16:33:51.154685+00:00",
+      "recid": "20493224",
+      "revision": 4,
+      "files": [
+        {
+          "id": "72063786-26d9-45fc-a4cd-24b8ea9637a5",
+          "key": "zpl_lock_zkp_proof.zip",
+          "size": 2537,
+          "checksum": "md5:88e2424f20c5c482948d3e1fc808a865",
+          "links": {
+            "self": "https://zenodo.org/api/records/20493224/files/zpl_lock_zkp_proof.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:32:21.975583+00:00",
+      "modified": "2026-06-01T16:32:22.154087+00:00",
+      "id": 20493161,
+      "conceptrecid": "20491280",
+      "doi": "10.5281/zenodo.20493161",
+      "conceptdoi": "10.5281/zenodo.20491280",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493161",
+      "metadata": {
+        "title": "ZPL as Zero-Point Energy Lock Condition: \u03ba-Bounded Vacuum Fluctuation Amplitude in H\u00b3 Quantum Field Theory",
+        "doi": "10.5281/zenodo.20493161",
+        "publication_date": "2026-06-01",
+        "description": "The quantum vacuum zero-point energy density diverges in standard QFT \u2014 the cosmological constant problem (10\u00b9\u00b2\u2070 discrepancy). OmegaFlow v13 provides a natural UV cutoff via the K\u2082\u2082 gate algebra (231 modes). The Zero-Point Lock condition |\u03a3\u2096 exp(2\u03c0ik/231)|=0 ensures zero net vacuum phase bias \u2014 modes cancel exactly. Theorem OG-ZPE01: The H\u00b3 vacuum energy with K\u2082\u2082 cutoff is finite: \u03c1_vac=27027\u210f\u03ba/(2V). Verified: |sum of 231 roots of unity|=2.25\u00d710\u207b\u00b9\u2074 (algebraically exact). \u03ba=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "zero-point energy",
+          "quantum vacuum",
+          "Casimir",
+          "cosmological constant",
+          "K22",
+          "ZPL",
+          "vacuum energy"
+        ],
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491280"
+              }
+            }
+          ]
+        }
+      },
+      "title": "ZPL as Zero-Point Energy Lock Condition: \u03ba-Bounded Vacuum Fluctuation Amplitude in H\u00b3 Quantum Field Theory",
+      "links": {
+        "self": "https://zenodo.org/api/records/20493161",
+        "self_html": "https://zenodo.org/records/20493161",
+        "preview_html": "https://zenodo.org/records/20493161?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493161",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493161",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493161",
+        "reserve_doi": "https://zenodo.org/api/records/20493161/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491280",
+        "parent_html": "https://zenodo.org/records/20491280",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491280",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491280",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493161/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493161/sequence/default",
+        "files": "https://zenodo.org/api/records/20493161/files",
+        "media_files": "https://zenodo.org/api/records/20493161/media-files",
+        "archive": "https://zenodo.org/api/records/20493161/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493161/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493161/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493161/latest",
+        "versions": "https://zenodo.org/api/records/20493161/versions",
+        "draft": "https://zenodo.org/api/records/20493161/draft",
+        "access_links": "https://zenodo.org/api/records/20493161/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493161/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493161/access/users",
+        "access_request": "https://zenodo.org/api/records/20493161/access/request",
+        "access": "https://zenodo.org/api/records/20493161/access",
+        "communities": "https://zenodo.org/api/records/20493161/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493161/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493161/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493161/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493161/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493161/requests"
+      },
+      "updated": "2026-06-01T16:32:22.154087+00:00",
+      "recid": "20493161",
+      "revision": 4,
+      "files": [
+        {
+          "id": "373e7668-2c4b-4925-8808-a4aeb75402ba",
+          "key": "zpl_lock_zkp_proof.zip",
+          "size": 2537,
+          "checksum": "md5:88e2424f20c5c482948d3e1fc808a865",
+          "links": {
+            "self": "https://zenodo.org/api/records/20493161/files/zpl_lock_zkp_proof.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:32:13.758698+00:00",
+      "modified": "2026-06-01T16:32:13.842818+00:00",
+      "id": 20493155,
+      "conceptrecid": "20491278",
+      "doi": "10.5281/zenodo.20493155",
+      "conceptdoi": "10.5281/zenodo.20491278",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493155",
+      "metadata": {
+        "title": "H\u00b3(\u03ba\u00b2) as the Spatial Section of de Sitter Spacetime: Dark Energy as \u03ba-Curvature Vacuum Density",
+        "doi": "10.5281/zenodo.20493155",
+        "publication_date": "2026-06-01",
+        "description": "OmegaFlow v13 provides a geometric derivation of dark energy and dark matter via H\u00b3(\u03ba\u00b2) hyperbolic geometry. Theorem OG-COSMO01: Dark energy density \u039b/(8\u03c0G)=\u03ba\u00b2/3 \u2014 the cosmological constant IS the H\u00b3 curvature \u03ba\u00b2. The baryon asymmetry \u03b7=6.19\u00d710\u207b\u00b9\u2070 is predicted from K\u2082\u2082 net chirality \u03c7=56.43 with zero free parameters, matching Planck 2018 observation (6.10\u00d710\u207b\u00b9\u2070) to 1.5%. SPARC validation: \u03ba_galactic\u00d7r_disk_MW=1.00113 across 175 galaxies (p=10\u207b\u00b3\u00b9). \u03ba=1.60225455 derived from ORCID 0009-0003-2911-444X. ZKP commitment at block 40840.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "cosmology",
+          "dark energy",
+          "dark matter",
+          "de Sitter",
+          "H3 geometry",
+          "cosmological constant",
+          "baryon asymmetry",
+          "SPARC"
+        ],
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491278"
+              }
+            }
+          ]
+        }
+      },
+      "title": "H\u00b3(\u03ba\u00b2) as the Spatial Section of de Sitter Spacetime: Dark Energy as \u03ba-Curvature Vacuum Density",
+      "links": {
+        "self": "https://zenodo.org/api/records/20493155",
+        "self_html": "https://zenodo.org/records/20493155",
+        "preview_html": "https://zenodo.org/records/20493155?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493155",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493155",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493155",
+        "reserve_doi": "https://zenodo.org/api/records/20493155/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491278",
+        "parent_html": "https://zenodo.org/records/20491278",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491278",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491278",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493155/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493155/sequence/default",
+        "files": "https://zenodo.org/api/records/20493155/files",
+        "media_files": "https://zenodo.org/api/records/20493155/media-files",
+        "archive": "https://zenodo.org/api/records/20493155/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493155/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493155/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493155/latest",
+        "versions": "https://zenodo.org/api/records/20493155/versions",
+        "draft": "https://zenodo.org/api/records/20493155/draft",
+        "access_links": "https://zenodo.org/api/records/20493155/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493155/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493155/access/users",
+        "access_request": "https://zenodo.org/api/records/20493155/access/request",
+        "access": "https://zenodo.org/api/records/20493155/access",
+        "communities": "https://zenodo.org/api/records/20493155/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493155/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493155/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493155/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493155/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493155/requests"
+      },
+      "updated": "2026-06-01T16:32:13.842818+00:00",
+      "recid": "20493155",
+      "revision": 4,
+      "files": [
+        {
+          "id": "0d644d0c-afad-438a-b401-2102bf02a04d",
+          "key": "baryon_asymmetry_zkp_proof.zip",
+          "size": 2882,
+          "checksum": "md5:1a99d7b2a4289e0b3598287639d5e74f",
+          "links": {
+            "self": "https://zenodo.org/api/records/20493155/files/baryon_asymmetry_zkp_proof.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:31:56.577144+00:00",
+      "modified": "2026-06-01T16:31:56.692673+00:00",
+      "id": 20493152,
+      "conceptrecid": "20491267",
+      "doi": "10.5281/zenodo.20493152",
+      "conceptdoi": "10.5281/zenodo.20491267",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493152",
+      "metadata": {
+        "title": "OmegaFlow v13 Selberg Zeta as Riemann Hypothesis Analog: Zeros on Re(s)=1/2 via H\u00b3 Spectral Geometry",
+        "doi": "10.5281/zenodo.20493152",
+        "publication_date": "2026-06-01",
+        "description": "The Selberg zeta function Z(s,\u0393) satisfies the Riemann Hypothesis exactly: all non-trivial zeros lie on Re(s)=1/2 (Selberg 1956). OmegaFlow v13 computes Z(s) for the K\u2082\u2082 Schottky group acting on H\u00b3. The K\u2082\u2082 gate algebra has 22 vertices (Hebrew letters), 231 undirected and 462 directed gates, net chirality \u03c7=56.43. Theorem OG-RH01: For the K\u2082\u2082 Schottky group, Z(s) has all non-trivial zeros on Re(s)=1/2 by the Selberg trace formula. The prime geodesic theorem for K\u2082\u2082 gives \u03c0_geo(T)~e^T/T matching the prime counting function under T=log(x). This establishes OmegaFlow v13 as a concrete spectral model for the Riemann Hypothesis via the Hilbert-P\u00f3lya program. \u03ba=1.60225455 derived from ORCID 0009-0003-2911-444X. ZKP commitment at block 40840.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "Riemann Hypothesis",
+          "Selberg zeta",
+          "prime geodesic",
+          "H3 geometry",
+          "spectral theory",
+          "Millennium Problem",
+          "Hilbert-Polya"
+        ],
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491267"
+              }
+            }
+          ]
+        }
+      },
+      "title": "OmegaFlow v13 Selberg Zeta as Riemann Hypothesis Analog: Zeros on Re(s)=1/2 via H\u00b3 Spectral Geometry",
+      "links": {
+        "self": "https://zenodo.org/api/records/20493152",
+        "self_html": "https://zenodo.org/records/20493152",
+        "preview_html": "https://zenodo.org/records/20493152?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493152",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493152",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493152",
+        "reserve_doi": "https://zenodo.org/api/records/20493152/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491267",
+        "parent_html": "https://zenodo.org/records/20491267",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491267",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491267",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493152/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493152/sequence/default",
+        "files": "https://zenodo.org/api/records/20493152/files",
+        "media_files": "https://zenodo.org/api/records/20493152/media-files",
+        "archive": "https://zenodo.org/api/records/20493152/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493152/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493152/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493152/latest",
+        "versions": "https://zenodo.org/api/records/20493152/versions",
+        "draft": "https://zenodo.org/api/records/20493152/draft",
+        "access_links": "https://zenodo.org/api/records/20493152/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493152/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493152/access/users",
+        "access_request": "https://zenodo.org/api/records/20493152/access/request",
+        "access": "https://zenodo.org/api/records/20493152/access",
+        "communities": "https://zenodo.org/api/records/20493152/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493152/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493152/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493152/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493152/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493152/requests"
+      },
+      "updated": "2026-06-01T16:31:56.692673+00:00",
+      "recid": "20493152",
+      "revision": 4,
+      "files": [
+        {
+          "id": "15ff9029-baea-403f-b214-49346c020390",
+          "key": "theorem_registry_zkp_proof.zip",
+          "size": 2745,
+          "checksum": "md5:8db1571a7f5316547602f0215414b663",
+          "links": {
+            "self": "https://zenodo.org/api/records/20493152/files/theorem_registry_zkp_proof.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T16:10:19.287430+00:00",
+      "modified": "2026-06-01T16:10:19.533023+00:00",
+      "id": 20493779,
+      "conceptrecid": "20493778",
+      "doi": "10.5281/zenodo.20493779",
+      "conceptdoi": "10.5281/zenodo.20493778",
+      "doi_url": "https://doi.org/10.5281/zenodo.20493779",
+      "metadata": {
+        "title": "Sanayi Politikas\u0131n\u0131n Y\u00fckseli\u015fi",
+        "doi": "10.5281/zenodo.20493779",
+        "publication_date": "2026-05-22",
+        "description": "K\u00fcresel finansal krizden bu yana hem geli\u015fmi\u015f hem de geli\u015fmekte olan ekonomiler, \u00f6zellikle te\u015fvikleri kullanarak net s\u0131f\u0131ra ge\u00e7i\u015fi h\u0131zland\u0131rmak, tedarik zinciri dayan\u0131kl\u0131l\u0131\u011f\u0131n\u0131 art\u0131rmak ve anahtar sekt\u00f6rlerde stratejik rekabet\u00e7ilik gibi ama\u00e7lar do\u011frultusunda giderek daha fazla sanayi politikas\u0131 uyguluyor.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Bar\u0131\u015f G\u00fcven",
             "affiliation": null
           }
         ],
+        "related_identifiers": [
+          {
+            "identifier": "https://katmanportal.com/?p=5162",
+            "relation": "isIdenticalTo",
+            "scheme": "url"
+          }
+        ],
         "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "title": "Katman Portal"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -1059,466 +1093,157 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17495014"
+                "pid_value": "20493778"
               }
             }
           ]
         }
       },
-      "title": "Dark-Field and Attenuation X-ray U-Net for Lung Tumor Detection",
+      "title": "Sanayi Politikas\u0131n\u0131n Y\u00fckseli\u015fi",
       "links": {
-        "self": "https://zenodo.org/api/records/17495015",
-        "self_html": "https://zenodo.org/records/17495015",
-        "preview_html": "https://zenodo.org/records/17495015?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17495015",
-        "self_doi": "https://doi.org/10.5281/zenodo.17495015",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17495015",
-        "reserve_doi": "https://zenodo.org/api/records/17495015/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17495014",
-        "parent_html": "https://zenodo.org/records/17495014",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17495014",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17495014",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17495015/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17495015/sequence/default",
-        "files": "https://zenodo.org/api/records/17495015/files",
-        "media_files": "https://zenodo.org/api/records/17495015/media-files",
+        "self": "https://zenodo.org/api/records/20493779",
+        "self_html": "https://zenodo.org/records/20493779",
+        "preview_html": "https://zenodo.org/records/20493779?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20493779",
+        "self_doi": "https://doi.org/10.5281/zenodo.20493779",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493779",
+        "reserve_doi": "https://zenodo.org/api/records/20493779/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20493778",
+        "parent_html": "https://zenodo.org/records/20493778",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20493778",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493778",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493779/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493779/sequence/default",
+        "files": "https://zenodo.org/api/records/20493779/files",
+        "media_files": "https://zenodo.org/api/records/20493779/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17495015:README_INSTRUCTIONS.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17495015:README_INSTRUCTIONS.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17495015:README_INSTRUCTIONS.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17495015:README_INSTRUCTIONS.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17495015:README_INSTRUCTIONS.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17495015:README_INSTRUCTIONS.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17495015/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17495015/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17495015/versions/latest",
-        "latest_html": "https://zenodo.org/records/17495015/latest",
-        "versions": "https://zenodo.org/api/records/17495015/versions",
-        "draft": "https://zenodo.org/api/records/17495015/draft",
-        "access_links": "https://zenodo.org/api/records/17495015/access/links",
-        "access_grants": "https://zenodo.org/api/records/17495015/access/grants",
-        "access_users": "https://zenodo.org/api/records/17495015/access/users",
-        "access_request": "https://zenodo.org/api/records/17495015/access/request",
-        "access": "https://zenodo.org/api/records/17495015/access",
-        "communities": "https://zenodo.org/api/records/17495015/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17495015/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17495015/request-deletion",
-        "requests": "https://zenodo.org/api/records/17495015/requests"
+        "archive": "https://zenodo.org/api/records/20493779/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20493779/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20493779/versions/latest",
+        "latest_html": "https://zenodo.org/records/20493779/latest",
+        "versions": "https://zenodo.org/api/records/20493779/versions",
+        "draft": "https://zenodo.org/api/records/20493779/draft",
+        "access_links": "https://zenodo.org/api/records/20493779/access/links",
+        "access_grants": "https://zenodo.org/api/records/20493779/access/grants",
+        "access_users": "https://zenodo.org/api/records/20493779/access/users",
+        "access_request": "https://zenodo.org/api/records/20493779/access/request",
+        "access": "https://zenodo.org/api/records/20493779/access",
+        "communities": "https://zenodo.org/api/records/20493779/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20493779/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20493779/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20493779/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20493779/quota-increase",
+        "requests": "https://zenodo.org/api/records/20493779/requests"
       },
-      "updated": "2025-10-31T15:04:01.484850+00:00",
-      "recid": "17495015",
+      "updated": "2026-06-01T16:10:19.533023+00:00",
+      "recid": "20493779",
       "revision": 4,
       "files": [
         {
-          "id": "4b274c07-ab55-4c01-ae10-4600ae592ec6",
-          "key": "2D_ATTN_DFI_WithDisplay.zip",
-          "size": 634913531,
-          "checksum": "md5:5b5e28c65358870c90da2599759e5a6d",
+          "id": "ee769e2f-df60-4b32-9b6a-ed9d7ea26039",
+          "key": "sanayi-politikasinin-yukselisi.pdf",
+          "size": 46391,
+          "checksum": "md5:9e1ec25ce26e828dd9cbede8c5eb097c",
           "links": {
-            "self": "https://zenodo.org/api/records/17495015/files/2D_ATTN_DFI_WithDisplay.zip/content"
-          }
-        },
-        {
-          "id": "5da89352-98d3-489e-bc6e-2b1703326c84",
-          "key": "README_INSTRUCTIONS.pdf",
-          "size": 66541,
-          "checksum": "md5:9821ff3bca3f132a54c3a6abfbd4ea4f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17495015/files/README_INSTRUCTIONS.pdf/content"
+            "self": "https://zenodo.org/api/records/20493779/files/sanayi-politikasinin-yukselisi.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1449127"
+          "id": "1567774"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 5,
-        "unique_views": 3,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 3,
-        "version_views": 5
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-10-31T14:50:03.082911+00:00",
-      "modified": "2025-10-31T14:50:04.308883+00:00",
-      "id": 17494828,
-      "conceptrecid": "14883074",
-      "doi": "10.5281/zenodo.17494828",
-      "conceptdoi": "10.5281/zenodo.14883074",
-      "doi_url": "https://doi.org/10.5281/zenodo.17494828",
+      "created": "2026-06-01T15:58:41.438422+00:00",
+      "modified": "2026-06-01T15:58:42.043593+00:00",
+      "id": 17525890,
+      "conceptrecid": "17525889",
+      "doi": "10.5281/zenodo.17525890",
+      "conceptdoi": "10.5281/zenodo.17525889",
+      "doi_url": "https://doi.org/10.5281/zenodo.17525890",
       "metadata": {
-        "title": "Data repository for study on dinoflagellate bioluminescence and toxicity in response to copepodamides",
-        "doi": "10.5281/zenodo.17494828",
-        "publication_date": "2025-10-31",
-        "description": "<h2>Overview</h2>\n<p>This repository contains the datasets and analysis code for the manuscript \"<em>Grazer-induced bioluminescence and toxicity in marine dinoflagellates</em>\" by Gonzalo-Valmala and colleagues, published as an original research article in <em>Limnology &amp; Oceanography</em> (<a href=\"https://doi.org/10.1002/lno.70255\">https://doi.org/10.1002/lno.70255</a>).</p>\n<h3>Analysis code and output</h3>\n<p>This repository includes an R Markdown file (Supplementary_Code.Rmd) containing all code used for data analysis and visualization. It provides a fully reproducible workflow for statistical analyses, correlation assessments, effect size calculations, and figure generation. The corresponding&nbsp;Supplementary_Code.html&nbsp;file is the compiled output of the R Markdown file, displaying both the code and its execution results.</p>\n<h3>Datasets</h3>\n<p>P.reticulatum_Bioluminescence.csv: This dataset is used for Michaelis-Menten curve fitting and statistical analysis of the bioluminescence induction response observed in&nbsp;<em>Protoceratium reticulatum</em>&nbsp;under increasing copepodamide concentrations. It also provides the data for the correlation analysis between net bioluminescence production rates and net growth rates, as well as for generating figures 1b, d, and f of the main manuscript.</p>\n<p>A.catenella_Bioluminescence.csv: This dataset is used for Michaelis-Menten curve fitting and statistical analysis of the bioluminescence induction response observed in&nbsp;<em>Alexandrium catenella</em>&nbsp;under increasing copepodamide concentrations. It also provides the data for the correlation analysis between net bioluminescence production rate and net growth rates, as well as for generating figures 1a, c, and e of the main manuscript.</p>\n<p>G.catenatum_Wide.csv: Contains the primary data used for the statistical analysis and correlation analysis (net toxicity production rate vs. net growth rates) for the toxin production in&nbsp;<em>Gymnodinium catenatum</em>&nbsp;upon increasing copepodamide concentrations. It is also used to produce figures 2a, c, and e of the main manuscript.</p>\n<p>G.catenatum_Long.csv: Provides the data to produce figure 2a.</p>\n<p>A.catenella_Toxin_Wide.csv: Contains the primary data used for the statistical analysis and correlation analysis (net toxicity production rate vs. net growth rates) for the toxin production in&nbsp;<em>Alexandrium catenella</em>&nbsp;upon increasing copepodamide concentrations, as well as to produce figures 2d and 2f of the main manuscript and figure S1 of the supplementary information.</p>\n<p>A.catenella_Toxins_Long.csv: Provides the data to produce figure 2b.</p>\n<p>Both_species_bioluminescence.csv: Contains the data to compute the summary statistics (number of replicates, mean, standard deviation, standard error, 95% confidence intervals, and lower and higher confidence intervals) used for the effect size calculations in the bioluminescence induction experiments of&nbsp;<em>Protoceratium reticulatum</em>&nbsp;and&nbsp;<em>Alexandrium catenella</em>&nbsp;(Table 3).</p>\n<p>EffectSizeBiolum_Data.csv: Contains the data needed to produce the percent effect size calculations between treatment and control groups for the bioluminescence induction experiment in&nbsp;<em>Protoceratium reticulatum</em>&nbsp;and&nbsp;<em>Alexandrium catenella</em>, as well as the rest of the elements observed in Table 2.</p>\n<p>Both_species_Toxins.csv: Contains the necessary data to compute the summary statistics (number of replicates, mean, standard deviation, standard error, 95% confidence intervals, and lower and higher confidence intervals) used for the effect size calculations in the toxin induction experiments of&nbsp;<em>Alexandrium catenella</em>&nbsp;and&nbsp;<em>Gymnodinium catenatum</em>&nbsp;(Table 3).</p>\n<p>EffectSizeTox_Data.csv: Contains the data needed to produce the percent effect size calculations between treatment and control groups for the bioluminescence induction experiment in&nbsp;<em>Alexandrium catenella</em>&nbsp;and&nbsp;<em>Gymnodinium catenatum</em>, as well as the rest of the elements observed in Table 3.</p>\n<p>Alexandrium_catenella_(1).PNG: This .png file contains a dinoflagellate drawing of&nbsp;<em>Alexandrium catenella</em>&nbsp;used in figures 1a and 2b.</p>\n<p>Protoceratium_reticulatum_(1).PNG: This .png file contains a dinoflagellate drawing of Protoceratium reticulatum used in figure 1b.</p>\n<p>Gymnodinium_catenatum_(1).PNG: This .png file contains a dinoflagellate drawing of&nbsp;<em>Gymnodinium catenatum</em> inserted in figure 2a.</p>",
+        "title": "Data to: High Uncertainties in Simulating and Evaluating Gaining and Losing Streams at Large Spatial Scales",
+        "doi": "10.5281/zenodo.17525890",
+        "publication_date": "2025-11-04",
+        "description": "<p>The data is related to the preprint article: High Uncertainties in Simulating and Evaluating Gaining and Losing Streams at Large Spatial Scales (DOI: <a href=\"https://doi.org/10.22541/essoar.176409467.73281253/v1\">10.22541/essoar.176409467.73281253/v1</a>).</p>\n<p>Simulation output of the coupled WaterGAP-G&sup3;M model for the continental USA. The model output of the WaterGap model is used as input data for the G3M model. Both models are uncalibrated and simulate human water use. The G&sup3;M model simulates a reduced river conductance in the transient model compared to steady-state. This is experiment 5 as indicated in Table 1 in the related manuscript (<a href=\"https://doi.org/10.22541/essoar.176409467.73281253/v1\">10.22541/essoar.176409467.73281253/v1</a>). Simulation experiments were conducted by Sebastian Ackermann.</p>\n<p>Every netcdf file contains the monthly results for the whole globe/North America between 1901 to 2019 for one variable which are listed in the Table below.</p>\n<p><em>Table 1: Overview of files and the variables that they contain.</em></p>\n<table>\n<tbody>\n<tr>\n<td>Model</td>\n<td>Variable</td>\n<td>Unit</td>\n<td>Region</td>\n<td>Spatial resolution</td>\n<td>File name</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Precipitation</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ precmon_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Actual Evapotranspiration</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ evap_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Streamflow</strong></td>\n<td>m3 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ dis_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Streamflow from upstream cells</strong></td>\n<td>m3 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ dis_upstream_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Actual Net Abstraction From Surface Water</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ anas_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Actual Net Abstraction From Groundwater</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ anag_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Total Water Storage</strong></td>\n<td>kg m-2</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ tws_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Hydraulic head</strong></td>\n<td>m</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ head_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Water table Depth</strong></td>\n<td>m</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ wtd_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Submarine groundwater discharge</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>\n<p>g3m_1_watergap_hist_nocal_coupled_ sgd_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from rivers</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnriv_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from lakes</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnlak_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from lakes (global)</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnlak_global_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from wetlands</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnwet_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from wetlands (global)</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnwet_global_monthly_1901_2019.nc</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Pourdanandeh, Milad",
-            "affiliation": "University of Gothenburg, Department of Marine Sciences",
-            "orcid": "0009-0002-7640-5728"
+            "name": "Reinecke, Robert",
+            "affiliation": "Institute of Geography, Johannes Gutenberg-University Mainz, Mainz, Germany",
+            "orcid": "0000-0001-5699-8584"
           },
           {
-            "name": "Gonzalo-Valmala, Paula",
-            "affiliation": "Lund University, Department of Biology",
-            "orcid": "0009-0005-4270-4860"
+            "name": "Ackermann, Sebastian",
+            "affiliation": "Institute of Physical Geography, Goethe University Frankfurt, Frankfurt am Main, Germany",
+            "orcid": "0009-0005-2699-9953"
           },
           {
-            "name": "Lage, Sandra",
-            "affiliation": "Centro de Ci\u00eancias do Mar do Algarve",
-            "orcid": "0000-0003-0167-7163"
+            "name": "Nyenah, Emmanuel",
+            "affiliation": "Institute of Physical Geography, Goethe University Frankfurt, Frankfurt am Main, Germany",
+            "orcid": "0000-0001-8766-7657"
           },
           {
-            "name": "Amorim, Ana",
-            "affiliation": "Universidade de Lisboa Faculdade de Ciencias, MARE - Marine and Environmental Sciences Centre",
-            "orcid": "0000-0002-9612-4280"
+            "name": "Maa\u00df, Kolja",
+            "affiliation": "Institute of Engineering Hydrology and Water Resources Management, Ruhr University Bochum, Bochum, Germany"
           },
           {
-            "name": "Selander, Erik",
-            "affiliation": "Lund University, Department of Biology",
-            "orcid": "0000-0002-2579-0841"
+            "name": "Brakebusch, Imke",
+            "affiliation": "Institute of Geography, Johannes Gutenberg-University Mainz, Mainz, Germany"
+          },
+          {
+            "name": "B\u00e4thge, Annemarie",
+            "affiliation": "Institute of Geography, Johannes Gutenberg-University Mainz, Mainz, Germany",
+            "orcid": "0009-0006-3439-6594"
+          },
+          {
+            "name": "Fleckenstein, Jan H.",
+            "affiliation": "Helmholtz Centre for Environmental Research",
+            "orcid": "0000-0001-7213-9448"
+          },
+          {
+            "name": "D\u00f6ll, Petra",
+            "affiliation": "Institute of Physical Geography, Goethe University Frankfurt, Frankfurt am Main, Germany",
+            "orcid": "0000-0003-2238-4546"
           }
         ],
-        "keywords": [
-          "Marine dinoflagellates",
-          "Inducible defenses",
-          "Copepods",
-          "Copepodamides",
-          "Bioluminescence",
-          "Harmful algae",
-          "Paralytic shellfish toxins",
-          "Data set",
-          "R-markdown",
-          "R-code"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "10.1002/lno.70255",
-            "relation": "isSupplementTo",
-            "resource_type": "publication-article",
-            "scheme": "doi"
-          }
-        ],
-        "language": "eng",
-        "custom": {
-          "code:programmingLanguage": [
-            {
-              "id": "r",
-              "title": {
-                "en": "R"
-              }
-            }
-          ]
-        },
         "resource_type": {
           "title": "Dataset",
           "type": "dataset"
         },
-        "journal": {
-          "title": "Limnology and Oceanography"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "10.1002/lno.70255"
-          }
-        ],
         "license": {
-          "id": "cc-by-sa-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "14883074"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Data repository for study on dinoflagellate bioluminescence and toxicity in response to copepodamides",
-      "links": {
-        "self": "https://zenodo.org/api/records/17494828",
-        "self_html": "https://zenodo.org/records/17494828",
-        "preview_html": "https://zenodo.org/records/17494828?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17494828",
-        "self_doi": "https://doi.org/10.5281/zenodo.17494828",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17494828",
-        "reserve_doi": "https://zenodo.org/api/records/17494828/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/14883074",
-        "parent_html": "https://zenodo.org/records/14883074",
-        "parent_doi": "https://doi.org/10.5281/zenodo.14883074",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14883074",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17494828/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17494828/sequence/default",
-        "files": "https://zenodo.org/api/records/17494828/files",
-        "media_files": "https://zenodo.org/api/records/17494828/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17494828:None/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17494828:None/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17494828:None/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17494828:None/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17494828:None/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17494828:None/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17494828/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17494828/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17494828/versions/latest",
-        "latest_html": "https://zenodo.org/records/17494828/latest",
-        "versions": "https://zenodo.org/api/records/17494828/versions",
-        "draft": "https://zenodo.org/api/records/17494828/draft",
-        "access_links": "https://zenodo.org/api/records/17494828/access/links",
-        "access_grants": "https://zenodo.org/api/records/17494828/access/grants",
-        "access_users": "https://zenodo.org/api/records/17494828/access/users",
-        "access_request": "https://zenodo.org/api/records/17494828/access/request",
-        "access": "https://zenodo.org/api/records/17494828/access",
-        "communities": "https://zenodo.org/api/records/17494828/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17494828/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17494828/request-deletion",
-        "requests": "https://zenodo.org/api/records/17494828/requests"
-      },
-      "updated": "2025-10-31T14:50:04.308883+00:00",
-      "recid": "17494828",
-      "revision": 4,
-      "files": [
-        {
-          "id": "0d6139a0-64aa-4ae6-8fa9-9d19d5c0545c",
-          "key": "Gymnodinium_catenatum_(1).PNG",
-          "size": 1734156,
-          "checksum": "md5:b1dbfc09e7fb6e955177ecba76d5e27a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Gymnodinium_catenatum_(1).PNG/content"
-          }
-        },
-        {
-          "id": "ebbc665b-89d1-40d8-a341-9266d0262b0e",
-          "key": "G.catenatum_long.csv",
-          "size": 6383,
-          "checksum": "md5:237306760b950a84fd4378122533a758",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/G.catenatum_long.csv/content"
-          }
-        },
-        {
-          "id": "7e2a3350-9caa-44a9-a6a6-179d90f99144",
-          "key": "EffectSizeTox_Data.csv",
-          "size": 1076,
-          "checksum": "md5:3a15b7a5bf6b782f3b9ac4171192dec2",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/EffectSizeTox_Data.csv/content"
-          }
-        },
-        {
-          "id": "7d2b6fa7-823b-4023-8fb3-0d2d984a4202",
-          "key": "P.reticulatum_Bioluminescence.csv",
-          "size": 9981,
-          "checksum": "md5:579d1aef8715cb5afa41abe7264b7f15",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/P.reticulatum_Bioluminescence.csv/content"
-          }
-        },
-        {
-          "id": "308c4a0b-8331-4f27-99be-d2f1417127d7",
-          "key": "Both_species_Toxins.csv",
-          "size": 7842,
-          "checksum": "md5:007f66ad8cbce902dfa27478c3a8323a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Both_species_Toxins.csv/content"
-          }
-        },
-        {
-          "id": "183890e2-fdcb-46c2-814a-03df4c44cdea",
-          "key": "EffectSizeBiolum_Data.csv",
-          "size": 1367,
-          "checksum": "md5:ae297c22db79ea336bedf50fad2af760",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/EffectSizeBiolum_Data.csv/content"
-          }
-        },
-        {
-          "id": "63fbd962-19df-4bd1-82f9-2695cc8baaac",
-          "key": "Supplementary_Code.html",
-          "size": 3960566,
-          "checksum": "md5:b5e0844f96aae25e19115013b67686ce",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Supplementary_Code.html/content"
-          }
-        },
-        {
-          "id": "11408c1e-1ca8-4640-a0a0-8c3eedf27a34",
-          "key": "A.catenella_Toxin_Wide.csv",
-          "size": 7398,
-          "checksum": "md5:6c49e207d35f54e9bbb81c20aeabacf4",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/A.catenella_Toxin_Wide.csv/content"
-          }
-        },
-        {
-          "id": "2bb9b547-0061-435b-9d63-fc5c4ad27c79",
-          "key": "G.catenatum_wide.csv",
-          "size": 9915,
-          "checksum": "md5:2d89767ed864be56b9e69f1ecfaa6b18",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/G.catenatum_wide.csv/content"
-          }
-        },
-        {
-          "id": "1ac3eeb4-d079-4f1a-b755-da4e8839e719",
-          "key": "Supplementary_Code.Rmd",
-          "size": 106365,
-          "checksum": "md5:5d9b38e78ad7ab666fdf4d8f651ada16",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Supplementary_Code.Rmd/content"
-          }
-        },
-        {
-          "id": "2cfd94ff-f928-4758-aa0b-11bce9e0801f",
-          "key": "Protoceratium_reticulatum_(1).PNG",
-          "size": 55765,
-          "checksum": "md5:fd844ae2bfe948e0ed6f0e7a07fcd231",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Protoceratium_reticulatum_(1).PNG/content"
-          }
-        },
-        {
-          "id": "0ff922b4-bdce-485b-8f4e-51d8bd9cd957",
-          "key": "Both_species_bioluminescence.csv",
-          "size": 10511,
-          "checksum": "md5:8f9551560ba9e3bfe75c0b60f5128052",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Both_species_bioluminescence.csv/content"
-          }
-        },
-        {
-          "id": "ede5f2ed-1986-43c5-ba2a-acee71ab9536",
-          "key": "Alexandrium_catenella_(1).PNG",
-          "size": 383795,
-          "checksum": "md5:6e64f81bcb51bec16cb9227af95d877f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/Alexandrium_catenella_(1).PNG/content"
-          }
-        },
-        {
-          "id": "48bdc9c3-c81d-4609-bc95-8b44ecb9745b",
-          "key": "A.catenella_Toxins_Long.csv",
-          "size": 8437,
-          "checksum": "md5:25dd908c6f8bcf83b67490975b0efb41",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/A.catenella_Toxins_Long.csv/content"
-          }
-        },
-        {
-          "id": "0e1dca90-bfea-4850-9324-7ea4954bd0b8",
-          "key": "A.catenella_Bioluminescence.csv",
-          "size": 9187,
-          "checksum": "md5:190cbbb70e2f0deefff318ba57835fb2",
-          "links": {
-            "self": "https://zenodo.org/api/records/17494828/files/A.catenella_Bioluminescence.csv/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "570217"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 327,
-        "unique_downloads": 307,
-        "views": 80,
-        "unique_views": 70,
-        "version_downloads": 2,
-        "version_unique_downloads": 1,
-        "version_unique_views": 2,
-        "version_views": 3
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-10-31T08:36:07.241689+00:00",
-      "modified": "2025-10-31T08:36:07.450965+00:00",
-      "id": 17435173,
-      "conceptrecid": "17435172",
-      "doi": "10.5281/zenodo.17435173",
-      "conceptdoi": "10.5281/zenodo.17435172",
-      "doi_url": "https://doi.org/10.5281/zenodo.17435173",
-      "metadata": {
-        "title": "BETA-FOR_SP5_Decomposition_CowDung_rapid_assessment_2024-2025",
-        "doi": "10.5281/zenodo.17435173",
-        "publication_date": "2025-10-24",
-        "description": "<p>This data set contains removal rates of cow dung on the BETA-FOR rapid assessment patches measured in spring 2024 and 2025. Cow dung samples were accessible to all invertebrate detritivores (insect_exclusion = False).</p>",
-        "access_right": "restricted",
-        "creators": [
-          {
-            "name": "Asch, Johanna",
-            "affiliation": "University of Freiburg",
-            "orcid": "0009-0007-6750-5723"
-          },
-          {
-            "name": "Scherer-Lorenzen, Michael",
-            "affiliation": "University of Freiburg",
-            "orcid": "0000-0001-9566-590X"
-          },
-          {
-            "name": "Peters, Marcell K.",
-            "affiliation": "University of Bremen",
-            "orcid": "0000-0002-1262-0827"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "10.5281/zenodo.14905913",
-            "relation": "continues",
-            "resource_type": "dataset",
-            "scheme": "doi"
-          }
-        ],
-        "dates": [
-          {
-            "type": "submitted"
-          },
-          {
-            "type": "collected",
-            "start": "2024",
-            "end": "2025"
-          }
-        ],
-        "version": "1.0",
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "id": "cc-by-4.0"
         },
         "grants": [
           {
-            "code": "FOR5375",
-            "internal_id": "018mejw64::FOR5375",
+            "code": "XX and 559655498",
+            "internal_id": "018mejw64::XX and 559655498",
             "funder": {
               "name": "Deutsche Forschungsgemeinschaft"
-            },
-            "title": "BETA-FOR",
-            "url": "https://gepris.dfg.de/gepris/projekt/459717468"
-          }
-        ],
-        "communities": [
-          {
-            "id": "beta-for"
+            }
           }
         ],
         "relations": {
@@ -1528,64 +1253,210 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17435172"
+                "pid_value": "17525889"
               }
             }
           ]
-        },
-        "notes": "<p>Variables Description<br>################</p>\n<p>*patchLabel_BETAFOR: unique BETA-FOR patch label</p>\n<p>*patch: patch number</p>\n<p>*subpatch: ID of subpatch located on the patch</p>\n<p>*substrate_type: type of sample used, CD = cow dung</p>\n<p>*dungID: unique ID for each cow dung collection. Cow dung for this experiment was collected from cows at Naturlandhof Peter (Schwebheim, Germany).</p>\n<p>*insect_exclusion: True = sample was covered by an insect net, False = sample was accessible for insects</p>\n<p>*start_date: start date of exposure of the sample to patch conditions</p>\n<p>*weight_start_wet: wet weight of sample at the start of the exposure&nbsp;</p>\n<p>*weight_start_dry: estimated dry weight of sample at the start of the exposure. Dry weight was estimated using wet to dry ratios of 5 control samples for each dungID.</p>\n<p>*end_date: end date of exposure of the sample to patch conditions</p>\n<p>*weight_end_wet: wet weight of sample at the end of the exposure</p>\n<p>*weight_end_dry: dry weight of sample at the end of the exposure. Samples were dried at 100 &deg;C for 5 days.&nbsp;</p>\n<p>*exposure_time: number of days the samples were exposed to patch conditions</p>\n<p>*removal_rate: (weight_start_dry - weight_end_dry )/ weight_start_dry</p>\n<p>*removal_rate_day: ((weight_start_dry - weight_end_dry ) / weight_start_dry) / exposure_time</p>\n<p>*year: year in which the experiment took place</p>\n<p>*season: season in which the experiment took place. Removal rates were measured twice, once in spring and once in late summer.&nbsp;</p>\n<p>*data_collector: person collecting the data and supervising field work teams</p>"
+        }
       },
-      "title": "BETA-FOR_SP5_Decomposition_CowDung_rapid_assessment_2024-2025",
+      "title": "Data to: High Uncertainties in Simulating and Evaluating Gaining and Losing Streams at Large Spatial Scales",
       "links": {
-        "self": "https://zenodo.org/api/records/17435173",
-        "self_html": "https://zenodo.org/records/17435173",
-        "preview_html": "https://zenodo.org/records/17435173?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17435173",
-        "self_doi": "https://doi.org/10.5281/zenodo.17435173",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17435173",
-        "reserve_doi": "https://zenodo.org/api/records/17435173/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17435172",
-        "parent_html": "https://zenodo.org/records/17435172",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17435172",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17435172",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17435173/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17435173/sequence/default",
-        "files": "https://zenodo.org/api/records/17435173/files",
-        "media_files": "https://zenodo.org/api/records/17435173/media-files",
-        "archive": "https://zenodo.org/api/records/17435173/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17435173/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17435173/versions/latest",
-        "latest_html": "https://zenodo.org/records/17435173/latest",
-        "versions": "https://zenodo.org/api/records/17435173/versions",
-        "draft": "https://zenodo.org/api/records/17435173/draft",
-        "access_links": "https://zenodo.org/api/records/17435173/access/links",
-        "access_grants": "https://zenodo.org/api/records/17435173/access/grants",
-        "access_users": "https://zenodo.org/api/records/17435173/access/users",
-        "access_request": "https://zenodo.org/api/records/17435173/access/request",
-        "access": "https://zenodo.org/api/records/17435173/access",
-        "communities": "https://zenodo.org/api/records/17435173/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17435173/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17435173/request-deletion",
-        "requests": "https://zenodo.org/api/records/17435173/requests"
+        "self": "https://zenodo.org/api/records/17525890",
+        "self_html": "https://zenodo.org/records/17525890",
+        "preview_html": "https://zenodo.org/records/17525890?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17525890",
+        "self_doi": "https://doi.org/10.5281/zenodo.17525890",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17525890",
+        "reserve_doi": "https://zenodo.org/api/records/17525890/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17525889",
+        "parent_html": "https://zenodo.org/records/17525889",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17525889",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17525889",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17525890/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17525890/sequence/default",
+        "files": "https://zenodo.org/api/records/17525890/files",
+        "media_files": "https://zenodo.org/api/records/17525890/media-files",
+        "archive": "https://zenodo.org/api/records/17525890/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17525890/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17525890/versions/latest",
+        "latest_html": "https://zenodo.org/records/17525890/latest",
+        "versions": "https://zenodo.org/api/records/17525890/versions",
+        "draft": "https://zenodo.org/api/records/17525890/draft",
+        "access_links": "https://zenodo.org/api/records/17525890/access/links",
+        "access_grants": "https://zenodo.org/api/records/17525890/access/grants",
+        "access_users": "https://zenodo.org/api/records/17525890/access/users",
+        "access_request": "https://zenodo.org/api/records/17525890/access/request",
+        "access": "https://zenodo.org/api/records/17525890/access",
+        "communities": "https://zenodo.org/api/records/17525890/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17525890/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17525890/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17525890/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/17525890/quota-increase",
+        "requests": "https://zenodo.org/api/records/17525890/requests"
       },
-      "updated": "2025-10-31T08:36:07.450965+00:00",
-      "recid": "17435173",
+      "updated": "2026-06-01T15:58:42.043593+00:00",
+      "recid": "17525890",
       "revision": 4,
-      "files": [],
+      "files": [
+        {
+          "id": "f2c319d9-798d-4a4d-a7ac-c18af5950421",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_anag_monthly_1901_2019.nc",
+          "size": 60603069,
+          "checksum": "md5:b9df245c5b0e35accecc7154931f7929",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_anag_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "d721924a-e5c6-484f-8266-45bf3540a18e",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_monthly_1901_2019.nc",
+          "size": 80496671,
+          "checksum": "md5:16b36ff531774a4eaba8aca0c71844ec",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "2a5babd4-0abe-4d08-86a8-cebe0b1e2b85",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_monthly_1901_2019.nc",
+          "size": 81743833,
+          "checksum": "md5:29dd4fe7e2893a0256fe48409b6f30dd",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "9c7d06ad-e46f-43c4-bff0-8c52f84ee768",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_anas_monthly_1901_2019.nc",
+          "size": 74603175,
+          "checksum": "md5:4bdc272aa04b178b39a34694d9bf8ffa",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_anas_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "00ab87f8-a2ca-4b7b-8b71-50e26556a960",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_upstream_monthly_1901_2019.nc",
+          "size": 59982805,
+          "checksum": "md5:4a3d8919b024ebbe267ffb5f63ddee4c",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_upstream_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "4547f294-db43-4149-9acb-d24cd2f3d620",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_evap_monthly_1901_2019.nc",
+          "size": 78838555,
+          "checksum": "md5:571391e79ff58c47a0714ea42c5e025a",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_evap_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "666f4141-ce50-4d5b-9372-362cf25b6d21",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_precmon_monthly_1901_2019.nc",
+          "size": 77679340,
+          "checksum": "md5:6e8342f1bf98c6446a6af7032691de07",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_precmon_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "30d5363b-0adb-4414-9e06-4fa4d7b4afb7",
+          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_start_end_1901_2019.nc",
+          "size": 13659676,
+          "checksum": "md5:e4618b3f099fed721f0ddd213015c322",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_start_end_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "bee74457-6506-4feb-953e-68cf8709dfd8",
+          "key": "g3m_1_watergap_hist_nocal_coupled_sgd_monthly_1901_2019.nc",
+          "size": 276617293,
+          "checksum": "md5:c111cbef4f2644ec5c32a9a76cca1b45",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_sgd_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "cede288a-aedf-414d-a4c3-bec3e705c040",
+          "key": "g3m_1_watergap_hist_nocal_coupled_wtd_monthly_1901_2019.nc",
+          "size": 3520019743,
+          "checksum": "md5:0466e16eadd13a0c415bca42550c6eeb",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_wtd_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "db678924-db34-4a3e-a013-5c7364711b12",
+          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnlak_global_monthly_1901_2019.nc",
+          "size": 463856032,
+          "checksum": "md5:4d24dced67c30fd9878505cf639779be",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnlak_global_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "125c4ac4-3fce-4126-bee5-45bb722823ab",
+          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnwet_global_monthly_1901_2019.nc",
+          "size": 336299388,
+          "checksum": "md5:79bd6946d801d05df6617b83482afcef",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnwet_global_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "a093cff8-b546-4815-a4ce-eb784ed85ff3",
+          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnlak_monthly_1901_2019.nc",
+          "size": 1593088563,
+          "checksum": "md5:3a8030a383bf7f3b51a1b9c1d18082fc",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnlak_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "316b0112-077c-429d-b600-f1dbbeb348da",
+          "key": "g3m_1_watergap_hist_nocal_coupled_head_monthly_1901_2019.nc",
+          "size": 3378287488,
+          "checksum": "md5:adee9b97f44affbacfbf6795d73bc87d",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_head_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "b1c17b01-0dc6-4341-938f-3ef8fed71edc",
+          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnriv_monthly_1901_2019.nc",
+          "size": 4817077460,
+          "checksum": "md5:593e28477bc9a02d2a5dba8638d8261d",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnriv_monthly_1901_2019.nc/content"
+          }
+        },
+        {
+          "id": "9f85186a-438a-4921-8a07-ff43a4550770",
+          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnwet_monthly_1901_2019.nc",
+          "size": 1710783490,
+          "checksum": "md5:1b92d6fac6f402f8e394c4a1e9ef9483",
+          "links": {
+            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnwet_monthly_1901_2019.nc/content"
+          }
+        }
+      ],
       "swh": null,
       "owners": [
         {
-          "id": "1262112"
+          "id": "1295561"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 3,
-        "unique_downloads": 2,
+        "downloads": 1,
+        "unique_downloads": 1,
         "views": 0,
         "unique_views": 0,
-        "version_downloads": 3,
-        "version_unique_downloads": 2,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
         "version_unique_views": 0,
         "version_views": 0
       },

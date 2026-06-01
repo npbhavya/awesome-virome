@@ -1,4 +1,150 @@
 {
-  "cache_date": "2025-11-01T10:38:18.965461",
-  "data": []
+  "cache_date": "2026-06-01T15:54:41.199772",
+  "data": [
+    {
+      "created": "2026-03-31T14:33:04.556892+00:00",
+      "modified": "2026-03-31T14:33:05.667886+00:00",
+      "id": 19353808,
+      "conceptrecid": "19353807",
+      "doi": "10.5281/zenodo.19353808",
+      "conceptdoi": "10.5281/zenodo.19353807",
+      "doi_url": "https://doi.org/10.5281/zenodo.19353808",
+      "metadata": {
+        "title": "Viral contigs and RPKM abundance tables from Tempo and Timing: Synchronization between viral and host activity in hot spring phototrophic mats over a diel cycle",
+        "doi": "10.5281/zenodo.19353808",
+        "publication_date": "2026-03-31",
+        "description": "<p>This dataset contains all viral contigs and viral operational taxonomic units (vOTUs) identified from metagenomic and metatranscriptomic datasets analyzed in this study, along with their corresponding abundance estimates across samples.</p>\n<p>Viral sequences were identified using the MVP pipeline (v1.0.3), which integrates geNomad (v1.7.6) for virus detection, followed by quality and completeness assessment with CheckV (v1.0.1). Conservative filtering criteria were applied based on virus score, genome length, and the presence of viral hallmark genes to ensure high-confidence viral identification. Both DNA and RNA viruses were included.</p>\n<p>Viral contigs were subsequently binned into viral bins (vBins) using vRhyme (v1.1.0), and remaining sequences were retained as unbinned viral contigs (vContigs). All sequences were clustered into species-level viral operational taxonomic units (vOTUs) using average nucleotide identity (ANI &ge; 95%) and alignment fraction (AF &ge; 85%), with the longest sequence selected as the representative for each vOTU.</p>\n<p>Abundance of vOTUs was estimated by mapping metagenomic reads to representative sequences using Bowtie2, followed by coverage estimation with CoverM (v0.7.0). Reads Per Kilobase per Million mapped reads (RPKM) values were calculated for each vOTU and sample, with values retained only when at least 10% of the contig length was covered by mapped reads.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Coclet, Cl\u00e9ment",
+            "affiliation": "Joint Genome Institute",
+            "orcid": "0000-0002-6672-148X"
+          },
+          {
+            "name": "Roux, Simon",
+            "affiliation": "Joint Genome Institute",
+            "orcid": "0000-0002-5831-5895"
+          },
+          {
+            "name": "Shelton, Amanda",
+            "affiliation": "Carnegie Observatories",
+            "orcid": "0000-0001-9296-8331"
+          },
+          {
+            "name": "Bhaya, Devaki",
+            "affiliation": "Carnegie Observatories",
+            "orcid": "0000-0001-7965-4258"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "grants": [
+          {
+            "code": "503441",
+            "internal_id": "04xm1d337::503441",
+            "funder": {
+              "name": "Joint Genome Institute"
+            },
+            "title": "Cyanophages and Cyanobacteria in Extreme Environments",
+            "url": "https://doi.org/10.46936/10.25585/60001132"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19353807"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Viral contigs and RPKM abundance tables from Tempo and Timing: Synchronization between viral and host activity in hot spring phototrophic mats over a diel cycle",
+      "links": {
+        "self": "https://zenodo.org/api/records/19353808",
+        "self_html": "https://zenodo.org/records/19353808",
+        "preview_html": "https://zenodo.org/records/19353808?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.19353808",
+        "self_doi": "https://doi.org/10.5281/zenodo.19353808",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19353808",
+        "reserve_doi": "https://zenodo.org/api/records/19353808/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19353807",
+        "parent_html": "https://zenodo.org/records/19353807",
+        "parent_doi": "https://doi.org/10.5281/zenodo.19353807",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19353807",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19353808/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19353808/sequence/default",
+        "files": "https://zenodo.org/api/records/19353808/files",
+        "media_files": "https://zenodo.org/api/records/19353808/media-files",
+        "archive": "https://zenodo.org/api/records/19353808/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19353808/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19353808/versions/latest",
+        "latest_html": "https://zenodo.org/records/19353808/latest",
+        "versions": "https://zenodo.org/api/records/19353808/versions",
+        "draft": "https://zenodo.org/api/records/19353808/draft",
+        "access_links": "https://zenodo.org/api/records/19353808/access/links",
+        "access_grants": "https://zenodo.org/api/records/19353808/access/grants",
+        "access_users": "https://zenodo.org/api/records/19353808/access/users",
+        "access_request": "https://zenodo.org/api/records/19353808/access/request",
+        "access": "https://zenodo.org/api/records/19353808/access",
+        "communities": "https://zenodo.org/api/records/19353808/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19353808/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19353808/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19353808/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19353808/quota-increase",
+        "requests": "https://zenodo.org/api/records/19353808/requests"
+      },
+      "updated": "2026-03-31T14:33:05.667886+00:00",
+      "recid": "19353808",
+      "revision": 4,
+      "files": [
+        {
+          "id": "2e8a67a6-c2de-4449-a97f-091115ee6694",
+          "key": "Filtered_conservative_Prokaryote_Unknown_best_vBins_Representative_Unbinned_vOTUs_Sequences_iPHoP_Input.fasta",
+          "size": 39329720,
+          "checksum": "md5:86a9246661cfd99a246a5770d0188da2",
+          "links": {
+            "self": "https://zenodo.org/api/records/19353808/files/Filtered_conservative_Prokaryote_Unknown_best_vBins_Representative_Unbinned_vOTUs_Sequences_iPHoP_Input.fasta/content"
+          }
+        },
+        {
+          "id": "c3e2d7dd-9782-4054-9930-321b62a06d45",
+          "key": "MVP_07_Merged_vRhyme_Outputs_Filtered_conservative_HC_0.1_best_vBins_Representative_Unbinned_vOTUs_RPKM_Table.tsv",
+          "size": 2313245,
+          "checksum": "md5:e7166ae8f26a162479e094ba8c07c025",
+          "links": {
+            "self": "https://zenodo.org/api/records/19353808/files/MVP_07_Merged_vRhyme_Outputs_Filtered_conservative_HC_0.1_best_vBins_Representative_Unbinned_vOTUs_RPKM_Table.tsv/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1594226"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 24,
+        "unique_views": 24,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 24,
+        "version_views": 24
+      },
+      "state": "done",
+      "submitted": true
+    }
+  ]
 }

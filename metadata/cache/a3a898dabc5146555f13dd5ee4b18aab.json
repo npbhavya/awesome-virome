@@ -1,1067 +1,65 @@
 {
-  "cache_date": "2025-12-01T08:55:37.426084",
+  "cache_date": "2026-06-01T14:02:48.638944",
   "data": [
     {
-      "created": "2025-12-01T08:52:20.002543+00:00",
-      "modified": "2025-12-01T08:52:20.299350+00:00",
-      "id": 17775590,
-      "conceptrecid": "17775589",
-      "doi": "10.5281/zenodo.17775590",
-      "conceptdoi": "10.5281/zenodo.17775589",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775590",
+      "created": "2026-06-01T14:02:33.819281+00:00",
+      "modified": "2026-06-01T14:02:34.044047+00:00",
+      "id": 20491149,
+      "conceptrecid": "20491148",
+      "doi": "10.5281/zenodo.20491149",
+      "conceptdoi": "10.5281/zenodo.20491148",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491149",
       "metadata": {
-        "title": "THE REGRESSORS OF FINANCIAL WELL-BEING AMONG LGU EMPLOYEES IN DAVAO DEL NORTE",
-        "doi": "10.5281/zenodo.17775590",
-        "publication_date": "2025-12-01",
-        "description": "<p><em><span>Financial well-being is a vital aspect of an individual&rsquo;s ability to manage obligations, prepare for financial shocks, and maintain long-term stability. Despite stable employment, many public sector workers in the Philippines still struggle with financial preparedness and responsible credit management, revealing a persistent gap in understanding the factors that shape their financial well-being. This study aimed to determine the regressors of financial well-being among LGU employees in Davao del Norte, focusing on financial literacy, accessibility, availability, affordability, and usage of financial services. A descriptive-correlational design was employed, using validated survey questionnaires distributed to 300 LGU employees. Statistical tools included mean, standard deviation, Pearson r, and multiple regression analysis. Significant relationships were observed between variables. The regression analysis indicated that accessibility, availability, affordability, and usage significantly predict financial well-being, while financial literacy was not a significant predictor. These findings imply that while financial literacy remains important, LGUs and policymakers should prioritize enhancing access and affordability of financial services. The study highlights the need for behavior-based financial literacy programs and inclusive financial systems that empower employees to achieve lasting financial security.</span></em></p>",
+        "title": "Clifti-GPT benchmark AnnData: reference and query splits for federated single-cell experiments",
+        "doi": "10.5281/zenodo.20491149",
+        "publication_date": "2026-06-01",
+        "description": "<h1>Clifti-GPT benchmark AnnData</h1>\n<p>Prepared <strong>reference</strong> and <strong>query</strong> AnnData (<code>.h5ad</code>) files used to reproduce Clifti-GPT experiments across six public single-cell cohorts. Each archive contains the two files required by the experiment registry in the <a href=\"https://github.com/Mohammad-Bakhtiari/clifti-GPT\">Clifti-GPT</a> repository. Gene expression is filtered to the scGPT vocabulary; highly variable genes (HVG) are <strong>not</strong> used for subsetting.</p>\n<p><strong>Related deposit (init weights, separate record):</strong> <a href=\"https://doi.org/10.5281/zenodo.20489646\">10.5281/zenodo.20489646</a></p>\n<p>This deposit provides the <strong>minimal benchmark bundle</strong> for reproducing Clifti-GPT fine-tuning, annotation, and embedding experiments. Files are split into <strong>reference</strong> (labeled training) and <strong>query</strong> (held-out test) AnnData objects per cohort, matching the layout expected under <code>data/scgpt/benchmark/</code> in the Clifti-GPT codebase.</p>\n<table>\n<tbody>\n<tr>\n<th>\n<p>File</p>\n</th>\n<th>\n<p>Cohort</p>\n</th>\n<th>\n<p>Contents inside zip</p>\n</th>\n</tr>\n<tr>\n<td>\n<p><code>ms.zip</code></p>\n</td>\n<td>\n<p>Multiple Sclerosis</p>\n</td>\n<td>\n<p><code>ms/reference_annot.h5ad</code>, <code>ms/query_annot.h5ad</code></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><code>hp5.zip</code></p>\n</td>\n<td>\n<p>Human Pancreas</p>\n</td>\n<td>\n<p><code>hp5/reference.h5ad</code>, <code>hp5/query.h5ad</code></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><code>lung.zip</code></p>\n</td>\n<td>\n<p>Lung-Kim</p>\n</td>\n<td>\n<p><code>lung/reference_annot.h5ad</code>, <code>lung/query_annot.h5ad</code></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><code>cl.zip</code></p>\n</td>\n<td>\n<p>Cell line</p>\n</td>\n<td>\n<p><code>cl/reference.h5ad</code>, <code>cl/query.h5ad</code></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><code>covid.zip</code></p>\n</td>\n<td>\n<p>COVID-19 (uncorrected)</p>\n</td>\n<td>\n<p><code>covid/reference-raw.h5ad</code>, <code>covid/query-raw.h5ad</code></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><code>myeloid.zip</code></p>\n</td>\n<td>\n<p>Myeloid (base)</p>\n</td>\n<td>\n<p><code>myeloid/reference_adata.h5ad</code>, <code>myeloid/query_adata.h5ad</code></p>\n</td>\n</tr>\n</tbody>\n</table>",
         "access_right": "open",
         "creators": [
           {
-            "name": "DYNA MAE L. CLARO1*, JOSEPH ELMER G.  NOVAL, EdD, DM2",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "Accessibility, affordability, business management, financial literacy, financial well-being, usage."
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "VI",
-          "pages": "171-177",
-          "title": "ISRG Journal of Economics, Business & Management (ISRGJEBM)",
-          "volume": "III"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17775589"
-              }
-            }
-          ]
-        }
-      },
-      "title": "THE REGRESSORS OF FINANCIAL WELL-BEING AMONG LGU EMPLOYEES IN DAVAO DEL NORTE",
-      "links": {
-        "self": "https://zenodo.org/api/records/17775590",
-        "self_html": "https://zenodo.org/records/17775590",
-        "preview_html": "https://zenodo.org/records/17775590?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775590",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775590",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775590",
-        "reserve_doi": "https://zenodo.org/api/records/17775590/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775589",
-        "parent_html": "https://zenodo.org/records/17775589",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775589",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775589",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775590/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775590/sequence/default",
-        "files": "https://zenodo.org/api/records/17775590/files",
-        "media_files": "https://zenodo.org/api/records/17775590/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775590:ISRGJEBM4852025FT.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775590:ISRGJEBM4852025FT.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775590:ISRGJEBM4852025FT.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775590:ISRGJEBM4852025FT.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775590:ISRGJEBM4852025FT.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775590:ISRGJEBM4852025FT.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17775590/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775590/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775590/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775590/latest",
-        "versions": "https://zenodo.org/api/records/17775590/versions",
-        "draft": "https://zenodo.org/api/records/17775590/draft",
-        "access_links": "https://zenodo.org/api/records/17775590/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775590/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775590/access/users",
-        "access_request": "https://zenodo.org/api/records/17775590/access/request",
-        "access": "https://zenodo.org/api/records/17775590/access",
-        "communities": "https://zenodo.org/api/records/17775590/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775590/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775590/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775590/file-modification",
-        "requests": "https://zenodo.org/api/records/17775590/requests"
-      },
-      "updated": "2025-12-01T08:52:20.299350+00:00",
-      "recid": "17775590",
-      "revision": 4,
-      "files": [
-        {
-          "id": "04ae1b32-813d-4e68-801e-df3cd6e4bb01",
-          "key": "ISRGJEBM4852025FT.pdf",
-          "size": 642926,
-          "checksum": "md5:19afb20f0984e995a5652d46de8276a0",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775590/files/ISRGJEBM4852025FT.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "587322"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T08:48:57.035270+00:00",
-      "modified": "2025-12-01T08:49:35.409494+00:00",
-      "id": 17775256,
-      "conceptrecid": "17775255",
-      "doi": "10.5281/zenodo.17775256",
-      "conceptdoi": "10.5281/zenodo.17775255",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775256",
-      "metadata": {
-        "title": "Spatial factors shape taxonomic and functional beta-diversity in water-filled tree holes in different biogeographical regions",
-        "doi": "10.5281/zenodo.17775256",
-        "publication_date": "2025-12-01",
-        "description": "<p>These datasets and code support research on the community assemblage of aquatic macroinvertebrates in ephemeral microhabitats, specifically water-filled tree holes (WTH), in three biogeographically and climatically distinct old-growth forests: Temperate-Mediterranean (France), Neotropical (Brazil) and Palaeotropical (India). By integrating standardised biological sampling, detailed environmental measurements and spatial analysis, the dataset allows for an in-depth examination of how local habitat conditions and spatial configuration influence taxonomic and functional beta-diversity patterns. The data capture the variation in species composition and ecological traits in 35 WTH per forest site and are particularly important for understanding how environmental filtering and spatial processes shape beta-diversity in natural forest ecosystems.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Cerroti, Francesca",
-            "affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research",
-            "orcid": "0009-0004-1809-1681"
+            "name": "Bakhtiari, Mohammad",
+            "affiliation": "Universit\u00e4t Hamburg",
+            "orcid": "0000-0002-4169-9669"
           }
         ],
         "contributors": [
           {
-            "name": "Cerroti, Francesca",
-            "affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research",
-            "type": "DataCurator",
-            "orcid": "0009-0004-1809-1681"
+            "name": "Theis, Fabian",
+            "affiliation": null,
+            "type": "Researcher",
+            "orcid": "0000-0002-2419-1943"
           },
           {
-            "name": "Rota, Thibaut",
-            "affiliation": "University of Applied Sciences and Arts of Southern Switzerland",
-            "type": "DataCollector",
-            "orcid": "0000-0002-2195-0529"
+            "name": "Elkjaer, Maria Louise",
+            "affiliation": "Copenhagen University Hospital",
+            "type": "Researcher",
+            "orcid": "0000-0002-8596-142X"
           },
           {
-            "name": "Valente-Neto, Francisco",
-            "affiliation": "Universidade Estadual de Campinas (UNICAMP)",
-            "type": "DataCollector"
+            "name": "oubounyt, mhaned",
+            "affiliation": "Technical University of Munich",
+            "type": "Researcher",
+            "orcid": "0000-0001-5011-6683"
           },
           {
-            "name": "K.T., Fahis",
-            "affiliation": "Mampad college",
-            "type": "DataCollector"
+            "name": "Can, Ali O\u011fuz",
+            "affiliation": "Helmholtz Zentrum M\u00fcnchen",
+            "type": "Researcher",
+            "orcid": "0009-0008-7583-3898"
           },
           {
-            "name": "Calore, Red",
-            "affiliation": "University of Applied Sciences and Arts of Southern Switzerland",
-            "type": "DataCollector",
-            "orcid": "0009-0005-4455-582X"
-          },
-          {
-            "name": "Romero, Gustavo. Q",
-            "affiliation": "Universidade Estadual de Campinas (UNICAMP)",
-            "type": "DataCollector",
-            "orcid": "0000-0003-3736-4759"
-          },
-          {
-            "name": "Karumampoyil\u202fSakthidas, Anoop Das",
-            "affiliation": "Mampad college",
-            "type": "DataCollector"
-          },
-          {
-            "name": "Bruder, Andreas",
-            "affiliation": "University of Applied Sciences and Arts of Southern Switzerland",
-            "type": "ProjectLeader",
-            "orcid": "0000-0002-4591-491X"
-          },
-          {
-            "name": "Gossner, Martin M.",
-            "affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research",
-            "type": "ProjectLeader",
-            "orcid": "0000-0003-1516-6364"
+            "name": "Baumbach, Jan",
+            "affiliation": "Universit\u00e4t Hamburg",
+            "type": "Supervisor",
+            "orcid": "0000-0002-0282-0462"
           }
         ],
         "keywords": [
-          "Beta diversity",
-          "Community assembly",
-          "Environmental factors",
-          "Functional diversity",
-          "Metacommunity",
-          "Spatial factors",
-          "Taxonomic diversity",
-          "Water-filled tree holes"
-        ],
-        "dates": [
-          {
-            "type": "accepted"
-          }
-        ],
-        "references": [
-          "Cerroti, F., Rota, T., Valente-Neto, F., K.T., F., Calore, R., Romero, G. Q., Karumampoyil\u202fSakthidas, A. D., Bruder, A., Gossner, M. M. (2025). Spatial factors shape taxonomic and functional beta-diversity in water-filled tree holes in different biogeographical regions."
+          "single-cell-RNA-Analysis"
         ],
         "resource_type": {
-          "title": "Other",
-          "type": "other"
-        },
-        "license": {
-          "id": "cc-by-sa-4.0"
-        },
-        "grants": [
-          {
-            "code": "315230_204998",
-            "internal_id": "10.13039/501100001711::315230_204998",
-            "funder": {
-              "name": "Swiss National Science Foundation",
-              "doi": "10.13039/501100001711",
-              "acronym": "SNSF"
-            }
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17775255"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Spatial factors shape taxonomic and functional beta-diversity in water-filled tree holes in different biogeographical regions",
-      "links": {
-        "self": "https://zenodo.org/api/records/17775256",
-        "self_html": "https://zenodo.org/records/17775256",
-        "preview_html": "https://zenodo.org/records/17775256?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775256",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775256",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775256",
-        "reserve_doi": "https://zenodo.org/api/records/17775256/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775255",
-        "parent_html": "https://zenodo.org/records/17775255",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775255",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775255",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775256/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775256/sequence/default",
-        "files": "https://zenodo.org/api/records/17775256/files",
-        "media_files": "https://zenodo.org/api/records/17775256/media-files",
-        "archive": "https://zenodo.org/api/records/17775256/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775256/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775256/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775256/latest",
-        "versions": "https://zenodo.org/api/records/17775256/versions",
-        "draft": "https://zenodo.org/api/records/17775256/draft",
-        "access_links": "https://zenodo.org/api/records/17775256/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775256/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775256/access/users",
-        "access_request": "https://zenodo.org/api/records/17775256/access/request",
-        "access": "https://zenodo.org/api/records/17775256/access",
-        "communities": "https://zenodo.org/api/records/17775256/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775256/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775256/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775256/file-modification",
-        "requests": "https://zenodo.org/api/records/17775256/requests"
-      },
-      "updated": "2025-12-01T08:49:35.409494+00:00",
-      "recid": "17775256",
-      "revision": 6,
-      "files": [
-        {
-          "id": "5736edc2-976e-4b8f-b6a7-02d4268794d1",
-          "key": "Beta_diversity_analysis_across_sites_code.R",
-          "size": 47687,
-          "checksum": "md5:f94efdf334cf6be39f978c2ac6ad3106",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/Beta_diversity_analysis_across_sites_code.R/content"
-          }
-        },
-        {
-          "id": "6f193423-c494-4a2b-aaaa-ea511e978680",
-          "key": "TraitBrazil.csv",
-          "size": 2078,
-          "checksum": "md5:435663bcf438ed380ec29aaca766de45",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/TraitBrazil.csv/content"
-          }
-        },
-        {
-          "id": "c1e046aa-5f87-465a-83cc-59874f297f31",
-          "key": "CoordinatesIndia.csv",
-          "size": 1027,
-          "checksum": "md5:eae7dd0223e77396b12f180c7ce3a812",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/CoordinatesIndia.csv/content"
-          }
-        },
-        {
-          "id": "99eed16c-ad75-49c8-bcdd-15ce47a9574c",
-          "key": "CommunitiesFinal.csv",
-          "size": 12550,
-          "checksum": "md5:669345856a0e0577401ca146af3376da",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/CommunitiesFinal.csv/content"
-          }
-        },
-        {
-          "id": "1b2315c8-4660-4daf-a738-74a76a63fe21",
-          "key": "CoordinatesBrazil.csv",
-          "size": 1010,
-          "checksum": "md5:f9542001ec3902f56d809c1b17a04d30",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/CoordinatesBrazil.csv/content"
-          }
-        },
-        {
-          "id": "f351c64a-c2d8-404c-81f2-0432a4ea31bd",
-          "key": "CoordinatesFrance.csv",
-          "size": 983,
-          "checksum": "md5:4b6be303e429c521b8e72ab5a174a36f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/CoordinatesFrance.csv/content"
-          }
-        },
-        {
-          "id": "8d0734c2-3e67-408f-a3ff-1f7d4277819c",
-          "key": "Metadata.xlsx",
-          "size": 73668,
-          "checksum": "md5:9ec9fe2295d9b3befa721de58e0f838e",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/Metadata.xlsx/content"
-          }
-        },
-        {
-          "id": "4ecb3bcc-c341-4c9b-94b5-52fbda537a8e",
-          "key": "TraitFrance.csv",
-          "size": 1123,
-          "checksum": "md5:51346daf3a8737491734f3ffd468e4c8",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/TraitFrance.csv/content"
-          }
-        },
-        {
-          "id": "f58d3c5f-dbf1-4f3a-a477-089144b3ebad",
-          "key": "TraitIndia.csv",
-          "size": 1932,
-          "checksum": "md5:6087284e5f192fded7de8672cd917dfa",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/TraitIndia.csv/content"
-          }
-        },
-        {
-          "id": "7cb0e5f6-e81f-479b-bd98-652f9648ae70",
-          "key": "EnvironmentalVariables.csv",
-          "size": 12854,
-          "checksum": "md5:d8317082a12151127983a38c481ed9a8",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/EnvironmentalVariables.csv/content"
-          }
-        },
-        {
-          "id": "d441b1b3-412a-4bc0-b9cb-eb86864b41d1",
-          "key": "Fig_1_Data.csv",
-          "size": 637,
-          "checksum": "md5:571a48b4fcb9ce5b305a66362e1f173a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/Fig_1_Data.csv/content"
-          }
-        },
-        {
-          "id": "018245ae-f668-4ad9-8f21-f3e7e503064c",
-          "key": "Fig_2_data.csv",
-          "size": 3183,
-          "checksum": "md5:649de25ee6c263b4590a2a48ab0fbe08",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775256/files/Fig_2_data.csv/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1478348"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T08:46:49.779090+00:00",
-      "modified": "2025-12-01T08:46:50.956956+00:00",
-      "id": 17775359,
-      "conceptrecid": "17775358",
-      "doi": "10.5281/zenodo.17775359",
-      "conceptdoi": "10.5281/zenodo.17775358",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775359",
-      "metadata": {
-        "title": "The Munroe Effect Reinterpreted - A QTG Analysis of Oscillatory Collapse Dynamics",
-        "doi": "10.5281/zenodo.17775359",
-        "publication_date": "2025-12-01",
-        "description": "<p>Under QTG, the Munroe effect is best modeled not as a thermomechanical jet but as a mechanically-pumped coherent oscillatory beam: a \"mechanical laser\" wherein explosive shockwaves generate a transient, high-energy oscillatory spike with the liner acting as carrier. Penetration occurs through oscillatory decoherenceof the target's atomic lattice, analogous to photon-based ablation in optical lasers.&nbsp;</p>\n<p>Extention A: Oscillatory Coherence Cascades: From Shaped Charges to Plasma Directed-Energy Systems under QTG. Paper outlining how shaped charges, lasers, plasma weapons, and quantum-field devices operate under the same fundamental principle: oscillatory coherence.</p>\n<p>Conceptual Summary</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Angeli, Nazareno",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "QTG",
-          "Quantum Tachyonic Gravity",
-          "Munroe Effect",
-          "Shaped Charges",
-          "Oscillatory Coherence",
-          "PAFC"
-        ],
-        "dates": [
-          {
-            "type": "submitted"
-          }
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
-        },
-        "license": {
-          "id": "cc-by-nc-nd-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17775358"
-              }
-            }
-          ]
-        }
-      },
-      "title": "The Munroe Effect Reinterpreted - A QTG Analysis of Oscillatory Collapse Dynamics",
-      "links": {
-        "self": "https://zenodo.org/api/records/17775359",
-        "self_html": "https://zenodo.org/records/17775359",
-        "preview_html": "https://zenodo.org/records/17775359?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775359",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775359",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775359",
-        "reserve_doi": "https://zenodo.org/api/records/17775359/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775358",
-        "parent_html": "https://zenodo.org/records/17775358",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775358",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775358",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775359/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775359/sequence/default",
-        "files": "https://zenodo.org/api/records/17775359/files",
-        "media_files": "https://zenodo.org/api/records/17775359/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775359:QTG_Shaped_Charge_Oscillatory_Collapse.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775359:QTG_Shaped_Charge_Oscillatory_Collapse.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775359:QTG_Shaped_Charge_Oscillatory_Collapse.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775359:QTG_Shaped_Charge_Oscillatory_Collapse.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775359:QTG_Shaped_Charge_Oscillatory_Collapse.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775359:QTG_Shaped_Charge_Oscillatory_Collapse.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17775359/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775359/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775359/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775359/latest",
-        "versions": "https://zenodo.org/api/records/17775359/versions",
-        "draft": "https://zenodo.org/api/records/17775359/draft",
-        "access_links": "https://zenodo.org/api/records/17775359/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775359/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775359/access/users",
-        "access_request": "https://zenodo.org/api/records/17775359/access/request",
-        "access": "https://zenodo.org/api/records/17775359/access",
-        "communities": "https://zenodo.org/api/records/17775359/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775359/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775359/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775359/file-modification",
-        "requests": "https://zenodo.org/api/records/17775359/requests"
-      },
-      "updated": "2025-12-01T08:46:50.956956+00:00",
-      "recid": "17775359",
-      "revision": 4,
-      "files": [
-        {
-          "id": "279c751a-db66-4213-9ba9-81fd9097d588",
-          "key": "QTG_Shaped_Charge_Oscillatory_Collapse.pdf",
-          "size": 47020,
-          "checksum": "md5:1c896ace63ad935ae073b0265719771c",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775359/files/QTG_Shaped_Charge_Oscillatory_Collapse.pdf/content"
-          }
-        },
-        {
-          "id": "09dc1c7c-0617-4f11-8eab-d0829594e86b",
-          "key": "QTG_Munroe_Effect_Analysis.pdf",
-          "size": 48917,
-          "checksum": "md5:2e7021c2539acec0631ed223c9387449",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775359/files/QTG_Munroe_Effect_Analysis.pdf/content"
-          }
-        },
-        {
-          "id": "204cbd55-6f3c-4360-8f34-9d5d9f4704f0",
-          "key": "Oscillatory_Coherence_Cascades_QTG.pdf",
-          "size": 47447,
-          "checksum": "md5:acd29ccef27f4ba446dfb585275cc244",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775359/files/Oscillatory_Coherence_Cascades_QTG.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1324504"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T08:38:36.612213+00:00",
-      "modified": "2025-12-01T08:43:57.680522+00:00",
-      "id": 17775467,
-      "conceptrecid": "17775466",
-      "doi": "10.5252/zoosystema2025v47a30",
-      "doi_url": "https://doi.org/10.5252/zoosystema2025v47a30",
-      "metadata": {
-        "title": "Redefining the Mexican genus Diguetinus Roewer, 1912 (Opiliones, Phalangioidea, Globipedidae) based on morphology and molecular phylogenetic data, with the redescription of Diguetinus spinulatus (Banks, 1898) stat. restit.",
-        "doi": "10.5252/zoosystema2025v47a30",
-        "publication_date": "2025-11-28",
-        "description": "Jes\u00fas, Daniel Ochoa-V\u00e1zquez, Cruz-L\u00f3pez, Jes\u00fas A., Elizabeth, Rogelio Rosas-Valdez, Mart\u00ednez-Salazar, Elizabeth A. (2025): Redefining the Mexican genus Diguetinus Roewer, 1912 (Opiliones, Phalangioidea, Globipedidae) based on morphology and molecular phylogenetic data, with the redescription of Diguetinus spinulatus (Banks, 1898) stat. restit. Zoosystema 47 (30): 731-749, DOI: 10.5252/zoosystema2025v47a30, URL: https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/zoosystema2025v47a30.pdf",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Jes\u00fas, Daniel Ochoa-V\u00e1zquez",
-            "affiliation": null
-          },
-          {
-            "name": "Cruz-L\u00f3pez, Jes\u00fas A.",
-            "affiliation": "Instituto Nacional de Investigaciones Forestales, Agr\u00edcolas y Pecuarias (INIFAP), Centro de Investigaci\u00f3n Regional Pac\u00edfico Sur (CIRPAS), Campo Experimental Valles Centrales de Oaxaca, Melchor Ocampo 7, CP. 68200, Santo Domingo Barrio Bajo, Villa de Etla, Oaxaca (Mexico) thelyphonidito@gmail.com"
-          },
-          {
-            "name": "Elizabeth, Rogelio Rosas-Valdez",
-            "affiliation": "Laboratorio de Colecciones Biol\u00f3gicas y Sistem\u00e1tica Molecular, Unidad Acad\u00e9mica de Ciencias Biol\u00f3gicas, Universidad Aut\u00f3noma de Zacatecas, Avenida Preparatoria s/n, Campus Universitario II, Col. Agron\u00f3mica, CP. 98066. Zacatecas, Zacatecas (Mexico) rogrosas.uaz@gmail.com; eamskandii@gmail.com (*corresponding author)"
-          },
-          {
-            "name": "Mart\u00ednez-Salazar, Elizabeth A.",
-            "affiliation": "Laboratorio de Colecciones Biol\u00f3gicas y Sistem\u00e1tica Molecular, Unidad Acad\u00e9mica de Ciencias Biol\u00f3gicas, Universidad Aut\u00f3noma de Zacatecas, Avenida Preparatoria s/n, Campus Universitario II, Col. Agron\u00f3mica, CP. 98066. Zacatecas, Zacatecas (Mexico) rogrosas.uaz@gmail.com; eamskandii@gmail.com (*corresponding author)"
-          }
-        ],
-        "keywords": [
-          "Biodiversity",
-          "Taxonomy",
-          "Animalia",
-          "Arthropoda",
-          "Arachnida",
-          "Opiliones",
-          "Globipedidae"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "10.5281/zenodo.17775469",
-            "relation": "hasPart",
-            "resource_type": "publication-taxonomictreatment",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "http://treatment.plazi.org/id/038587F2A51D4B6DDC15FBCE3888F917",
-            "relation": "hasPart",
-            "resource_type": "publication-taxonomictreatment",
-            "scheme": "url"
-          },
-          {
-            "identifier": "10.5281/zenodo.17775473",
-            "relation": "hasPart",
-            "resource_type": "publication-taxonomictreatment",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "http://treatment.plazi.org/id/038587F2A51D4B6DDC06F88B3CD1FCE7",
-            "relation": "hasPart",
-            "resource_type": "publication-taxonomictreatment",
-            "scheme": "url"
-          },
-          {
-            "identifier": "http://treatment.plazi.org/id/038587F2A51D4B67DE61FCEF3B61FA61",
-            "relation": "hasPart",
-            "resource_type": "publication-taxonomictreatment",
-            "scheme": "url"
-          },
-          {
-            "identifier": "10.1371/journal.pone.0162624",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.ympev.2005.04.004",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.beproc.2014.06.008",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.2307/3670959",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.11646/zootaxa.4984.1.12",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1111/zoj.12382",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1038/nmeth.2109",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1111/1755-0998.13072",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.ympev.2023.107887",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1038/s41597-019-0320-2",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.2108/zsj.27.697",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1038/35093097",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1111/j.1096-0031.2002.tb00140.x",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1111/j.1096-0031.2009.00296.x",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.ympev.2009.08.020",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.ympev.2011.09.017",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1186/1471-2105-8-460",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1093/molbev/msy096",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.5281/zenodo.180563",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.11646/zootaxa.3328.1.3",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.5281/zenodo.4025287",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.11646/zootaxa.4908.3.10",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1093/cz/zoac102",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1093/molbev/msn051",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1590/s1984-46702010000600023",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1080/10635150490522304",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1093/biolinnean/blaa040",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.ode.2004.12.004",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1603/an13109",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1016/j.ympev.2009.03.013",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.11646/zootaxa.2130.1.4",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1002/jmor.20758",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.5431/aramit4605",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1007/s00265-010-1103-0",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          }
-        ],
-        "references": [
-          "ACOSTA L. E., GONZALEZ A. P. & LUCIATOURINHO A. 2007.- Methods for taxonomic study, in PINTO-DA-ROCHA R., MACHADO G. & GIRIBET G. (eds), Harvestmen: The Biology of Opiliones. Harvard University Press, Cambridge, Massachusetts and London, England: 493-510.",
-          "ARRIAGA L., AGUILAR C., ESPINOSA D. & JIMENEZ R. 1997. - Regionalizacion ecologica y biogeografica de Mexico. Comision Nacional para el Conocimiento y Uso de la Biodiversidad, Mexico, D. F., 98 p.",
-          "ASTRIN J. J., HOFER H., SPELDA J., HOLSTEIN J., BAYER S., HENDRICH L., HUBER B. A., KIELHORN K. H., KRAMMER H. J., LEMKE M., MONJE J. C., MORINIERE J., RULIK B., PETERSEN M., JANSSEN H. & MUSTER C. 2016. - Towards a DNA Barcode Reference Database for Spiders and Harvestmen of Germany. PLoS One 11 (9): 1-24. https://doi.org/10.1371/journal.pone.0162624",
-          "BANKS N. 1898. - Some Mexican Phalangida. Journal of the New York Entomological Society 6 (3): 181-182. https://www.biodiversitylibrary.org/part/84099",
-          "BANKS N. 1900. - New genera and species of American Phalangida. Journal of the New York Entomological Society 8 (3): 199-201. https://www.biodiversitylibrary.org/part/5559",
-          "BOYER S. L., KARAMAN I. & GIRIBET G. 2005. - The genus Cyphophthalmus (Arachnida, Opiliones, Cyphophthalmi) in Europe: a phylogenetic approach to Balkan Peninsula biogeography. Molecular Phylogenetics and Evolution 36 (3): 554-567. https://doi.org/10.1016/j.ympev.2005.04.004",
-          "BRONN H. G. 1932. - Dr. H.G. Bronn's Klassen und Ordnungen des Thier-Reichs: Wissenschaftlich dargestellt in Wort und Bild. Allgemeine Ubersicht der Klasse Arachnoidea (Spinnentiere). C. F. Winter, Leipzig und Heidelberg, 723 p. https://www.biodiversitylibrary.org/page/10455754",
-          "BUZATTO B. A. & MACHADO G. 2014. - Male dimorphism and alternative reproductive tactics in harvestmen (Arachnida: Opiliones).Behavioural Processes 109 (Part A): 2-13. https://doi. org/10.1016/j.beproc.2014.06.008",
-          "COKENDOLPHER J. C. 1984a. - A new genus of North American harvestmen (Arachnida: Opiliones: Palpatores). Festschrift for Walter W. Dalquest in Honor of His Sixty-sixth Birthday. Midwestern State University, Wichita Falls xx+ (163): 27-43.",
-          "COKENDOLPHER J. C. 1984b. - Revision of the harvestman genus Leptobunus and dismantlement of the Leptobunidae (Arachnida: Opiliones: Palpatores). Journal of the New York Entomological Society: 371-402.",
-          "COKENDOLPHER J. C. & COKENDOLPHER J. E. 1984. - A new genus of harvestmen from Costa Rica with comments on the status of the Neotropical Phalangiinae (Opiliones, Phalangiidae). Bulletin of the British Arachnological Society 6 (4): 167-172. https:// britishspiders.org.uk/system/files/library/060404.pdf",
-          "COKENDOLPHER J. C. & LEE V. 1993. - Catalogue of the Cyphopalpatores and Bibliography of the Harvestmen (Arachnida, Opiliones) of Greenland, Canada, U.S.A., and Mexico. James C. Cokendopher, Lubbock, Texas, 87 p.,",
-          "COKENDOLPHER J. C. & SISSOM W. 2000. - Further contributions to the study of Dalquestia (Opiliones: Sclerosomatidae). Entomological News 111 (4): 243-249. https://archive.org/details/ biostor-3440",
-          "COKENDOLPHER J. C. & STOCKWELL S. A. 1986. - A new species of harvestman from Arizona (Arachnida: Opiliones: Palpatores: Dalquestia). The Southwestern Naturalist 31 (1): 49-53. https:// doi.org/10.2307/3670959",
-          "COKENDOLPHER J. C., LUCIO-PALACIO C. R. & STAREGA W. 2021. - Redescription and Natural History of the Mexican harvestman Diguetinus raptator Roewer, 1912 (Opiliones: Globipedidae), type species of the genus. Zootaxa 4984 (1): 119-133. https:// doi.org/10.11646/zootaxa.4984.1.12",
-          "CRAWFORD R. L. 1992. - Catalogue of the Genera and type species of the harvestman superfamily Phalangioidea (Arachnida). Burke Mueseum Contributions in Antrhopology and Natural History 8: 1-59.",
-          "CRUZ-LOPEZ J. A., PROUD D. N. & PEREZ-GONZALEZ A. 2016. - When troglomorphism dupes taxonomists: morphology and molecules reveal the first pyramidopid harvestman (Arachnida, Opiliones, Pyramidopidae) from the New World. Zoological Journal of the Linnean Society 177 (3): 602-620. https://doi. org/10.1111/zoj.12382",
-          "DARRIBA D., TABOADA G. L., DOALLO R. & POSADA D. 2012. - jModelTest 2: more models, new heuristics and parallel computing. Nature Methods 9 (8): 772-772. https://doi.org/10.1038/ nmeth.2109",
-          "DERKARABETIAN S., BENAVIDES L. R. & GIRIBET G. 2019. - Sequence capture phylogenomics of historical ethanol-preserved museum specimens: Unlocking the rest of the vault. Molecular ecology resources 19 (6): 1531-1544. https://doi.org/10.1111/1755- 0998.13072",
-          "DERKARABETIAN S., LORD A., ANGIER K., FRIGYIK E. & GIRIBET G. 2023. - An Opiliones-specific ultraconserved element probe set with a near-complete family-level phylogeny. Molecular Phylogenetics and Evolution 187 (107887): 1-13. https://doi. org/10.1016/j.ympev.2023.107887",
-          "DEWAARD J. R., RATNASINGHAM S., ZAKHAROV E. V., BORISENKO A. V., STEINKE D., TELFER A. C., PEREZ K. H. J., SONES J. E., YOUNG M. R., LEVESQUE-BEAUDIN V., SOBEL C. N., ABRAHAMYAN A., BESSONOV K., BLAGOEV G., DEWAARD S. L., HO C., IVANOVA N. V., LAYTON K. K. S., LU L., MANJUNATH R., MCKEOWN J. T. A., MILTON M. A., MISKIE R., MONKHOUSE N., NAIK S., NIKOLOVA N., PENTINSAARI M., PROSSER S. W. J., RADULOVICI A. E., STEINKE C., WARNE C. P. & HEBERT P. D. N. 2019. - A reference library for Canadian invertebrates with 1.5 million barcodes, voucher specimens, and DNA samples. Scientific Data 6 (1): https://doi.org/10.1038/s41597-019-0320-2",
-          "DI CAPORIACCO L. 1938. - Aracnidi del Messico, di Guatemala e Honduras britannico. Istituto di Zoologia della R. Universita di Firenze 77 (3): 251-282.",
-          "FERREIRA C. P. & KURY A. B. 2010. - A review of Roquettea, with description of three new Brazilian species and notes on Gryne (Opiliones, Cosmetidae, Discosomaticinae). Zoological Science 27 (8): 697-708. https://doi.org/10.2108/zsj.27.697",
-          "FOLMER O., BLACK M., HOEH W., LUTZ R. & VRIJENHOEK R. 1994. - DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates. Molecular Marine Biology and Biotechnology 5 (3): 294- 299. https://pubmed.ncbi.nlm.nih.gov/7881515/",
-          "FORSTER R. R. 1954. - The New Zealand harvestmen (sub-order Laniatores). Christchurch, New Zeland, Canterbury Museum bulletin, v. 2, 329 p., https://archive.org/details/dli.ernet.108525",
-          "GIRIBET G., EDGECOMBE G. D. & WHEELER W. C. 2001. - Arthropod phylogeny based on eight molecular loci and morphology. Nature 413 (6852): 157-161. https://doi.org/10.1038/35093097",
-          "GIRIBET G., EDGECOMBE G. D., WHEELER W. C. & BABBITT C. 2002. - Phylogeny and systematic position of Opiliones: a combined analysis of chelicerate relationships using morphological and molecular data. Cladistics 18 (1): 5-70. https://doi. org/10.1111/j.1096-0031.2002.tb00140.x",
-          "GIRIBET G., VOGT L., GONZALEZ A. P., SHARMA P. & KURY A. B. 2010. - A multilocus approach to harvestman (Arachnida: Opiliones) phylogeny with emphasis on biogeography and the systematics of Laniatores. Cladistics 26 (4): 408-437. https://doi. org/10.1111/j.1096-0031.2009.00296.x",
-          "GOODNIGHT C. J. & GOODNIGHT M. L. 1942a. - New and little known Phalangida from Mexico. American Museum novitates (1163): 1-16. http://hdl.handle.net/2246/4796",
-          "GOODNIGHT C. J. & GOODNIGHT M. L. 1942b. - Phalangida from Mexico. American Museum novitates (1211): 1-18. https:// www.biodiversitylibrary.org/bibliography/212220",
-          "GOODNIGHT C. J. & GOODNIGHT M. L. 1945. - Additional Phalangida from Mexico. American Museum novitates (1281): 18. http://hdl.handle.net/2246/3762",
-          "GOODNIGHT C. J. & GOODNIGHT M. L. 1947. - Phalangida from Tropical America. Fieldiana: Zoology 32 (1), https://www. biodiversitylibrary.org/part/30455",
-          "GRUBER J. 1969. - Bemerkungen zur Genitalmorphologie und systematischen Stellung von Metopilio australis (Banks) (Phalangiidae: Opiliones, Arachnida). Annalen des Naturhistorischen Museums in Wien 73: 271-274. http://www.jstor.org/stable/41781736",
-          "HEDIN M. & THOMAS S. M. 2010. - Molecular systematics of eastern North American Phalangodidae (Arachnida: Opiliones: Laniatores), demonstrating convergent morphological evolution in caves. Molecular Phylogenetics and Evolution 54 (1): 107-121. https://doi.org/10.1016/j.ympev.2009.08.020",
-          "HEDIN M., TSURUSAKI N., MACIAS-ORDONEZ R. & SHULTZ J. W. 2012. - Molecular systematics of sclerosomatid harvestmen (Opiliones, Phalangioidea, Sclerosomatidae): geography is better than taxonomy in predicting phylogeny. Molecular Phylogenetics and Evolution 62 (1): 224-236. https://doi.org/10.1016/j. ympev.2011.09.017",
-          "HUSON D. H., RICHTER D. C., RAUSCH C., DEZULIAN T., FRANZ M. & RUPP R. 2007. - Dendroscope: An interactive viewer for large phylogenetic trees. BMC bioinformatics 8 (460): 1-6. https://doi.org/10.1186/1471-2105-8-460",
-          "KUMAR S., STECHER G., LI M., KNYAZ C. & TAMURA K. 2018. - MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms. Molecular Biology and Evolution 35 (6): 1547-1549. https://doi.org/10.1093/molbev/msy096",
-          "KURY A. B. 2008. - A review of Soaresia H. Soares, 1945, with the description of a new species from Serra da Mantiqueira, Brazil (Opiliones, Gonyleptidae, Pachylinae). Zootaxa 1687: 51-59. https://doi.org/10.5281/zenodo.180563",
-          "KURY A. B. & COKENDOLPHER J. C. 2000. - Opiliones, in LLORENTE-BOUSQUETS J., GONZALEZ-SORIANO E. & PAPAVERO N. (eds), Biodiversidad, taxonomia y biogeografia de artropodos de Mexico: hacia una sintesis de su conocimiento. Vol. 2. Comision Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO): 137-157.",
-          "KURY A. B. & FERREIRA C. P. 2012. - Two new species of Roquettea Mello-Leitao, 1931 from northern Brazil (Opiliones: Laniatores: Cosmetidae). Zootaxa 3328: 35-46. https://doi.org/10.11646/ zootaxa.3328.1.3",
-          "KURY A. B. & COKENDOLPHER J. C. 2020. - A new family from the New World (Eupnoi: Phalangioidea), in KURY A. B., MENDES A. C., CARDOSO L., KURY M. S. & GRANADO A. d. A. (eds), WCO-Lite: online world catalogue of harvestmen (Arachnida, Opiliones): Version 1.0-checklist of all valid nomina in Opiliones with authors and dates of publication up to 2018. do autor, Rio de Janeiro: 52-53. https://doi.org/10.5281/zenodo.4025287.",
-          "KURY A. B., MENDES A. C., CARDOSO L., KURY M. S., GRANADO A. A., YODER M. J. & KURY I. S. 2021. - WCO-Lite version 1.1: an online nomenclatural catalogue of harvestmen of the world (Arachnida, Opiliones) curated in TaxonWorks. Zootaxa 4908 (3): 447-450. https://doi.org/10.11646/zootaxa.4908.3.10",
-          "MACHADO G. & BURNS M. 2024. - Reproductive biology of harvestmen (Arachnida: Opiliones): a review of a rapidly evolving research field. Current Zoology 70 (1): 115-135. https://doi. org/10.1093/cz/zoac102",
-          "MASTA S. E. & BOORE J. L. 2008. - Parallel Evolution of Truncated Transfer RNA Genes in Arachnid Mitochondrial Genomes. Molecular Biology and Evolution 25 (5): 949-959. https://doi. org/10.1093/molbev/msn051",
-          "PEREZ-GONZALEZ A. & VASCONCELOS E. 2003. - A new species of Arucillus Silhavy, 1971 from the Dominican Republic (Opiliones: Laniatores: Cosmetidae). Revista Iberica de Aracnologia (7): 135- 140. http://sea-entomologia.org/PDF/RIA_7/R07-017-135.pdf",
-          "PINTO-DA-ROCHA R. & BRAGAGNOLO C. 2010. - Review of the Brazilian Atlantic Rainforest harvestman Longiperna (Opiliones: Gonyleptidae: Mitobatinae). Zoologia 27 (6): 993-1007. https:// doi.org/10.1590/s1984-46702010000600023",
-          "POSADA D. & BUCKLEY T. R. 2004. - Model Selection and Model Averaging in Phylogenetics: Advantages of Akaike Information Criterion and Bayesian Approaches Over Likelihood Ratio Tests. Systematic Biology 53 (5): 793-808. https://doi. org/10.1080/10635150490522304",
-          "POWELL E. C., PAINTING C. J., HICKEY A. J. & HOLWELL G. I. 2020. - Defining an intrasexual male weapon polymorphism in a New Zealand harvestman (Opiliones: Neopilionidae) using traditional and geometric morphometrics. Biological Journal of the Linnean Society 130 (2): 395-409. https://doi.org/10.1093/ biolinnean/blaa040",
-          "PRENDINI L., WEYGOLDT P. & WHEELER W. C. 2005. - Systematics of the Damon variegatus group of African whip spiders (Chelicerata: Amblypygi): Evidence from behaviour, morphology and DNA. Organisms Diversity & Evolution 5 (3): 203-236. https:// doi.org/https://doi.org/10.1016/j.ode.2004.12.004",
-          "RODRIGUEZ A. L., TOWNSEND V. R., JR. & PROUD D. N. 2014. - Comparative Study of the Microanatomy of Four Species of Harvestmen (Opiliones, Eupnoi). Annals of the Entomological Society of America 107 (2): 496-509. https://doi.org/10.1603/an13109",
-          "ROEWER C.-F. 1910. - Revision der Opiliones Plagiostethi (= Opiliones Palpatores). I. Teil: Familie der Phalangiidae. (Subfamilien: Gagrellini, Liobunini, Leptobunini.). Abhandlungen aus dem Gebiete der Naturwissenschaften, herausgegeben vom Naturwissenschaftlichen Verein in Hamburg 19 (4): 1-294.",
-          "ROEWER C.-F. 1911. - Ubersicht der Genera der Subfamilie der Phalangiini der Opiliones Palpatores nebst Beschreibung einiger neuer Gattungen und Arten. Archiv fur Naturgeschichte 77: 1-106. https://www.biodiversitylibrary.org/part/118943",
-          "ROEWER C.-F. 1912. - Revision der Opiliones Palpatores (= Opiliones Plagiostethi). II. Teil: Familie der Phalangiidae.(Subfamilien: Sclerosomini, Oligolophini, Phalangiini). Abhandlungen aus dem Gebiete der Naturwissenschaften, herausgegeben vom Naturwissenschaftlichen Verein in Hamburg 20 (1): 1-295.",
-          "ROEWER C.-F. 1923. - Die Weberknechte der Erde. Systematische Bearbeitung der bisher bekannten Opiliones. Gustav Fischer, Jena.",
-          "ROEWER C.-F. 1956. - Uber Phalangiinae (Phalangiidae, Opiliones Palpatores).(Weitere Weberknechte XIX). Senckenbergiana biol. 37: 247-318.",
-          "SHARMA P. & GIRIBET G. 2009. - Sandokanid phylogeny based on eight molecular markers -the evolution of a southeast Asian endemic family of Laniatores (Arachnida, Opiliones). Molecular Phylogenetics and Evolution 52 (2): 432-447. https://doi. org/10.1016/j.ympev.2009.03.013",
-          "TAYLOR C. K. & HUNT G. S. 2009. - New genus of Megalopsalidinae (Arachnida: Opiliones: Monoscutidae) from north-eastern Australia. Zootaxa 2130 (1): 41-59. https://doi.org/10.11646/zootaxa.2130.1.4",
-          "TOWNSEND JR. V. R. & ENZMANN III B. P. 2018. - Ontogenetic variation in the sensory structures on the pedipalps of cosmetid harvestmen (Arachnida, Opiliones, Laniatores). Journal of Morphology 279 (1): 109-131. https://doi.org/https://doi.org/10.1002/jmor.20758",
-          "TSURUSAKI N. & COKENDOLPHER J. C. 1990. - Chromosomes of sixteen species of harvestmen (Arachnida, Opiliones, Caddidae and Phalangiidae). Journal of Arachnology: 151-166.",
-          "WEIDNER H. V. 1959. - Die entomologischen Sammlungen des Zoologischen Staatsinstituts und Zoologischen Museums Hamburg, I. Pararthropoda und Chelicerata, I. Mitteilungen Hamburger Zoologischen Museums und Instituts 57: 89-142.",
-          "WIJNHOVEN H. 2013. - Sensory structures and sexual dimorphism in the harvestman Dicranopalpus ramosus (Arachnida: Opiliones). Arachnologische Mitteilungen 46: 27-46. https://doi. org/10.5431/aramit4605",
-          "ZATZ C., WERNECK R. M., MACIAS-ORDONEZ R. & MACHADO G. 2011. - Alternative mating tactics in dimorphic males of the harvestman Longiperna concolor (Arachnida: Opiliones).Behavioral Ecology and Sociobiology 65: 995-1005. https://doi.org/10.1007/ s00265-010-1103-0"
-        ],
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "30",
-          "pages": "731-749",
-          "title": "Zoosystema",
-          "volume": "47"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "urn:lsid:zoobank.org:pub:203D4929-F31D-443F-94F6-4CCC15B2D8CD"
-          },
-          {
-            "identifier": "urn:lsid:plazi.org:pub:FFBCFF8AA5184B68DD0DFFBA3960FFEC"
-          },
-          {
-            "identifier": "http://publication.plazi.org/id/FFBCFF8AA5184B68DD0DFFBA3960FFEC"
-          }
-        ],
-        "license": {
-          "id": "cc-zero"
-        },
-        "communities": [
-          {
-            "id": "biosyslit"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17775466"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Redefining the Mexican genus Diguetinus Roewer, 1912 (Opiliones, Phalangioidea, Globipedidae) based on morphology and molecular phylogenetic data, with the redescription of Diguetinus spinulatus (Banks, 1898) stat. restit.",
-      "links": {
-        "self": "https://zenodo.org/api/records/17775467",
-        "self_html": "https://zenodo.org/records/17775467",
-        "preview_html": "https://zenodo.org/records/17775467?preview=1",
-        "doi": "https://doi.org/10.5252/zoosystema2025v47a30",
-        "self_doi": "https://doi.org/10.5252/zoosystema2025v47a30",
-        "self_doi_html": "https://zenodo.org/doi/10.5252/zoosystema2025v47a30",
-        "reserve_doi": "https://zenodo.org/api/records/17775467/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775466",
-        "parent_html": "https://zenodo.org/records/17775466",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775467/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775467/sequence/default",
-        "files": "https://zenodo.org/api/records/17775467/files",
-        "media_files": "https://zenodo.org/api/records/17775467/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775467:source.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775467:source.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775467:source.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775467:source.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775467:source.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775467:source.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17775467/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775467/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775467/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775467/latest",
-        "versions": "https://zenodo.org/api/records/17775467/versions",
-        "draft": "https://zenodo.org/api/records/17775467/draft",
-        "access_links": "https://zenodo.org/api/records/17775467/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775467/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775467/access/users",
-        "access_request": "https://zenodo.org/api/records/17775467/access/request",
-        "access": "https://zenodo.org/api/records/17775467/access",
-        "communities": "https://zenodo.org/api/records/17775467/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775467/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775467/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775467/file-modification",
-        "requests": "https://zenodo.org/api/records/17775467/requests"
-      },
-      "updated": "2025-12-01T08:43:57.680522+00:00",
-      "recid": "17775467",
-      "revision": 7,
-      "files": [
-        {
-          "id": "b90a7c3e-fb77-43e1-9d64-15346bfed069",
-          "key": "source.pdf",
-          "size": 9501958,
-          "checksum": "md5:8cbc6f8aa5184b68dd0d1fba39602fec",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775467/files/source.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1161"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T08:36:03.480245+00:00",
-      "modified": "2025-12-01T08:36:03.862192+00:00",
-      "id": 17775420,
-      "conceptrecid": "17775419",
-      "doi": "10.5281/zenodo.17775420",
-      "conceptdoi": "10.5281/zenodo.17775419",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775420",
-      "metadata": {
-        "title": "The Influence of Financing to Deposit Ratio, Mudharabah Financing, and Operating Efficiency Ratio on Non-Performing Financing",
-        "doi": "10.5281/zenodo.17775420",
-        "publication_date": "2025-12-01",
-        "description": "<p><a>ABSTRACT :&nbsp;</a></p>\n<p>The high Financing to Deposit Ratio (FDR), Mudharabah Financing, and Operating Efficiency Ratio (OER) values have the potential to cause non-performing (NPF), substandard, doubtful, and bad debts in Sharia Rural Banks (BPRS) in Indonesia in the 2019&ndash;2022 period. This research intends to analyze the influence of FDR, Mudharabah Financing, and OER on NPF. The type of research is quantitative research with analytical descriptive research methods. The data used is panel data from BPRS for 2019&ndash;2022. The research employed non-probability sampling approaches. The data analysis used in this research is quantitative data analysis. This research showed that partially, FDR and Mudharabah Financing do not affect Non-Performing Financing, while OER does. Simultaneously, FDR, Mudharabah Financing, and OER affect NPF. The coefficient of determination with an adjusted R-squared value of 0.073 indicates that the contribution of FDR, Mudharabah Financing, and OER to NPF is 7.3%. Meanwhile, the remaining 92.7% was affected by other variables outside the research.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Yola Sartika",
-            "affiliation": "Department of Accounting, Faculty of Economics and Business, Widyatama University, Indonesia"
-          },
-          {
-            "name": "Ingrid Larasati Agustina",
-            "affiliation": "Department of Accounting, Faculty of Economics and Business, Widyatama University, Indonesia"
-          }
-        ],
-        "keywords": [
-          "Financing to Deposit Ratio, Mudharabah Financing, Operating Efficiency Ratio, Non-Performing Financing"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "12",
-          "pages": "4857-4861",
-          "title": "International Journal of Management and Economics Invention",
-          "volume": "11"
+          "title": "Dataset",
+          "type": "dataset"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -1073,72 +71,110 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17775419"
+                "pid_value": "20491148"
               }
             }
           ]
         }
       },
-      "title": "The Influence of Financing to Deposit Ratio, Mudharabah Financing, and Operating Efficiency Ratio on Non-Performing Financing",
+      "title": "Clifti-GPT benchmark AnnData: reference and query splits for federated single-cell experiments",
       "links": {
-        "self": "https://zenodo.org/api/records/17775420",
-        "self_html": "https://zenodo.org/records/17775420",
-        "preview_html": "https://zenodo.org/records/17775420?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775420",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775420",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775420",
-        "reserve_doi": "https://zenodo.org/api/records/17775420/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775419",
-        "parent_html": "https://zenodo.org/records/17775419",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775419",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775419",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775420/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775420/sequence/default",
-        "files": "https://zenodo.org/api/records/17775420/files",
-        "media_files": "https://zenodo.org/api/records/17775420/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775420:1ijmei.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775420:1ijmei.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775420:1ijmei.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775420:1ijmei.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775420:1ijmei.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775420:1ijmei.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17775420/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775420/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775420/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775420/latest",
-        "versions": "https://zenodo.org/api/records/17775420/versions",
-        "draft": "https://zenodo.org/api/records/17775420/draft",
-        "access_links": "https://zenodo.org/api/records/17775420/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775420/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775420/access/users",
-        "access_request": "https://zenodo.org/api/records/17775420/access/request",
-        "access": "https://zenodo.org/api/records/17775420/access",
-        "communities": "https://zenodo.org/api/records/17775420/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775420/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775420/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775420/file-modification",
-        "requests": "https://zenodo.org/api/records/17775420/requests"
+        "self": "https://zenodo.org/api/records/20491149",
+        "self_html": "https://zenodo.org/records/20491149",
+        "preview_html": "https://zenodo.org/records/20491149?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491149",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491149",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491149",
+        "reserve_doi": "https://zenodo.org/api/records/20491149/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491148",
+        "parent_html": "https://zenodo.org/records/20491148",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491148",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491148",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491149/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491149/sequence/default",
+        "files": "https://zenodo.org/api/records/20491149/files",
+        "media_files": "https://zenodo.org/api/records/20491149/media-files",
+        "archive": "https://zenodo.org/api/records/20491149/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491149/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491149/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491149/latest",
+        "versions": "https://zenodo.org/api/records/20491149/versions",
+        "draft": "https://zenodo.org/api/records/20491149/draft",
+        "access_links": "https://zenodo.org/api/records/20491149/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491149/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491149/access/users",
+        "access_request": "https://zenodo.org/api/records/20491149/access/request",
+        "access": "https://zenodo.org/api/records/20491149/access",
+        "communities": "https://zenodo.org/api/records/20491149/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491149/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491149/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491149/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491149/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491149/requests"
       },
-      "updated": "2025-12-01T08:36:03.862192+00:00",
-      "recid": "17775420",
+      "updated": "2026-06-01T14:02:34.044047+00:00",
+      "recid": "20491149",
       "revision": 4,
       "files": [
         {
-          "id": "af61e0ce-1779-4c58-98f0-ce0e8870588d",
-          "key": "1ijmei.pdf",
-          "size": 238399,
-          "checksum": "md5:8f33d4b9f6fca5d61f6791e2ba0bffe2",
+          "id": "30c0023a-030e-49d7-a16c-538fb9469ee7",
+          "key": "cl.zip",
+          "size": 85958711,
+          "checksum": "md5:9a39ce47e883549d2e98fe307c857391",
           "links": {
-            "self": "https://zenodo.org/api/records/17775420/files/1ijmei.pdf/content"
+            "self": "https://zenodo.org/api/records/20491149/files/cl.zip/content"
+          }
+        },
+        {
+          "id": "c7d2a26a-f7ae-4b9c-a94e-da2b595bd8ee",
+          "key": "ms.zip",
+          "size": 19368529,
+          "checksum": "md5:4d5641a979de3ed8ea87a61f322613a7",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491149/files/ms.zip/content"
+          }
+        },
+        {
+          "id": "940ad2e2-4649-4d0d-900c-6c155f3f2c28",
+          "key": "hp5.zip",
+          "size": 21861646,
+          "checksum": "md5:77058f8e54a9ddc67039ead593662d0f",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491149/files/hp5.zip/content"
+          }
+        },
+        {
+          "id": "3bbdf150-5ca4-4e33-b2e2-8c0d4c28062c",
+          "key": "myeloid.zip",
+          "size": 18984467,
+          "checksum": "md5:d360b19871b595571075128cd034df0c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491149/files/myeloid.zip/content"
+          }
+        },
+        {
+          "id": "0dcb13d9-b4e2-430b-b351-1b15abb4b92a",
+          "key": "lung.zip",
+          "size": 53656137,
+          "checksum": "md5:9fd4e74eb1471c0beab80cb6879b2dc4",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491149/files/lung.zip/content"
+          }
+        },
+        {
+          "id": "f4dce2cf-f672-44f2-8741-085e5fb37003",
+          "key": "covid.zip",
+          "size": 10872570,
+          "checksum": "md5:4930d3754d024c1d545533fcb21341cc",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491149/files/covid.zip/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "195934"
+          "id": "1120604"
         }
       ],
       "status": "published",
@@ -1156,25 +192,34 @@
       "submitted": true
     },
     {
-      "created": "2025-12-01T08:34:49.147506+00:00",
-      "modified": "2025-12-01T08:34:49.625767+00:00",
-      "id": 17775437,
-      "conceptrecid": "17775436",
-      "doi": "10.5252/cryptogamie-algologie2025v46a6",
-      "doi_url": "https://doi.org/10.5252/cryptogamie-algologie2025v46a6",
+      "created": "2026-06-01T14:02:21.266960+00:00",
+      "modified": "2026-06-01T14:02:21.574893+00:00",
+      "id": 20491554,
+      "conceptrecid": "20491553",
+      "doi": "10.5281/zenodo.20491554",
+      "conceptdoi": "10.5281/zenodo.20491553",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491554",
       "metadata": {
-        "title": "Back from presumed local extinction: the case of Sargassum hornschuchii C.Agardh (Fucales: Heterokontophyta) in the Spanish Mediterranean",
-        "doi": "10.5252/cryptogamie-algologie2025v46a6",
-        "publication_date": "2025-11-28",
-        "description": "Ballesteros, Enric, Cebrian, S\u00f2nia De Caralt Emma (2025): Back from presumed local extinction: the case of Sargassum hornschuchii C.Agardh (Fucales: Heterokontophyta) in the Spanish Mediterranean. Cryptogamie, Algologie 20 (6): 81-88, DOI: 10.5252/cryptogamie-algologie2025v46a6, URL: https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/algologie2025v46a6.pdf",
+        "title": "Evaluation of Physico - Chemical Properties of Tea-Based Soils from Sagora Ashram, Jashpur District, Chhattisgarh",
+        "doi": "10.5281/zenodo.20491554",
+        "publication_date": "2025-12-31",
+        "description": "Gupta, Abhay, Pandey, Ashutosh, Dubey, Kartikeshwar, Sahu Abstract, J. P. (2025): Evaluation of Physico - Chemical Properties of Tea-Based Soils from Sagora Ashram, Jashpur District, Chhattisgarh. FishTaxa 36 (9): 403-408",
         "access_right": "open",
         "creators": [
           {
-            "name": "Ballesteros, Enric",
-            "affiliation": "Centre d'Estudis Avan\u00e7ats de Blanes-CSIC, Acc. Cala Sant Francesc 14, 17300 Blanes, Girona (Spain)"
+            "name": "Gupta, Abhay",
+            "affiliation": null
           },
           {
-            "name": "Cebrian, S\u00f2nia De Caralt Emma",
+            "name": "Pandey, Ashutosh",
+            "affiliation": null
+          },
+          {
+            "name": "Dubey, Kartikeshwar",
+            "affiliation": null
+          },
+          {
+            "name": "Sahu Abstract, J. P.",
             "affiliation": null
           }
         ],
@@ -1184,198 +229,41 @@
         ],
         "related_identifiers": [
           {
-            "identifier": "10.1007/s41208-020-00218-8",
+            "identifier": "10.9734/ajaees/2024/v42i22367",
             "relation": "cites",
             "resource_type": "publication",
             "scheme": "doi"
           },
           {
-            "identifier": "10.1016/j.biocon.2017.07.027",
+            "identifier": "10.3390/geohazards5030015",
             "relation": "cites",
             "resource_type": "publication",
             "scheme": "doi"
           },
           {
-            "identifier": "10.1007/s13369-021-05592-w",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.12681/mms.14079",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1007/s10531-011-0210-1",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.21608/eajbsh.2015.16824",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1080/02757541003689837",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1038/s41598-022-12265-7",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.12681/mms.1249",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.12681/mms.1438",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1111/gcb.13421",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.24310/abm.v43i0.4966",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.21608/egyjs.2013.115212",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.21608/egyjs.2013.115209",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.3989/ajbm.2349",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1371/journal.pone.0010791",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1007/s00227-019-3631-0",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1111/cobi.14001",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1007/s10811-012-9831-3",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.1007/s10750-015-2580-y",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          },
-          {
-            "identifier": "10.12681/mms.1032",
+            "identifier": "10.1097/00010694-193401000-00003",
             "relation": "cites",
             "resource_type": "publication",
             "scheme": "doi"
           }
         ],
         "references": [
-          "ABDEL-KAREEM M. S., MOHY EL DIN S. M. & IBRAHIM E. S. M. 2020. - Optimization of growth conditions and biochemical composition of Microchloropsis Salina, Cultures with three macroalgal aqueous extracts.Thalassas: An International Journal of Marine Sciences 36: 415-429.https://doi.org/10.1007/s41208-020-00218-8",
-          "AKCAKAYA H. R., KEITH D. A., BURGMAN M., BUTCHART S. H. M., HOFFMANN M., REGAN H. M., HARRISON I. & BOAKES E. 2017. - Inferring extinctions III: a cost benefit framework for listing extinct species.Biological Conservation 214: 336-342. https://doi.org/10.1016/j.biocon.2017.07.027",
-          "ALGHAZEER R., AZWAI S., AMR A., ELGAHMASI S., SIDATI M., ABOUAMER K., GAMMOUDIOU F. & RAHOUMA K. 2019. - Investigation of antioxidant capacity of alkaloids extracted from two brown algae-an in vitro study. International Journal of Green And Herbal Chemistry 8: 399-410.",
-          "ALGHAZEER R., AZWAI S., GARBAJ A. M., AMR A., ELGHMASI S., SIDATI M., YUDIATI E., KUBBAT M. G., ESKANDRANI A. A., SHAMLAN G. & ALANSARI W. S. 2021. - Alkaloids rich extracts from brown algae against multidrug-resistant bacteria by distinctive mode of action.Arabian Journal For Science And Engineering 47: 179-188. https://doi.org/10.1007/s13369-021-05592-w",
-          "AOUISSI M., NESRINE SELLAM L., BOUDOURESQUE C. F., BLANFUNE A., DERBAL F., FRIHI H., PERRET-BOUDOURESQUE M., REBZANI-ZAHAF C., VERLAQUE M. & THIBAUT T. 2018. - Insights into the species diversity of the genus Sargassum (Phaeophyceae) in the Mediterranean Sea, with a focus on a previously unnoticed taxon from Algeria. Mediterranean Marine Science 19: 48-57. https://doi.org/10.12681/mms.14079",
-          "BALLESTEROS E. 2022. - Assaig sobre una primera proposta d'arees marines protegides a Balears. Bolleti Societat d'Historia natural de Balears 65: 27-89.",
-          "BALLESTEROS E. & ZABALA M. 1993. - El Bentos: El Marc fisic, in ALCOVER J. A., BALLESTEROS E. & FORNOS J. J. (eds), Historia natural de l'arxipelag de Cabrera. Monografies Societat d'Historia natural de Balears 2: 663-685.",
-          "BARBERA C., MORANTA J., ORDINES F., RAMON M., DE MESA A., DIAZ-VALDES M., GRAU A. M. & MASSUTI E. 2012. - Biodiversity and habitat mapping of Menorca Channel (Western Mediterranean). Implications for conservation.Biodiversity Conservation 21: 701-728. https://doi.org/10.1007/s10531-011-0210-1",
-          "BLANFUNE A., VERLAQUE M., BOUDERESQUE C. F., ROZIS E. & THIBAUT T. 2022.-Les forets marines de France et de Mediterranee: guide de determination des especes-ingenieurs (Sargassaceae, Fucales, Phaeophyceae). Presses Universites de Provence, Marseille, 207 p.",
-          "BELLON L. 1921. - Contribucion al estudio de la flora algologica del Mediterraneo espanol. Boletin de Pesca 81: 56-58.",
-          "DE BUEN O. 1916. - El Instituto espanol de Oceanografia y sus primeras campanas. Memorias del instituto espanol de Oceanografia, 197 p.",
-          "BUTCHART S. H. M., STATTERSFIELD A. J. & BROOKS T. M. 2006. - Going or gone. defining \"possibly extinct\" species to give a truer picture of recent extinctions. Bulletin of the British Ornithologists Club 126a: 1-24.",
-          "CECERE E., CORMACI M., FURNARI G., PETROCELLI A., SARACINO O. D. & SERIO D. 1996. - Benthic algal flora of Cheradi Islands (Gulf of Taranto, Mediterranean Sea). Nova Hedwigia 62: 191-214.",
-          "CECERE E., FANELLI G., PETROCELLI A. & SARACINO O. D. 2001. - Changes in seaweed biodiversity of the Gargano Coast (Adriatic Sea, Mediterranean Sea), in FARANDA F. M., GUGLIELMO L. & SPEZIE G. (eds), Mediterranean ecosystems: structure and processes. Springer, Vienna: 347-352.",
-          "CORMACI M. & FURNARI G. 1999. - Changes of benthic algal flora of the Tremiti Islands (Southern Adriatic), Italy. Hydrobiologia 398: 75-79.",
-          "CORMACI M., FURNARI G., CATRA M., ALONGI G. & GIACCONE G. 2012. - Flora marina bentonica del mediterraneo:phaeophyceae. Bollettino Accademia Gioenia Scienze Naturalle 45 (375): 1-508.",
-          "CURIEL D., MIOTTI C. & MARZOCCHI M. 2009. - Distribuzione quali-quantitativa delle macroalghe dei moli foranei della laguna di Venezia. Bollettino Museum Stazione Naturale Venezia 59: 3-18.",
-          "DIAMOND J. M. 1987. - Extant unless proven extinct? or, extinct unless proven extant? Conservation Biology 1 (1): 77-79.",
-          "EL-ZABALAWY K. M. & EL-KENANY E. T. 2015. - Bioremediation of hexavalent chromium by some marine algae. Egyptian Academic Journal of Biological Sciences H. Botany 6: 27-33. https:// doi.org/10.21608/eajbsh.2015.16824",
-          "ERCEGOVIC A. 1960. - Vegetacija alga na ribarskim dnima jadrana. Izvjesca. Report: The M. V. \"Hvar\" Cruises-Researches Into Fishery Biology 1948-1949 6 (4): 1-32.",
-          "FAKHRY E. M., ISMAIL S., NOAMAN N. H., SHAFIK M. A. & MENESI W. M. 2013. - Adsorptive removal of chromium by dried brown alga Sargassum hornschuchii. Egyptian Journal of Phycology 14: 1-14.",
-          "FALACE A., ALONGI G., CORMACI M., FURNARI G., CURIEL D., CECERE E. & PETROCELLI A. 2010. - Changes in the benthic algae along the Adriatic Sea in the last three decades.Chemistry And Ecology 26: 77-90.https://doi.org/10.1080/02757541003689837",
-          "FARRIOLS M. T., IRLINGER C., ORDINES F., PALOMINO D., MARCO-HERRERO E., SOTO-NAVARRO J., JORDA G., MALLOL S., DIAZ D., MARTINEZ-CARRENO N., DIAZ J. A., FERNANDEZ-ACAYA U., JOHER S., RAMIREZ-AMARO S., DE LA BALLINA N. R., VAZQUEZ J. T. & MASSUTI E. 2022. - Recovery signals of rhodoliths beds since bottom trawling ban in the sci Menorca Channel (Western Mediterranean). Diversity 14: 20.",
-          "FATHY S. A. H., MOHAMED S. S., GHAREEB D. A. & ABD-EL MEGEED D. F. 2017. - In Vitro screening of anticandidal activity of some marine algae extracts collected from Abo-Qir Bay (Alexandria, Egypt). Egyptian Journal of Experimental Biology 13: 225-231.",
-          "FELDMANN J. 1937. - Les Algues marines de la cote des Alberes. I-III. Cyanophycees, Chlorophycees et Phaeophycees de la cote des Alberes. Wolf, Rouen, 65 p.",
-          "FELDMANN J. 1961. - Note sur les algues marines de la Galite (Tunisie). Rapport et proces verbaux commission internationale pour l'exploration scientifique de la mer Mediterranee 16: 503-508.",
-          "GARCIAS L. 1919. - Algunes algues de Mallorca (Badia de Palma). Butlleti de la Institucio catalana d'Historia natural 19: 100-102.",
-          "GHALLAB D. S., SHAWKY E., IBRAHIM R. S. & MOHYELDIN M. M. 2022. - Comprehensive metabolomics unveil the discriminatory metabolites of some Mediterranean Sea marine algae in relation to their cytotoxic activities. Scientific Reports 12: 8094. https:// doi.org/10.1038/s41598-022-12265-7",
-          "GIACCONE G. 1967. - Popolamenti a Laminaria rodriguezii Bornet sul banco Apollo dell'isola di Ustica (Mar Tirreno). Nova Thalassia 3 (6): 1-9.",
-          "GIACCONE G. 1972. - Struttura, ecologia e corologia dei popolamenti a laminarie dello streto di Messina e del mare di Alboran. Memorie di Biologia Marina e di Oceanografia 2 (2): 37-59.",
-          "GIACCONE G. & BRUNI A. 1973. - Le Cistoseire e la vegetazione sommersa del Mediterraneo. Atti Istituto Veneto Di Scienze, Lettere ed arti Venezia 131: 59-103.",
-          "GIACCONE G., SCAMMACCA B., CINELLI F., SARTONI G. & FURNARI G. 1972. - Studio preliminare sulla tipologia della vegetazione somersa del canale di Scilia e Isole Vicine. Giornale Botanico Italiano 106: 211-229.",
-          "GIACCONE G., SORTINO M., SOLAZZI A. & TOLOMIO C. 1973. - Tipologia e distribuzione estiva della vegetazione sommersa dell'isola di Pantelleria.Lavori dell'Istituto botanico e del giardine colloquiale di Palermo 25: 103-119.",
-          "GOMEZ-GARRETA A., BARCELO-MARTI M. C., RIBERA-SIGUAN M. A. & RULL-LLUCH J. 2000. - Sargassum C.Agardh, in GOMEZ-GARRETA A. (ed.),Flora Phycologica Iberica 1. Fucales. Universidad de Murcia, Murcia: 75-87.",
-          "GONZALEZ-GARCIA J. A. & CONDE-POYALES F. 1994. - Catalogo del macrofitobentos del Mediterraneo de Marruecos.Acta Botanica Malacitana 19: 5-27.",
-          "HAMEL G. 1931-1939. - Pheophycees de France. Wolf, Rouen, 432 p.",
-          "JOHER S., BALLESTEROS E., CEBRIAN E., SANCHEZ N. & RODRIGUEZ-PRIETO C. 2012. - Deep-water macroalgal-dominated coastal detritic assemblages on the continental shelf off Mallorca and Menorca (Balearic Islands, Western Mediterranean). Botanica Marina 55: 485-497.",
-          "JOHER S., BALLESTEROS E. & RODRIGUEZ-PRIETO S. 2015. - Contribution to the study of deep coastal detritic bottoms: the algal communities of the continental shelf off the Balearic Islands, Western Mediterranean.Mediterranean Marine Science 16: 573- 590. https://doi.org/10.12681/mms.1249",
-          "JOHER S., BALLESTEROS E. & RODRIGUEZ-PRIETO S. 2016. - Macroalgal-dominated coastal detritic communities from the Western Mediterranean and the Northeastern Atlantic.Mediterranean Marine Science 17: 476-495.https://doi.org/10.12681/mms.1438",
-          "JOHER S., MARTINEZ S. & RODRIGUEZ-PRIETO C. 2023. - Bionomic study of the detritic bottoms dominated by macroalgae from the Southern coast of Mallorca (Balearic Islands). Botanica Marina 66: 37-51.",
-          "KARACUHA A. & OKUDAN E. S. 2017.- Macroalgae and phanerogams of the Black Sea, in SEZGIN M., BAT L., URKMEZ D., ARICI E. & OZTURK B. (eds). Black Sea marine environment: the turkish shelf. Turkish Marine Research Foundation, Istanbul: 167-177.",
-          "LEE T. E., FISHER D. O., BLOMBERG S. P. & WINTLE B. A. 2017. - Extinct or still out there? Disentangling influences on extinction and rediscovery helps to clarify the fate of species on the edge. Global Change Biology 23: 621-634.https://doi.org/10.1111/gcb.13421",
-          "MOLINARI-NOVOA E. A. & GUIRY M. D. 2020. - Reinstatement of the genera Gongolaria Boehmer and Ericaria Stackhouse (Sargassaceae, Phaeophyceae). Notulae Algarum 172: 1-10.",
-          "MOUSSA H., HASSOUN M., SALHI G., ZBAKH H. & RIADI H. 2018. - Check-list of seaweeds of al-hoceima national park of Morocco (Mediterranean marine protected area). Acta Botanica Malacitana 43: 91-109.https://doi.org/10.24310/abm.v43i0.4966",
-          "MUNDA I. M. 1993. - Changes and degradation of seaweed stands in the northern Adriatic. Hydrobiologia 260: 239-253.",
-          "MUNDA I. M. 2000. - Long-term marine floristic changes around Rovinj (Istrian coast, north Adriatic) estimated on the basis of historical data from Paul Kuckuck's field diaries from the end of the 19th Century. Nova Hedwigia 71: 1-36.",
-          "MUNDA I. M., BATTELLI C., RICHTER M. & ZIZA V. 2006. - Colonizzazione algale di strutture sommerse nell'area Sud-Orientale del Golfo di Trieste,in BRESSAN G (ed.), Studio della produttivita primaria e della produttivita secondaia delle strutture artificiali sommerse poste in prossimita de dosso di S. Croce (Golfo di Trieste, Alto Adriatico. Universita degli studi di Trieste, Triste: 241-271.",
-          "NOAMAN N. H., AKL F. M. A., ABDEL-KAREEM M. S. M., SHAFIK M. A. & MENESI W. M. 2013a. - Effect of ultraviolet-B irradiation on fatty acids, amino acids, protein contents, enzyme activities and ultrastructure of some algae. Egyptian Journal of Phycology 14: 67-101. https://doi.org/10.21608/egyjs.2013.115212",
-          "NOAMAN N. H., AHMED S. I., FAKHRY E. M., SHAFIK M. A. & MENESI W. A. 2013b. - Removal of zinc and its effect on some macromolecules and ultrastructure of Pterocladia capillacea and Sargassum hornschuchii. Egyptian Journal of Phycology 14: 37-64. https://doi.org/10.21608/egyjs.2013.115209",
-          "OULD-AHMED N., GOMEZ-GARRETA A., RIBERA SIGUAN M. A. & BOUGUEDOURA N. 2013. - Check-list of the benthic marine macroalgae from Algeria.I. Phaeophyceae.Anales del Jardin Botanico de Madrid 70: 136-143. https://doi.org/ 10.3989/ajbm.2349",
-          "PERKOL-FINKEL S. & AIROLDI L. 2010. - Loss and recovery potential of marine habitats: an experimental study of factors maintaining resilience in subtidal algal forests at the Adriatic Sea. Plos One 5 (5): e10791. https://doi.org/10.1371/journal.pone.0010791",
-          "PERRET-BOUDOURESQUE M. & SERIDI H. 1989. - Inventaire des algues marines benthiques d'Algerie. Gis Posidonie Publication, Marseille, 116 p.",
-          "PIAZZI L., BALATA D., CECCHI E., CINELLI F. & SARTONI G. 2009. - Species composition and patterns of diversity of macroalgal coralligenous assemblages in the north-western Mediterranean Sea. Journal of Natural History, 44: 1-22.",
-          "PIAZZI L. & CECCHERELLI G. 2020. - Alpha and beta diversity in Mediterranean macroalgal assemblages: relevancy and type of effect of anthropogenic stressors vs. natural variability. Marine Biology 167: 32. https://doi.org/10.1007/s00227-019-3631-0",
-          "PIAZZI L. & CINELLI F. 2002. - Contributo alla conoscenza dei popolamenti macroalgali dell'isola di Giannutri (arcipelago Toscano). Informatore Botanico Italiano 34: 79-86.",
-          "ROBERTS D. L., HINSLEY A., FIENNES S. & VERISSIMO D. 2023. - Understanding the drivers of expert opinion when classifying species as extinct. Conservation Biology 37: e13968. https://doi. org/10.1111/cobi.14001",
-          "RODRIGUEZ-FEMENIAS J. J. 1889. - Algas de las Baleares. Anales de Historia Natural 18: 199-274.",
-          "RODRIGUEZ-PRIETO C., BALLESTEROS E., BOISSET F. & AFONSO-CARRILLO J. 2013. - Guia de las macroalgas y fanerogamas marinas del Mediterraneo occidental. Omega, Barcelona, p. 656.",
-          "SHAMS EL-DIN N. G. & EL-SHERIFF Z. M. 2012. - Nutritional value of some algae from the North-Western Mediterranean coast of Egypt. Journal of Applied Phycology 24: 613-626. https://doi. org/10.1007/s10811-012-9831-3",
-          "SIDARI L. & BRESSAN G. 1992. - Some observations on the specific diversity of benthic macroalgae in the Northern Adriatic Sea.Rapports et communications internationales Mer Mediterranee 33: 352.",
-          "SPAN A. 2005. - The Genus Sargassum in the Adriatic Sea: morphology, systematics and ecology.Acta Adriatica 46 (Suppl. 1): 9-80.",
-          "THIBAUT T., BLANFUNE A., VERLAQUE M., BOUDOURESQUE C. F. & RUITTON S. 2016. - The Sargassum conundrum: very rare, threatened or locally extinct in the new Mediterranean and still lacking protection. Hydrobiologia 781: 3-23. https://doi. org/10.1007/s10750-015-2580-y",
-          "THIBAUT T., BLANFUNE A., BOUDOURESQUE C. F. & VERLAQUE M. 2015. - Decline and local extinctions of Fucales in the French Riviera: the harbinger of future extinctions? Mediterranean Marine Science 16: 206-224. https://doi.org/10.12681/mms.1032",
-          "THIBAUT T., PINEDO S., TORRAS X. & BALLESTEROS E. 2005. - Long term decline of the populations of Fucales (Cystoseira, Sargassum) in the Alberes coast (Northwestern Mediterranean). Marine Pollution Bulletin 50: 1472-1489.",
-          "VERLAQUE M., BOUDOURESQUE C. F. & PERRET-BOUDOURESQUE M. 2019. - Mediterranean seaweeds listed as threatened under the Barcelona Convention: a critical analysis. Scientific Reports of Port-Cros National Park 33: 179-214."
+          "1. Anand, S., Ravikumar, D., Gurumurthy, K. T., Thippeshappa, G. N., & Shoba, S. (2025). Digital soil fertility mapping of a micro-watershed in Karnataka using GIS. Plant Science Today, 12(sp1).",
+          "2. Brady, N. C., & Weil, R. R. (2016). The nature and properties of soils (15th ed.). Pearson Education.",
+          "3. Census of India. (2011). Administrative boundaries of India. Office of the Registrar General & Census Commissioner, India.",
+          "4. FAO. (2006). Guidelines for soil description (4th ed.). Food and Agriculture Organization of the United Nations.",
+          "5. Government of India. (2020). Soil Health Card scheme: Operational guidelines. Department of Agriculture & Farmers Welfare, Ministry of Agriculture and Farmers Welfare.",
+          "6. ISRO. (2019). Bhuvan geoportal: Land use/land cover datasets. National Remote Sensing Centre. https://bhuvan.nrsc.gov.in",
+          "7. Jackson, M. L. (1973). Soil chemical analysis. Prentice Hall of India.",
+          "8. Lade, A. H., Ingle, S. N., Gawali, K., & Gadge, P. (2024). Analysis of Soil Health Card awareness and constraints among farmers in Vidarbha region. Asian Journal of Agricultural Extension, Economics & Sociology, 42(2), 100-106. https://doi.org/10.9734/ajaees/2024/v42i22367",
+          "9. Olsen, S. R., Cole, C. V., Watanabe, F. S., & Dean, L. A. (1954). Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular, 939, 1-19.",
+          "10. OpenStreetMap Contributors. (2023). OpenStreetMap data. OpenStreetMap Foundation. https://www.openstreetmap.org",
+          "11. QGIS Development Team. (2023). QGIS geographic information system. Open Source Geospatial Foundation. https://qgis.org",
+          "12. Shinde, S., Ghorpade, V., Bhosale, P., & Gosavi, A. (2020). GPS -GIS based spatial assessment of soil micronutrients in agricultural soils. International Journal of Soil Science, 15(2), 75-84.",
+          "13. Sindhushree, T. S., Kavya, D., Harshit, J. J., Nitin, C. T., & Rajeswari, B. (2022). Digital soil mapping and spatial variability analysis using GIS techniques. Journal of Scientific Research and Reports, 28(6), 45-56.",
+          "14. Subbiah, B. V., & Asija, G. L. (1956). A rapid procedure for the estimation of available nitrogen in soils. Current Science, 25, 259-260.",
+          "15. Swain, S. K., Parida, B. R., Mallick, A., Dwivedi, C. S., Kumar, M., & Pandey, A. C. (2023). Geospatial analysis of soil quality parameters and soil health using GIS techniques. GeoHazards, 5(3), 215-230. https://doi.org/10.3390/geohazards5030015",
+          "16. Walkley, A., & Black, I. A. (1934). An examination of the Degtjareff method for determining soil organic matter and a proposed modification of the chromic acid titration method. Soil Science, 37(1), 29-38. https://doi.org/10.1097/00010694- 193401000- 00003"
         ],
         "resource_type": {
           "title": "Journal article",
@@ -1383,18 +271,18 @@
           "subtype": "article"
         },
         "journal": {
-          "issue": "6",
-          "pages": "81-88",
-          "title": "Cryptogamie, Algologie",
-          "volume": "20"
+          "issue": "9",
+          "pages": "403-408",
+          "title": "FishTaxa",
+          "volume": "36"
         },
         "alternate_identifiers": [
           {
-            "identifier": "urn:lsid:plazi.org:pub:FF9AFF8D1910FFE77B2AD0782E60FFF5"
+            "identifier": "urn:lsid:plazi.org:pub:FFEBC459A02BFF93FFBF7C41FF99661D"
           }
         ],
         "license": {
-          "id": "cc-zero"
+          "id": "cc-by-4.0"
         },
         "communities": [
           {
@@ -1408,63 +296,66 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17775436"
+                "pid_value": "20491553"
               }
             }
           ]
         }
       },
-      "title": "Back from presumed local extinction: the case of Sargassum hornschuchii C.Agardh (Fucales: Heterokontophyta) in the Spanish Mediterranean",
+      "title": "Evaluation of Physico - Chemical Properties of Tea-Based Soils from Sagora Ashram, Jashpur District, Chhattisgarh",
       "links": {
-        "self": "https://zenodo.org/api/records/17775437",
-        "self_html": "https://zenodo.org/records/17775437",
-        "preview_html": "https://zenodo.org/records/17775437?preview=1",
-        "doi": "https://doi.org/10.5252/cryptogamie-algologie2025v46a6",
-        "self_doi": "https://doi.org/10.5252/cryptogamie-algologie2025v46a6",
-        "self_doi_html": "https://zenodo.org/doi/10.5252/cryptogamie-algologie2025v46a6",
-        "reserve_doi": "https://zenodo.org/api/records/17775437/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775436",
-        "parent_html": "https://zenodo.org/records/17775436",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775437/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775437/sequence/default",
-        "files": "https://zenodo.org/api/records/17775437/files",
-        "media_files": "https://zenodo.org/api/records/17775437/media-files",
+        "self": "https://zenodo.org/api/records/20491554",
+        "self_html": "https://zenodo.org/records/20491554",
+        "preview_html": "https://zenodo.org/records/20491554?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491554",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491554",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491554",
+        "reserve_doi": "https://zenodo.org/api/records/20491554/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491553",
+        "parent_html": "https://zenodo.org/records/20491553",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491553",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491553",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491554/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491554/sequence/default",
+        "files": "https://zenodo.org/api/records/20491554/files",
+        "media_files": "https://zenodo.org/api/records/20491554/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775437:source.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775437:source.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775437:source.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775437:source.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775437:source.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775437:source.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:20491554:source.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491554:source.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491554:source.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491554:source.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491554:source.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491554:source.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17775437/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775437/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775437/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775437/latest",
-        "versions": "https://zenodo.org/api/records/17775437/versions",
-        "draft": "https://zenodo.org/api/records/17775437/draft",
-        "access_links": "https://zenodo.org/api/records/17775437/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775437/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775437/access/users",
-        "access_request": "https://zenodo.org/api/records/17775437/access/request",
-        "access": "https://zenodo.org/api/records/17775437/access",
-        "communities": "https://zenodo.org/api/records/17775437/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775437/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775437/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775437/file-modification",
-        "requests": "https://zenodo.org/api/records/17775437/requests"
+        "archive": "https://zenodo.org/api/records/20491554/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491554/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491554/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491554/latest",
+        "versions": "https://zenodo.org/api/records/20491554/versions",
+        "draft": "https://zenodo.org/api/records/20491554/draft",
+        "access_links": "https://zenodo.org/api/records/20491554/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491554/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491554/access/users",
+        "access_request": "https://zenodo.org/api/records/20491554/access/request",
+        "access": "https://zenodo.org/api/records/20491554/access",
+        "communities": "https://zenodo.org/api/records/20491554/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491554/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491554/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491554/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491554/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491554/requests"
       },
-      "updated": "2025-12-01T08:34:49.625767+00:00",
-      "recid": "17775437",
+      "updated": "2026-06-01T14:02:21.574893+00:00",
+      "recid": "20491554",
       "revision": 5,
       "files": [
         {
-          "id": "1a15fdc5-fded-4ee6-8cd8-b002fe952ff6",
+          "id": "8da0c77f-f5e0-4f7c-9ae7-9f23a8f1278a",
           "key": "source.pdf",
-          "size": 4090680,
-          "checksum": "md5:449a068d191035e77b2ad0782e60fbf5",
+          "size": 464073,
+          "checksum": "md5:6cebc459a02b689381bf7c41ca99661d",
           "links": {
-            "self": "https://zenodo.org/api/records/17775437/files/source.pdf/content"
+            "self": "https://zenodo.org/api/records/20491554/files/source.pdf/content"
           }
         }
       ],
@@ -1489,43 +380,57 @@
       "submitted": true
     },
     {
-      "created": "2025-12-01T08:21:44.939132+00:00",
-      "modified": "2025-12-01T08:21:45.289733+00:00",
-      "id": 17775286,
-      "conceptrecid": "17775285",
-      "doi": "10.5281/zenodo.17775286",
-      "conceptdoi": "10.5281/zenodo.17775285",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775286",
+      "created": "2026-06-01T14:00:46.075611+00:00",
+      "modified": "2026-06-01T14:00:46.298105+00:00",
+      "id": 20394689,
+      "conceptrecid": "20394688",
+      "doi": "10.5281/zenodo.20394689",
+      "conceptdoi": "10.5281/zenodo.20394688",
+      "doi_url": "https://doi.org/10.5281/zenodo.20394689",
       "metadata": {
-        "title": "Russia\u2013Ukraine Conflict and Africa's Non-Aligned Strategy: Historical and International Relations Insights from Nigeria",
-        "doi": "10.5281/zenodo.17775286",
-        "publication_date": "2025-11-29",
-        "description": "<p>The foreign policy of non-alignment adopted by African states during the Russia&ndash;Ukraine war has been interpreted as both a mechanism to safeguard national interests and a diplomatic strategy in a multipolar world. However, there is a gap in the literature regarding how African states, particularly Nigeria, operationalize non-alignment amid contemporary geopolitical shocks and institutional constraints. This study addresses this gap by examining Nigeria&rsquo;s non-aligned stance amid the conflict, focusing on its historical legacy, economic vulnerabilities, and diplomatic hedging strategies. It investigates how Nigeria balances engagement with Russia and Western powers while maintaining strategic autonomy and analyzes Nigeria&rsquo;s selective voting at the United Nations General Assembly (UNGA) and its implications for Africa&rsquo;s role in global governance. Employing an exploratory qualitative research design, the study utilized secondary data from high-ranking peer-reviewed journals, official reports, and statistical sources, analyzed thematically to identify patterns in foreign policy decision-making and strategic hedging. Power Transition Theory guided the analysis, providing a framework for understanding Nigeria&rsquo;s positioning within shifting global power hierarchies. Findings indicate that Nigeria&rsquo;s non-aligned approach offers both opportunities and protection, enabling pragmatic engagement with global powers while minimizing coercion risks. Nonetheless, economic dependency and security vulnerabilities persist, highlighting the need for institutional safeguards and strategic frameworks. The study concludes that Nigeria&rsquo;s calibrated non-alignment functions as a deliberate hedging strategy that preserves autonomy, enhances resilience, and informs contemporary African foreign policy. It contributes to knowledge by providing insights into history, international studies, political science, and security studies, and suggests that future research could conduct comparative analyses of African states&rsquo; non-alignment strategies.</p>",
+        "title": "Analysis code for: \"Occupational Thermal Stress and Clustering of Injury Event in the Construction Industry: Integration of Environmental and Sociodemographic Factors in Brazil",
+        "doi": "10.5281/zenodo.20394689",
+        "publication_date": "2026-05-26",
+        "description": "<p>This archive contains the Python code used to perform the statistical analysis and produce the results for the research article \"Occupational Thermal Stress and Clustering of Injury Event in the Construction Industry: Integration of Environmental and Sociodemographic Factors in Brazil\".</p>\n<p>The code was developed to analyze the dataset available at <a href=\"https://zenodo.org/records/17458229\">https://zenodo.org/records/17458229</a>, which integrates work accident notifications from the Brazilian Notifiable Diseases Information System (SINAN) with meteorological data from the National Institute of Meteorology (INMET), covering the period from 2006 to 2024.</p>\n<p>The analysis includes the following steps:</p>\n<p>Preprocessing of numerical and categorical variables (imputation of missing values using SimpleImputer with median strategy, retention of 'unknown' category).&nbsp;Calculation of multiple thermal stress indices (WBGT, <em>Heat Index</em>, <em>Humidex</em>, ET, ETW, DI, MDI, <em>Apparent Temperature</em>, and <em>WindChill</em>).&nbsp;Dimensionality reduction using Factor Analysis of Mixed Data (FAMD)</p>\n<p>Clustering using k-means algorithm with validation via elbow method and Silhouette coefficient.&nbsp;Statistical comparisons between clusters (Kolmogorov-Smirnov, Kruskal-Wallis, Dunn's post hoc test, and chi-square test).&nbsp;Generation of all tables and figures presented in the article.</p>\n<p>The code was written in <em>Python</em> (version 3.10.0) and relies on the following libraries: <em>Pandas</em> (v2.2.2), <em>NumPy</em> (v2.1.3), <em>Matplotlib</em> (v3.103.0), <em>Seaborn</em> (v0.12.2), <em>scikit-learn</em> (v1.6.1), <em>PRINCE</em> (v0.16.1), and <em>kmodes</em> (v0.12.2). The code is provided as Jupyter notebooks (.ipynb) and can be executed sequentially to reproduce all results.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Professor A. F. Usman",
-            "affiliation": "Dept: History and International studies, Institution: Usman Dan-Fodio University Sokoto"
+            "name": "Trigos S\u00e1nchez, Luis Miguel",
+            "affiliation": "Universidade Estadual de Maring\u00e1",
+            "orcid": "0009-0005-4335-0785"
           },
           {
-            "name": "Dr. Muazu Alkali Bello",
-            "affiliation": "Dept: liberal Studies, Institution: Abdu-Gusau polytechnic Talata-Mafara. Zamfara state"
+            "name": "Samways dos Santos, Bruno",
+            "affiliation": "Universidade Tecnol\u00f3gica Federal do Paran\u00e1",
+            "orcid": "0000-0001-7919-1724"
+          },
+          {
+            "name": "Lima, Rafael",
+            "affiliation": "Universidade Tecnol\u00f3gica Federal do Paran\u00e1",
+            "orcid": "0000-0002-9098-3025"
+          },
+          {
+            "name": "OSSANI, PAULO CESAR",
+            "affiliation": "Universidade Estadual de Maring\u00e1",
+            "orcid": "0000-0002-6617-8085"
+          },
+          {
+            "name": "Cardoza Galdamez, Edwin Vladimir",
+            "affiliation": "Universidade Estadual de Maring\u00e1",
+            "orcid": "0000-0002-1763-9332"
+          },
+          {
+            "name": "Leal, Gislaine Camila Lapasini",
+            "affiliation": "Universidade Estadual de Maring\u00e1",
+            "orcid": "0000-0001-8599-0776"
           }
         ],
         "keywords": [
-          "Africa's Non-Aligned Strategy, Foreign policy, Multipolarity, Nigeria, Russia-Ukraine"
+          "occupational heat stress; construction industry; cluster analysis; k-means; Brazil"
         ],
-        "language": "ang",
         "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "11",
-          "pages": "9150-9159",
-          "title": "International Journal of Social Science and Human Research",
-          "volume": "08"
+          "title": "Software",
+          "type": "software"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -1537,72 +442,65 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17775285"
+                "pid_value": "20394688"
               }
             }
           ]
         }
       },
-      "title": "Russia\u2013Ukraine Conflict and Africa's Non-Aligned Strategy: Historical and International Relations Insights from Nigeria",
+      "title": "Analysis code for: \"Occupational Thermal Stress and Clustering of Injury Event in the Construction Industry: Integration of Environmental and Sociodemographic Factors in Brazil",
       "links": {
-        "self": "https://zenodo.org/api/records/17775286",
-        "self_html": "https://zenodo.org/records/17775286",
-        "preview_html": "https://zenodo.org/records/17775286?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775286",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775286",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775286",
-        "reserve_doi": "https://zenodo.org/api/records/17775286/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775285",
-        "parent_html": "https://zenodo.org/records/17775285",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775285",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775285",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775286/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775286/sequence/default",
-        "files": "https://zenodo.org/api/records/17775286/files",
-        "media_files": "https://zenodo.org/api/records/17775286/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775286:102.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775286:102.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775286:102.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775286:102.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775286:102.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775286:102.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17775286/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775286/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775286/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775286/latest",
-        "versions": "https://zenodo.org/api/records/17775286/versions",
-        "draft": "https://zenodo.org/api/records/17775286/draft",
-        "access_links": "https://zenodo.org/api/records/17775286/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775286/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775286/access/users",
-        "access_request": "https://zenodo.org/api/records/17775286/access/request",
-        "access": "https://zenodo.org/api/records/17775286/access",
-        "communities": "https://zenodo.org/api/records/17775286/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775286/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775286/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775286/file-modification",
-        "requests": "https://zenodo.org/api/records/17775286/requests"
+        "self": "https://zenodo.org/api/records/20394689",
+        "self_html": "https://zenodo.org/records/20394689",
+        "preview_html": "https://zenodo.org/records/20394689?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20394689",
+        "self_doi": "https://doi.org/10.5281/zenodo.20394689",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20394689",
+        "reserve_doi": "https://zenodo.org/api/records/20394689/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20394688",
+        "parent_html": "https://zenodo.org/records/20394688",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20394688",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20394688",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20394689/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20394689/sequence/default",
+        "files": "https://zenodo.org/api/records/20394689/files",
+        "media_files": "https://zenodo.org/api/records/20394689/media-files",
+        "archive": "https://zenodo.org/api/records/20394689/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20394689/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20394689/versions/latest",
+        "latest_html": "https://zenodo.org/records/20394689/latest",
+        "versions": "https://zenodo.org/api/records/20394689/versions",
+        "draft": "https://zenodo.org/api/records/20394689/draft",
+        "access_links": "https://zenodo.org/api/records/20394689/access/links",
+        "access_grants": "https://zenodo.org/api/records/20394689/access/grants",
+        "access_users": "https://zenodo.org/api/records/20394689/access/users",
+        "access_request": "https://zenodo.org/api/records/20394689/access/request",
+        "access": "https://zenodo.org/api/records/20394689/access",
+        "communities": "https://zenodo.org/api/records/20394689/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20394689/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20394689/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20394689/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20394689/quota-increase",
+        "requests": "https://zenodo.org/api/records/20394689/requests"
       },
-      "updated": "2025-12-01T08:21:45.289733+00:00",
-      "recid": "17775286",
+      "updated": "2026-06-01T14:00:46.298105+00:00",
+      "recid": "20394689",
       "revision": 4,
       "files": [
         {
-          "id": "a8cd51dc-b573-4e23-b410-a928812ab107",
-          "key": "102.pdf",
-          "size": 358765,
-          "checksum": "md5:fbddeac2a23117851610747cb60b1e9d",
+          "id": "15e14721-71b4-4c33-8383-be58d2e44734",
+          "key": "Code used for article analysis.ipynb",
+          "size": 492894,
+          "checksum": "md5:776b64cf6cda767fb35e2737c5feb5ca",
           "links": {
-            "self": "https://zenodo.org/api/records/17775286/files/102.pdf/content"
+            "self": "https://zenodo.org/api/records/20394689/files/Code%20used%20for%20article%20analysis.ipynb/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "294983"
+          "id": "1636587"
         }
       ],
       "status": "published",
@@ -1620,188 +518,82 @@
       "submitted": true
     },
     {
-      "created": "2025-12-01T08:18:06.225845+00:00",
-      "modified": "2025-12-01T08:18:06.402051+00:00",
-      "id": 17775204,
-      "conceptrecid": "15120269",
-      "doi": "10.5281/zenodo.17775204",
-      "conceptdoi": "10.5281/zenodo.15120269",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775204",
+      "created": "2026-06-01T14:00:24.177580+00:00",
+      "modified": "2026-06-01T14:00:24.621695+00:00",
+      "id": 20491430,
+      "conceptrecid": "20491429",
+      "doi": "10.5281/zenodo.20491430",
+      "conceptdoi": "10.5281/zenodo.20491429",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491430",
       "metadata": {
-        "title": "IA 3.2 brief: Development and implementation of incentive mechanisms at regional policy level to support fire-resilient landscapes. FIRE-RES Deliverable D3.4.",
-        "doi": "10.5281/zenodo.17775204",
-        "publication_date": "2025-11-30",
-        "description": "<p><span lang=\"EN-GB\">This report reflects the work conducted within the task 3.3 of FIRE-RES project. It aimed at analysing (i) how current economic incentives work in rewarding for ecosystem services benefits and spatial coordination of fire-resilient preparedness and restoration, (ii) the design and test an agglomeration bonus as an innovative subsidy scheme to achieve spatial coordination, (iii) the analysis of land consolidation measures, and (iv) the concepts of economic resilience to wildfires. (i) and (ii) were conducted for the Living Lab Catalonia, through (i) economic instrument design analysis, complemented with 12 in-depth interviews to participating forest owners, (ii) a behavioural experiment to 147 participants on an agglomeration bonus, (iii) and (iv) conceptual development based on literature review. </span></p>",
-        "access_right": "restricted",
-        "creators": [
-          {
-            "name": "G\u00f3rriz Mifsud, Elena",
-            "affiliation": "Forest Science and Technology Center of Catalonia (CTFC)",
-            "orcid": "0000-0002-2112-5780"
-          },
-          {
-            "name": "Cunha, Jorge",
-            "affiliation": "Laborat\u00f3rio Colaborativo para Gest\u00e3o Integrada da Floresta e do Fogo",
-            "orcid": "0000-0002-4313-8259"
-          },
-          {
-            "name": "Granell-Beltran, Bernat",
-            "affiliation": "Forest Science and Technology Centre of Catalonia"
-          },
-          {
-            "name": "Marques, Alexandra",
-            "affiliation": "CoLAB ForestWISE",
-            "orcid": "0000-0002-5791-8723"
-          },
-          {
-            "name": "Oll\u00e9-Mercad\u00e9, Josep",
-            "affiliation": "Forest Science and Technology Centre of Catalonia"
-          },
-          {
-            "name": "Rovellada Ballesteros, Marc",
-            "affiliation": "Forest Science and Technology Centre of Catalonia",
-            "orcid": "0009-0001-9813-7421"
-          }
-        ],
-        "keywords": [
-          "wildfire prevention",
-          "forest owner associations",
-          "climate credits",
-          "agglomeration bonus"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Project deliverable",
-          "type": "publication",
-          "subtype": "deliverable"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "grants": [
-          {
-            "code": "101037419",
-            "internal_id": "10.13039/501100000780::101037419",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Innovative technologies and socio-ecological-economic solutions for fire resilient territories in Europe.",
-            "acronym": "FIRE-RES",
-            "program": "H2020-EU.3.5.",
-            "url": "https://cordis.europa.eu/projects/101037419"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15120269"
-              }
-            }
-          ]
-        }
-      },
-      "title": "IA 3.2 brief: Development and implementation of incentive mechanisms at regional policy level to support fire-resilient landscapes. FIRE-RES Deliverable D3.4.",
-      "links": {
-        "self": "https://zenodo.org/api/records/17775204",
-        "self_html": "https://zenodo.org/records/17775204",
-        "preview_html": "https://zenodo.org/records/17775204?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775204",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775204",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775204",
-        "reserve_doi": "https://zenodo.org/api/records/17775204/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15120269",
-        "parent_html": "https://zenodo.org/records/15120269",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15120269",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15120269",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775204/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775204/sequence/default",
-        "files": "https://zenodo.org/api/records/17775204/files",
-        "media_files": "https://zenodo.org/api/records/17775204/media-files",
-        "archive": "https://zenodo.org/api/records/17775204/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775204/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775204/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775204/latest",
-        "versions": "https://zenodo.org/api/records/17775204/versions",
-        "draft": "https://zenodo.org/api/records/17775204/draft",
-        "access_links": "https://zenodo.org/api/records/17775204/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775204/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775204/access/users",
-        "access_request": "https://zenodo.org/api/records/17775204/access/request",
-        "access": "https://zenodo.org/api/records/17775204/access",
-        "communities": "https://zenodo.org/api/records/17775204/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775204/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775204/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775204/file-modification",
-        "requests": "https://zenodo.org/api/records/17775204/requests"
-      },
-      "updated": "2025-12-01T08:18:06.402051+00:00",
-      "recid": "17775204",
-      "revision": 4,
-      "files": [],
-      "swh": null,
-      "owners": [
-        {
-          "id": "293445"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 17,
-        "unique_views": 14,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T08:16:22.339753+00:00",
-      "modified": "2025-12-01T08:16:22.601658+00:00",
-      "id": 17775244,
-      "conceptrecid": "17775243",
-      "doi": "10.5281/zenodo.17775244",
-      "conceptdoi": "10.5281/zenodo.17775243",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775244",
-      "metadata": {
-        "title": "Training Early Childhood Moral Education from Imam Al-Ghazali's Perspective",
-        "doi": "10.5281/zenodo.17775244",
-        "publication_date": "2025-11-29",
-        "description": "<p>In the treasury of ideas offered by Imam Al-Ghazali regarding the formation of good morals in the early stages of child development, moral education is a conscious effort made to instill good behavior in every child. As a characteristic of Islamic education put forward by Imam Al-Ghazali, which emphasizes the importance of instilling moral values built from the basics of Islamic moral education. Considering the importance of moral education instilled in children from an early age, the formulation of the problem in this study is: how to train moral education for children according to Imam Al-Ghazali, and how to educate morals in children from Imam Al-Ghazali's perspective. This research is a library research. The approach used in this study is a historical pedagogical approach, while data sources consist of primary data and secondary data, and data analysis is carried out using content analysis techniques. The results of the study stated that Imam Al-Ghazali's thoughts on education place more emphasis on moral education by fostering good character and instilling commendable qualities in children from an early age, a method that can be used in educating children by implementing habits and telling stories of noble morals.</p>",
+        "title": "ResearchOptimizing Ratios for Eco-Friendly Apparel Production- Pineapple and Cotton Blend",
+        "doi": "10.5281/zenodo.20491430",
+        "publication_date": "2025-12-31",
+        "description": "Pareek, Himali, Agarwal, Smriti, Abstract, Supervisor (2025): ResearchOptimizing Ratios for Eco-Friendly Apparel Production- Pineapple and Cotton Blend. FishTaxa 37 (9): 214-221",
         "access_right": "open",
         "creators": [
           {
-            "name": "Siti Muhibah",
-            "affiliation": "Universitas Sultan Ageng Tirtayasa, Indonesia"
+            "name": "Pareek, Himali",
+            "affiliation": null
+          },
+          {
+            "name": "Agarwal, Smriti",
+            "affiliation": null
+          },
+          {
+            "name": "Abstract, Supervisor",
+            "affiliation": null
           }
         ],
         "keywords": [
-          "Early Childhood, Moral Education, Imam Al-Ghazali perspectives, Training, religion education."
+          "Biodiversity",
+          "Taxonomy"
         ],
-        "language": "ang",
+        "references": [
+          "1. Gupta, S., & Ramakrishnan, G. (2025). \"Characterization of Mercerized Pineapple Leaf Fibers for High-End Apparel.\" International Journal of Biological Macromolecules, 212, 445-458.",
+          "2. Mishra, R. K., et al. (2024). \"Statistical Optimization of Yarn Parameters using Response Surface Methodology.\" Textile Progress, 56(3), 110-135.",
+          "3. Sustainable Apparel Coalition (2024). Higg Materials Analysis: The Role of Agro-Waste in Decarbonizing Fashion.",
+          "4. Tan, N. M., & Nguyen, V. (2023). \"Socio-economic impact of pineapple leaf fiber extraction in Vietnam.\" Journal of Rural Development and Agriculture, 18(2), 67-82.",
+          "5. Z.hang, Y., & Li, X. (2025). \"Advancements in Short-Staple Spinning of Lignocellulosic Fibers.\" Journal of Cleaner Production, 402, 136-150",
+          "6. Kumar, A., et al. (2025). \"Crystallinity and Tensile Dynamics of Tropical Bast Fibers.\" Journal of Sustainable Textiles, 14(2), 112-128.",
+          "7. Silva, M. & Rahman, L. (2024). \"LCA of Pineapple Leaf Fiber Blends in Global Fashion.\" Sustainability in Production, 39(4), 889-905.",
+          "8. Senthilkumar, M. (2024). \"Optimization of Ring Spinning for Lignocellulosic Blends.\" Textile Research Journal, 94(1), 45- 59.",
+          "9. Garcia, A., Martinez, L., & Chen, Y. (2025). Moisture management and wicking performance of pineapple agro-fiber (PAF) blends in activewear. Journal of Sustainable Textiles, 12(2), 115-129.",
+          "10. Ibrahim, M. A., & Roslan, R. (2024). Chemical characterization of pineapple leaf fibers: The role of lignin and hemicellulose in textile spinning. International Journal of Natural Fibers, 21(1), 45-58.",
+          "11. Kumar, S., Ramesh, V., & Singh, P. (2025). Comparative structural analysis of tropical bast fibers using X-ray diffraction (XRD). Advanced Materials Research, 1180, 22-34.",
+          "12. Nguyen, T. H., & Lee, K. (2023). Optimization of twist factor and tenacity in PAF-cotton blended yarns. Textile Research Journal, 93(14), 3120-3133.",
+          "13. Patel, R., Sharma, A., & Gupta, N. (2022). Reducing the prickle factor: Enzymatic bio-polishing of pineapple agro-fibers for next-to-skin apparel. Green Chemistry & Sustainability, 8(4), 201-215.",
+          "14. Senthilkumar, P., & Selvakumar, M. (2024). Influence of Pineapple Agro-Fiber (PAF) blend ratios on yarn evenness and ring spinning stability. Journal of the Textile Institute, 115(3), 88-97.",
+          "15. Silva, J., & Rahman, F. (2024). Life cycle assessment (LCA) of PAF-blended textiles: A path toward Science Based Targets (SBTi). Sustainability & ESG Reports, 6(2), 402-418.",
+          "16. Thompson, H. (2024). Thermal conductivity and \"cool touch\" properties of pineapple leaf fiber blends using Alambeta measurement. Textile Performance Analysis, 29, 55-63.",
+          "17. Wang, L., & Gupta, S. (2023, September). Socio-economic impact of decentralized decortication in Southeast Asia. Paper presented at the 10th International Conference on Sustainable Development, New York, NY.",
+          "18. Z.hang, X., & Devi, R. (2023). Impact of alkali treatment (mercerization) on the surface morphology and inter-fiber friction of pineapple fibers. Surface & Coatings Technology, 450, 128-142.",
+          "19. Pertanika J. Sci. & Technol. 32 (S3): 41 - 55 (2024)"
+        ],
         "resource_type": {
           "title": "Journal article",
           "type": "publication",
           "subtype": "article"
         },
         "journal": {
-          "issue": "11",
-          "pages": "9146-9149",
-          "title": "International Journal of Social Science and Human Research",
-          "volume": "08"
+          "issue": "9",
+          "pages": "214-221",
+          "title": "FishTaxa",
+          "volume": "37"
         },
+        "alternate_identifiers": [
+          {
+            "identifier": "urn:lsid:plazi.org:pub:2C2F735F4C12FFB72762306F1353C778"
+          }
+        ],
         "license": {
           "id": "cc-by-4.0"
         },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
         "relations": {
           "version": [
             {
@@ -1809,72 +601,73 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17775243"
+                "pid_value": "20491429"
               }
             }
           ]
         }
       },
-      "title": "Training Early Childhood Moral Education from Imam Al-Ghazali's Perspective",
+      "title": "ResearchOptimizing Ratios for Eco-Friendly Apparel Production- Pineapple and Cotton Blend",
       "links": {
-        "self": "https://zenodo.org/api/records/17775244",
-        "self_html": "https://zenodo.org/records/17775244",
-        "preview_html": "https://zenodo.org/records/17775244?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775244",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775244",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775244",
-        "reserve_doi": "https://zenodo.org/api/records/17775244/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775243",
-        "parent_html": "https://zenodo.org/records/17775243",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775243",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775243",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775244/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775244/sequence/default",
-        "files": "https://zenodo.org/api/records/17775244/files",
-        "media_files": "https://zenodo.org/api/records/17775244/media-files",
+        "self": "https://zenodo.org/api/records/20491430",
+        "self_html": "https://zenodo.org/records/20491430",
+        "preview_html": "https://zenodo.org/records/20491430?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491430",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491430",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491430",
+        "reserve_doi": "https://zenodo.org/api/records/20491430/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491429",
+        "parent_html": "https://zenodo.org/records/20491429",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491429",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491429",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491430/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491430/sequence/default",
+        "files": "https://zenodo.org/api/records/20491430/files",
+        "media_files": "https://zenodo.org/api/records/20491430/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775244:101.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775244:101.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775244:101.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775244:101.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775244:101.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775244:101.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:20491430:source.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491430:source.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491430:source.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491430:source.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491430:source.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491430:source.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17775244/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775244/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775244/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775244/latest",
-        "versions": "https://zenodo.org/api/records/17775244/versions",
-        "draft": "https://zenodo.org/api/records/17775244/draft",
-        "access_links": "https://zenodo.org/api/records/17775244/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775244/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775244/access/users",
-        "access_request": "https://zenodo.org/api/records/17775244/access/request",
-        "access": "https://zenodo.org/api/records/17775244/access",
-        "communities": "https://zenodo.org/api/records/17775244/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775244/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775244/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775244/file-modification",
-        "requests": "https://zenodo.org/api/records/17775244/requests"
+        "archive": "https://zenodo.org/api/records/20491430/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491430/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491430/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491430/latest",
+        "versions": "https://zenodo.org/api/records/20491430/versions",
+        "draft": "https://zenodo.org/api/records/20491430/draft",
+        "access_links": "https://zenodo.org/api/records/20491430/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491430/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491430/access/users",
+        "access_request": "https://zenodo.org/api/records/20491430/access/request",
+        "access": "https://zenodo.org/api/records/20491430/access",
+        "communities": "https://zenodo.org/api/records/20491430/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491430/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491430/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491430/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491430/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491430/requests"
       },
-      "updated": "2025-12-01T08:16:22.601658+00:00",
-      "recid": "17775244",
-      "revision": 4,
+      "updated": "2026-06-01T14:00:24.621695+00:00",
+      "recid": "20491430",
+      "revision": 5,
       "files": [
         {
-          "id": "da78a912-7169-4fa8-a571-4bb4eb3dd3f9",
-          "key": "101.pdf",
-          "size": 249830,
-          "checksum": "md5:fc053651239d2df812b218409e5f6903",
+          "id": "c0cf64c9-d9ae-49cb-a99a-779667120ae4",
+          "key": "source.pdf",
+          "size": 611599,
+          "checksum": "md5:2c2f735f4c1256b72762306f1353c778",
           "links": {
-            "self": "https://zenodo.org/api/records/17775244/files/101.pdf/content"
+            "self": "https://zenodo.org/api/records/20491430/files/source.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "294983"
+          "id": "1161"
         }
       ],
       "status": "published",
@@ -1892,82 +685,346 @@
       "submitted": true
     },
     {
-      "created": "2025-12-01T08:13:55.944434+00:00",
-      "modified": "2025-12-01T08:13:56.562551+00:00",
-      "id": 17775183,
-      "conceptrecid": "17775182",
-      "doi": "10.5281/zenodo.17775183",
-      "conceptdoi": "10.5281/zenodo.17775182",
-      "doi_url": "https://doi.org/10.5281/zenodo.17775183",
+      "created": "2026-06-01T14:00:23.619161+00:00",
+      "modified": "2026-06-01T14:00:23.733635+00:00",
+      "id": 20491428,
+      "conceptrecid": "20491427",
+      "doi": "10.5281/zenodo.20491428",
+      "conceptdoi": "10.5281/zenodo.20491427",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491428",
       "metadata": {
-        "title": "Taxonomic and metabolic profiling of glacial ice algal communities on the Greenland Ice Sheet",
-        "doi": "10.5281/zenodo.17775183",
-        "publication_date": "2025-12-01",
-        "description": "<p>During the summer melt season, glacier ice algal blooms are widespread in the area termed &ldquo;dark</p>\n<p>zone&rdquo; in the southwest region of Greenland. Due to their pigmentation, glacier ice algae reduce the</p>\n<p>albedo of the ice sheet, increasing surface melting. Despite their crucial role in the Greenland Ice Sheet</p>\n<p>(GrIS) ecosystem, we know little about their metabolic potential or functions. Here, we present insights</p>\n<p>into the links between microbial community composition using 18S and ITS2 sequencing and total</p>\n<p>metabolic profiling of samples dominated by glacier ice algae from the GrIS. Our analysis of ITS2</p>\n<p>secondary structures reveals that blooms are dominated by a single algal species, yet glacier ice algal</p>\n<p>haplotype composition differs between sites (along a 40 km transect) and surface habitats (clean snow</p>\n<p>vs. high algal biomass ice). Furthermore, metabolic composition changes during the development of</p>\n<p>glacier ice algal blooms with an accumulation of fatty acids, although few differences were observed</p>\n<p>between sites along the transect. In addition, a few metabolites showed diurnal variations and our data</p>\n<p>suggest that under low light and freezing conditions, chlorophyll degradation, tocopherol abundance</p>\n<p>and phytol remobilization may be the key compounds changing in the glacier ice algae dominated</p>\n<p>samples. Overall, these results improve our understanding of the chemical environment in the GrIS</p>\n<p>supraglacial microbial community structure and the contribution of the primary producers dominated</p>\n<p>by the glacier ice algae. Our data also show that endo- and exo-metabolic patterns need to be</p>\n<p>differentiated and that multiplexed data sets will help gain a better insight into these complex algae-</p>\n<p>controlled ecosystems.</p>",
+        "title": "KAM Stability Certificates for Circadian Rhythms and H\u00b3 Geodesic Phylogenetic Distance Metrics",
+        "doi": "10.5281/zenodo.20491428",
+        "publication_date": "2026-06-01",
+        "description": "Biological oscillators are near-integrable Hamiltonians governed by KAM theory. Theorem OG-BIO01: Circadian oscillator passing KAMCheck() maintains amplitude stability under perturbations \u03b5&lt;1/21\u22484.76% \u2014 matching jet-lag recovery bounds. H\u00b3 geodesic distance computes evolutionary divergence with lower distortion than Euclidean embedding. ZPL applied to gene regulatory networks: GRN passing ZPL has zero net transcriptional bias \u2014 formal homeostasis certificate. Applications: drug chronotherapy, cancer cell cycle disruption, CRISPR off-target minimization. \u03ba=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
         "access_right": "open",
         "creators": [
           {
-            "name": "Lutz, Stefanie",
-            "affiliation": "Interface Geochemistry, GFZ Helmholtz Centre for Geosciences, Telegrafenberg, 14473 Potsdam, Germany"
-          },
-          {
-            "name": "Majumder, Anirban",
-            "affiliation": "Interface Geochemistry, GFZ Helmholtz Centre for Geosciences, Telegrafenberg, 14473 Potsdam, Germany"
-          },
-          {
-            "name": "Erban, Alexander",
-            "affiliation": "Max Planck Institute of Molecular Plant Physiology, Am M\u00fchlenberg 1, 14476 Potsdam, Germany"
-          },
-          {
-            "name": "McCutcheon, Jenine",
-            "affiliation": "School of Earth and Environment, University of Leeds, Leeds LS2 9JT, UK"
-          },
-          {
-            "name": "Anesio, Alexandre M.",
-            "affiliation": "Department of Environmental Science, Aarhus University, Roskilde, Denmark"
-          },
-          {
-            "name": "McQuaid, James B.",
-            "affiliation": "School of Earth and Environment, University of Leeds, Leeds LS2 9JT, UK"
-          },
-          {
-            "name": "Tranter, Martyn",
-            "affiliation": "Department of Environmental Science, Aarhus University, Roskilde, Denmark"
-          },
-          {
-            "name": "Kopka, Joachim",
-            "affiliation": "Max Planck Institute of Molecular Plant Physiology, Am M\u00fchlenberg 1, 14476 Potsdam, Germany"
-          },
-          {
-            "name": "Benning, Liane G.",
-            "affiliation": "Interface Geochemistry, GFZ Helmholtz Centre for Geosciences, Telegrafenberg, 14473 Potsdam, Germany"
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
           }
         ],
         "keywords": [
-          "glacier ice algae, Greenland, metabarcoding, metabolomics, Ancylonema"
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "circadian",
+          "phylogenetics",
+          "KAM",
+          "gene regulatory",
+          "evolutionary biology",
+          "H3 geometry"
         ],
-        "language": "eng",
         "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
+          "title": "Software",
+          "type": "software"
         },
         "license": {
           "id": "cc-by-4.0"
         },
-        "grants": [
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491427"
+              }
+            }
+          ]
+        }
+      },
+      "title": "KAM Stability Certificates for Circadian Rhythms and H\u00b3 Geodesic Phylogenetic Distance Metrics",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491428",
+        "self_html": "https://zenodo.org/records/20491428",
+        "preview_html": "https://zenodo.org/records/20491428?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491428",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491428",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491428",
+        "reserve_doi": "https://zenodo.org/api/records/20491428/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491427",
+        "parent_html": "https://zenodo.org/records/20491427",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491427",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491427",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491428/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491428/sequence/default",
+        "files": "https://zenodo.org/api/records/20491428/files",
+        "media_files": "https://zenodo.org/api/records/20491428/media-files",
+        "archive": "https://zenodo.org/api/records/20491428/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491428/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491428/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491428/latest",
+        "versions": "https://zenodo.org/api/records/20491428/versions",
+        "draft": "https://zenodo.org/api/records/20491428/draft",
+        "access_links": "https://zenodo.org/api/records/20491428/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491428/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491428/access/users",
+        "access_request": "https://zenodo.org/api/records/20491428/access/request",
+        "access": "https://zenodo.org/api/records/20491428/access",
+        "communities": "https://zenodo.org/api/records/20491428/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491428/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491428/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491428/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491428/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491428/requests"
+      },
+      "updated": "2026-06-01T14:00:23.733635+00:00",
+      "recid": "20491428",
+      "revision": 4,
+      "files": [
+        {
+          "id": "4972736a-6ee1-424d-b7d6-255c718a65b8",
+          "key": "pfmi_compliance.json",
+          "size": 586,
+          "checksum": "md5:3457cd75a725e2bf08b087aad3e8c662",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491428/files/pfmi_compliance.json/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T14:00:22.751676+00:00",
+      "modified": "2026-06-01T14:00:23.085611+00:00",
+      "id": 20472682,
+      "conceptrecid": "20472681",
+      "doi": "10.5281/zenodo.20472682",
+      "conceptdoi": "10.5281/zenodo.20472681",
+      "doi_url": "https://doi.org/10.5281/zenodo.20472682",
+      "metadata": {
+        "title": "Amrutha Yoga (Aithal Yoga) as a New Yoga for Healthy Aging and Cognitive Wellness: A Conceptual and Exploratory Research Based Proposal",
+        "doi": "10.5281/zenodo.20472682",
+        "publication_date": "2026-05-31",
+        "description": "<p class=\"MsoNormal\"><span>Modern society is increasingly affected by lifestyle-related disorders such as obesity, stress, anxiety, cognitive fatigue, hypertension, poor respiratory health, and sedentary living patterns. The rising prevalence of these conditions has created a growing demand for low-cost, time-efficient, and easily accessible preventive wellness systems that can simultaneously support physical health, mental relaxation, and cognitive well-being. Within the broader framework of Indian Yogic Science and Indian Knowledge Systems (IKS), this paper introduces and explores a novel breath-synchronized yogic formulation termed <em>Amrutha Yoga</em> or <em>Aithal Yoga</em>, conceptualized as a compact movement&ndash;breathing meditation system intended to promote longevity, cognitive enhancement, and preventive mind&ndash;body wellness. The proposed practice integrates rhythmic forward bending, abdominal compression, synchronized deep exhalation and inhalation, mindful movement, and controlled breathing within a simplified daily protocol requiring minimal time, space, and physical resources.</span></p>\n<p class=\"MsoNormal\"><span>The study addresses the research problem of increasing physical inactivity and stress-related health deterioration among modern populations, while also identifying the lack of scientifically interpreted compact yogic systems specifically designed for sustainable daily practice. The objectives of the study are to systematically interpret the structure and mechanism of Amrutha Yoga, evaluate its potential role in meditation, stress reduction, abdominal and visceral fat management, cognitive enhancement, and healthy aging, and examine its feasibility as a scalable preventive wellness innovation. The study adopts a qualitative exploratory research methodology using conceptual, descriptive, interpretative, and comparative approaches. Secondary data were collected from classical and contemporary yoga literature, Indian wellness philosophies, neuroscience-oriented breathing studies, preventive healthcare research, meditation literature, and the uploaded conceptual draft papers on Amrutha Yoga. </span></p>\n<p class=\"MsoNormal\"><span>The analytical frameworks used include SWOC Analysis, ABCD Analysis from practitioners&rsquo; and trainers&rsquo; perspectives, comparative evaluation with conventional yogic systems, and multidimensional Impact Analysis. The exploratory findings indicate that the synchronized breathing and compression&ndash;expansion mechanism of Amrutha Yoga may contribute to parasympathetic nervous system activation, stress reduction, respiratory efficiency, improved circulation, mindful awareness, abdominal activation, and enhanced cognitive calmness. The study further interprets Amrutha Yoga as a form of dynamic breath-centered meditation and a low-cost public-health-oriented wellness model suitable for busy professionals, elderly populations, students, and sedentary individuals. </span></p>\n<p class=\"MsoNormal\"><span>The originality of the paper lies in proposing a new integrated yogic formulation that combines movement, pranayama, mindfulness, abdominal compression, and rhythmic repetition into a concise wellness methodology. The paper also discusses the potential for intellectual-property protection through standardized instructional frameworks, training systems, wellness protocols, and scholarly documentation, while recognizing the challenges associated with patenting yoga-related innovations rooted in traditional knowledge systems. The study concludes that Amrutha Yoga represents a promising exploratory wellness innovation with potential applications in preventive healthcare, cognitive wellness, healthy aging, and public wellness promotion. However, future scientific validation through physiological, neurological, metabolic, and clinical studies&mdash;including EEG analysis, cortisol assessment, cognitive testing, and longitudinal health trials&mdash;is strongly recommended to establish empirical evidence regarding its effectiveness and broader therapeutic implications.</span></p>",
+        "access_right": "open",
+        "creators": [
           {
-            "code": "101072761",
-            "internal_id": "10.13039/501100000780::101072761",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Center for Glacial Biome Doctoral Network",
-            "acronym": "ICEBIO",
-            "program": "HORIZON.1.2",
-            "url": "https://cordis.europa.eu/projects/101072761"
+            "name": "P. S. Aithal",
+            "affiliation": "Professor, Poornaprajna Institute of Management, Udupi, 576101, India",
+            "orcid": "0000-0002-4691-8736"
+          }
+        ],
+        "keywords": [
+          "Amrutha Yoga",
+          "Aithal Yoga",
+          "Longevity",
+          "Cognitive Enhancement",
+          "Exploratory Research",
+          "Mind\u2013Body Wellness",
+          "Breath Meditation",
+          "Dynamic Yoga",
+          "Preventive Healthcare",
+          "Yogic Innovation"
+        ],
+        "language": "ang",
+        "resource_type": {
+          "title": "Journal",
+          "type": "publication",
+          "subtype": "journal"
+        },
+        "journal": {
+          "issue": "1",
+          "pages": "473-528",
+          "title": "Poornaprajna International Journal of Philosophy & Languages (PIJPL)",
+          "volume": "3"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20472681"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Amrutha Yoga (Aithal Yoga) as a New Yoga for Healthy Aging and Cognitive Wellness: A Conceptual and Exploratory Research Based Proposal",
+      "links": {
+        "self": "https://zenodo.org/api/records/20472682",
+        "self_html": "https://zenodo.org/records/20472682",
+        "preview_html": "https://zenodo.org/records/20472682?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20472682",
+        "self_doi": "https://doi.org/10.5281/zenodo.20472682",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20472682",
+        "reserve_doi": "https://zenodo.org/api/records/20472682/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20472681",
+        "parent_html": "https://zenodo.org/records/20472681",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20472681",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20472681",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20472682/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20472682/sequence/default",
+        "files": "https://zenodo.org/api/records/20472682/files",
+        "media_files": "https://zenodo.org/api/records/20472682/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20472682:21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20472682:21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20472682:21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20472682:21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20472682:21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20472682:21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20472682/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20472682/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20472682/versions/latest",
+        "latest_html": "https://zenodo.org/records/20472682/latest",
+        "versions": "https://zenodo.org/api/records/20472682/versions",
+        "draft": "https://zenodo.org/api/records/20472682/draft",
+        "access_links": "https://zenodo.org/api/records/20472682/access/links",
+        "access_grants": "https://zenodo.org/api/records/20472682/access/grants",
+        "access_users": "https://zenodo.org/api/records/20472682/access/users",
+        "access_request": "https://zenodo.org/api/records/20472682/access/request",
+        "access": "https://zenodo.org/api/records/20472682/access",
+        "communities": "https://zenodo.org/api/records/20472682/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20472682/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20472682/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20472682/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20472682/quota-increase",
+        "requests": "https://zenodo.org/api/records/20472682/requests"
+      },
+      "updated": "2026-06-01T14:00:23.085611+00:00",
+      "recid": "20472682",
+      "revision": 4,
+      "files": [
+        {
+          "id": "e874ef8f-09bc-40a5-aa61-e39e01eb8d72",
+          "key": "21. Amrutha Yoga - A systematic New Yoga Practice.pdf",
+          "size": 1277226,
+          "checksum": "md5:e285ccf2ad73a0b9912bd7b158c8be3b",
+          "links": {
+            "self": "https://zenodo.org/api/records/20472682/files/21.%20Amrutha%20Yoga%20-%20A%20systematic%20New%20Yoga%20Practice.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1125223"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T13:59:57.956059+00:00",
+      "modified": "2026-06-01T13:59:58.283306+00:00",
+      "id": 20491383,
+      "conceptrecid": "20491382",
+      "doi": "10.5281/zenodo.20491383",
+      "conceptdoi": "10.5281/zenodo.20491382",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491383",
+      "metadata": {
+        "title": "Fig-18: Comprehensive Performance Multimodal Analysis in Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment",
+        "doi": "10.5281/zenodo.20491383",
+        "publication_date": "2025-12-25",
+        "description": "Fig-18: Comprehensive Performance Multimodal Analysis",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Pandey, Rashmi",
+            "affiliation": null
+          },
+          {
+            "name": "Narwaria, Priusha",
+            "affiliation": null
+          },
+          {
+            "name": "Khatri, Diya",
+            "affiliation": null
+          },
+          {
+            "name": "Yadav, Devraj Singh",
+            "affiliation": null
+          },
+          {
+            "name": "Khatri, Dr. Pallavi",
+            "affiliation": null
+          },
+          {
+            "name": "Pandey, Dr Anand Kr.",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.64149/fishtaxa.37.190-208",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "urn:lsid:plazi.org:pub:BB6E384BCF28FFFC8740FFDC1000FFC3",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "lsid"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20491338",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Figure",
+          "type": "image",
+          "subtype": "figure"
+        },
+        "journal": {
+          "issue": "9",
+          "pages": "190-208",
+          "title": "FishTaxa",
+          "volume": "37"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
           }
         ],
         "relations": {
@@ -1977,81 +1034,562 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17775182"
+                "pid_value": "20491382"
               }
             }
           ]
-        }
-      },
-      "title": "Taxonomic and metabolic profiling of glacial ice algal communities on the Greenland Ice Sheet",
-      "links": {
-        "self": "https://zenodo.org/api/records/17775183",
-        "self_html": "https://zenodo.org/records/17775183",
-        "preview_html": "https://zenodo.org/records/17775183?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17775183",
-        "self_doi": "https://doi.org/10.5281/zenodo.17775183",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775183",
-        "reserve_doi": "https://zenodo.org/api/records/17775183/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17775182",
-        "parent_html": "https://zenodo.org/records/17775182",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17775182",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17775182",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17775183/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17775183/sequence/default",
-        "files": "https://zenodo.org/api/records/17775183/files",
-        "media_files": "https://zenodo.org/api/records/17775183/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17775183:Metabolomics%20ice%20algae_ZONODO%20pre-print_27%20Nov%202025.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17775183:Metabolomics%20ice%20algae_ZONODO%20pre-print_27%20Nov%202025.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17775183:Metabolomics%20ice%20algae_ZONODO%20pre-print_27%20Nov%202025.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17775183:Metabolomics%20ice%20algae_ZONODO%20pre-print_27%20Nov%202025.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17775183:Metabolomics%20ice%20algae_ZONODO%20pre-print_27%20Nov%202025.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17775183:Metabolomics%20ice%20algae_ZONODO%20pre-print_27%20Nov%202025.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17775183/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17775183/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17775183/versions/latest",
-        "latest_html": "https://zenodo.org/records/17775183/latest",
-        "versions": "https://zenodo.org/api/records/17775183/versions",
-        "draft": "https://zenodo.org/api/records/17775183/draft",
-        "access_links": "https://zenodo.org/api/records/17775183/access/links",
-        "access_grants": "https://zenodo.org/api/records/17775183/access/grants",
-        "access_users": "https://zenodo.org/api/records/17775183/access/users",
-        "access_request": "https://zenodo.org/api/records/17775183/access/request",
-        "access": "https://zenodo.org/api/records/17775183/access",
-        "communities": "https://zenodo.org/api/records/17775183/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17775183/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17775183/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17775183/file-modification",
-        "requests": "https://zenodo.org/api/records/17775183/requests"
+        "notes": "Published as part of <i>Pandey, Rashmi, Narwaria, Priusha, Khatri, Diya, Yadav, Devraj Singh, Khatri, Dr. Pallavi &amp; Pandey, Dr Anand Kr., 2025, Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment, pp. 190-208 in FishTaxa 37 (9)</i> on page 204, DOI: 10.64149/fishtaxa.37.190-208, <a href=\"http://zenodo.org/record/20491338\">http://zenodo.org/record/20491338</a>"
       },
-      "updated": "2025-12-01T08:13:56.562551+00:00",
-      "recid": "17775183",
-      "revision": 4,
+      "title": "Fig-18: Comprehensive Performance Multimodal Analysis in Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491383",
+        "self_html": "https://zenodo.org/records/20491383",
+        "preview_html": "https://zenodo.org/records/20491383?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491383",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491383",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491383",
+        "reserve_doi": "https://zenodo.org/api/records/20491383/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491382",
+        "parent_html": "https://zenodo.org/records/20491382",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491382",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491382",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491383/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491383/sequence/default",
+        "files": "https://zenodo.org/api/records/20491383/files",
+        "media_files": "https://zenodo.org/api/records/20491383/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20491383:figure.png/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491383:figure.png/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491383:figure.png/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491383:figure.png/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491383:figure.png/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491383:figure.png/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20491383/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491383/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491383/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491383/latest",
+        "versions": "https://zenodo.org/api/records/20491383/versions",
+        "draft": "https://zenodo.org/api/records/20491383/draft",
+        "access_links": "https://zenodo.org/api/records/20491383/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491383/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491383/access/users",
+        "access_request": "https://zenodo.org/api/records/20491383/access/request",
+        "access": "https://zenodo.org/api/records/20491383/access",
+        "communities": "https://zenodo.org/api/records/20491383/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491383/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491383/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491383/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491383/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491383/requests"
+      },
+      "updated": "2026-06-01T13:59:58.283306+00:00",
+      "recid": "20491383",
+      "revision": 5,
       "files": [
         {
-          "id": "0cc7f99b-d0c9-4b08-a55f-ab8412ddffe9",
-          "key": "Metabolomics ice algae_ZONODO pre-print_27 Nov 2025.pdf",
-          "size": 697245,
-          "checksum": "md5:50290f9152dc5ac7a5dbc62d78fda445",
+          "id": "056684b2-177c-48a8-aa8a-266d16234f69",
+          "key": "figure.png",
+          "size": 348902,
+          "checksum": "md5:99c9c669ce63c30e1d7e45ceb233539a",
           "links": {
-            "self": "https://zenodo.org/api/records/17775183/files/Metabolomics ice algae_ZONODO pre-print_27 Nov 2025.pdf/content"
-          }
-        },
-        {
-          "id": "7809dc19-1293-470e-9198-428f853be074",
-          "key": "Metabolomics ice algae_Supplementary_Material_ZONODO pre-print_27 Nov 2025.pdf",
-          "size": 292471,
-          "checksum": "md5:58293c97ec9729a6cc343642b83b840c",
-          "links": {
-            "self": "https://zenodo.org/api/records/17775183/files/Metabolomics ice algae_Supplementary_Material_ZONODO pre-print_27 Nov 2025.pdf/content"
+            "self": "https://zenodo.org/api/records/20491383/files/figure.png/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1477628"
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T13:59:55.841449+00:00",
+      "modified": "2026-06-01T13:59:56.163505+00:00",
+      "id": 20491379,
+      "conceptrecid": "20491378",
+      "doi": "10.5281/zenodo.20491379",
+      "conceptdoi": "10.5281/zenodo.20491378",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491379",
+      "metadata": {
+        "title": "Fig-17: Model Ranking by Overall Performance Graph in Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment",
+        "doi": "10.5281/zenodo.20491379",
+        "publication_date": "2025-12-25",
+        "description": "Fig-17: Model Ranking by Overall Performance Graph",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Pandey, Rashmi",
+            "affiliation": null
+          },
+          {
+            "name": "Narwaria, Priusha",
+            "affiliation": null
+          },
+          {
+            "name": "Khatri, Diya",
+            "affiliation": null
+          },
+          {
+            "name": "Yadav, Devraj Singh",
+            "affiliation": null
+          },
+          {
+            "name": "Khatri, Dr. Pallavi",
+            "affiliation": null
+          },
+          {
+            "name": "Pandey, Dr Anand Kr.",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.64149/fishtaxa.37.190-208",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "urn:lsid:plazi.org:pub:BB6E384BCF28FFFC8740FFDC1000FFC3",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "lsid"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20491338",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Figure",
+          "type": "image",
+          "subtype": "figure"
+        },
+        "journal": {
+          "issue": "9",
+          "pages": "190-208",
+          "title": "FishTaxa",
+          "volume": "37"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491378"
+              }
+            }
+          ]
+        },
+        "notes": "Published as part of <i>Pandey, Rashmi, Narwaria, Priusha, Khatri, Diya, Yadav, Devraj Singh, Khatri, Dr. Pallavi &amp; Pandey, Dr Anand Kr., 2025, Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment, pp. 190-208 in FishTaxa 37 (9)</i> on page 203, DOI: 10.64149/fishtaxa.37.190-208, <a href=\"http://zenodo.org/record/20491338\">http://zenodo.org/record/20491338</a>"
+      },
+      "title": "Fig-17: Model Ranking by Overall Performance Graph in Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491379",
+        "self_html": "https://zenodo.org/records/20491379",
+        "preview_html": "https://zenodo.org/records/20491379?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491379",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491379",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491379",
+        "reserve_doi": "https://zenodo.org/api/records/20491379/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491378",
+        "parent_html": "https://zenodo.org/records/20491378",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491378",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491378",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491379/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491379/sequence/default",
+        "files": "https://zenodo.org/api/records/20491379/files",
+        "media_files": "https://zenodo.org/api/records/20491379/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20491379:figure.png/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491379:figure.png/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491379:figure.png/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491379:figure.png/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491379:figure.png/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491379:figure.png/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20491379/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491379/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491379/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491379/latest",
+        "versions": "https://zenodo.org/api/records/20491379/versions",
+        "draft": "https://zenodo.org/api/records/20491379/draft",
+        "access_links": "https://zenodo.org/api/records/20491379/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491379/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491379/access/users",
+        "access_request": "https://zenodo.org/api/records/20491379/access/request",
+        "access": "https://zenodo.org/api/records/20491379/access",
+        "communities": "https://zenodo.org/api/records/20491379/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491379/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491379/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491379/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491379/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491379/requests"
+      },
+      "updated": "2026-06-01T13:59:56.163505+00:00",
+      "recid": "20491379",
+      "revision": 5,
+      "files": [
+        {
+          "id": "86071323-1cc8-4c62-8644-b74be81666c0",
+          "key": "figure.svg",
+          "size": 8059,
+          "checksum": "md5:b090619c3a558887edabff1779f51aa7",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491379/files/figure.svg/content"
+          }
+        },
+        {
+          "id": "d411de4e-cb13-4c05-8549-e2bf1e43b8f7",
+          "key": "figure.png",
+          "size": 73500,
+          "checksum": "md5:e3c8c05f9c141cdc419b19dadac861cf",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491379/files/figure.png/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T13:59:54.612498+00:00",
+      "modified": "2026-06-01T13:59:54.716548+00:00",
+      "id": 20491375,
+      "conceptrecid": "20491374",
+      "doi": "10.5281/zenodo.20491375",
+      "conceptdoi": "10.5281/zenodo.20491374",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491375",
+      "metadata": {
+        "title": "KAM Resonance Detection for Drug Interaction Analysis and Pharmacokinetic Chaos Certification",
+        "doi": "10.5281/zenodo.20491375",
+        "publication_date": "2026-06-01",
+        "description": "Multi-drug pharmacokinetic systems are near-integrable Hamiltonians. OmegaFlow v13 KAMCheck() certifies resonance avoidance (coprimality condition). Lyapunov \u03bb as ADI risk score (\u03bb&lt;0.01=safe, \u03bb&gt;0.05=high risk). H\u00b3 geodesic distance between drug state vectors as molecular similarity metric superior to Euclidean Tanimoto for scale-free pharmacological networks. Tree of Life potential field provides topological map of ligand-receptor binding landscapes. \u03ba=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Gary Charles Gonzalez",
+            "affiliation": null,
+            "orcid": "0009-0003-2911-444X"
+          }
+        ],
+        "keywords": [
+          "omegagenesis",
+          "OmegaFlow-v13",
+          "H3-hyperbolic",
+          "ORCID:0009-0003-2911-444X",
+          "pharmacokinetics",
+          "drug interactions",
+          "KAM",
+          "Lyapunov",
+          "molecular similarity",
+          "H3 geometry"
+        ],
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491374"
+              }
+            }
+          ]
+        }
+      },
+      "title": "KAM Resonance Detection for Drug Interaction Analysis and Pharmacokinetic Chaos Certification",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491375",
+        "self_html": "https://zenodo.org/records/20491375",
+        "preview_html": "https://zenodo.org/records/20491375?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491375",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491375",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491375",
+        "reserve_doi": "https://zenodo.org/api/records/20491375/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491374",
+        "parent_html": "https://zenodo.org/records/20491374",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491374",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491374",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491375/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491375/sequence/default",
+        "files": "https://zenodo.org/api/records/20491375/files",
+        "media_files": "https://zenodo.org/api/records/20491375/media-files",
+        "archive": "https://zenodo.org/api/records/20491375/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491375/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491375/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491375/latest",
+        "versions": "https://zenodo.org/api/records/20491375/versions",
+        "draft": "https://zenodo.org/api/records/20491375/draft",
+        "access_links": "https://zenodo.org/api/records/20491375/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491375/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491375/access/users",
+        "access_request": "https://zenodo.org/api/records/20491375/access/request",
+        "access": "https://zenodo.org/api/records/20491375/access",
+        "communities": "https://zenodo.org/api/records/20491375/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491375/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491375/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491375/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491375/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491375/requests"
+      },
+      "updated": "2026-06-01T13:59:54.716548+00:00",
+      "recid": "20491375",
+      "revision": 4,
+      "files": [
+        {
+          "id": "c18c628b-1fce-4510-9de9-2f41b355ee41",
+          "key": "pfmi_compliance.json",
+          "size": 586,
+          "checksum": "md5:3457cd75a725e2bf08b087aad3e8c662",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491375/files/pfmi_compliance.json/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1358538"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T13:59:53.520209+00:00",
+      "modified": "2026-06-01T13:59:54.233999+00:00",
+      "id": 20491377,
+      "conceptrecid": "20491376",
+      "doi": "10.5281/zenodo.20491377",
+      "conceptdoi": "10.5281/zenodo.20491376",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491377",
+      "metadata": {
+        "title": "Fig-16: Precision Vs Recall Trade-Off Line Chart in Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment",
+        "doi": "10.5281/zenodo.20491377",
+        "publication_date": "2025-12-25",
+        "description": "Fig-16: Precision Vs Recall Trade-Off Line Chart",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Pandey, Rashmi",
+            "affiliation": null
+          },
+          {
+            "name": "Narwaria, Priusha",
+            "affiliation": null
+          },
+          {
+            "name": "Khatri, Diya",
+            "affiliation": null
+          },
+          {
+            "name": "Yadav, Devraj Singh",
+            "affiliation": null
+          },
+          {
+            "name": "Khatri, Dr. Pallavi",
+            "affiliation": null
+          },
+          {
+            "name": "Pandey, Dr Anand Kr.",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.64149/fishtaxa.37.190-208",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "urn:lsid:plazi.org:pub:BB6E384BCF28FFFC8740FFDC1000FFC3",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "lsid"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20491338",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          }
+        ],
+        "resource_type": {
+          "title": "Figure",
+          "type": "image",
+          "subtype": "figure"
+        },
+        "journal": {
+          "issue": "9",
+          "pages": "190-208",
+          "title": "FishTaxa",
+          "volume": "37"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491376"
+              }
+            }
+          ]
+        },
+        "notes": "Published as part of <i>Pandey, Rashmi, Narwaria, Priusha, Khatri, Diya, Yadav, Devraj Singh, Khatri, Dr. Pallavi &amp; Pandey, Dr Anand Kr., 2025, Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment, pp. 190-208 in FishTaxa 37 (9)</i> on page 203, DOI: 10.64149/fishtaxa.37.190-208, <a href=\"http://zenodo.org/record/20491338\">http://zenodo.org/record/20491338</a>"
+      },
+      "title": "Fig-16: Precision Vs Recall Trade-Off Line Chart in Multimodal Analysis for Early Parkinson's Disease Detection: Integrating Voice Analysis and Brain MRI Analysis with Web-Based Deployment",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491377",
+        "self_html": "https://zenodo.org/records/20491377",
+        "preview_html": "https://zenodo.org/records/20491377?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491377",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491377",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491377",
+        "reserve_doi": "https://zenodo.org/api/records/20491377/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491376",
+        "parent_html": "https://zenodo.org/records/20491376",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491376",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491376",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491377/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491377/sequence/default",
+        "files": "https://zenodo.org/api/records/20491377/files",
+        "media_files": "https://zenodo.org/api/records/20491377/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20491377:figure.png/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491377:figure.png/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491377:figure.png/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491377:figure.png/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491377:figure.png/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491377:figure.png/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20491377/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491377/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491377/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491377/latest",
+        "versions": "https://zenodo.org/api/records/20491377/versions",
+        "draft": "https://zenodo.org/api/records/20491377/draft",
+        "access_links": "https://zenodo.org/api/records/20491377/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491377/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491377/access/users",
+        "access_request": "https://zenodo.org/api/records/20491377/access/request",
+        "access": "https://zenodo.org/api/records/20491377/access",
+        "communities": "https://zenodo.org/api/records/20491377/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491377/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491377/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491377/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491377/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491377/requests"
+      },
+      "updated": "2026-06-01T13:59:54.233999+00:00",
+      "recid": "20491377",
+      "revision": 5,
+      "files": [
+        {
+          "id": "ed5049e6-0998-418d-a045-47d4c51ee60e",
+          "key": "figure.png",
+          "size": 83882,
+          "checksum": "md5:3682d268d857a6fa264c1a973f2c0130",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491377/files/figure.png/content"
+          }
+        },
+        {
+          "id": "f17c2084-83ed-40f1-a1c0-dcf00bac7059",
+          "key": "figure.svg",
+          "size": 278401,
+          "checksum": "md5:43dc642f11013c5adc31bfb2959792f5",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491377/files/figure.svg/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
         }
       ],
       "status": "published",

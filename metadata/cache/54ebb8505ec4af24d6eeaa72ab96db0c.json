@@ -1,17 +1,18 @@
 {
-  "cache_date": "2025-11-01T11:31:26.333489",
+  "cache_date": "2026-06-01T16:24:28.348176",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2022,
-            4,
-            1
+            2026,
+            2,
+            28
           ]
         ],
-        "date-time": "2022-04-01T15:45:15Z",
-        "timestamp": 1648827915106
+        "date-time": "2026-02-28T09:19:38Z",
+        "timestamp": 1772270378283,
+        "version": "3.50.1"
       },
       "reference-count": 0,
       "publisher": "PeerJ",
@@ -29,8 +30,8 @@
             26
           ]
         ],
-        "date-time": "2020-02-26T09:04:11Z",
-        "timestamp": 1582707851000
+        "date-time": "2020-02-26T04:04:11Z",
+        "timestamp": 1582689851000
       },
       "source": "Crossref",
       "is-referenced-by-count": 0,
@@ -47,10 +48,10 @@
             26
           ]
         ],
-        "date-time": "2020-02-26T09:04:21Z",
-        "timestamp": 1582707861000
+        "date-time": "2020-02-26T04:04:21Z",
+        "timestamp": 1582689861000
       },
-      "score": 30.242184,
+      "score": 30.475742,
       "resource": {
         "primary": {
           "URL": "https://peerj.com/articles/8584/fig-1"
@@ -64,7 +65,16 @@
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.7717/peerj.8584/fig-1"
+      "URL": "https://doi.org/10.7717/peerj.8584/fig-1",
+      "relation": {
+        "is-component-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7717/peerj.8584",
+            "asserted-by": "object"
+          }
+        ]
+      }
     },
     {
       "indexed": {
@@ -126,7 +136,13 @@
           "given": "Caroline C.",
           "family": "Friedel",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "301",
@@ -145,7 +161,7 @@
         "date-time": "2021-06-30T02:47:20Z",
         "timestamp": 1625021240000
       },
-      "score": 28.123238,
+      "score": 28.189018,
       "resource": {
         "primary": {
           "URL": "https://www.taylorfrancis.com/books/9781003097679/chapters/10.1201/9781003097679-9"
@@ -184,14 +200,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            6,
-            3
+            2026,
+            5,
+            5
           ]
         ],
-        "date-time": "2025-06-03T04:11:57Z",
-        "timestamp": 1748923917609,
-        "version": "3.41.0"
+        "date-time": "2026-05-05T14:30:33Z",
+        "timestamp": 1777991433659,
+        "version": "3.51.4"
       },
       "posted": {
         "date-parts": [
@@ -204,7 +220,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 58,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
@@ -218,7 +234,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>Viruses of microbes are ubiquitous biological entities that reprogram their hosts\u2019 metabolisms during infection in order to produce viral progeny, impacting the ecology and evolution of microbiomes with broad implications for human and environmental health. Advances in genome sequencing have led to the discovery of millions of novel viruses and an appreciation for the great diversity of viruses on Earth. Yet, with knowledge of only<jats:italic>\u201cwho is there?\u201d</jats:italic>we fall short in our ability to infer the impacts of viruses on microbes at population, community, and ecosystem-scales. To do this, we need a more explicit understanding<jats:italic>\u201cwho do they infect?\u201d</jats:italic>Here, we developed a novel machine learning model (ML), Virus-Host Interaction Predictor (VHIP), to predict virus-host interactions (infection/non-infection) from input virus and host genomes. This ML model was trained and tested on a high-value manually curated set of 8849 virus-host pairs and their corresponding sequence data. The resulting dataset, \u2018Virus Host Range network\u2019 (VHRnet), is core to VHIP functionality. Each data point that underlies the VHIP training and testing represents a lab-tested virus-host pair in VHRnet, from which features of coevolution were computed. VHIP departs from existing virus-host prediction models in its ability to predict multiple interactions rather than predicting a single most likely host or host clade. As a result, VHIP is the first virus-host range prediction tool able to reconstruct the complexity of virus-host networks in natural systems. VHIP has an 87.8% accuracy rate at predicting interactions between virus-host pairs at the species level and can be applied to novel viral and host population genomes reconstructed from metagenomic datasets. Through the reconstruction of complete virus-host networks from novel data, VHIP allows for the integration of multilayer network theory into microbial ecology and opens new opportunities to study ecological complexity in microbial systems.</jats:p><jats:sec><jats:title>Author summary</jats:title><jats:p>The ecology and evolution of microbial communities are deeply influenced by viruses. Metagenomics analysis, the non-targeted sequencing of community genomes, has led to the discovery of millions of novel viruses. Yet, through the sequencing process, only DNA sequences are recovered, begging the question: which microbial hosts do those novel viruses infect? To address this question, we developed a computational tool to allow researchers to predict virus-host interactions from such sequence data. The power of this tool is its use of a high-value, manually curated set of 8849 lab-verified virus-host pairs and their corresponding sequence data. For each pair, we computed signals of coevolution to use as the predictive features in a machine learning model designed to predict interactions between viruses and hosts. The resulting model, Virus-Host Interaction Predictor (VHIP), has an accuracy of 87.8% and can be applied to novel viral and host genomes reconstructed from metagenomic datasets. Because the model considers all possible virus-host pairs, it can resolve complete virus-host interaction networks and supports a new avenue to apply network thinking to viral ecology.</jats:p></jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Viruses of microbes are ubiquitous biological entities that reprogram their hosts\u2019 metabolisms during infection in order to produce viral progeny, impacting the ecology and evolution of microbiomes with broad implications for human and environmental health. Advances in genome sequencing have led to the discovery of millions of novel viruses and an appreciation for the great diversity of viruses on Earth. Yet, with knowledge of only\n                  <jats:italic>\u201cwho is there?\u201d</jats:italic>\n                  we fall short in our ability to infer the impacts of viruses on microbes at population, community, and ecosystem-scales. To do this, we need a more explicit understanding\n                  <jats:italic>\u201cwho do they infect?\u201d</jats:italic>\n                  Here, we developed a novel machine learning model (ML), Virus-Host Interaction Predictor (VHIP), to predict virus-host interactions (infection/non-infection) from input virus and host genomes. This ML model was trained and tested on a high-value manually curated set of 8849 virus-host pairs and their corresponding sequence data. The resulting dataset, \u2018Virus Host Range network\u2019 (VHRnet), is core to VHIP functionality. Each data point that underlies the VHIP training and testing represents a lab-tested virus-host pair in VHRnet, from which features of coevolution were computed. VHIP departs from existing virus-host prediction models in its ability to predict multiple interactions rather than predicting a single most likely host or host clade. As a result, VHIP is the first virus-host range prediction tool able to reconstruct the complexity of virus-host networks in natural systems. VHIP has an 87.8% accuracy rate at predicting interactions between virus-host pairs at the species level and can be applied to novel viral and host population genomes reconstructed from metagenomic datasets. Through the reconstruction of complete virus-host networks from novel data, VHIP allows for the integration of multilayer network theory into microbial ecology and opens new opportunities to study ecological complexity in microbial systems.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>The ecology and evolution of microbial communities are deeply influenced by viruses. Metagenomics analysis, the non-targeted sequencing of community genomes, has led to the discovery of millions of novel viruses. Yet, through the sequencing process, only DNA sequences are recovered, begging the question: which microbial hosts do those novel viruses infect? To address this question, we developed a computational tool to allow researchers to predict virus-host interactions from such sequence data. The power of this tool is its use of a high-value, manually curated set of 8849 lab-verified virus-host pairs and their corresponding sequence data. For each pair, we computed signals of coevolution to use as the predictive features in a machine learning model designed to predict interactions between viruses and hosts. The resulting model, Virus-Host Interaction Predictor (VHIP), has an accuracy of 87.8% and can be applied to novel viral and host genomes reconstructed from metagenomic datasets. Because the model considers all possible virus-host pairs, it can resolve complete virus-host interaction networks and supports a new avenue to apply network thinking to viral ecology.</jats:p>\n                </jats:sec>",
       "DOI": "10.1101/2023.11.03.565433",
       "type": "posted-content",
       "created": {
@@ -229,15 +245,15 @@
             5
           ]
         ],
-        "date-time": "2023-11-05T21:40:15Z",
-        "timestamp": 1699220415000
+        "date-time": "2023-11-05T16:40:15Z",
+        "timestamp": 1699202415000
       },
       "source": "Crossref",
-      "is-referenced-by-count": 1,
+      "is-referenced-by-count": 2,
       "title": [
         "Virus-Host Interactions Predictor (VHIP): machine learning approach to resolve microbial virus-host interaction networks"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0000-0003-1644-600X",
@@ -245,40 +261,76 @@
           "given": "Eric G.",
           "family": "Bastien",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Rachel N.",
           "family": "Cable",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Luis",
           "family": "Zaman",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Cecelia",
           "family": "Batterbee",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "A.J",
           "family": "Wing",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Melissa B.",
           "family": "Duhaime",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "issue": "1",
@@ -670,15 +722,15 @@
       "deposited": {
         "date-parts": [
           [
-            2025,
-            6,
-            3
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-06-03T02:29:17Z",
-        "timestamp": 1748917757000
+        "date-time": "2026-01-15T05:29:08Z",
+        "timestamp": 1768454948000
       },
-      "score": 24.69031,
+      "score": 24.801836,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.03.565433"
@@ -789,13 +841,25 @@
           "given": "DB",
           "family": "Boakye",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "JW",
           "family": "Randles",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "67",
@@ -828,7 +892,7 @@
         "date-time": "2025-10-25T01:50:04Z",
         "timestamp": 1761357004000
       },
-      "score": 24.660833,
+      "score": 24.786587,
       "resource": {
         "primary": {
           "URL": "https://connectsci.au/cp/article/25/5/791/30448/Epidemiology-of-lettuce-necrotic-yellows-virus-in"
@@ -890,14 +954,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            2,
-            21
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-02-21T00:34:47Z",
-        "timestamp": 1740098087513,
-        "version": "3.37.3"
+        "date-time": "2026-01-15T15:38:07Z",
+        "timestamp": 1768491487453,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -910,7 +974,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 71,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -942,7 +1006,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Viruses such as SARS-CoV-2 infect the human body by forming interactions between virus proteins and human proteins. However, experimental methods to find protein interactions are inadequate: large scale experiments are noisy, and small scale experiments are slow and expensive. Inspired by the recent successes of deep neural networks, we hypothesize that deep learning methods are well-positioned to aid and augment biological experiments, hoping to help identify more accurate virus-host protein interaction maps. Moreover, computational methods can quickly adapt to predict how virus mutations change protein interactions with the host proteins.</jats:p><jats:p>We propose DeepVHPPI, a novel deep learning framework combining a self-attention-based transformer architecture and a transfer learning training strategy to predict interactions between human proteins and virus proteins that have novel sequence patterns. We show that our approach outperforms the state-of-the-art methods significantly in predicting Virus\u2013Human protein interactions for SARS-CoV-2, H1N1, and Ebola. In addition, we demonstrate how our framework can be used to predict and interpret the interactions of mutated SARS-CoV-2 Spike protein sequences.</jats:p><jats:sec><jats:title>Availability</jats:title><jats:p>We make all of our data and code available on GitHub<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/QData/DeepVHPPI\">https://github.com/QData/DeepVHPPI</jats:ext-link>.</jats:p></jats:sec><jats:sec><jats:title>ACM Reference Format</jats:title><jats:p>Jack Lanchantin, Tom Weingarten, Arshdeep Sekhon, Clint Miller, and Yanjun Qi. 2021. Transfer Learning for Predicting Virus-Host Protein Interactions for Novel Virus Sequences. In<jats:italic>Proceedings of ACM Conference (ACM-BCB)</jats:italic>. ACM, New York, NY, USA, 10 pages. https://doi.org/??</jats:p></jats:sec>",
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Viruses such as SARS-CoV-2 infect the human body by forming interactions between virus proteins and human proteins. However, experimental methods to find protein interactions are inadequate: large scale experiments are noisy, and small scale experiments are slow and expensive. Inspired by the recent successes of deep neural networks, we hypothesize that deep learning methods are well-positioned to aid and augment biological experiments, hoping to help identify more accurate virus-host protein interaction maps. Moreover, computational methods can quickly adapt to predict how virus mutations change protein interactions with the host proteins.</jats:p>\n                <jats:p>We propose DeepVHPPI, a novel deep learning framework combining a self-attention-based transformer architecture and a transfer learning training strategy to predict interactions between human proteins and virus proteins that have novel sequence patterns. We show that our approach outperforms the state-of-the-art methods significantly in predicting Virus\u2013Human protein interactions for SARS-CoV-2, H1N1, and Ebola. In addition, we demonstrate how our framework can be used to predict and interpret the interactions of mutated SARS-CoV-2 Spike protein sequences.</jats:p>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    We make all of our data and code available on GitHub\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/QData/DeepVHPPI\">https://github.com/QData/DeepVHPPI</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>ACM Reference Format</jats:title>\n                  <jats:p>\n                    Jack Lanchantin, Tom Weingarten, Arshdeep Sekhon, Clint Miller, and Yanjun Qi. 2021. Transfer Learning for Predicting Virus-Host Protein Interactions for Novel Virus Sequences. In\n                    <jats:italic>Proceedings of ACM Conference (ACM-BCB)</jats:italic>\n                    . ACM, New York, NY, USA, 10 pages. https://doi.org/??\n                  </jats:p>\n                </jats:sec>",
       "DOI": "10.1101/2020.12.14.422772",
       "type": "posted-content",
       "created": {
@@ -953,39 +1017,63 @@
             16
           ]
         ],
-        "date-time": "2020-12-16T23:12:32Z",
-        "timestamp": 1608160352000
+        "date-time": "2020-12-16T18:12:32Z",
+        "timestamp": 1608142352000
       },
       "source": "Crossref",
       "is-referenced-by-count": 4,
       "title": [
         "Transfer Learning for Predicting Virus-Host Protein Interactions for Novel Virus Sequences"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "given": "Jack",
           "family": "Lanchantin",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Tom",
           "family": "Weingarten",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Arshdeep",
           "family": "Sekhon",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Clint",
           "family": "Miller",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-5796-7453",
@@ -993,10 +1081,16 @@
           "given": "Yanjun",
           "family": "Qi",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "issue": "4",
@@ -1024,16 +1118,16 @@
           "journal-title": "Journal of Machine Learning Research"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.4",
           "article-title": "Layer normalization",
           "year": "2016",
-          "key": "2024080504332566000_2020.12.14.422772v2.4"
+          "journal-title": "arXiv preprint"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.5",
           "article-title": "Cloze-driven pretraining of self-attention networks",
           "year": "2019",
-          "key": "2024080504332566000_2020.12.14.422772v2.5"
+          "journal-title": "arXiv preprint"
         },
         {
           "issue": "11",
@@ -1060,10 +1154,10 @@
           "journal-title": "Journal of machine learning research"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.9",
           "article-title": "Learning protein sequence embeddings using information from structure",
           "year": "2019",
-          "key": "2024080504332566000_2020.12.14.422772v2.9"
+          "journal-title": "arXiv preprint"
         },
         {
           "issue": "11",
@@ -1111,10 +1205,10 @@
           "DOI": "10.1016/j.tibs.2010.10.002"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.17",
           "article-title": "Bert: Pretraining of deep bidirectional transformers for language understanding",
           "year": "2018",
-          "key": "2024080504332566000_2020.12.14.422772v2.17"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.18",
@@ -1155,10 +1249,10 @@
           "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 770\u2013778, 2016."
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.26",
           "article-title": "Gaussian error linear units (gelus)",
           "year": "2016",
-          "key": "2024080504332566000_2020.12.14.422772v2.26"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.27",
@@ -1182,10 +1276,10 @@
           "DOI": "10.21203/rs.3.rs-28592/v1"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.31",
           "article-title": "Adam: A method for stochastic optimization",
           "year": "2014",
-          "key": "2024080504332566000_2020.12.14.422772v2.31"
+          "journal-title": "arXiv preprint"
         },
         {
           "issue": "6",
@@ -1199,10 +1293,10 @@
           "journal-title": "Proteins: Structure, Function, and Bioinformatics"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.33",
           "article-title": "Meta-sgd: Learning to learn quickly for few-shot learning",
           "year": "2017",
-          "key": "2024080504332566000_2020.12.14.422772v2.33"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.34",
@@ -1228,10 +1322,10 @@
           "unstructured": "Seonwoo Min , Seunghyun Park , Siwon Kim , Hyun-Soo Choi , and Sungroh Yoon . Pre-training of deep bidirectional protein sequence representations with structural information, 2019."
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.39",
           "article-title": "Reevaluating adversarial examples in natural language",
           "year": "2020",
-          "key": "2024080504332566000_2020.12.14.422772v2.39"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.40",
@@ -1269,10 +1363,10 @@
           "DOI": "10.3115/v1/D14-1162"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.45",
           "article-title": "Semi-supervised sequence tagging with bidirectional language models",
           "year": "2017",
-          "key": "2024080504332566000_2020.12.14.422772v2.45"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.46",
@@ -1304,16 +1398,16 @@
           "unstructured": "Alec Radford , Jeffrey Wu , Rewon Child , David Luan , Dario Amodei , and Ilya Sutskever . Language models are unsupervised multitask learners, 2019."
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.51",
           "article-title": "Stand-alone self-attention in vision models",
           "year": "2019",
-          "key": "2024080504332566000_2020.12.14.422772v2.51"
+          "journal-title": "arXiv preprint"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.52",
           "article-title": "Evaluating protein transfer learning with tape",
           "year": "2019",
-          "key": "2024080504332566000_2020.12.14.422772v2.52"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.53",
@@ -1336,10 +1430,10 @@
           "journal-title": "Nature methods"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.56",
           "article-title": "Comparing two deep learning sequence-based models for protein-protein interaction prediction",
           "year": "2019",
-          "key": "2024080504332566000_2020.12.14.422772v2.56"
+          "journal-title": "arXiv preprint"
         },
         {
           "key": "2024080504332566000_2020.12.14.422772v2.57",
@@ -1353,10 +1447,10 @@
           "DOI": "10.1093/nar/29.14.2994"
         },
         {
-          "journal-title": "arXiv preprint",
+          "key": "2024080504332566000_2020.12.14.422772v2.59",
           "article-title": "Neural machine translation of rare words with subword units",
           "year": "2015",
-          "key": "2024080504332566000_2020.12.14.422772v2.59"
+          "journal-title": "arXiv preprint"
         },
         {
           "issue": "5",
@@ -1461,15 +1555,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            8,
-            19
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-08-19T08:54:29Z",
-        "timestamp": 1724057669000
+        "date-time": "2026-01-15T01:09:18Z",
+        "timestamp": 1768439358000
       },
-      "score": 24.206354,
+      "score": 24.295517,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.12.14.422772"
@@ -1501,14 +1595,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            8,
-            2
+            2026,
+            3,
+            11
           ]
         ],
-        "date-time": "2025-08-02T18:57:05Z",
-        "timestamp": 1754161025091,
-        "version": "3.41.2"
+        "date-time": "2026-03-11T01:00:24Z",
+        "timestamp": 1773190824110,
+        "version": "3.50.1"
       },
       "publisher": "Publications Office of the European Union",
       "award-start": {
@@ -1594,15 +1688,15 @@
       "deposited": {
         "date-parts": [
           [
-            2025,
-            7,
-            28
+            2026,
+            3,
+            10
           ]
         ],
-        "date-time": "2025-07-28T11:19:22Z",
-        "timestamp": 1753701562000
+        "date-time": "2026-03-10T05:07:12Z",
+        "timestamp": 1773119232000
       },
-      "score": 23.832268,
+      "score": 23.869652,
       "resource": {
         "primary": {
           "URL": "https://cordis.europa.eu/project/id/955974"
@@ -1628,14 +1722,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            2,
-            21
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-02-21T00:34:23Z",
-        "timestamp": 1740098063537,
-        "version": "3.37.3"
+        "date-time": "2026-01-15T15:29:14Z",
+        "timestamp": 1768490954973,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -1648,7 +1742,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 21,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -1680,7 +1774,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>A<jats:sc>bstract</jats:sc></jats:title><jats:p>Viruses are small microorganisms that invade living cells and use them to replicate themselves. Viruses cause many common human infections (such as cold flu) as well as many lethal diseases. Therefore the comprehensive knowledge of mechanisms used by viruses to infect living cells, also known as host-pathogen interactions, is crucial. Mechanisms of infections of viruses are mediated by Protein-protein interactions (PPIs). PPIs are often modelled using graphs, thus the use of such a model may also explain mechanisms of infection of viruses. In this work, we propose a methodology to model and analyse host-pathogen interactions and a supporting tool able to analyse such data. We also analyse host-pathogen interactions of some common viruses demonstrating common mechanism and differences.</jats:p>",
+      "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>Viruses are small microorganisms that invade living cells and use them to replicate themselves. Viruses cause many common human infections (such as cold flu) as well as many lethal diseases. Therefore the comprehensive knowledge of mechanisms used by viruses to infect living cells, also known as host-pathogen interactions, is crucial. Mechanisms of infections of viruses are mediated by Protein-protein interactions (PPIs). PPIs are often modelled using graphs, thus the use of such a model may also explain mechanisms of infection of viruses. In this work, we propose a methodology to model and analyse host-pathogen interactions and a supporting tool able to analyse such data. We also analyse host-pathogen interactions of some common viruses demonstrating common mechanism and differences.</jats:p>",
       "DOI": "10.1101/2020.06.30.179945",
       "type": "posted-content",
       "created": {
@@ -1688,30 +1782,42 @@
           [
             2020,
             7,
-            2
+            1
           ]
         ],
-        "date-time": "2020-07-02T02:15:35Z",
-        "timestamp": 1593656135000
+        "date-time": "2020-07-01T22:15:35Z",
+        "timestamp": 1593641735000
       },
       "source": "Crossref",
       "is-referenced-by-count": 0,
       "title": [
         "Analysis of Virus-Host Interactomes through a network-centric approach"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "given": "Giuseppe",
           "family": "Tradigo",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Pierangelo",
           "family": "Veltri",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0001-5542-2997",
@@ -1719,10 +1825,16 @@
           "given": "Pietro Hiram",
           "family": "Guzzi",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2024080413431811000_2020.06.30.179945v1.1",
@@ -1881,15 +1993,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            8,
-            4
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-08-04T20:43:29Z",
-        "timestamp": 1722804209000
+        "date-time": "2026-01-15T00:34:13Z",
+        "timestamp": 1768437253000
       },
-      "score": 23.746132,
+      "score": 23.810427,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.30.179945"
@@ -1927,183 +2039,13 @@
         "date-parts": [
           [
             2025,
-            10,
+            12,
             7
           ]
         ],
-        "date-time": "2025-10-07T09:40:47Z",
-        "timestamp": 1759830047862,
-        "version": "build-2065373602"
-      },
-      "posted": {
-        "date-parts": [
-          [
-            2003,
-            2,
-            28
-          ]
-        ]
-      },
-      "group-title": "Home on Open Bioinformatics Foundation",
-      "reference-count": 0,
-      "publisher": "Front Matter",
-      "license": [
-        {
-          "start": {
-            "date-parts": [
-              [
-                2003,
-                2,
-                28
-              ]
-            ],
-            "date-time": "2003-02-28T00:00:00Z",
-            "timestamp": 1046390400000
-          },
-          "content-version": "vor",
-          "delay-in-days": 0,
-          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
-        },
-        {
-          "start": {
-            "date-parts": [
-              [
-                2003,
-                2,
-                28
-              ]
-            ],
-            "date-time": "2003-02-28T00:00:00Z",
-            "timestamp": 1046390400000
-          },
-          "content-version": "tdm",
-          "delay-in-days": 0,
-          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
-        }
-      ],
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "abstract": "<jats:p>Hilmar writes: Here's the background. The current code in the bioperl-db adaptors to biosql run the connection with AutoCommit off, which means the client determines the transaction. Load_seqdatabase.pl (the main script for loading databases into biosql) treats one sequence entry as one transaction.</jats:p>",
-      "DOI": "10.59350/ghy4c-fjh49",
-      "type": "posted-content",
-      "created": {
-        "date-parts": [
-          [
-            2025,
-            4,
-            2
-          ]
-        ],
-        "date-time": "2025-04-02T03:58:27Z",
-        "timestamp": 1743566307000
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "PostgreSQL issues with bioperl-db"
-      ],
-      "prefix": "10.59350",
-      "author": [
-        {
-          "name": "Open Bioinformatics Foundation",
-          "sequence": "first",
-          "affiliation": []
-        }
-      ],
-      "member": "31795",
-      "link": [
-        {
-          "URL": "https://www.open-bio.org/2003/02/28/postgresql-issues-with-bioperl-db/",
-          "content-type": "text/html",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        },
-        {
-          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.md",
-          "content-type": "text/markdown",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        },
-        {
-          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.pdf",
-          "content-type": "application/pdf",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        },
-        {
-          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.epub",
-          "content-type": "application/epub+zip",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        },
-        {
-          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.xml",
-          "content-type": "application/xml",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        }
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2025,
-            10,
-            7
-          ]
-        ],
-        "date-time": "2025-10-07T09:03:44Z",
-        "timestamp": 1759827824000
-      },
-      "score": 23.538239,
-      "resource": {
-        "primary": {
-          "URL": "https://www.open-bio.org/2003/02/28/postgresql-issues-with-bioperl-db/"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2003,
-            2,
-            28
-          ]
-        ]
-      },
-      "references-count": 0,
-      "version": {
-        "version": "v1"
-      },
-      "URL": "https://doi.org/10.59350/ghy4c-fjh49",
-      "published": {
-        "date-parts": [
-          [
-            2003,
-            2,
-            28
-          ]
-        ]
-      },
-      "subtype": "other"
-    },
-    {
-      "institution": [
-        {
-          "name": "Front Matter"
-        }
-      ],
-      "indexed": {
-        "date-parts": [
-          [
-            2025,
-            10,
-            7
-          ]
-        ],
-        "date-time": "2025-10-07T09:40:39Z",
-        "timestamp": 1759830039353,
-        "version": "build-2065373602"
+        "date-time": "2025-12-07T08:07:37Z",
+        "timestamp": 1765094857158,
+        "version": "3.46.0"
       },
       "posted": {
         "date-parts": [
@@ -2179,7 +2121,13 @@
         {
           "name": "Open Bioinformatics Foundation",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "31795",
@@ -2195,14 +2143,14 @@
         "date-parts": [
           [
             2025,
-            10,
+            12,
             7
           ]
         ],
-        "date-time": "2025-10-07T09:03:43Z",
-        "timestamp": 1759827823000
+        "date-time": "2025-12-07T08:05:27Z",
+        "timestamp": 1765094727000
       },
-      "score": 23.53666,
+      "score": 23.503784,
       "resource": {
         "primary": {
           "URL": "https://www.open-bio.org/2003/02/28/postgresql-issues-with-bioperl-db/"
@@ -2228,6 +2176,191 @@
             "id-type": "doi",
             "id": "10.59350/ghy4c-fjh49",
             "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            2,
+            28
+          ]
+        ]
+      },
+      "subtype": "other"
+    },
+    {
+      "institution": [
+        {
+          "name": "Front Matter"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            28
+          ]
+        ],
+        "date-time": "2026-02-28T07:41:58Z",
+        "timestamp": 1772264518346,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2003,
+            2,
+            28
+          ]
+        ]
+      },
+      "group-title": "Home on Open Bioinformatics Foundation",
+      "reference-count": 0,
+      "publisher": "Front Matter",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2003,
+                2,
+                28
+              ]
+            ],
+            "date-time": "2003-02-28T00:00:00Z",
+            "timestamp": 1046390400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2003,
+                2,
+                28
+              ]
+            ],
+            "date-time": "2003-02-28T00:00:00Z",
+            "timestamp": 1046390400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Hilmar writes: Here's the background. The current code in the bioperl-db adaptors to biosql run the connection with AutoCommit off, which means the client determines the transaction. Load_seqdatabase.pl (the main script for loading databases into biosql) treats one sequence entry as one transaction.</jats:p>",
+      "DOI": "10.59350/ghy4c-fjh49",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2025-04-02T03:58:27Z",
+        "timestamp": 1743566307000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "PostgreSQL issues with bioperl-db"
+      ],
+      "prefix": "10.59350",
+      "author": [
+        {
+          "name": "Open Bioinformatics Foundation",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "31795",
+      "link": [
+        {
+          "URL": "https://www.open-bio.org/2003/02/28/postgresql-issues-with-bioperl-db/",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.md",
+          "content-type": "text/markdown",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.epub",
+          "content-type": "application/epub+zip",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.rogue-scholar.org/posts/10.59350/ghy4c-fjh49.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ],
+        "date-time": "2025-12-07T08:05:27Z",
+        "timestamp": 1765094727000
+      },
+      "score": 23.406122,
+      "resource": {
+        "primary": {
+          "URL": "https://www.open-bio.org/2003/02/28/postgresql-issues-with-bioperl-db/"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2003,
+            2,
+            28
+          ]
+        ]
+      },
+      "references-count": 0,
+      "version": {
+        "version": "v1"
+      },
+      "URL": "https://doi.org/10.59350/ghy4c-fjh49",
+      "relation": {
+        "is-version-of": [
+          {
+            "id-type": "doi",
+            "id": "10.59350/0fw08-f0q12",
+            "asserted-by": "object"
           }
         ]
       },
@@ -2321,13 +2454,25 @@
           "given": "Sreejith",
           "family": "Rajasekharan",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Sanjay",
           "family": "Gupta",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "297",
@@ -2699,7 +2844,7 @@
         "date-time": "2017-06-24T11:12:03Z",
         "timestamp": 1498302723000
       },
-      "score": 23.365759,
+      "score": 23.383856,
       "resource": {
         "primary": {
           "URL": "http://link.springer.com/10.1007/978-1-4939-3618-2_17"

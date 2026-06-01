@@ -1,6 +1,134 @@
 {
-  "cache_date": "2025-11-01T12:37:06.655709",
+  "cache_date": "2026-06-01T17:24:37.729277",
   "data": [
+    {
+      "created": "2026-01-31T21:32:55.642516+00:00",
+      "modified": "2026-01-31T21:32:55.792816+00:00",
+      "id": 18407279,
+      "conceptrecid": "18407278",
+      "doi": "10.5281/zenodo.18407279",
+      "conceptdoi": "10.5281/zenodo.18407278",
+      "doi_url": "https://doi.org/10.5281/zenodo.18407279",
+      "metadata": {
+        "title": "CheckAMG database",
+        "doi": "10.5281/zenodo.18407279",
+        "publication_date": "2026-01-28",
+        "description": "<p>Profile HMM databases and their associated cutoff files required to run CheckAMG's annotation module.</p>\n<ul>\n<li><strong>CheckAMG_db_v1_20260128.tar.gz</strong>: tar archive containing the following\n<ul>\n<li><strong><em>*</em>.hmm</strong>, <strong>*.h3m</strong>, <strong>*.h3i</strong>, <strong>*.h3f</strong>, and <strong>*.h3p</strong> files for each of KEGG, FOAM, Pfam-A, PHROGs, dbCAN, METABOLIC_custom, and CAMPER</li>\n<li><strong>KEGG_cutoffs.tsv</strong>: score cutoffs for KEGG KOfam HMMs</li>\n<li><strong>FOAM_cutoffs.tsv</strong>: score cutoffs for FOAM HMMs</li>\n<li><strong>CAMPER_cutoffs.tsv</strong>: score cutoffs for CAMPER HMMs</li>\n<li><strong>README.txt</strong>: dependent database versions and citations</li>\n</ul>\n</li>\n</ul>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Kosmopoulos, James C.",
+            "affiliation": "University of Wisconsin-Madison",
+            "orcid": "0000-0001-7070-5418"
+          }
+        ],
+        "version": "1.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/AnantharamanLab/CheckAMG",
+          "code:programmingLanguage": [
+            {
+              "id": "python",
+              "title": {
+                "en": "Python"
+              }
+            }
+          ],
+          "code:developmentStatus": {
+            "id": "active",
+            "title": {
+              "en": "Active"
+            }
+          }
+        },
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "gpl-3.0-or-later"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "18407278"
+              }
+            }
+          ]
+        }
+      },
+      "title": "CheckAMG database",
+      "links": {
+        "self": "https://zenodo.org/api/records/18407279",
+        "self_html": "https://zenodo.org/records/18407279",
+        "preview_html": "https://zenodo.org/records/18407279?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.18407279",
+        "self_doi": "https://doi.org/10.5281/zenodo.18407279",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18407279",
+        "reserve_doi": "https://zenodo.org/api/records/18407279/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/18407278",
+        "parent_html": "https://zenodo.org/records/18407278",
+        "parent_doi": "https://doi.org/10.5281/zenodo.18407278",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18407278",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18407279/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18407279/sequence/default",
+        "files": "https://zenodo.org/api/records/18407279/files",
+        "media_files": "https://zenodo.org/api/records/18407279/media-files",
+        "archive": "https://zenodo.org/api/records/18407279/files-archive",
+        "archive_media": "https://zenodo.org/api/records/18407279/media-files-archive",
+        "latest": "https://zenodo.org/api/records/18407279/versions/latest",
+        "latest_html": "https://zenodo.org/records/18407279/latest",
+        "versions": "https://zenodo.org/api/records/18407279/versions",
+        "draft": "https://zenodo.org/api/records/18407279/draft",
+        "access_links": "https://zenodo.org/api/records/18407279/access/links",
+        "access_grants": "https://zenodo.org/api/records/18407279/access/grants",
+        "access_users": "https://zenodo.org/api/records/18407279/access/users",
+        "access_request": "https://zenodo.org/api/records/18407279/access/request",
+        "access": "https://zenodo.org/api/records/18407279/access",
+        "communities": "https://zenodo.org/api/records/18407279/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/18407279/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/18407279/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/18407279/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/18407279/quota-increase",
+        "requests": "https://zenodo.org/api/records/18407279/requests"
+      },
+      "updated": "2026-01-31T21:32:55.792816+00:00",
+      "recid": "18407279",
+      "revision": 4,
+      "files": [
+        {
+          "id": "378c8c11-c057-4017-9502-bebd9a8e2424",
+          "key": "CheckAMG_db_v1_20260128.tar.gz",
+          "size": 13388818778,
+          "checksum": "md5:a3ffaf977f50dc7910e95b67ebc4771d",
+          "links": {
+            "self": "https://zenodo.org/api/records/18407279/files/CheckAMG_db_v1_20260128.tar.gz/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1529553"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 22,
+        "unique_downloads": 18,
+        "views": 53,
+        "unique_views": 50,
+        "version_downloads": 22,
+        "version_unique_downloads": 18,
+        "version_unique_views": 50,
+        "version_views": 53
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2025-09-13T04:14:51.410440+00:00",
       "modified": "2025-09-13T04:14:51.546350+00:00",
@@ -73,6 +201,8 @@
         "communities": "https://zenodo.org/api/records/17110353/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17110353/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17110353/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17110353/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/17110353/quota-increase",
         "requests": "https://zenodo.org/api/records/17110353/requests"
       },
       "updated": "2025-09-13T04:14:51.546350+00:00",
@@ -97,14 +227,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 9538,
-        "unique_downloads": 7330,
-        "views": 757,
-        "unique_views": 677,
-        "version_downloads": 304,
-        "version_unique_downloads": 116,
-        "version_unique_views": 75,
-        "version_views": 86
+        "downloads": 13340,
+        "unique_downloads": 10295,
+        "views": 1605,
+        "unique_views": 1440,
+        "version_downloads": 3548,
+        "version_unique_downloads": 2709,
+        "version_unique_views": 526,
+        "version_views": 586
       },
       "state": "done",
       "submitted": true
@@ -180,6 +310,8 @@
         "communities": "https://zenodo.org/api/records/17083843/communities",
         "communities-suggestions": "https://zenodo.org/api/records/17083843/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/17083843/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17083843/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/17083843/quota-increase",
         "requests": "https://zenodo.org/api/records/17083843/requests"
       },
       "updated": "2025-09-11T07:50:49.761859+00:00",
@@ -276,147 +408,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 8,
-        "unique_downloads": 8,
-        "views": 6,
-        "unique_views": 5,
-        "version_downloads": 8,
-        "version_unique_downloads": 8,
-        "version_unique_views": 5,
-        "version_views": 6
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-08-06T06:42:25.583113+00:00",
-      "modified": "2025-08-06T06:42:25.737658+00:00",
-      "id": 16750703,
-      "conceptrecid": "10784034",
-      "doi": "10.5281/zenodo.16750703",
-      "conceptdoi": "10.5281/zenodo.10784034",
-      "doi_url": "https://doi.org/10.5281/zenodo.16750703",
-      "metadata": {
-        "title": "gbouras13/phold: v1.0.0",
-        "doi": "10.5281/zenodo.16750703",
-        "publication_date": "2025-08-06",
-        "description": "<p>Major Phold release to go with the preprint. For more details, see the preprint and updated <a href=\"https://phold.readthedocs.io/en/latest/\">documentation</a>.</p>\n<p>**You will need to re-install the updated Phold search database with <code>phold install</code> to be compatible with v1.0.0</p>\n<p>Major Changes</p>\n<ul>\n<li>Phold search database has been modified, filtered and curated to contain 1,363,704 proteins structures with functional labels (see https://zenodo.org/records/16741548). In particular, since the previous release of Phold, the enVhogs were re-clustered and re-labelled by the authors of that work. This release contains the updated enVhog structures.</li>\n<li>We additionally make available a larger database containing 3,166,602 structures (i.e. the Phold search database plus an extra 1.8M efam and enVhog proteins without PHROG assignment or functional label) to download using <code>phold install --extended_db</code>. Using this database provides marginally fewer functional annotations and takes longer than using the default Phold search database, so is not recommended for functional annotation, but finds more hits (i.e. including to unknown function proteins) overall, so may be of interest for viral identification tasks.</li>\n<li>PHROG functional labels have been updated in for 2,798 PHROGs using manual curation informed by structural similarity searches. See the preprint for more details. The updated annotations are available in the phold database under <code>phold_annots.tsv</code></li>\n<li>Phold search database is no longer pre-clustered, as it was shown not to significantly differ sensitivity and runtime from unclustered for the updated database.</li>\n<li>Phold supports Foldseek-GPU acceleration for NVIDIA GPUs using <code>--foldseek_gpu</code>. Note that it is still ideal to run Phold with multiple CPU-threads (e.g. <code>-t 8</code> or however many threads you have available), as GPU acceleration only accelerates and improves the prefilter of Foldseek.</li>\n<li>Phold supports custom user-specified Foldseek databases with <code>--custom_db</code>.</li>\n<li>Phold adds high, medium and low confidence annotation heuristics to guide the user (especially users from wet-lab backgrounds or without much understand of protein structural alignment metrics) as to what annotations they should trust with a very high degree of confidence, and which they should prioritise for manual curation. See the <a href=\"https://phold.readthedocs.io/en/latest/output/#main-outputs\">documentation</a> for more.</li>\n<li>Phold will now mask all residues below 25 by default with <code>--mask_threshold</code>  ProstT5 Confidence, as this was shown to increase annotation performance compared to no masking.</li>\n<li>If you only want to annotated hypothetical proteins from Pharokka to save runtime and resource usage, you can use <code>--hyps</code></li>\n<li>You can run Phold with fine-tuned ProstT5 models using <code>--finetune</code> (phage finetuned ProstT5 encoder and phage fine-tuned CNN) or <code>--vanilla</code> (phage finetuned ProstT5 encoder and vanilla PDB-based CNN). Annotation performance with these do not dramatically differ with the default ProstT5 (see the preprint), but may be of interest to some users of Phold.</li>\n</ul>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "George Bouras",
-            "affiliation": null
-          },
-          {
-            "name": "Vijini Mallawaarachchi",
-            "affiliation": "Flinders University"
-          },
-          {
-            "name": "Susie Grigson",
-            "affiliation": "Flinders University"
-          },
-          {
-            "name": "Eric Deveaud",
-            "affiliation": "Institut Pasteur"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/gbouras13/phold/tree/v1.0.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "v1.0.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/gbouras13/phold"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "mit-license"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 5,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "10784034"
-              }
-            }
-          ]
-        }
-      },
-      "title": "gbouras13/phold: v1.0.0",
-      "links": {
-        "self": "https://zenodo.org/api/records/16750703",
-        "self_html": "https://zenodo.org/records/16750703",
-        "preview_html": "https://zenodo.org/records/16750703?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.16750703",
-        "self_doi": "https://doi.org/10.5281/zenodo.16750703",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16750703",
-        "reserve_doi": "https://zenodo.org/api/records/16750703/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/10784034",
-        "parent_html": "https://zenodo.org/records/10784034",
-        "parent_doi": "https://doi.org/10.5281/zenodo.10784034",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10784034",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16750703/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16750703/sequence/default",
-        "files": "https://zenodo.org/api/records/16750703/files",
-        "media_files": "https://zenodo.org/api/records/16750703/media-files",
-        "archive": "https://zenodo.org/api/records/16750703/files-archive",
-        "archive_media": "https://zenodo.org/api/records/16750703/media-files-archive",
-        "latest": "https://zenodo.org/api/records/16750703/versions/latest",
-        "latest_html": "https://zenodo.org/records/16750703/latest",
-        "versions": "https://zenodo.org/api/records/16750703/versions",
-        "draft": "https://zenodo.org/api/records/16750703/draft",
-        "access_links": "https://zenodo.org/api/records/16750703/access/links",
-        "access_grants": "https://zenodo.org/api/records/16750703/access/grants",
-        "access_users": "https://zenodo.org/api/records/16750703/access/users",
-        "access_request": "https://zenodo.org/api/records/16750703/access/request",
-        "access": "https://zenodo.org/api/records/16750703/access",
-        "communities": "https://zenodo.org/api/records/16750703/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/16750703/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/16750703/request-deletion",
-        "requests": "https://zenodo.org/api/records/16750703/requests"
-      },
-      "updated": "2025-08-06T06:42:25.737658+00:00",
-      "recid": "16750703",
-      "revision": 4,
-      "files": [
-        {
-          "id": "efca2b8f-14ae-4113-9b73-e80031e481ad",
-          "key": "gbouras13/phold-v1.0.0.zip",
-          "size": 28020804,
-          "checksum": "md5:edac0b82b74b6e5ac34f32cc313fcef4",
-          "links": {
-            "self": "https://zenodo.org/api/records/16750703/files/gbouras13/phold-v1.0.0.zip/content"
-          }
-        }
-      ],
-      "swh": {
-        "swhid": "swh:1:dir:9c5f0b8e3f567ae0882f215b1d22d0510dbc84a1;origin=https://doi.org/10.5281/zenodo.10784034;visit=swh:1:snp:f8d3a63a75cdfcc37985a9d570fcb4f11e3f30cf;anchor=swh:1:rel:7a8728f4a28a2de09692f081eb73ad14e9020141;path=gbouras13-phold-62db1e5"
-      },
-      "owners": [
-        {
-          "id": "406273"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 16,
-        "unique_downloads": 16,
-        "views": 141,
-        "unique_views": 135,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 21,
-        "version_views": 21
+        "downloads": 80,
+        "unique_downloads": 80,
+        "views": 27,
+        "unique_views": 24,
+        "version_downloads": 80,
+        "version_unique_downloads": 80,
+        "version_unique_views": 24,
+        "version_views": 27
       },
       "state": "done",
       "submitted": true
@@ -492,6 +491,8 @@
         "communities": "https://zenodo.org/api/records/16741650/communities",
         "communities-suggestions": "https://zenodo.org/api/records/16741650/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/16741650/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/16741650/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/16741650/quota-increase",
         "requests": "https://zenodo.org/api/records/16741650/requests"
       },
       "updated": "2025-08-05T16:08:53.532436+00:00",
@@ -597,14 +598,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 75,
-        "unique_downloads": 49,
-        "views": 48,
-        "unique_views": 43,
-        "version_downloads": 75,
-        "version_unique_downloads": 49,
-        "version_unique_views": 43,
-        "version_views": 48
+        "downloads": 344,
+        "unique_downloads": 273,
+        "views": 196,
+        "unique_views": 174,
+        "version_downloads": 344,
+        "version_unique_downloads": 273,
+        "version_unique_views": 174,
+        "version_views": 196
       },
       "state": "done",
       "submitted": true
@@ -736,6 +737,8 @@
         "communities": "https://zenodo.org/api/records/16417252/communities",
         "communities-suggestions": "https://zenodo.org/api/records/16417252/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/16417252/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/16417252/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/16417252/quota-increase",
         "requests": "https://zenodo.org/api/records/16417252/requests"
       },
       "updated": "2025-07-25T06:50:18.867152+00:00",
@@ -760,14 +763,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 38,
-        "unique_downloads": 25,
-        "views": 50,
-        "unique_views": 47,
-        "version_downloads": 13,
-        "version_unique_downloads": 7,
-        "version_unique_views": 16,
-        "version_views": 16
+        "downloads": 57,
+        "unique_downloads": 43,
+        "views": 103,
+        "unique_views": 97,
+        "version_downloads": 27,
+        "version_unique_downloads": 21,
+        "version_unique_views": 56,
+        "version_views": 57
       },
       "state": "done",
       "submitted": true
@@ -863,6 +866,8 @@
         "communities": "https://zenodo.org/api/records/10372885/communities",
         "communities-suggestions": "https://zenodo.org/api/records/10372885/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/10372885/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/10372885/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/10372885/quota-increase",
         "requests": "https://zenodo.org/api/records/10372885/requests"
       },
       "updated": "2024-01-05T23:21:02.331197+00:00",
@@ -887,14 +892,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 38,
-        "unique_downloads": 37,
-        "views": 49,
-        "unique_views": 42,
-        "version_downloads": 38,
-        "version_unique_downloads": 37,
-        "version_unique_views": 42,
-        "version_views": 49
+        "downloads": 57,
+        "unique_downloads": 56,
+        "views": 79,
+        "unique_views": 70,
+        "version_downloads": 57,
+        "version_unique_downloads": 56,
+        "version_unique_views": 70,
+        "version_views": 79
       },
       "state": "done",
       "submitted": true
@@ -977,6 +982,8 @@
         "communities": "https://zenodo.org/api/records/7563578/communities",
         "communities-suggestions": "https://zenodo.org/api/records/7563578/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/7563578/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/7563578/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7563578/quota-increase",
         "requests": "https://zenodo.org/api/records/7563578/requests"
       },
       "updated": "2023-01-24T14:26:42.007678+00:00",
@@ -1001,14 +1008,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 1671,
-        "unique_downloads": 1412,
-        "views": 679,
-        "unique_views": 650,
-        "version_downloads": 1271,
-        "version_unique_downloads": 1087,
-        "version_unique_views": 338,
-        "version_views": 352
+        "downloads": 1789,
+        "unique_downloads": 1522,
+        "views": 934,
+        "unique_views": 897,
+        "version_downloads": 1336,
+        "version_unique_downloads": 1145,
+        "version_unique_views": 445,
+        "version_views": 462
       },
       "state": "done",
       "submitted": true
@@ -1091,6 +1098,8 @@
         "communities": "https://zenodo.org/api/records/7227091/communities",
         "communities-suggestions": "https://zenodo.org/api/records/7227091/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/7227091/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/7227091/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7227091/quota-increase",
         "requests": "https://zenodo.org/api/records/7227091/requests"
       },
       "updated": "2022-10-21T14:26:48.097744+00:00",
@@ -1115,14 +1124,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 287,
-        "unique_downloads": 128,
-        "views": 945,
-        "unique_views": 914,
-        "version_downloads": 275,
-        "version_unique_downloads": 116,
-        "version_unique_views": 687,
-        "version_views": 710
+        "downloads": 320,
+        "unique_downloads": 160,
+        "views": 1029,
+        "unique_views": 991,
+        "version_downloads": 303,
+        "version_unique_downloads": 143,
+        "version_unique_views": 748,
+        "version_views": 776
       },
       "state": "done",
       "submitted": true

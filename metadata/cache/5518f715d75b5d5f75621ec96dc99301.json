@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-11-01T12:09:50.136810",
+  "cache_date": "2026-06-01T17:07:00.734716",
   "data": [
     {
       "institution": [
@@ -10,13 +10,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            9,
-            4
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-09-04T14:25:50Z",
-        "timestamp": 1756995950496
+        "date-time": "2026-01-15T14:05:36Z",
+        "timestamp": 1768485936976,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -29,7 +30,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 32,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
@@ -43,7 +44,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background/ Motivation</jats:title><jats:p>In the era of affordable next generation sequencing technologies we are facing an exploding amount of new phage genome sequences. This requests high throughput phage classification tools that meet the standards of the International Committee on Taxonomy of Viruses (ICTV). However, an accurate prediction of phage taxonomic classification derived from phage sequences still poses a challenge due to the lack of performant taxonomic markers. Since machine learning methods have proved to be efficient for the classification of biological data we investigated how artificial neural networks perform on the task of phage taxonomy.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>In this work, 5,920 constructed and refined profile Hidden Markov Models (HMMs), derived from 8,721 phage sequences classified into 12 well known phage families, were used to scan phage proteome datasets. The resulting Phage Family-proteome to Phage-derived-HMMs scoring matrix was used to develop and train an Artificial Neural Network (ANN) to find patterns for phage classification into one of the phage families. Results show that using the 100 fold cross-validation test, the proposed method achieved an overall accuracy of 84.18 %. The ANN was tested on a set of unclassified phages and resulted in a taxonomic prediction. The ANN prediction was benchmarked against the prediction resulting of multi-HMM hits, and showed that the ANN performance is dependent on the quality of the input matrix.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>We believe that, as long as some phage families on public databases are underrepresented, multi-HMM hits can be used as a classification method to populate those phage families, which in turn will improve the performance and accuracy of the ANN. We believe that the proposed method is an effective and promising method for phage classification. The good performance of the ANN and HMM based predictor indicates the efficiency of the method for phage classification, where we foresee its improvement with an increasing number of sequenced viral genomes.</jats:p></jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background/ Motivation</jats:title>\n                  <jats:p>In the era of affordable next generation sequencing technologies we are facing an exploding amount of new phage genome sequences. This requests high throughput phage classification tools that meet the standards of the International Committee on Taxonomy of Viruses (ICTV). However, an accurate prediction of phage taxonomic classification derived from phage sequences still poses a challenge due to the lack of performant taxonomic markers. Since machine learning methods have proved to be efficient for the classification of biological data we investigated how artificial neural networks perform on the task of phage taxonomy.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In this work, 5,920 constructed and refined profile Hidden Markov Models (HMMs), derived from 8,721 phage sequences classified into 12 well known phage families, were used to scan phage proteome datasets. The resulting Phage Family-proteome to Phage-derived-HMMs scoring matrix was used to develop and train an Artificial Neural Network (ANN) to find patterns for phage classification into one of the phage families. Results show that using the 100 fold cross-validation test, the proposed method achieved an overall accuracy of 84.18 %. The ANN was tested on a set of unclassified phages and resulted in a taxonomic prediction. The ANN prediction was benchmarked against the prediction resulting of multi-HMM hits, and showed that the ANN performance is dependent on the quality of the input matrix.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>We believe that, as long as some phage families on public databases are underrepresented, multi-HMM hits can be used as a classification method to populate those phage families, which in turn will improve the performance and accuracy of the ANN. We believe that the proposed method is an effective and promising method for phage classification. The good performance of the ANN and HMM based predictor indicates the efficiency of the method for phage classification, where we foresee its improvement with an increasing number of sequenced viral genomes.</jats:p>\n                </jats:sec>",
       "DOI": "10.1101/558171",
       "type": "posted-content",
       "created": {
@@ -54,48 +55,78 @@
             23
           ]
         ],
-        "date-time": "2019-02-23T05:34:11Z",
-        "timestamp": 1550900051000
+        "date-time": "2019-02-23T00:34:11Z",
+        "timestamp": 1550882051000
       },
       "source": "Crossref",
       "is-referenced-by-count": 7,
       "title": [
         "ClassiPhages 2.0: Sequence-based classification of phages using Artificial Neural Networks"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "given": "Cynthia Maria",
           "family": "Chibani",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Florentin",
           "family": "Meinecke",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Anton",
           "family": "Farr",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Sascha",
           "family": "Dietrich",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Heiko",
           "family": "Liesegang",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2019121708593974000_558171v1.1",
@@ -304,15 +335,15 @@
       "deposited": {
         "date-parts": [
           [
-            2020,
-            11,
-            28
+            2026,
+            1,
+            14
           ]
         ],
-        "date-time": "2020-11-28T12:30:13Z",
-        "timestamp": 1606566613000
+        "date-time": "2026-01-14T23:47:32Z",
+        "timestamp": 1768434452000
       },
-      "score": 17.635597,
+      "score": 17.665754,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/558171"

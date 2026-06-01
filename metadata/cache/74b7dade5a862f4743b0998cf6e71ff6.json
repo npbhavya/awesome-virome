@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-11-01T12:43:24.652481",
+  "cache_date": "2026-06-01T17:27:26.731170",
   "data": [
     {
       "institution": [
@@ -10,14 +10,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            15
+            2026,
+            5,
+            19
           ]
         ],
-        "date-time": "2025-10-15T10:38:03Z",
-        "timestamp": 1760524683787,
-        "version": "3.37.3"
+        "date-time": "2026-05-19T15:12:03Z",
+        "timestamp": 1779203523599,
+        "version": "3.51.4"
       },
       "posted": {
         "date-parts": [
@@ -30,7 +30,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 32,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -62,7 +62,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:p><jats:underline>M</jats:underline>olecular<jats:underline>d</jats:underline>ynamics (MD) simulations are widely used computational tools in chemical and biological sciences. For these simulations, GROMACS is a popular open-source alternative among molecular dynamics simulation software designed for biochemical molecules. In addition to software, these simulations traditionally relied on costly infrastructure like supercomputers or clusters for<jats:underline>H</jats:underline>igh-<jats:underline>P</jats:underline>erformance<jats:underline>C</jats:underline>omputing (HPC). In recent years, there has been a significant shift towards using commercial cloud providers\u2019 computing resources, in general. This shift is driven by the flexibility and accessibility these platforms offer, irrespective of an organization\u2019s financial capacity. Many commercial compute platforms such as<jats:underline>G</jats:underline>oogle<jats:underline>C</jats:underline>ompute<jats:underline>E</jats:underline>ngine (GCE) and<jats:underline>A</jats:underline>mazon<jats:underline>W</jats:underline>eb<jats:underline>S</jats:underline>ervices (AWS) provide scalable computing infrastructure. An alternative to these platforms is Google Colab, a cloud-based platform, provides a convenient computing solution by offering GPU and TPU resources that can be utilized for scientific computing. The accessibility of Colab makes it easier for a wider audience to conduct computational tasks without needing specialized hardware or otherwise costly infrastructure. However, running GROMACS on Colab also comes with limitations. Google Colab imposes usage restrictions, such as time limits for continuous sessions, capped at several hours, and limits on the availability of high-performance GPUs. Users may also face disruptions due to session timeouts or hardware availability constraints, which can be challenging for large or long-running molecular simulations. We have significantly enhanced the performance of GROMACS on Google Colab by re-compiling the software, compared to its default pre-compiled version. We also present a method for integrating Google Drive to save and resume interrupted simulations, ensuring that users can secure files after session-timeouts. Additionally, we detail the setup and utilization of the CUDA and MPI environment in Colab to enhance GROMACS performance. Finally, we compare the efficiency of CUDA-enabled GPUs with Google\u2019s TPUv2 units, highlighting the trade-offs of each platform for molecular dynamics simulations. This work equips researchers, students, and educators with practical MD tools while providing insights to optimize their simulations within the Colab environment.</jats:p>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  <jats:underline>M</jats:underline>\n                  olecular\n                  <jats:underline>d</jats:underline>\n                  ynamics (MD) simulations are widely used computational tools in chemical and biological sciences. For these simulations, GROMACS is a popular open-source alternative among molecular dynamics simulation software designed for biochemical molecules. In addition to software, these simulations traditionally relied on costly infrastructure like supercomputers or clusters for\n                  <jats:underline>H</jats:underline>\n                  igh-\n                  <jats:underline>P</jats:underline>\n                  erformance\n                  <jats:underline>C</jats:underline>\n                  omputing (HPC). In recent years, there has been a significant shift towards using commercial cloud providers\u2019 computing resources, in general. This shift is driven by the flexibility and accessibility these platforms offer, irrespective of an organization\u2019s financial capacity. Many commercial compute platforms such as\n                  <jats:underline>G</jats:underline>\n                  oogle\n                  <jats:underline>C</jats:underline>\n                  ompute\n                  <jats:underline>E</jats:underline>\n                  ngine (GCE) and\n                  <jats:underline>A</jats:underline>\n                  mazon\n                  <jats:underline>W</jats:underline>\n                  eb\n                  <jats:underline>S</jats:underline>\n                  ervices (AWS) provide scalable computing infrastructure. An alternative to these platforms is Google Colab, a cloud-based platform, provides a convenient computing solution by offering GPU and TPU resources that can be utilized for scientific computing. The accessibility of Colab makes it easier for a wider audience to conduct computational tasks without needing specialized hardware or otherwise costly infrastructure. However, running GROMACS on Colab also comes with limitations. Google Colab imposes usage restrictions, such as time limits for continuous sessions, capped at several hours, and limits on the availability of high-performance GPUs. Users may also face disruptions due to session timeouts or hardware availability constraints, which can be challenging for large or long-running molecular simulations. We have significantly enhanced the performance of GROMACS on Google Colab by re-compiling the software, compared to its default pre-compiled version. We also present a method for integrating Google Drive to save and resume interrupted simulations, ensuring that users can secure files after session-timeouts. Additionally, we detail the setup and utilization of the CUDA and MPI environment in Colab to enhance GROMACS performance. Finally, we compare the efficiency of CUDA-enabled GPUs with Google\u2019s TPUv2 units, highlighting the trade-offs of each platform for molecular dynamics simulations. This work equips researchers, students, and educators with practical MD tools while providing insights to optimize their simulations within the Colab environment.\n                </jats:p>",
       "DOI": "10.1101/2024.11.14.623563",
       "type": "posted-content",
       "created": {
@@ -70,18 +70,18 @@
           [
             2024,
             11,
-            16
+            15
           ]
         ],
-        "date-time": "2024-11-16T01:45:22Z",
-        "timestamp": 1731721522000
+        "date-time": "2024-11-15T20:45:22Z",
+        "timestamp": 1731703522000
       },
       "source": "Crossref",
-      "is-referenced-by-count": 4,
+      "is-referenced-by-count": 11,
       "title": [
         "Benchmarking GROMACS on Optimized Colab Processors and the Flexibility of Cloud Computing for Molecular Dynamics"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0009-0005-1011-7661",
@@ -89,7 +89,13 @@
           "given": "Taner",
           "family": "Karag\u00f6l",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0009-0001-7864-0732",
@@ -97,10 +103,16 @@
           "given": "Alper",
           "family": "Karag\u00f6l",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2024111909450636000_2024.11.14.623563v1.1",
@@ -281,15 +293,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            11,
-            19
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-11-19T17:45:18Z",
-        "timestamp": 1732038318000
+        "date-time": "2026-01-15T07:28:13Z",
+        "timestamp": 1768462093000
       },
-      "score": 24.769238,
+      "score": 24.237278,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.14.623563"
@@ -409,6 +421,12 @@
             {
               "name": "Canyon Crest Academy"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -418,6 +436,12 @@
           "affiliation": [
             {
               "name": "Canyon Crest Academy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         }
@@ -448,7 +472,7 @@
         "date-time": "2022-06-06T15:19:36Z",
         "timestamp": 1654528776000
       },
-      "score": 22.56163,
+      "score": 22.594248,
       "resource": {
         "primary": {
           "URL": "https://www.researchsquare.com/article/rs-1724216/v1"
@@ -480,14 +504,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            2,
-            21
+            2026,
+            5,
+            2
           ]
         ],
-        "date-time": "2025-02-21T10:53:17Z",
-        "timestamp": 1740135197582,
-        "version": "3.37.3"
+        "date-time": "2026-05-02T03:22:45Z",
+        "timestamp": 1777692165298,
+        "version": "3.51.4"
       },
       "reference-count": 16,
       "publisher": "Springer Science and Business Media LLC",
@@ -534,6 +558,13 @@
           "award": [
             "AM507/2-1"
           ],
+          "award-info": [
+            {
+              "award-number": [
+                "AM507/2-1"
+              ]
+            }
+          ],
           "id": [
             {
               "id": "10.13039/501100001659",
@@ -571,7 +602,7 @@
       },
       "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
       "source": "Crossref",
-      "is-referenced-by-count": 1,
+      "is-referenced-by-count": 4,
       "title": [
         "PyChelator: a Python-based Colab and web application for metal chelator calculations"
       ],
@@ -582,19 +613,37 @@
           "given": "Emrulla",
           "family": "Spahiu",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Esra",
           "family": "Kastrati",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Mamta",
           "family": "Amrute-Nayak",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "297",
@@ -774,7 +823,7 @@
         "date-time": "2024-07-16T12:03:22Z",
         "timestamp": 1721131402000
       },
-      "score": 22.474298,
+      "score": 22.008957,
       "resource": {
         "primary": {
           "URL": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05858-8"
@@ -810,8 +859,8 @@
       ],
       "issn-type": [
         {
-          "type": "electronic",
-          "value": "1471-2105"
+          "value": "1471-2105",
+          "type": "electronic"
         }
       ],
       "published": {
@@ -950,6 +999,13 @@
           "award": [
             "3486/20"
           ],
+          "award-info": [
+            {
+              "award-number": [
+                "3486/20"
+              ]
+            }
+          ],
           "id": [
             {
               "id": "10.13039/501100003977",
@@ -962,6 +1018,13 @@
           "name": "Instruct",
           "award": [
             "Pilot Project Grant (517)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Pilot Project Grant (517)"
+              ]
+            }
           ]
         }
       ],
@@ -1001,13 +1064,25 @@
           "given": "Sagara N. S.",
           "family": "Gurusinghe",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Julia M.",
           "family": "Shifman",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "297",
@@ -1363,7 +1438,7 @@
         "date-time": "2024-04-30T17:02:23Z",
         "timestamp": 1714496543000
       },
-      "score": 21.984547,
+      "score": 21.761482,
       "resource": {
         "primary": {
           "URL": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05796-5"
@@ -1485,115 +1560,6 @@
       "indexed": {
         "date-parts": [
           [
-            2024,
-            9,
-            10
-          ]
-        ],
-        "date-time": "2024-09-10T20:36:56Z",
-        "timestamp": 1726000616323
-      },
-      "reference-count": 0,
-      "publisher": "Oxford University Press",
-      "isbn-type": [
-        {
-          "type": "electronic",
-          "value": "9781884446054"
-        }
-      ],
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "DOI": "10.1093/gao/9781884446054.article.t2085677",
-      "type": "reference-entry",
-      "created": {
-        "date-parts": [
-          [
-            2017,
-            12,
-            13
-          ]
-        ],
-        "date-time": "2017-12-13T07:16:04Z",
-        "timestamp": 1513149364000
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "Colab"
-      ],
-      "prefix": "10.1093",
-      "author": [
-        {
-          "given": "Mary M.",
-          "family": "Tinti",
-          "sequence": "first",
-          "affiliation": []
-        }
-      ],
-      "member": "286",
-      "published-online": {
-        "date-parts": [
-          [
-            2010,
-            2,
-            24
-          ]
-        ]
-      },
-      "container-title": [
-        "Oxford Art Online"
-      ],
-      "original-title": [
-        "Colab"
-      ],
-      "language": "en",
-      "deposited": {
-        "date-parts": [
-          [
-            2020,
-            3,
-            9
-          ]
-        ],
-        "date-time": "2020-03-09T07:46:07Z",
-        "timestamp": 1583739967000
-      },
-      "score": 21.898016,
-      "resource": {
-        "primary": {
-          "URL": "http://www.oxfordartonline.com/groveart/documentID/oao-9781884446054-e-7002085677"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2010,
-            2,
-            24
-          ]
-        ]
-      },
-      "ISBN": [
-        "9781884446054"
-      ],
-      "references-count": 0,
-      "URL": "https://doi.org/10.1093/gao/9781884446054.article.t2085677",
-      "published": {
-        "date-parts": [
-          [
-            2010,
-            2,
-            24
-          ]
-        ]
-      }
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
             2025,
             8,
             2
@@ -1641,7 +1607,7 @@
         "date-time": "2025-07-25T13:59:12Z",
         "timestamp": 1753451952000
       },
-      "score": 21.692604,
+      "score": 21.460764,
       "resource": {
         "primary": {
           "URL": "https://biophysicscolab.org/"
@@ -1658,6 +1624,242 @@
       "URL": "https://doi.org/10.63204/0"
     },
     {
+      "indexed": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            10
+          ]
+        ],
+        "date-time": "2024-09-10T20:36:56Z",
+        "timestamp": 1726000616323
+      },
+      "reference-count": 0,
+      "publisher": "Oxford University Press",
+      "isbn-type": [
+        {
+          "type": "electronic",
+          "value": "9781884446054"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "DOI": "10.1093/gao/9781884446054.article.t2085677",
+      "type": "reference-entry",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            12,
+            13
+          ]
+        ],
+        "date-time": "2017-12-13T07:16:04Z",
+        "timestamp": 1513149364000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Colab"
+      ],
+      "prefix": "10.1093",
+      "author": [
+        {
+          "given": "Mary M.",
+          "family": "Tinti",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "286",
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            2,
+            24
+          ]
+        ]
+      },
+      "container-title": [
+        "Oxford Art Online"
+      ],
+      "original-title": [
+        "Colab"
+      ],
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            9
+          ]
+        ],
+        "date-time": "2020-03-09T07:46:07Z",
+        "timestamp": 1583739967000
+      },
+      "score": 21.44225,
+      "resource": {
+        "primary": {
+          "URL": "http://www.oxfordartonline.com/groveart/documentID/oao-9781884446054-e-7002085677"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2010,
+            2,
+            24
+          ]
+        ]
+      },
+      "ISBN": [
+        "9781884446054"
+      ],
+      "references-count": 0,
+      "URL": "https://doi.org/10.1093/gao/9781884446054.article.t2085677",
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            2,
+            24
+          ]
+        ]
+      }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2025-11-28T12:40:50Z",
+        "timestamp": 1764333650492,
+        "version": "3.46.0"
+      },
+      "publisher": "Fundacao para a Ciencia e a Tecnologia (unidadeFCCN)",
+      "award-start": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            3
+          ]
+        ]
+      },
+      "award": "CoLAB 4/2019-BUILT",
+      "DOI": "10.54499/colab4/2019-built",
+      "type": "grant",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2025-11-28T12:36:55Z",
+        "timestamp": 1764333415000
+      },
+      "source": "Crossref",
+      "prefix": "10.54499",
+      "member": "31773",
+      "project": [
+        {
+          "project-title": [
+            {
+              "title": "ASSOCIA\u00c7\u00c3O BUILT COLAB \u2013 COLABORATIVE LABORATORY FOR THE FUTURE BUILT ENVIRONMENT",
+              "language": "en"
+            }
+          ],
+          "award-amount": {
+            "amount": 407936.34,
+            "currency": "EUR"
+          },
+          "award-start": {
+            "date-parts": [
+              [
+                2020,
+                3,
+                3
+              ]
+            ]
+          },
+          "award-end": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                31
+              ]
+            ]
+          },
+          "funding": [
+            {
+              "type": "grant",
+              "scheme": "FCT",
+              "award-amount": {
+                "amount": 407936.34,
+                "currency": "EUR",
+                "percentage": null
+              },
+              "funder": {
+                "id": [
+                  {
+                    "id": "10.13039/501100001871",
+                    "id-type": "DOI",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia"
+              }
+            }
+          ]
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2025-11-28T12:36:55Z",
+        "timestamp": 1764333415000
+      },
+      "score": 19.873264,
+      "resource": {
+        "primary": {
+          "URL": "https://sciproj.ptcris.pt/67111766566324472019456685737684UID"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.54499/colab4/2019-built"
+    },
+    {
       "institution": [
         {
           "name": "bioRxiv"
@@ -1666,14 +1868,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            17
+            2026,
+            4,
+            12
           ]
         ],
-        "date-time": "2025-10-17T00:40:17Z",
-        "timestamp": 1760661617612,
-        "version": "build-2065373602"
+        "date-time": "2026-04-12T06:43:57Z",
+        "timestamp": 1775976237277,
+        "version": "3.50.1"
       },
       "posted": {
         "date-parts": [
@@ -1686,7 +1888,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 46,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -1710,12 +1912,26 @@
           "name": "European Research Council",
           "award": [
             "101001169"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101001169"
+              ]
+            }
           ]
         },
         {
           "name": "Medical Research Council, Human Genetics Unit",
           "award": [
             "MC_UU_00035/9"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MC_UU_00035/9"
+              ]
+            }
           ]
         }
       ],
@@ -1732,7 +1948,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title>\n            <jats:sec>\n               <jats:title>Summary</jats:title>\n               <jats:p>A genome-wide variant effect calibration method was recently developed under the guidelines of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology (ACMG/AMP), following ClinGen recommendations for variant classification. While genome-wide approaches offer clinical utility, emerging evidence highlights the need for gene- and context-specific calibration to improve accuracy. Building on previous work, we have developed an algorithm tailored to converting functional scores from both multiplexed assays of variant effects (MAVEs) and computational variant effect predictors (VEPs) into ACMG/AMP evidence strengths. Our method is designed to deliver consistent performance across different genes and score distributions, with all variables adaptively determined from the input data, preventing selective adjustments or overfitting that could inflate evidence strengths beyond empirical support. To facilitate adoption, we introduce <jats:monospace>acmgscaler</jats:monospace>, a lightweight R package and a plug-and-play Google Colab notebook for the calibration of custom datasets. This algorithmic framework bridges the gap between MAVEs/VEPs and clinically actionable variant classification.</jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Availability</jats:title>\n               <jats:p>The package and the Colab notebook are available on GitHub: <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/badonyi/acmgscaler\">https://github.com/badonyi/acmgscaler</jats:ext-link>.</jats:p>\n            </jats:sec>\n            <jats:sec>\n               <jats:title>Supplementary data</jats:title>\n               <jats:p>Supplementary data can be downloaded from the OSF repository <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://osf.io/7hjnm\">https://osf.io/7hjnm</jats:ext-link>.</jats:p>\n            </jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:p>\n                    A genome-wide variant effect calibration method was recently developed under the guidelines of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology (ACMG/AMP), following ClinGen recommendations for variant classification. While genome-wide approaches offer clinical utility, emerging evidence highlights the need for gene- and context-specific calibration to improve accuracy. Building on previous work, we have developed an algorithm tailored to converting functional scores from both multiplexed assays of variant effects (MAVEs) and computational variant effect predictors (VEPs) into ACMG/AMP evidence strengths. Our method is designed to deliver consistent performance across different genes and score distributions, with all variables adaptively determined from the input data, preventing selective adjustments or overfitting that could inflate evidence strengths beyond empirical support. To facilitate adoption, we introduce\n                    <jats:monospace>acmgscaler</jats:monospace>\n                    , a lightweight R package and a plug-and-play Google Colab notebook for the calibration of custom datasets. This algorithmic framework bridges the gap between MAVEs/VEPs and clinically actionable variant classification.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The package and the Colab notebook are available on GitHub:\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/badonyi/acmgscaler\">https://github.com/badonyi/acmgscaler</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary data</jats:title>\n                  <jats:p>\n                    Supplementary data can be downloaded from the OSF repository\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://osf.io/7hjnm\">https://osf.io/7hjnm</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
       "DOI": "10.1101/2025.05.16.654507",
       "type": "posted-content",
       "created": {
@@ -1751,7 +1967,7 @@
       "title": [
         "acmgscaler: An R package and Colab for standardised gene-level variant effect score calibration within the ACMG/AMP framework"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0000-0002-8305-5618",
@@ -1759,7 +1975,17 @@
           "given": "Mihaly",
           "family": "Badonyi",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [
+            {
+              "name": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0003-4132-0628",
@@ -1767,23 +1993,33 @@
           "given": "Joseph A",
           "family": "Marsh",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [
+            {
+              "name": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.1",
+          "key": "2026041122534508000_2025.05.16.654507v2.1",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/gim.2015.30"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.2",
+          "key": "2026041122534508000_2025.05.16.654507v2.2",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/gim.2017.210"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.3",
+          "key": "2026041122534508000_2025.05.16.654507v2.3",
           "first-page": "1",
           "article-title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework",
           "volume": "12",
@@ -1791,146 +2027,146 @@
           "journal-title": "Genome medicine"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.4",
+          "key": "2026041122534508000_2025.05.16.654507v2.4",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2022.10.013"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.5",
+          "key": "2026041122534508000_2025.05.16.654507v2.5",
           "doi-asserted-by": "crossref",
           "unstructured": "Bergquist, T. et al. Calibration of additional computational tools expands ClinGen recommendation options for variant classification with PP3/BP4 criteria. Genetics in Medicine 101402 (2025).",
           "DOI": "10.1101/2024.09.17.611902"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.6",
+          "key": "2026041122534508000_2025.05.16.654507v2.6",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.gim.2024.101213"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.7",
+          "key": "2026041122534508000_2025.05.16.654507v2.7",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2024.07.018"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.8",
+          "key": "2026041122534508000_2025.05.16.654507v2.8",
           "doi-asserted-by": "crossref",
           "unstructured": "Isakov, O. , Fluss, R. , Marek-Yagel, D. & Ben Shachar, S. The impact of clinical and molecular variant properties on calibration and performance of variant effect prediction tools. bioRxiv 2024\u201310 (2024).",
           "DOI": "10.1101/2024.10.02.614907"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.9",
+          "key": "2026041122534508000_2025.05.16.654507v2.9",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2024.10.011"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.10",
+          "key": "2026041122534508000_2025.05.16.654507v2.10",
           "doi-asserted-by": "publisher",
           "DOI": "10.1007/s00439-018-1916-x"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.11",
+          "key": "2026041122534508000_2025.05.16.654507v2.11",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s13059-023-02986-x"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.12",
+          "key": "2026041122534508000_2025.05.16.654507v2.12",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s13059-025-03476-y"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.13",
+          "key": "2026041122534508000_2025.05.16.654507v2.13",
           "doi-asserted-by": "publisher",
           "DOI": "10.1001/jamanetworkopen.2023.39571"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.14",
+          "key": "2026041122534508000_2025.05.16.654507v2.14",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2023.08.012"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.15",
+          "key": "2026041122534508000_2025.05.16.654507v2.15",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2024.10.013"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.16",
+          "key": "2026041122534508000_2025.05.16.654507v2.16",
           "unstructured": "Conover, W. J. Practical Nonparametric Statistics. (John Wiley & Sons, 1999)."
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.17",
+          "key": "2026041122534508000_2025.05.16.654507v2.17",
           "doi-asserted-by": "crossref",
           "unstructured": "Silverman, B. W. Density Estimation for Statistics and Data Analysis. (Routledge, 2018).",
           "DOI": "10.1201/9781315140919"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.18",
+          "key": "2026041122534508000_2025.05.16.654507v2.18",
           "doi-asserted-by": "publisher",
           "DOI": "10.1093/nar/gkz972"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.19",
+          "key": "2026041122534508000_2025.05.16.654507v2.19",
           "doi-asserted-by": "publisher",
           "DOI": "10.1126/science.adg7492"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.20",
+          "key": "2026041122534508000_2025.05.16.654507v2.20",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s13059-023-03024-6"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.21",
+          "key": "2026041122534508000_2025.05.16.654507v2.21",
           "doi-asserted-by": "publisher",
           "DOI": "10.1186/s13059-025-03575-w"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.22",
+          "key": "2026041122534508000_2025.05.16.654507v2.22",
           "doi-asserted-by": "publisher",
           "DOI": "10.1111/j.2517-6161.1991.tb01857.x"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.23",
+          "key": "2026041122534508000_2025.05.16.654507v2.23",
           "doi-asserted-by": "publisher",
           "DOI": "10.1080/01621459.1994.10476814"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.24",
+          "key": "2026041122534508000_2025.05.16.654507v2.24",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2021.05.009"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.25",
+          "key": "2026041122534508000_2025.05.16.654507v2.25",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/ng0595-111"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.26",
+          "key": "2026041122534508000_2025.05.16.654507v2.26",
           "doi-asserted-by": "publisher",
           "DOI": "10.1073/pnas.0802813105"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.27",
+          "key": "2026041122534508000_2025.05.16.654507v2.27",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/s41586-024-07050-7"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.28",
+          "key": "2026041122534508000_2025.05.16.654507v2.28",
           "doi-asserted-by": "crossref",
           "unstructured": "Zeiberg, D. et al. Gene-based calibration of high-throughput functional assays for clinical variant classification. bioRxiv 2025\u201304 (2025).",
           "DOI": "10.1101/2025.04.29.651326"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.29",
+          "key": "2026041122534508000_2025.05.16.654507v2.29",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2015.06.009"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.30",
+          "key": "2026041122534508000_2025.05.16.654507v2.30",
           "doi-asserted-by": "crossref",
           "unstructured": "Badonyi, M. & Marsh, J. A. Prevalence of loss-of-function, gain-of-function and dominant-negative mechanisms across genetic disease phenotypes. bioRxiv 2025\u201303 (2025).",
           "DOI": "10.1101/2025.03.13.642984"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.31",
+          "key": "2026041122534508000_2025.05.16.654507v2.31",
           "doi-asserted-by": "crossref",
           "first-page": "3895",
           "DOI": "10.1038/s41467-022-31686-6",
@@ -1940,77 +2176,77 @@
           "journal-title": "Nature communications"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.32",
+          "key": "2026041122534508000_2025.05.16.654507v2.32",
           "doi-asserted-by": "crossref",
           "unstructured": "Livesey, B. J. & Marsh, J. A. Why variant effect predictors and multiplexed assays agree and disagree. bioRxiv 2025\u201307 (2025).",
           "DOI": "10.1101/2025.07.31.667868"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.33",
+          "key": "2026041122534508000_2025.05.16.654507v2.33",
           "doi-asserted-by": "publisher",
           "DOI": "10.1002/humu.24152.Specifications"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.34",
+          "key": "2026041122534508000_2025.05.16.654507v2.34",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2024.07.013"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.35",
+          "key": "2026041122534508000_2025.05.16.654507v2.35",
           "doi-asserted-by": "publisher",
           "DOI": "10.1002/humu.22768"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.36",
+          "key": "2026041122534508000_2025.05.16.654507v2.36",
           "doi-asserted-by": "publisher",
           "DOI": "10.1002/cphg.93"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.37",
+          "key": "2026041122534508000_2025.05.16.654507v2.37",
           "doi-asserted-by": "crossref",
           "unstructured": "Pathak, A. K. et al. Pervasive ancestry bias in variant effect predictors. bioRxiv 2024\u201305 (2024).",
           "DOI": "10.1101/2024.05.20.594987"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.38",
+          "key": "2026041122534508000_2025.05.16.654507v2.38",
           "doi-asserted-by": "crossref",
           "unstructured": "Xu, H. et al. Single cell sequencing as a general variant interpretation assay. bioRxiv 2023\u201312 (2023).",
           "DOI": "10.1101/2023.12.12.571130"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.39",
+          "key": "2026041122534508000_2025.05.16.654507v2.39",
           "doi-asserted-by": "crossref",
           "unstructured": "Rowlands, C. F. et al. Availability of benign missense variant truthsets for validation of functional assays: Current status and a novel systematic approach. medRxiv 2025\u201303 (2025).",
           "DOI": "10.1101/2025.03.20.25324299"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.40",
+          "key": "2026041122534508000_2025.05.16.654507v2.40",
           "doi-asserted-by": "crossref",
           "unstructured": "Axakova, A. et al. Landscapes of missense variant impact for human superoxide dismutase 1. bioRxiv (2025).",
           "DOI": "10.1101/2025.02.25.640191"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.41",
+          "key": "2026041122534508000_2025.05.16.654507v2.41",
           "doi-asserted-by": "publisher",
           "DOI": "10.1038/s41586-018-0461-z"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.42",
+          "key": "2026041122534508000_2025.05.16.654507v2.42",
           "doi-asserted-by": "publisher",
           "DOI": "10.1101/gr.276562.122"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.43",
+          "key": "2026041122534508000_2025.05.16.654507v2.43",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2020.12.003"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.44",
+          "key": "2026041122534508000_2025.05.16.654507v2.44",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.ajhg.2023.03.019"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.45",
+          "key": "2026041122534508000_2025.05.16.654507v2.45",
           "doi-asserted-by": "crossref",
           "first-page": "1541",
           "DOI": "10.1038/s41467-024-45829-4",
@@ -2020,7 +2256,7 @@
           "journal-title": "Nature Communications"
         },
         {
-          "key": "2025081804500541000_2025.05.16.654507v2.46",
+          "key": "2026041122534508000_2025.05.16.654507v2.46",
           "doi-asserted-by": "publisher",
           "DOI": "10.1016/j.molcel.2018.06.012"
         }
@@ -2036,15 +2272,15 @@
       "deposited": {
         "date-parts": [
           [
-            2025,
-            10,
-            16
+            2026,
+            4,
+            12
           ]
         ],
-        "date-time": "2025-10-16T20:50:42Z",
-        "timestamp": 1760647842000
+        "date-time": "2026-04-12T05:53:55Z",
+        "timestamp": 1775973235000
       },
-      "score": 19.499298,
+      "score": 19.59008,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.16.654507"
@@ -2061,15 +2297,6 @@
       },
       "references-count": 46,
       "URL": "https://doi.org/10.1101/2025.05.16.654507",
-      "relation": {
-        "is-preprint-of": [
-          {
-            "id-type": "doi",
-            "id": "10.1093/bioinformatics/btaf503",
-            "asserted-by": "subject"
-          }
-        ]
-      },
       "published": {
         "date-parts": [
           [
@@ -2082,16 +2309,185 @@
       "subtype": "preprint"
     },
     {
+      "institution": [
+        {
+          "name": "Front Matter"
+        }
+      ],
       "indexed": {
         "date-parts": [
           [
-            2024,
-            7,
-            19
+            2025,
+            12,
+            9
           ]
         ],
-        "date-time": "2024-07-19T18:33:37Z",
-        "timestamp": 1721414017237
+        "date-time": "2025-12-09T15:53:20Z",
+        "timestamp": 1765295600640,
+        "version": "3.46.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            1
+          ]
+        ]
+      },
+      "group-title": "Research Graph",
+      "reference-count": 1,
+      "publisher": "Front Matter",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2024-08-01T00:00:00Z",
+            "timestamp": 1722470400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2024-08-01T00:00:00Z",
+            "timestamp": 1722470400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>In the field of Artificial Intelligence, large language models (LLMs) are transforming the landscape of what machines can achieve. These sophisticated models excel at tasks like summarising text, generating human-like content, translating languages, and answering complex questions. However, the computational resources required to run such models can be prohibitive for many individuals and small teams. Let's enter the world of Google Colab.</jats:p>",
+      "DOI": "10.59350/34y37-07797",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2025-12-09T10:46:01Z",
+        "timestamp": 1765277161000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Using Google Colab to run LLM Models"
+      ],
+      "prefix": "10.59350",
+      "author": [
+        {
+          "given": "Tohfa Siddika",
+          "family": "Barbhuiya",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "31795",
+      "reference": [
+        {
+          "key": "ref1",
+          "unstructured": "T. I. Institute, \"Falcon-7B-Instruct,\" Hugging Face, 2023. [Online]. Available:\u00a0. [Accessed: 31-July-2024]. https://huggingface.co/tiiuae/falcon-7b-instruct"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://hub.researchgraph.org/using-google-colab-to-run-llm-models/",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2025-12-09T15:31:00Z",
+        "timestamp": 1765294260000
+      },
+      "score": 18.652239,
+      "resource": {
+        "primary": {
+          "URL": "https://hub.researchgraph.org/using-google-colab-to-run-llm-models/"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            1
+          ]
+        ]
+      },
+      "references-count": 1,
+      "version": {
+        "version": "v1"
+      },
+      "URL": "https://doi.org/10.59350/34y37-07797",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.59350/ctarh-zbb18",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            1
+          ]
+        ]
+      },
+      "subtype": "other"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            28
+          ]
+        ],
+        "date-time": "2026-02-28T09:32:40Z",
+        "timestamp": 1772271160866,
+        "version": "3.50.1"
       },
       "reference-count": 0,
       "publisher": "PeerJ",
@@ -2109,8 +2505,8 @@
             31
           ]
         ],
-        "date-time": "2024-05-31T07:22:32Z",
-        "timestamp": 1717140152000
+        "date-time": "2024-05-31T03:22:32Z",
+        "timestamp": 1717125752000
       },
       "source": "Crossref",
       "is-referenced-by-count": 1,
@@ -2127,10 +2523,10 @@
             31
           ]
         ],
-        "date-time": "2024-05-31T07:22:44Z",
-        "timestamp": 1717140164000
+        "date-time": "2024-05-31T03:22:44Z",
+        "timestamp": 1717125764000
       },
-      "score": 19.187511,
+      "score": 18.637764,
       "resource": {
         "primary": {
           "URL": "https://peerj.com/articles/cs-2100/supp-1"
@@ -2144,133 +2540,16 @@
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.7717/peerj-cs.2100/supp-1"
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2022,
-            11,
-            3
-          ]
-        ],
-        "date-time": "2022-11-03T04:56:18Z",
-        "timestamp": 1667451378020
-      },
-      "description": "The Phenix AlphaFold Colab notebook predicted structure of PDB entry 6l5l.",
-      "reference-count": 0,
-      "publisher": "International Union of Crystallography (IUCr)",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "DOI": "10.1107/s2059798322010026/ai5009sup4.pdb",
-      "type": "component",
-      "created": {
-        "date-parts": [
-          [
-            2022,
-            10,
-            27
-          ]
-        ],
-        "date-time": "2022-10-27T16:08:50Z",
-        "timestamp": 1666886930000
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "prefix": "10.1107",
-      "member": "329",
-      "deposited": {
-        "date-parts": [
-          [
-            2022,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2022-11-02T16:29:50Z",
-        "timestamp": 1667406590000
-      },
-      "score": 18.302456,
-      "resource": {
-        "primary": {
-          "URL": "https://journals.iucr.org/d/issues/2022/11/00/ai5009/ai5009sup4.pdb"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            null
-          ]
+      "URL": "https://doi.org/10.7717/peerj-cs.2100/supp-1",
+      "relation": {
+        "is-component-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7717/peerj-cs.2100",
+            "asserted-by": "object"
+          }
         ]
-      },
-      "references-count": 0,
-      "URL": "https://doi.org/10.1107/s2059798322010026/ai5009sup4.pdb"
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2022,
-            11,
-            3
-          ]
-        ],
-        "date-time": "2022-11-03T04:56:18Z",
-        "timestamp": 1667451378005
-      },
-      "description": "The Phenix AlphaFold Colab notebook predicted structure of PDB entry 6j09.",
-      "reference-count": 0,
-      "publisher": "International Union of Crystallography (IUCr)",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "DOI": "10.1107/s2059798322010026/ai5009sup2.pdb",
-      "type": "component",
-      "created": {
-        "date-parts": [
-          [
-            2022,
-            10,
-            27
-          ]
-        ],
-        "date-time": "2022-10-27T16:08:50Z",
-        "timestamp": 1666886930000
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "prefix": "10.1107",
-      "member": "329",
-      "deposited": {
-        "date-parts": [
-          [
-            2022,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2022-11-02T16:29:50Z",
-        "timestamp": 1667406590000
-      },
-      "score": 18.292833,
-      "resource": {
-        "primary": {
-          "URL": "https://journals.iucr.org/d/issues/2022/11/00/ai5009/ai5009sup2.pdb"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            null
-          ]
-        ]
-      },
-      "references-count": 0,
-      "URL": "https://doi.org/10.1107/s2059798322010026/ai5009sup2.pdb"
+      }
     }
   ]
 }

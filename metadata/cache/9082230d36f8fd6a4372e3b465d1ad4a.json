@@ -1,167 +1,143 @@
 {
-  "cache_date": "2025-11-01T13:47:00.342676",
+  "cache_date": "2026-06-01T18:17:21.069935",
   "data": [
     {
-      "created": "2025-05-09T05:43:13.872322+00:00",
-      "modified": "2025-05-09T05:43:14.024014+00:00",
-      "id": 15369287,
-      "conceptrecid": "3564666",
-      "doi": "10.5281/zenodo.15369287",
-      "conceptdoi": "10.5281/zenodo.3564666",
-      "doi_url": "https://doi.org/10.5281/zenodo.15369287",
+      "created": "2025-11-24T09:59:10.878629+00:00",
+      "modified": "2025-11-24T09:59:11.265965+00:00",
+      "id": 17688438,
+      "conceptrecid": "17688437",
+      "doi": "10.5281/zenodo.17688438",
+      "conceptdoi": "10.5281/zenodo.17688437",
+      "doi_url": "https://doi.org/10.5281/zenodo.17688438",
       "metadata": {
-        "title": "nf-core/epitopeprediction: 3.0.0 - Wanne - 2025-05-09",
-        "doi": "10.5281/zenodo.15369287",
-        "publication_date": "2025-05-09",
-        "description": "<h3><code>Added</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/275\">#275</a> - Added bcftools/stats to add MultiQC plots for variant input</li>\n</ul>\n<h3><code>Added</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/279\">#279</a> - Add <code>SUMMARIZE_RESULTS</code> module and MultiQC plots. BREAKING output structure change from<code>&lt;outdir&gt;/predictions/&lt;meta.id&gt;/&lt;meta.id&gt;.tsv</code> to <code>&lt;outdir&gt;/predictions/&lt;meta.id&gt;.tsv</code></li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/270\">#270</a> Added option <code>--wide_format_output</code> to provide wide format output with additional information instead of long format (default)</li>\n</ul>\n<h3><code>Changed</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/247\">#247</a> - Update to nf-core template <code>3.0.2</code></li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/256\">#255</a> - Update to nf-core template <code>3.1.2</code></li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/250\">#250</a> - Implemented <code>netmhcpan</code> module. Removed legacy netmhc tools. Only the latest netmhcpan and netmhciipan versions will be supported (netmhcpan-4.1b, netmhciipan-4.3e)</li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/252\">#252</a> - Implemented <code>netmhciipan</code> module</li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/253\">#253</a> - Implemented <code>mhcflurry</code> module</li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/259\">#259</a> - Implemented <code>mhcnuggets</code> and <code>mhcnuggetsii</code> module</li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/260\">#260</a>, <a href=\"https://github.com/nf-core/epitopeprediction/pull/270\">#270</a> - Major refactoring to new, modular MHC binding subworkflow (see Meta-Issue <a href=\"https://github.com/nf-core/epitopeprediction/issues/205\">#205</a>). Removed legacy predictor <code>syfpeithi</code>. Predictors that can be specified via <code>--tools</code> are: <code>mhcflurry,mhcnuggets(default),mhcnuggetsii,netmhcpan,netmhciipan</code>. Changed <code>--min_peptide_length</code> and <code>max_peptide_length</code> to <code>min_peptide_length_classI</code> and <code>--max_peptide_length_classI</code>.</li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/263\">#263</a> - Rearrange supported alleles per predictor</li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/266\">#266</a>, <a href=\"https://github.com/nf-core/epitopeprediction/pull/268\">#268</a> - Refactor variant prediction with <code>epytope</code></li>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/282\">#282</a> - Update to nf-core template <code>3.2.1</code></li>\n</ul>\n<h3><code>Fixed</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/epitopeprediction/pull/278\">#278</a> - Fixed an issue where relative paths were not properly staged</li>\n</ul>",
+        "title": "Understanding ancestry biases in HLA-related datasets. Implications for machine learning predictors and healthcare equity.",
+        "doi": "10.5281/zenodo.17688438",
+        "publication_date": "2025-11-24",
+        "description": "<p>Machine learning algorithms are mirrors of the data they are trained on. They need abundant, well-labelled, highly diverse training data, ideally with both positive and negative data.&nbsp;Even many state-of-the-art machine learning models generalise poorly away from their training data.</p>\n<p>Whilst some datasets, such as those for the peptide-binding predictor NetMHCPan, are collected expressly for training the algorithm, many others consist of &ldquo;exhaust fume&rdquo; data collected over time in scientific studies.<span>&nbsp; </span>For a variety of reasons, none of the fault of the data collectors and curators, the training data is often significantly biased towards alleles present in White western populations or those related to specific disease contexts, e.g., Abacavir sensitivity in HLA-B*57:01 carriers.</p>\n<p>The bias in immunological training data sets can affect the equity of therapies based on them. Whilst predictive methods cover a wide range of alleles and specificities due to their similarity to alleles in the training data, many alleles with high polymorphic distances in the residues comprising the peptide-binding site remain unstudied.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Christopher Mohr",
-            "affiliation": null
-          },
-          {
-            "name": "Jonas Scheid",
-            "affiliation": "Peptide-based Immunotherapy"
-          },
-          {
-            "name": "Gisela Gabernet",
-            "affiliation": null
-          },
-          {
-            "name": "Alexander Peltzer",
-            "affiliation": "Boehringer Ingelheim"
-          },
-          {
-            "name": "Sabrina Krakau",
-            "affiliation": "@qbicsoftware"
-          },
-          {
-            "name": "nf-core bot",
-            "affiliation": null
-          },
-          {
-            "name": "Marissa Dubbelaar",
-            "affiliation": null
-          },
-          {
-            "name": "Leon Kuchenbecker",
-            "affiliation": "German Human Genome-Phenome Archive"
-          },
-          {
-            "name": "alina-bauer",
-            "affiliation": null
-          },
-          {
-            "name": "Mark Polster",
-            "affiliation": null
-          },
-          {
-            "name": "Maxime U Garcia",
-            "affiliation": "@seqeralabs"
-          },
-          {
-            "name": "Kevin Menden",
-            "affiliation": "Robert Bosch GmbH"
+            "name": "Thorpe, Christopher John",
+            "affiliation": "European Bioinformatics Institute",
+            "orcid": "0000-0002-4341-0320"
           }
         ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/nf-core/epitopeprediction/tree/3.0.0",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "3.0.0",
-        "custom": {
-          "code:codeRepository": "https://github.com/nf-core/epitopeprediction"
-        },
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Poster",
+          "type": "poster"
+        },
+        "meeting": {
+          "title": "British Society for Immunology Congress",
+          "acronym": "BSI Congress",
+          "place": "Liverpool",
+          "url": "https://www.bsicongress.com/event/a8f0a174-7556-460f-9b59-610a8fce7898/summary",
+          "session": "Poster",
+          "session_part": "1"
         },
         "license": {
-          "id": "mit-license"
+          "id": "cc-by-4.0"
         },
+        "grants": [
+          {
+            "code": "945405",
+            "internal_id": "10.13039/501100000780::945405",
+            "funder": {
+              "name": "European Commission",
+              "doi": "10.13039/501100000780",
+              "acronym": "EC"
+            },
+            "title": "Career Accelerator for Research Infrastructure Scientists",
+            "acronym": "ARISE",
+            "program": "H2020-EU.1.3.",
+            "url": "https://cordis.europa.eu/projects/945405"
+          }
+        ],
         "relations": {
           "version": [
             {
-              "index": 8,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "3564666"
+                "pid_value": "17688437"
               }
             }
           ]
         }
       },
-      "title": "nf-core/epitopeprediction: 3.0.0 - Wanne - 2025-05-09",
+      "title": "Understanding ancestry biases in HLA-related datasets. Implications for machine learning predictors and healthcare equity.",
       "links": {
-        "self": "https://zenodo.org/api/records/15369287",
-        "self_html": "https://zenodo.org/records/15369287",
-        "preview_html": "https://zenodo.org/records/15369287?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.15369287",
-        "self_doi": "https://doi.org/10.5281/zenodo.15369287",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15369287",
-        "reserve_doi": "https://zenodo.org/api/records/15369287/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/3564666",
-        "parent_html": "https://zenodo.org/records/3564666",
-        "parent_doi": "https://doi.org/10.5281/zenodo.3564666",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3564666",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15369287/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15369287/sequence/default",
-        "files": "https://zenodo.org/api/records/15369287/files",
-        "media_files": "https://zenodo.org/api/records/15369287/media-files",
-        "archive": "https://zenodo.org/api/records/15369287/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15369287/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15369287/versions/latest",
-        "latest_html": "https://zenodo.org/records/15369287/latest",
-        "versions": "https://zenodo.org/api/records/15369287/versions",
-        "draft": "https://zenodo.org/api/records/15369287/draft",
-        "access_links": "https://zenodo.org/api/records/15369287/access/links",
-        "access_grants": "https://zenodo.org/api/records/15369287/access/grants",
-        "access_users": "https://zenodo.org/api/records/15369287/access/users",
-        "access_request": "https://zenodo.org/api/records/15369287/access/request",
-        "access": "https://zenodo.org/api/records/15369287/access",
-        "communities": "https://zenodo.org/api/records/15369287/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15369287/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/15369287/request-deletion",
-        "requests": "https://zenodo.org/api/records/15369287/requests"
+        "self": "https://zenodo.org/api/records/17688438",
+        "self_html": "https://zenodo.org/records/17688438",
+        "preview_html": "https://zenodo.org/records/17688438?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17688438",
+        "self_doi": "https://doi.org/10.5281/zenodo.17688438",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17688438",
+        "reserve_doi": "https://zenodo.org/api/records/17688438/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17688437",
+        "parent_html": "https://zenodo.org/records/17688437",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17688437",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17688437",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17688438/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17688438/sequence/default",
+        "files": "https://zenodo.org/api/records/17688438/files",
+        "media_files": "https://zenodo.org/api/records/17688438/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:17688438:bias_in_training_data.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:17688438:bias_in_training_data.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:17688438:bias_in_training_data.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:17688438:bias_in_training_data.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:17688438:bias_in_training_data.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:17688438:bias_in_training_data.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/17688438/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17688438/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17688438/versions/latest",
+        "latest_html": "https://zenodo.org/records/17688438/latest",
+        "versions": "https://zenodo.org/api/records/17688438/versions",
+        "draft": "https://zenodo.org/api/records/17688438/draft",
+        "access_links": "https://zenodo.org/api/records/17688438/access/links",
+        "access_grants": "https://zenodo.org/api/records/17688438/access/grants",
+        "access_users": "https://zenodo.org/api/records/17688438/access/users",
+        "access_request": "https://zenodo.org/api/records/17688438/access/request",
+        "access": "https://zenodo.org/api/records/17688438/access",
+        "communities": "https://zenodo.org/api/records/17688438/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17688438/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17688438/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17688438/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/17688438/quota-increase",
+        "requests": "https://zenodo.org/api/records/17688438/requests"
       },
-      "updated": "2025-05-09T05:43:14.024014+00:00",
-      "recid": "15369287",
+      "updated": "2025-11-24T09:59:11.265965+00:00",
+      "recid": "17688438",
       "revision": 4,
       "files": [
         {
-          "id": "632c7157-e81c-46ba-b78a-c76139b9551c",
-          "key": "nf-core/epitopeprediction-3.0.0.zip",
-          "size": 415905,
-          "checksum": "md5:90ec645e8c83165efdb5bde8263eda1b",
+          "id": "7589355f-f054-49f5-ad65-510a244142d9",
+          "key": "bias_in_training_data.pdf",
+          "size": 1315201,
+          "checksum": "md5:8dae4ef4bd233fe5928028578016cbb6",
           "links": {
-            "self": "https://zenodo.org/api/records/15369287/files/nf-core/epitopeprediction-3.0.0.zip/content"
+            "self": "https://zenodo.org/api/records/17688438/files/bias_in_training_data.pdf/content"
           }
         }
       ],
-      "swh": {
-        "swhid": "swh:1:dir:b9d64e684f00a36b12a5cb55b34726e92b45e87f;origin=https://doi.org/10.5281/zenodo.3564666;visit=swh:1:snp:8748fdd58314d10cd06cd6bf1a68326f161d256b;anchor=swh:1:rel:fecbdb3cb7fb403c6242c9a2b55694997fdddd7b;path=nf-core-epitopeprediction-37c08f0"
-      },
+      "swh": null,
       "owners": [
         {
-          "id": "20760"
+          "id": "379133"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 83,
-        "unique_downloads": 83,
-        "views": 860,
-        "unique_views": 795,
-        "version_downloads": 7,
-        "version_unique_downloads": 7,
-        "version_unique_views": 63,
-        "version_views": 67
+        "downloads": 129,
+        "unique_downloads": 112,
+        "views": 61,
+        "unique_views": 48,
+        "version_downloads": 129,
+        "version_unique_downloads": 112,
+        "version_unique_views": 48,
+        "version_views": 61
       },
       "state": "done",
       "submitted": true
@@ -260,6 +236,8 @@
         "communities": "https://zenodo.org/api/records/14867946/communities",
         "communities-suggestions": "https://zenodo.org/api/records/14867946/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/14867946/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/14867946/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/14867946/quota-increase",
         "requests": "https://zenodo.org/api/records/14867946/requests"
       },
       "updated": "2025-02-13T22:54:28.251688+00:00",
@@ -347,14 +325,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 307,
-        "unique_downloads": 297,
-        "views": 353,
-        "unique_views": 290,
-        "version_downloads": 251,
-        "version_unique_downloads": 242,
-        "version_unique_views": 261,
-        "version_views": 313
+        "downloads": 435,
+        "unique_downloads": 425,
+        "views": 482,
+        "unique_views": 413,
+        "version_downloads": 356,
+        "version_unique_downloads": 347,
+        "version_unique_views": 365,
+        "version_views": 422
       },
       "state": "done",
       "submitted": true
@@ -434,6 +412,8 @@
         "communities": "https://zenodo.org/api/records/14286754/communities",
         "communities-suggestions": "https://zenodo.org/api/records/14286754/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/14286754/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/14286754/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/14286754/quota-increase",
         "requests": "https://zenodo.org/api/records/14286754/requests"
       },
       "updated": "2025-02-19T19:01:00.955846+00:00",
@@ -638,14 +618,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 1083,
-        "unique_downloads": 1039,
-        "views": 82,
-        "unique_views": 79,
-        "version_downloads": 1083,
-        "version_unique_downloads": 1039,
-        "version_unique_views": 79,
-        "version_views": 82
+        "downloads": 1628,
+        "unique_downloads": 1584,
+        "views": 122,
+        "unique_views": 118,
+        "version_downloads": 1628,
+        "version_unique_downloads": 1584,
+        "version_unique_views": 118,
+        "version_views": 122
       },
       "state": "done",
       "submitted": true
@@ -820,6 +800,8 @@
         "communities": "https://zenodo.org/api/records/11116273/communities",
         "communities-suggestions": "https://zenodo.org/api/records/11116273/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/11116273/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/11116273/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/11116273/quota-increase",
         "requests": "https://zenodo.org/api/records/11116273/requests"
       },
       "updated": "2024-06-26T15:50:29.468233+00:00",
@@ -844,14 +826,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 8,
-        "unique_downloads": 8,
-        "views": 30,
-        "unique_views": 27,
-        "version_downloads": 8,
-        "version_unique_downloads": 8,
-        "version_unique_views": 27,
-        "version_views": 30
+        "downloads": 26,
+        "unique_downloads": 26,
+        "views": 73,
+        "unique_views": 70,
+        "version_downloads": 26,
+        "version_unique_downloads": 26,
+        "version_unique_views": 70,
+        "version_views": 73
       },
       "state": "done",
       "submitted": true
@@ -937,6 +919,8 @@
         "communities": "https://zenodo.org/api/records/5212342/communities",
         "communities-suggestions": "https://zenodo.org/api/records/5212342/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/5212342/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/5212342/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/5212342/quota-increase",
         "requests": "https://zenodo.org/api/records/5212342/requests"
       },
       "updated": "2021-09-05T01:48:41.781596+00:00",
@@ -953,12 +937,12 @@
       "stats": {
         "downloads": 0,
         "unique_downloads": 0,
-        "views": 111,
-        "unique_views": 106,
+        "views": 153,
+        "unique_views": 148,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 45,
-        "version_views": 46
+        "version_unique_views": 65,
+        "version_views": 66
       },
       "state": "done",
       "submitted": true
@@ -1053,6 +1037,8 @@
         "communities": "https://zenodo.org/api/records/4986338/communities",
         "communities-suggestions": "https://zenodo.org/api/records/4986338/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/4986338/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/4986338/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/4986338/quota-increase",
         "requests": "https://zenodo.org/api/records/4986338/requests"
       },
       "updated": "2022-06-02T13:08:39.292468+00:00",
@@ -1095,14 +1081,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 42,
-        "unique_downloads": 42,
-        "views": 113,
-        "unique_views": 113,
-        "version_downloads": 42,
-        "version_unique_downloads": 42,
-        "version_unique_views": 113,
-        "version_views": 113
+        "downloads": 59,
+        "unique_downloads": 59,
+        "views": 120,
+        "unique_views": 120,
+        "version_downloads": 59,
+        "version_unique_downloads": 59,
+        "version_unique_views": 120,
+        "version_views": 120
       },
       "state": "done",
       "submitted": true
@@ -1186,6 +1172,8 @@
         "communities": "https://zenodo.org/api/records/4056421/communities",
         "communities-suggestions": "https://zenodo.org/api/records/4056421/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/4056421/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/4056421/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/4056421/quota-increase",
         "requests": "https://zenodo.org/api/records/4056421/requests"
       },
       "updated": "2020-09-29T00:26:53.023539+00:00",
@@ -1210,14 +1198,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 58,
-        "unique_downloads": 53,
-        "views": 344,
-        "unique_views": 337,
-        "version_downloads": 28,
-        "version_unique_downloads": 28,
-        "version_unique_views": 117,
-        "version_views": 119
+        "downloads": 92,
+        "unique_downloads": 87,
+        "views": 448,
+        "unique_views": 439,
+        "version_downloads": 36,
+        "version_unique_downloads": 36,
+        "version_unique_views": 181,
+        "version_views": 185
       },
       "state": "done",
       "submitted": true
@@ -1299,6 +1287,8 @@
         "communities": "https://zenodo.org/api/records/3676908/communities",
         "communities-suggestions": "https://zenodo.org/api/records/3676908/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/3676908/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/3676908/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/3676908/quota-increase",
         "requests": "https://zenodo.org/api/records/3676908/requests"
       },
       "updated": "2020-03-10T07:55:29.200393+00:00",
@@ -1341,14 +1331,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 245,
-        "unique_downloads": 180,
-        "views": 670,
-        "unique_views": 585,
-        "version_downloads": 245,
-        "version_unique_downloads": 180,
-        "version_unique_views": 585,
-        "version_views": 670
+        "downloads": 363,
+        "unique_downloads": 298,
+        "views": 764,
+        "unique_views": 679,
+        "version_downloads": 363,
+        "version_unique_downloads": 298,
+        "version_unique_views": 679,
+        "version_views": 764
       },
       "state": "done",
       "submitted": true
@@ -1433,6 +1423,8 @@
         "communities": "https://zenodo.org/api/records/3676886/communities",
         "communities-suggestions": "https://zenodo.org/api/records/3676886/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/3676886/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/3676886/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/3676886/quota-increase",
         "requests": "https://zenodo.org/api/records/3676886/requests"
       },
       "updated": "2020-03-10T07:55:22.534511+00:00",
@@ -1445,7 +1437,7 @@
           "size": 32274,
           "checksum": "md5:a9b175f4b025f8c2996d69009c52aa22",
           "links": {
-            "self": "https://zenodo.org/api/records/3676886/files/Table1 nCoV peptides having exact match with immunogenic SARS CoV peptides.xlsx/content"
+            "self": "https://zenodo.org/api/records/3676886/files/Table1%20nCoV%20peptides%20having%20exact%20match%20with%20immunogenic%20SARS%20CoV%20peptides.xlsx/content"
           }
         },
         {
@@ -1454,7 +1446,7 @@
           "size": 96712,
           "checksum": "md5:bff923dec9755f76c5733eb0b4694eaa",
           "links": {
-            "self": "https://zenodo.org/api/records/3676886/files/Table2 nCoV peptides with high sequence similarity with immunogenic IEDB peptides.csv/content"
+            "self": "https://zenodo.org/api/records/3676886/files/Table2%20nCoV%20peptides%20with%20high%20sequence%20similarity%20with%20immunogenic%20IEDB%20peptides.csv/content"
           }
         },
         {
@@ -1463,7 +1455,7 @@
           "size": 231840,
           "checksum": "md5:9f145340a5c56967c09a60ac1c09e779",
           "links": {
-            "self": "https://zenodo.org/api/records/3676886/files/Table4 de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and PWM.xlsx/content"
+            "self": "https://zenodo.org/api/records/3676886/files/Table4%20de%20novo%20search%20on%209-mer%20nCoV%20for%20immunogenic%20peptides%20by%20NetMHCpan%20and%20PWM.xlsx/content"
           }
         },
         {
@@ -1472,7 +1464,7 @@
           "size": 288983,
           "checksum": "md5:136913a1b336285c76b68448bc9d85d5",
           "links": {
-            "self": "https://zenodo.org/api/records/3676886/files/Table3 de novo search on 9-mer nCoV for immunogenic peptides by NetMHCpan and iPred.csv/content"
+            "self": "https://zenodo.org/api/records/3676886/files/Table3%20de%20novo%20search%20on%209-mer%20nCoV%20for%20immunogenic%20peptides%20by%20NetMHCpan%20and%20iPred.csv/content"
           }
         }
       ],
@@ -1484,14 +1476,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 634,
-        "unique_downloads": 502,
-        "views": 1196,
-        "unique_views": 1075,
-        "version_downloads": 634,
-        "version_unique_downloads": 502,
-        "version_unique_views": 1074,
-        "version_views": 1195
+        "downloads": 703,
+        "unique_downloads": 571,
+        "views": 1264,
+        "unique_views": 1141,
+        "version_downloads": 703,
+        "version_unique_downloads": 571,
+        "version_unique_views": 1140,
+        "version_views": 1263
       },
       "state": "done",
       "submitted": true
@@ -1567,6 +1559,8 @@
         "communities": "https://zenodo.org/api/records/1453418/communities",
         "communities-suggestions": "https://zenodo.org/api/records/1453418/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/1453418/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/1453418/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/1453418/quota-increase",
         "requests": "https://zenodo.org/api/records/1453418/requests"
       },
       "updated": "2020-01-24T19:26:17.257915+00:00",
@@ -27826,14 +27820,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 92383,
-        "unique_downloads": 60006,
-        "views": 971,
-        "unique_views": 890,
-        "version_downloads": 92252,
-        "version_unique_downloads": 59876,
-        "version_unique_views": 700,
-        "version_views": 776
+        "downloads": 96087,
+        "unique_downloads": 63694,
+        "views": 1060,
+        "unique_views": 975,
+        "version_downloads": 95954,
+        "version_unique_downloads": 63562,
+        "version_unique_views": 780,
+        "version_views": 860
       },
       "state": "done",
       "submitted": true

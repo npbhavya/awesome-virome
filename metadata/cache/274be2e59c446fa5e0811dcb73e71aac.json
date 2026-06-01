@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-11-01T13:44:58.205817",
+  "cache_date": "2026-06-01T18:09:06.748576",
   "data": [
     {
       "created": "2024-01-11T03:31:58.383797+00:00",
@@ -632,6 +632,8 @@
         "communities": "https://zenodo.org/api/records/10484597/communities",
         "communities-suggestions": "https://zenodo.org/api/records/10484597/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/10484597/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/10484597/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/10484597/quota-increase",
         "requests": "https://zenodo.org/api/records/10484597/requests"
       },
       "updated": "2024-07-07T13:25:19.607463+00:00",
@@ -648,12 +650,129 @@
       "stats": {
         "downloads": 0,
         "unique_downloads": 0,
-        "views": 27,
-        "unique_views": 26,
+        "views": 42,
+        "unique_views": 41,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 26,
-        "version_views": 27
+        "version_unique_views": 41,
+        "version_views": 42
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2025-12-09T10:20:25.682310+00:00",
+      "modified": "2025-12-09T10:20:25.936209+00:00",
+      "id": 17865196,
+      "conceptrecid": "17853903",
+      "doi": "10.5281/zenodo.17865196",
+      "conceptdoi": "10.5281/zenodo.17853903",
+      "doi_url": "https://doi.org/10.5281/zenodo.17865196",
+      "metadata": {
+        "title": "In Silico Assessment Framework for MERS-CoV Human Adaptation Potential: Structure-Guided Mutagenesis and Binding Affinity Modeling",
+        "doi": "10.5281/zenodo.17865196",
+        "publication_date": "2025-12-09",
+        "description": "<p><strong>Methods Development for the Study:</strong></p>\n<p><strong>\"In Silico Assessment Framework for MERS-CoV Human Adaptation Potential: Structure-Guided Mutagenesis and Binding Affinity Modeling\"</strong></p>\n<p><strong>&nbsp;Author: Tahir HB</strong></p>\n<p>We present a reproducible computational pipeline to evaluate the theoretical upper bound of Middle East respiratory syndrome coronavirus (<strong>MERS-CoV</strong>) human-to-human transmissibility. This framework integrates domain-resolved mosaic entropy analysis, structure-guided mutagenesis, and molecular docking to assess the phenotypic impact of putative adaptive mutations.</p>\n<p>&nbsp;</p>\n<p>Starting from high-quality reference genomes (DOI: 10.5281/zenodo.17575161), we identify candidate residues in the Spike receptor-binding domain (RBD) and Nucleocapsid (N) protein that based on SARS-CoV-2 evolutionary precedent that could enhance human <strong>DPP4</strong> affinity or replication fitness. Using ESMFold for structure prediction and HADDOCK for RBD - DPP4 docking, we quantify changes in binding energy (&Delta;&Delta;G) and surface electrostatics. All code, input sequences, and intermediate outputs are archived to enable transparent, audit-ready risk assessment by public health agencies.</p>\n<p>&nbsp;</p>\n<p>This work provides a predictive, open-science methods toolkit for anticipatory evaluation of zoonotic coronavirus pandemic potential without experimental synthesis fully aligned with DURC best practices.</p>\n<p><strong>&nbsp;</strong></p>\n<p>In Silico Engineering and Evaluation of Enhanced MERS-CoV Variants</p>\n<p><strong>1. Dataset Curation</strong></p>\n<p><em>We leveraged our previously deposited, high-quality MERS-CoV genomic and protein datasets:</em></p>\n<p>Structural protein sequences: <strong>34,875</strong> full-length MERS-CoV protein sequences (S, E, M, N, ORF1ab) from global isolates (DOI: 10.5281/zenodo.17575161)</p>\n<p><u>Host-stratified metadata</u>: Human vs. non-human isolates with collection dates, geography, and host species (DOI: 10.5281/zenodo.17579273)</p>\n<p><u>Spike RBD reference</u>: 182 human-derived MERS-CoV RBD sequences with DPP4-contact annotations (DOI: 10.6084/m9.figshare.30575102)</p>\n<p><strong>2. Target Selection for Enhancement</strong></p>\n<p><strong><u>Spike RBD</u></strong>: Residues 335 - 512 (YP_009825051.1). <strong><u>Target</u></strong>: enhance human DPP4 affinity.</p>\n<p><strong>Nucleocapsid (N)</strong>: Full-length (YP_009825061.1). <strong>Target</strong>: enhance RNA binding and oligomerization.</p>\n<p><strong>3. Variant Design Rationale</strong></p>\n<p><strong>RBD</strong>: Introduced SARS-CoV-2-like mutations at <strong>high-entropy positions</strong> identified in our mosaic analysis (DOI: 10.6084/m9.figshare.30814475):</p>\n<p><strong>Y499F</strong>: Stabilizes DPP4 interface salt bridges (validated in DOI: 10.5281/zenodo.17521020)</p>\n<p><strong>D510G</strong>: Reduces steric hindrance at DPP4 contact</p>\n<p><strong>S465T</strong>: Mimics SARS-CoV-2 glycosylation shield</p>\n<p><strong>N protein</strong>: Introduced positively charged residues in NTD (R107K, R149K) and stabilized CTD dimer interface (L346F, I350V), based on our codon-permissiveness framework (DOI: 10.20944/preprints202510.0285.v2).</p>\n<p><strong><u>4. Structural Modeling</u></strong></p>\n<p><strong>Input</strong>: Wild-type and mutant FASTA sequences</p>\n<p><strong>Tool</strong>: ESMFold (v1.0, ColabFold backend)</p>\n<p><strong>Parameters</strong>: Default (no templates, single-sequence mode)</p>\n<p><strong>Output</strong>: PDB structures for RBD and N protein</p>\n<p><strong><u>5. Molecular Docking (RBD - DPP4)</u></strong></p>\n<p><strong>Receptor</strong>: Human DPP4 (PDB: 4L72, chain A)</p>\n<p><strong>Ligand</strong>: Wild-type and mutant RBD models</p>\n<p><strong>Tool</strong>: HADDOCK 2.4 (web server, https://wenmr.science.uu.nl/haddock2.4/)</p>\n<p><strong>Protocol</strong>:</p>\n<p><strong>Active residues</strong>: <strong>DPP4 </strong>(E205, E206, R336); <strong>RBD</strong> (499, 510, 539)</p>\n<p><em>Rigid-body docking &rarr; Semi-flexible refinement &rarr; Water refinement</em></p>\n<p><strong>Output</strong>: Binding energy (&Delta;G, kcal/mol); top 10 clusters ranked by HADDOCK score</p>\n<p><strong>6. Replication Fitness Estimation (N Protein)</strong></p>\n<p><strong>Electrostatic potential</strong>: APBS (v3.4) to compute surface potential (PyMOL plugin)</p>\n<p><strong>Dimer stability</strong>: FoldX (v5.0) to compute &Delta;&Delta;G of CTD dimer interface</p>\n<p><strong>RNA binding</strong>: NucBind (deep learning predictor) for NTD affinity</p>\n<p><strong>7. Validation Metrics</strong></p>\n<p>Enhanced transmissibility proxy:</p>\n<p>&Delta;&Delta;G &lt; &ndash;1.0 kcal/mol for RBD&ndash;DPP4 (vs. wild-type)</p>\n<p>&Delta;&Delta;G &lt; &ndash;0.5 kcal/mol for N protein dimer (vs. wild-type)</p>\n<p>Surface potential &gt; +5 kT/e in NTD (RNA binding)</p>\n<p><strong><u>Biological plausibility</u></strong>: Mutations must be codon-permissible (per our CAI/CPB framework, DOI: 10.5281/zenodo.17053652)</p>\n<p><strong>8. Software Stack</strong></p>\n<p><strong>Sequence analysis</strong>: Biopython (v1.83), MAFFT (v7.490)</p>\n<p><strong>Structure prediction</strong>: ESMFold (ColabFold)</p>\n<p><strong>Docking</strong>: HADDOCK 2.4, ClusPro (backup)</p>\n<p><strong>Stability</strong>: FoldX, DynaMut2</p>\n<p><strong>Electrostatics</strong>: APBS, PDB2PQR</p>\n<p><strong>Environment</strong>: Google Colab (GPU), Ubuntu 22.04 LTS &amp; WSL / Windows / Ubuntu / Python 3, Visual Studio or Windows / Python / Jupyter Notebook.</p>\n<p><strong>9. Reproducibility &amp; Data Deposition</strong></p>\n<p>All code will be released on <strong><em><u>GitHub</u></em></strong> (CC-BY-4.0)</p>\n<p>Input sequences, PDB models, and docking results will be deposited in Zenodo (CC-BY-4.0)</p>\n<p>Workflow will be containerized via Docker for EU compliance (HERA/ECDC standards)</p>\n<p><strong>&nbsp;</strong><strong>10- Rationale for Mutation Selection:</strong></p>\n<p><strong>Y499F</strong>: Optimizing DPP4 Interface Packing</p>\n<p><strong>Location</strong>: Direct DPP4-contact residue (MERS-CoV RBD position 499 aligns with SARS-CoV-2 RBD 453).</p>\n<p><strong>Rationale</strong>:</p>\n<p>In SARS-CoV-2, Y453F (in mink variants) enhances ACE2 affinity by reducing steric clash and improving hydrophobic packing with ACE2 residue H34.</p>\n<p><strong>MERS-CoV Y499</strong> forms a polar contact with DPP4 E205. Substituting phenylalanine (F) removes the polar hydroxyl group, enabling tighter van der Waals contact with DPP4's hydrophobic pocket (V202, L209).</p>\n<p><strong>Evidence:</strong></p>\n<p>Structural studies (PDB: 4L72) show Y499&rsquo;s side chain points toward a hydrophobic DPP4 cleft.</p>\n<p>Rosetta energy calculations predict &Delta;&Delta;G = &ndash;1.2 kcal/mol for Y499F (<em>favoring binding</em>).</p>\n<p><strong>Precedent</strong>: MERS-CoV variants with hydrophobic substitutions at 499 (e.g., Y499L) show <strong>2.3</strong>&times; higher DPP4 affinity in pseudovirus assays (Corti et al., Nature Comms 2021).</p>\n<p>&nbsp;</p>\n<p><strong>D510G</strong>: Relieving Electrostatic Repulsion</p>\n<p><strong>Location</strong>: Adjacent to the DPP4-binding loop (MERS-CoV RBD position 510).</p>\n<p><strong>Rationale: </strong></p>\n<p>D510 forms a salt bridge with R511, stabilizing a suboptimal RBD conformation for DPP4 engagement.</p>\n<p>Glycine (G) introduces conformational flexibility, allowing the RBD loop to adopt a SARS-CoV-2-like \"up\" state that maximizes DPP4 contact.</p>\n<p><strong>Evidence:</strong></p>\n<p>MERS-CoV D510G mutants show reduced B-factor rigidity in MD simulations (RMSF &darr; 40%).</p>\n<p>Analogous D498G in SARS-CoV-2 RBD (position 498) enhances ACE2 on-rate by accelerating loop dynamics (Starr et al., Cell 2020).</p>\n<p><strong>Biological plausibility</strong>: Glycine is codon-accessible from aspartate (GAT &rarr; GGT) without CpG/UpA penalty.</p>\n<p>&nbsp;</p>\n<p><strong><u>S465T: Mimicking SARS-CoV-2 Glycan Shielding</u></strong></p>\n<p><strong>Location</strong>: Surface-exposed residue near the RBD core (MERS-CoV position 465).</p>\n<p><strong>Rationale:</strong></p>\n<p>Threonine (T) introduces a potential N-glycosylation sequon (N464-X-S/T) when paired with existing N464.</p>\n<p>SARS-CoV-2 uses T415 (in RBD) to form a glycan shield that evades neutralizing antibodies (e.g., MERS-CoV mAb MCA1).</p>\n<p>Evidence:</p>\n<p>MERS-CoV S465T gains a predicted glycan at N464 (NetNGlyc score: 0.87).</p>\n<p>Glycan shielding at this locus reduces MERS-CoV neutralization by 8.2-fold in pseudovirus assays (Wang et al., Cell Host &amp; Microbe 2020).</p>\n<p><strong>Evolutionary precedent</strong>: Natural MERS-CoV isolates from camels show <strong>S465T in 2.1</strong>% of genomes (NCBI Virus, 2023).</p>\n<p>&nbsp;</p>\n<p><strong><u>Our Dataset References for this Study:</u></strong></p>\n<p>D1. Bhatti, T. (2025). 34,875 Full-Length MERS-CoV Protein Sequences from Global Isolates (S, M, N, ORF1ab). Zenodo. <a href=\"https://doi.org/10.5281/zenodo.17575161\">https://doi.org/10.5281/zenodo.17575161</a></p>\n<p>&nbsp;</p>\n<p>D2. Bhatti, T. (2025). Curated Protein Metadata and Unique Accessions of MERS-CoV Across Diverse Hosts. Zenodo. <a href=\"https://doi.org/10.5281/zenodo.17579273\">https://doi.org/10.5281/zenodo.17579273</a></p>\n<p>&nbsp;</p>\n<p>D3. Bhatti, T. (2025). MERS-CoV Spike Receptor-Binding Domain Sequences from 182 Human Clinical Isolates with Antibody Escape Hotspot Annotation. Figshare. <a href=\"https://doi.org/10.6084/m9.figshare.30575102\">https://doi.org/10.6084/m9.figshare.30575102</a></p>\n<p>&nbsp;</p>\n<p>D4. Bhatti, T. (2025). Structural Validation of Putative DPP4-Contact Residues in MERS-CoV Spike: Residues 511 and 539 Are True Interface Sites, While 499, 534, and 553 Are Immune Escape Signatures. Zenodo. <a href=\"https://doi.org/10.5281/zenodo.17521020\">https://doi.org/10.5281/zenodo.17521020</a></p>\n<p>&nbsp;</p>\n<p>D5. Bhatti, T. (2025). Host-Stratified Gene-Level DRACH Motif Atlas of MERS-CoV: Human vs. Non-Human Isolates (n=663). Zenodo. <a href=\"https://doi.org/10.5281/zenodo.17462616\">https://doi.org/10.5281/zenodo.17462616</a></p>\n<p>&nbsp;</p>\n<p>D6. Bhatti, T. (2025). MERS-CoV Pan-Genomic Consensus and Evolutionary Constraint Analysis (n=1,746): Codon Usage, Saltation, and DPP4 Interface Stability. Zenodo. <a href=\"https://doi.org/10.5281/zenodo.17316298\">https://doi.org/10.5281/zenodo.17316298</a></p>\n<p>&nbsp;</p>\n<p>D7. Bhatti, T. (2025). Comprehensive Global Dataset of SARS-CoV-2 Lineages and Spike Mutations for Therapeutic and Vaccine Research (n &asymp; 9.4 million). Figshare. <a href=\"https://doi.org/10.6084/m9.figshare.30286912\">https://doi.org/10.6084/m9.figshare.30286912</a></p>\n<p>&nbsp;</p>\n<p><strong>References from Published Research</strong></p>\n<p>R1. Wang, N., Shi, X., Jiang, L., Zhang, S., Wang, D., Tong, P., ... &amp; Li, F. (2013). Structure of MERS-CoV spike receptor-binding domain complexed with human receptor DPP4. Nature Structural &amp; Molecular Biology, 20(6), 83&ndash;85. <a href=\"https://doi.org/10.1038/nsmb.2604\">https://doi.org/10.1038/nsmb.2604</a></p>\n<p>&nbsp;</p>\n<p>R2. Corti, D., Zhao, J., Pedotti, M., Simonelli, L., Agnihothram, S., Fett, C., ... &amp; Lanzavecchia, A. (2021). Prophylactic and therapeutic antiviral activity of a potently neutralizing anti-MERS-CoV human monoclonal antibody. Nature Communications, 12, 1299. <a href=\"https://doi.org/10.1038/s41467-021-21546-9\">https://doi.org/10.1038/s41467-021-21546-9</a></p>\n<p>&nbsp;</p>\n<p>R3. Wang, L., Shi, W., Chappell, J. D., &amp; et al. (2020). Importin &alpha;3 is critical for MERS-CoV infection and a target for antivirals. Cell Host &amp; Microbe, 28(4), 558&ndash;571.e6. <a href=\"https://doi.org/10.1016/j.chom.2020.08.004\">https://doi.org/10.1016/j.chom.2020.08.004</a></p>\n<p>&nbsp;</p>\n<p>R4. Starr, T. N., Greaney, A. J., Hilton, S. K., Ellis, D., Crawford, K. H. D., Dingens, A. S., ... &amp; Bloom, J. D. (2020). Deep mutational scanning of SARS-CoV-2 receptor-binding domain reveals constraints on folding and ACE2 binding. Cell, 182(5), 1295&ndash;1310.e20. <a href=\"https://doi.org/10.1016/j.cell.2020.08.012\">https://doi.org/10.1016/j.cell.2020.08.012</a></p>\n<p>&nbsp;</p>\n<p>R5. Bhatti, T. (2025). A Genome-Wide Codon-Permissiveness Framework Uncovers Spike-Centric Escape Hotspots and Distal Epistatic Couplings Across SARS-CoV-2 Structural Proteins. Preprint. Research Square. <a href=\"https://doi.org/10.20944/preprints202510.0285.v2\">https://doi.org/10.20944/preprints202510.0285.v2</a></p>\n<p>&nbsp;</p>\n<p>R6. Bhatti, T. (2025). Genomic Codon Composition and Epidemiological Landscape of H5N9 Influenza A Virus. Figshare. <a href=\"https://doi.org/10.6084/m9.figshare.30340279\">https://doi.org/10.6084/m9.figshare.30340279</a></p>\n<p>&nbsp;</p>\n<p>R7. Lu, G., Hu, Y., Wang, Q., Gao, G. F., &amp; Yan, J. (2013). Molecular basis of binding between novel human coronavirus MERS-CoV and its receptor CD26. Nature, 500(7461), 227&ndash;231. <a href=\"https://doi.org/10.1038/nature12328\">https://doi.org/10.1038/nature12328</a></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Bhatti, Tahir",
+            "affiliation": null,
+            "orcid": "0009-0003-6042-1616"
+          }
+        ],
+        "keywords": [
+          "DPP4",
+          "Lab Protocol"
+        ],
+        "version": "v2",
+        "language": "eng",
+        "resource_type": {
+          "title": "Working paper",
+          "type": "publication",
+          "subtype": "workingpaper"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17853903"
+              }
+            }
+          ]
+        }
+      },
+      "title": "In Silico Assessment Framework for MERS-CoV Human Adaptation Potential: Structure-Guided Mutagenesis and Binding Affinity Modeling",
+      "links": {
+        "self": "https://zenodo.org/api/records/17865196",
+        "self_html": "https://zenodo.org/records/17865196",
+        "preview_html": "https://zenodo.org/records/17865196?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.17865196",
+        "self_doi": "https://doi.org/10.5281/zenodo.17865196",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17865196",
+        "reserve_doi": "https://zenodo.org/api/records/17865196/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17853903",
+        "parent_html": "https://zenodo.org/records/17853903",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17853903",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17853903",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17865196/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17865196/sequence/default",
+        "files": "https://zenodo.org/api/records/17865196/files",
+        "media_files": "https://zenodo.org/api/records/17865196/media-files",
+        "archive": "https://zenodo.org/api/records/17865196/files-archive",
+        "archive_media": "https://zenodo.org/api/records/17865196/media-files-archive",
+        "latest": "https://zenodo.org/api/records/17865196/versions/latest",
+        "latest_html": "https://zenodo.org/records/17865196/latest",
+        "versions": "https://zenodo.org/api/records/17865196/versions",
+        "draft": "https://zenodo.org/api/records/17865196/draft",
+        "access_links": "https://zenodo.org/api/records/17865196/access/links",
+        "access_grants": "https://zenodo.org/api/records/17865196/access/grants",
+        "access_users": "https://zenodo.org/api/records/17865196/access/users",
+        "access_request": "https://zenodo.org/api/records/17865196/access/request",
+        "access": "https://zenodo.org/api/records/17865196/access",
+        "communities": "https://zenodo.org/api/records/17865196/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/17865196/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/17865196/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/17865196/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/17865196/quota-increase",
+        "requests": "https://zenodo.org/api/records/17865196/requests"
+      },
+      "updated": "2025-12-09T10:20:25.936209+00:00",
+      "recid": "17865196",
+      "revision": 3,
+      "files": [
+        {
+          "id": "f1682b27-bf88-4baa-8a7a-93805c8d90cf",
+          "key": "Enhancing RBD and N gene - Lab Protocol.docx",
+          "size": 17519,
+          "checksum": "md5:c84b833d9cbac6589562b2c7ad49dbda",
+          "links": {
+            "self": "https://zenodo.org/api/records/17865196/files/Enhancing%20RBD%20and%20N%20gene%20-%20Lab%20Protocol.docx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1311499"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 29,
+        "unique_downloads": 26,
+        "views": 116,
+        "unique_views": 103,
+        "version_downloads": 3,
+        "version_unique_downloads": 3,
+        "version_unique_views": 33,
+        "version_views": 41
       },
       "state": "done",
       "submitted": true

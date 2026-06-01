@@ -14,7 +14,42 @@
   "bioconda": {
     "package": "",
     "version": "",
-    "dependencies": {},
+    "dependencies": {
+      "build": [
+        "{{ compiler('cxx') }}",
+        "{{ compiler('c') }}",
+        "cmake",
+        "make",
+        "llvm-openmp  # [osx]",
+        "libgomp      # [linux]",
+        "perl",
+        "host:",
+        "gawk",
+        "zlib",
+        "bzip2",
+        "run:",
+        "wget",
+        "gawk",
+        "zlib",
+        "bzip2"
+      ],
+      "run": [
+        "wget",
+        "gawk",
+        "zlib",
+        "bzip2"
+      ],
+      "host": [
+        "gawk",
+        "zlib",
+        "bzip2",
+        "run:",
+        "wget",
+        "gawk",
+        "zlib",
+        "bzip2"
+      ]
+    },
     "installation": ""
   },
   "academic_impact": {
@@ -26,5 +61,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2025-11-01T12:45:12.087588"
+  "last_updated": "2026-06-01T17:26:50.822310"
 }

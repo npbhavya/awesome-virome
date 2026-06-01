@@ -1,6 +1,123 @@
 {
-  "cache_date": "2025-11-01T10:45:31.572111",
+  "cache_date": "2026-06-01T16:19:03.531277",
   "data": [
+    {
+      "created": "2026-05-18T08:15:57.835026+00:00",
+      "modified": "2026-05-18T08:15:58.190858+00:00",
+      "id": 20119467,
+      "conceptrecid": "20119466",
+      "doi": "10.5281/zenodo.20119467",
+      "conceptdoi": "10.5281/zenodo.20119466",
+      "doi_url": "https://doi.org/10.5281/zenodo.20119467",
+      "metadata": {
+        "title": "Swine Nasopharyngeal Phage Catalogue",
+        "doi": "10.5281/zenodo.20119467",
+        "publication_date": "2026-05-08",
+        "description": "<h1>Swine Nasopharyngeal Phage Catalogue</h1>\n<h2>1. Dataset overview</h2>\n<p>This repository accompanies the manuscript *\"Paired viromics resolves the modular ecological architecture of the swine nasopharyngeal phageome\"* and provides a curated, non-redundant catalogue of viral operational taxonomic units (vOTUs) recovered from the upper respiratory tract of post-weaning piglets across ten commercial farms in northwestern Spain. Paired DNA microbiome (DNA-m) and virus-like particle&ndash;enriched (VLP-e) short-read metagenomic libraries were processed, integrated, and dereplicated at species-level identity (&ge;95% average nucleotide identity over &ge;85% alignment fraction) following MIUViG recommendations (Roux et al., 2019).</p>\n<p>The catalogue comprises 2,501 representative vOTU sequences with CheckV-estimated completeness &ge;50%. For each vOTU, this release distributes (i) curated catalogue metadata describing taxonomy, predicted lifestyle, predicted host, quality metrics, and similarity to previously described phages; and (ii) per-gene functional annotations generated with Pharokka. Together, these files are intended to support reuse of the catalogue for comparative viromics, host-prediction benchmarking, downstream functional characterization, and rational pre-selection of lytic phage candidates against porcine respiratory pathogens.</p>\n<h2>2. Files included in this release</h2>\n<p>- **`nasopharyngeal_phages_metadata.tsv`**: one row per representative vOTU (n = 2,501). Contains identification, sample provenance, quality metrics (CheckV, MIUViG), taxonomic assignment, predicted lifestyle (PhaTYP), predicted bacterial host (iPHoP), terL marker information, and similarity to known phages from PhageScope.<br>- **`nasopharyngeal_phages_pharokka.tsv`**: one row per predicted gene across all representative vOTUs. Contains Pharokka annotations (PHROG categories, functional descriptions) and complementary searches against the Virulence Factor Database (VFDB) and the Comprehensive Antibiotic Resistance Database (CARD).<br>- **`nasopharyngeal_phages_vOTUs.fasta`**: nucleotide sequences of the 2,501 representative vOTUs. Sequence headers correspond to the `vOTU-ID` field used as the primary key across both metadata files.<br>- **`nasopharyngeal_phages_pharokka_CDS.faa`**: amino-acid sequences of the CDS derived from Pharokka annotations. CDS headers correspond to the `vOTU-gene` field used as key in the `nasopharyngeal_phages_pharokka` file.</p>\n<h2>3. General conventions</h2>\n<p>- Missing values are encoded as `NA` in the catalogue metadata file and as `None` or `No_PHROG` / `No_custom_HMM` in the Pharokka file, depending on the originating tool.<br>- Coordinates in the Pharokka file (`start`, `stop`) are 1-based and refer to the parent vOTU sequence.<br>- All numeric percentages are reported on a 0&ndash;100 scale; coverages and sequence-identity fractions reported by alignment tools (`qcov`, `tcov`, `fident`, `mmseqs_seqIdentity`) are reported on a 0&ndash;1 scale, following the conventions of the corresponding tools.<br>- Taxonomic strings for predicted bacterial hosts use GTDB rank prefixes (`d__`, `p__`, `c__`, `o__`, `f__`, `g__`, `s__`).<br>- Viral taxonomic strings follow the ICTV-style hierarchy reported by PhaBOX2 (superkingdom, clade, kingdom, phylum, class, order, family, genus).</p>\n<h2>4. `nasopharyngeal_phages_metadata.tsv`</h2>\n<p>This file contains one row per representative vOTU and 26 descriptor columns. The table below provides the field name, expected type or set of values, and a brief description.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Unique identifier of the viral operational taxonomic unit (vOTU) representative sequence. Encodes the originating sample and assembly source (e.g. `M01-C1_DNA-m_NODE_29994_length_56440_cov_17.9864_ID_59987`). |<br>| `Sample-Workflow` | Text (string) | Sample of origin combined with the extraction workflow used to recover the contig: `DNA-m` (DNA microbiome shotgun) or `VLP-e` (virus-like particle&ndash;enriched). The sample component follows the format `M[farm]-C[pen]` (e.g. `M01-C1_DNA-m`). |<br>| `Phage_Detection_Tool` | Categorical: `genomad` / `virsorter2` | Bioinformatic classifier that retained the contig as viral. When both tools identified the same contig, the prediction with the lowest CheckV-estimated contamination was kept. |<br>| `vOTU_Length` | Integer (bp) | Length of the representative vOTU sequence in base pairs. |<br>| `Viral_Taxonomy` | Text (string) or `NA` | Taxonomic lineage assigned by PhaBOX2, reported in semicolon-separated rank format from superkingdom down to the deepest resolved rank (e.g. `superkingdom:Viruses;clade:Duplodnaviria;&hellip;;family:Peduoviridae`). `NA` when no confident assignment was obtained. |<br>| `Number_of_genes` | Integer | Total number of predicted protein-coding genes annotated on the representative sequence. |<br>| `Viral_genes` | Integer | Number of predicted genes assigned to viral functional. |<br>| `Host_genes` | Integer | Number of predicted genes flagged as putatively host-derived by CheckV. Higher values indicate possible host contamination or integrated regions. |<br>| `Provirus` | Categorical: `Yes` / `No` | Whether CheckV identified the contig as a provirus (i.e. an integrated viral region embedded in a longer host-derived sequence). |<br>| `Proviral_Length` | Integer (bp) or `NA` | Length of the proviral region in base pairs when `Provirus = Yes`; `NA` otherwise. |<br>| `CheckV_Quality` | Categorical | CheckV quality category based on completeness and contamination: `Complete`, `High-quality`, `Medium-quality`, `Low-quality`, or `Not-determined`. Only `Medium-quality` or higher were retained in the curated catalogue. |<br>| `MIUViG_Quality` | Categorical | MIUViG (Minimum Information about an Uncultivated Virus Genome; Roux et al., 2019) tier: `Finished`, `High-quality`, or `Genome-fragment`, derived from CheckV completeness and contamination together with assembly status. |<br>| `Completeness (%)` | Numeric (0&ndash;100) | CheckV-estimated genome completeness, expressed as percentage. |<br>| `Contamination (%)` | Numeric (0&ndash;100) | CheckV-estimated host or non-viral contamination, expressed as percentage. |<br>| `Predicted_bacterial_host (IPHOP)` | Text (string) or `NA` | Putative bacterial host predicted by iPHoP, reported in GTDB rank-prefixed format (`d__Bacteria;p__&hellip;;c__&hellip;;o__&hellip;;f__&hellip;;g__&hellip;;s__&hellip;`). When multiple predictions were returned, the highest-confidence call was retained. `NA` when no host could be predicted with sufficient confidence. |<br>| `Confidence_Score_IPHOP` | Numeric (0&ndash;100) or `NA` | iPHoP confidence score associated with the retained host prediction. Higher values indicate greater confidence; `NA` when no host was assigned. |<br>| `Phage_Lifestyle (PhaTYP)` | Categorical: `virulent` / `temperate` / `NA` | Predicted replication strategy obtained from the PhaTYP module of PhaBOX2. `NA` when the model did not produce a confident call. |<br>| `PhaTYPScore` | Numeric (0&ndash;1) | PhaTYP probability score supporting the lifestyle assignment. |<br>| `Relationship with previously described vOTUs` | Categorical: `Permissive` / `Strict` / `NA` | Similarity to known phage sequences from PhageScope after MUMmer4 refinement. `Permissive` denotes vOTUs meeting the lenient match criteria (fident &ge; 0.90, qcov &ge; 0.25, tcov &ge; 0.20, aligned length &ge; 2 kb, target length &ge; 2 kb); `Strict` denotes the high-confidence subset (fident &ge; 0.92, qcov &ge; 0.35, aligned length &ge; 5 kb, target length &ge; 5 kb, and either tcov &ge; 0.50 or query length &ge; 15 kb). `NA` indicates no significant match. Full criteria are described in the Methods section of the associated manuscript. |<br>| `terL_gene` | Text (string) or `NA` | Identifier of the large terminase subunit (terL) gene predicted by Pharokka on the representative vOTU. `NA` when no terL was detected or when the predicted protein was shorter than 100 residues. |<br>| `terL_length` | Integer (amino acids) or `NA` | Length of the predicted terL protein in amino acids. Only sequences &ge;100 residues were used for the terL phylogenetic analysis. |<br>| `PhageScope-target` | Text (string) or `NA` | Identifier of the best-matching reference sequence in the PhageScope database when a similarity hit was retained; `NA` otherwise. |<br>| `PhageScope_source` | Text (string) or `NA` | Source database entry within PhageScope for the matched reference (e.g. originating phage genome accession or collection). |<br>| `qcov` | Numeric (0&ndash;1) or `NA` | Query coverage: fraction of the vOTU sequence covered by the alignment to the PhageScope target. `NA` when no match was retained. |<br>| `tcov` | Numeric (0&ndash;1) or `NA` | Target coverage: fraction of the matched PhageScope reference covered by the alignment. `NA` when no match was retained. |<br>| `fident` | Numeric (0&ndash;1) or `NA` | Fraction of identical nucleotides over the aligned region between the vOTU and the matched PhageScope target. `NA` when no match was retained. |</p>\n<h2>5. `nasopharyngeal_phages_pharokka.tsv`</h2>\n<p>This file contains one row per predicted feature (mainly CDS) generated by Pharokka v1.7.5 across all representative vOTUs. The table below describes its 43 columns. Functional categories follow the PHROG nomenclature; antimicrobial resistance and virulence factor annotations are derived from CARD and VFDB, respectively, and are populated only when a hit was detected.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Identifier of the parent vOTU on which the gene was predicted; matches the `vOTU-ID` column of the catalogue metadata file. |<br>| `vOTU-gene` | Text (string) | Internal gene identifier assigned by Pharokka within each vOTU (e.g. `phage_CDS_0001`). Sequential within a sequence. |<br>| `start` | Integer (bp) | Start coordinate of the predicted CDS on the vOTU sequence (1-based). |<br>| `stop` | Integer (bp) | End coordinate of the predicted CDS on the vOTU sequence (1-based, inclusive). |<br>| `frame` | Categorical: `+` / `&minus;` | Strand of the predicted CDS relative to the vOTU sequence. |<br>| `score` | Numeric | Pyrodigal gene-prediction score reported for the CDS. |<br>| `mmseqs_phrog` | Integer or `No_PHROG` | PHROG identifier returned by MMseqs2 sensitive search against the PHROG database. |<br>| `mmseqs_alnScore` | Numeric | MMseqs2 alignment bit score for the best PHROG hit. |<br>| `mmseqs_seqIdentity` | Numeric (0&ndash;1) | Fraction of identical residues in the MMseqs2 alignment to the PHROG target. |<br>| `mmseqs_eVal` | Numeric | MMseqs2 e-value of the best PHROG hit. |<br>| `mmseqs_top_hit` | Text (string) | Identifier of the top PHROG hit returned by MMseqs2. |<br>| `pyhmmer_phrog` | Integer or `No_PHROG` | PHROG identifier returned by pyhmmer profile HMM search. |<br>| `pyhmmer_bitscore` | Numeric | Bit score from the pyhmmer search against the PHROG HMM database. |<br>| `pyhmmer_evalue` | Numeric | E-value from the pyhmmer search against the PHROG HMM database. |<br>| `custom_hmm_id` | Text or `No_custom_HMM` | Identifier of the matched profile when a custom HMM database was used; `No_custom_HMM` indicates no custom HMM search was applied. |<br>| `custom_hmm_bitscore` | Numeric or `No_custom_HMM` | Bit score from the custom HMM search, when applicable. |<br>| `custom_hmm_evalue` | Numeric or `No_custom_HMM` | E-value from the custom HMM search, when applicable. |<br>| `phrog` | Integer or `No_PHROG` | Final PHROG identifier retained by Pharokka after consolidating MMseqs2 and pyhmmer evidence. |<br>| `Method` | Text (string) | Gene prediction method and version used by Pharokka. |<br>| `Region` | Categorical | Feature type (e.g. CDS, tRNA, tmRNA, CRISPR). |<br>| `color` | Hex colour code | Colour used by Pharokka for category-based visualisation of the gene in genome maps. |<br>| `annot` | Text (string) | Functional annotation of the gene (e.g. `baseplate wedge subunit`, `hypothetical protein`). |<br>| `category` | Text (string) | Higher-order PHROG functional category (e.g. tail, head and packaging, lysis, integration and excision, DNA/RNA and nucleotide metabolism, transcription regulation, moron auxiliary metabolic gene and host takeover, connector, unknown function, other). |<br>| `vfdb_hit` | Text or `None` | Best hit identifier against the Virulence Factor Database (VFDB). |<br>| `vfdb_alnScore` | Numeric or `None` | Alignment score of the best VFDB hit. |<br>| `vfdb_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best VFDB hit. |<br>| `vfdb_eVal` | Numeric or `None` | E-value of the best VFDB hit. |<br>| `vfdb_species` | Text or `None` | Species of origin of the best VFDB hit. |<br>| `vfdb_short_name` | Text or `None` | Short name of the matched VFDB virulence factor. |<br>| `vfdb_description` | Text or `None` | Functional description of the matched VFDB virulence factor. |<br>| `CARD_hit` | Text or `None` | Best hit identifier against the Comprehensive Antibiotic Resistance Database (CARD). |<br>| `CARD_alnScore` | Numeric or `None` | Alignment score of the best CARD hit. |<br>| `CARD_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best CARD hit. |<br>| `CARD_eVal` | Numeric or `None` | E-value of the best CARD hit. |<br>| `CARD_species` | Text or `None` | Species of origin of the best CARD hit. |<br>| `ARO_Accession` | Text or `None` | Antibiotic Resistance Ontology (ARO) accession of the matched CARD entry. |<br>| `CARD_short_name` | Text or `None` | Short name of the matched CARD entry. |<br>| `Protein_Accession` | Text or `None` | Protein accession associated with the matched CARD entry. |<br>| `DNA_Accession` | Text or `None` | Nucleotide accession associated with the matched CARD entry. |<br>| `AMR_Gene_Family` | Text or `None` | Antimicrobial resistance (AMR) gene family of the matched CARD entry. |<br>| `Drug_Class` | Text or `None` | Drug class targeted by the matched CARD entry. |<br>| `Resistance_Mechanism` | Text or `None` | Mechanism of resistance reported by CARD for the matched entry. |</p>",
+        "access_right": "embargoed",
+        "embargo_date": "2026-12-31",
+        "creators": [
+          {
+            "name": "Deneke, Carlus",
+            "affiliation": "Federal Institute for Risk Assessment",
+            "orcid": "0000-0002-2509-4950"
+          },
+          {
+            "name": "MENC\u00cdA ARES, \u00d3SCAR",
+            "affiliation": "Universidad de Le\u00f3n - Facultad de Veterinaria",
+            "orcid": "0000-0002-9923-2623"
+          }
+        ],
+        "keywords": [
+          "Phages",
+          "Next-generation sequencing",
+          "NGS"
+        ],
+        "version": "1.0.0",
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "bfr_bioinformatics"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20119466"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Swine Nasopharyngeal Phage Catalogue",
+      "links": {
+        "self": "https://zenodo.org/api/records/20119467",
+        "self_html": "https://zenodo.org/records/20119467",
+        "preview_html": "https://zenodo.org/records/20119467?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20119467",
+        "self_doi": "https://doi.org/10.5281/zenodo.20119467",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20119467",
+        "reserve_doi": "https://zenodo.org/api/records/20119467/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20119466",
+        "parent_html": "https://zenodo.org/records/20119466",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20119466",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20119466",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20119467/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20119467/sequence/default",
+        "files": "https://zenodo.org/api/records/20119467/files",
+        "media_files": "https://zenodo.org/api/records/20119467/media-files",
+        "archive": "https://zenodo.org/api/records/20119467/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20119467/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20119467/versions/latest",
+        "latest_html": "https://zenodo.org/records/20119467/latest",
+        "versions": "https://zenodo.org/api/records/20119467/versions",
+        "draft": "https://zenodo.org/api/records/20119467/draft",
+        "access_links": "https://zenodo.org/api/records/20119467/access/links",
+        "access_grants": "https://zenodo.org/api/records/20119467/access/grants",
+        "access_users": "https://zenodo.org/api/records/20119467/access/users",
+        "access_request": "https://zenodo.org/api/records/20119467/access/request",
+        "access": "https://zenodo.org/api/records/20119467/access",
+        "communities": "https://zenodo.org/api/records/20119467/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20119467/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20119467/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20119467/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20119467/quota-increase",
+        "requests": "https://zenodo.org/api/records/20119467/requests"
+      },
+      "updated": "2026-05-18T08:15:58.190858+00:00",
+      "recid": "20119467",
+      "revision": 4,
+      "files": [],
+      "swh": null,
+      "owners": [
+        {
+          "id": "52672"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 4,
+        "unique_views": 3,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 3,
+        "version_views": 4
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2024-09-05T10:30:31.345136+00:00",
       "modified": "2024-09-05T10:30:31.757949+00:00",
@@ -84,6 +201,8 @@
         "communities": "https://zenodo.org/api/records/13643307/communities",
         "communities-suggestions": "https://zenodo.org/api/records/13643307/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/13643307/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/13643307/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/13643307/quota-increase",
         "requests": "https://zenodo.org/api/records/13643307/requests"
       },
       "updated": "2024-09-05T10:30:31.757949+00:00",
@@ -126,14 +245,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 51,
-        "unique_downloads": 43,
-        "views": 43,
-        "unique_views": 38,
-        "version_downloads": 51,
-        "version_unique_downloads": 43,
-        "version_unique_views": 38,
-        "version_views": 43
+        "downloads": 89,
+        "unique_downloads": 81,
+        "views": 69,
+        "unique_views": 61,
+        "version_downloads": 89,
+        "version_unique_downloads": 81,
+        "version_unique_views": 61,
+        "version_views": 69
       },
       "state": "done",
       "submitted": true
@@ -211,6 +330,8 @@
         "communities": "https://zenodo.org/api/records/8357021/communities",
         "communities-suggestions": "https://zenodo.org/api/records/8357021/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/8357021/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/8357021/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/8357021/quota-increase",
         "requests": "https://zenodo.org/api/records/8357021/requests"
       },
       "updated": "2023-09-19T02:27:06.416746+00:00",
@@ -235,14 +356,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 34,
-        "unique_downloads": 33,
-        "views": 360,
-        "unique_views": 351,
-        "version_downloads": 32,
-        "version_unique_downloads": 31,
-        "version_unique_views": 342,
-        "version_views": 350
+        "downloads": 55,
+        "unique_downloads": 52,
+        "views": 482,
+        "unique_views": 469,
+        "version_downloads": 53,
+        "version_unique_downloads": 50,
+        "version_unique_views": 460,
+        "version_views": 472
       },
       "state": "done",
       "submitted": true

@@ -1,18 +1,18 @@
 {
-  "cache_date": "2025-11-01T12:36:47.409348",
+  "cache_date": "2026-06-01T18:42:53.399480",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            5,
+            29
           ]
         ],
-        "date-time": "2025-10-31T14:23:11Z",
-        "timestamp": 1761920591668,
-        "version": "3.37.3"
+        "date-time": "2026-05-29T14:29:23Z",
+        "timestamp": 1780064963810,
+        "version": "3.54.0"
       },
       "reference-count": 29,
       "publisher": "Oxford University Press (OUP)",
@@ -40,6 +40,13 @@
           "name": "Department of Defense: Defense Threat Reduction Agency",
           "award": [
             "DTRA10027-20149"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DTRA10027-20149"
+              ]
+            }
           ]
         },
         {
@@ -48,6 +55,13 @@
           "doi-asserted-by": "publisher",
           "award": [
             "DUE-1259951"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DUE-1259951"
+              ]
+            }
           ],
           "id": [
             {
@@ -74,7 +88,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Currently there are no tools specifically designed for annotating genes in phages. Several tools are available that have been adapted to run on phage genomes, but due to their underlying design, they are unable to capture the full complexity of phage genomes. Phages have adapted their genomes to be extremely compact, having adjacent genes that overlap and genes completely inside of other longer genes. This non-delineated genome structure makes it difficult for gene prediction using the currently available gene annotators. Here we present PHANOTATE, a novel method for gene calling specifically designed for phage genomes. Although the compact nature of genes in phages is a problem for current gene annotators, we exploit this property by treating a phage genome as a network of paths: where open reading frames are favorable, and overlaps and gaps are less favorable, but still possible. We represent this network of connections as a weighted graph, and use dynamic programing to find the optimal path.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We compare PHANOTATE to other gene callers by annotating a set of 2133 complete phage genomes from GenBank, using PHANOTATE and the three most popular gene callers. We found that the four programs agree on 82% of the total predicted genes, with PHANOTATE predicting more genes than the other three. We searched for these extra genes in both GenBank\u2019s non-redundant protein database and all of the metagenomes in the sequence read archive, and found that they are present at levels that suggest that these are functional protein-coding genes.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>https://github.com/deprekate/PHANOTATE</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Currently there are no tools specifically designed for annotating genes in phages. Several tools are available that have been adapted to run on phage genomes, but due to their underlying design, they are unable to capture the full complexity of phage genomes. Phages have adapted their genomes to be extremely compact, having adjacent genes that overlap and genes completely inside of other longer genes. This non-delineated genome structure makes it difficult for gene prediction using the currently available gene annotators. Here we present PHANOTATE, a novel method for gene calling specifically designed for phage genomes. Although the compact nature of genes in phages is a problem for current gene annotators, we exploit this property by treating a phage genome as a network of paths: where open reading frames are favorable, and overlaps and gaps are less favorable, but still possible. We represent this network of connections as a weighted graph, and use dynamic programing to find the optimal path.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We compare PHANOTATE to other gene callers by annotating a set of 2133 complete phage genomes from GenBank, using PHANOTATE and the three most popular gene callers. We found that the four programs agree on 82% of the total predicted genes, with PHANOTATE predicting more genes than the other three. We searched for these extra genes in both GenBank\u2019s non-redundant protein database and all of the metagenomes in the sequence read archive, and found that they are present at levels that suggest that these are functional protein-coding genes.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>https://github.com/deprekate/PHANOTATE</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Supplementary information</jats:title>\n                    <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n                  </jats:sec>",
       "DOI": "10.1093/bioinformatics/btz265",
       "type": "journal-article",
       "created": {
@@ -85,12 +99,12 @@
             16
           ]
         ],
-        "date-time": "2019-04-16T11:22:05Z",
-        "timestamp": 1555413725000
+        "date-time": "2019-04-16T07:22:05Z",
+        "timestamp": 1555399325000
       },
       "page": "4537-4542",
       "source": "Crossref",
-      "is-referenced-by-count": 239,
+      "is-referenced-by-count": 289,
       "title": [
         "PHANOTATE: a novel approach to gene identification in phage genomes"
       ],
@@ -105,6 +119,12 @@
             {
               "name": "Computational Sciences Research Center, San Diego State University , San Diego, CA 92182, USA"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -114,6 +134,12 @@
           "affiliation": [
             {
               "name": "Lawrence Livermore National Laboratory , Livermore, CA 94550, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -125,6 +151,12 @@
             {
               "name": "Department of Biology, San Diego State University , San Diego, CA 92182, USA"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -134,6 +166,12 @@
           "affiliation": [
             {
               "name": "Lawrence Livermore National Laboratory , Livermore, CA 94550, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -150,6 +188,12 @@
             },
             {
               "name": "Viral Information Institute, San Diego State University , San Diego, CA 92182, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         }
@@ -243,10 +287,10 @@
           "journal-title": "G3"
         },
         {
+          "key": "2023013108322370900_btz265-B8",
           "volume-title": "Statistical Power Analysis for the Behavioral Sciences L.",
-          "year": "1988",
           "author": "Cohen",
-          "key": "2023013108322370900_btz265-B8"
+          "year": "1988"
         },
         {
           "key": "2023013108322370900_btz265-B9",
@@ -260,16 +304,16 @@
           "journal-title": "Appl. Environ. Microbiol"
         },
         {
+          "key": "2023013108322370900_btz265-B10",
           "volume-title": "Network Flow Theory.",
-          "year": "1956",
           "author": "Ford",
-          "key": "2023013108322370900_btz265-B10"
+          "year": "1956"
         },
         {
+          "key": "2023013108322370900_btz265-B11",
           "volume-title": "Practical Statistics for Field Biology",
-          "year": "1998",
           "author": "Fowler",
-          "key": "2023013108322370900_btz265-B11"
+          "year": "1998"
         },
         {
           "key": "2023013108322370900_btz265-B12",
@@ -283,9 +327,9 @@
           "journal-title": "BMC Bioinformatics"
         },
         {
-          "year": "2001",
+          "key": "2023013108322370900_btz265-B13",
           "author": "Jones",
-          "key": "2023013108322370900_btz265-B13"
+          "year": "2001"
         },
         {
           "key": "2023013108322370900_btz265-B14",
@@ -486,10 +530,10 @@
             31
           ]
         ],
-        "date-time": "2023-01-31T17:39:02Z",
-        "timestamp": 1675186742000
+        "date-time": "2023-01-31T12:39:02Z",
+        "timestamp": 1675168742000
       },
-      "score": 12.016577,
+      "score": 11.744794,
       "resource": {
         "primary": {
           "URL": "https://academic.oup.com/bioinformatics/article/35/22/4537/5480131"
@@ -500,7 +544,13 @@
           "given": "John",
           "family": "Hancock",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
         }
       ],
       "issued": {
@@ -541,12 +591,12 @@
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "1367-4803"
+          "value": "1367-4803",
+          "type": "print"
         },
         {
-          "type": "electronic",
-          "value": "1367-4811"
+          "value": "1367-4811",
+          "type": "electronic"
         }
       ],
       "published-other": {
@@ -569,6 +619,139 @@
       }
     },
     {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            30
+          ]
+        ],
+        "date-time": "2026-01-30T21:39:58Z",
+        "timestamp": 1769809198774,
+        "version": "3.49.0"
+      },
+      "reference-count": 0,
+      "publisher": "JSTOR",
+      "issue": "2",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Journal of Marketing Research"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1988,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.2307/3172660",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2006-04-25T23:54:26Z",
+        "timestamp": 1146009266000
+      },
+      "page": "219",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "CRUNCH [Computer Software]",
+        "ELF [Computer Software]",
+        "NCSS [Computer Software]",
+        "POWERSTAT [Computer Software]",
+        "SIGSTAT [Computer Software]",
+        "SST [Computer Software]",
+        "STAN [Computer Software]",
+        "STATISTIX [Computer Software]"
+      ],
+      "prefix": "10.2307",
+      "volume": "25",
+      "author": [
+        {
+          "given": "Clifford E.",
+          "family": "Young",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "1121",
+      "container-title": [
+        "Journal of Marketing Research"
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2018-05-08T20:07:18Z",
+        "timestamp": 1525810038000
+      },
+      "score": 10.937313,
+      "resource": {
+        "primary": {
+          "URL": "https://www.jstor.org/stable/3172660?origin=crossref"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            1988,
+            5
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              1988,
+              5
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.2307/3172660",
+      "ISSN": [
+        "0022-2437"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-2437",
+          "type": "print"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1988,
+            5
+          ]
+        ]
+      }
+    },
+    {
       "institution": [
         {
           "name": "Front Matter"
@@ -577,14 +760,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            27
+            2026,
+            5,
+            5
           ]
         ],
-        "date-time": "2025-10-27T16:06:55Z",
-        "timestamp": 1761581215904,
-        "version": "build-2065373602"
+        "date-time": "2026-05-05T13:48:36Z",
+        "timestamp": 1777988916073,
+        "version": "3.51.4"
       },
       "posted": {
         "date-parts": [
@@ -660,7 +843,13 @@
         {
           "name": "Research Software Alliance",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "31795",
@@ -675,15 +864,15 @@
       "deposited": {
         "date-parts": [
           [
-            2025,
-            10,
-            27
+            2026,
+            2,
+            18
           ]
         ],
-        "date-time": "2025-10-27T16:02:26Z",
-        "timestamp": 1761580946000
+        "date-time": "2026-02-18T23:14:20Z",
+        "timestamp": 1771456460000
       },
-      "score": 10.750831,
+      "score": 10.801033,
       "resource": {
         "primary": {
           "URL": "https://www.researchsoft.org/events/events-current/2025-10/"
@@ -703,6 +892,15 @@
         "version": "v1"
       },
       "URL": "https://doi.org/10.59350/pz2ks-5sb91",
+      "relation": {
+        "is-version-of": [
+          {
+            "id-type": "doi",
+            "id": "10.59350/b5vrq-swn54",
+            "asserted-by": "object"
+          }
+        ]
+      },
       "published": {
         "date-parts": [
           [
@@ -723,14 +921,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            27
+            2026,
+            2,
+            19
           ]
         ],
-        "date-time": "2025-10-27T16:06:55Z",
-        "timestamp": 1761581215911,
-        "version": "build-2065373602"
+        "date-time": "2026-02-19T00:08:05Z",
+        "timestamp": 1771459685459,
+        "version": "3.50.1"
       },
       "posted": {
         "date-parts": [
@@ -806,7 +1004,13 @@
         {
           "name": "Research Software Alliance",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "31795",
@@ -821,15 +1025,15 @@
       "deposited": {
         "date-parts": [
           [
-            2025,
-            10,
-            27
+            2026,
+            2,
+            18
           ]
         ],
-        "date-time": "2025-10-27T16:02:26Z",
-        "timestamp": 1761580946000
+        "date-time": "2026-02-18T23:14:20Z",
+        "timestamp": 1771456460000
       },
-      "score": 10.750109,
+      "score": 10.767528,
       "resource": {
         "primary": {
           "URL": "https://www.researchsoft.org/events/events-current/2025-10/"
@@ -874,12 +1078,12 @@
         "date-parts": [
           [
             2025,
-            7,
-            31
+            11,
+            15
           ]
         ],
-        "date-time": "2025-07-31T00:21:55Z",
-        "timestamp": 1753921315934,
+        "date-time": "2025-11-15T16:45:43Z",
+        "timestamp": 1763225143621,
         "version": "3.30.1"
       },
       "reference-count": 15,
@@ -933,7 +1137,7 @@
       },
       "page": "687-699",
       "source": "Crossref",
-      "is-referenced-by-count": 24,
+      "is-referenced-by-count": 25,
       "title": [
         "Software faults, software failures and software reliability modeling"
       ],
@@ -944,7 +1148,13 @@
           "given": "John C.",
           "family": "Munson",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "78",
@@ -1092,7 +1302,7 @@
         "date-time": "2024-12-04T06:39:40Z",
         "timestamp": 1733294380000
       },
-      "score": 10.706608,
+      "score": 10.72096,
       "resource": {
         "primary": {
           "URL": "https://linkinghub.elsevier.com/retrieve/pii/0950584996011172"
@@ -1139,6 +1349,705 @@
           ]
         ]
       }
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T15:42:12Z",
+        "timestamp": 1778600532132,
+        "version": "3.51.4"
+      },
+      "reference-count": 16,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                26
+              ]
+            ],
+            "date-time": "2025-11-26T00:00:00Z",
+            "timestamp": 1764115200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Software Impacts"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.simpa.2025.100802",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2025-11-28T07:55:06Z",
+        "timestamp": 1764316506000
+      },
+      "page": "100802",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "special_numbering": "C",
+      "title": [
+        "Software architecture description in original software publications"
+      ],
+      "prefix": "10.1016",
+      "volume": "27",
+      "author": [
+        {
+          "given": "Tomasz",
+          "family": "G\u00f3rski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.simpa.2025.100802_b1",
+          "series-title": "Computer Aided Systems Theory\u2014EUROCAST 2019",
+          "first-page": "499",
+          "article-title": "Verification of architectural views model 1+5 applicability",
+          "volume": "vol. 12013",
+          "author": "G\u00f3rski",
+          "year": "2020"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.simpa.2025.100802_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "2000",
+          "DOI": "10.3390/sym13112000",
+          "article-title": "The 1+5 architectural views model in designing blockchain and IT system integration solutions",
+          "volume": "13",
+          "author": "G\u00f3rski",
+          "year": "2021",
+          "journal-title": "Symmetry"
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b3",
+          "article-title": "Blockchain-based quality management for a digital additive manufacturing part record",
+          "volume": "35",
+          "author": "Westphal",
+          "year": "2023",
+          "journal-title": "J. Ind. Inf. Integr."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jnca.2025.104273",
+          "article-title": "Fine-grained access control with decentralized delegation for collaborative healthcare systems",
+          "volume": "242",
+          "author": "Li",
+          "year": "2025",
+          "journal-title": "J. Netw. Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b5",
+          "article-title": "VMC2-PS: Blockchain-based multi-copy data pub/sub service with fine-grained access control for multi-cloud storage",
+          "volume": "93",
+          "author": "Shi",
+          "year": "2025",
+          "journal-title": "J. Inf. Secur. Appl."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b6",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.softx.2024.101698",
+          "article-title": "SmarTS: A Java package for smart contract test suite generation and execution",
+          "volume": "26",
+          "author": "G\u00f3rski",
+          "year": "2024",
+          "journal-title": "SoftwareX"
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.simpa.2024.100694",
+          "article-title": "AdapT: A reusable package for implementing smart contracts that process transactions of congruous types",
+          "volume": "21",
+          "author": "G\u00f3rski",
+          "year": "2024",
+          "journal-title": "Softw. Impacts"
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b8",
+          "unstructured": "The Estate package - GitHub repository. Available online: https://github.com/drGorski/Estate/releases/tag/v1.0."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b9",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jss.2025.112432",
+          "article-title": "An architectural view type for elasticity modeling and simulation\u2014The slingshot approach",
+          "volume": "228",
+          "author": "Klinaku",
+          "year": "2025",
+          "journal-title": "J. Syst. Softw."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1007/s10207-024-00924-x",
+          "article-title": "Architectural views for social robots in public spaces: business, system, and security strategies",
+          "volume": "24",
+          "author": "Oruma",
+          "year": "2025",
+          "journal-title": "Int. J. Inf. Secur."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.simpa.2025.100802_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "4703",
+          "DOI": "10.3390/en16124703",
+          "article-title": "Key aspects and challenges in the implementation of energy communities",
+          "volume": "16",
+          "author": "Yiasoumas",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b12",
+          "article-title": "A case study on implementing a flexible IIoT service framework for the integration of machine tools",
+          "volume": "47",
+          "author": "Chen",
+          "year": "2025",
+          "journal-title": "J. Ind. Inf. Integr."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "8449",
+          "DOI": "10.1109/ACCESS.2024.3352115",
+          "article-title": "Typing requirement model as coroutines",
+          "volume": "12",
+          "author": "Gu",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2286",
+          "DOI": "10.1109/OJCOMS.2023.3316118",
+          "article-title": "Data quality in human-centric sensing-based next-generation IoT systems: A comprehensive survey of models, issues, and challenges",
+          "volume": "4",
+          "author": "Banti",
+          "year": "2023",
+          "journal-title": "IEEE Open J. Commun. Soc."
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "35220",
+          "DOI": "10.1109/ACCESS.2023.3265210",
+          "article-title": "Integration flows modeling in the context of architectural views",
+          "volume": "11",
+          "author": "G\u00f3rski",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.simpa.2025.100802_b16",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.future.2025.108146",
+          "article-title": "Reservoir computing for enhanced fidelity in hierarchical digital twin ecosystems",
+          "volume": "176",
+          "author": "Mendula",
+          "year": "2026",
+          "journal-title": "Future Gener. Comput. Syst."
+        }
+      ],
+      "container-title": [
+        "Software Impacts"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2665963825000624?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2665963825000624?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            11
+          ]
+        ],
+        "date-time": "2026-03-11T20:45:40Z",
+        "timestamp": 1773261940000
+      },
+      "score": 10.71785,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2665963825000624"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "references-count": 16,
+      "alternative-id": [
+        "S2665963825000624"
+      ],
+      "URL": "https://doi.org/10.1016/j.simpa.2025.100802",
+      "ISSN": [
+        "2665-9638"
+      ],
+      "issn-type": [
+        {
+          "value": "2665-9638",
+          "type": "print"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Software architecture description in original software publications",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Software Impacts",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.simpa.2025.100802",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "simple-article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2025 The Author(s). Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "100802"
+    },
+    {
+      "institution": [
+        {
+          "name": "Front Matter"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            6
+          ]
+        ],
+        "date-time": "2025-12-06T21:44:47Z",
+        "timestamp": 1765057487031,
+        "version": "3.46.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            24
+          ]
+        ]
+      },
+      "group-title": "Research Software Alliance",
+      "reference-count": 0,
+      "publisher": "Front Matter",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                24
+              ]
+            ],
+            "date-time": "2022-11-24T00:00:00Z",
+            "timestamp": 1669248000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                24
+              ]
+            ],
+            "date-time": "2022-11-24T00:00:00Z",
+            "timestamp": 1669248000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Image: Carole Goble presenting \"Research Software Sustainability Takes a Village\". Photo credit: Annelies Verhelst November, 2022 Authors: Michelle Barker, Valentina Azzar\u00e0, Tom Bakker, Lieke de Boer, Neil Chue Hong, Maria Cruz, Niels Drost, Joris van Eijnatten, Maaike de Jong, Daniel S. Katz, Carlos Martinez-Ortiz, Veronica Pang This blog post is being cross-posted by the Research Software Alliance and Netherlands eScience Center.</jats:p>",
+      "DOI": "10.59350/p7hs9-4ct40",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            6
+          ]
+        ],
+        "date-time": "2025-12-06T21:39:25Z",
+        "timestamp": 1765057165000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Global gathering of research software funders sets the agenda for supporting sustainable research software"
+      ],
+      "prefix": "10.59350",
+      "author": [
+        {
+          "name": "Research Software Alliance",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "31795",
+      "link": [
+        {
+          "URL": "https://www.researchsoft.org/blog/2022-11",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            6
+          ]
+        ],
+        "date-time": "2025-12-06T21:39:25Z",
+        "timestamp": 1765057165000
+      },
+      "score": 10.699569,
+      "resource": {
+        "primary": {
+          "URL": "https://www.researchsoft.org/blog/2022-11"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            24
+          ]
+        ]
+      },
+      "references-count": 0,
+      "version": {
+        "version": "v1"
+      },
+      "URL": "https://doi.org/10.59350/p7hs9-4ct40",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.59350/ptp50-67f95",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            24
+          ]
+        ]
+      },
+      "subtype": "other"
+    },
+    {
+      "institution": [
+        {
+          "name": "Front Matter"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            18
+          ]
+        ],
+        "date-time": "2026-02-18T15:24:08Z",
+        "timestamp": 1771428248050,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            16
+          ]
+        ]
+      },
+      "group-title": "Research Software Alliance",
+      "reference-count": 0,
+      "publisher": "Front Matter",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2024-10-16T00:00:00Z",
+            "timestamp": 1729036800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2024-10-16T00:00:00Z",
+            "timestamp": 1729036800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>By Michelle Barker, Chris Erdmann, Eric Jensen, Kim Hartley, Anna Henriksson, Sun\u00e9 Joubert October 2024 The 2024 International Research Software Funders Workshop continued to progress the way funders sustain and support research software.</jats:p>",
+      "DOI": "10.59350/dsnre-a7a60",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            18
+          ]
+        ],
+        "date-time": "2026-02-18T14:16:51Z",
+        "timestamp": 1771424211000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "International Research Software Funders Workshop 2024 \u2013 Building a Sustainable Future for Research Software"
+      ],
+      "prefix": "10.59350",
+      "author": [
+        {
+          "name": "Research Software Alliance",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "31795",
+      "link": [
+        {
+          "URL": "https://www.researchsoft.org/blog/2024-10/",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            18
+          ]
+        ],
+        "date-time": "2026-02-18T14:51:11Z",
+        "timestamp": 1771426271000
+      },
+      "score": 10.696577,
+      "resource": {
+        "primary": {
+          "URL": "https://www.researchsoft.org/blog/2024-10/"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            16
+          ]
+        ]
+      },
+      "references-count": 0,
+      "version": {
+        "version": "v1"
+      },
+      "URL": "https://doi.org/10.59350/dsnre-a7a60",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.59350/jvtka-yze98",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            16
+          ]
+        ]
+      },
+      "subtype": "other"
     },
     {
       "indexed": {
@@ -1206,7 +2115,7 @@
         "date-time": "2023-05-15T21:18:31Z",
         "timestamp": 1684185511000
       },
-      "score": 10.693221,
+      "score": 10.686702,
       "resource": {
         "primary": {
           "URL": "https://ieeexplore.ieee.org/document/5989540"
@@ -1233,545 +2142,165 @@
       }
     },
     {
+      "institution": [
+        {
+          "name": "Front Matter"
+        }
+      ],
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            11
+            2026,
+            5,
+            5
           ]
         ],
-        "date-time": "2025-10-11T01:46:57Z",
-        "timestamp": 1760147217987,
-        "version": "build-2065373602"
+        "date-time": "2026-05-05T13:48:31Z",
+        "timestamp": 1777988911437,
+        "version": "3.51.4"
       },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            19
+          ]
+        ]
+      },
+      "group-title": "Research Software Alliance",
       "reference-count": 0,
-      "publisher": "MDPI AG",
-      "issue": "1",
+      "publisher": "Front Matter",
       "license": [
         {
           "start": {
             "date-parts": [
               [
-                2023,
-                1,
-                18
+                2024,
+                9,
+                19
               ]
             ],
-            "date-time": "2023-01-18T00:00:00Z",
-            "timestamp": 1674000000000
+            "date-time": "2024-09-19T00:00:00Z",
+            "timestamp": 1726704000000
           },
           "content-version": "vor",
           "delay-in-days": 0,
-          "URL": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "short-container-title": [
-        "Software"
-      ],
-      "abstract": "<jats:p>High-quality academic publishing is built on rigorous peer review [...]</jats:p>",
-      "DOI": "10.3390/software2010002",
-      "type": "journal-article",
-      "created": {
-        "date-parts": [
-          [
-            2023,
-            1,
-            18
-          ]
-        ],
-        "date-time": "2023-01-18T03:04:44Z",
-        "timestamp": 1674011084000
-      },
-      "page": "19-20",
-      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "Acknowledgment to the Reviewers of Software in 2022"
-      ],
-      "prefix": "10.3390",
-      "volume": "2",
-      "author": [
-        {
-          "name": "Software Editorial Office",
-          "sequence": "first",
-          "affiliation": []
-        }
-      ],
-      "member": "1968",
-      "published-online": {
-        "date-parts": [
-          [
-            2023,
-            1,
-            18
-          ]
-        ]
-      },
-      "container-title": [
-        "Software"
-      ],
-      "language": "en",
-      "link": [
-        {
-          "URL": "https://www.mdpi.com/2674-113X/2/1/2/pdf",
-          "content-type": "unspecified",
-          "content-version": "vor",
-          "intended-application": "similarity-checking"
-        }
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2025,
-            10,
-            10
-          ]
-        ],
-        "date-time": "2025-10-10T18:08:48Z",
-        "timestamp": 1760119728000
-      },
-      "score": 10.6660185,
-      "resource": {
-        "primary": {
-          "URL": "https://www.mdpi.com/2674-113X/2/1/2"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2023,
-            1,
-            18
-          ]
-        ]
-      },
-      "references-count": 0,
-      "journal-issue": {
-        "issue": "1",
-        "published-online": {
-          "date-parts": [
-            [
-              2023,
-              3
-            ]
-          ]
-        }
-      },
-      "alternative-id": [
-        "software2010002"
-      ],
-      "URL": "https://doi.org/10.3390/software2010002",
-      "ISSN": [
-        "2674-113X"
-      ],
-      "issn-type": [
-        {
-          "type": "electronic",
-          "value": "2674-113X"
-        }
-      ],
-      "published": {
-        "date-parts": [
-          [
-            2023,
-            1,
-            18
-          ]
-        ]
-      }
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2024,
-            5,
-            23
-          ]
-        ],
-        "date-time": "2024-05-23T00:16:44Z",
-        "timestamp": 1716423404148
-      },
-      "publisher-location": "London",
-      "standards-body": {
-        "name": "BSI British Standards",
-        "acronym": "BSI"
-      },
-      "reference-count": 0,
-      "publisher": "BSI British Standards",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "DOI": "10.3403/30404175",
-      "type": "standard",
-      "created": {
-        "date-parts": [
-          [
-            2023,
-            7,
-            21
-          ]
-        ],
-        "date-time": "2023-07-21T20:30:13Z",
-        "timestamp": 1689971413000
-      },
-      "approved": {
-        "date-parts": [
-          [
-            2023,
-            7,
-            25
-          ]
-        ]
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "Software and systems engineering. Certification of software and systems engineering professionals"
-      ],
-      "prefix": "10.3403",
-      "member": "1988",
-      "deposited": {
-        "date-parts": [
-          [
-            2024,
-            5,
-            22
-          ]
-        ],
-        "date-time": "2024-05-22T20:31:17Z",
-        "timestamp": 1716409877000
-      },
-      "score": 10.64236,
-      "resource": {
-        "primary": {
-          "URL": "https://linkresolver.bsigroup.com/junction/resolve/000000000030404175?restype=standard"
-        }
-      },
-      "subtitle": [
-        "Software engineering"
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            null
-          ]
-        ]
-      },
-      "references-count": 0,
-      "URL": "https://doi.org/10.3403/30404175"
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2024,
-            5,
-            23
-          ]
-        ],
-        "date-time": "2024-05-23T00:16:52Z",
-        "timestamp": 1716423412633
-      },
-      "publisher-location": "London",
-      "standards-body": {
-        "name": "BSI British Standards",
-        "acronym": "BSI"
-      },
-      "reference-count": 0,
-      "publisher": "BSI British Standards",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "DOI": "10.3403/30404175u",
-      "type": "standard",
-      "created": {
-        "date-parts": [
-          [
-            2023,
-            7,
-            21
-          ]
-        ],
-        "date-time": "2023-07-21T20:30:13Z",
-        "timestamp": 1689971413000
-      },
-      "approved": {
-        "date-parts": [
-          [
-            2023,
-            7,
-            25
-          ]
-        ]
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "Software and systems engineering. Certification of software and systems engineering professionals"
-      ],
-      "prefix": "10.3403",
-      "member": "1988",
-      "deposited": {
-        "date-parts": [
-          [
-            2024,
-            5,
-            22
-          ]
-        ],
-        "date-time": "2024-05-22T20:31:19Z",
-        "timestamp": 1716409879000
-      },
-      "score": 10.625184,
-      "resource": {
-        "primary": {
-          "URL": "https://linkresolver.bsigroup.com/junction/resolve/000000000030404175?restype=undated"
-        }
-      },
-      "subtitle": [
-        "Software engineering"
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            null
-          ]
-        ]
-      },
-      "references-count": 0,
-      "URL": "https://doi.org/10.3403/30404175u"
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2023,
-            6,
-            12
-          ]
-        ],
-        "date-time": "2023-06-12T17:10:31Z",
-        "timestamp": 1686589831386
-      },
-      "reference-count": 0,
-      "publisher": "China Science Publishing & Media Ltd.",
-      "issue": "12",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "short-container-title": [
-        "Journal of Software"
-      ],
-      "published-print": {
-        "date-parts": [
-          [
-            2014,
-            1,
-            17
-          ]
-        ]
-      },
-      "DOI": "10.3724/sp.j.1001.2013.04397",
-      "type": "journal-article",
-      "created": {
-        "date-parts": [
-          [
-            2014,
-            1,
-            17
-          ]
-        ],
-        "date-time": "2014-01-17T06:51:23Z",
-        "timestamp": 1389941483000
-      },
-      "page": "2814-2829",
-      "source": "Crossref",
-      "is-referenced-by-count": 11,
-      "title": [
-        "Software Networks Nodes Impact Analysis of Complex Software Systems"
-      ],
-      "prefix": "10.3724",
-      "volume": "24",
-      "author": [
-        {
-          "given": "Bei-Yang",
-          "family": "WANG",
-          "sequence": "first",
-          "affiliation": []
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
         },
         {
-          "given": "Jin-Hu",
-          "family": "L\u00dc",
-          "sequence": "additional",
-          "affiliation": []
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                19
+              ]
+            ],
+            "date-time": "2024-09-19T00:00:00Z",
+            "timestamp": 1726704000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
         }
       ],
-      "member": "2026",
-      "container-title": [
-        "Journal of Software"
-      ],
-      "language": "en",
-      "link": [
-        {
-          "URL": "http://www.jos.org.cn/jos/article/pdf/4397",
-          "content-type": "unspecified",
-          "content-version": "vor",
-          "intended-application": "similarity-checking"
-        }
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2022,
-            3,
-            8
-          ]
-        ],
-        "date-time": "2022-03-08T07:59:59Z",
-        "timestamp": 1646726399000
-      },
-      "score": 10.610704,
-      "resource": {
-        "primary": {
-          "URL": "http://www.jos.org.cn/1000-9825/4397.htm"
-        }
-      },
-      "subtitle": [
-        "Software Networks Nodes Impact Analysis of Complex Software Systems"
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2014,
-            1,
-            17
-          ]
-        ]
-      },
-      "references-count": 0,
-      "journal-issue": {
-        "issue": "12",
-        "published-print": {
-          "date-parts": [
-            [
-              2013,
-              12,
-              20
-            ]
-          ]
-        }
-      },
-      "URL": "https://doi.org/10.3724/sp.j.1001.2013.04397",
-      "ISSN": [
-        "1000-9825"
-      ],
-      "issn-type": [
-        {
-          "value": "1000-9825",
-          "type": "print"
-        }
-      ],
-      "published": {
-        "date-parts": [
-          [
-            2014,
-            1,
-            17
-          ]
-        ]
-      }
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2022,
-            4,
-            5
-          ]
-        ],
-        "date-time": "2022-04-05T14:19:14Z",
-        "timestamp": 1649168354953
-      },
-      "publisher-location": "London",
-      "standards-body": {
-        "name": "BSI British Standards",
-        "acronym": "BSI"
-      },
-      "reference-count": 0,
-      "publisher": "BSI British Standards",
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
       },
-      "DOI": "10.3403/01448026",
-      "type": "standard",
+      "abstract": "<jats:p>&lt;em&gt; September, 2024 &lt;/em&gt; Authors: Michelle Barker, Wilhelm Hasselbring Directions for Research Software Engineering Research RSE research is a new direction in the evolving field of Research Software Engineering (RSE). This concept was highlighted in a panel chaired by Wilhelm Hasselbring (Kiel University) at RSECon in September 2024.</jats:p>",
+      "DOI": "10.59350/55r5k-v3k09",
+      "type": "posted-content",
       "created": {
         "date-parts": [
           [
-            2013,
-            11,
-            13
+            2026,
+            2,
+            18
           ]
         ],
-        "date-time": "2013-11-13T21:18:16Z",
-        "timestamp": 1384377496000
-      },
-      "approved": {
-        "date-parts": [
-          [
-            1998,
-            8,
-            15
-          ]
-        ]
+        "date-time": "2026-02-18T14:17:07Z",
+        "timestamp": 1771424227000
       },
       "source": "Crossref",
       "is-referenced-by-count": 0,
       "title": [
-        "Software testing"
+        "Directions for Research Software Engineering Research"
       ],
-      "prefix": "10.3403",
-      "member": "1988",
+      "prefix": "10.59350",
+      "author": [
+        {
+          "name": "Research Software Alliance",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "31795",
+      "link": [
+        {
+          "URL": "https://www.researchsoft.org/blog/2024-09-23/",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
       "deposited": {
         "date-parts": [
           [
-            2017,
-            12,
-            5
+            2026,
+            2,
+            18
           ]
         ],
-        "date-time": "2017-12-05T12:20:55Z",
-        "timestamp": 1512476455000
+        "date-time": "2026-02-18T14:17:08Z",
+        "timestamp": 1771424228000
       },
-      "score": 10.580264,
+      "score": 10.677606,
       "resource": {
         "primary": {
-          "URL": "https://linkresolver.bsigroup.com/junction/resolve/000000000001448026?restype=standard"
+          "URL": "https://www.researchsoft.org/blog/2024-09-23/"
         }
       },
-      "subtitle": [
-        "Software component testing"
-      ],
       "issued": {
         "date-parts": [
           [
-            null
+            2024,
+            9,
+            19
           ]
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.3403/01448026"
+      "version": {
+        "version": "v1"
+      },
+      "URL": "https://doi.org/10.59350/55r5k-v3k09",
+      "relation": {
+        "is-version-of": [
+          {
+            "id-type": "doi",
+            "id": "10.59350/gfdhn-2fk69",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            19
+          ]
+        ]
+      },
+      "subtype": "other"
     }
   ]
 }

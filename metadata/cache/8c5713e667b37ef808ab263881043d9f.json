@@ -1,18 +1,18 @@
 {
-  "cache_date": "2025-11-01T12:36:41.237915",
+  "cache_date": "2026-06-01T18:42:52.301008",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            5,
+            29
           ]
         ],
-        "date-time": "2025-10-31T14:23:11Z",
-        "timestamp": 1761920591668,
-        "version": "3.37.3"
+        "date-time": "2026-05-29T14:29:23Z",
+        "timestamp": 1780064963810,
+        "version": "3.54.0"
       },
       "reference-count": 29,
       "publisher": "Oxford University Press (OUP)",
@@ -40,6 +40,13 @@
           "name": "Department of Defense: Defense Threat Reduction Agency",
           "award": [
             "DTRA10027-20149"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DTRA10027-20149"
+              ]
+            }
           ]
         },
         {
@@ -48,6 +55,13 @@
           "doi-asserted-by": "publisher",
           "award": [
             "DUE-1259951"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DUE-1259951"
+              ]
+            }
           ],
           "id": [
             {
@@ -74,7 +88,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Currently there are no tools specifically designed for annotating genes in phages. Several tools are available that have been adapted to run on phage genomes, but due to their underlying design, they are unable to capture the full complexity of phage genomes. Phages have adapted their genomes to be extremely compact, having adjacent genes that overlap and genes completely inside of other longer genes. This non-delineated genome structure makes it difficult for gene prediction using the currently available gene annotators. Here we present PHANOTATE, a novel method for gene calling specifically designed for phage genomes. Although the compact nature of genes in phages is a problem for current gene annotators, we exploit this property by treating a phage genome as a network of paths: where open reading frames are favorable, and overlaps and gaps are less favorable, but still possible. We represent this network of connections as a weighted graph, and use dynamic programing to find the optimal path.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We compare PHANOTATE to other gene callers by annotating a set of 2133 complete phage genomes from GenBank, using PHANOTATE and the three most popular gene callers. We found that the four programs agree on 82% of the total predicted genes, with PHANOTATE predicting more genes than the other three. We searched for these extra genes in both GenBank\u2019s non-redundant protein database and all of the metagenomes in the sequence read archive, and found that they are present at levels that suggest that these are functional protein-coding genes.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>https://github.com/deprekate/PHANOTATE</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Currently there are no tools specifically designed for annotating genes in phages. Several tools are available that have been adapted to run on phage genomes, but due to their underlying design, they are unable to capture the full complexity of phage genomes. Phages have adapted their genomes to be extremely compact, having adjacent genes that overlap and genes completely inside of other longer genes. This non-delineated genome structure makes it difficult for gene prediction using the currently available gene annotators. Here we present PHANOTATE, a novel method for gene calling specifically designed for phage genomes. Although the compact nature of genes in phages is a problem for current gene annotators, we exploit this property by treating a phage genome as a network of paths: where open reading frames are favorable, and overlaps and gaps are less favorable, but still possible. We represent this network of connections as a weighted graph, and use dynamic programing to find the optimal path.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We compare PHANOTATE to other gene callers by annotating a set of 2133 complete phage genomes from GenBank, using PHANOTATE and the three most popular gene callers. We found that the four programs agree on 82% of the total predicted genes, with PHANOTATE predicting more genes than the other three. We searched for these extra genes in both GenBank\u2019s non-redundant protein database and all of the metagenomes in the sequence read archive, and found that they are present at levels that suggest that these are functional protein-coding genes.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>https://github.com/deprekate/PHANOTATE</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Supplementary information</jats:title>\n                    <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n                  </jats:sec>",
       "DOI": "10.1093/bioinformatics/btz265",
       "type": "journal-article",
       "created": {
@@ -85,12 +99,12 @@
             16
           ]
         ],
-        "date-time": "2019-04-16T11:22:05Z",
-        "timestamp": 1555413725000
+        "date-time": "2019-04-16T07:22:05Z",
+        "timestamp": 1555399325000
       },
       "page": "4537-4542",
       "source": "Crossref",
-      "is-referenced-by-count": 239,
+      "is-referenced-by-count": 289,
       "title": [
         "PHANOTATE: a novel approach to gene identification in phage genomes"
       ],
@@ -105,6 +119,12 @@
             {
               "name": "Computational Sciences Research Center, San Diego State University , San Diego, CA 92182, USA"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -114,6 +134,12 @@
           "affiliation": [
             {
               "name": "Lawrence Livermore National Laboratory , Livermore, CA 94550, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -125,6 +151,12 @@
             {
               "name": "Department of Biology, San Diego State University , San Diego, CA 92182, USA"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -134,6 +166,12 @@
           "affiliation": [
             {
               "name": "Lawrence Livermore National Laboratory , Livermore, CA 94550, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -150,6 +188,12 @@
             },
             {
               "name": "Viral Information Institute, San Diego State University , San Diego, CA 92182, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         }
@@ -243,10 +287,10 @@
           "journal-title": "G3"
         },
         {
+          "key": "2023013108322370900_btz265-B8",
           "volume-title": "Statistical Power Analysis for the Behavioral Sciences L.",
-          "year": "1988",
           "author": "Cohen",
-          "key": "2023013108322370900_btz265-B8"
+          "year": "1988"
         },
         {
           "key": "2023013108322370900_btz265-B9",
@@ -260,16 +304,16 @@
           "journal-title": "Appl. Environ. Microbiol"
         },
         {
+          "key": "2023013108322370900_btz265-B10",
           "volume-title": "Network Flow Theory.",
-          "year": "1956",
           "author": "Ford",
-          "key": "2023013108322370900_btz265-B10"
+          "year": "1956"
         },
         {
+          "key": "2023013108322370900_btz265-B11",
           "volume-title": "Practical Statistics for Field Biology",
-          "year": "1998",
           "author": "Fowler",
-          "key": "2023013108322370900_btz265-B11"
+          "year": "1998"
         },
         {
           "key": "2023013108322370900_btz265-B12",
@@ -283,9 +327,9 @@
           "journal-title": "BMC Bioinformatics"
         },
         {
-          "year": "2001",
+          "key": "2023013108322370900_btz265-B13",
           "author": "Jones",
-          "key": "2023013108322370900_btz265-B13"
+          "year": "2001"
         },
         {
           "key": "2023013108322370900_btz265-B14",
@@ -486,10 +530,10 @@
             31
           ]
         ],
-        "date-time": "2023-01-31T17:39:02Z",
-        "timestamp": 1675186742000
+        "date-time": "2023-01-31T12:39:02Z",
+        "timestamp": 1675168742000
       },
-      "score": 11.818915,
+      "score": 11.7463665,
       "resource": {
         "primary": {
           "URL": "https://academic.oup.com/bioinformatics/article/35/22/4537/5480131"
@@ -500,7 +544,13 @@
           "given": "John",
           "family": "Hancock",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
         }
       ],
       "issued": {
@@ -541,12 +591,12 @@
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "1367-4803"
+          "value": "1367-4803",
+          "type": "print"
         },
         {
-          "type": "electronic",
-          "value": "1367-4811"
+          "value": "1367-4811",
+          "type": "electronic"
         }
       ],
       "published-other": {

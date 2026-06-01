@@ -1,18 +1,391 @@
 {
-  "cache_date": "2025-11-01T12:54:55.556156",
+  "cache_date": "2026-06-01T17:33:54.482588",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            1,
+            14
           ]
         ],
-        "date-time": "2025-10-31T14:23:11Z",
-        "timestamp": 1761920591668,
-        "version": "3.37.3"
+        "date-time": "2026-01-14T20:18:22Z",
+        "timestamp": 1768421902684,
+        "version": "3.49.0"
+      },
+      "reference-count": 12,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                25
+              ]
+            ],
+            "date-time": "2025-11-25T00:00:00Z",
+            "timestamp": 1764028800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                14
+              ]
+            ],
+            "date-time": "2026-01-14T00:00:00Z",
+            "timestamp": 1768348800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 50,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "BMC Bioinformatics"
+      ],
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>As data complexity and volume increase rapidly, efficient statistical methods for identifying significant variables become crucial. Variable selection plays a vital role in establishing relationships between predictors and response variables. The challenge lies in achieving this goal while controlling the False Discovery Rate (FDR) and maintaining statistical power. The knockoff filter, a recent approach, generates inexpensive knockoff variables that mimic the correlation structure of the original variables, serving as negative controls for inference. In this study, we extend the use of knockoffs to Light Gradient Boosting Machine (LightGBM), a fast and accurate machine learning technique. Shapely Additive Explanations (SHAP) values are employed to interpret the black-box nature of machine learning. Through extensive experimentation, our proposed method outperforms traditional approaches, accurately identifying important variables for each class. It offers improved speed and efficiency across multiple datasets. To validate our approach, an extensive simulation study is conducted. The integration of knockoffs into LightGBM enhances performance and interpretability, contributing to the advancement of variable selection methods. Our research addresses the challenges of variable selection in the era of big data, providing a valuable tool for identifying relevant variables in statistical modeling and machine learning applications.</jats:p>",
+      "DOI": "10.1186/s12859-025-06215-z",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            25
+          ]
+        ],
+        "date-time": "2025-11-25T05:04:30Z",
+        "timestamp": 1764047070000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Gradient boosting with knockoff filters: a biostatistical approach to variable selection"
+      ],
+      "prefix": "10.1186",
+      "volume": "27",
+      "author": [
+        {
+          "given": "Amr",
+          "family": "Mohamed",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kevin H.",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            25
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "6215_CR1",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Barber RF, Cand\u00e8s EJ. Controlling the false discovery rate via knockoffs. https://doi.org/10.1214/15-AOS1337",
+          "DOI": "10.1214/15-AOS1337"
+        },
+        {
+          "issue": "3",
+          "key": "6215_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "551",
+          "DOI": "10.1111/rssb.12265",
+          "volume": "80",
+          "author": "E Candes",
+          "year": "2018",
+          "unstructured": "Candes E, et al. Panning for Gold:\u2019model-X\u2019 knockoffs for high dimensional controlled variable selection. J Royal Stat Soc Series B (Stat Methodol). 2018;80(3):551\u201377.",
+          "journal-title": "J Royal Stat Soc Series B (Stat Methodol)"
+        },
+        {
+          "key": "6215_CR3",
+          "unstructured": "Chakraborty P et al. Exploratory data analysis for large-scale multiple testing problems and its application in gene expression studies. 2019. Available from: https://arxiv.org/abs/1912.06030"
+        },
+        {
+          "key": "6215_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "54",
+          "DOI": "10.1016/j.chemolab.2019.06.003",
+          "volume": "191",
+          "author": "C Chen",
+          "year": "2019",
+          "unstructured": "Chen C, et al. LightGBM-PPI: predicting protein-protein interactions through LightGBM with multi-information fusion. Chemometrics and Intell Lab Syst. 2019;191:54\u201364.",
+          "journal-title": "Chemometrics and Intell Lab Syst"
+        },
+        {
+          "key": "6215_CR5",
+          "unstructured": "Frazier PI. A tutorial on Bayesian optimization. 2018. Available from: https://arxiv.org/abs/1807.02811"
+        },
+        {
+          "key": "6215_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang T, Li Y, Motsinger-Reif AA. Knockoff boosted tree for model-free variable selection. Bioinformatics. 2021; 37(7): 976-83.",
+          "DOI": "10.1093/bioinformatics/btaa770"
+        },
+        {
+          "key": "6215_CR7",
+          "first-page": "30",
+          "volume": "2017",
+          "author": "G Ke",
+          "year": "2017",
+          "unstructured": "Ke G, et al. Lightgbm: a highly efficient gradient boosting decision tree\u2019. Adv Neural Inf Process Syst. 2017;2017:30.",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "key": "6215_CR8",
+          "first-page": "30",
+          "volume": "2017",
+          "author": "SM Lundberg",
+          "year": "2017",
+          "unstructured": "Lundberg SM, Lee S-I. A unified approach to interpreting model predictions. Adv Neural Inf Process Syst. 2017;2017:30.",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "key": "6215_CR9",
+          "unstructured": "R Core Team. R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing. Vienna, Austria, 2021. https://www.R-project.org/"
+        },
+        {
+          "issue": "1",
+          "key": "6215_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "148",
+          "DOI": "10.1109/JPROC.2015.2494218",
+          "volume": "104",
+          "author": "B Shahriari",
+          "year": "2015",
+          "unstructured": "Shahriari B, et al. Taking the human out of the loop: a review of Bayesian optimization. Proceed IEEE. 2015;104(1):148\u201375.",
+          "journal-title": "Proceed IEEE"
+        },
+        {
+          "issue": "2",
+          "key": "6215_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "203",
+          "DOI": "10.1016/S1535-6108(02)00030-2",
+          "volume": "1",
+          "author": "D Singh",
+          "year": "2002",
+          "unstructured": "Singh D, et al. Gene expression correlates of clinical prostate cancer behavior. Cancer cell. 2002;1(2):203\u20139.",
+          "journal-title": "Cancer cell"
+        },
+        {
+          "issue": "1",
+          "key": "6215_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "267",
+          "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+          "volume": "58",
+          "author": "R Tibshirani",
+          "year": "1996",
+          "unstructured": "Tibshirani R. Regression shrinkage and selection via the lasso. J R Stat Soc Series B (Methodol). 1996;58(1):267\u201388.",
+          "journal-title": "J R Stat Soc Series B (Methodol)"
+        }
+      ],
+      "container-title": [
+        "BMC Bioinformatics"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1186/s12859-025-06215-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1186/s12859-025-06215-z",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1186/s12859-025-06215-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2026-01-14T11:21:19Z",
+        "timestamp": 1768389679000
+      },
+      "score": 18.15107,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1186/s12859-025-06215-z"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            25
+          ]
+        ]
+      },
+      "references-count": 12,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "6215"
+      ],
+      "URL": "https://doi.org/10.1186/s12859-025-06215-z",
+      "ISSN": [
+        "1471-2105"
+      ],
+      "issn-type": [
+        {
+          "value": "1471-2105",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            25
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "12 March 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "3 July 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "25 November 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval and consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors declare no conflict of interest.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "13"
+    },
+    {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            29
+          ]
+        ],
+        "date-time": "2026-05-29T14:29:23Z",
+        "timestamp": 1780064963810,
+        "version": "3.54.0"
       },
       "reference-count": 29,
       "publisher": "Oxford University Press (OUP)",
@@ -40,6 +413,13 @@
           "name": "Department of Defense: Defense Threat Reduction Agency",
           "award": [
             "DTRA10027-20149"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DTRA10027-20149"
+              ]
+            }
           ]
         },
         {
@@ -48,6 +428,13 @@
           "doi-asserted-by": "publisher",
           "award": [
             "DUE-1259951"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DUE-1259951"
+              ]
+            }
           ],
           "id": [
             {
@@ -74,7 +461,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Currently there are no tools specifically designed for annotating genes in phages. Several tools are available that have been adapted to run on phage genomes, but due to their underlying design, they are unable to capture the full complexity of phage genomes. Phages have adapted their genomes to be extremely compact, having adjacent genes that overlap and genes completely inside of other longer genes. This non-delineated genome structure makes it difficult for gene prediction using the currently available gene annotators. Here we present PHANOTATE, a novel method for gene calling specifically designed for phage genomes. Although the compact nature of genes in phages is a problem for current gene annotators, we exploit this property by treating a phage genome as a network of paths: where open reading frames are favorable, and overlaps and gaps are less favorable, but still possible. We represent this network of connections as a weighted graph, and use dynamic programing to find the optimal path.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We compare PHANOTATE to other gene callers by annotating a set of 2133 complete phage genomes from GenBank, using PHANOTATE and the three most popular gene callers. We found that the four programs agree on 82% of the total predicted genes, with PHANOTATE predicting more genes than the other three. We searched for these extra genes in both GenBank\u2019s non-redundant protein database and all of the metagenomes in the sequence read archive, and found that they are present at levels that suggest that these are functional protein-coding genes.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>https://github.com/deprekate/PHANOTATE</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n               </jats:sec>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Currently there are no tools specifically designed for annotating genes in phages. Several tools are available that have been adapted to run on phage genomes, but due to their underlying design, they are unable to capture the full complexity of phage genomes. Phages have adapted their genomes to be extremely compact, having adjacent genes that overlap and genes completely inside of other longer genes. This non-delineated genome structure makes it difficult for gene prediction using the currently available gene annotators. Here we present PHANOTATE, a novel method for gene calling specifically designed for phage genomes. Although the compact nature of genes in phages is a problem for current gene annotators, we exploit this property by treating a phage genome as a network of paths: where open reading frames are favorable, and overlaps and gaps are less favorable, but still possible. We represent this network of connections as a weighted graph, and use dynamic programing to find the optimal path.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We compare PHANOTATE to other gene callers by annotating a set of 2133 complete phage genomes from GenBank, using PHANOTATE and the three most popular gene callers. We found that the four programs agree on 82% of the total predicted genes, with PHANOTATE predicting more genes than the other three. We searched for these extra genes in both GenBank\u2019s non-redundant protein database and all of the metagenomes in the sequence read archive, and found that they are present at levels that suggest that these are functional protein-coding genes.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>https://github.com/deprekate/PHANOTATE</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Supplementary information</jats:title>\n                    <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n                  </jats:sec>",
       "DOI": "10.1093/bioinformatics/btz265",
       "type": "journal-article",
       "created": {
@@ -85,12 +472,12 @@
             16
           ]
         ],
-        "date-time": "2019-04-16T11:22:05Z",
-        "timestamp": 1555413725000
+        "date-time": "2019-04-16T07:22:05Z",
+        "timestamp": 1555399325000
       },
       "page": "4537-4542",
       "source": "Crossref",
-      "is-referenced-by-count": 239,
+      "is-referenced-by-count": 289,
       "title": [
         "PHANOTATE: a novel approach to gene identification in phage genomes"
       ],
@@ -105,6 +492,12 @@
             {
               "name": "Computational Sciences Research Center, San Diego State University , San Diego, CA 92182, USA"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -114,6 +507,12 @@
           "affiliation": [
             {
               "name": "Lawrence Livermore National Laboratory , Livermore, CA 94550, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -125,6 +524,12 @@
             {
               "name": "Department of Biology, San Diego State University , San Diego, CA 92182, USA"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -134,6 +539,12 @@
           "affiliation": [
             {
               "name": "Lawrence Livermore National Laboratory , Livermore, CA 94550, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -150,6 +561,12 @@
             },
             {
               "name": "Viral Information Institute, San Diego State University , San Diego, CA 92182, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         }
@@ -243,10 +660,10 @@
           "journal-title": "G3"
         },
         {
+          "key": "2023013108322370900_btz265-B8",
           "volume-title": "Statistical Power Analysis for the Behavioral Sciences L.",
-          "year": "1988",
           "author": "Cohen",
-          "key": "2023013108322370900_btz265-B8"
+          "year": "1988"
         },
         {
           "key": "2023013108322370900_btz265-B9",
@@ -260,16 +677,16 @@
           "journal-title": "Appl. Environ. Microbiol"
         },
         {
+          "key": "2023013108322370900_btz265-B10",
           "volume-title": "Network Flow Theory.",
-          "year": "1956",
           "author": "Ford",
-          "key": "2023013108322370900_btz265-B10"
+          "year": "1956"
         },
         {
+          "key": "2023013108322370900_btz265-B11",
           "volume-title": "Practical Statistics for Field Biology",
-          "year": "1998",
           "author": "Fowler",
-          "key": "2023013108322370900_btz265-B11"
+          "year": "1998"
         },
         {
           "key": "2023013108322370900_btz265-B12",
@@ -283,9 +700,9 @@
           "journal-title": "BMC Bioinformatics"
         },
         {
-          "year": "2001",
+          "key": "2023013108322370900_btz265-B13",
           "author": "Jones",
-          "key": "2023013108322370900_btz265-B13"
+          "year": "2001"
         },
         {
           "key": "2023013108322370900_btz265-B14",
@@ -486,10 +903,10 @@
             31
           ]
         ],
-        "date-time": "2023-01-31T17:39:02Z",
-        "timestamp": 1675186742000
+        "date-time": "2023-01-31T12:39:02Z",
+        "timestamp": 1675168742000
       },
-      "score": 17.625797,
+      "score": 17.498522,
       "resource": {
         "primary": {
           "URL": "https://academic.oup.com/bioinformatics/article/35/22/4537/5480131"
@@ -500,7 +917,13 @@
           "given": "John",
           "family": "Hancock",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
         }
       ],
       "issued": {
@@ -541,12 +964,12 @@
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "1367-4803"
+          "value": "1367-4803",
+          "type": "print"
         },
         {
-          "type": "electronic",
-          "value": "1367-4811"
+          "value": "1367-4811",
+          "type": "electronic"
         }
       ],
       "published-other": {
@@ -625,25 +1048,49 @@
           "given": "Zeinab",
           "family": "Abd El Halim",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr",
           "family": "Badr",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Khaled",
           "family": "Tawfik",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Ibrahim",
           "family": "Farag",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "3951",
@@ -661,7 +1108,7 @@
         "date-time": "2012-09-02T22:21:01Z",
         "timestamp": 1346624461000
       },
-      "score": 17.430084,
+      "score": 17.484852,
       "resource": {
         "primary": {
           "URL": "http://article.sapub.org/10.5923.j.bioinformatics.20120201.03.html"
@@ -766,19 +1213,37 @@
           "given": "Mai",
           "family": "S. Mabrouk",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Esraa",
           "family": "M. Hashem",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr",
           "family": "Sharawy",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "3951",
@@ -796,7 +1261,7 @@
         "date-time": "2012-12-14T03:08:39Z",
         "timestamp": 1355454519000
       },
-      "score": 17.37078,
+      "score": 17.397957,
       "resource": {
         "primary": {
           "URL": "http://article.sapub.org/10.5923.j.bioinformatics.20120206.01.html"
@@ -843,6 +1308,221 @@
           ]
         ]
       }
+    },
+    {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:57:15Z",
+        "timestamp": 1768471035829,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 9,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                5
+              ]
+            ],
+            "date-time": "2017-06-05T00:00:00Z",
+            "timestamp": 1496620800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Convolutional neural networks are rapidly gaining popularity in regulatory genomics. Typically, these networks have a stack of convolutional and pooling layers, followed by one or more fully connected layers. In genomics, the same positional patterns are often present across multiple convolutional channels. Therefore, in current state-of-the-art networks, there exists significant redundancy in the representations learned by standard fully connected layers. We present a new separable fully connected layer that learns a weights tensor that is the outer product of positional weights and cross-channel weights, thereby allowing the same positional patterns to be applied across multiple convolutional channels. Decomposing positional and cross-channel weights further enables us to readily impose biologically-inspired constraints on positional weights, such as symmetry. We also propose a novel regularizer and constraint that act on curvature in the positional weights. Using experiments on simulated and\n                  <jats:italic>in vivo</jats:italic>\n                  datasets, we show that networks that incorporate our separable fully connected layer outperform conventional models with analogous architectures and the same number of parameters. Additionally, our networks are more robust to hyperparameter tuning, have more informative gradients, and produce importance scores that are more consistent with known biology than conventional deep neural networks.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    Implementation:\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/kundajelab/keras/tree/keras_1\">https://github.com/kundajelab/keras/tree/keras_1</jats:ext-link>\n                  </jats:p>\n                  <jats:p>\n                    A gist illustrating model setup is at:\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https:goo.gl/gYooaa\">goo.gl/gYooaa</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/146431",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2017-06-06T01:10:14Z",
+        "timestamp": 1496711414000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "Separable Fully Connected Layers Improve Deep Learning Models For Genomics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8655-8109",
+          "authenticated-orcid": false,
+          "given": "Amr Mohamed",
+          "family": "Alexandari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Avanti",
+          "family": "Shrikumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anshul",
+          "family": "Kundaje",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080312233543000_146431v3.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Babak Alipanahi , Andrew Delong , Matthew T Weirauch , and Brendan J Frey . Predicting the sequence specificities of dna-and rna-binding proteins by deep learning. Nature biotechnology, 2015.",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024080312233543000_146431v3.2",
+          "unstructured": "Fran\u00e7ois Chollet. Keras. 2017."
+        },
+        {
+          "key": "2024080312233543000_146431v3.3",
+          "unstructured": "ENCODE Project Consortium. An integrated encyclopedia of dna elements in the human genome. Nature, 2012."
+        },
+        {
+          "key": "2024080312233543000_146431v3.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M Ryan Corces , Jason D Buenrostro , Beijing Wu , Peyton G Greenside , Steven M Chan , Julie L Koenig , Michael P Snyder , Jonathan K Pritchard , Anshul Kundaje , William J Greenleaf , Ravindra Majeti , and Howard Y Chang . Lineage-specific and single-cell chromatin accessibility charts human hematopoiesis and leukemia evolution. Nature Genetics, 2016.",
+          "DOI": "10.1038/ng.3646"
+        },
+        {
+          "key": "2024080312233543000_146431v3.5",
+          "unstructured": "Xavier Glorot and Yoshua Bengio . Understanding the difficulty of training deep feedforward neural networks. The International Conference on Artificial Intelligence and Statistics (AISTAT), 2010."
+        },
+        {
+          "key": "2024080312233543000_146431v3.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "David R Kelley , Jasper Snoek , and John L Rinn . Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks. Genome research, 2016.",
+          "DOI": "10.1101/028399"
+        },
+        {
+          "key": "2024080312233543000_146431v3.7",
+          "unstructured": "Diederik P. Kingma and Jimmy Ba . Adam: A method for stochastic optimization. Proceedings of the 3rd International Conference on Learning Representations (ICLR), 2014."
+        },
+        {
+          "key": "2024080312233543000_146431v3.8",
+          "unstructured": "Avanti Shrikumar , Peyton Greenside , and Anshul Kundaje . Learning important features through propagating activation differences. preprint, April 2017a."
+        },
+        {
+          "key": "2024080312233543000_146431v3.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Avanti Shrikumar , Peyton Greenside , and Anshul Kundaje . Reverse-complement parameter sharing improves deep learning models for genomics. preprint, January 2017b.",
+          "DOI": "10.1101/103663"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/146431",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2026-01-14T21:47:52Z",
+        "timestamp": 1768427272000
+      },
+      "score": 17.137262,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/146431"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            5
+          ]
+        ]
+      },
+      "references-count": 9,
+      "URL": "https://doi.org/10.1101/146431",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
     },
     {
       "indexed": {
@@ -901,19 +1581,37 @@
           "given": "Hossam",
           "family": "Fathy ElSemellawy",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr",
           "family": "Badr",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Mostafa",
           "family": "Abdel Aziem",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "3951",
@@ -931,7 +1629,7 @@
         "date-time": "2012-06-11T08:22:27Z",
         "timestamp": 1339402947000
       },
-      "score": 17.185175,
+      "score": 17.06985,
       "resource": {
         "primary": {
           "URL": "http://article.sapub.org/10.5923.j.bioinformatics.20120202.01.html"
@@ -978,203 +1676,6 @@
           ]
         ]
       }
-    },
-    {
-      "institution": [
-        {
-          "name": "bioRxiv"
-        }
-      ],
-      "indexed": {
-        "date-parts": [
-          [
-            2025,
-            4,
-            29
-          ]
-        ],
-        "date-time": "2025-04-29T13:32:37Z",
-        "timestamp": 1745933557712,
-        "version": "3.37.3"
-      },
-      "posted": {
-        "date-parts": [
-          [
-            2017,
-            6,
-            5
-          ]
-        ]
-      },
-      "group-title": "Bioinformatics",
-      "reference-count": 9,
-      "publisher": "Cold Spring Harbor Laboratory",
-      "license": [
-        {
-          "start": {
-            "date-parts": [
-              [
-                2017,
-                6,
-                5
-              ]
-            ],
-            "date-time": "2017-06-05T00:00:00Z",
-            "timestamp": 1496620800000
-          },
-          "content-version": "vor",
-          "delay-in-days": 0,
-          "URL": "http://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "accepted": {
-        "date-parts": [
-          [
-            2017,
-            7,
-            7
-          ]
-        ]
-      },
-      "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Convolutional neural networks are rapidly gaining popularity in regulatory genomics. Typically, these networks have a stack of convolutional and pooling layers, followed by one or more fully connected layers. In genomics, the same positional patterns are often present across multiple convolutional channels. Therefore, in current state-of-the-art networks, there exists significant redundancy in the representations learned by standard fully connected layers. We present a new separable fully connected layer that learns a weights tensor that is the outer product of positional weights and cross-channel weights, thereby allowing the same positional patterns to be applied across multiple convolutional channels. Decomposing positional and cross-channel weights further enables us to readily impose biologically-inspired constraints on positional weights, such as symmetry. We also propose a novel regularizer and constraint that act on curvature in the positional weights. Using experiments on simulated and<jats:italic>in vivo</jats:italic>datasets, we show that networks that incorporate our separable fully connected layer outperform conventional models with analogous architectures and the same number of parameters. Additionally, our networks are more robust to hyperparameter tuning, have more informative gradients, and produce importance scores that are more consistent with known biology than conventional deep neural networks.</jats:p><jats:sec><jats:title>Availability</jats:title><jats:p>Implementation:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/kundajelab/keras/tree/keras_1\">https://github.com/kundajelab/keras/tree/keras_1</jats:ext-link></jats:p><jats:p>A gist illustrating model setup is at:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https:goo.gl/gYooaa\">goo.gl/gYooaa</jats:ext-link></jats:p></jats:sec>",
-      "DOI": "10.1101/146431",
-      "type": "posted-content",
-      "created": {
-        "date-parts": [
-          [
-            2017,
-            6,
-            6
-          ]
-        ],
-        "date-time": "2017-06-06T05:10:14Z",
-        "timestamp": 1496725814000
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 9,
-      "title": [
-        "Separable Fully Connected Layers Improve Deep Learning Models For Genomics"
-      ],
-      "prefix": "10.1101",
-      "author": [
-        {
-          "ORCID": "https://orcid.org/0000-0001-8655-8109",
-          "authenticated-orcid": false,
-          "given": "Amr Mohamed",
-          "family": "Alexandari",
-          "sequence": "first",
-          "affiliation": []
-        },
-        {
-          "given": "Avanti",
-          "family": "Shrikumar",
-          "sequence": "additional",
-          "affiliation": []
-        },
-        {
-          "given": "Anshul",
-          "family": "Kundaje",
-          "sequence": "additional",
-          "affiliation": []
-        }
-      ],
-      "member": "246",
-      "reference": [
-        {
-          "key": "2024080312233543000_146431v3.1",
-          "doi-asserted-by": "crossref",
-          "unstructured": "Babak Alipanahi , Andrew Delong , Matthew T Weirauch , and Brendan J Frey . Predicting the sequence specificities of dna-and rna-binding proteins by deep learning. Nature biotechnology, 2015.",
-          "DOI": "10.1038/nbt.3300"
-        },
-        {
-          "key": "2024080312233543000_146431v3.2",
-          "unstructured": "Fran\u00e7ois Chollet. Keras. 2017."
-        },
-        {
-          "key": "2024080312233543000_146431v3.3",
-          "unstructured": "ENCODE Project Consortium. An integrated encyclopedia of dna elements in the human genome. Nature, 2012."
-        },
-        {
-          "key": "2024080312233543000_146431v3.4",
-          "doi-asserted-by": "crossref",
-          "unstructured": "M Ryan Corces , Jason D Buenrostro , Beijing Wu , Peyton G Greenside , Steven M Chan , Julie L Koenig , Michael P Snyder , Jonathan K Pritchard , Anshul Kundaje , William J Greenleaf , Ravindra Majeti , and Howard Y Chang . Lineage-specific and single-cell chromatin accessibility charts human hematopoiesis and leukemia evolution. Nature Genetics, 2016.",
-          "DOI": "10.1038/ng.3646"
-        },
-        {
-          "key": "2024080312233543000_146431v3.5",
-          "unstructured": "Xavier Glorot and Yoshua Bengio . Understanding the difficulty of training deep feedforward neural networks. The International Conference on Artificial Intelligence and Statistics (AISTAT), 2010."
-        },
-        {
-          "key": "2024080312233543000_146431v3.6",
-          "doi-asserted-by": "crossref",
-          "unstructured": "David R Kelley , Jasper Snoek , and John L Rinn . Basset: Learning the regulatory code of the accessible genome with deep convolutional neural networks. Genome research, 2016.",
-          "DOI": "10.1101/028399"
-        },
-        {
-          "key": "2024080312233543000_146431v3.7",
-          "unstructured": "Diederik P. Kingma and Jimmy Ba . Adam: A method for stochastic optimization. Proceedings of the 3rd International Conference on Learning Representations (ICLR), 2014."
-        },
-        {
-          "key": "2024080312233543000_146431v3.8",
-          "unstructured": "Avanti Shrikumar , Peyton Greenside , and Anshul Kundaje . Learning important features through propagating activation differences. preprint, April 2017a."
-        },
-        {
-          "key": "2024080312233543000_146431v3.9",
-          "doi-asserted-by": "crossref",
-          "unstructured": "Avanti Shrikumar , Peyton Greenside , and Anshul Kundaje . Reverse-complement parameter sharing improves deep learning models for genomics. preprint, January 2017b.",
-          "DOI": "10.1101/103663"
-        }
-      ],
-      "link": [
-        {
-          "URL": "https://syndication.highwire.org/content/doi/10.1101/146431",
-          "content-type": "unspecified",
-          "content-version": "vor",
-          "intended-application": "similarity-checking"
-        }
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2024,
-            8,
-            3
-          ]
-        ],
-        "date-time": "2024-08-03T19:24:49Z",
-        "timestamp": 1722713089000
-      },
-      "score": 17.132511,
-      "resource": {
-        "primary": {
-          "URL": "http://biorxiv.org/lookup/doi/10.1101/146431"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2017,
-            6,
-            5
-          ]
-        ]
-      },
-      "references-count": 9,
-      "URL": "https://doi.org/10.1101/146431",
-      "published": {
-        "date-parts": [
-          [
-            2017,
-            6,
-            5
-          ]
-        ]
-      },
-      "subtype": "preprint"
     },
     {
       "indexed": {
@@ -1233,25 +1734,49 @@
           "given": "Mostafa",
           "family": "Omara",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr",
           "family": "Badr",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Abdel-Fattah",
           "family": "Hegazy",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Mohamed",
           "family": "El-Zeweidy",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "3951",
@@ -1269,7 +1794,7 @@
         "date-time": "2012-09-03T02:21:01Z",
         "timestamp": 1346638861000
       },
-      "score": 16.848736,
+      "score": 16.859354,
       "resource": {
         "primary": {
           "URL": "http://article.sapub.org/10.5923.j.bioinformatics.20120201.02.html"
@@ -1322,12 +1847,12 @@
         "date-parts": [
           [
             2025,
-            10,
-            26
+            11,
+            25
           ]
         ],
-        "date-time": "2025-10-26T21:13:01Z",
-        "timestamp": 1761513181113
+        "date-time": "2025-11-25T08:48:53Z",
+        "timestamp": 1764060533789
       },
       "reference-count": 0,
       "publisher": "Scientific and Academic Publishing",
@@ -1374,19 +1899,37 @@
           "given": "Khaled A",
           "family": "Hassan",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr",
           "family": "Badr",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Abdel-Fatah",
           "family": "Hegazy",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "3951",
@@ -1404,7 +1947,7 @@
         "date-time": "2012-09-03T02:21:22Z",
         "timestamp": 1346638882000
       },
-      "score": 16.608822,
+      "score": 16.59792,
       "resource": {
         "primary": {
           "URL": "http://article.sapub.org/10.5923.j.bioinformatics.20110101.02.html"
@@ -1508,19 +2051,37 @@
           "given": "Khaled",
           "family": "A Hassan",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr",
           "family": "Badr",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Mostafa",
           "family": "Abdel-Azim",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "3951",
@@ -1538,7 +2099,7 @@
         "date-time": "2012-08-31T06:41:14Z",
         "timestamp": 1346395274000
       },
-      "score": 16.182217,
+      "score": 16.154196,
       "resource": {
         "primary": {
           "URL": "http://article.sapub.org/10.5923.j.bioinformatics.20120204.03.html"
@@ -1587,1858 +2148,6 @@
       }
     },
     {
-      "indexed": {
-        "date-parts": [
-          [
-            2025,
-            10,
-            26
-          ]
-        ],
-        "date-time": "2025-10-26T14:55:46Z",
-        "timestamp": 1761490546890
-      },
-      "reference-count": 160,
-      "publisher": "Elsevier",
-      "isbn-type": [
-        {
-          "type": "print",
-          "value": "9780128114322"
-        }
-      ],
-      "license": [
-        {
-          "start": {
-            "date-parts": [
-              [
-                2019,
-                1,
-                1
-              ]
-            ],
-            "date-time": "2019-01-01T00:00:00Z",
-            "timestamp": 1546300800000
-          },
-          "content-version": "tdm",
-          "delay-in-days": 0,
-          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
-        }
-      ],
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
-      "DOI": "10.1016/b978-0-12-809633-8.20284-7",
-      "type": "book-chapter",
-      "created": {
-        "date-parts": [
-          [
-            2018,
-            5,
-            26
-          ]
-        ],
-        "date-time": "2018-05-26T01:00:41Z",
-        "timestamp": 1527296441000
-      },
-      "page": "550-566",
-      "source": "Crossref",
-      "is-referenced-by-count": 19,
-      "title": [
-        "Molecular Dynamics and Simulation"
-      ],
-      "prefix": "10.1016",
-      "author": [
-        {
-          "given": "Liangzhen",
-          "family": "Zheng",
-          "sequence": "first",
-          "affiliation": []
-        },
-        {
-          "given": "Amr A.",
-          "family": "Alhossary",
-          "sequence": "additional",
-          "affiliation": []
-        },
-        {
-          "given": "Chee-Keong",
-          "family": "Kwoh",
-          "sequence": "additional",
-          "affiliation": []
-        },
-        {
-          "given": "Yuguang",
-          "family": "Mu",
-          "sequence": "additional",
-          "affiliation": []
-        }
-      ],
-      "member": "78",
-      "reference": [
-        {
-          "issue": "1",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib131",
-          "doi-asserted-by": "crossref",
-          "first-page": "163",
-          "DOI": "10.3390/e16010163",
-          "article-title": "Enhanced sampling in molecular dynamics using metadynamics, replica-exchange, and temperature-acceleration",
-          "volume": "16",
-          "author": "Abrams",
-          "year": "2013",
-          "journal-title": "Entropy"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib132",
-          "doi-asserted-by": "crossref",
-          "first-page": "19",
-          "DOI": "10.1016/j.softx.2015.06.001",
-          "article-title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
-          "volume": "1",
-          "author": "Abraham",
-          "year": "2015",
-          "journal-title": "SoftwareX"
-        },
-        {
-          "issue": "2",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib133",
-          "doi-asserted-by": "crossref",
-          "first-page": "217",
-          "DOI": "10.1021/ct050250b",
-          "article-title": "A novel Hamiltonian replica exchange MD protocol to enhance protein conformational space sampling",
-          "volume": "2",
-          "author": "Affentranger",
-          "year": "2006",
-          "journal-title": "J. Chem. Theory Computation"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib1",
-          "doi-asserted-by": "crossref",
-          "first-page": "2806",
-          "DOI": "10.1529/biophysj.108.132563",
-          "article-title": "Four-scale description of membrane sculpting by BAR domains",
-          "volume": "95",
-          "author": "Arkhipov",
-          "year": "2008",
-          "journal-title": "Biophysical Journal"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib2",
-          "doi-asserted-by": "crossref",
-          "first-page": "1102",
-          "DOI": "10.1016/j.chembiol.2014.09.001",
-          "article-title": "Small-molecule inhibitors of protein-protein interactions: Progressing toward the reality",
-          "volume": "21",
-          "author": "Arkin",
-          "year": "2014",
-          "journal-title": "Chemistry & Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib3",
-          "doi-asserted-by": "crossref",
-          "first-page": "878",
-          "DOI": "10.1016/j.sbi.2013.09.004",
-          "article-title": "Coarse-grain modelling of protein\u2013protein interactions",
-          "volume": "23",
-          "author": "Baaden",
-          "year": "2013",
-          "journal-title": "Current Opinion in Structural Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib4",
-          "doi-asserted-by": "crossref",
-          "first-page": "1169",
-          "DOI": "10.1093/bioinformatics/btq112",
-          "article-title": "A machine learning approach to predicting protein\u2013ligand binding affinity with applications to molecular docking",
-          "volume": "26",
-          "author": "Ballester",
-          "year": "2010",
-          "journal-title": "Bioinformatics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib5",
-          "doi-asserted-by": "crossref",
-          "first-page": "6866",
-          "DOI": "10.1021/ja050482k",
-          "article-title": "Free energy landscape of A-DNA to B-DNA conversion in aqueous solution",
-          "volume": "127",
-          "author": "Banavali",
-          "year": "2005",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib6",
-          "doi-asserted-by": "crossref",
-          "first-page": "020603",
-          "DOI": "10.1103/PhysRevLett.100.020603",
-          "article-title": "Well-tempered metadynamics: A smoothly converging and tunable free-energy method",
-          "volume": "100",
-          "author": "Barducci",
-          "year": "2008",
-          "journal-title": "Physical Review Letters"
-        },
-        {
-          "issue": "5",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib134",
-          "doi-asserted-by": "crossref",
-          "first-page": "826",
-          "DOI": "10.1002/wcms.31",
-          "article-title": "Metadynamics",
-          "volume": "1",
-          "author": "Barducci",
-          "year": "2011",
-          "journal-title": "Wiley Interdiscip. Rev. Comput. Mol. Sci."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib7",
-          "doi-asserted-by": "crossref",
-          "first-page": "136403",
-          "DOI": "10.1103/PhysRevLett.104.136403",
-          "article-title": "Gaussian approximation potentials: The accuracy of quantum mechanics, without the electrons",
-          "volume": "104",
-          "author": "Bart\u00f3k",
-          "year": "2010",
-          "journal-title": "Physical Review Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib8",
-          "doi-asserted-by": "crossref",
-          "first-page": "17807",
-          "DOI": "10.1073/pnas.1201810109",
-          "article-title": "Simple few-state models reveal hidden complexity in protein folding",
-          "volume": "109",
-          "author": "Beauchamp",
-          "year": "2012",
-          "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib9",
-          "doi-asserted-by": "crossref",
-          "first-page": "170901",
-          "DOI": "10.1063/1.4966192",
-          "article-title": "Perspective: Machine learning potentials for atomistic simulations",
-          "volume": "145",
-          "author": "Behler",
-          "year": "2016",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib10",
-          "doi-asserted-by": "crossref",
-          "first-page": "146401",
-          "DOI": "10.1103/PhysRevLett.98.146401",
-          "article-title": "Generalized neural-network representation of high-dimensional potential-energy surfaces",
-          "volume": "98",
-          "author": "Behler",
-          "year": "2007",
-          "journal-title": "Physical Review Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib11",
-          "doi-asserted-by": "crossref",
-          "first-page": "203",
-          "DOI": "10.1016/j.cpc.2011.08.020",
-          "article-title": "METAGUI. A VMD interface for analyzing metadynamics and molecular dynamics simulations",
-          "volume": "183",
-          "author": "Biarn\u00e9s",
-          "year": "2012",
-          "journal-title": "Computer Physics Communications"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib12",
-          "doi-asserted-by": "crossref",
-          "first-page": "584",
-          "DOI": "10.1038/nsb0994-584",
-          "article-title": "A short linear peptide that folds into a native stable \u03b2-hairpin in aqueous solution",
-          "volume": "1",
-          "author": "Blanco",
-          "year": "1994",
-          "journal-title": "Nature Structural & Molecular Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib13",
-          "doi-asserted-by": "crossref",
-          "first-page": "1961",
-          "DOI": "10.1016/j.cpc.2009.05.011",
-          "article-title": "PLUMED: A portable plugin for free-energy calculations with molecular dynamics",
-          "volume": "180",
-          "author": "Bonomi",
-          "year": "2009",
-          "journal-title": "Computer Physics Communications"
-        },
-        {
-          "issue": "1",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib135",
-          "doi-asserted-by": "crossref",
-          "first-page": "15",
-          "DOI": "10.1007/s10822-011-9517-y",
-          "article-title": "The future of molecular dynamics simulations in drug discovery",
-          "volume": "26",
-          "author": "Borhani",
-          "year": "2012",
-          "journal-title": "J. Comput.-Aided Mol. Des."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib14",
-          "doi-asserted-by": "crossref",
-          "first-page": "1074",
-          "DOI": "10.1002/qua.24836",
-          "article-title": "Adaptive machine learning framework to accelerate ab initio molecular dynamics",
-          "volume": "115",
-          "author": "Botu",
-          "year": "2015",
-          "journal-title": "International Journal of Quantum Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib15",
-          "doi-asserted-by": "crossref",
-          "first-page": "187",
-          "DOI": "10.1002/jcc.540040211",
-          "article-title": "CHARMM A program for macromolecular energy, minimization, and dynamics calculations",
-          "volume": "4",
-          "author": "Brooks",
-          "year": "1983",
-          "journal-title": "Journal of Computational Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib16",
-          "doi-asserted-by": "crossref",
-          "first-page": "13435",
-          "DOI": "10.1021/ja062463w",
-          "article-title": "Free-energy landscape for beta hairpin folding from combined parallel tempering and metadynamics",
-          "volume": "128",
-          "author": "Bussi",
-          "year": "2006",
-          "journal-title": "Journal of the American Chemical Society A"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib17",
-          "doi-asserted-by": "crossref",
-          "first-page": "13435",
-          "DOI": "10.1021/ja062463w",
-          "article-title": "Free-energy landscape for \u03b2 hairpin folding from combined parallel tempering and metadynamics",
-          "volume": "128",
-          "author": "Bussi",
-          "year": "2006",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib18",
-          "doi-asserted-by": "crossref",
-          "first-page": "293",
-          "DOI": "10.1016/S0097-8485(01)00113-9",
-          "article-title": "Prediction of protein structural classes by support vector machines",
-          "volume": "26",
-          "author": "Cai",
-          "year": "2002",
-          "journal-title": "Computers & Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib19",
-          "doi-asserted-by": "crossref",
-          "first-page": "10748",
-          "DOI": "10.1063/1.1809588",
-          "article-title": "Replica exchange molecular dynamics simulations of amyloid peptide aggregation",
-          "volume": "121",
-          "author": "Cecchini",
-          "year": "2004",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib20",
-          "doi-asserted-by": "crossref",
-          "first-page": "133",
-          "DOI": "10.1208/s12248-012-9322-0",
-          "article-title": "Structure-based virtual screening for drug discovery: A problem-centric review",
-          "volume": "14",
-          "author": "Cheng",
-          "year": "2012",
-          "journal-title": "The AAPS journal"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib136",
-          "doi-asserted-by": "crossref",
-          "first-page": "135",
-          "DOI": "10.1016/j.sbi.2014.04.002",
-          "article-title": "Markov state models of biomolecular conformational dynamics",
-          "volume": "25",
-          "author": "Chodera",
-          "year": "2014",
-          "journal-title": "Curr. Opin. Struct. Biol."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib21",
-          "doi-asserted-by": "crossref",
-          "first-page": "1719",
-          "DOI": "10.1002/jcc.20303",
-          "article-title": "The GROMOS software for biomolecular simulation GROMOS05",
-          "volume": "26",
-          "author": "Christen",
-          "year": "2005",
-          "journal-title": "Journal of Computational Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib22",
-          "doi-asserted-by": "crossref",
-          "first-page": "22",
-          "DOI": "10.1103/PhysRevB.48.22",
-          "article-title": "Tight-binding potentials for transition-metals and alloys",
-          "volume": "48",
-          "author": "Cleri",
-          "year": "1993",
-          "journal-title": "Physical Review B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib23",
-          "doi-asserted-by": "crossref",
-          "first-page": "5179",
-          "DOI": "10.1021/ja00124a002",
-          "article-title": "A second generation force field for the simulation of proteins, nucleic acids, and organic molecules",
-          "volume": "117",
-          "author": "Cornell",
-          "year": "1995",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "issue": "10",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib137",
-          "doi-asserted-by": "crossref",
-          "first-page": "03B610",
-          "DOI": "10.1063/1.3086832",
-          "article-title": "Enhanced conformational sampling of nucleic acids by a new Hamiltonian replica exchange molecular dynamics approach",
-          "volume": "130",
-          "author": "Curuksu",
-          "year": "2009",
-          "journal-title": "J. Chem. Phys."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib24",
-          "doi-asserted-by": "crossref",
-          "first-page": "034102",
-          "DOI": "10.1063/1.3173812",
-          "article-title": "The multiscale coarse-graining method. III. A test of pairwise additivity of the coarse-grained potential and of new basis functions for the variational calculation",
-          "volume": "131",
-          "author": "Das",
-          "year": "2009",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib25",
-          "doi-asserted-by": "crossref",
-          "first-page": "194115",
-          "DOI": "10.1063/1.4705420",
-          "article-title": "The multiscale coarse-graining method. X. Improved algorithms for constructing coarse-grained potentials for molecular systems",
-          "volume": "136",
-          "author": "Das",
-          "year": "2012",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib26",
-          "doi-asserted-by": "crossref",
-          "first-page": "251",
-          "DOI": "10.1016/0920-2307(93)90001-U",
-          "article-title": "The embedded-atom method \u2013 A review of theory and applications",
-          "volume": "9",
-          "author": "Daw",
-          "year": "1993",
-          "journal-title": "Materials Science Reports"
-        },
-        {
-          "issue": "9",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib138",
-          "doi-asserted-by": "crossref",
-          "first-page": "4035",
-          "DOI": "10.1021/acs.jmedchem.5b01684",
-          "article-title": "Role of molecular dynamics and related methods in drug discovery",
-          "volume": "59",
-          "author": "De Vivo",
-          "year": "2016",
-          "journal-title": "J. Med. Chem."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib27",
-          "doi-asserted-by": "crossref",
-          "first-page": "244",
-          "DOI": "10.1016/j.cplett.2008.04.114",
-          "article-title": "Efficiency reduction and pseudo-convergence in replica exchange sampling of peptide folding-unfolding equilibria",
-          "volume": "458",
-          "author": "Denschlag",
-          "year": "2008",
-          "journal-title": "Chemical Physics Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib28",
-          "doi-asserted-by": "crossref",
-          "first-page": "849",
-          "DOI": "10.1089/10665270260518317",
-          "article-title": "Predicting CNS permeability of drug molecules: Comparison of neural network and support vector machine algorithms",
-          "volume": "9",
-          "author": "Doniger",
-          "year": "2002",
-          "journal-title": "Journal of Computational Biology"
-        },
-        {
-          "issue": "5",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib139",
-          "doi-asserted-by": "crossref",
-          "first-page": "2064",
-          "DOI": "10.1021/ct400919u",
-          "article-title": "On-the-fly learning and sampling of ligand binding by high-through put molecular simulations",
-          "volume": "10",
-          "author": "Doerr",
-          "year": "2014",
-          "journal-title": "J. Chem. Theory Comput."
-        },
-        {
-          "issue": "4",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib140",
-          "doi-asserted-by": "crossref",
-          "first-page": "1845",
-          "DOI": "10.1021/acs.jctc.6b00049",
-          "article-title": "HTMD: high-throughput molecular dynamics for molecular discovery",
-          "volume": "12",
-          "author": "Doerr",
-          "year": "2016",
-          "journal-title": "J. Chem. Theory Comput."
-        },
-        {
-          "issue": "1",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib114",
-          "doi-asserted-by": "crossref",
-          "first-page": "71",
-          "DOI": "10.1186/1741-7007-9-71",
-          "article-title": "Molecular dynamics simulations and drug discovery",
-          "volume": "9",
-          "author": "Durrant",
-          "year": "2011",
-          "journal-title": "BMC biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib29",
-          "doi-asserted-by": "crossref",
-          "first-page": "437",
-          "DOI": "10.1016/j.str.2005.11.014",
-          "article-title": "Molecular dynamics simulations of the complete satellite tobacco mosaic virus",
-          "volume": "14",
-          "author": "Freddolino",
-          "year": "2006",
-          "journal-title": "Structure"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib141",
-          "first-page": "1",
-          "article-title": "Understanding molecular simulation: From algorithms to applications",
-          "volume": "1",
-          "author": "Frenkel",
-          "year": "2002",
-          "journal-title": "Comput. Sci. Ser"
-        },
-        {
-          "volume": "vol. 1",
-          "year": "2001",
-          "author": "Frenkel",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib142"
-        },
-        {
-          "issue": "20",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib143",
-          "doi-asserted-by": "crossref",
-          "first-page": "9058",
-          "DOI": "10.1063/1.1472510",
-          "article-title": "On the Hamiltonian replica exchange method for efficient sampling of biomolecular systems: Application to protein structure prediction",
-          "volume": "116",
-          "author": "Fukunishi",
-          "year": "2002",
-          "journal-title": "The Journal of chemical physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib31",
-          "doi-asserted-by": "crossref",
-          "first-page": "2489",
-          "DOI": "10.1021/acs.jctc.7b00188",
-          "article-title": "Neural network and nearest neighbor algorithms for enhancing sampling of molecular dynamics",
-          "volume": "13",
-          "author": "Galvelis",
-          "year": "2017",
-          "journal-title": "Journal of Chemical Theory and Computation"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib32",
-          "doi-asserted-by": "crossref",
-          "first-page": "2782",
-          "DOI": "10.1073/pnas.042496899",
-          "article-title": "\u03b1-Helical stabilization by side chain shielding of backbone hydrogen bonds",
-          "volume": "99",
-          "author": "Garc\u00eda",
-          "year": "2002",
-          "journal-title": "Proceedings of the National Academy of Sciences"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib33",
-          "doi-asserted-by": "crossref",
-          "first-page": "168",
-          "DOI": "10.1016/S0959-440X(03)00040-X",
-          "article-title": "Peptide folding simulations",
-          "volume": "13",
-          "author": "Gnanakaran",
-          "year": "2003",
-          "journal-title": "Current Opinion in Structural Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib34",
-          "doi-asserted-by": "crossref",
-          "first-page": "309",
-          "DOI": "10.1002/prot.340180402",
-          "article-title": "Correlated mutations and residue contacts in proteins",
-          "volume": "18",
-          "author": "G\u00f6bel",
-          "year": "1994",
-          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib35",
-          "doi-asserted-by": "crossref",
-          "first-page": "423",
-          "DOI": "10.1016/j.sbi.2005.07.007",
-          "article-title": "Molecular dynamics simulations of proteins in lipid bilayers",
-          "volume": "15",
-          "author": "Gumbart",
-          "year": "2005",
-          "journal-title": "Current Opinion in Structural Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib36",
-          "doi-asserted-by": "crossref",
-          "first-page": "490",
-          "DOI": "10.1002/(SICI)1096-987X(199604)17:5/6<490::AID-JCC1>3.0.CO;2-P",
-          "article-title": "Merck molecular force field. I. Basis, form, scope, parameterization, and performance of MMFF94",
-          "volume": "17",
-          "author": "Halgren",
-          "year": "1996",
-          "journal-title": "Journal of Computational Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib37",
-          "doi-asserted-by": "crossref",
-          "first-page": "10",
-          "DOI": "10.1016/j.bpj.2016.10.042",
-          "article-title": "MSMBuilder: Statistical models for biomolecular dynamics",
-          "volume": "112",
-          "author": "Harrigan",
-          "year": "2017",
-          "journal-title": "Biophysical Journal"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib38",
-          "doi-asserted-by": "crossref",
-          "unstructured": "Heermann, D.W., 1990. Computer-simulation methods. In: Computer Simulation Methods in Theoretical Physics. Springer.",
-          "DOI": "10.1007/978-3-642-75448-7_2"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib39",
-          "doi-asserted-by": "crossref",
-          "first-page": "11476",
-          "DOI": "10.1038/srep11476",
-          "article-title": "Improving prediction of secondary structure, local backbone angles, and solvent accessible surface area of proteins by iterative deep learning",
-          "volume": "5",
-          "author": "Heffernan",
-          "year": "2015",
-          "journal-title": "Scientific Reports"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib40",
-          "doi-asserted-by": "crossref",
-          "first-page": "2653",
-          "DOI": "10.2174/092986706778201558",
-          "article-title": "Recent advances in computational prediction of drug absorption and permeability in drug discovery",
-          "volume": "13",
-          "author": "Hou",
-          "year": "2006",
-          "journal-title": "Current Medicinal Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib41",
-          "series-title": "Statistical Mechanics",
-          "volume": "18",
-          "author": "Huang",
-          "year": "1987"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib42",
-          "doi-asserted-by": "crossref",
-          "first-page": "397",
-          "DOI": "10.1006/jmbi.2001.4580",
-          "article-title": "A novel method of protein secondary structure prediction with high segment overlap measure: Support vector machine approach",
-          "volume": "308",
-          "author": "Hua",
-          "year": "2001",
-          "journal-title": "Journal of Molecular Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib43",
-          "doi-asserted-by": "crossref",
-          "first-page": "761",
-          "DOI": "10.1021/ct100530r",
-          "article-title": "On the convergence of QM/MM energies",
-          "volume": "7",
-          "author": "Hu",
-          "year": "2011",
-          "journal-title": "Journal of Chemical Theory and Computation"
-        },
-        {
-          "issue": "7",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib145",
-          "doi-asserted-by": "crossref",
-          "first-page": "2386",
-          "DOI": "10.1021/jacs.7b12191",
-          "article-title": "Markov state models: from an art to a science",
-          "volume": "140",
-          "author": "Husic",
-          "year": "2018",
-          "journal-title": "J. Am. Chem. Soc."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib44",
-          "doi-asserted-by": "crossref",
-          "first-page": "1177",
-          "DOI": "10.1016/S0022-2836(02)00380-7",
-          "article-title": "Ions and counterions in a biological channel: A molecular dynamics simulation of OmpF porin from Escherichia coli in an explicit membrane with 1M KCl aqueous salt solution",
-          "volume": "319",
-          "author": "Im",
-          "year": "2002",
-          "journal-title": "Journal of Molecular Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib45",
-          "doi-asserted-by": "crossref",
-          "unstructured": "Izumi, S., Kawakami, T., Sakai, S., 1999. A FEM-MD combination method for silicon. In: Proceeding of the 1999 International Conference on Simulation of Semiconductor Processes and Devices, SISPAD \u05f399, pp. 143\u2013146.",
-          "DOI": "10.1109/SISPAD.1999.799281"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib46",
-          "doi-asserted-by": "crossref",
-          "first-page": "11225",
-          "DOI": "10.1021/ja9621760",
-          "article-title": "Development and testing of the OPLS all-atom force field on conformational energetics and properties of organic liquids",
-          "volume": "118",
-          "author": "Jorgensen",
-          "year": "1996",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib47",
-          "doi-asserted-by": "crossref",
-          "first-page": "1657",
-          "DOI": "10.1021/ja00214a001",
-          "article-title": "The OPLS [optimized potentials for liquid simulations] potential functions for proteins, energy minimizations for crystals of cyclic peptides and crambin",
-          "volume": "110",
-          "author": "Jorgensen",
-          "year": "1988",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib48",
-          "doi-asserted-by": "crossref",
-          "first-page": "241",
-          "DOI": "10.1186/1471-2105-9-241",
-          "article-title": "A comparison of machine learning algorithms for chemical toxicity classification using a simulated multi-scale data model",
-          "volume": "9",
-          "author": "Judson",
-          "year": "2008",
-          "journal-title": "BMC Bioinformatics"
-        },
-        {
-          "year": "2008",
-          "series-title": "Monte Carlo Methods",
-          "author": "Kalos",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib49"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib50",
-          "first-page": "932",
-          "article-title": "Umbrella sampling",
-          "volume": "1",
-          "author": "K\u00e4stner",
-          "year": "2011",
-          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib51",
-          "doi-asserted-by": "crossref",
-          "first-page": "128",
-          "DOI": "10.1016/j.sbi.2009.02.011",
-          "article-title": "Molecular dynamics simulations of membrane channels and transporters",
-          "volume": "19",
-          "author": "Khalili-Araghi",
-          "year": "2009",
-          "journal-title": "Current Opinion in Structural Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib52",
-          "doi-asserted-by": "crossref",
-          "first-page": "206101",
-          "DOI": "10.1063/1.1917749",
-          "article-title": "Selection of temperature intervals for parallel-tempering simulations",
-          "volume": "122",
-          "author": "Kone",
-          "year": "2005",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib53",
-          "doi-asserted-by": "crossref",
-          "first-page": "15667",
-          "DOI": "10.1073/pnas.0907674106",
-          "article-title": "A force field for virtual atom molecular mechanics of proteins",
-          "volume": "106",
-          "author": "Korkut",
-          "year": "2009",
-          "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib54",
-          "doi-asserted-by": "crossref",
-          "first-page": "76",
-          "DOI": "10.1016/j.sbi.2004.01.013",
-          "article-title": "The protein folding \u2018speed limit\u2019",
-          "volume": "14",
-          "author": "Kubelka",
-          "year": "2004",
-          "journal-title": "Current Opinion in Structural Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib55",
-          "doi-asserted-by": "crossref",
-          "first-page": "126601",
-          "DOI": "10.1088/0034-4885/71/12/126601",
-          "article-title": "Metadynamics: A method to simulate rare events and reconstruct the free energy in biophysics, chemistry and material science",
-          "volume": "71",
-          "author": "Laio",
-          "year": "2008",
-          "journal-title": "Reports on Progress in Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib56",
-          "doi-asserted-by": "crossref",
-          "first-page": "12562",
-          "DOI": "10.1073/pnas.202427399",
-          "article-title": "Escaping free-energy minima",
-          "volume": "99",
-          "author": "Laio",
-          "year": "2002",
-          "journal-title": "Proceedings of the National Academy of Sciences"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib57",
-          "doi-asserted-by": "crossref",
-          "first-page": "245",
-          "DOI": "10.1016/j.cplett.2005.10.135",
-          "article-title": "A polarizable model of water for molecular dynamics simulations of biomolecules",
-          "volume": "418",
-          "author": "Lamoureux",
-          "year": "2006",
-          "journal-title": "Chemical Physics Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib58",
-          "doi-asserted-by": "crossref",
-          "first-page": "164107",
-          "DOI": "10.1063/1.3394863",
-          "article-title": "The multiscale coarse-graining method. VI. Implementation of three-body coarse-grained potentials",
-          "volume": "132",
-          "author": "Larini",
-          "year": "2010",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib144",
-          "doi-asserted-by": "crossref",
-          "first-page": "93",
-          "DOI": "10.1002/prot.23165",
-          "article-title": "(333) BSP-SLIM: A blind low-resolution ligand-protein docking approach using theoretically predicted protein structures",
-          "volume": "80",
-          "author": "Lee",
-          "year": "2012",
-          "journal-title": "Proteins"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib59",
-          "doi-asserted-by": "crossref",
-          "first-page": "64",
-          "DOI": "10.1016/j.jcp.2013.06.039",
-          "article-title": "A multiscale modeling technique for bridging molecular dynamics with finite element method",
-          "volume": "253",
-          "author": "Lee",
-          "year": "2013",
-          "journal-title": "Journal of Computational Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib60",
-          "doi-asserted-by": "crossref",
-          "first-page": "517",
-          "DOI": "10.1126/science.1208351",
-          "article-title": "How fast-folding proteins fold",
-          "volume": "334",
-          "author": "Lindorff-Larsen",
-          "year": "2011",
-          "journal-title": "Science"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib61",
-          "doi-asserted-by": "crossref",
-          "first-page": "2062",
-          "DOI": "10.1021/ct900119n",
-          "article-title": "Convergence and heterogeneity in peptide folding with replica exchange molecular dynamics",
-          "volume": "5",
-          "author": "Lin",
-          "year": "2009",
-          "journal-title": "Journal of Chemical Theory and Computation"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib62",
-          "doi-asserted-by": "crossref",
-          "first-page": "365",
-          "DOI": "10.1186/1471-2105-10-365",
-          "article-title": "Prediction of hot spot residues at protein-protein interfaces by combining machine learning and energy-based methods",
-          "volume": "10",
-          "author": "Lise",
-          "year": "2009",
-          "journal-title": "BMC Bioinformatics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib63",
-          "doi-asserted-by": "crossref",
-          "first-page": "13749",
-          "DOI": "10.1073/pnas.0506346102",
-          "article-title": "Replica exchange with solute tempering: A method for sampling biological systems in explicit water",
-          "volume": "102",
-          "author": "Liu",
-          "year": "2005",
-          "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib64",
-          "doi-asserted-by": "crossref",
-          "first-page": "096405",
-          "DOI": "10.1103/PhysRevLett.114.096405",
-          "article-title": "Molecular dynamics with on-the-fly machine learning of quantum-mechanical forces",
-          "volume": "114",
-          "author": "Li",
-          "year": "2015",
-          "journal-title": "Physical Review Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib65",
-          "doi-asserted-by": "crossref",
-          "first-page": "121906",
-          "DOI": "10.1063/1.4811667",
-          "article-title": "Fitting coarse-grained distribution functions through an iterative force-matching method",
-          "volume": "139",
-          "author": "Lu",
-          "year": "2013",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib66",
-          "doi-asserted-by": "crossref",
-          "first-page": "224107",
-          "DOI": "10.1063/1.3599049",
-          "article-title": "The multiscale coarse-graining method. VII. Free energy decomposition of coarse-grained effective potentials",
-          "volume": "134",
-          "author": "Lu",
-          "year": "2011",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib67",
-          "doi-asserted-by": "crossref",
-          "first-page": "1501",
-          "DOI": "10.1021/jp809604k",
-          "article-title": "Systematic coarse-graining of a multicomponent lipid bilayer",
-          "volume": "113",
-          "author": "Lu",
-          "year": "2009",
-          "journal-title": "Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib68",
-          "doi-asserted-by": "crossref",
-          "first-page": "14126",
-          "DOI": "10.1073/pnas.212206899",
-          "article-title": "Stabilities and conformations of Alzheimer\u2019s \u03b2-amyloid peptide oligomers (A\u03b216\u201322, A\u03b216\u201335, and A\u03b210\u201335): Sequence effects",
-          "volume": "99",
-          "author": "Ma",
-          "year": "2002",
-          "journal-title": "Proceedings of the National Academy of Sciences"
-        },
-        {
-          "issue": "26",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib146",
-          "doi-asserted-by": "crossref",
-          "first-page": "8897",
-          "DOI": "10.1021/j100389a010",
-          "article-title": "DREIDING: A generic force field for molecular simulations",
-          "volume": "94",
-          "author": "Mayo",
-          "year": "1990",
-          "journal-title": "J. Phys. Chem."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib69",
-          "doi-asserted-by": "crossref",
-          "first-page": "451",
-          "DOI": "10.1209/0295-5075/19/6/002",
-          "article-title": "Simulated tempering: A new Monte Carlo scheme",
-          "volume": "19",
-          "author": "Marinari",
-          "year": "1992",
-          "journal-title": "EPL (Europhysics Letters)"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib70",
-          "doi-asserted-by": "crossref",
-          "first-page": "e1000452",
-          "DOI": "10.1371/journal.pcbi.1000452",
-          "article-title": "A kinetic model of trp-cage folding from multiple biased molecular dynamics simulations",
-          "volume": "5",
-          "author": "Marinelli",
-          "year": "2009",
-          "journal-title": "PLOS Computational Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib71",
-          "doi-asserted-by": "crossref",
-          "first-page": "750",
-          "DOI": "10.1021/jp036508g",
-          "article-title": "Coarse grained model for semiquantitative lipid simulations",
-          "volume": "108",
-          "author": "Marrink",
-          "year": "2004",
-          "journal-title": "Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib72",
-          "doi-asserted-by": "crossref",
-          "first-page": "7812",
-          "DOI": "10.1021/jp071097f",
-          "article-title": "The MARTINI force field: Coarse grained model for biomolecular simulations",
-          "volume": "111",
-          "author": "Marrink",
-          "year": "2007",
-          "journal-title": "Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib73",
-          "doi-asserted-by": "crossref",
-          "first-page": "585",
-          "DOI": "10.1038/267585a0",
-          "article-title": "Dynamics of folded proteins",
-          "volume": "267",
-          "author": "McCammon",
-          "year": "1977",
-          "journal-title": "Nature"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib74",
-          "unstructured": "McGibbon, R., Ramsundar, B., Sultan, M., Kiss, G., Pande, V., 2014. Understanding protein dynamics with L1-regularized reversible hidden Markov models. In: Proceeding of the International Conference on Machine Learning, pp. 1197\u20131205."
-        },
-        {
-          "issue": "7",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib147",
-          "doi-asserted-by": "crossref",
-          "first-page": "2900",
-          "DOI": "10.1021/ct400132h",
-          "article-title": "Learning kinetic distance metrics for Markov state models of protein conformational dynamics",
-          "volume": "9",
-          "author": "McGibbon",
-          "year": "2013",
-          "journal-title": "J. Chem. Theory Comput."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib76",
-          "doi-asserted-by": "crossref",
-          "first-page": "11181",
-          "DOI": "10.1021/jp102314e",
-          "article-title": "All-atom multiscale simulation of cowpea chlorotic mottle virus capsid swelling",
-          "volume": "114",
-          "author": "Miao",
-          "year": "2010",
-          "journal-title": "The Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib77",
-          "doi-asserted-by": "crossref",
-          "DOI": "10.1038/ncomms11265",
-          "article-title": "Fimbrin phosphorylation by metaphase Cdk1 regulates actin cable dynamics in budding yeast",
-          "volume": "7",
-          "author": "Miao",
-          "year": "2016",
-          "journal-title": "Nature Communications"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib78",
-          "doi-asserted-by": "crossref",
-          "first-page": "96",
-          "DOI": "10.1002/1097-0282(2001)60:2<96::AID-BIP1007>3.0.CO;2-F",
-          "article-title": "Generalized\u2010ensemble algorithms for molecular simulations of biopolymers",
-          "volume": "60",
-          "author": "Mitsutake",
-          "year": "2001",
-          "journal-title": "Peptide Science"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib79",
-          "doi-asserted-by": "crossref",
-          "first-page": "164107",
-          "DOI": "10.1063/1.3120483",
-          "article-title": "Dissociation aided and side chain sampling enhanced Hamiltonian replica exchange",
-          "volume": "130",
-          "author": "Mu",
-          "year": "2009",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib80",
-          "doi-asserted-by": "crossref",
-          "first-page": "45",
-          "DOI": "10.1002/prot.20310",
-          "article-title": "Energy landscape of a small peptide revealed by dihedral angle principal component analysis",
-          "volume": "58",
-          "author": "Mu",
-          "year": "2005",
-          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib81",
-          "doi-asserted-by": "crossref",
-          "first-page": "084119",
-          "DOI": "10.1063/1.2772264",
-          "article-title": "Hybrid Hamiltonian replica exchange molecular dynamics simulation method employing the Poisson\u2013Boltzmann model",
-          "volume": "127",
-          "author": "Mu",
-          "year": "2007",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib82",
-          "doi-asserted-by": "crossref",
-          "first-page": "02B617",
-          "DOI": "10.1063/1.3554380",
-          "article-title": "Slow dynamics in protein fluctuations revealed by time-structure based independent component analysis: The case of domain motions",
-          "volume": "134",
-          "author": "Naritomi",
-          "year": "2011",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "issue": "1",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib148",
-          "article-title": "(111) Protein-Ligand Blind Docking Using QuickVina-W With Inter-Process Spatio-Temporal Integration",
-          "volume": "7",
-          "author": "Nafisa",
-          "year": "2017",
-          "journal-title": "Scientific Reports"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib83",
-          "doi-asserted-by": "crossref",
-          "first-page": "19011",
-          "DOI": "10.1073/pnas.0905466106",
-          "article-title": "Constructing the equilibrium ensemble of folding pathways from short off-equilibrium simulations",
-          "volume": "106",
-          "author": "No\u00e9",
-          "year": "2009",
-          "journal-title": "Proceedings of the National Academy of Sciences"
-        },
-        {
-          "issue": "10",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib149",
-          "doi-asserted-by": "crossref",
-          "first-page": "5002",
-          "DOI": "10.1021/acs.jctc.5b00553",
-          "article-title": "Kinetic distance and kinetic maps from molecular dynamics simulation",
-          "volume": "11",
-          "author": "No\u00e9",
-          "year": "2015",
-          "journal-title": "J. Chem. Theory Comput."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib84",
-          "doi-asserted-by": "crossref",
-          "first-page": "244115",
-          "DOI": "10.1063/1.2938857",
-          "article-title": "The multiscale coarse-graining method. II. Numerical implementation for coarse-grained molecular models",
-          "volume": "128",
-          "author": "Noid",
-          "year": "2008",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib85",
-          "doi-asserted-by": "crossref",
-          "unstructured": "O\u2019Brien, J.F., Hodgins, J.K., 1999. Graphical modeling and animation of brittle fracture. In: Siggraph 99 Conference Proceedings, pp. 137\u2013146.",
-          "DOI": "10.1145/311535.311550"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib86",
-          "doi-asserted-by": "crossref",
-          "first-page": "15670",
-          "DOI": "10.1021/ja404317d",
-          "article-title": "All-atom molecular dynamics simulation of photosystem II embedded in thylakoid membrane",
-          "volume": "135",
-          "author": "Ogata",
-          "year": "2013",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib87",
-          "doi-asserted-by": "crossref",
-          "first-page": "557",
-          "DOI": "10.1021/ct600263e",
-          "article-title": "Improving convergence of replica-exchange simulations through coupling to a high-temperature structure reservoir",
-          "volume": "3",
-          "author": "Okur",
-          "year": "2007",
-          "journal-title": "Journal of Chemical Theory and Computation"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib88",
-          "doi-asserted-by": "crossref",
-          "first-page": "1504",
-          "DOI": "10.1002/jcc.20077",
-          "article-title": "CHARMM fluctuating charge force field for proteins: II protein/solvent properties from molecular dynamics simulations using a nonadditive electrostatic model",
-          "volume": "25",
-          "author": "Patel",
-          "year": "2004",
-          "journal-title": "Journal of Computational Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib89",
-          "doi-asserted-by": "crossref",
-          "first-page": "10725",
-          "DOI": "10.1063/1.1795694",
-          "article-title": "Designing generalized statistical ensembles for numerical simulations of biopolymers",
-          "volume": "121",
-          "author": "La Penna",
-          "year": "2004",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "issue": "1",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib150",
-          "doi-asserted-by": "crossref",
-          "first-page": "99",
-          "DOI": "10.1016/j.ymeth.2010.06.002",
-          "article-title": "Everything you wanted to know about Markov State Models but were afraid to ask",
-          "volume": "52",
-          "author": "Pande",
-          "year": "2010",
-          "journal-title": "Methods"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib90",
-          "doi-asserted-by": "crossref",
-          "first-page": "07B604_1",
-          "DOI": "10.1063/1.4811489",
-          "article-title": "Identification of slow molecular order parameters for Markov model construction",
-          "volume": "139",
-          "author": "P\u00e9rez-Hern\u00e1ndez",
-          "year": "2013",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "issue": "17",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib91",
-          "doi-asserted-by": "crossref",
-          "first-page": "4553",
-          "DOI": "10.1021/jp067873l",
-          "article-title": "A bias-exchange approach to protein folding",
-          "volume": "111",
-          "author": "Piana",
-          "year": "2007",
-          "journal-title": "Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib92",
-          "doi-asserted-by": "crossref",
-          "first-page": "L47",
-          "DOI": "10.1016/j.bpj.2011.03.051",
-          "article-title": "How robust are protein folding simulations with respect to force field parameterization?",
-          "volume": "100",
-          "author": "Piana",
-          "year": "2011",
-          "journal-title": "Biophysical Journal"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib93",
-          "doi-asserted-by": "crossref",
-          "first-page": "A405",
-          "DOI": "10.1103/PhysRev.136.A405",
-          "article-title": "Correlations in the motion of atoms in liquid argon",
-          "volume": "136",
-          "author": "Rahman",
-          "year": "1964",
-          "journal-title": "Physical Review"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib94",
-          "doi-asserted-by": "crossref",
-          "first-page": "11287",
-          "DOI": "10.1073/pnas.0401942101",
-          "article-title": "Anchor residues in protein\u2013protein interactions",
-          "volume": "101",
-          "author": "Rajamani",
-          "year": "2004",
-          "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib95",
-          "doi-asserted-by": "crossref",
-          "first-page": "342",
-          "DOI": "10.1016/j.bbapap.2009.07.026",
-          "article-title": "Proton transfer function of carbonic anhydrase: Insights from QM/MM simulations",
-          "volume": "1804",
-          "author": "Riccardi",
-          "year": "2010",
-          "journal-title": "Biochimica et Biophysica Acta"
-        },
-        {
-          "issue": "2",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib151",
-          "doi-asserted-by": "crossref",
-          "first-page": "147",
-          "DOI": "10.1007/s11634-013-0134-6",
-          "article-title": "Fuzzy spectral clustering by PCCA+: Application to Markov state models and data classification",
-          "volume": "7",
-          "author": "R\u00f6blitz",
-          "year": "2013",
-          "journal-title": "Adv. Data Anal. Classif."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib96",
-          "doi-asserted-by": "crossref",
-          "first-page": "1011",
-          "DOI": "10.1002/jcc.540130812",
-          "article-title": "The weighted histogram analysis method for free-energy calculations on biomolecules. I. The method",
-          "volume": "13",
-          "author": "Rosenbergl",
-          "year": "1992",
-          "journal-title": "Journal of Computational Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib97",
-          "doi-asserted-by": "crossref",
-          "first-page": "5525",
-          "DOI": "10.1021/acs.jctc.5b00743",
-          "article-title": "PyEMMA 2: A software package for estimation, validation, and analysis of Markov models",
-          "volume": "11",
-          "author": "Scherer",
-          "year": "2015",
-          "journal-title": "Journal of Chemical Theory and Computation"
-        },
-        {
-          "issue": "2",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib152",
-          "doi-asserted-by": "crossref",
-          "first-page": "600",
-          "DOI": "10.1021/ct5007357",
-          "article-title": "Modeling molecular kinetics with tICA and the kernel trick",
-          "volume": "11",
-          "author": "Schwantes",
-          "year": "2015",
-          "journal-title": "J. Chem. Theory Comput."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib153",
-          "doi-asserted-by": "crossref",
-          "first-page": "W363",
-          "DOI": "10.1093/nar/gki481",
-          "article-title": "(222) PatchDock and SymmDock: servers for rigid and symmetric docking",
-          "volume": "33",
-          "author": "Schneidman-Duhovny",
-          "year": "2005",
-          "journal-title": "Nucl. Acids. Res"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib98",
-          "doi-asserted-by": "crossref",
-          "first-page": "182",
-          "DOI": "10.1016/j.cbpa.2007.01.684",
-          "article-title": "QM/MM studies of enzymes",
-          "volume": "11",
-          "author": "Senn",
-          "year": "2007",
-          "journal-title": "Current Opinion in Chemical Biology"
-        },
-        {
-          "issue": "No. 04",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib154",
-          "volume": "1997",
-          "author": "Setubal",
-          "year": "1997",
-          "journal-title": "Introduction to computational molecular biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib99",
-          "doi-asserted-by": "crossref",
-          "first-page": "341",
-          "DOI": "10.1126/science.1187409",
-          "article-title": "Atomic-level characterization of the structural dynamics of proteins",
-          "volume": "330",
-          "author": "Shaw",
-          "year": "2010",
-          "journal-title": "Science"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib100",
-          "doi-asserted-by": "crossref",
-          "first-page": "3674",
-          "DOI": "10.1021/jp0550816",
-          "article-title": "Coarse grained protein\u2212lipid model with application to lipoprotein particles",
-          "volume": "110",
-          "author": "Shih",
-          "year": "2006",
-          "journal-title": "The Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib101",
-          "doi-asserted-by": "crossref",
-          "first-page": "579",
-          "DOI": "10.1016/j.jsb.2006.08.006",
-          "article-title": "Assembly of lipoprotein particles revealed by coarse-grained molecular dynamics simulations",
-          "volume": "157",
-          "author": "Shih",
-          "year": "2007",
-          "journal-title": "Journal of Structural Biology"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib102",
-          "doi-asserted-by": "crossref",
-          "first-page": "557",
-          "DOI": "10.1016/S0006-3495(00)76616-1",
-          "article-title": "Simulations of ion permeation through a potassium channel: Molecular dynamics of KcsA in a phospholipid bilayer",
-          "volume": "78",
-          "author": "Shrivastava",
-          "year": "2000",
-          "journal-title": "Biophysical Journal"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib103",
-          "doi-asserted-by": "crossref",
-          "DOI": "10.1063/1.2816560",
-          "article-title": "Exchange frequency in replica exchange molecular dynamics",
-          "volume": "128",
-          "author": "Sindhikara",
-          "year": "2008",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "issue": "20",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib155",
-          "doi-asserted-by": "crossref",
-          "first-page": "204909",
-          "DOI": "10.1063/1.2116947",
-          "article-title": "Error analysis and efficient sampling in Markovian state models for molecular dynamics",
-          "volume": "123",
-          "author": "Singhal",
-          "year": "2005",
-          "journal-title": "J. Chem. Phys."
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib104",
-          "doi-asserted-by": "crossref",
-          "first-page": "11",
-          "DOI": "10.1016/S0010-4655(98)00175-1",
-          "article-title": "A combined molecular dynamics and finite element method technique applied to laser induced pressure wave propagation",
-          "volume": "118",
-          "author": "Smirnova",
-          "year": "1999",
-          "journal-title": "Computer Physics Communications"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib105",
-          "doi-asserted-by": "crossref",
-          "first-page": "14548",
-          "DOI": "10.1021/ja028604l",
-          "article-title": "The Trp cage: Folding kinetics and unfolded state topology via molecular dynamics simulations",
-          "volume": "124",
-          "author": "Snow",
-          "year": "2002",
-          "journal-title": "Journal of the American Chemical Society"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib106",
-          "doi-asserted-by": "crossref",
-          "first-page": "3473",
-          "DOI": "10.1021/acs.jctc.6b00339",
-          "article-title": "Accurate estimation of protein folding and unfolding times: Beyond Markov state models",
-          "volume": "12",
-          "author": "Su\u00e1rez",
-          "year": "2016",
-          "journal-title": "Journal of Chemical Theory and Computation"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib107",
-          "doi-asserted-by": "crossref",
-          "first-page": "141",
-          "DOI": "10.1016/S0009-2614(99)01123-9",
-          "article-title": "Replica-exchange molecular dynamics method for protein folding",
-          "volume": "314",
-          "author": "Sugita",
-          "year": "1999",
-          "journal-title": "Chemical Physics Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib108",
-          "doi-asserted-by": "crossref",
-          "first-page": "141",
-          "DOI": "10.1016/S0009-2614(99)01123-9",
-          "article-title": "Replica-exchange molecular dynamics method for protein folding",
-          "volume": "314",
-          "author": "Sugita",
-          "year": "1999",
-          "journal-title": "Chemical Physics Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib109",
-          "doi-asserted-by": "crossref",
-          "unstructured": "Sultan, M.M., Wayment-Steele, H.K., Pande, V.S., 2018. Transferable neural networks for enhanced sampling of protein dynamics. arXiv preprint arXiv:1801.00636.",
-          "DOI": "10.1021/acs.jctc.8b00025"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib110",
-          "first-page": "771",
-          "article-title": "New advances in metadynamics",
-          "volume": "2",
-          "author": "Sutto",
-          "year": "2012",
-          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib111",
-          "doi-asserted-by": "crossref",
-          "first-page": "86",
-          "DOI": "10.1103/PhysRevLett.58.86",
-          "article-title": "Nonuniversal critical dynamics in Monte Carlo simulations",
-          "volume": "58",
-          "author": "Swendsen",
-          "year": "1987",
-          "journal-title": "Physical Review Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib112",
-          "doi-asserted-by": "crossref",
-          "first-page": "213",
-          "DOI": "10.1016/j.bpc.2003.09.010",
-          "article-title": "Conformational sampling for the impatient",
-          "volume": "107",
-          "author": "Tai",
-          "year": "2004",
-          "journal-title": "Biophysical Chemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib113",
-          "doi-asserted-by": "crossref",
-          "first-page": "5566",
-          "DOI": "10.1103/PhysRevB.39.5566",
-          "article-title": "Modeling solid-state chemistry \u2013 Interatomic potentials for multicomponent systems",
-          "volume": "39",
-          "author": "Tersoff",
-          "year": "1989",
-          "journal-title": "Physical Review B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib115",
-          "doi-asserted-by": "crossref",
-          "first-page": "736",
-          "DOI": "10.1021/jp504920s",
-          "article-title": "A time-independent free energy estimator for metadynamics",
-          "volume": "119",
-          "author": "Tiwary",
-          "year": "2014",
-          "journal-title": "The Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib116",
-          "article-title": "The principles of statistical mechanics",
-          "author": "Tolman",
-          "year": "1938",
-          "journal-title": "Courier Corporation"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib117",
-          "doi-asserted-by": "crossref",
-          "first-page": "578",
-          "DOI": "10.1016/0009-2614(74)80109-0",
-          "article-title": "Monte Carlo free energy estimates using non-Boltzmann sampling: Application to the sub-critical Lennard-Jones fluid",
-          "volume": "28",
-          "author": "Torrie",
-          "year": "1974",
-          "journal-title": "Chemical Physics Letters"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib118",
-          "doi-asserted-by": "crossref",
-          "first-page": "187",
-          "DOI": "10.1016/0021-9991(77)90121-8",
-          "article-title": "Nonphysical sampling distributions in Monte Carlo free-energy estimation: Umbrella sampling",
-          "volume": "23",
-          "author": "Torrie",
-          "year": "1977",
-          "journal-title": "Journal of Computational Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib119",
-          "doi-asserted-by": "crossref",
-          "first-page": "2708",
-          "DOI": "10.1021/bi400215w",
-          "article-title": "Combined quantum mechanics/molecular mechanics (QM/MM) methods in computational enzymology",
-          "volume": "52",
-          "author": "van der Kamp",
-          "year": "2013",
-          "journal-title": "Biochemistry"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib120",
-          "unstructured": "van Gunsteren, W.F., Billeter, S.R., Eising, A.A., et al., 1996. Biomolecular simulation: The {GROMOS96} manual and userguide. Hochschuleverlag AG an der ETH Z\u00fcrich."
-        },
-        {
-          "issue": "5",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib156",
-          "first-page": "710",
-          "volume": "1",
-          "author": "van der Spoel",
-          "year": "2011",
-          "journal-title": "GROMACS\u2014the road ahead. Wiley Interdiscip. Rev.: Comput. Molecular Science"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib121",
-          "doi-asserted-by": "crossref",
-          "first-page": "255",
-          "DOI": "10.1016/S0169-409X(02)00003-0",
-          "article-title": "Prediction of \u2018drug-likeness\u2019",
-          "volume": "54",
-          "author": "Walters",
-          "year": "2002",
-          "journal-title": "Advanced Drug Delivery Reviews"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib122",
-          "doi-asserted-by": "crossref",
-          "first-page": "134",
-          "DOI": "10.1021/jp4105129",
-          "article-title": "Exploring transition pathway and free-energy profile of large-scale protein conformational change by combining normal mode analysis and umbrella sampling molecular dynamics",
-          "volume": "118",
-          "author": "Wang",
-          "year": "2014",
-          "journal-title": "Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib123",
-          "article-title": "Protein secondary structure prediction using deep convolutional neural fields",
-          "volume": "6",
-          "author": "Wang",
-          "year": "2016",
-          "journal-title": "Scientific Reports"
-        },
-        {
-          "journal-title": "A subspace approach to molecular Markov state models via a new infinitesimal generator",
-          "year": "2011",
-          "author": "Weber",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib157"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib124",
-          "doi-asserted-by": "crossref",
-          "first-page": "6833",
-          "DOI": "10.1063/1.1506151",
-          "article-title": "Peptide conformational heterogeneity revealed from nonlinear vibrational spectroscopy and molecular-dynamics simulations",
-          "volume": "117",
-          "author": "Woutersen",
-          "year": "2002",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib125",
-          "article-title": "Folding atomistic proteins in explicit solvent using simulated tempering",
-          "author": "Zhang",
-          "year": "2015",
-          "journal-title": "The Journal of Physical Chemistry B"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib126",
-          "doi-asserted-by": "crossref",
-          "first-page": "154105",
-          "DOI": "10.1063/1.2056540",
-          "article-title": "Convergence of replica exchange molecular dynamics",
-          "volume": "123",
-          "author": "Zhang",
-          "year": "2005",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib127",
-          "doi-asserted-by": "crossref",
-          "DOI": "10.1063/1.2056540",
-          "article-title": "Convergence of replica exchange molecular dynamics",
-          "volume": "123",
-          "author": "Zhang",
-          "year": "2005",
-          "journal-title": "Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib128",
-          "doi-asserted-by": "crossref",
-          "first-page": "3483",
-          "DOI": "10.1063/1.480503",
-          "article-title": "Free energy calculation on enzyme reactions with an efficient iterative procedure to determine minimum energy paths on a combined ab initio QM/MM potential energy surface",
-          "volume": "112",
-          "author": "Zhang",
-          "year": "2000",
-          "journal-title": "The Journal of Chemical Physics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib129",
-          "doi-asserted-by": "crossref",
-          "first-page": "5073",
-          "DOI": "10.1529/biophysj.108.139626",
-          "article-title": "A systematic methodology for defining coarse-grained sites in large biomolecules",
-          "volume": "95",
-          "author": "Zhang",
-          "year": "2008",
-          "journal-title": "Biophysical Journal"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_bib130",
-          "doi-asserted-by": "crossref",
-          "first-page": "e0165824",
-          "DOI": "10.1371/journal.pone.0165824",
-          "article-title": "Exploring flexibility of progesterone receptor ligand binding domain using molecular dynamics",
-          "volume": "11",
-          "author": "Zheng",
-          "year": "2016",
-          "journal-title": "PLOS ONE"
-        },
-        {
-          "issue": "10",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_fur1",
-          "doi-asserted-by": "crossref",
-          "first-page": "5342",
-          "DOI": "10.1016/j.jcp.2008.01.047",
-          "article-title": "General purpose molecular dynamics simulations fully implemented on graphics processing units",
-          "volume": "227",
-          "author": "Anderson",
-          "year": "2008",
-          "journal-title": "Journal of Computational Physics"
-        },
-        {
-          "issue": "19",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_fur2",
-          "doi-asserted-by": "crossref",
-          "first-page": "190601",
-          "DOI": "10.1103/PhysRevLett.104.190601",
-          "article-title": "Enhanced sampling in the well-tempered ensemble",
-          "volume": "104",
-          "author": "Bonomi",
-          "year": "2010",
-          "journal-title": "Physical Review Letters"
-        },
-        {
-          "issue": "33",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_fur3",
-          "doi-asserted-by": "crossref",
-          "first-page": "11463",
-          "DOI": "10.1021/jp905220k",
-          "article-title": "Polarizable force field development and molecular dynamics simulations of ionic liquids",
-          "volume": "113",
-          "author": "Borodin",
-          "year": "2009",
-          "journal-title": "The Journal of Physical Chemistry B"
-        },
-        {
-          "issue": "4",
-          "key": "10.1016/B978-0-12-809633-8.20284-7_fur4",
-          "doi-asserted-by": "crossref",
-          "first-page": "347",
-          "DOI": "10.1080/07391102.2008.10507183",
-          "article-title": "Molecular dynamics, flexible docking, virtual screening, ADMET predictions, and molecular interaction field studies to design novel potential MAO-B inhibitors",
-          "volume": "25",
-          "author": "Braun",
-          "year": "2008",
-          "journal-title": "Journal of Biomolecular Structure and Dynamics"
-        },
-        {
-          "key": "10.1016/B978-0-12-809633-8.20284-7_fur5",
-          "article-title": "Towards exact molecular dynamics simulations with machine-learned force fields",
-          "author": "Chmiela",
-          "year": "2018",
-          "journal-title": "Bulletin of the American Physical Society"
-        }
-      ],
-      "container-title": [
-        "Encyclopedia of Bioinformatics and Computational Biology"
-      ],
-      "language": "en",
-      "link": [
-        {
-          "URL": "https://api.elsevier.com/content/article/PII:B9780128096338202847?httpAccept=text/xml",
-          "content-type": "text/xml",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        },
-        {
-          "URL": "https://api.elsevier.com/content/article/PII:B9780128096338202847?httpAccept=text/plain",
-          "content-type": "text/plain",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        }
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2019,
-            10,
-            18
-          ]
-        ],
-        "date-time": "2019-10-18T15:46:59Z",
-        "timestamp": 1571413619000
-      },
-      "score": 15.907029,
-      "resource": {
-        "primary": {
-          "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780128096338202847"
-        }
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
-      "ISBN": [
-        "9780128114322"
-      ],
-      "references-count": 160,
-      "URL": "https://doi.org/10.1016/b978-0-12-809633-8.20284-7",
-      "published": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      }
-    },
-    {
       "institution": [
         {
           "name": "bioRxiv"
@@ -3447,13 +2156,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            27
+            2026,
+            3,
+            12
           ]
         ],
-        "date-time": "2025-10-27T11:04:15Z",
-        "timestamp": 1761563055472
+        "date-time": "2026-03-12T04:07:30Z",
+        "timestamp": 1773288450582,
+        "version": "3.50.1"
       },
       "posted": {
         "date-parts": [
@@ -3466,7 +2176,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 48,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
@@ -3480,7 +2190,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Co-folding models are the newest innovation in deep-learning-based protein-ligand structure prediction. The recent publications of RoseTTAFold All-Atom and AlphaFold 3 have shown high-quality results on predicting the structures of proteins interacting with small-molecules, other proteins and nucleic-acids. Despite these advanced capabilities and broad potential, the current study presents critical findings that question these models\u2019 adherence to fundamental physical principles and its susceptibility to overfitting specific protein families. Through adversarial examples based on established physical, chemical, and biological principles, we demonstrate notable discrepancies in protein-ligand structural predictions when subjected to biologically plausible perturbations. These discrepancies reveal a significant divergence from expected physical behaviors, indicating potential overfitting to particular data subsets within its training corpus. Our findings underscore the models\u2019 limitations in generalizing effectively across diverse biological structures and highlight the necessity of integrating robust physical and chemical priors in the development of such predictive tools. The results advocate a measured reliance on deep-learning-based models for critical applications in drug discovery and protein engineering, where a deep understanding of the underlying physical and chemical properties is crucial.</jats:p>",
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Co-folding models are the newest innovation in deep-learning-based protein-ligand structure prediction. The recent publications of RoseTTAFold All-Atom and AlphaFold 3 have shown high-quality results on predicting the structures of proteins interacting with small-molecules, other proteins and nucleic-acids. Despite these advanced capabilities and broad potential, the current study presents critical findings that question these models\u2019 adherence to fundamental physical principles and its susceptibility to overfitting specific protein families. Through adversarial examples based on established physical, chemical, and biological principles, we demonstrate notable discrepancies in protein-ligand structural predictions when subjected to biologically plausible perturbations. These discrepancies reveal a significant divergence from expected physical behaviors, indicating potential overfitting to particular data subsets within its training corpus. Our findings underscore the models\u2019 limitations in generalizing effectively across diverse biological structures and highlight the necessity of integrating robust physical and chemical priors in the development of such predictive tools. The results advocate a measured reliance on deep-learning-based models for critical applications in drug discovery and protein engineering, where a deep understanding of the underlying physical and chemical properties is crucial.</jats:p>",
       "DOI": "10.1101/2024.06.03.597219",
       "type": "posted-content",
       "created": {
@@ -3491,36 +2201,54 @@
             4
           ]
         ],
-        "date-time": "2024-06-04T21:50:15Z",
-        "timestamp": 1717537815000
+        "date-time": "2024-06-04T17:50:15Z",
+        "timestamp": 1717523415000
       },
       "source": "Crossref",
-      "is-referenced-by-count": 13,
+      "is-referenced-by-count": 15,
       "title": [
         "Do Deep Learning Models for Co-Folding Learn the Physics of Protein-Ligand Interactions?"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "given": "Matthew R.",
           "family": "Masters",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Amr H.",
           "family": "Mahmoud",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Markus A.",
           "family": "Lill",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2024060700200989000_2024.06.03.597219v1.1",
@@ -3897,15 +2625,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            6,
-            7
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-06-07T07:21:03Z",
-        "timestamp": 1717744863000
+        "date-time": "2026-01-15T06:31:01Z",
+        "timestamp": 1768458661000
       },
-      "score": 15.819812,
+      "score": 15.77107,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.03.597219"

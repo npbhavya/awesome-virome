@@ -1,198 +1,304 @@
 {
-  "cache_date": "2025-12-01T08:57:03.989409",
+  "cache_date": "2026-06-01T14:04:24.952571",
   "data": [
     {
-      "created": "2025-12-01T05:43:44.107920+00:00",
-      "modified": "2025-12-01T05:43:44.900977+00:00",
-      "id": 17774093,
-      "conceptrecid": "17640399",
-      "doi": "10.5281/zenodo.17774093",
-      "conceptdoi": "10.5281/zenodo.17640399",
-      "doi_url": "https://doi.org/10.5281/zenodo.17774093",
+      "created": "2026-06-01T13:58:37.597324+00:00",
+      "modified": "2026-06-01T14:03:47.513975+00:00",
+      "id": 20491275,
+      "conceptrecid": "20491274",
+      "doi": "10.5281/zenodo.20491275",
+      "conceptdoi": "10.5281/zenodo.20491274",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491275",
       "metadata": {
-        "title": "HERALD: High-resolution Early Recognition of Antigenic Landscape Divergence",
-        "doi": "10.5281/zenodo.17774093",
-        "publication_date": "2025-11-30",
-        "description": "<p><strong>HERALD: High-resolution Early Recognition of Antigenic Landscape Divergence</strong></p>\n<p>A theoretical framework for geometry-based viral surveillance that enables early detection of immune-escape variants before widespread transmission. HERALD constructs a Riemannian pullback manifold where Euclidean distances in latent space approximate antigenic relationships within bounded-distortion regimes.</p>\n<blockquote>\n<p><strong>This deposit includes:</strong></p>\n<p>* Complete theoretical framework (manuscript)<br>* Empirical validation studies on SARS-CoV-2 data:<br>&nbsp; - Validation I (DMS): Demonstrates 5.7&ndash;8.8&times; improvement in geometric separation over baseline methods on deep mutational scanning escape data across multiple antibody conditions<br>&nbsp; - Validation II-A (Time Traveler): Retrospective time-slice replay on Nextstrain genomic surveillance data; frozen encoder trained only on 2020 DMS data detects Omicron BA.1 emergence in South Africa (Z = 2.29, p &asymp; 0.011) with near-zero support-adjusted latency<br>&nbsp; - Validation II-B (Instrument Integrity): Audits structural soundness of the HERALD instrument&mdash;confirms PIT-normalized drift scores behave as calibrated Z-scores, validates threshold selection via synthetic Design Frontier analysis, and demonstrates geometric fidelity via Hamming stress test (r &gt; 0.99 linearity up to 30 mutations)<br>* Frozen encoder checkpoint (herald_dms_encoder.pt) for reproducibility<br>* Validation code, results CSVs, and visualization plots (distance histograms, traffic-light heatmaps, Design Frontier curves, manifold smoothness plots)</p>\n</blockquote>\n<p><strong>Key Contributions:</strong></p>\n<ul>\n<li>\n<p><strong>Manifold Construction</strong>: Defines a contrastive learning objective with Jacobian/Laplacian regularization that induces smooth pullback metrics, enabling Euclidean computations to approximate geodesic distances reflecting antigenic divergence</p>\n</li>\n<li>\n<p><strong>Real-Time Drift Detection</strong>: Specifies a probability-integral transform (PIT) fusion scheme combining sequence, antigenic, and structural signals into a scalar drift statistic with O(log n) amortized complexity</p>\n</li>\n<li>\n<p><strong>Formal Guarantees</strong>: Derives margin-to-separation results for InfoNCE objectives and establishes Cantelli-based probability bounds requiring only finite variance (no sub-Gaussian assumptions), composing into conditional end-to-end dominance bounds with explicit error budgets</p>\n</li>\n<li>\n<p><strong>Evaluation Protocols</strong>: Provides falsifiable protocols for retrospective time-slice replay, prospective streaming emulation, distortion audits, and equity/parity analysis across pathogens (SARS-CoV-2, influenza, HIV)</p>\n</li>\n<li>\n<p><strong>Ethics Framework</strong>: Includes comprehensive governance templates addressing dual-use risks, information hazards, data sovereignty, abstention policies, and oversight structures</p>\n</li>\n<li><strong>Empirical Validation:</strong> Validation I demonstrates 5.7&ndash;8.8&times; improvement in geometric separation (&Delta;) over baseline methods on SARS-CoV-2 deep mutational scanning data. Validation II confirms out-of-time generalization: the frozen encoder detects Omicron BA.1 emergence in South Africa (Z = 2.29, p &asymp; 0.011) under sparse monthly surveillance data with near-zero support-adjusted latency.</li>\n</ul>\n<p><strong>Scope</strong>: The theoretical manuscript presents definitions, assumptions, theorems, and evaluation protocols. Validation I provides empirical confirmation on historical DMS data; Validation II demonstrates real-world surveillance applicability via retrospective time-slice replay on Nextstrain genomic data. Both studies use rigorous train/test methodology and no sequence optimization (safe surveillance scope). Applications extend beyond viral surveillance to bacterial pathogen monitoring (STEC, antibiotic resistance) where antigenic/functional divergence precedes clinical detection.</p>\n<p><strong>Author</strong>: Bee Rosa Davis (NASA Mission Systems Engineer, IBM X-Force Red Principal Adversarial Intelligence Engineer)</p>\n<p><strong>Keywords</strong>: viral surveillance, Riemannian geometry, contrastive learning, immune escape, early warning systems, algorithmic epidemiology, information geometry, public health AI, ESM-2, protein language models, deep mutational scanning</p>\n<p><strong>License and Patent Disclaimer</strong></p>\n<p><em><strong>Copyright License</strong>:</em> This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). You are free to share and adapt this work for non-commercial purposes with appropriate attribution, provided derivative works use the same license.</p>\n<p><strong><em>Patent Notice:</em> </strong>The methods, systems, and algorithms described herein are subject to U.S. Provisional Patent Application No. 63/919,595 (filed November 18, 2025). This copyright license does NOT grant any rights under patent law. Implementation, commercial use, or deployment of the HERALD framework may require separate patent licensing arrangements.</p>\n<p><strong><em>Clarification:</em> </strong>The CC BY-NC-SA 4.0 license governs only the manuscript text and documentation&mdash;the right to read, cite, and build upon these ideas academically. The patent covers the technical implementation of the framework. For research and educational use, no patent license is required. For commercial deployment or production systems, contact the inventor regarding patent licensing.</p>\n<p><strong>Contact for Patent Licensing:</strong> <a href=\"mailto:bee_davis@alumni.brown.edu\">bee_davis@alumni.brown.edu</a><br><br><em><strong>Version 3.0:</strong></em> Added Validation Study II (\"Time Traveler\") demonstrating out-of-time generalization&mdash;frozen geometry trained on 2020 DMS data detects 2022 Omicron emergence with p &asymp; 0.011 under sparse surveillance conditions. Includes time-slice replay code, heatmaps, and frozen encoder checkpoint.</p>",
+        "title": "Identification of Mirror Repeats within the SWI 6 Gene of Saccharomyces cerevisiae",
+        "doi": "10.5281/zenodo.20491275",
+        "publication_date": "2025-12-31",
+        "description": "Bhardwaj, Vikash, Abstract, Namrata (2025): Identification of Mirror Repeats within the SWI 6 Gene of Saccharomyces cerevisiae. FishTaxa 37 (9): 157-163, DOI: 10.5281/zenodo.20491275",
         "access_right": "open",
         "creators": [
           {
-            "name": "Davis, Bee Rosa",
-            "affiliation": null,
-            "orcid": "0009-0009-8034-4308"
+            "name": "Bhardwaj, Vikash",
+            "affiliation": null
+          },
+          {
+            "name": "Abstract, Namrata",
+            "affiliation": null
           }
         ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.5281/zenodo.20491277",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0022-2836(05)80360-2",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1126/science.274.5293.1029",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/yea.703",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1128/MCB.19.8.5267",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1101/gad.1039602",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.jmb.2011.03.017",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41571-020-0357-3",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/0076-6879(90)83005-L",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1091/mbc.6.12.1641",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/35040594",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.tig.2003.06.005",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1006/jmbi.1999.2831",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.22376/ijlpr.2024.14.4.L12-L19",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1186/s12864-020-6530-4",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1089/10665270050081478",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "1. Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215(3), 403-410. https://doi.org/10.1016/S0022-2836(05)80360-2",
+          "2. Bhardwaj, Vikash, Swapni, Gupta, Sitaram, Meena, & Kulbhushan, Sharma. (2013). FPCB: A simple and swift strategy for mirror repeat identification.",
+          "3. Elledge, S. J. (1996). Cell cycle checkpoints: Preventing an identity crisis. Science, 274(5293), 1029-1030. https://doi.org/10.1126/science.274.5293.1029",
+          "4. Hartwell, L. H., et al. (2001). The Saccharomyces cerevisiae cell cycle. Yeast, 18(12), 1145-1161. https://doi.org/10.1002/yea.703",
+          "5. Ho, Y., Costanzo, M., Moore, L., Kobayashi, R., & Andrews, B. J. (1999). Regulation of transcription at the Saccharomyces cerevisiae start transition by Stb1, a Swi6-binding protein. Molecular and Cellular Biology, 19(8), 5267-5278. https://doi.org/10.1128/MCB.19.8.5267",
+          "6. Horak, C. E., Luscombe, N. M., Qian, J., Bertone, P., Piccirrillo, S., Gerstein, M., & Snyder, M. (2002). Complex transcriptional circuitry at the G1/S transition in Saccharomyces cerevisiae. Genes & Development, 16(23), 3017-3033. https://doi.org/10.1101/gad.1039602",
+          "7. Lister, R., et al. (2011). Exploring the role of mirror repeats in genetic instability. Journal of Molecular Biology, 408(1), 32- 41. https://doi.org/10.1016/j.jmb.2011.03.017",
+          "8. Mittal, P., & Roberts, C. W. M. (2020). The SWI/SNF complex in cancer - biology, biomarkers and therapy. Nature Reviews. Clinical Oncology, 17(7), 435-448. https://doi.org/10.1038/s41571-020-0357-3",
+          "9. Pearson, W. R. (1994). Using the FASTA search algorithm to compare protein and nucleotide sequences. In Methods in Enzymology (Vol. 183, pp. 63-98). Academic Press. https://doi.org/10.1016/0076-6879(90)83005-L",
+          "10. Sidorova, J. M., Mikesell, G. E., & Breeden, L. L. (1995). Cell cycle-regulated phosphorylation of Swi6 controls its nuclear localization. Molecular Biology of the Cell, 6(12), 1641-1658. https://doi.org/10.1091/mbc.6.12.1641",
+          "11. Tyers, M., & Jorgensen, P. (2000). Proteolysis and the control of cell cycle transitions. Nature Reviews Molecular Cell Biology, 1(3), 141-149. https://doi.org/10.1038/35040594",
+          "12. Urrutia, A. O., & Hurst, L. D. (2003). The evolution of the mirror repeat: Adaptive and nonadaptive perspectives. Trends in Genetics, 19(9), 414-419. https://doi.org/10.1016/j.tig.2003.06.005",
+          "13. Wright, F. (1999). The mirror-repeat method of identifying regulatory sequences in the genome. Journal of Molecular Biology, 291(1), 31-39. https://doi.org/10.1006/jmbi.1999.2831",
+          "14. Yadav, P., Kumari, J., Yadav, P., Yadav, R., Yadav, S., Sharma, D., Singh, A., Sehrawat, B., Yadav, M., & Yadav, S. (2024). Identification of mirror repeats in viral genomes using FPCB analysis: Life sciences-bioinformatics for health care. International Journal of Life Science and Pharma Research, 14(4), L12-L19. https://doi.org/10.22376/ijlpr.2024.14.4.L12-L19",
+          "15. Zhao, J., Xie, X., & Yu, H. (2020). Identification and functional prediction of mirror repeats in yeast using bioinformatics tools. BMC Genomics, 21(1), 112. https://doi.org/10.1186/s12864-020-6530-4",
+          "16. Zhang, Z., Schwartz, S., Wagner, L., & Miller, W. (2000). A greedy algorithm for aligning DNA sequences. Journal of Computational Biology, 7(1-2), 203-214. https://doi.org/10.1089/10665270050081478"
+        ],
         "resource_type": {
-          "title": "Preprint",
+          "title": "Journal article",
           "type": "publication",
-          "subtype": "preprint"
+          "subtype": "article"
         },
+        "journal": {
+          "issue": "9",
+          "pages": "157-163",
+          "title": "FishTaxa",
+          "volume": "37"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "urn:lsid:plazi.org:pub:FFDBFF8FFFD8FFFFFFC9FF8962482829"
+          }
+        ],
         "license": {
           "id": "cc-by-4.0"
         },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
         "relations": {
           "version": [
             {
-              "index": 3,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17640399"
+                "pid_value": "20491274"
               }
             }
           ]
         }
       },
-      "title": "HERALD: High-resolution Early Recognition of Antigenic Landscape Divergence",
+      "title": "Identification of Mirror Repeats within the SWI 6 Gene of Saccharomyces cerevisiae",
       "links": {
-        "self": "https://zenodo.org/api/records/17774093",
-        "self_html": "https://zenodo.org/records/17774093",
-        "preview_html": "https://zenodo.org/records/17774093?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17774093",
-        "self_doi": "https://doi.org/10.5281/zenodo.17774093",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774093",
-        "reserve_doi": "https://zenodo.org/api/records/17774093/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17640399",
-        "parent_html": "https://zenodo.org/records/17640399",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17640399",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17640399",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774093/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774093/sequence/default",
-        "files": "https://zenodo.org/api/records/17774093/files",
-        "media_files": "https://zenodo.org/api/records/17774093/media-files",
+        "self": "https://zenodo.org/api/records/20491275",
+        "self_html": "https://zenodo.org/records/20491275",
+        "preview_html": "https://zenodo.org/records/20491275?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491275",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491275",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491275",
+        "reserve_doi": "https://zenodo.org/api/records/20491275/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491274",
+        "parent_html": "https://zenodo.org/records/20491274",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491274",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491274",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491275/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491275/sequence/default",
+        "files": "https://zenodo.org/api/records/20491275/files",
+        "media_files": "https://zenodo.org/api/records/20491275/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17774093/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17774093/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17774093/versions/latest",
-        "latest_html": "https://zenodo.org/records/17774093/latest",
-        "versions": "https://zenodo.org/api/records/17774093/versions",
-        "draft": "https://zenodo.org/api/records/17774093/draft",
-        "access_links": "https://zenodo.org/api/records/17774093/access/links",
-        "access_grants": "https://zenodo.org/api/records/17774093/access/grants",
-        "access_users": "https://zenodo.org/api/records/17774093/access/users",
-        "access_request": "https://zenodo.org/api/records/17774093/access/request",
-        "access": "https://zenodo.org/api/records/17774093/access",
-        "communities": "https://zenodo.org/api/records/17774093/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17774093/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17774093/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17774093/file-modification",
-        "requests": "https://zenodo.org/api/records/17774093/requests"
+        "archive": "https://zenodo.org/api/records/20491275/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491275/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491275/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491275/latest",
+        "versions": "https://zenodo.org/api/records/20491275/versions",
+        "draft": "https://zenodo.org/api/records/20491275/draft",
+        "access_links": "https://zenodo.org/api/records/20491275/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491275/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491275/access/users",
+        "access_request": "https://zenodo.org/api/records/20491275/access/request",
+        "access": "https://zenodo.org/api/records/20491275/access",
+        "communities": "https://zenodo.org/api/records/20491275/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491275/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491275/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491275/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491275/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491275/requests"
       },
-      "updated": "2025-12-01T05:43:44.900977+00:00",
-      "recid": "17774093",
-      "revision": 4,
+      "updated": "2026-06-01T14:03:47.513975+00:00",
+      "recid": "20491275",
+      "revision": 7,
       "files": [
         {
-          "id": "cc8f8bd0-67c4-4585-98e6-79439458c62d",
-          "key": "HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity (2).pdf",
-          "size": 331817,
-          "checksum": "md5:061a7da53ccf93a3923de156b82583ed",
+          "id": "fb06985a-4dba-490d-bef7-cf905f4ba695",
+          "key": "source.pdf",
+          "size": 551771,
+          "checksum": "md5:2fdb138f62d859ffb5c9698962482829",
           "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity (2).pdf/content"
-          }
-        },
-        {
-          "id": "698de754-f829-4aed-9c36-f0d37398da42",
-          "key": "HERALD_Validation_Study_II__Retrospective_Time_Slice_Replay_on_SARS_CoV_2_Genomic_Data.pdf",
-          "size": 299252,
-          "checksum": "md5:db0ceb197d3f409cd97bdb523fad412f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD_Validation_Study_II__Retrospective_Time_Slice_Replay_on_SARS_CoV_2_Genomic_Data.pdf/content"
-          }
-        },
-        {
-          "id": "7306d5aa-27d3-40a5-bc4a-0589fcc07170",
-          "key": "HERALD_Validation_Study__Empirical_Confirmation_of_Learned_Geometric_Separation_on_SARS_CoV_2_RBD_Data.pdf",
-          "size": 250317,
-          "checksum": "md5:f5e44406e46d24117ae71dc1e4e2d5de",
-          "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD_Validation_Study__Empirical_Confirmation_of_Learned_Geometric_Separation_on_SARS_CoV_2_RBD_Data.pdf/content"
-          }
-        },
-        {
-          "id": "437f0c9d-c7af-4b3a-a7dd-3aa18ef00e56",
-          "key": "HEARALD_DMS_Validation_Study.pdf",
-          "size": 428892,
-          "checksum": "md5:3b05562b49f09949fc7f57005a4c317d",
-          "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HEARALD_DMS_Validation_Study.pdf/content"
-          }
-        },
-        {
-          "id": "1653851f-ce6b-4242-bde6-139b055f68fb",
-          "key": "HERALD__High_resolution_Early_Recognition_of_Antigenic_Landscape_Divergence_FINAL.pdf",
-          "size": 524571,
-          "checksum": "md5:f8254fc65ad030a654696e28f807e877",
-          "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD__High_resolution_Early_Recognition_of_Antigenic_Landscape_Divergence_FINAL.pdf/content"
+            "self": "https://zenodo.org/api/records/20491275/files/source.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1368182"
+          "id": "1161"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 51,
-        "unique_downloads": 38,
-        "views": 55,
-        "unique_views": 52,
-        "version_downloads": 3,
-        "version_unique_downloads": 3,
-        "version_unique_views": 2,
-        "version_views": 2
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-12-01T00:50:32.681027+00:00",
-      "modified": "2025-12-01T00:50:33.005567+00:00",
-      "id": 17772949,
-      "conceptrecid": "15177797",
-      "doi": "10.5281/zenodo.17772949",
-      "conceptdoi": "10.5281/zenodo.15177797",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772949",
+      "created": "2026-06-01T11:48:50.385666+00:00",
+      "modified": "2026-06-01T11:48:50.552522+00:00",
+      "id": 20488986,
+      "conceptrecid": "20488985",
+      "doi": "10.5281/zenodo.20488986",
+      "conceptdoi": "10.5281/zenodo.20488985",
+      "doi_url": "https://doi.org/10.5281/zenodo.20488986",
       "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/unpack_archive_to_bucket",
-        "doi": "10.5281/zenodo.17772949",
-        "publication_date": "2025-11-30",
-        "description": "<p>Unpack archive(s) to a target location within a Google Storage bucket</p>",
+        "title": "Cloud-SPAN/metatranscriptomics: Cloud-SPAN Metagenomics",
+        "doi": "10.5281/zenodo.20488986",
+        "publication_date": "2026-06-01",
+        "description": "<p>Initial release of our Metatranscriptomics course, May 2026.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Broad Viral Genomics",
+            "name": "PaskyMirandaYork",
+            "affiliation": null
+          },
+          {
+            "name": "Emma Rand",
+            "affiliation": "University of York"
+          },
+          {
+            "name": "evelyngreeves",
             "affiliation": null
           }
         ],
         "related_identifiers": [
           {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772949",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/unpack_archive_to_bucket:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Funpack_archive_to_bucket/versions/v2.5.10.0/PLAIN-WDL/descriptor/unpack_archive_to_bucket.wdl",
-            "relation": "isIdenticalTo",
+            "identifier": "https://github.com/Cloud-SPAN/metatranscriptomics/tree/v1.0.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
             "scheme": "url"
           }
         ],
-        "version": "v2.5.10.0",
+        "version": "v1.0.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/Cloud-SPAN/metatranscriptomics"
+        },
         "resource_type": {
           "title": "Software",
           "type": "software"
@@ -200,1169 +306,1279 @@
         "license": {
           "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 2,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15177797"
+                "pid_value": "20488985"
               }
             }
           ]
         }
       },
-      "title": "github.com/broadinstitute/viral-pipelines/unpack_archive_to_bucket",
+      "title": "Cloud-SPAN/metatranscriptomics: Cloud-SPAN Metagenomics",
       "links": {
-        "self": "https://zenodo.org/api/records/17772949",
-        "self_html": "https://zenodo.org/records/17772949",
-        "preview_html": "https://zenodo.org/records/17772949?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772949",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772949",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772949",
-        "reserve_doi": "https://zenodo.org/api/records/17772949/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177797",
-        "parent_html": "https://zenodo.org/records/15177797",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177797",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177797",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772949/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772949/sequence/default",
-        "files": "https://zenodo.org/api/records/17772949/files",
-        "media_files": "https://zenodo.org/api/records/17772949/media-files",
-        "archive": "https://zenodo.org/api/records/17772949/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772949/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772949/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772949/latest",
-        "versions": "https://zenodo.org/api/records/17772949/versions",
-        "draft": "https://zenodo.org/api/records/17772949/draft",
-        "access_links": "https://zenodo.org/api/records/17772949/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772949/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772949/access/users",
-        "access_request": "https://zenodo.org/api/records/17772949/access/request",
-        "access": "https://zenodo.org/api/records/17772949/access",
-        "communities": "https://zenodo.org/api/records/17772949/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772949/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772949/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772949/file-modification",
-        "requests": "https://zenodo.org/api/records/17772949/requests"
+        "self": "https://zenodo.org/api/records/20488986",
+        "self_html": "https://zenodo.org/records/20488986",
+        "preview_html": "https://zenodo.org/records/20488986?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20488986",
+        "self_doi": "https://doi.org/10.5281/zenodo.20488986",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20488986",
+        "reserve_doi": "https://zenodo.org/api/records/20488986/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20488985",
+        "parent_html": "https://zenodo.org/records/20488985",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20488985",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20488985",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20488986/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20488986/sequence/default",
+        "files": "https://zenodo.org/api/records/20488986/files",
+        "media_files": "https://zenodo.org/api/records/20488986/media-files",
+        "archive": "https://zenodo.org/api/records/20488986/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20488986/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20488986/versions/latest",
+        "latest_html": "https://zenodo.org/records/20488986/latest",
+        "versions": "https://zenodo.org/api/records/20488986/versions",
+        "draft": "https://zenodo.org/api/records/20488986/draft",
+        "access_links": "https://zenodo.org/api/records/20488986/access/links",
+        "access_grants": "https://zenodo.org/api/records/20488986/access/grants",
+        "access_users": "https://zenodo.org/api/records/20488986/access/users",
+        "access_request": "https://zenodo.org/api/records/20488986/access/request",
+        "access": "https://zenodo.org/api/records/20488986/access",
+        "communities": "https://zenodo.org/api/records/20488986/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20488986/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20488986/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20488986/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20488986/quota-increase",
+        "requests": "https://zenodo.org/api/records/20488986/requests"
       },
-      "updated": "2025-12-01T00:50:33.005567+00:00",
-      "recid": "17772949",
+      "updated": "2026-06-01T11:48:50.552522+00:00",
+      "recid": "20488986",
       "revision": 4,
       "files": [
         {
-          "id": "114053a2-d6de-4222-bcb8-6b8e6ef11919",
-          "key": "github.com-broadinstitute-viral-pipelines-unpack_archive_to_bucket_v2.5.10.0.zip",
-          "size": 23116,
-          "checksum": "md5:b63a9d3222e45ee00f3ced78821282e9",
+          "id": "b40c23b5-3fa3-408b-bc7d-8c06c948b42a",
+          "key": "Cloud-SPAN/metatranscriptomics-v1.0.0.zip",
+          "size": 3940599,
+          "checksum": "md5:fc93ea4a98c0fd5dd2b7bd4a0fc28415",
           "links": {
-            "self": "https://zenodo.org/api/records/17772949/files/github.com-broadinstitute-viral-pipelines-unpack_archive_to_bucket_v2.5.10.0.zip/content"
+            "self": "https://zenodo.org/api/records/20488986/files/Cloud-SPAN/metatranscriptomics-v1.0.0.zip/content"
           }
         }
       ],
-      "swh": null,
+      "swh": {
+        "swhid": "swh:1:dir:09e881d9058c8bb75bc819607c7424185e7a6006;origin=https://doi.org/10.5281/zenodo.20488985;visit=swh:1:snp:e6fd75ee8fb0f05e72f2e936ae207a64371e80da;anchor=swh:1:rel:a438a5211139fabc4970964782cdeb893f937779;path=Cloud-SPAN-metatranscriptomics-a7e9504"
+      },
       "owners": [
         {
-          "id": "76183"
+          "id": "1666919"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 37,
-        "unique_downloads": 36,
-        "views": 107,
-        "unique_views": 106,
-        "version_downloads": 5,
-        "version_unique_downloads": 4,
-        "version_unique_views": 27,
-        "version_views": 27
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-12-01T00:50:28.239101+00:00",
-      "modified": "2025-12-01T00:50:28.435146+00:00",
-      "id": 17772948,
-      "conceptrecid": "15177793",
-      "doi": "10.5281/zenodo.17772948",
-      "conceptdoi": "10.5281/zenodo.15177793",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772948",
+      "created": "2026-06-01T07:42:38.519906+00:00",
+      "modified": "2026-06-01T07:42:38.739761+00:00",
+      "id": 20485451,
+      "conceptrecid": "20485450",
+      "doi": "10.5281/zenodo.20485451",
+      "conceptdoi": "10.5281/zenodo.20485450",
+      "doi_url": "https://doi.org/10.5281/zenodo.20485451",
       "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/qiime_import_bam",
-        "doi": "10.5281/zenodo.17772948",
-        "publication_date": "2025-11-30",
-        "description": "<p>Importing BAM files into QIIME</p>",
+        "title": "Carbimazole-Induced Liver Injury: Review of Mechanisms, Clinical Presentation, and Therapeutic Management",
+        "doi": "10.5281/zenodo.20485451",
+        "publication_date": "2026-06-01",
+        "description": "<p>The incidence of carbimazole-induced liver injury (DILI) in patients treated for hyperthyroidism is infrequent, ranging&nbsp;from&nbsp;0.1%&nbsp;to&nbsp;0.5%.&nbsp;Whilethe&nbsp;injury&nbsp;usuallyfollows&nbsp;a&nbsp;cholestatic&nbsp;pattern,&nbsp;the&nbsp;condition&nbsp;can&nbsp;also&nbsp;present with mixed or cytolytic features, driven by either immune-mediated responses or the metabolic involvement of cytochrome P450 enzymes.We report the case of a 29-year-old woman with Graves&rsquo; disease (free T4: 78 pmol/L) who developed severe&nbsp;hepatotoxicity&nbsp;two weeks&nbsp;after initiating&nbsp;40 mg/dayof&nbsp;Carbimazole.&nbsp;The&nbsp;patient presented with clinical jaundice and laboratory findings of significant cholestasis. After excluding viral, autoimmune, and structural etiologies, a diagnosis of carbimazole-induced hepatotoxicity was established.</p>\n<p>Management included immediate cessation of the antithyroid drug, initiation of corticosteroid therapy (1 mg/kg/day), and a session of plasmapheresis to bridge the patient safely toward a thyroidectomy. Liver function showed marked improvement within one week of discontinuation. These findings suggest that when conventional cessation of the drug is insufficient to stabilize rapidly deteriorating liver enzymes, advanced extracorporeal therapies may serve as a crucial bridge to definitive surgical intervention. Ultimately, this report reinforces the necessity of vigilantmonitoring of liverfunction tests during the initiation of carbimazole therapy. By advocating for proactive serial biochemical screening, we aim to standardize safer clinical practices and improve outcomes for patients requiring rapid definitive treatment in the setting of severe, unpredictable, and potentially life-threatening drug-induced liver injury caused by antithyroid medications.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "fnegrete",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772948",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
+            "name": "Salsabil Haouach",
+            "affiliation": "Department of Endocrinology, Diabetology, and MetabolicDiseases, Mohammed VI University Hospital, Faculty of Medicine and Pharmacy, Cadi Ayyad University, Marrakech, Morocco"
           },
           {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/qiime_import_bam:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
+            "name": "SanaaRafi",
+            "affiliation": "Department of Endocrinology, Diabetology, and MetabolicDiseases, Mohammed VI University Hospital, Faculty of Medicine and Pharmacy, Cadi Ayyad University, Marrakech, Morocco"
           },
           {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fqiime_import_bam/versions/v2.5.10.0/PLAIN-WDL/descriptor/bam_to_qiime.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
+            "name": "Ghizlane El Mghari",
+            "affiliation": "Department of Endocrinology, Diabetology, and MetabolicDiseases, Mohammed VI University Hospital, Faculty of Medicine and Pharmacy, Cadi Ayyad University, Marrakech, Morocco"
           },
           {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177793"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/qiime_import_bam",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772948",
-        "self_html": "https://zenodo.org/records/17772948",
-        "preview_html": "https://zenodo.org/records/17772948?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772948",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772948",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772948",
-        "reserve_doi": "https://zenodo.org/api/records/17772948/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177793",
-        "parent_html": "https://zenodo.org/records/15177793",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177793",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177793",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772948/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772948/sequence/default",
-        "files": "https://zenodo.org/api/records/17772948/files",
-        "media_files": "https://zenodo.org/api/records/17772948/media-files",
-        "archive": "https://zenodo.org/api/records/17772948/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772948/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772948/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772948/latest",
-        "versions": "https://zenodo.org/api/records/17772948/versions",
-        "draft": "https://zenodo.org/api/records/17772948/draft",
-        "access_links": "https://zenodo.org/api/records/17772948/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772948/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772948/access/users",
-        "access_request": "https://zenodo.org/api/records/17772948/access/request",
-        "access": "https://zenodo.org/api/records/17772948/access",
-        "communities": "https://zenodo.org/api/records/17772948/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772948/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772948/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772948/file-modification",
-        "requests": "https://zenodo.org/api/records/17772948/requests"
-      },
-      "updated": "2025-12-01T00:50:28.435146+00:00",
-      "recid": "17772948",
-      "revision": 4,
-      "files": [
-        {
-          "id": "48e105b0-2e83-4264-94bd-ae8f9b8d6713",
-          "key": "github.com-broadinstitute-viral-pipelines-qiime_import_bam_v2.5.10.0.zip",
-          "size": 5753,
-          "checksum": "md5:327b0b894d365d592a94b6275d22781f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772948/files/github.com-broadinstitute-viral-pipelines-qiime_import_bam_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 30,
-        "unique_downloads": 29,
-        "views": 80,
-        "unique_views": 80,
-        "version_downloads": 7,
-        "version_unique_downloads": 6,
-        "version_unique_views": 19,
-        "version_views": 19
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:24.650433+00:00",
-      "modified": "2025-12-01T00:50:24.834198+00:00",
-      "id": 17772947,
-      "conceptrecid": "15177789",
-      "doi": "10.5281/zenodo.17772947",
-      "conceptdoi": "10.5281/zenodo.15177789",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772947",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/classify_qiime2_multi",
-        "doi": "10.5281/zenodo.17772947",
-        "publication_date": "2025-11-30",
-        "description": "<p>Running 16S amplicon (from BAM format) sequencing analysis with qiime.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "fnegrete",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772947",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/classify_qiime2_multi:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fclassify_qiime2_multi/versions/v2.5.10.0/PLAIN-WDL/descriptor/classify_qiime2_multi.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177789"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/classify_qiime2_multi",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772947",
-        "self_html": "https://zenodo.org/records/17772947",
-        "preview_html": "https://zenodo.org/records/17772947?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772947",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772947",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772947",
-        "reserve_doi": "https://zenodo.org/api/records/17772947/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177789",
-        "parent_html": "https://zenodo.org/records/15177789",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177789",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177789",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772947/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772947/sequence/default",
-        "files": "https://zenodo.org/api/records/17772947/files",
-        "media_files": "https://zenodo.org/api/records/17772947/media-files",
-        "archive": "https://zenodo.org/api/records/17772947/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772947/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772947/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772947/latest",
-        "versions": "https://zenodo.org/api/records/17772947/versions",
-        "draft": "https://zenodo.org/api/records/17772947/draft",
-        "access_links": "https://zenodo.org/api/records/17772947/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772947/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772947/access/users",
-        "access_request": "https://zenodo.org/api/records/17772947/access/request",
-        "access": "https://zenodo.org/api/records/17772947/access",
-        "communities": "https://zenodo.org/api/records/17772947/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772947/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772947/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772947/file-modification",
-        "requests": "https://zenodo.org/api/records/17772947/requests"
-      },
-      "updated": "2025-12-01T00:50:24.834198+00:00",
-      "recid": "17772947",
-      "revision": 4,
-      "files": [
-        {
-          "id": "5f724709-8dc4-4061-b60c-4fdf784fc98f",
-          "key": "github.com-broadinstitute-viral-pipelines-classify_qiime2_multi_v2.5.10.0.zip",
-          "size": 5977,
-          "checksum": "md5:cfd73da39f0b5fe2a3641980cb1dbe9e",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772947/files/github.com-broadinstitute-viral-pipelines-classify_qiime2_multi_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 43,
-        "unique_downloads": 42,
-        "views": 81,
-        "unique_views": 81,
-        "version_downloads": 6,
-        "version_unique_downloads": 5,
-        "version_unique_views": 19,
-        "version_views": 19
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:21.056903+00:00",
-      "modified": "2025-12-01T00:50:21.442751+00:00",
-      "id": 17772946,
-      "conceptrecid": "15177782",
-      "doi": "10.5281/zenodo.17772946",
-      "conceptdoi": "10.5281/zenodo.15177782",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772946",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/trimal",
-        "doi": "10.5281/zenodo.17772946",
-        "publication_date": "2025-11-30",
-        "description": "<p>Trim a multiple sequence alignment with Trimal.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Broad Viral Genomics",
-            "affiliation": null
+            "name": "NawalEl Ansari",
+            "affiliation": "Department of Endocrinology, Diabetology, and MetabolicDiseases, Mohammed VI University Hospital, Faculty of Medicine and Pharmacy, Cadi Ayyad University, Marrakech, Morocco"
           }
         ],
         "keywords": [
-          "phylogenetics"
+          "Carbimazole, Drug-induced liver injury, Cytolytic hepatitis, Hyperthyroidism, Graves' disease"
         ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772946",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/trimal:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Ftrimal/versions/v2.5.10.0/PLAIN-WDL/descriptor/trimal.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
+        "language": "eng",
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "06",
+          "pages": "158-161",
+          "title": "International Journal of Clinical Science and Medical Research",
+          "volume": "06"
         },
         "license": {
           "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 2,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15177782"
+                "pid_value": "20485450"
               }
             }
           ]
         }
       },
-      "title": "github.com/broadinstitute/viral-pipelines/trimal",
+      "title": "Carbimazole-Induced Liver Injury: Review of Mechanisms, Clinical Presentation, and Therapeutic Management",
       "links": {
-        "self": "https://zenodo.org/api/records/17772946",
-        "self_html": "https://zenodo.org/records/17772946",
-        "preview_html": "https://zenodo.org/records/17772946?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772946",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772946",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772946",
-        "reserve_doi": "https://zenodo.org/api/records/17772946/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177782",
-        "parent_html": "https://zenodo.org/records/15177782",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177782",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177782",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772946/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772946/sequence/default",
-        "files": "https://zenodo.org/api/records/17772946/files",
-        "media_files": "https://zenodo.org/api/records/17772946/media-files",
-        "archive": "https://zenodo.org/api/records/17772946/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772946/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772946/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772946/latest",
-        "versions": "https://zenodo.org/api/records/17772946/versions",
-        "draft": "https://zenodo.org/api/records/17772946/draft",
-        "access_links": "https://zenodo.org/api/records/17772946/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772946/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772946/access/users",
-        "access_request": "https://zenodo.org/api/records/17772946/access/request",
-        "access": "https://zenodo.org/api/records/17772946/access",
-        "communities": "https://zenodo.org/api/records/17772946/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772946/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772946/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772946/file-modification",
-        "requests": "https://zenodo.org/api/records/17772946/requests"
+        "self": "https://zenodo.org/api/records/20485451",
+        "self_html": "https://zenodo.org/records/20485451",
+        "preview_html": "https://zenodo.org/records/20485451?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20485451",
+        "self_doi": "https://doi.org/10.5281/zenodo.20485451",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20485451",
+        "reserve_doi": "https://zenodo.org/api/records/20485451/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20485450",
+        "parent_html": "https://zenodo.org/records/20485450",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20485450",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20485450",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20485451/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20485451/sequence/default",
+        "files": "https://zenodo.org/api/records/20485451/files",
+        "media_files": "https://zenodo.org/api/records/20485451/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20485451:01ijcsmr.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20485451:01ijcsmr.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20485451:01ijcsmr.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20485451:01ijcsmr.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20485451:01ijcsmr.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20485451:01ijcsmr.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20485451/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20485451/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20485451/versions/latest",
+        "latest_html": "https://zenodo.org/records/20485451/latest",
+        "versions": "https://zenodo.org/api/records/20485451/versions",
+        "draft": "https://zenodo.org/api/records/20485451/draft",
+        "access_links": "https://zenodo.org/api/records/20485451/access/links",
+        "access_grants": "https://zenodo.org/api/records/20485451/access/grants",
+        "access_users": "https://zenodo.org/api/records/20485451/access/users",
+        "access_request": "https://zenodo.org/api/records/20485451/access/request",
+        "access": "https://zenodo.org/api/records/20485451/access",
+        "communities": "https://zenodo.org/api/records/20485451/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20485451/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20485451/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20485451/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20485451/quota-increase",
+        "requests": "https://zenodo.org/api/records/20485451/requests"
       },
-      "updated": "2025-12-01T00:50:21.442751+00:00",
-      "recid": "17772946",
+      "updated": "2026-06-01T07:42:38.739761+00:00",
+      "recid": "20485451",
       "revision": 4,
       "files": [
         {
-          "id": "ff606ea8-101e-4943-bbf4-b2a6d9c6d7c3",
-          "key": "github.com-broadinstitute-viral-pipelines-trimal_v2.5.10.0.zip",
-          "size": 7491,
-          "checksum": "md5:29774fb63516911b694a086f7f733077",
+          "id": "f9083e46-d431-4855-8c8b-7561b29d56d6",
+          "key": "01ijcsmr.pdf",
+          "size": 126546,
+          "checksum": "md5:e899bae00d3b8fa05d10ba3829b931b1",
           "links": {
-            "self": "https://zenodo.org/api/records/17772946/files/github.com-broadinstitute-viral-pipelines-trimal_v2.5.10.0.zip/content"
+            "self": "https://zenodo.org/api/records/20485451/files/01ijcsmr.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "76183"
+          "id": "621150"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 49,
-        "unique_downloads": 48,
-        "views": 77,
-        "unique_views": 77,
-        "version_downloads": 7,
-        "version_unique_downloads": 6,
-        "version_unique_views": 18,
-        "version_views": 18
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-12-01T00:50:17.663152+00:00",
-      "modified": "2025-12-01T00:50:17.831756+00:00",
-      "id": 17772945,
-      "conceptrecid": "15177778",
-      "doi": "10.5281/zenodo.17772945",
-      "conceptdoi": "10.5281/zenodo.15177778",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772945",
+      "created": "2026-06-01T07:29:34.007822+00:00",
+      "modified": "2026-06-01T07:29:34.230252+00:00",
+      "id": 20415710,
+      "conceptrecid": "20415709",
+      "doi": "10.5281/zenodo.20415710",
+      "conceptdoi": "10.5281/zenodo.20415709",
+      "doi_url": "https://doi.org/10.5281/zenodo.20415710",
       "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/terra_update_assemblies",
-        "doi": "10.5281/zenodo.17772945",
-        "publication_date": "2025-11-30",
-        "description": "<p>Create data tables in Terra workspace from provided tsv load file.</p>",
-        "access_right": "open",
+        "title": "Metatranscriptomic analysis of lung and colon-faecal samples from bank voles (Clethrionomys glareolus)",
+        "doi": "10.5281/zenodo.20415710",
+        "publication_date": "2026-05-30",
+        "description": "<p>This technical note provides an overview of a proof-of-concept metatranscriptomic study conducted within the EU-funded BEPREP project (EU grant agree-ment no. 101060568) to characterise the RNA virome of bank voles (<em>Clethrionomys glareolus</em>) from ecologically distinct sites in Sweden and Italy. It describes sample selection, RNA extraction, sequencing, bioinformatic processing, and viral contig annotation from lung and colon-faecal samples, with particular attention to the detection of <em>Puumala orthohantavirus</em>-related sequences.</p>\n<p>The technical document is named 20260530_metatrans_bv_BEPREP_R0.pdf. Associated raw data from the Illumina NextSeq 2000 sequencing run are named RNA_2025_013_FLI.tar.&nbsp;Details about the sequence raw data are provided in the technical note.</p>",
+        "access_right": "restricted",
         "creators": [
           {
-            "name": "Broad Viral Genomics",
+            "name": "Anton, Alina J.",
+            "affiliation": "Friedrich-Loeffler-Institut"
+          },
+          {
+            "name": "Allendorf, Valerie",
+            "affiliation": "Friedrich-Loeffler-Institut"
+          },
+          {
+            "name": "Dai, Zihan",
+            "affiliation": "Forschungszentrum J\u00fclich"
+          },
+          {
+            "name": "Ecke, Frauke",
+            "affiliation": "University of Helsinki",
+            "orcid": "0000-0003-4208-345X"
+          },
+          {
+            "name": "Ulrich, Rainer G.",
+            "affiliation": "Friedrich-Loeffler-Institut"
+          },
+          {
+            "name": "Pfaff, Florian",
+            "affiliation": "Friedrich-Loeffler-Institut",
+            "orcid": "0000-0003-0178-6183"
+          },
+          {
+            "name": "Tagliapietra, Valentina",
             "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772945",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
           },
           {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/terra_update_assemblies:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
+            "name": "Schwabl, Philipp",
+            "affiliation": "Friedrich-Loeffler-Institut"
           },
           {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fterra_update_assemblies/versions/v2.5.10.0/PLAIN-WDL/descriptor/terra_update_assemblies.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
+            "name": "Rizzoli, Annapaola",
+            "affiliation": "Fondazione Edmund Mach"
           },
           {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177778"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/terra_update_assemblies",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772945",
-        "self_html": "https://zenodo.org/records/17772945",
-        "preview_html": "https://zenodo.org/records/17772945?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772945",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772945",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772945",
-        "reserve_doi": "https://zenodo.org/api/records/17772945/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177778",
-        "parent_html": "https://zenodo.org/records/15177778",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177778",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177778",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772945/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772945/sequence/default",
-        "files": "https://zenodo.org/api/records/17772945/files",
-        "media_files": "https://zenodo.org/api/records/17772945/media-files",
-        "archive": "https://zenodo.org/api/records/17772945/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772945/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772945/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772945/latest",
-        "versions": "https://zenodo.org/api/records/17772945/versions",
-        "draft": "https://zenodo.org/api/records/17772945/draft",
-        "access_links": "https://zenodo.org/api/records/17772945/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772945/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772945/access/users",
-        "access_request": "https://zenodo.org/api/records/17772945/access/request",
-        "access": "https://zenodo.org/api/records/17772945/access",
-        "communities": "https://zenodo.org/api/records/17772945/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772945/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772945/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772945/file-modification",
-        "requests": "https://zenodo.org/api/records/17772945/requests"
-      },
-      "updated": "2025-12-01T00:50:17.831756+00:00",
-      "recid": "17772945",
-      "revision": 4,
-      "files": [
-        {
-          "id": "4dbe39a9-58e8-47be-8839-371f5fe150ee",
-          "key": "github.com-broadinstitute-viral-pipelines-terra_update_assemblies_v2.5.10.0.zip",
-          "size": 11554,
-          "checksum": "md5:25587a6e2900de0cec0e9dbabac4009e",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772945/files/github.com-broadinstitute-viral-pipelines-terra_update_assemblies_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 39,
-        "unique_downloads": 38,
-        "views": 79,
-        "unique_views": 77,
-        "version_downloads": 8,
-        "version_unique_downloads": 7,
-        "version_unique_views": 18,
-        "version_views": 19
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:13.291975+00:00",
-      "modified": "2025-12-01T00:50:13.490258+00:00",
-      "id": 17772944,
-      "conceptrecid": "15177776",
-      "doi": "10.5281/zenodo.17772944",
-      "conceptdoi": "10.5281/zenodo.15177776",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772944",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/terra_tsv_to_table",
-        "doi": "10.5281/zenodo.17772944",
-        "publication_date": "2025-11-30",
-        "description": "<p>Upload tsv files to Terra data table: insert-or-update on existing rows/columns</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Broad Viral Genomics",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772944",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/terra_tsv_to_table:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fterra_tsv_to_table/versions/v2.5.10.0/PLAIN-WDL/descriptor/terra_tsv_to_table.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177776"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/terra_tsv_to_table",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772944",
-        "self_html": "https://zenodo.org/records/17772944",
-        "preview_html": "https://zenodo.org/records/17772944?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772944",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772944",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772944",
-        "reserve_doi": "https://zenodo.org/api/records/17772944/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177776",
-        "parent_html": "https://zenodo.org/records/15177776",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177776",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177776",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772944/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772944/sequence/default",
-        "files": "https://zenodo.org/api/records/17772944/files",
-        "media_files": "https://zenodo.org/api/records/17772944/media-files",
-        "archive": "https://zenodo.org/api/records/17772944/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772944/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772944/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772944/latest",
-        "versions": "https://zenodo.org/api/records/17772944/versions",
-        "draft": "https://zenodo.org/api/records/17772944/draft",
-        "access_links": "https://zenodo.org/api/records/17772944/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772944/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772944/access/users",
-        "access_request": "https://zenodo.org/api/records/17772944/access/request",
-        "access": "https://zenodo.org/api/records/17772944/access",
-        "communities": "https://zenodo.org/api/records/17772944/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772944/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772944/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772944/file-modification",
-        "requests": "https://zenodo.org/api/records/17772944/requests"
-      },
-      "updated": "2025-12-01T00:50:13.490258+00:00",
-      "recid": "17772944",
-      "revision": 4,
-      "files": [
-        {
-          "id": "49bbecea-9abe-4b20-b3bb-410d1a302695",
-          "key": "github.com-broadinstitute-viral-pipelines-terra_tsv_to_table_v2.5.10.0.zip",
-          "size": 22621,
-          "checksum": "md5:30ac2d54e980bce9c39c5e12510cc6c6",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772944/files/github.com-broadinstitute-viral-pipelines-terra_tsv_to_table_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 45,
-        "unique_downloads": 44,
-        "views": 79,
-        "unique_views": 78,
-        "version_downloads": 6,
-        "version_unique_downloads": 5,
-        "version_unique_views": 15,
-        "version_views": 15
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:08.611635+00:00",
-      "modified": "2025-12-01T00:50:09.064606+00:00",
-      "id": 17772943,
-      "conceptrecid": "15177772",
-      "doi": "10.5281/zenodo.17772943",
-      "conceptdoi": "10.5281/zenodo.15177772",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772943",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/terra_table_to_tsv",
-        "doi": "10.5281/zenodo.17772943",
-        "publication_date": "2025-11-30",
-        "description": "<p>Download data table in Terra workspace to tsv file.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Broad Viral Genomics",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772943",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/terra_table_to_tsv:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fterra_table_to_tsv/versions/v2.5.10.0/PLAIN-WDL/descriptor/terra_table_to_tsv.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177772"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/terra_table_to_tsv",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772943",
-        "self_html": "https://zenodo.org/records/17772943",
-        "preview_html": "https://zenodo.org/records/17772943?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772943",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772943",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772943",
-        "reserve_doi": "https://zenodo.org/api/records/17772943/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177772",
-        "parent_html": "https://zenodo.org/records/15177772",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177772",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177772",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772943/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772943/sequence/default",
-        "files": "https://zenodo.org/api/records/17772943/files",
-        "media_files": "https://zenodo.org/api/records/17772943/media-files",
-        "archive": "https://zenodo.org/api/records/17772943/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772943/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772943/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772943/latest",
-        "versions": "https://zenodo.org/api/records/17772943/versions",
-        "draft": "https://zenodo.org/api/records/17772943/draft",
-        "access_links": "https://zenodo.org/api/records/17772943/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772943/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772943/access/users",
-        "access_request": "https://zenodo.org/api/records/17772943/access/request",
-        "access": "https://zenodo.org/api/records/17772943/access",
-        "communities": "https://zenodo.org/api/records/17772943/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772943/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772943/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772943/file-modification",
-        "requests": "https://zenodo.org/api/records/17772943/requests"
-      },
-      "updated": "2025-12-01T00:50:09.064606+00:00",
-      "recid": "17772943",
-      "revision": 4,
-      "files": [
-        {
-          "id": "ef050e43-40ee-428d-878f-79de26405f63",
-          "key": "github.com-broadinstitute-viral-pipelines-terra_table_to_tsv_v2.5.10.0.zip",
-          "size": 11519,
-          "checksum": "md5:411e3aab30f5e1371fda333645a620b9",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772943/files/github.com-broadinstitute-viral-pipelines-terra_table_to_tsv_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 36,
-        "unique_downloads": 35,
-        "views": 82,
-        "unique_views": 80,
-        "version_downloads": 8,
-        "version_unique_downloads": 7,
-        "version_unique_views": 14,
-        "version_views": 14
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:04.105674+00:00",
-      "modified": "2025-12-01T00:50:04.392332+00:00",
-      "id": 17772942,
-      "conceptrecid": "15428601",
-      "doi": "10.5281/zenodo.17772942",
-      "conceptdoi": "10.5281/zenodo.15428601",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772942",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/subsample_by_metadata_with_focal",
-        "doi": "10.5281/zenodo.17772942",
-        "publication_date": "2025-11-30",
-        "description": "<p>Filter and subsample a global sequence set with a bias towards a geographic area of interest.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "broadinstitute",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772942",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/subsample_by_metadata_with_focal:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fsubsample_by_metadata_with_focal/versions/v2.5.10.0/PLAIN-WDL/descriptor/subsample_by_metadata_with_focal.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15428601"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/subsample_by_metadata_with_focal",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772942",
-        "self_html": "https://zenodo.org/records/17772942",
-        "preview_html": "https://zenodo.org/records/17772942?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772942",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772942",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772942",
-        "reserve_doi": "https://zenodo.org/api/records/17772942/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15428601",
-        "parent_html": "https://zenodo.org/records/15428601",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15428601",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15428601",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772942/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772942/sequence/default",
-        "files": "https://zenodo.org/api/records/17772942/files",
-        "media_files": "https://zenodo.org/api/records/17772942/media-files",
-        "archive": "https://zenodo.org/api/records/17772942/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772942/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772942/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772942/latest",
-        "versions": "https://zenodo.org/api/records/17772942/versions",
-        "draft": "https://zenodo.org/api/records/17772942/draft",
-        "access_links": "https://zenodo.org/api/records/17772942/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772942/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772942/access/users",
-        "access_request": "https://zenodo.org/api/records/17772942/access/request",
-        "access": "https://zenodo.org/api/records/17772942/access",
-        "communities": "https://zenodo.org/api/records/17772942/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772942/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772942/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772942/file-modification",
-        "requests": "https://zenodo.org/api/records/17772942/requests"
-      },
-      "updated": "2025-12-01T00:50:04.392332+00:00",
-      "recid": "17772942",
-      "revision": 4,
-      "files": [
-        {
-          "id": "db0b80a7-4c78-4250-8d67-d166f3105f28",
-          "key": "github.com-broadinstitute-viral-pipelines-subsample_by_metadata_with_focal_v2.5.10.0.zip",
-          "size": 36140,
-          "checksum": "md5:5f5872f473a0006cfe5261da5e329a10",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772942/files/github.com-broadinstitute-viral-pipelines-subsample_by_metadata_with_focal_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 17,
-        "unique_downloads": 16,
-        "views": 83,
-        "unique_views": 83,
-        "version_downloads": 5,
-        "version_unique_downloads": 4,
-        "version_unique_views": 28,
-        "version_views": 28
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:49:59.029675+00:00",
-      "modified": "2025-12-01T00:49:59.342817+00:00",
-      "id": 17772941,
-      "conceptrecid": "15428599",
-      "doi": "10.5281/zenodo.17772941",
-      "conceptdoi": "10.5281/zenodo.15428599",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772941",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/subsample_by_metadata",
-        "doi": "10.5281/zenodo.17772941",
-        "publication_date": "2025-11-30",
-        "description": "<p>Filter and subsample a sequence set. See https://nextstrain-augur.readthedocs.io/en/stable/usage/cli/filter.html</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "broadinstitute",
-            "affiliation": null
+            "name": "Knauf, Sascha",
+            "affiliation": "Friedrich-Loeffler-Institut",
+            "orcid": "0000-0001-5744-4946"
           }
         ],
         "keywords": [
-          "nextstrain"
+          "metatranscriptomics",
+          "bank vole",
+          "Clethrionomys",
+          "virome",
+          "sequencing",
+          "PUUV",
+          "Orthohantavirus puumalaense"
         ],
-        "related_identifiers": [
+        "dates": [
           {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772941",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/subsample_by_metadata:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fsubsample_by_metadata/versions/v2.5.10.0/PLAIN-WDL/descriptor/subsample_by_metadata.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
+            "type": "updated",
+            "description": "Technical note"
           }
         ],
-        "version": "v2.5.10.0",
+        "version": "1",
+        "language": "eng",
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Technical note",
+          "type": "publication",
+          "subtype": "technicalnote"
         },
         "license": {
           "id": "cc-by-4.0"
         },
+        "grants": [
+          {
+            "code": "101060568",
+            "internal_id": "10.13039/501100000780::101060568",
+            "funder": {
+              "name": "European Commission",
+              "doi": "10.13039/501100000780",
+              "acronym": "EC"
+            },
+            "title": "Identification of best practices for biodiversity recovery and public health interventions to prevent future epidemics and pandemics",
+            "acronym": "BEPREP",
+            "program": "HORIZON.2.6",
+            "url": "https://cordis.europa.eu/projects/101060568"
+          }
+        ],
         "communities": [
           {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
+            "id": "fli"
           }
         ],
         "relations": {
           "version": [
             {
-              "index": 1,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15428599"
+                "pid_value": "20415709"
               }
             }
           ]
         }
       },
-      "title": "github.com/broadinstitute/viral-pipelines/subsample_by_metadata",
+      "title": "Metatranscriptomic analysis of lung and colon-faecal samples from bank voles (Clethrionomys glareolus)",
       "links": {
-        "self": "https://zenodo.org/api/records/17772941",
-        "self_html": "https://zenodo.org/records/17772941",
-        "preview_html": "https://zenodo.org/records/17772941?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772941",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772941",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772941",
-        "reserve_doi": "https://zenodo.org/api/records/17772941/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15428599",
-        "parent_html": "https://zenodo.org/records/15428599",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15428599",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15428599",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772941/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772941/sequence/default",
-        "files": "https://zenodo.org/api/records/17772941/files",
-        "media_files": "https://zenodo.org/api/records/17772941/media-files",
-        "archive": "https://zenodo.org/api/records/17772941/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772941/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772941/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772941/latest",
-        "versions": "https://zenodo.org/api/records/17772941/versions",
-        "draft": "https://zenodo.org/api/records/17772941/draft",
-        "access_links": "https://zenodo.org/api/records/17772941/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772941/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772941/access/users",
-        "access_request": "https://zenodo.org/api/records/17772941/access/request",
-        "access": "https://zenodo.org/api/records/17772941/access",
-        "communities": "https://zenodo.org/api/records/17772941/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772941/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772941/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772941/file-modification",
-        "requests": "https://zenodo.org/api/records/17772941/requests"
+        "self": "https://zenodo.org/api/records/20415710",
+        "self_html": "https://zenodo.org/records/20415710",
+        "preview_html": "https://zenodo.org/records/20415710?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20415710",
+        "self_doi": "https://doi.org/10.5281/zenodo.20415710",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20415710",
+        "reserve_doi": "https://zenodo.org/api/records/20415710/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20415709",
+        "parent_html": "https://zenodo.org/records/20415709",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20415709",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20415709",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20415710/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20415710/sequence/default",
+        "files": "https://zenodo.org/api/records/20415710/files",
+        "media_files": "https://zenodo.org/api/records/20415710/media-files",
+        "archive": "https://zenodo.org/api/records/20415710/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20415710/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20415710/versions/latest",
+        "latest_html": "https://zenodo.org/records/20415710/latest",
+        "versions": "https://zenodo.org/api/records/20415710/versions",
+        "draft": "https://zenodo.org/api/records/20415710/draft",
+        "access_links": "https://zenodo.org/api/records/20415710/access/links",
+        "access_grants": "https://zenodo.org/api/records/20415710/access/grants",
+        "access_users": "https://zenodo.org/api/records/20415710/access/users",
+        "access_request": "https://zenodo.org/api/records/20415710/access/request",
+        "access": "https://zenodo.org/api/records/20415710/access",
+        "communities": "https://zenodo.org/api/records/20415710/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20415710/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20415710/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20415710/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20415710/quota-increase",
+        "requests": "https://zenodo.org/api/records/20415710/requests"
       },
-      "updated": "2025-12-01T00:49:59.342817+00:00",
-      "recid": "17772941",
+      "updated": "2026-06-01T07:29:34.230252+00:00",
+      "recid": "20415710",
+      "revision": 4,
+      "files": [],
+      "swh": null,
+      "owners": [
+        {
+          "id": "435999"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-31T13:59:52.414362+00:00",
+      "modified": "2026-05-31T13:59:52.595223+00:00",
+      "id": 20476030,
+      "conceptrecid": "20476029",
+      "doi": "10.5281/zenodo.20476030",
+      "conceptdoi": "10.5281/zenodo.20476029",
+      "doi_url": "https://doi.org/10.5281/zenodo.20476030",
+      "metadata": {
+        "title": "Comparative Analysis of Chlorophyll Pigments and Total Protein in Healthy and Virus-Infected Crop Leaves",
+        "doi": "10.5281/zenodo.20476030",
+        "publication_date": "2026-05-31",
+        "description": "<p class=\"MsoNoSpacing\"><strong><span>ABSTRACT</span></strong></p>\n<p class=\"MsoNoSpacing\"><span>Plant viral infections significantly alter physiological and biochemical processes, particularly affecting photosynthetic pigments and protein metabolism in crop plants. The present study aims to evaluate the impact of viral infection on chlorophyll pigments and total soluble protein content in healthy and infected crop leaves. Healthy and virus-infected leaves of <em>Solanum lycopersicum</em> (tomato), <em>Capsicum annuum</em> (chilli), <em>Lagenaria siceraria</em> (bottle gourd), and <em>Luffa acutangula</em> (ridge gourd) were collected for analysis. Chlorophyll pigments were extracted using 80% acetone and quantified spectrophotometrically. Chlorophyll-a and chlorophyll-b contents were calculated using absorbance values measured at 663 nm and 645 nm following Arnon&rsquo;s formula. The pigment contents of infected leaves were compared with healthy leaves to determine the biochemical impact of viral infection. The study revealed a reduction in chlorophyll content in infected leaves compared to healthy leaves. In tomato plants, chlorophyll-a decreased from 19.27 to 12.93 and chlorophyll-b from 25.60 to 23.31. In chilli, chlorophyll-a reduced from 23.36 to 11.67 and chlorophyll-b from 32.01 to 19.43. Bottle gourd showed a reduction of chlorophyll-a from 15.00 to 12.58 and chlorophyll-b from 27.76 to 21.66, while ridge gourd showed a decrease from 15.66 to 14.06 and 29.50 to 26.19 respectively. Protein estimation also showed variation between healthy and infected plants. Tomato protein OD decreased from 0.33 to 0.056 and chilli from 0.671 to 0.146, whereas bottle gourd increased from 1.071 to 1.278 and ridge gourd from 1.158 to 1.503, indicating possible stress-induced protein responses. The study demonstrates that viral infection significantly alters chlorophyll pigments and protein metabolism in crop plants. Reduction in chlorophyll content indicates impairment of the photosynthetic system, while variation in protein levels suggests activation of plant stress and defense responses. These findings highlight the potential of biochemical markers such as chlorophyll pigments and total soluble proteins for early detection and monitoring of viral stress in crop plants.</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Peruka Arun Kumar, E. Sujatha",
+            "affiliation": "Department of Microbiology, University College, Kakatiya university- Hanamkonda, Warangal, Telangana \u2013 506009"
+          }
+        ],
+        "version": "https://ajsmrjournal.com/issueslist.php?cat_id=48",
+        "custom": {
+          "code:codeRepository": "https://ajsmrjournal.com/issueslist.php?cat_id=48"
+        },
+        "resource_type": {
+          "title": "Journal",
+          "type": "publication",
+          "subtype": "journal"
+        },
+        "journal": {
+          "issue": "S2",
+          "pages": "61-64",
+          "title": "The American Journal of Science and Medical Research",
+          "volume": "12"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20476029"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Comparative Analysis of Chlorophyll Pigments and Total Protein in Healthy and Virus-Infected Crop Leaves",
+      "links": {
+        "self": "https://zenodo.org/api/records/20476030",
+        "self_html": "https://zenodo.org/records/20476030",
+        "preview_html": "https://zenodo.org/records/20476030?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20476030",
+        "self_doi": "https://doi.org/10.5281/zenodo.20476030",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20476030",
+        "reserve_doi": "https://zenodo.org/api/records/20476030/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20476029",
+        "parent_html": "https://zenodo.org/records/20476029",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20476029",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20476029",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20476030/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20476030/sequence/default",
+        "files": "https://zenodo.org/api/records/20476030/files",
+        "media_files": "https://zenodo.org/api/records/20476030/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20476030:14_arun_61-64.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20476030:14_arun_61-64.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20476030:14_arun_61-64.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20476030:14_arun_61-64.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20476030:14_arun_61-64.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20476030:14_arun_61-64.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20476030/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20476030/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20476030/versions/latest",
+        "latest_html": "https://zenodo.org/records/20476030/latest",
+        "versions": "https://zenodo.org/api/records/20476030/versions",
+        "draft": "https://zenodo.org/api/records/20476030/draft",
+        "access_links": "https://zenodo.org/api/records/20476030/access/links",
+        "access_grants": "https://zenodo.org/api/records/20476030/access/grants",
+        "access_users": "https://zenodo.org/api/records/20476030/access/users",
+        "access_request": "https://zenodo.org/api/records/20476030/access/request",
+        "access": "https://zenodo.org/api/records/20476030/access",
+        "communities": "https://zenodo.org/api/records/20476030/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20476030/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20476030/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20476030/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20476030/quota-increase",
+        "requests": "https://zenodo.org/api/records/20476030/requests"
+      },
+      "updated": "2026-05-31T13:59:52.595223+00:00",
+      "recid": "20476030",
       "revision": 4,
       "files": [
         {
-          "id": "3547df0d-3c4e-4d80-9641-75bd5443e3f0",
-          "key": "github.com-broadinstitute-viral-pipelines-subsample_by_metadata_v2.5.10.0.zip",
-          "size": 16756,
-          "checksum": "md5:35cc9149e16fd702c1682e1b26e12ecc",
+          "id": "17ed09d1-88e3-45d0-a643-ec60421d9575",
+          "key": "14_arun_61-64.pdf",
+          "size": 442118,
+          "checksum": "md5:2801b7a86d9648d22db0271387f51fc3",
           "links": {
-            "self": "https://zenodo.org/api/records/17772941/files/github.com-broadinstitute-viral-pipelines-subsample_by_metadata_v2.5.10.0.zip/content"
+            "self": "https://zenodo.org/api/records/20476030/files/14_arun_61-64.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "76183"
+          "id": "405301"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 13,
-        "unique_downloads": 12,
-        "views": 35,
-        "unique_views": 35,
-        "version_downloads": 5,
-        "version_unique_downloads": 4,
-        "version_unique_views": 13,
-        "version_views": 13
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-31T13:45:59.673417+00:00",
+      "modified": "2026-05-31T13:45:59.888724+00:00",
+      "id": 20475832,
+      "conceptrecid": "20475831",
+      "doi": "10.5281/zenodo.20475832",
+      "conceptdoi": "10.5281/zenodo.20475831",
+      "doi_url": "https://doi.org/10.5281/zenodo.20475832",
+      "metadata": {
+        "title": "Pharmacophore-Based Virtual Screening and Molecular Docking of ZINC Database Compounds Against HIV-1 Integrase",
+        "doi": "10.5281/zenodo.20475832",
+        "publication_date": "2026-05-31",
+        "description": "<p class=\"MsoNoSpacing\"><strong><span>ABSTRACT</span></strong></p>\n<p class=\"MsoNoSpacing\"><span>HIV-1 integrase is a critical enzyme involved in the integration of viral DNA into the host genome and represents an important therapeutic target in antiretroviral drug discovery. In this study, a pharmacophore-based virtual screening approach was carried out using Pharmit, with Dolutegravir as the reference drug. The pharmacophore model included aromatic groups, hydrogen bond donors, hydrogen bond acceptors (4), hydrophobic groups (2), and a negative ionizable feature. A total of 13,127,550 compounds from the ZINC database were screened, and the resulting hits were filtered using Lipinski&rsquo;s Rule of Five, yielding 12 drug-like candidate molecules. Molecular docking was subsequently performed against HIV-1 integrase (PDB ID:3S3M) using AutoDock Vina. Among the screened compounds, ZINC000299738148 and ZINC000299738315 emerged as the top lead candidates, with binding energies of &minus;9.7 kcal/mol and &minus;9.4 kcal/mol, respectively. Notably, ZINC000299738148 exhibited a stronger binding affinity than the reference drug Dolutegravir (&minus;9.5 kcal/mol), while ZINC000299738315 showed comparable binding performance. Both lead compounds demonstrated stable interactions with key active site residues, including ARG350, GLN215, HIS213, and SER216, similar to Dolutegravir, indicating a conserved binding mode. These findings suggest that the identified compounds may serve as promising inhibitors of HIV-1 integrase and warrant further investigation.</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Mukkera Karthik, Angadi Sathishkumar, Estari Mamidala",
+            "affiliation": "Infectious Diseases Research Lab, Department of Zoology, Kakatiya University, Warangal-506009, Telangana State, India"
+          }
+        ],
+        "version": "https://ajsmrjournal.com/issueslist.php?cat_id=48",
+        "custom": {
+          "code:codeRepository": "https://ajsmrjournal.com/issueslist.php?cat_id=48"
+        },
+        "resource_type": {
+          "title": "Journal",
+          "type": "publication",
+          "subtype": "journal"
+        },
+        "journal": {
+          "issue": "S2",
+          "pages": "51-56",
+          "title": "The American Journal of Science and Medical Research",
+          "volume": "12"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20475831"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Pharmacophore-Based Virtual Screening and Molecular Docking of ZINC Database Compounds Against HIV-1 Integrase",
+      "links": {
+        "self": "https://zenodo.org/api/records/20475832",
+        "self_html": "https://zenodo.org/records/20475832",
+        "preview_html": "https://zenodo.org/records/20475832?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20475832",
+        "self_doi": "https://doi.org/10.5281/zenodo.20475832",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20475832",
+        "reserve_doi": "https://zenodo.org/api/records/20475832/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20475831",
+        "parent_html": "https://zenodo.org/records/20475831",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20475831",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20475831",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20475832/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20475832/sequence/default",
+        "files": "https://zenodo.org/api/records/20475832/files",
+        "media_files": "https://zenodo.org/api/records/20475832/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20475832:12_karthik_51-56.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20475832:12_karthik_51-56.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20475832:12_karthik_51-56.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20475832:12_karthik_51-56.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20475832:12_karthik_51-56.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20475832:12_karthik_51-56.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20475832/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20475832/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20475832/versions/latest",
+        "latest_html": "https://zenodo.org/records/20475832/latest",
+        "versions": "https://zenodo.org/api/records/20475832/versions",
+        "draft": "https://zenodo.org/api/records/20475832/draft",
+        "access_links": "https://zenodo.org/api/records/20475832/access/links",
+        "access_grants": "https://zenodo.org/api/records/20475832/access/grants",
+        "access_users": "https://zenodo.org/api/records/20475832/access/users",
+        "access_request": "https://zenodo.org/api/records/20475832/access/request",
+        "access": "https://zenodo.org/api/records/20475832/access",
+        "communities": "https://zenodo.org/api/records/20475832/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20475832/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20475832/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20475832/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20475832/quota-increase",
+        "requests": "https://zenodo.org/api/records/20475832/requests"
+      },
+      "updated": "2026-05-31T13:45:59.888724+00:00",
+      "recid": "20475832",
+      "revision": 4,
+      "files": [
+        {
+          "id": "5175dda1-5345-40e6-88b2-e7f42fac1246",
+          "key": "12_karthik_51-56.pdf",
+          "size": 590313,
+          "checksum": "md5:441b36fdfb3cc53a99e7e38ee990715f",
+          "links": {
+            "self": "https://zenodo.org/api/records/20475832/files/12_karthik_51-56.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "405301"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-31T12:27:27.044881+00:00",
+      "modified": "2026-05-31T12:27:27.250777+00:00",
+      "id": 20474962,
+      "conceptrecid": "20474961",
+      "doi": "10.5281/zenodo.20474962",
+      "conceptdoi": "10.5281/zenodo.20474961",
+      "doi_url": "https://doi.org/10.5281/zenodo.20474962",
+      "metadata": {
+        "title": "Pongaglabrone as a Potential Lead Molecule Targeting the Matrix Protein of Nipah virus: A Molecular Docking Study",
+        "doi": "10.5281/zenodo.20474962",
+        "publication_date": "2026-05-31",
+        "description": "<p class=\"MsoNoSpacing\"><strong><span>ABSTRACT</span></strong></p>\n<p class=\"MsoNoSpacing\"><span>Nipah virus is a zoonotic pathogen was firstly identified in Malaysia country in 1998 and spread all over world including West Bengal, India in 2001. The severity is causing fatal infections and mortality in humans, it is very important to discover novel inhibitor with natural sources. The current Insilco study gives antiviral flavonoid against nipah virus. The Structure of nipah virus has surface glycoproteins (G and F) for host attachment and fusion and matrix (M) protein located beneath the viral lipid envelope that plays a crucial role in virus assembly, budding, and structural organization. The study focuses on matrix protein inhibition using flavonoids. The selected flavonoid-derived phytochemical Lanceolatin, Pongaglabrone, Pongaglabol, Flavone, and Isopongaglabol were evaluated for their inhibitory potential against the target protein represented by 7SKT protein structure using molecular docking analysis. Among the tested compounds, Pongaglabrone demonstrated the highest binding affinity with a docking score of &minus;8.07 kcal/mol, followed by Pongaglabol with &minus;7.14 kcal/mol. Isopongaglabol and Lanceolatin exhibited moderate binding energies, whereas Flavone showed the lowest binding affinity. The inhibition occurs in the more repeated binding regions PHE283, ARG286 and ILE243.These findings indicate that flavonoid-based phytochemicals, particularly Pongaglabrone, may serve as promising lead compounds for the development of antiviral agents targeting Nipah virus proteins. Further in vitro and in vivo studies are required to validate their therapeutic potential.</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Keerthana Chittimalla, Ashok vanigandla",
+            "affiliation": "Department of Biochemistry, Kakatiya University, Warangal-506009 TG, India"
+          }
+        ],
+        "version": "https://ajsmrjournal.com/issueslist.php?cat_id=48",
+        "custom": {
+          "code:codeRepository": "https://ajsmrjournal.com/issueslist.php?cat_id=48"
+        },
+        "resource_type": {
+          "title": "Publication",
+          "type": "publication"
+        },
+        "journal": {
+          "issue": "S2",
+          "pages": "9-14",
+          "title": "The American Journal of Science and Medical Research",
+          "volume": "12"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20474961"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Pongaglabrone as a Potential Lead Molecule Targeting the Matrix Protein of Nipah virus: A Molecular Docking Study",
+      "links": {
+        "self": "https://zenodo.org/api/records/20474962",
+        "self_html": "https://zenodo.org/records/20474962",
+        "preview_html": "https://zenodo.org/records/20474962?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20474962",
+        "self_doi": "https://doi.org/10.5281/zenodo.20474962",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474962",
+        "reserve_doi": "https://zenodo.org/api/records/20474962/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20474961",
+        "parent_html": "https://zenodo.org/records/20474961",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20474961",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474961",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20474962/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20474962/sequence/default",
+        "files": "https://zenodo.org/api/records/20474962/files",
+        "media_files": "https://zenodo.org/api/records/20474962/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20474962:3_keerthana_9-14.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20474962:3_keerthana_9-14.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20474962:3_keerthana_9-14.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20474962:3_keerthana_9-14.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20474962:3_keerthana_9-14.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20474962:3_keerthana_9-14.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20474962/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20474962/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20474962/versions/latest",
+        "latest_html": "https://zenodo.org/records/20474962/latest",
+        "versions": "https://zenodo.org/api/records/20474962/versions",
+        "draft": "https://zenodo.org/api/records/20474962/draft",
+        "access_links": "https://zenodo.org/api/records/20474962/access/links",
+        "access_grants": "https://zenodo.org/api/records/20474962/access/grants",
+        "access_users": "https://zenodo.org/api/records/20474962/access/users",
+        "access_request": "https://zenodo.org/api/records/20474962/access/request",
+        "access": "https://zenodo.org/api/records/20474962/access",
+        "communities": "https://zenodo.org/api/records/20474962/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20474962/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20474962/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20474962/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20474962/quota-increase",
+        "requests": "https://zenodo.org/api/records/20474962/requests"
+      },
+      "updated": "2026-05-31T12:27:27.250777+00:00",
+      "recid": "20474962",
+      "revision": 4,
+      "files": [
+        {
+          "id": "14ad0640-8391-4924-b19e-a673b323b593",
+          "key": "3_keerthana_9-14.pdf",
+          "size": 791844,
+          "checksum": "md5:4ff4241f09c6cbdf06ca8913ac001435",
+          "links": {
+            "self": "https://zenodo.org/api/records/20474962/files/3_keerthana_9-14.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "405301"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-30T21:40:27.298151+00:00",
+      "modified": "2026-05-30T21:40:27.417472+00:00",
+      "id": 20467909,
+      "conceptrecid": "18274809",
+      "doi": "10.5281/zenodo.20467909",
+      "conceptdoi": "10.5281/zenodo.18274809",
+      "doi_url": "https://doi.org/10.5281/zenodo.20467909",
+      "metadata": {
+        "title": "PETSc.jl: Julia bindings for PETSc",
+        "doi": "10.5281/zenodo.20467909",
+        "publication_date": "2026-05-30",
+        "description": "PETSc.jl provides an interface to the Portable, Extensible Toolkit for Scientific Computation (PETSc) library, allowing the combination of Julia features (such as automatic differentiation) with PETSc's infrastructure, including linear, nonlinear, and optimization solvers, timesteppers, domain management (DM), and more, in a distributed-memory (MPI) environment.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Kaus, Boris J.P.",
+            "affiliation": "Johannes Gutenberg University Mainz, Germany",
+            "orcid": "0000-0002-0247-8660"
+          },
+          {
+            "name": "Shah, Viral B.",
+            "affiliation": "Julia Computing, USA",
+            "orcid": "0000-0001-9602-4012"
+          },
+          {
+            "name": "Kozdon, Jeremy E.",
+            "affiliation": "NextSilicon, USA",
+            "orcid": "0000-0002-2493-4292"
+          },
+          {
+            "name": "Churavy, Valentin",
+            "affiliation": "Johannes Gutenberg University Mainz, Germany",
+            "orcid": "0000-0002-9033-165X"
+          },
+          {
+            "name": "Schnetter, Erik",
+            "affiliation": "Perimeter Institute, Canada",
+            "orcid": "0000-0002-4518-9017"
+          },
+          {
+            "name": "Byrne, Simon",
+            "affiliation": "NVIDIA, USA",
+            "orcid": "0000-0001-8048-6810"
+          }
+        ],
+        "keywords": [
+          "Julia",
+          "PETSc",
+          "scientific computing",
+          "linear algebra",
+          "nonlinear solvers",
+          "optimization",
+          "MPI",
+          "parallel computing"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/JuliaParallel/PETSc.jl/tree/v0.4.10",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v0.4.10",
+        "custom": {
+          "code:codeRepository": "https://github.com/JuliaParallel/PETSc.jl"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "grants": [
+          {
+            "code": "771143",
+            "internal_id": "10.13039/501100000780::771143",
+            "funder": {
+              "name": "European Commission",
+              "doi": "10.13039/501100000780",
+              "acronym": "EC"
+            },
+            "title": "Melting And Geodynamic Models of Ascent",
+            "acronym": "MAGMA",
+            "program": "H2020-EU.1.1.",
+            "url": "https://cordis.europa.eu/projects/771143"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 9,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "18274809"
+              }
+            }
+          ]
+        }
+      },
+      "title": "PETSc.jl: Julia bindings for PETSc",
+      "links": {
+        "self": "https://zenodo.org/api/records/20467909",
+        "self_html": "https://zenodo.org/records/20467909",
+        "preview_html": "https://zenodo.org/records/20467909?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20467909",
+        "self_doi": "https://doi.org/10.5281/zenodo.20467909",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20467909",
+        "reserve_doi": "https://zenodo.org/api/records/20467909/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/18274809",
+        "parent_html": "https://zenodo.org/records/18274809",
+        "parent_doi": "https://doi.org/10.5281/zenodo.18274809",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18274809",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20467909/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20467909/sequence/default",
+        "files": "https://zenodo.org/api/records/20467909/files",
+        "media_files": "https://zenodo.org/api/records/20467909/media-files",
+        "archive": "https://zenodo.org/api/records/20467909/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20467909/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20467909/versions/latest",
+        "latest_html": "https://zenodo.org/records/20467909/latest",
+        "versions": "https://zenodo.org/api/records/20467909/versions",
+        "draft": "https://zenodo.org/api/records/20467909/draft",
+        "access_links": "https://zenodo.org/api/records/20467909/access/links",
+        "access_grants": "https://zenodo.org/api/records/20467909/access/grants",
+        "access_users": "https://zenodo.org/api/records/20467909/access/users",
+        "access_request": "https://zenodo.org/api/records/20467909/access/request",
+        "access": "https://zenodo.org/api/records/20467909/access",
+        "communities": "https://zenodo.org/api/records/20467909/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20467909/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20467909/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20467909/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20467909/quota-increase",
+        "requests": "https://zenodo.org/api/records/20467909/requests"
+      },
+      "updated": "2026-05-30T21:40:27.417472+00:00",
+      "recid": "20467909",
+      "revision": 4,
+      "files": [
+        {
+          "id": "7ae4509b-2169-471c-8dce-ae923dd53aad",
+          "key": "JuliaParallel/PETSc.jl-v0.4.10.zip",
+          "size": 3643638,
+          "checksum": "md5:0df2bed1f9e8f10486fb94104f42bc59",
+          "links": {
+            "self": "https://zenodo.org/api/records/20467909/files/JuliaParallel/PETSc.jl-v0.4.10.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:3d600121c5d29c5d67ac681e9e1179e792a35c34;origin=https://doi.org/10.5281/zenodo.18274809;visit=swh:1:snp:2afcaaa4301f123518340c4ac6ce83703cde77ed;anchor=swh:1:rel:53d72509e0ebe74b53e3653f5f800b9089a11219;path=JuliaParallel-PETSc.jl-cbfc6de"
+      },
+      "owners": [
+        {
+          "id": "558979"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 53,
+        "unique_downloads": 24,
+        "views": 216,
+        "unique_views": 141,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-30T19:30:30.502261+00:00",
+      "modified": "2026-05-30T19:30:30.793242+00:00",
+      "id": 20466800,
+      "conceptrecid": "20466799",
+      "doi": "10.5281/zenodo.20466800",
+      "conceptdoi": "10.5281/zenodo.20466799",
+      "doi_url": "https://doi.org/10.5281/zenodo.20466800",
+      "metadata": {
+        "title": "The Dismantled Mindset in the Age of Artificial Intelligence: Identity Fragmentation, Algorithmic Power, and a Framework for Collective Restoration",
+        "doi": "10.5281/zenodo.20466800",
+        "publication_date": "2026-05-30",
+        "description": "<p class=\"p1\"><strong>The Dismantled Mindset in the Age of Artificial Intelligence:</strong></p>\n<p class=\"p2\"><strong>Identity Fragmentation in Algorithmic Networks: A Mathematical</strong></p>\n<p class=\"p2\"><strong>Model, Simulation, and Empirical Research Agenda</strong></p>\n<p class=\"p3\"><strong>Felipe Castro Quiles, MBA</strong></p>\n<p class=\"p4\">Independent Researcher | felipe@castroquiles.com</p>\n<p class=\"p4\">Working Paper, SSRN 5040267 / 5824582 | 2025</p>\n<p class=\"p5\"><strong>Abstract</strong></p>\n<p class=\"p3\">This paper extends the Dismantled Mindset Theory (Castro Quiles, 2024, 2025) into the domain</p>\n<p class=\"p3\">of artificial intelligence and digital identity, arguing that algorithmic systems do not merely reflect</p>\n<p class=\"p3\">existing power fragmentation; they actively accelerate it. Grounded in the theory's four</p>\n<p class=\"p3\">foundational forces (greed, fear, influence, and responsibility) and its mathematical formalization</p>\n<p class=\"p3\">of fragmentation dynamics in directed social networks, this paper situates the Dismantled Mindset</p>\n<p class=\"p3\">construct within established research traditions in surveillance capitalism, filter bubble theory,</p>\n<p class=\"p3\">algorithmic identity curation, and the psychology of oppression. We propose four causal</p>\n<p class=\"p3\">mechanisms through which AI systems produce identity fragmentation, three falsifiable</p>\n<p class=\"p3\">hypotheses linking algorithmic exposure to measurable psychological outcomes, and a research</p>\n<p class=\"p3\">agenda for empirical validation. We further argue that the theory's normative commitment to</p>\n<p class=\"p3\">collective empowerment, rooted in the author's lived experience across the Americas (from San</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 1</span>Juan to post-earthquake Haiti to the World Bank), provides a constructive dimension that critical</p>\n<p class=\"p3\">AI scholarship has largely lacked. The path from thought leadership to scientific theory runs</p>\n<p class=\"p3\">through measurement, peer scrutiny, and replication. This paper charts that path.</p>\n<p class=\"p3\"><strong>Keywords: </strong>Dismantled Mindset Theory, identity fragmentation, algorithmic power, AI ethics,</p>\n<p class=\"p3\">surveillance capitalism, collective empowerment, digital identity, social network dynamics, power</p>\n<p class=\"p3\">redistribution</p>\n<p class=\"p5\"><strong>1. Introduction</strong></p>\n<p class=\"p3\">What if the very way we think about power, identity, and society is fundamentally flawed? What</p>\n<p class=\"p3\">if our understanding of these concepts is not just misguided, but a trap, one built upon greed, fear,</p>\n<p class=\"p3\">and manipulation, ultimately leading us to fracture our identities and limit our potential? These</p>\n<p class=\"p3\">questions, posed at the opening of the Dismantled Mindset Theory (Castro Quiles, 2024), are not</p>\n<p class=\"p3\">rhetorical. They describe a structural condition of contemporary digital life that has become</p>\n<p class=\"p3\">measurable, propagating, and urgent.</p>\n<p class=\"p3\">The relationship between technological systems and human identity has been a central concern of</p>\n<p class=\"p3\">social theory since the industrial era. What distinguishes the present moment is the degree to which</p>\n<p class=\"p3\">identity formation is now mediated not merely by institutions or social norms, but by opaque</p>\n<p class=\"p3\">algorithmic systems that continuously model, predict, and shape individual behavior at scale.</p>\n<p class=\"p3\">Social media recommendation engines, large language models, personalized advertising</p>\n<p class=\"p3\">ecosystems, and automated content moderation systems collectively constitute an environment in</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 2</span>which the self is perpetually reflected back to the individual in curated, fragmented, and</p>\n<p class=\"p3\">commercially optimized forms.</p>\n<p class=\"p3\">The Dismantled Mindset Theory (DMT), introduced by Castro Quiles (2024) and formalized</p>\n<p class=\"p3\">mathematically in Castro Quiles (2025), provides a conceptual and quantitative framework for</p>\n<p class=\"p3\">understanding these dynamics. At the heart of the theory are four foundational forces: greed,</p>\n<p class=\"p3\">defined as the insatiable desire to control resources and power at the expense of others; fear, the</p>\n<p class=\"p3\">anxiety of losing power or status that compels self-preserving behaviors harmful to collective well-</p>\n<p class=\"p3\">being; influence, the capacity to inspire and lead through empathy and ethics; and responsibility,</p>\n<p class=\"p3\">the ethical obligation to use power for the greater good. These forces interact to produce what the</p>\n<p class=\"p3\">theory calls a dismantled mindset: a fractured sense of self and society that perpetuates division,</p>\n<p class=\"p3\">disempowerment, and inequality.</p>\n<p class=\"p3\">The theory emerges not from academic abstraction but from lived experience. The author's</p>\n<p class=\"p3\">trajectory, from a family business in Puerto Rico, through entrepreneurship in post-earthquake</p>\n<p class=\"p3\">Haiti, to policy dialogues at the World Bank and global innovation programs at Singularity</p>\n<p class=\"p3\">University, gives the framework a grounded empirical intuition that purely theoretical accounts of</p>\n<p class=\"p3\">AI and power often lack. The observation that algorithms had quietly shaped what people believe</p>\n<p class=\"p3\">before they start speaking, illustrated in a kitchen debate in Santurce between the author and his</p>\n<p class=\"p3\">uncle, both convinced they were seeing the full picture, both having been guided to their views by</p>\n<p class=\"p3\">invisible systems designed to feed them what they were already inclined to accept, captures in</p>\n<p class=\"p3\">everyday terms what the theory formalizes analytically.</p>\n<p class=\"p3\">Crucially, the Dismantled Mindset is described not only as a phenomenon to be diagnosed but as</p>\n<p class=\"p3\">one to be dismantled. The theory's central normative claim, captured in Quiles' Law of Dismantled</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 3</span>Mindsets, is that only by breaking down fear, greed, and control can we rebuild ourselves and</p>\n<p class=\"p3\">unlock true potential. This dual character, critical and constructive, distinguishes DMT from most</p>\n<p class=\"p3\">critical AI scholarship, which tends toward diagnosis without prescription.</p>\n<p class=\"p3\">This paper has three objectives. First, it situates DMT within existing interdisciplinary literature,</p>\n<p class=\"p3\">demonstrating both its alignment with established findings and its distinctive contributions.</p>\n<p class=\"p3\">Second, it sharpens the theory's causal claims into falsifiable hypotheses. Third, it proposes a</p>\n<p class=\"p3\">research agenda that would enable DMT to move from a framework toward an empirically</p>\n<p class=\"p3\">validated theory of AI-mediated identity fragmentation.</p>\n<p class=\"p5\"><strong>2. Literature Review: Situating the Dismantled Mindset</strong></p>\n<p class=\"p3\">The Dismantled Mindset Theory does not emerge in an intellectual vacuum. Several well-</p>\n<p class=\"p3\">established research programs address adjacent phenomena. This section maps the terrain,</p>\n<p class=\"p3\">identifying where DMT builds on, diverges from, and advances these traditions.</p>\n<p class=\"p3\"><strong><em>2.1 Filter Bubbles and Epistemic Fragmentation</em></strong></p>\n<p class=\"p3\">Pariser (2011) introduced the concept of the filter bubble to describe how algorithmic</p>\n<p class=\"p3\">personalization progressively narrows users' informational environments, reinforcing existing</p>\n<p class=\"p3\">beliefs and limiting exposure to disconfirming perspectives. Subsequent empirical work has</p>\n<p class=\"p3\">complicated the picture: Guess et al. (2023) found that algorithmic effects on political polarization</p>\n<p class=\"p3\">are more modest than popularly assumed, and that user choice plays a substantial role in self-</p>\n<p class=\"p3\">selection into homogeneous information environments.</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 4</span>DMT's contribution to this debate is to shift the unit of analysis from epistemic content, what</p>\n<p class=\"p3\">people believe, to identity coherence, who people understand themselves to be. The fragmentation</p>\n<p class=\"p3\">the theory describes is not primarily about holding incorrect beliefs, but about the progressive</p>\n<p class=\"p3\">incoherence of the self-concept under conditions of algorithmic curation. An individual who</p>\n<p class=\"p3\">encounters conflicting identity signals across algorithmically managed contexts does not simply</p>\n<p class=\"p3\">hold inconsistent beliefs; they experience a structural erosion of the narrative self. This distinction</p>\n<p class=\"p3\">is not addressed by existing filter bubble research.</p>\n<p class=\"p3\"><strong><em>2.2 Surveillance Capitalism and the Commodification of Identity</em></strong></p>\n<p class=\"p3\">Zuboff (2019) offers the most comprehensive account of how the commercial logic of digital</p>\n<p class=\"p3\">platforms transforms human experience into raw material for behavioral prediction and</p>\n<p class=\"p3\">modification. Her concept of behavioral futures markets, in which platforms sell predictions about</p>\n<p class=\"p3\">future behavior to advertisers, implies a structural incentive for platforms to destabilize user</p>\n<p class=\"p3\">identity, since identity instability increases engagement and therefore generates more predictive</p>\n<p class=\"p3\">data.</p>\n<p class=\"p3\">DMT's power fragmentation framework is directly consonant with Zuboff's analysis but extends</p>\n<p class=\"p3\">it in two directions: first, it introduces a mathematical formalism for modeling fragmentation</p>\n<p class=\"p3\">dynamics across social networks rather than merely within individuals; second, it proposes a</p>\n<p class=\"p3\">constructive framework for collective restoration that is largely absent from Zuboff's critical</p>\n<p class=\"p3\">project. Where Zuboff describes the problem in its fullest form, the Dismantled Mindset Theory</p>\n<p class=\"p3\">attempts to specify the mechanism of reversal.</p>\n<p class=\"p3\"><strong><em>2.3 Algorithmic Identity and Context Collapse</em></strong></p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 5</span>A growing body of work in human-computer interaction and critical internet studies has</p>\n<p class=\"p3\">documented how algorithmic systems shape self-presentation and identity performance. Bucher</p>\n<p class=\"p3\">(2018) examines how platform algorithms create an algorithmic imaginary, a set of beliefs users</p>\n<p class=\"p3\">develop about how algorithms work, which in turn shapes their behavior and self-conception.</p>\n<p class=\"p3\">Research on context collapse (Marwick and boyd, 2011) has shown that the flattening of social</p>\n<p class=\"p3\">contexts on platforms produces identity incoherence as users navigate incompatible audience</p>\n<p class=\"p3\">expectations simultaneously.</p>\n<p class=\"p3\">DMT's fragmentation construct maps productively onto this literature. The dismantled self</p>\n<p class=\"p3\">described by the theory is, in computational social science terms, a self whose context management</p>\n<p class=\"p3\">has broken down, an identity that has lost coherent narrative under the pressure of multiple,</p>\n<p class=\"p3\">algorithmically mediated audience contexts. The theory's four forces operationalize the specific</p>\n<p class=\"p3\">drivers: greed and fear on the platform side generate the commercial incentives for context</p>\n<p class=\"p3\">collapse, while influence and responsibility describe the individual and collective capacities</p>\n<p class=\"p3\">needed to resist it.</p>\n<p class=\"p3\"><strong><em>2.4 Structural Power and Identity: Sociological Antecedents</em></strong></p>\n<p class=\"p3\">DMT's attention to structural power as the driver of identity fragmentation connects it to</p>\n<p class=\"p3\">foundational sociological work. Bourdieu (1986) describes how structural inequalities are</p>\n<p class=\"p3\">reproduced through differential access to symbolic resources. Foucault (1977) examines how</p>\n<p class=\"p3\">disciplinary power shapes subjects through normalized surveillance. Fricker (2007) addresses how</p>\n<p class=\"p3\">systemic power undermines the credibility and self-understanding of marginalized knowers.</p>\n<p class=\"p3\">The theory explicitly engages this tradition through its reference list, which includes Fanon's</p>\n<p class=\"p3\">account of colonial fragmentation of identity (Black Skin, White Masks), bell hooks's analysis of</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 6</span>where class, race, and power intersect, Stuart Hall's work on cultural identity and diaspora, Ruha</p>\n<p class=\"p3\">Benjamin's Race After Technology, and Safiya Umoja Noble's Algorithms of Oppression. This</p>\n<p class=\"p3\">genealogy is not decorative; it positions DMT as extending the postcolonial and critical race</p>\n<p class=\"p3\">tradition into the computational domain. The invisible chains of legacy thinking that the theory</p>\n<p class=\"p3\">invites readers to examine are not merely psychological habits, they are historical sediments of</p>\n<p class=\"p3\">colonial power dynamics now encoded in algorithmic systems.</p>\n<p class=\"p3\"><strong><em>2.5 Collective Action and Liberation Psychology</em></strong></p>\n<p class=\"p3\">The theory's normative commitment to collective empowerment situates it within liberation</p>\n<p class=\"p3\">psychology (Mart&iacute;n-Bar&oacute;, 1994; Freire, 1970). These traditions argue that consciousness-raising,</p>\n<p class=\"p3\">becoming aware of structural constraints on one's identity, is a prerequisite for collective action.</p>\n<p class=\"p3\">DMT operationalizes this for the digital context: the author's concept of partnershoring, building</p>\n<p class=\"p3\">strong, enduring relationships that combine strengths to accelerate progress, is offered as a</p>\n<p class=\"p3\">concrete organizational strategy for enacting collective restoration. The theory's call for an</p>\n<p class=\"p3\">interdisciplinary, collaborative effort addresses the psychological, social, and technological</p>\n<p class=\"p3\">aspects of the Dismantled Mindset together, a scope that maps directly onto liberation psychology's</p>\n<p class=\"p3\">insistence that individual transformation is inseparable from structural change.</p>\n<p class=\"p5\"><strong>3. Theoretical Framework</strong></p>\n<p class=\"p3\"><strong><em>3.1 Core Construct: The Dismantled Mindset</em></strong></p>\n<p class=\"p3\">For purposes of empirical development, we propose the following operational definition, derived</p>\n<p class=\"p3\">from Castro Quiles (2024, 2025):</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 7</span><em>A Dismantled Mindset is a psychological state characterized by high identity</em></p>\n<p class=\"p3\"><em>fragmentation (f), low identity coherence (c = 1 &minus; f), and reduced capacity for</em></p>\n<p class=\"p3\"><em>autonomous self-determination, produced and sustained by exposure to</em></p>\n<p class=\"p3\"><em>algorithmically mediated power structures that systematically distribute influence</em></p>\n<p class=\"p3\"><em>(A) in ways that concentrate power (p) among a small number of nodes while</em></p>\n<p class=\"p3\"><em>fragmenting the remainder. The state is driven by four interacting forces, greed</em></p>\n<p class=\"p3\"><em>(G), fear (F), influence (I), and responsibility (R), whose aggregate effect on social</em></p>\n<p class=\"p3\"><em>context (S) is captured by the Dismantled Mindset Score: DMS = k &middot; (G + F - I +</em></p>\n<p class=\"p3\"><em>R), where k is a normalization factor adjusting for cultural and societal context.</em></p>\n<p class=\"p3\">This definition has three components: a psychological component (identity fragmentation and</p>\n<p class=\"p3\">reduced self-determination); a structural component (algorithmically mediated power</p>\n<p class=\"p3\">concentration); and a dynamic component (the production and sustaining of fragmentation over</p>\n<p class=\"p3\">time through propagation across social networks). The DMS formula encodes the theory's key</p>\n<p class=\"p3\">insight, that influence (I) appears as a subtractive term, meaning that increases in genuine positive</p>\n<p class=\"p3\">influence counteract the fragmenting effects of greed and fear, while responsibility (R) adds</p>\n<p class=\"p3\">constructive obligation, whose effect depends on whether it is enacted or merely claimed.</p>\n<p class=\"p3\"><strong><em>3.2 The Mathematical Model</em></strong></p>\n<p class=\"p3\">Castro Quiles (2025) formalizes fragmentation dynamics using a directed weighted network G =</p>\n<p class=\"p3\">(V, E), where nodes V represent individuals or social groups and edges E carry influence weights</p>\n<p class=\"p3\">A_ij from node i to node j. Each node carries a power attribute p_i &ge; 0, a fragmentation score f_i</p>\n<p class=\"p3\"><span class=\"s3\">&isin;</span> [0,1], and a coherence score c_i = 1 &minus; f_i. Two governing equations describe the system's</p>\n<p class=\"p3\">evolution:</p>\n<p class=\"p3\"><em>Fragmentation dynamics: Power redistribution: df_i/dt = &alpha; &middot; &Sigma;(j) A_ji &middot; p_j &middot; f_j &minus; &beta; &middot; I_i</em></p>\n<p class=\"p3\"><em>p_i' = (1 &minus; &gamma;) &middot; p_i + (&gamma;/N) &middot; &Sigma;(k) p_k</em></p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 8</span>In the fragmentation equation, &alpha; &gt; 0 is sensitivity to external influence, I_i &ge; 0 is an intervention</p>\n<p class=\"p3\">applied to node i, and &beta; &gt; 0 is intervention effectiveness. The fragmentation of node i grows as a</p>\n<p class=\"p3\">weighted function of the power and fragmentation of its influencing neighbors, damped by</p>\n<p class=\"p3\">intervention. In the power redistribution equation, &gamma; <span class=\"s3\">&isin;</span> [0,1] governs the rate at which power</p>\n<p class=\"p3\">equalizes toward the network mean; a second equation A'_ij = (1 &minus; &delta;) &middot; A_ij for high-power nodes</p>\n<p class=\"p3\">captures the weakening of concentrated influence under structural intervention.</p>\n<p class=\"p3\">Simulation results (N = 10, T = 50) demonstrate that structural interventions systematically reduce</p>\n<p class=\"p3\">mean fragmentation and increase collective coherence. Crucially, high-power nodes drive</p>\n<p class=\"p3\">fragmentation propagation: peripheral nodes absorb fragmentation from structurally dominant</p>\n<p class=\"p3\">neighbors. This is the network-level mechanism underlying the theory's broader claim that AI</p>\n<p class=\"p3\">systems, by concentrating influence in algorithmically favored nodes, accelerate the dismantled</p>\n<p class=\"p3\">mindset at scale.</p>\n<p class=\"p3\"><strong><em>3.3 Four Mechanisms of AI-Driven Fragmentation</em></strong></p>\n<p class=\"p3\">Building on the formal model, we propose four causal mechanisms through which AI systems</p>\n<p class=\"p3\">produce and sustain identity fragmentation:</p>\n<p class=\"p3\">Mechanism 1: Preference Amplification. Recommendation algorithms optimize for engagement</p>\n<p class=\"p3\">by amplifying existing preferences, progressively narrowing the range of identity resources</p>\n<p class=\"p3\">available to users and reducing the possibility of growth through exposure to difference. This</p>\n<p class=\"p3\">corresponds to &alpha; increasing as algorithmic personalization deepens.</p>\n<p class=\"p3\">Mechanism 2: Audience Multiplexing. AI-mediated platforms simultaneously present users to</p>\n<p class=\"p3\">multiple incompatible audiences, professional, intimate, political, commercial, creating chronic</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 9</span>context collapse that undermines coherent self-presentation. This is the computational instantiation</p>\n<p class=\"p3\">of the Santurce kitchen observation: invisible systems guide what is believed before the person</p>\n<p class=\"p3\">begins to speak.</p>\n<p class=\"p3\">Mechanism 3: Behavioral Prediction Feedback. As platforms develop increasingly accurate</p>\n<p class=\"p3\">behavioral models of users, they surface content that confirms those models, creating a feedback</p>\n<p class=\"p3\">loop that constrains identity to the historically observed self and discourages growth, change, and</p>\n<p class=\"p3\">reinvention. This mechanism formalizes the observation in the book that many are drawn to</p>\n<p class=\"p3\">polished narratives that place certain visionary figures as the sole architects of tomorrow, an</p>\n<p class=\"p3\">algorithmically produced version of the sunk cost fallacy operating on identity rather than capital.</p>\n<p class=\"p3\">Mechanism 4: Influence Network Concentration. Small asymmetries in influence weight A_ij</p>\n<p class=\"p3\">compound over time to produce large concentrations of power in few nodes. AI systems, by</p>\n<p class=\"p3\">optimizing for engagement, structurally favor content from high-power nodes, influencers,</p>\n<p class=\"p3\">institutions, viral content, accelerating this concentration and reducing the influence of peripheral</p>\n<p class=\"p3\">nodes on their own identity formation. This is the formal expression of what the theory calls the</p>\n<p class=\"p3\">invisible hand of power dynamics.</p>\n<p class=\"p5\"><strong>4. Falsifiable Hypotheses</strong></p>\n<p class=\"p3\">Based on the theoretical framework, we propose three falsifiable hypotheses as the core empirical</p>\n<p class=\"p3\">program for DMT development in the AI/identity domain:</p>\n<p class=\"p3\">H1 (Exposure-Fragmentation Hypothesis): Individuals with higher levels of algorithmically</p>\n<p class=\"p3\">curated social media consumption will report higher levels of identity fragmentation, measured by</p>\n<p class=\"p3\">a validated DMT Identity Fragmentation Scale, after controlling for baseline fragmentation,</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 10</span>demographic variables, and general social media use. This tests the core mechanism that</p>\n<p class=\"p3\">algorithmic exposure drives the dismantled mindset.</p>\n<p class=\"p3\">H2 (Power-Coherence Hypothesis): Within social networks, nodes with higher eigenvector</p>\n<p class=\"p3\">centrality, a proxy for structural power consistent with the model's p_i term, will report lower</p>\n<p class=\"p3\">identity fragmentation and higher perceived autonomy over self-presentation. This tests the</p>\n<p class=\"p3\">model's prediction that high-power nodes accumulate coherence at the expense of peripheral</p>\n<p class=\"p3\">nodes.</p>\n<p class=\"p3\">H3 (Intervention-Restoration Hypothesis): Exposure to AI literacy interventions, education about</p>\n<p class=\"p3\">algorithmic curation mechanisms, consistent with the model's intervention term I_i, will produce</p>\n<p class=\"p3\">measurable reductions in identity fragmentation scores and increases in perceived collective</p>\n<p class=\"p3\">efficacy, mediated by increases in algorithmic reflexivity: the capacity to perceive and critically</p>\n<p class=\"p3\">evaluate the role of AI systems in shaping one's self-concept. This tests the theory's constructive</p>\n<p class=\"p3\">claim that identifying and naming the dismantled mindset is a prerequisite for reversing it.</p>\n<p class=\"p5\"><strong>5. Research Agenda</strong></p>\n<p class=\"p3\"><strong><em>5.1 Scale Development: The DMT Identity Fragmentation Scale</em></strong></p>\n<p class=\"p3\">The most urgent methodological priority is the development of a validated DMT Identity</p>\n<p class=\"p3\">Fragmentation Scale. We propose an initial item pool drawing on three adjacent validated</p>\n<p class=\"p3\">instruments: the Aspects of Identity Questionnaire (AIQ-IV; Cheek et al., 2002); the Identity</p>\n<p class=\"p3\">Distress Survey (Meca et al., 2015); and adapted items from the Digital Self-Presentation</p>\n<p class=\"p3\">Coherence literature (Chou and Edge, 2012). The DMS formula's four components, greed (G), fear</p>\n<p class=\"p3\">(F), influence (I), and responsibility (R), should each generate subscale items, allowing the</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 11</span>composite score and its components to be estimated independently. A 24&ndash;32 item pool should be</p>\n<p class=\"p3\">administered to a diverse sample (target n &ge; 500) and subjected to exploratory factor analysis,</p>\n<p class=\"p3\">followed by confirmatory factor analysis in an independent sample.</p>\n<p class=\"p3\"><strong><em>5.2 Longitudinal Panel Study</em></strong></p>\n<p class=\"p3\">H1 and H3 require longitudinal designs. A 12-month panel study with quarterly surveys measuring</p>\n<p class=\"p3\">identity fragmentation, algorithmically curated media consumption, perceived autonomy, and</p>\n<p class=\"p3\">collective efficacy would enable H1 testing. A pre-registered intervention arm, in which</p>\n<p class=\"p3\">participants receive a structured AI literacy curriculum based on the book's frameworks for</p>\n<p class=\"p3\">breaking free from old paradigms and recognizing the architecture of opinion, would enable causal</p>\n<p class=\"p3\">testing of H3. The book's observation that we think we're debating ideas but are often reacting to</p>\n<p class=\"p3\">curated versions of reality provides the conceptual basis for the literacy intervention content.</p>\n<p class=\"p3\"><strong><em>5.3 Network Calibration</em></strong></p>\n<p class=\"p3\">The simulation's parameters (&alpha;, &beta;, &gamma;) are currently set to illustrative defaults. Fitting the model to</p>\n<p class=\"p3\">existing large-scale social network datasets, Twitter/X retweet networks, Reddit community</p>\n<p class=\"p3\">graphs, or platform engagement data, using maximum likelihood estimation, with identity</p>\n<p class=\"p3\">fragmentation proxied by behavioral indicators such as cross-community engagement diversity,</p>\n<p class=\"p3\">would generate falsifiable out-of-sample predictions for network-level fragmentation dynamics.</p>\n<p class=\"p3\">This would move the model from a simulation of the theory's assumptions to a tested predictive</p>\n<p class=\"p3\">model.</p>\n<p class=\"p3\"><strong><em>5.4 Collaboration and Publication Strategy</em></strong></p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 12</span>The theory's interdisciplinary scope argues for a parallel publication strategy targeting distinct</p>\n<p class=\"p3\">academic communities. The empirical scale development paper is best suited to Journal of</p>\n<p class=\"p3\">Personality and Social Psychology or Personality and Individual Differences. The network</p>\n<p class=\"p3\">formalization belongs in Journal of Mathematical Sociology or Social Networks. The AI ethics</p>\n<p class=\"p3\">and critical theory dimension fits Big Data and Society or AI and Society. The applied leadership</p>\n<p class=\"p3\">and organizational dimensions connect to Academy of Management Review or Leadership</p>\n<p class=\"p3\">Quarterly. In each case, the reviewing community will ask for precise differentiation from adjacent</p>\n<p class=\"p3\">constructs, identity diffusion (Marcia, 1966), self-concept clarity (Campbell et al., 1996), and</p>\n<p class=\"p3\">algorithmic aversion, and the theory is strong enough to answer those challenges with the framing</p>\n<p class=\"p3\">developed here.</p>\n<p class=\"p5\"><strong>6. Discussion</strong></p>\n<p class=\"p3\">Several limitations of the current framework merit acknowledgment. First, the construct requires</p>\n<p class=\"p3\">more precise differentiation from adjacent concepts, particularly identity diffusion, self-concept</p>\n<p class=\"p3\">clarity, and dissociation. The theoretical claim, that DMT fragmentation is structurally produced</p>\n<p class=\"p3\">by algorithmic systems rather than arising primarily from developmental or clinical factors, is</p>\n<p class=\"p3\">essential and must be demonstrated through discriminant validity testing, not assumed.</p>\n<p class=\"p3\">Second, the network model assumes directed weighted graphs with static node sets, an idealization</p>\n<p class=\"p3\">that omits important dynamics of platform design: feed algorithm changes, account suspension,</p>\n<p class=\"p3\">platform migration, and the emergence of new content modalities. Future model iterations should</p>\n<p class=\"p3\">incorporate these structural perturbations. The model's current deterministic form should also be</p>\n<p class=\"p3\">extended with stochastic components, as the author notes in the mathematical paper's discussion</p>\n<p class=\"p3\">of future work.</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 13</span>Third, the theory's normative framework requires philosophical elaboration. Collective</p>\n<p class=\"p3\">empowerment toward what ends? The partnershoring concept and the calls for interdisciplinary</p>\n<p class=\"p3\">collaboration are compelling starting points, but they require institutional and policy translation to</p>\n<p class=\"p3\">generate specific recommendations for platform regulation, algorithmic transparency legislation,</p>\n<p class=\"p3\">or educational curriculum design. The Americas-rooted perspective, grounded in the author's</p>\n<p class=\"p3\">direct experience with governance, grassroots initiatives, and the intersection of technology and</p>\n<p class=\"p3\">marginalized communities from Puerto Rico to Haiti, gives the normative framework a specificity</p>\n<p class=\"p3\">and legitimacy that more abstractly theorized accounts of digital justice often lack. This regional</p>\n<p class=\"p3\">and experiential grounding should be made more explicit in future versions, as it constitutes one</p>\n<p class=\"p3\">of the theory's distinctive empirical resources.</p>\n<p class=\"p3\">The theory's most important long-run contribution may be precisely this combination: a formal</p>\n<p class=\"p3\">model rigorous enough to generate testable predictions, grounded in a normative framework</p>\n<p class=\"p3\">specific enough to generate actionable policy implications, and rooted in lived experience across</p>\n<p class=\"p3\">the communities most affected by the dynamics it describes. That combination is rare in either</p>\n<p class=\"p3\">critical AI scholarship or formal social network theory, and it represents the theory's strongest</p>\n<p class=\"p3\">claim to lasting relevance.</p>\n<p class=\"p5\"><strong>7. Conclusion</strong></p>\n<p class=\"p3\">The Dismantled Mindset Theory offers a promising framework for understanding how artificial</p>\n<p class=\"p3\">intelligence systems contribute to identity fragmentation and the erosion of collective agency. Its</p>\n<p class=\"p3\">four foundational forces, greed, fear, influence, and responsibility, provide a structured vocabulary</p>\n<p class=\"p3\">for analyzing the power dynamics that algorithmic systems encode and amplify. Its mathematical</p>\n<p class=\"p3\">formalization provides a quantitative scaffold for generating and testing predictions. Its normative</p>\n<p class=\"p3\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 14</span>commitment to collective empowerment provides a direction for intervention that goes beyond</p>\n<p class=\"p3\">critique.</p>\n<p class=\"p3\">Up to today, it may seem like we are losing ground, with much of the world captivated by greed</p>\n<p class=\"p3\">and fear. Yet this moment holds a profound opportunity, possibly the final chance to guide the</p>\n<p class=\"p3\">future through the irreplaceable human virtues of courage, empathy, and moral responsibility. The</p>\n<p class=\"p3\">Dismantled Mindset Theory names the mechanism of that loss and sketches the pathway toward</p>\n<p class=\"p3\">recovery. The hard work of empirical development, measurement, calibration, peer review,</p>\n<p class=\"p3\">replication, is what will determine whether it becomes a scientific theory or remains a framework.</p>\n<p class=\"p3\">This paper has attempted to make the former possible.</p>\n<p class=\"p3\">The change-makers the theory envisions do not wait for the world to shift. They become the shift:</p>\n<p class=\"p3\">through imagination, purpose, persistent effort, and courageous action. The same is true for the</p>\n<p class=\"p3\">theory itself.</p>\n<p class=\"p5\"><strong>References</strong></p>\n<p class=\"p4\">[1] Barab&aacute;si, A.-L. (2016). Network Science. Cambridge University Press.</p>\n<p class=\"p4\">[2] Benjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity Press.</p>\n<p class=\"p4\">[3] Bourdieu, P. (1986). The forms of capital. In J. Richardson (Ed.), Handbook of Theory and Research for the</p>\n<p class=\"p4\">Sociology of Education (pp. 241&ndash;258). Greenwood.</p>\n<p class=\"p4\">[4] Bucher, T. (2018). If...Then: Algorithmic Power and Politics. Oxford University Press.</p>\n<p class=\"p4\">[5] Campbell, J. D., Trapnell, P. D., Heine, S. J., Katz, I. M., Lavallee, L. F., &amp; Lehman, D. R. (1996). Self-concept</p>\n<p class=\"p4\">clarity: Measurement, personality correlates, and cultural boundaries. Journal of Personality and Social</p>\n<p class=\"p4\">Psychology, 70(1), 141&ndash;156.</p>\n<p class=\"p4\">[6] Castro Quiles, F. (2024). Exploring the Theory of a 'Dismantled Mindset': A Call for Collective Empowerment.</p>\n<p class=\"p4\">SSRN Working Paper 5040267.</p>\n<p class=\"p4\"><span class=\"s1\">Castro Quiles | Dismantled Mindset Theory | p. 15</span>[7] Castro Quiles, F. (2025). A Mathematical Formalization and Simulation of the Dismantled Mindset Theory.</p>\n<p class=\"p4\">SSRN Working Paper 5824582.</p>\n<p class=\"p4\">[8] Castro Quiles, F. (2025). Dismantled: A Theory of Broken Mindsets, A Blueprint of Infinite Futures. FC Quiles</p>\n<p class=\"p4\">Books.</p>\n<p class=\"p4\">[9] Cheek, J. M., Smith, S. M., &amp; Tropp, L. R. (2002). Relational identity orientation: A fourth scale for the AIQ.</p>\n<p class=\"p4\">Poster presented at the Society for Personality and Social Psychology, Savannah, GA.</p>\n<p class=\"p4\">[10] Chou, H. T. G., &amp; Edge, N. (2012). 'They are happier and having better lives than I am': The impact of using</p>\n<p class=\"p4\">Facebook on perceptions of others' lives. Cyberpsychology, Behavior, and Social Networking, 15(2), 117&ndash;</p>\n<p class=\"p4\">121.</p>\n<p class=\"p4\">[11] Fanon, F. (1952). Black Skin, White Masks. &Eacute;ditions du Seuil.</p>\n<p class=\"p4\">[12] Foucault, M. (1977). Discipline and Punish: The Birth of the Prison. Pantheon Books.</p>\n<p class=\"p4\">[13] Freire, P. (1970). Pedagogy of the Oppressed. Herder and Herder.</p>\n<p class=\"p4\">[14] Fricker, M. (2007). Epistemic Injustice: Power and the Ethics of Knowing. Oxford University Press.</p>\n<p class=\"p4\">[15] Guess, A. M., Malhotra, N., Pan, J., Barber&aacute;, P., Allcott, H., Brown, T., et al. (2023). How do social media</p>\n<p class=\"p4\">feed algorithms affect attitudes and behavior in an election campaign? Science, 381(6656), 398&ndash;404.</p>\n<p class=\"p4\">[16] Hall, S. (1990). Cultural identity and diaspora. In J. Rutherford (Ed.), Identity: Community, Culture,</p>\n<p class=\"p4\">Difference (pp. 222&ndash;237). Lawrence and Wishart.</p>\n<p class=\"p4\">[17] hooks, b. (2000). Where We Stand: Class Matters. Routledge.</p>\n<p class=\"p4\">[18] Marcia, J. E. (1966). Development and validation of ego-identity status. Journal of Personality and Social</p>\n<p class=\"p4\">Psychology, 3(5), 551&ndash;558.</p>\n<p class=\"p4\">[19] Mart&iacute;n-Bar&oacute;, I. (1994). Writings for a Liberation Psychology. Harvard University Press.</p>\n<p class=\"p4\">[20] Marwick, A. E., &amp; boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context collapse, and</p>\n<p class=\"p4\">the imagined audience. New Media and Society, 13(1), 114&ndash;133.</p>\n<p class=\"p4\">[21] Meca, A., Ritchie, R. A., Beyers, W., Schwartz, S. J., Picariello, S., Zamboanga, B. L., et al. (2015). Identity</p>\n<p class=\"p4\">distress and adjustment in emerging adulthood. Emerging Adulthood, 3(5), 345&ndash;354.</p>\n<p class=\"p4\">[22] Newman, M. E. J. (2010). Networks: An Introduction. Oxford University Press.</p>\n<p class=\"p4\">[23] Noble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press.</p>\n<p class=\"p4\">[24] Pariser, E. (2011). The Filter Bubble: What the Internet Is Hiding From You. Penguin Press.</p>\n<p class=\"p4\">[25] Zuboff, S. (2019). The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of</p>\n<p class=\"p4\">Power. PublicAffairs.</p>\n<p class=\"p6\">Castro Quiles | Dismantled Mindset Theory | p. 16</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Castro Quiles, Felipe",
+            "affiliation": "GENIA Americas Corporation",
+            "orcid": "0000-0002-7384-1367"
+          }
+        ],
+        "keywords": [
+          "Dismantled Mindset Theory",
+          "Identity Fragmentation",
+          "Algorithmic Power",
+          "AI Ethics",
+          "Surveillance Capitalism",
+          "Collective Empowerment",
+          "Social Network Dynamics",
+          "Digital Identity",
+          "Power Redistribution",
+          "Cognitive Social Science"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://ssrn.com/abstract=5040267",
+            "relation": "isNewVersionOf",
+            "resource_type": "publication",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://ssrn.com/abstract=5824582",
+            "relation": "isNewVersionOf",
+            "resource_type": "publication",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://ssrn.com/abstract=6853702",
+            "relation": "isSupplementTo",
+            "resource_type": "publication",
+            "scheme": "url"
+          }
+        ],
+        "version": "1.0",
+        "references": [
+          "Castro Quiles, F. (2024). Exploring the Theory of a 'Dismantled Mindset': A Call for Collective Empowerment. SSRN Working Paper 5040267. https://ssrn.com/abstract=5040267",
+          "Castro Quiles, F. (2025). A Mathematical Formalization and Simulation of the Dismantled Mindset Theory. SSRN Working Paper 5824582. https://ssrn.com/abstract=5824582",
+          "Castro Quiles, F. (2025). Dismantled: A Theory of Broken Mindsets, A Blueprint of Infinite Futures. FC Quiles Books.",
+          "Barabasi, A.L. (2016). Network Science. Cambridge University Press.",
+          "Benjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity Press.",
+          "Bourdieu, P. (1986). The forms of capital. In J. Richardson (Ed.), Handbook of Theory and Research for the Sociology of Education (pp. 241-258). Greenwood.",
+          "Bucher, T. (2018). If...Then: Algorithmic Power and Politics. Oxford University Press.",
+          "Campbell, J.D., Trapnell, P.D., Heine, S.J., Katz, I.M., Lavallee, L.F., and Lehman, D.R. (1996). Self-concept clarity: Measurement, personality correlates, and cultural boundaries. Journal of Personality and Social Psychology, 70(1), 141-156.",
+          "Cheek, J.M., Smith, S.M., and Tropp, L.R. (2002). Relational identity orientation: A fourth scale for the AIQ. Poster presented at the Society for Personality and Social Psychology, Savannah, GA.",
+          "Chou, H.T.G. and Edge, N. (2012). They are happier and having better lives than I am: The impact of using Facebook on perceptions of others' lives. Cyberpsychology, Behavior, and Social Networking, 15(2), 117-121.",
+          "Fanon, F. (1952). Black Skin, White Masks. Editions du Seuil.",
+          "Foucault, M. (1977). Discipline and Punish: The Birth of the Prison. Pantheon Books.",
+          "Freire, P. (1970). Pedagogy of the Oppressed. Herder and Herder.",
+          "Fricker, M. (2007). Epistemic Injustice: Power and the Ethics of Knowing. Oxford University Press.",
+          "Guess, A.M., Malhotra, N., Pan, J., Barbera, P., Allcott, H., Brown, T., et al. (2023). How do social media feed algorithms affect attitudes and behavior in an election campaign? Science, 381(6656), 398-404.",
+          "Hall, S. (1990). Cultural identity and diaspora. In J. Rutherford (Ed.), Identity: Community, Culture, Difference (pp. 222-237). Lawrence and Wishart.",
+          "hooks, b. (2000). Where We Stand: Class Matters. Routledge.",
+          "Marcia, J.E. (1966). Development and validation of ego-identity status. Journal of Personality and Social Psychology, 3(5), 551-558.",
+          "Martin-Baro, I. (1994). Writings for a Liberation Psychology. Harvard University Press.",
+          "Marwick, A.E. and boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. New Media and Society, 13(1), 114-133.",
+          "Meca, A., Ritchie, R.A., Beyers, W., Schwartz, S.J., Picariello, S., Zamboanga, B.L., et al. (2015). Identity distress and adjustment in emerging adulthood. Emerging Adulthood, 3(5), 345-354.",
+          "Newman, M.E.J. (2010). Networks: An Introduction. Oxford University Press.",
+          "Noble, S.U. (2018). Algorithms of Oppression: How Search Engines Reinforforce Racism. NYU Press.",
+          "Pariser, E. (2011). The Filter Bubble: What the Internet Is Hiding From You. Penguin Press.",
+          "Zuboff, S. (2019). The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power. PublicAffairs."
+        ],
+        "language": "eng",
+        "custom": {
+          "code:codeRepository": "https://github.com/castroquiles/dismantled-mindset-sim",
+          "code:programmingLanguage": [
+            {
+              "id": "python",
+              "title": {
+                "en": "Python"
+              }
+            }
+          ],
+          "code:developmentStatus": {
+            "id": "active",
+            "title": {
+              "en": "Active"
+            }
+          }
+        },
+        "resource_type": {
+          "title": "Working paper",
+          "type": "publication",
+          "subtype": "workingpaper"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20466799"
+              }
+            }
+          ]
+        }
+      },
+      "title": "The Dismantled Mindset in the Age of Artificial Intelligence: Identity Fragmentation, Algorithmic Power, and a Framework for Collective Restoration",
+      "links": {
+        "self": "https://zenodo.org/api/records/20466800",
+        "self_html": "https://zenodo.org/records/20466800",
+        "preview_html": "https://zenodo.org/records/20466800?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20466800",
+        "self_doi": "https://doi.org/10.5281/zenodo.20466800",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20466800",
+        "reserve_doi": "https://zenodo.org/api/records/20466800/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20466799",
+        "parent_html": "https://zenodo.org/records/20466799",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20466799",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20466799",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20466800/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20466800/sequence/default",
+        "files": "https://zenodo.org/api/records/20466800/files",
+        "media_files": "https://zenodo.org/api/records/20466800/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20466800:The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20466800:The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20466800:The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20466800:The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20466800:The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20466800:The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20466800/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20466800/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20466800/versions/latest",
+        "latest_html": "https://zenodo.org/records/20466800/latest",
+        "versions": "https://zenodo.org/api/records/20466800/versions",
+        "draft": "https://zenodo.org/api/records/20466800/draft",
+        "access_links": "https://zenodo.org/api/records/20466800/access/links",
+        "access_grants": "https://zenodo.org/api/records/20466800/access/grants",
+        "access_users": "https://zenodo.org/api/records/20466800/access/users",
+        "access_request": "https://zenodo.org/api/records/20466800/access/request",
+        "access": "https://zenodo.org/api/records/20466800/access",
+        "communities": "https://zenodo.org/api/records/20466800/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20466800/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20466800/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20466800/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20466800/quota-increase",
+        "requests": "https://zenodo.org/api/records/20466800/requests"
+      },
+      "updated": "2026-05-30T19:30:30.793242+00:00",
+      "recid": "20466800",
+      "revision": 3,
+      "files": [
+        {
+          "id": "7430d6ef-696a-4538-8804-d9510c5e66f3",
+          "key": "The Dismantled Mindset in the Age of Artificial Intelligence-  Identity Fragmentation in Algorithmic Networks- A Mathematical Model, Simulation, and Empirical Research Agenda  by Felipe Castro Quiles, MBA  .pdf",
+          "size": 286141,
+          "checksum": "md5:2f77a7d9e7ae63cbc28bd6f55f9cfcd9",
+          "links": {
+            "self": "https://zenodo.org/api/records/20466800/files/The%20Dismantled%20Mindset%20in%20the%20Age%20of%20Artificial%20Intelligence-%20%20Identity%20Fragmentation%20in%20Algorithmic%20Networks-%20A%20Mathematical%20Model,%20Simulation,%20and%20Empirical%20Research%20Agenda%20%20by%20Felipe%20Castro%20Quiles,%20MBA%20%20.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1666523"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-30T14:34:32.081520+00:00",
+      "modified": "2026-05-30T14:34:32.249647+00:00",
+      "id": 20462211,
+      "conceptrecid": "20462210",
+      "doi": "10.5281/zenodo.20462211",
+      "conceptdoi": "10.5281/zenodo.20462210",
+      "doi_url": "https://doi.org/10.5281/zenodo.20462211",
+      "metadata": {
+        "title": "Encoding Genomes in Quantum States: A Conceptual Framework",
+        "doi": "10.5281/zenodo.20462211",
+        "publication_date": "2026-05-30",
+        "description": "<p class=\"MsoNormal\"><span>Quantum computing offers a new paradigm for representing biological information, emphasizing the richness of quantum states rather than the size of qubit registers. This paper introduces a conceptual framework for genome encoding that extends the pioneering work of Sergii Strelchuk and colleagues, who demonstrated genomic representation with large qubit registers. By leveraging compositional biases in plant viral genomes&mdash;particularly adenine&ndash;thymine (AT) and uracil&ndash;adenine (UA) predominance&mdash;state\u2011based encoding achieves efficiency, compression, fidelity, and scalability. As a case study, we examine the Narcissus degeneration virus (NDV), an RNA potyvirus, and demonstrate codon mapping, reverse translation, and nucleotide\u2011to\u2011qubit assignment implemented on IBMQ hardware. This approach shows how fewer physical qubits can generate exponentially larger state spaces, enabling modular genome partitions within hardware constraints. Rather than replacing qubit\u2011based methods, state encoding complements and extends them, offering a natural evolution that honors foundational achievements while opening pathways for collaborative exploration in quantum genomics.</span></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "VARGAS, EUGENIO",
+            "affiliation": null,
+            "orcid": "0009-0000-4870-0100"
+          }
+        ],
+        "keywords": [
+          "quantum genomics",
+          "quantum states",
+          "genome encoding",
+          "computational biology"
+        ],
+        "dates": [
+          {
+            "type": "submitted"
+          }
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20462210"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Encoding Genomes in Quantum States: A Conceptual Framework",
+      "links": {
+        "self": "https://zenodo.org/api/records/20462211",
+        "self_html": "https://zenodo.org/records/20462211",
+        "preview_html": "https://zenodo.org/records/20462211?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20462211",
+        "self_doi": "https://doi.org/10.5281/zenodo.20462211",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20462211",
+        "reserve_doi": "https://zenodo.org/api/records/20462211/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20462210",
+        "parent_html": "https://zenodo.org/records/20462210",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20462210",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20462210",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20462211/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20462211/sequence/default",
+        "files": "https://zenodo.org/api/records/20462211/files",
+        "media_files": "https://zenodo.org/api/records/20462211/media-files",
+        "archive": "https://zenodo.org/api/records/20462211/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20462211/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20462211/versions/latest",
+        "latest_html": "https://zenodo.org/records/20462211/latest",
+        "versions": "https://zenodo.org/api/records/20462211/versions",
+        "draft": "https://zenodo.org/api/records/20462211/draft",
+        "access_links": "https://zenodo.org/api/records/20462211/access/links",
+        "access_grants": "https://zenodo.org/api/records/20462211/access/grants",
+        "access_users": "https://zenodo.org/api/records/20462211/access/users",
+        "access_request": "https://zenodo.org/api/records/20462211/access/request",
+        "access": "https://zenodo.org/api/records/20462211/access",
+        "communities": "https://zenodo.org/api/records/20462211/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20462211/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20462211/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20462211/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20462211/quota-increase",
+        "requests": "https://zenodo.org/api/records/20462211/requests"
+      },
+      "updated": "2026-05-30T14:34:32.249647+00:00",
+      "recid": "20462211",
+      "revision": 4,
+      "files": [
+        {
+          "id": "d0bd1328-558d-4f56-a9da-82b61642961e",
+          "key": "ZNP PAPER PUBLICATION FORM.docx",
+          "size": 208432,
+          "checksum": "md5:4fbb5f4a167f2a6c45861da09785370e",
+          "links": {
+            "self": "https://zenodo.org/api/records/20462211/files/ZNP%20PAPER%20PUBLICATION%20FORM.docx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1668430"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true

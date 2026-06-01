@@ -1,31 +1,602 @@
 {
-  "cache_date": "2025-12-01T08:56:20.472072",
+  "cache_date": "2026-06-01T14:03:55.462758",
   "data": [
     {
-      "created": "2025-12-01T05:43:44.107920+00:00",
-      "modified": "2025-12-01T05:43:44.900977+00:00",
-      "id": 17774093,
-      "conceptrecid": "17640399",
-      "doi": "10.5281/zenodo.17774093",
-      "conceptdoi": "10.5281/zenodo.17640399",
-      "doi_url": "https://doi.org/10.5281/zenodo.17774093",
+      "created": "2026-06-01T13:58:37.597324+00:00",
+      "modified": "2026-06-01T14:03:47.513975+00:00",
+      "id": 20491275,
+      "conceptrecid": "20491274",
+      "doi": "10.5281/zenodo.20491275",
+      "conceptdoi": "10.5281/zenodo.20491274",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491275",
       "metadata": {
-        "title": "HERALD: High-resolution Early Recognition of Antigenic Landscape Divergence",
-        "doi": "10.5281/zenodo.17774093",
-        "publication_date": "2025-11-30",
-        "description": "<p><strong>HERALD: High-resolution Early Recognition of Antigenic Landscape Divergence</strong></p>\n<p>A theoretical framework for geometry-based viral surveillance that enables early detection of immune-escape variants before widespread transmission. HERALD constructs a Riemannian pullback manifold where Euclidean distances in latent space approximate antigenic relationships within bounded-distortion regimes.</p>\n<blockquote>\n<p><strong>This deposit includes:</strong></p>\n<p>* Complete theoretical framework (manuscript)<br>* Empirical validation studies on SARS-CoV-2 data:<br>&nbsp; - Validation I (DMS): Demonstrates 5.7&ndash;8.8&times; improvement in geometric separation over baseline methods on deep mutational scanning escape data across multiple antibody conditions<br>&nbsp; - Validation II-A (Time Traveler): Retrospective time-slice replay on Nextstrain genomic surveillance data; frozen encoder trained only on 2020 DMS data detects Omicron BA.1 emergence in South Africa (Z = 2.29, p &asymp; 0.011) with near-zero support-adjusted latency<br>&nbsp; - Validation II-B (Instrument Integrity): Audits structural soundness of the HERALD instrument&mdash;confirms PIT-normalized drift scores behave as calibrated Z-scores, validates threshold selection via synthetic Design Frontier analysis, and demonstrates geometric fidelity via Hamming stress test (r &gt; 0.99 linearity up to 30 mutations)<br>* Frozen encoder checkpoint (herald_dms_encoder.pt) for reproducibility<br>* Validation code, results CSVs, and visualization plots (distance histograms, traffic-light heatmaps, Design Frontier curves, manifold smoothness plots)</p>\n</blockquote>\n<p><strong>Key Contributions:</strong></p>\n<ul>\n<li>\n<p><strong>Manifold Construction</strong>: Defines a contrastive learning objective with Jacobian/Laplacian regularization that induces smooth pullback metrics, enabling Euclidean computations to approximate geodesic distances reflecting antigenic divergence</p>\n</li>\n<li>\n<p><strong>Real-Time Drift Detection</strong>: Specifies a probability-integral transform (PIT) fusion scheme combining sequence, antigenic, and structural signals into a scalar drift statistic with O(log n) amortized complexity</p>\n</li>\n<li>\n<p><strong>Formal Guarantees</strong>: Derives margin-to-separation results for InfoNCE objectives and establishes Cantelli-based probability bounds requiring only finite variance (no sub-Gaussian assumptions), composing into conditional end-to-end dominance bounds with explicit error budgets</p>\n</li>\n<li>\n<p><strong>Evaluation Protocols</strong>: Provides falsifiable protocols for retrospective time-slice replay, prospective streaming emulation, distortion audits, and equity/parity analysis across pathogens (SARS-CoV-2, influenza, HIV)</p>\n</li>\n<li>\n<p><strong>Ethics Framework</strong>: Includes comprehensive governance templates addressing dual-use risks, information hazards, data sovereignty, abstention policies, and oversight structures</p>\n</li>\n<li><strong>Empirical Validation:</strong> Validation I demonstrates 5.7&ndash;8.8&times; improvement in geometric separation (&Delta;) over baseline methods on SARS-CoV-2 deep mutational scanning data. Validation II confirms out-of-time generalization: the frozen encoder detects Omicron BA.1 emergence in South Africa (Z = 2.29, p &asymp; 0.011) under sparse monthly surveillance data with near-zero support-adjusted latency.</li>\n</ul>\n<p><strong>Scope</strong>: The theoretical manuscript presents definitions, assumptions, theorems, and evaluation protocols. Validation I provides empirical confirmation on historical DMS data; Validation II demonstrates real-world surveillance applicability via retrospective time-slice replay on Nextstrain genomic data. Both studies use rigorous train/test methodology and no sequence optimization (safe surveillance scope). Applications extend beyond viral surveillance to bacterial pathogen monitoring (STEC, antibiotic resistance) where antigenic/functional divergence precedes clinical detection.</p>\n<p><strong>Author</strong>: Bee Rosa Davis (NASA Mission Systems Engineer, IBM X-Force Red Principal Adversarial Intelligence Engineer)</p>\n<p><strong>Keywords</strong>: viral surveillance, Riemannian geometry, contrastive learning, immune escape, early warning systems, algorithmic epidemiology, information geometry, public health AI, ESM-2, protein language models, deep mutational scanning</p>\n<p><strong>License and Patent Disclaimer</strong></p>\n<p><em><strong>Copyright License</strong>:</em> This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). You are free to share and adapt this work for non-commercial purposes with appropriate attribution, provided derivative works use the same license.</p>\n<p><strong><em>Patent Notice:</em> </strong>The methods, systems, and algorithms described herein are subject to U.S. Provisional Patent Application No. 63/919,595 (filed November 18, 2025). This copyright license does NOT grant any rights under patent law. Implementation, commercial use, or deployment of the HERALD framework may require separate patent licensing arrangements.</p>\n<p><strong><em>Clarification:</em> </strong>The CC BY-NC-SA 4.0 license governs only the manuscript text and documentation&mdash;the right to read, cite, and build upon these ideas academically. The patent covers the technical implementation of the framework. For research and educational use, no patent license is required. For commercial deployment or production systems, contact the inventor regarding patent licensing.</p>\n<p><strong>Contact for Patent Licensing:</strong> <a href=\"mailto:bee_davis@alumni.brown.edu\">bee_davis@alumni.brown.edu</a><br><br><em><strong>Version 3.0:</strong></em> Added Validation Study II (\"Time Traveler\") demonstrating out-of-time generalization&mdash;frozen geometry trained on 2020 DMS data detects 2022 Omicron emergence with p &asymp; 0.011 under sparse surveillance conditions. Includes time-slice replay code, heatmaps, and frozen encoder checkpoint.</p>",
+        "title": "Identification of Mirror Repeats within the SWI 6 Gene of Saccharomyces cerevisiae",
+        "doi": "10.5281/zenodo.20491275",
+        "publication_date": "2025-12-31",
+        "description": "Bhardwaj, Vikash, Abstract, Namrata (2025): Identification of Mirror Repeats within the SWI 6 Gene of Saccharomyces cerevisiae. FishTaxa 37 (9): 157-163, DOI: 10.5281/zenodo.20491275",
         "access_right": "open",
         "creators": [
           {
-            "name": "Davis, Bee Rosa",
-            "affiliation": null,
-            "orcid": "0009-0009-8034-4308"
+            "name": "Bhardwaj, Vikash",
+            "affiliation": null
+          },
+          {
+            "name": "Abstract, Namrata",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.5281/zenodo.20491277",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0022-2836(05)80360-2",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1126/science.274.5293.1029",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/yea.703",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1128/MCB.19.8.5267",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1101/gad.1039602",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.jmb.2011.03.017",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41571-020-0357-3",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/0076-6879(90)83005-L",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1091/mbc.6.12.1641",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/35040594",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.tig.2003.06.005",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1006/jmbi.1999.2831",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.22376/ijlpr.2024.14.4.L12-L19",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1186/s12864-020-6530-4",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1089/10665270050081478",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "1. Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215(3), 403-410. https://doi.org/10.1016/S0022-2836(05)80360-2",
+          "2. Bhardwaj, Vikash, Swapni, Gupta, Sitaram, Meena, & Kulbhushan, Sharma. (2013). FPCB: A simple and swift strategy for mirror repeat identification.",
+          "3. Elledge, S. J. (1996). Cell cycle checkpoints: Preventing an identity crisis. Science, 274(5293), 1029-1030. https://doi.org/10.1126/science.274.5293.1029",
+          "4. Hartwell, L. H., et al. (2001). The Saccharomyces cerevisiae cell cycle. Yeast, 18(12), 1145-1161. https://doi.org/10.1002/yea.703",
+          "5. Ho, Y., Costanzo, M., Moore, L., Kobayashi, R., & Andrews, B. J. (1999). Regulation of transcription at the Saccharomyces cerevisiae start transition by Stb1, a Swi6-binding protein. Molecular and Cellular Biology, 19(8), 5267-5278. https://doi.org/10.1128/MCB.19.8.5267",
+          "6. Horak, C. E., Luscombe, N. M., Qian, J., Bertone, P., Piccirrillo, S., Gerstein, M., & Snyder, M. (2002). Complex transcriptional circuitry at the G1/S transition in Saccharomyces cerevisiae. Genes & Development, 16(23), 3017-3033. https://doi.org/10.1101/gad.1039602",
+          "7. Lister, R., et al. (2011). Exploring the role of mirror repeats in genetic instability. Journal of Molecular Biology, 408(1), 32- 41. https://doi.org/10.1016/j.jmb.2011.03.017",
+          "8. Mittal, P., & Roberts, C. W. M. (2020). The SWI/SNF complex in cancer - biology, biomarkers and therapy. Nature Reviews. Clinical Oncology, 17(7), 435-448. https://doi.org/10.1038/s41571-020-0357-3",
+          "9. Pearson, W. R. (1994). Using the FASTA search algorithm to compare protein and nucleotide sequences. In Methods in Enzymology (Vol. 183, pp. 63-98). Academic Press. https://doi.org/10.1016/0076-6879(90)83005-L",
+          "10. Sidorova, J. M., Mikesell, G. E., & Breeden, L. L. (1995). Cell cycle-regulated phosphorylation of Swi6 controls its nuclear localization. Molecular Biology of the Cell, 6(12), 1641-1658. https://doi.org/10.1091/mbc.6.12.1641",
+          "11. Tyers, M., & Jorgensen, P. (2000). Proteolysis and the control of cell cycle transitions. Nature Reviews Molecular Cell Biology, 1(3), 141-149. https://doi.org/10.1038/35040594",
+          "12. Urrutia, A. O., & Hurst, L. D. (2003). The evolution of the mirror repeat: Adaptive and nonadaptive perspectives. Trends in Genetics, 19(9), 414-419. https://doi.org/10.1016/j.tig.2003.06.005",
+          "13. Wright, F. (1999). The mirror-repeat method of identifying regulatory sequences in the genome. Journal of Molecular Biology, 291(1), 31-39. https://doi.org/10.1006/jmbi.1999.2831",
+          "14. Yadav, P., Kumari, J., Yadav, P., Yadav, R., Yadav, S., Sharma, D., Singh, A., Sehrawat, B., Yadav, M., & Yadav, S. (2024). Identification of mirror repeats in viral genomes using FPCB analysis: Life sciences-bioinformatics for health care. International Journal of Life Science and Pharma Research, 14(4), L12-L19. https://doi.org/10.22376/ijlpr.2024.14.4.L12-L19",
+          "15. Zhao, J., Xie, X., & Yu, H. (2020). Identification and functional prediction of mirror repeats in yeast using bioinformatics tools. BMC Genomics, 21(1), 112. https://doi.org/10.1186/s12864-020-6530-4",
+          "16. Zhang, Z., Schwartz, S., Wagner, L., & Miller, W. (2000). A greedy algorithm for aligning DNA sequences. Journal of Computational Biology, 7(1-2), 203-214. https://doi.org/10.1089/10665270050081478"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "9",
+          "pages": "157-163",
+          "title": "FishTaxa",
+          "volume": "37"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "urn:lsid:plazi.org:pub:FFDBFF8FFFD8FFFFFFC9FF8962482829"
+          }
+        ],
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491274"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Identification of Mirror Repeats within the SWI 6 Gene of Saccharomyces cerevisiae",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491275",
+        "self_html": "https://zenodo.org/records/20491275",
+        "preview_html": "https://zenodo.org/records/20491275?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491275",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491275",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491275",
+        "reserve_doi": "https://zenodo.org/api/records/20491275/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491274",
+        "parent_html": "https://zenodo.org/records/20491274",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491274",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491274",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491275/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491275/sequence/default",
+        "files": "https://zenodo.org/api/records/20491275/files",
+        "media_files": "https://zenodo.org/api/records/20491275/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491275:source.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20491275/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491275/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491275/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491275/latest",
+        "versions": "https://zenodo.org/api/records/20491275/versions",
+        "draft": "https://zenodo.org/api/records/20491275/draft",
+        "access_links": "https://zenodo.org/api/records/20491275/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491275/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491275/access/users",
+        "access_request": "https://zenodo.org/api/records/20491275/access/request",
+        "access": "https://zenodo.org/api/records/20491275/access",
+        "communities": "https://zenodo.org/api/records/20491275/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491275/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491275/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491275/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491275/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491275/requests"
+      },
+      "updated": "2026-06-01T14:03:47.513975+00:00",
+      "recid": "20491275",
+      "revision": 7,
+      "files": [
+        {
+          "id": "fb06985a-4dba-490d-bef7-cf905f4ba695",
+          "key": "source.pdf",
+          "size": 551771,
+          "checksum": "md5:2fdb138f62d859ffb5c9698962482829",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491275/files/source.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T13:51:14.161479+00:00",
+      "modified": "2026-06-01T13:51:15.174280+00:00",
+      "id": 20491039,
+      "conceptrecid": "20491038",
+      "doi": "10.5281/zenodo.20491039",
+      "conceptdoi": "10.5281/zenodo.20491038",
+      "doi_url": "https://doi.org/10.5281/zenodo.20491039",
+      "metadata": {
+        "title": "Biphasic Neurostimulatory Effects of Caffeine on Dopamine-Mediated Locomotor Circuits in Drosophila melanogaster",
+        "doi": "10.5281/zenodo.20491039",
+        "publication_date": "2025-12-31",
+        "description": "Kavya, Nachuri, Khan, Ruqayyah Safia, Ahmed, Mariyam, Zaveri, Daaniya, Maryam, Shaista (2025): Biphasic Neurostimulatory Effects of Caffeine on Dopamine-Mediated Locomotor Circuits in Drosophila melanogaster. FishTaxa 36 (9): 66-75",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Kavya, Nachuri",
+            "affiliation": null
+          },
+          {
+            "name": "Khan, Ruqayyah Safia",
+            "affiliation": null
+          },
+          {
+            "name": "Ahmed, Mariyam",
+            "affiliation": null
+          },
+          {
+            "name": "Zaveri, Daaniya",
+            "affiliation": null
+          },
+          {
+            "name": "Maryam, Shaista",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.22092/ARI.2021.356628.1884",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/srep20938",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.isci.2025.113197",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/ijms19061788",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2174/1570159X19666211111142027",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/genetics/iyae129",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1101/2024.02.23.581846",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1101/lm.053816.123",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/insects15050329",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/febs.16468",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3791/61515",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ibmb.2020.103414",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fphys.2021.719038",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/19336934.2019.1653733",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1021/acschemneuro.7b00456",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1534/genetics.118.300224",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "1. Asbah, A., Ummussaadah, U., Parenden, N., Putri, A. S. W., Rosa, R. A., Rumata, N. R., Emran, T. B., Dhama, K., & Nainu, F. (2021). Pharmacological effect of caffeine on Drosophila melanogaster: A proof-of-concept in vivo study for nootropic investigation. Archives of Razi Institute, 76(6), 1645-1654. https://doi.org/10.22092/ARI.2021.356628.1884",
+          "2. Nall, A. H., Shakhmantsir, I., Cichewicz, K., Birman, S., Hirsh, J., & Sehgal, A. (2016). Caffeine promotes wakefulness via dopamine signaling in Drosophila. Scientific Reports, 6, 20938. https://doi.org/10.1038/srep20938",
+          "3. Reichert, C. F., Deboer, T., & Landolt, H.-P. (2022). Adenosine, caffeine, and sleep -wake regulation: State of the science and perspectives. Journal of Sleep Research, 31(4), e13597.",
+          "4. Coelho, A., Fraichard, S., Le Goff, G., Faure, P., Artur, Y., Ferveur, J.-F., & Heydel, J.-M. (2015). Cytochrome P450- dependent metabolism of caffeine in Drosophila melanogaster. PLoS ONE, 10(2), e0117328.",
+          "5. Francikowski, J., Baran, B., Plachetka- Bozek, A., Krzyzowski, M., & Augustyniak, M. (2016). Caffeine effects on AdoR mRNA expression in Drosophila melanogaster. Open Life Sciences, 11, 244-249.",
+          "6. Keebaugh, E. S., Park, J. H., Su, C., Yamada, R., & Ja, W. W. (2017). Nutrition influences caffeine-mediated sleep loss in Drosophila. Sleep, 40(11), zsx146.",
+          "7. Saldes, E. B., Sabandal, P. R., & Han, K. A. (2025). Nighttime caffeine intake increases motor impulsivity. iScience, 28(8). https://doi.org/10.1016/j.isci.2025.113197",
+          "8. Kasture, A., Hummel, T., Sucic, S., & Freissmuth, M. (2018). Big lessons from tiny flies: Drosophila melanogaster as a model to explore dysfunction of dopaminergic and serotonergic neurotransmitter systems. International Journal of Molecular Sciences, 19(6), 1788. https://doi.org/10.3390/ijms19061788",
+          "9. Clayman, C. L., & Connaughton, V. P. (2022). Neurochemical and behavioral consequences of ethanol and/or caffeine exposure: Effects in zebrafish and rodents. Current Neuropharmacology, 20, 560-578. https://doi.org/10.2174/1570159X19666211111142027",
+          "10. D'Souza, A., & Krishna, M. S. (2018). Effect of energy drinks (synthetic and natural) on locomotor activity of Drosophila melanogaster.",
+          "11. Jurgens, K., Drechsler, M., & Paululat, A. (2024). An anatomical atlas of Drosophila melanogaster -the wild-type. Genetics, 228. https://doi.org/10.1093/genetics/iyae129",
+          "12. Lo, Y.-S., & Hwang, S.-Y. (2024). Caffeine and parasitoid Snellenius manilae. Journal of Applied Entomology.",
+          "13. Dong, K., Burch, A., & Huang, K. (2024). Deep learning behavioral phenotyping system in the diagnosis of Parkinson's disease with Drosophila melanogaster. bioRxiv. https://doi.org/10.1101/2024.02.23.581846",
+          "14. Stahl, A., & Tomchik, S. (2024). Modeling neurodegenerative and neurodevelopmental disorders in the Drosophila mushroom body. Learning & Memory, 31. https://doi.org/10.1101/lm.053816.123",
+          "15. Zakharenko, L., Bobrovskikh, M., Gruntenko, N., Petrovskii, D., Verevkin, E., & Putilov, A. (2024). Two old wild-type strains of Drosophila melanogaster can serve as an animal model of faster and slower aging processes. Insects, 15. https://doi.org/10.3390/insects15050329",
+          "16. Mokkawes, T., & de Visser, S. P. (2023). Caffeine biodegradation by CYP1A2. Chemistry - A European Journal.",
+          "17. Motta, E. V. S., Arnott, R. L. W., & Moran, N. A. (2023). Caffeine helps honey bees fight pathogens. Microbiology Spectrum.",
+          "18. Boppana, S., Peterson, M., Du, A. L., Kutikuppala, L. V. S., & Gabriel, R. A. (2022). Caffeine: What is its role in pain",
+          "19. Ruggiero, M., et al. (2022). Neuroinflammation and caffeine. International Journal of Molecular Sciences.",
+          "20. Caffeine and its antioxidant properties -it is all about dose and source. (2022). International Journal of Molecular Sciences, 23(21), 13074.",
+          "21. Jean-Guillaume, C., & Kumar, J. (2022). Development of the ocellar visual system in Drosophila melanogaster. The FEBS Journal, 289, 7411-7427. https://doi.org/10.1111/febs.16468",
+          "22. Jee, H. J., Lee, S. G., Bormate, K. J., & Jung, Y. S. (2020). Effect of caffeine consumption on the risk for neurological and psychiatric disorders: Sex differences in humans. Nutrients, 12(10), 3080.",
+          "23. Schoborg, T. (2020). Whole animal imaging of Drosophila melanogaster using microcomputed tomography. Journal of Visualized Experiments: JoVE, 163. https://doi.org/10.3791/61515",
+          "24. Sturm, S., Dowle, A., Audsley, N., & Isaac, R. E. (2020). The structure of the Drosophila melanogaster sex peptide: Identification of hydroxylated isoleucine and a strain variation in the pattern of amino acid hydroxylation. Insect Biochemistry and Molecular Biology, 124, 103414. https://doi.org/10.1016/j.ibmb.2020.103414",
+          "25. Sujkowski, A., Ramesh, D., Brockmann, A., & Wessells, R. (2020). Mechanisms of neuroendocrine stress response in Drosophila and its effect on carbohydrate and lipid metabolism.",
+          "26. Rodak, K., Kokot, I., & Kratz, E. M. (2021). Caffeine as a factor influencing the functioning of the human body -friend or foe? Nutrients, 13(9), 3088.",
+          "27. Socala, K., Szopa, A., Serefko, A., Poleszak, E., & Wlaz, P. (2021). Neuroprotective effects of coffee bioactive compounds: A review. International Journal of Molecular Sciences, 22(1), 107.",
+          "28. Molla-Albaladejo, R., & Sanchez-Alcaniz, J. (2021). Behavior individuality: A focus on Drosophila melanogaster. Frontiers in Physiology, 12. https://doi.org/10.3389/fphys.2021.719038",
+          "29. Vieira, L. R., Soares, A. M. V. M., & Freitas, R. (2021). Caffeine as a contaminant of concern: A review on concentrations and impacts in marine coastal systems. Chemosphere, 131675.",
+          "30. Faudone, G., Arifi, S., & Merk, D. (2021). The medicinal chemistry of caffeine. Journal of Medicinal Chemistry, 64(11), 7156-7178.",
+          "31. Fiani, B., Zhu, L., Musch, B., Briceno, S., Andel, R., & Sadeq, N. (2021). The neurophysiology of caffeine. Cureus, 13(5), e15032.",
+          "32. Banerjee, U., Girard, J. R., Goins, L. M., & Spratford, C. M. (2019). Drosophila as a genetic model for hematopoiesis. Genetics, 211(2), 367-417.",
+          "33. Rice, G., David, J., Kamimura, Y., Masly, J., McGregor, A., Nagy, O., Noselli, S., Nunes, M., O'Grady, P., Sanchez- Herrero, E., Siegal, M., Toda, M., Rebeiz, M., Courtier-Orgogozo, V., & Yassin, A. (2019). A standardized nomenclature and atlas of the male terminalia of Drosophila melanogaster. Fly, 13, 51-64. https://doi.org/10.1080/19336934.2019.1653733",
+          "34. Shin, M., Copeland, J., & Venton, B. (2018). Drosophila as a model system for neurotransmitter measurements. ACS Chemical Neuroscience, 9(8), 1872-1883. https://doi.org/10.1021/acschemneuro.7b00456",
+          "35. Miguel-Aliaga, I., Jasper, H., & Lemaitre, B. (2018). Anatomy and physiology of the digestive tract of Drosophila melanogaster. Genetics, 210, 357-396. https://doi.org/10.1534/genetics.118.300224"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "9",
+          "pages": "66-75",
+          "title": "FishTaxa",
+          "volume": "36"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "urn:lsid:plazi.org:pub:FFAB1E7DFFF56A359757FFBEFF90FFF1"
+          }
+        ],
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20491038"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Biphasic Neurostimulatory Effects of Caffeine on Dopamine-Mediated Locomotor Circuits in Drosophila melanogaster",
+      "links": {
+        "self": "https://zenodo.org/api/records/20491039",
+        "self_html": "https://zenodo.org/records/20491039",
+        "preview_html": "https://zenodo.org/records/20491039?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20491039",
+        "self_doi": "https://doi.org/10.5281/zenodo.20491039",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491039",
+        "reserve_doi": "https://zenodo.org/api/records/20491039/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20491038",
+        "parent_html": "https://zenodo.org/records/20491038",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20491038",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491038",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491039/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491039/sequence/default",
+        "files": "https://zenodo.org/api/records/20491039/files",
+        "media_files": "https://zenodo.org/api/records/20491039/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20491039:source.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20491039:source.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20491039:source.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20491039:source.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20491039:source.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20491039:source.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20491039/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20491039/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20491039/versions/latest",
+        "latest_html": "https://zenodo.org/records/20491039/latest",
+        "versions": "https://zenodo.org/api/records/20491039/versions",
+        "draft": "https://zenodo.org/api/records/20491039/draft",
+        "access_links": "https://zenodo.org/api/records/20491039/access/links",
+        "access_grants": "https://zenodo.org/api/records/20491039/access/grants",
+        "access_users": "https://zenodo.org/api/records/20491039/access/users",
+        "access_request": "https://zenodo.org/api/records/20491039/access/request",
+        "access": "https://zenodo.org/api/records/20491039/access",
+        "communities": "https://zenodo.org/api/records/20491039/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20491039/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20491039/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20491039/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20491039/quota-increase",
+        "requests": "https://zenodo.org/api/records/20491039/requests"
+      },
+      "updated": "2026-06-01T13:51:15.174280+00:00",
+      "recid": "20491039",
+      "revision": 5,
+      "files": [
+        {
+          "id": "33dd3376-930f-40b5-b4a3-0b30980a68fe",
+          "key": "source.pdf",
+          "size": 460041,
+          "checksum": "md5:25ab1e7dd4f56a35975776be7290adf1",
+          "links": {
+            "self": "https://zenodo.org/api/records/20491039/files/source.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T13:28:06.581516+00:00",
+      "modified": "2026-06-01T13:28:07.127893+00:00",
+      "id": 20257662,
+      "conceptrecid": "20257661",
+      "doi": "10.5281/zenodo.20257662",
+      "conceptdoi": "10.5281/zenodo.20257661",
+      "doi_url": "https://doi.org/10.5281/zenodo.20257662",
+      "metadata": {
+        "title": "Dataset for: Strain-rate-driven transient embrittlement explains distributed seismicity",
+        "doi": "10.5281/zenodo.20257662",
+        "publication_date": "2026-06-01",
+        "description": "<p>This files are data relative to rock deformation experiments conducted on Triassic Evaporites (anhydrite and dolostone) borehole samples, supporting the study \"Strain-rate-driven transient embrittlement explains distributed seismicity\".</p>\n<p>This dataset contains raw data from triaxial compression experiments performed on cylindrical samples of the Triassic Evaporites using a triaxial rig installed in the Rock Mechanics Laboratory of the Department of Earth Sciences, Durham University. The experiments consist of a first load-to-failure stage, where samples subjected to confining pressures of 10 or 20 MPa are loaded at strain rates of ~ 1e-4, 1e-5 or 1e-6 s-1, and a second fault reactivation stage. This experimental procedure allows the characterization of the failure mode and resulting fault slip behavior.</p>\n<p>The CSV files include time series of mechanical variables such as confining pressure, axial (vertical) load, and axial displacement.&nbsp;Information on how to convert these measurements into geologically meaningful quantities can be found in the manuscript, supplementary material and references therein.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Guglielmi, Giovanni",
+            "affiliation": "Sapienza University of Rome",
+            "orcid": "0009-0003-1754-9032"
+          },
+          {
+            "name": "Giorgetti, Carolina",
+            "affiliation": "Laboratoire de G\u00e9ologie de l'\u00c9cole Normale Sup\u00e9rieure",
+            "orcid": "0000-0002-0212-6059"
+          },
+          {
+            "name": "De Paola, Nicola",
+            "affiliation": "Durham University",
+            "orcid": "0000-0002-6367-9597"
+          },
+          {
+            "name": "Tinti, Elisa",
+            "affiliation": "Universit\u00e0 degli Studi di Roma La Sapienza Facolt\u00e0 di Scienze Matematiche Fisiche e Naturali",
+            "orcid": "0000-0002-6942-3592"
+          },
+          {
+            "name": "Collettini, Cristiano",
+            "affiliation": "Universit\u00e0 degli Studi di Roma La Sapienza",
+            "orcid": "0000-0002-4828-2516"
+          },
+          {
+            "name": "Trippetta, Fabio",
+            "affiliation": "Sapienza University of Rome",
+            "orcid": "0000-0001-8336-2194"
           }
         ],
         "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
+          "title": "Dataset",
+          "type": "dataset"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -33,258 +604,240 @@
         "relations": {
           "version": [
             {
-              "index": 3,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17640399"
+                "pid_value": "20257661"
               }
             }
           ]
         }
       },
-      "title": "HERALD: High-resolution Early Recognition of Antigenic Landscape Divergence",
+      "title": "Dataset for: Strain-rate-driven transient embrittlement explains distributed seismicity",
       "links": {
-        "self": "https://zenodo.org/api/records/17774093",
-        "self_html": "https://zenodo.org/records/17774093",
-        "preview_html": "https://zenodo.org/records/17774093?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17774093",
-        "self_doi": "https://doi.org/10.5281/zenodo.17774093",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17774093",
-        "reserve_doi": "https://zenodo.org/api/records/17774093/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17640399",
-        "parent_html": "https://zenodo.org/records/17640399",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17640399",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17640399",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17774093/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17774093/sequence/default",
-        "files": "https://zenodo.org/api/records/17774093/files",
-        "media_files": "https://zenodo.org/api/records/17774093/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17774093:HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity%20(2).pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/17774093/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17774093/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17774093/versions/latest",
-        "latest_html": "https://zenodo.org/records/17774093/latest",
-        "versions": "https://zenodo.org/api/records/17774093/versions",
-        "draft": "https://zenodo.org/api/records/17774093/draft",
-        "access_links": "https://zenodo.org/api/records/17774093/access/links",
-        "access_grants": "https://zenodo.org/api/records/17774093/access/grants",
-        "access_users": "https://zenodo.org/api/records/17774093/access/users",
-        "access_request": "https://zenodo.org/api/records/17774093/access/request",
-        "access": "https://zenodo.org/api/records/17774093/access",
-        "communities": "https://zenodo.org/api/records/17774093/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17774093/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17774093/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17774093/file-modification",
-        "requests": "https://zenodo.org/api/records/17774093/requests"
+        "self": "https://zenodo.org/api/records/20257662",
+        "self_html": "https://zenodo.org/records/20257662",
+        "preview_html": "https://zenodo.org/records/20257662?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20257662",
+        "self_doi": "https://doi.org/10.5281/zenodo.20257662",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20257662",
+        "reserve_doi": "https://zenodo.org/api/records/20257662/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20257661",
+        "parent_html": "https://zenodo.org/records/20257661",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20257661",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20257661",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20257662/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20257662/sequence/default",
+        "files": "https://zenodo.org/api/records/20257662/files",
+        "media_files": "https://zenodo.org/api/records/20257662/media-files",
+        "archive": "https://zenodo.org/api/records/20257662/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20257662/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20257662/versions/latest",
+        "latest_html": "https://zenodo.org/records/20257662/latest",
+        "versions": "https://zenodo.org/api/records/20257662/versions",
+        "draft": "https://zenodo.org/api/records/20257662/draft",
+        "access_links": "https://zenodo.org/api/records/20257662/access/links",
+        "access_grants": "https://zenodo.org/api/records/20257662/access/grants",
+        "access_users": "https://zenodo.org/api/records/20257662/access/users",
+        "access_request": "https://zenodo.org/api/records/20257662/access/request",
+        "access": "https://zenodo.org/api/records/20257662/access",
+        "communities": "https://zenodo.org/api/records/20257662/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20257662/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20257662/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20257662/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20257662/quota-increase",
+        "requests": "https://zenodo.org/api/records/20257662/requests"
       },
-      "updated": "2025-12-01T05:43:44.900977+00:00",
-      "recid": "17774093",
+      "updated": "2026-06-01T13:28:07.127893+00:00",
+      "recid": "20257662",
       "revision": 4,
       "files": [
         {
-          "id": "cc8f8bd0-67c4-4585-98e6-79439458c62d",
-          "key": "HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity (2).pdf",
-          "size": 331817,
-          "checksum": "md5:061a7da53ccf93a3923de156b82583ed",
+          "id": "a2a8a608-28d4-4af6-9307-8abffe4d10cd",
+          "key": "Dutff436.txt",
+          "size": 3447515,
+          "checksum": "md5:1ee463c61249ca6110fe9c3b41a3fdcd",
           "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD_Validation_Study_II_B__Robustness__Sensitivity__and_Geometric_Integrity (2).pdf/content"
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff436.txt/content"
           }
         },
         {
-          "id": "698de754-f829-4aed-9c36-f0d37398da42",
-          "key": "HERALD_Validation_Study_II__Retrospective_Time_Slice_Replay_on_SARS_CoV_2_Genomic_Data.pdf",
-          "size": 299252,
-          "checksum": "md5:db0ceb197d3f409cd97bdb523fad412f",
+          "id": "e7b247d0-50ab-48f6-912a-6c630aa22adb",
+          "key": "Dutff419.txt",
+          "size": 6054068,
+          "checksum": "md5:d9908b47e0007bc3fae238d36ad257e7",
           "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD_Validation_Study_II__Retrospective_Time_Slice_Replay_on_SARS_CoV_2_Genomic_Data.pdf/content"
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff419.txt/content"
           }
         },
         {
-          "id": "7306d5aa-27d3-40a5-bc4a-0589fcc07170",
-          "key": "HERALD_Validation_Study__Empirical_Confirmation_of_Learned_Geometric_Separation_on_SARS_CoV_2_RBD_Data.pdf",
-          "size": 250317,
-          "checksum": "md5:f5e44406e46d24117ae71dc1e4e2d5de",
+          "id": "2b4b9289-5309-4b3f-9315-63352ab1478c",
+          "key": "Dutff431.txt",
+          "size": 3885960,
+          "checksum": "md5:e842da53ebeea66ea9715853014df691",
           "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD_Validation_Study__Empirical_Confirmation_of_Learned_Geometric_Separation_on_SARS_CoV_2_RBD_Data.pdf/content"
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff431.txt/content"
           }
         },
         {
-          "id": "437f0c9d-c7af-4b3a-a7dd-3aa18ef00e56",
-          "key": "HEARALD_DMS_Validation_Study.pdf",
-          "size": 428892,
-          "checksum": "md5:3b05562b49f09949fc7f57005a4c317d",
+          "id": "68ab13ac-c2f8-42ae-a933-006ac917525c",
+          "key": "Dutff432.txt",
+          "size": 3806157,
+          "checksum": "md5:2f7a1b29c0830dff80003a4580668e2d",
           "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HEARALD_DMS_Validation_Study.pdf/content"
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff432.txt/content"
           }
         },
         {
-          "id": "1653851f-ce6b-4242-bde6-139b055f68fb",
-          "key": "HERALD__High_resolution_Early_Recognition_of_Antigenic_Landscape_Divergence_FINAL.pdf",
-          "size": 524571,
-          "checksum": "md5:f8254fc65ad030a654696e28f807e877",
+          "id": "3f06c1a5-fa09-493b-a64f-ed7e1cb85764",
+          "key": "Dutff420.txt",
+          "size": 3642571,
+          "checksum": "md5:af64a5b3d7352ee20d6beca135527e81",
           "links": {
-            "self": "https://zenodo.org/api/records/17774093/files/HERALD__High_resolution_Early_Recognition_of_Antigenic_Landscape_Divergence_FINAL.pdf/content"
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff420.txt/content"
+          }
+        },
+        {
+          "id": "1fed8e0f-1389-4618-a5c5-ca6dc36139a5",
+          "key": "Dutff437.txt",
+          "size": 2483666,
+          "checksum": "md5:0a4a840301ae28dc0f42a49eb660bf0d",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff437.txt/content"
+          }
+        },
+        {
+          "id": "2b627b61-488d-4f92-8f7f-98a6d774f97e",
+          "key": "Dutff422.txt",
+          "size": 3665736,
+          "checksum": "md5:e2527b670685383d55cb14ab293312c8",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff422.txt/content"
+          }
+        },
+        {
+          "id": "fbb3db8e-d554-4f3e-8c09-adaed28c0867",
+          "key": "Dutff429.txt",
+          "size": 1248474,
+          "checksum": "md5:3ce26e99758a822a355c1dc18a8aa848",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff429.txt/content"
+          }
+        },
+        {
+          "id": "388f996c-81d8-40a9-9db0-67bcb04a1e92",
+          "key": "Dutff423.txt",
+          "size": 5529957,
+          "checksum": "md5:b8155e548e67ed7a3f3138c7998c5189",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff423.txt/content"
+          }
+        },
+        {
+          "id": "999ea510-4b11-416d-accb-8356179ad116",
+          "key": "Dutff433.txt",
+          "size": 3769017,
+          "checksum": "md5:ac29254a44ecfdbc531b52d76b1bac00",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff433.txt/content"
+          }
+        },
+        {
+          "id": "42fadd65-2511-4915-bd7a-47e96116a6ee",
+          "key": "Dutff421.txt",
+          "size": 5139952,
+          "checksum": "md5:ad24f46d7e720700cc0dafe0d0a1a4d3",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff421.txt/content"
+          }
+        },
+        {
+          "id": "bf8a0054-6d2b-48c7-9244-a62f7b05092f",
+          "key": "Dutff489.txt",
+          "size": 15108842,
+          "checksum": "md5:2728db301270da01a349f970b44902f0",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff489.txt/content"
+          }
+        },
+        {
+          "id": "00d9f9fc-4a99-4b2a-a0bf-8786e0b65cf8",
+          "key": "Dutff428.txt",
+          "size": 1572996,
+          "checksum": "md5:97fd6071f29c3b4bd5b45df32fb34f6b",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff428.txt/content"
+          }
+        },
+        {
+          "id": "3317f624-df7e-45d3-a60f-651f830a6533",
+          "key": "Dutff430.txt",
+          "size": 3468567,
+          "checksum": "md5:ddbe87318a4ad870569c00abadc2e151",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff430.txt/content"
+          }
+        },
+        {
+          "id": "c135eed3-3b63-47c9-904a-3b076cff914d",
+          "key": "Dutff490.txt",
+          "size": 10292916,
+          "checksum": "md5:a5cb0f6a18b03d8fca015b6578eb47b8",
+          "links": {
+            "self": "https://zenodo.org/api/records/20257662/files/Dutff490.txt/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1368182"
+          "id": "1492156"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 51,
-        "unique_downloads": 38,
-        "views": 55,
-        "unique_views": 52,
-        "version_downloads": 3,
-        "version_unique_downloads": 3,
-        "version_unique_views": 2,
-        "version_views": 2
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-12-01T04:52:49.817156+00:00",
-      "modified": "2025-12-01T04:52:50.246641+00:00",
-      "id": 17773724,
-      "conceptrecid": "17773723",
-      "doi": "10.5281/zenodo.17773724",
-      "conceptdoi": "10.5281/zenodo.17773723",
-      "doi_url": "https://doi.org/10.5281/zenodo.17773724",
+      "created": "2026-06-01T12:53:38.531663+00:00",
+      "modified": "2026-06-01T12:53:38.803120+00:00",
+      "id": 20490001,
+      "conceptrecid": "20490000",
+      "doi": "10.5281/zenodo.20490001",
+      "conceptdoi": "10.5281/zenodo.20490000",
+      "doi_url": "https://doi.org/10.5281/zenodo.20490001",
       "metadata": {
-        "title": "Agrochemicals in sericulture and silk industry, and their effects on the human health and environment",
-        "doi": "10.5281/zenodo.17773724",
-        "publication_date": "2023-08-04",
-        "description": "<p>Sericulture is a labour-intensive textile industry that involves growing food plants for silkworms, raising them, reeling their silk, and performing various post-cocoon operations, including twisting, dying, weaving, printing, and finishing. It employs a huge number of rural people; the majority are small and marginal farmers or work in the tiny and home sector, mostly in the hand reeling and hand weaving sections. Despite the fact that silk is of natural origin, the silk industry uses some health-hazardous substances at all stages from mulberry farming through silk fabric finishing. Pesticides, fungicides, nematicides, bactericides, and herbicides are the most common in mulberry cultivation. Similar to mulberry agrochemicals, the pre-cocoon industry employs a wide range of disinfectants and bed disinfectants to protect the silkworm crop against infections. And also, a separate class of agrochemicals is utilised in dyeing, printing, and washing because it improves the reeling process and silk quality. However, these compounds create respiratory issues and are carcinogenic to humans, as indicated by dermatitis, skin lesions, back aches, bronchial asthma, coughs, gastrointestinal pains, ulcers, throat infections, thinning nails, dry skin, and hand and eye burning. In addition to human concerns, persistent chemicals endanger the ecosystem and contribute to the overall chemicalization of aquatic and terrestrial environments. As a result, whenever possible, the discharge of toxic compounds into the natural environment should be reduced. Unfortunately, in developing countries like India, where large quantities of these chemicals are generated and dumped into the environment, they are not properly managed because little is known about their potential risks and benefits if properly managed. In this article, we intend to explore the major sources of sericulture agrochemicals, their potential risks, and how they can be properly managed.</p>\n<p>published by the <a href=\"https://innspub.net/journal-of-biodiversity-and-environmental-sciences/\"><strong>Journal of Biodiversity and Environmental Sciences | JBES</strong></a></p>\n<div>\n<div>&nbsp;</div>\n</div>",
+        "title": "MATERIAL CULTURE OF ANCIENT NORTHERN BACTRIA: PROBLEMS OF HISTORICAL ANALYSIS AND RECONSTRUCTION",
+        "doi": "10.5281/zenodo.20490001",
+        "publication_date": "2026-06-01",
+        "description": "<p class=\"MsoNormal\">This article analyzes the material culture of ancient Northern Bactria based on historical sources and archaeological finds. The study scientifically studies the ruins of cities, defensive structures, remains of dwellings, pottery, coins and other samples of material culture identified as a result of archaeological excavations in the territory of Northern Bactria. It also highlights the importance of these sources in the reconstruction of socio-economic, political and cultural processes of antiquity. The article analyzes the methodological problems encountered in the process of historical reconstruction, the lack of sources, various approaches to interpreting archaeological materials and the possibilities of modern research methods. The results of the study serve to clarify the place and role of Northern Bactria in the history of Central Asian civilizations.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "J., Harishkumar",
-            "affiliation": "Department of Studies in Sericulture Science, University of Mysore, Mysuru, India"
-          }
-        ],
-        "contributors": [
-          {
-            "name": "R. Ravi, Kumara",
-            "affiliation": "Department of Studies in Sericulture Science, University of Mysore, Mysuru, India",
-            "type": "Researcher"
-          },
-          {
-            "name": "MS., Santhosh",
-            "affiliation": "Department of Studies in Environmental Science, University of Mysore, Mysuru, India",
-            "type": "Researcher"
-          },
-          {
-            "name": "K., Ravikumara",
-            "affiliation": "Department of Studies in Biotechnology, University of Mysore, Mysuru, India",
-            "type": "Researcher"
+            "name": "Nazarova, Nozima Narzulloyevna",
+            "affiliation": "University of Exact and Social Sciences 2nd year master's student, Faculty of History"
           }
         ],
         "keywords": [
-          "Agrochemicals",
-          "Mulberry",
-          "Silkworm",
-          "Sericulture",
-          "Silk industry"
-        ],
-        "dates": [
-          {
-            "type": "available",
-            "description": "article published"
-          }
+          "Northern Bactria, antiquity, material culture, historical reconstruction, archaeological sources, urban planning, pottery, numismatics, cultural heritage, archaeological monuments, historical processes, Central Asia, Greco-Bactrian state, Kushan period, historical analysis."
         ],
         "references": [
-          "Afroz S, Manjunatha GR, Biswas TD, Pandit D. 2018. Skill Gap Analysis in Silkworm Rearing among Farmers and Extension Workers in Eastern India. Indian Journal of Extension Education 54, 85-90.",
-          "Ali, Samir S, Al-Tohamy R, Koutra E, Kornaros M, Khalil M, Elsamahy T, El-Shetehy M, Sun J. 2021. Coupling azo dye degradation and biodiesel production by manganese-dependent peroxidase producing oleaginous yeasts isolated from wood-feeding termite gut symbionts. Biotechnology for biofuels 14, 1-25.",
-          "Ali, Samir S, Al-Tohamy R, Sun J. 2022. Performance of Meyerozyma caribbica as a novel manganese peroxidase-producing yeast inhabiting wood-feeding termite gut symbionts for azo dye decolorization and detoxification. Science of The Total Environment 806.",
-          "Al-Tohamy R, Kenawy ER, Sun J, Ali SS. 2020a. Performance of a newly isolated salt-tolerant yeast strain Sterigmatomyces halophilus SSA-1575 for azo dye decolorization and detoxification. Frontiers in Microbiology 11, 1163.",
-          "Al-Tohamy R, Sun J, Fareed MF, Kenawy ER, Ali SS. 2020b. Ecofriendly biodegradation of Reactive Black 5 by newly isolated Sterigmatomyces halophilus SSA1575 valued for textile azo dye wastewater processing and detoxification. Scientific Reports 10, 1-16.",
-          "Anonymous. 2022. Note on Sericulture CSB 2021-22. Last updated: 30 March, 2022. https:// texmin.nic.in/sites/default/files/Note%20on%20Sericulture%20CSB%202021-22.pdf",
-          "Anonymous. 2023. Mulberry Diseases and Microbes. Karnataka State Sericulture Research and Development Institute Talagattapura. Available at: https://kssrdi.karnataka.gov.in/page/Contributions/Moriculture%20Technologies/Mulberry+Diseases+&+Microbes/en (Accessed: 20 July 2023)",
-          "Arunkumar P, Kumar VS, Saran S, Bindun H, Devipriya SP. 2019. Isolation of active coagulant protein from the seeds of Strychnos potatorum-a potential water treatment agent. Environmental technology 40, 1624-1632.",
-          "Bangladesh Centre for Advanced Studies (BCAS). 1997. Study on Textile Dyeing and Printing Industries in Bangladesh. Technical and Socio-Economic Survey and Case Studies. BCAS, Dhaka, Bangladesh.",
-          "Bichi MH. 2013. A review of the applications of Moringa oleifera seeds extract in water treatment. Civil and Environmental Research 3, 1-10.",
-          "Biswas S, Das KK, Mandal SK, Sen SK. 1996. Effects of host genotypes, shoot age and climatic conditions on the development of Phyllactinia corylea in mulberry. Sericologia 36, 729-736.",
-          "Cassault-Meyer, Estelle, Gress S, Gilles-\u00c9ric S, Galeraud-Denis I. 2014. An acute exposure to glyphosate-based herbicide alters aromatase levels in testis and sperm nuclear quality. Environmental Toxicology and Pharmacology 38, 131-140.",
-          "Caux PY, Kent RA, Fan GT, Stephenson GL. 1996. Environmental fate and effects of chlorothalonil: A Canadian perspective. Critical Reviews in Environmental Science and Technology 26, 45-93.",
-          "Cement S. 2005. Material Safety Data Sheet \u2013 Hydrated Lime. Kern County Agriculture and Measurement Standards. Available from: https:// kernred.co.kern.ca.us/kern-agcomm/products/HYD RA TED%20LIME.pdf (Accessed: 24 May 2023).",
-          "Chauhan SK, Sakshi C, Megha R. 2015. A study in the impact of sericulture development programmes in Himachal Pradesh. Indian Journal of Agricultural Economics 70, 289-290.",
-          "Chauhan SK. 2002. Sericulture- A tool for income and employment generation in Himachal Pradesh. Asian Economic Review 44, 512-520.",
-          "Christopher. 2015. Pesticides: What is Dicofol? Chem Service News and Events. Available from: https://www.chemservice.com/news/what-is-dicofol/ (Accessed: 24 May 2023).",
-          "Chung KT. 1983. The significance of azo-reduction in the mutagenesis and carcinogenesis of azo dyes. Mutation Research/Reviews in Genetic Toxicology 114, 269-281.",
-          "Clark M. (Ed.). 2011. Handbook of Textile and Industrial Dyeing: Principles, Processes and Types of Dyes. United Kingdom: Elsevier Science.",
-          "Condie, Lyman W. 1986. Toxicological problems associated with chlorine dioxide. Journal American Water Works Association 78, 73-78.",
-          "CSGRC Hosuru. 2023. Annex-IV, Silkworm germplasm \u2013 CSR&TI, Mysuru 1-8. http://csgrc.res.in /down loads/SG-CSRTI-MYS.pdf (Acce: 24 May 2023).",
-          "Department of Climate Change, Energy, the Environment and Water. 2018. Formaldehyde., Department of Climate Change, Energy, the Environment and Water. Last updated: 30 June 2022. https://www.dcceew.gov.au/sites/default /files/documents/factsheet-formaldehyde.pdf",
-          "Elgarahy AM, Elwakeel KZ, Mohammad SH, Elshoubaky GA. 2021. A critical review of biosorption of dyes, heavy metals and metalloids from wastewater as an efficient and green process. Cleaner Engineering and Technology 4, 100209.",
-          "Feng J, Cerniglia CE, Chen H. 2012. Toxicological significance of azo dye metabolism by human intestinal microbiota. Frontiers in bioscience 4, 568.",
-          "Frimmel FH, Grenz R, Kordik E, Dietz F. 1989. Nitrilotriacetat and Ethylendinitrilotetraacetat (EDTA) in Flie\u00dfgew\u00e4ssern der Bundesrepublik Deutschland. Vom Wasser 72, 175-184.",
-          "Gasnier, C\u00e9line, Dumont C, Benachour N, Clair E, Marie-Christine C, Gilles-Eric S. 2009. Glyphosate-based herbicides are toxic and endocrine disruptors in human cell lines. Toxicology 262, 184-191.",
-          "Govindaiah G, Gupta VP, Sharma DD, Rajadurai S, Naik NV. 2005. A Textbook on Mulberry Crop Protection. Published by Central Silk Board, Bangalore 68, 207-215.",
-          "Govindan R, Narayanaswamy TK, Devaiah MC. 1998. Principles of silkworm pathology. Seri Scientific Publishers 352-364.",
-          "Gunashekhar V, Govindaiah, Himantharaju MT. 1995. Efficacy of fungicides in controlling mulberry leaf rust caused by Cerotelium fici. Indian Journal of Sericulture 34, 60-62.",
-          "Gupta VP. 2001. Diseases of mulberry and their management. In P.C. Trivedi, Plant Pathology, Pointer Publishers, India 130- 164.",
-          "Guyton, Kathryn Z, Loomis D, Grosse Y, Ghissassi FEl, Benbrahim-Tallaa L, Guha N, Scoccianti C, Mattock H, Straif K. 2015. Carcinogenicity of tetrachlorvinphos, parathion, malathion, diazinon, and glyphosate. The Lancet Oncology 16, 490-491.",
-          "Hanger K. 2003. Industrial Dyes: Chemistry, Properties and Applications, Health and Safety Aspects. Germany: Wiley-VCH.",
-          "Harindranath N, Prakash O, Subba Rao PV. 1985. Prevalence of occupational asthma in silk filatures. Annals of Allergy 55, 511-515.",
-          "Isaiarasu L, Ganesan R. 2005. Weed flora in a mulberry garden near Sivakasi, Tamil Nadu. Bionotes 7, 64-65.",
-          "Jiku MA, Singha A, Faruquee M, Rahaman MA, Alam MA, Ehsanullah M. 2021. Toxic wastewater status for irrigation usage at Gazipur and Savar industrial vicinity of Bangladesh. Acta Ecologica Sinica 41, 358-364.",
-          "Jin X, Wu C, Tian X, Wang P, Zhou Y, Zuo J. 2021. A magnetic-void-porous MnFe2O4/carbon microspheres nano-catalyst for catalytic ozonation: Preparation, performance and mechanism. Environmental Science and Ecotechnology 7, 100110.",
-          "John, Mary E, Shaike JM. 2015. Chlorpyrifos: pollution and remediation. Environmental Chemistry Letters 13, 269-291.",
-          "Konwar, Pompi, Saikia M, Saikia S. 2022. Impact of bed disinfectants in mulberry silkworm rearing. The Pharma Innovation Journal 11, 1613-1617.",
-          "Kools SA, Roovert VM, Gestel VCA, Straalen VNM. 2005. Glyphosate degradation as a soil health indicator for heavy metal polluted soils. Soil Biology and Biochemistry 37, 1303-1307.",
-          "Lakshmanan V, Jaishankar, Qadri SMH. 2010. Application of lime during moult and impact. Indian Silk 1, 10- 11.",
-          "Lellis B, F\u00e1varo-Polonio CZ, Pamphile JA, Polonio JC. 2019. Effects of textile dyes on health and the environment and bioremediation potential of living organisms. Biotechnology Research and Innovation 3, 275-290.",
-          "Lewis KA, Tzilivakis J, Warner D, Green A. 2016. An international database for pesticide risk assessments and management. Human and Ecological Risk Assessment: An International Journal 22, 1050-1064.",
-          "Li F, Zhao K, Ng TS, Dai Y, Wang CH. 2022. Sustainable production of bio-oil and carbonaceous materials from biowaste co-pyrolysis. Chemical Engineering Journal 427, 131821.",
-          "Mahadevappa D, Halliyal VG, Shankar DG, Bhandiwad R. 2000. Mulberry silk Reeling Technology. Oxford and IBH Publishing Company 150-160.",
-          "Mahanta DK, Komal J. 2022. Sericulture and its Salient Features. Vigyan Varta 3, 105-110.",
-          "Manickam P, Vijay D. 2021. Chemical hazards in textiles. In Chemical Management in Textiles and Fashion. Woodhead Publishing 19-52.",
-          "Misau MI, Abdulsalam S, Abdulkarim A. 2015. Water melon seed as a potential coagulant for water treatment. Global Journals of Research in Engineering 15, 17-23.",
-          "Mozzachio AM, Rusiecki JA, Hoppin JA, Mahajan R, Patel R, Beane-Freeman L, Alavanja MC. 2008. Chlorothalonil exposure and cancer incidence among pesticide applicator participants in the agricultural health study. Environmental research 108, 400-403.",
-          "Muda, Khalida, Ali NSA, Abdullah UN, Sahir AB. 2020. Potential use of fruit seeds and plant leaves as coagulation agent in water treatment. Journal of Environmental Treat Technology 8, 971-977.",
-          "National Research Council (US) Committee on Toxicology. 1980. Formaldehyde \u2013 An Assessment of Its Health Effects. Washington (DC): National Academies Press (US). Available from: https:// www.ncbi.nlm.nih.gov/books/NBK217655  DOI: 10. 17226/705",
-          "Nishikawa Y, Okumura T. 1995. Determination of nitrilotriacetic acid and ethylenediaminetetraacetic acid in environmental samples as their methyl ester derivatives by gas chromatography-mass spectrometry. Journal of Chromatography A 690, 109-118.",
-          "Ogada DL. 2014. The power of poison: pesticide poisoning of Africa's wildlife. Annals of the New York Academy of Sciences 1322, 1-20.",
-          "Pandey RK, Miransahib. 2014. Jammu, India: Regional Sericultural Research Station; Occupational Health Problems in Silk Production: A Review.",
-          "Philip T. 1997. Mulberry diseases: Prevention is better than control. Indian Silk 36, 14-16.",
-          "Pietsch J, Schmidt W, Sacher F, Fichtner S, Brauch HJ. 1995. Pesticides and other organic micro pollutants in the river Elbe. Fresenius Journal of Analytical Chemistry 353, 75-82.",
-          "Priyadharshini P, Joncy MA, Sivaranjani B, Mavilashaw VP. 2016. Health Risks In Silk Industry. Journal of International Academic Research for Multidisciplinary 4, 66-76.",
-          "Rajan RK, Himantaraj MT. 2005. Textbook on Silkworm Rearing Technology. Published by Central Silk Board, Bangalore 20-50.",
-          "Raman P. 2014. Chlorothalonil, Editor(s): Philip Wexler, Encyclopedia of Toxicology (Third Edition), Academic Press 919-922.",
-          "Ramanathan, Arun. 1997. India Silk, Central Silk Board Bangalore, India 36.",
-          "Sakthivel N, Ravikumar J, Mukund C, Kirsur V, Bindroo BB, Sivaprasad V. 2014. Organic Farming In Mulberry: Recent Breakthrough, Technical Bulletin. Central Silk Board publication 1-28.",
-          "Sangchan W, Bannwarth M, Ingwersen J, Hugenschmidt C, Schwadorf K, Thavornyutikarn P, Pansombat K, Streck T. 2014. Monitoring and risk assessment of pesticides in a tropical river of an agricultural watershed in northern Thailand. Environmental monitoring and assessment 186, 1083-99.",
-          "Saxena S, Raja AS. 2014. Natural dyes: sources, chemistry, application and sustainability issues. Roadmap to sustainable textiles and clothing: eco-friendly raw materials, technologies, and processing methods 37-80.",
-          "Setua GC, Setua M, Dutta AK, Saratchandra B. 2008. Botanical weed management in irrigated mulberry: A new approach. Indian silk 46, 15-17.",
-          "Sharma DD. 1998. Eco-friendly approach for management of Root knot. Indian silk 15-16.",
-          "Shyamala MB, Govindan R, Hadimani AK, Narayanaswamy TK, Eswarappa S. 1987. Kenchu- A silkworm flacherie in karnataka. University of Agriculture Science Technical Series, Bangalore, India. India 49, 146.",
-          "Sihtm\u00e4e M, Blinova I, K\u00fcnnis-Beres K, Kanarbik L, Heinlaan M, Kahru A. 2013. Ecotoxicological effects of different glyphosate formulations. Applied Soil Ecology 72, 215-224.",
-          "Singha K, Pandit P, Maity S, Sharma SR. 2021. Harmful environmental effects for textile chemical dyeing practice. Green Chemistry for Sustainable Textiles. Woodhead Publishing 153-164.",
-          "Sojobi, Olatunbosun A, Zayed T. 2022. Impact of sewer overflow on public health: A comprehensive scientometric analysis and systematic review. Environmental research 203, 111609.",
-          "Sonwalkar, Tammanna N. 1993. Hand book of silk technology. Taylor and Francis 230-240.",
-          "Stackelberg VK. 2013. A systematic review of carcinogenic outcomes and potential mechanisms from exposure to 2, 4-D and MCPA in the environment. Journal of toxicology. Article ID 371610 53. http://dx.doi.org/10.1155/2013/371610 .",
-          "Strid A, Cross A, Jenkins J. 2018. Captan general fact sheet, National Pesticide Information Center, Oregon State University. Available from: http://www.npic.orst.edu/factsheets/captangen.pdf",
-          "Subramani T, Somasundaram SK. 2015. A case study of occupational hazards in silk industry. Int J App Inn Eng and Manag 4, 223-233.",
-          "Tounsadi H, Metarfi Y, Taleb M, Rhazi EK, Rais Z. 2020. Impact of chemical substances used in textile industry on the employee's health: Epidemiological study. Ecotoxicology and environmental safety 197, 110594.",
-          "Van-Gestel CA, Dirven-Van Breemen EM, Baerselman R, Emans HJ, Janssen, JA, Postuma R, Van Vliet PJ. 1992. Comparison of sublethal and lethal criteria for nine different chemicals in standardized toxicity tests using the earthworm Eisenia andrei. Ecotoxicology and Environmental Safety 23, 206-220.",
-          "Wani KA, Jaiswal YK. 2011. Health hazards of rearing silkworms and environmental impact assessment of rearing households of Kashmir, India. Nature Environment and Pollution Technology 10, 85-90",
-          "Watts M. 2014. Highly Hazardous Pesticides: Dichlorvos (DDVP). Pesticide Action Network Asia and the Pacific. Available from: www.panap.net",
-          "Whitacre, David M. 2014. Reviews of Environmental Contamination and Toxicology (Chapter 4). Volume 232. Environmental Fate and Toxicology of Chlorothalonil 89-105.",
-          "Wu L, Xu Y, Lv X, Chang X, Ma X, Tian X, Shi X, Li X, Kong X. 2021. Impacts of an azo food dye tartrazine uptake on intestinal barrier, oxidative stress, inflammatory response and intestinal microbiome in crucian carp (Carassius auratus). Ecotoxicology and Environmental Safety 223, 112551.",
-          "Zhou T, Guo T, Wang Y, Wang A, Zhang M. 2022. Carbendazim: Ecological risks, toxicities, degradation pathways and potential risks to human health. Chemosphere 137723."
+          "1.\u0410\u0441\u043a\u0430\u0440\u043e\u0432 \u0410.\u0410. \u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0442\u0430\u0440\u0438\u0445\u0438. \u2013 \u0422\u043e\u0448\u043a\u0435\u043d\u0442: \u040e\u049b\u0438\u0442\u0443\u0432\u0447\u0438, 1994. \u2013 512 \u0431.",
+          "2. \u0420\u0442\u0432\u0435\u043b\u0430\u0434\u0437\u0435 \u042d.\u0412. \u0426\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u0438, \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0430, \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0439 \u0410\u0437\u0438\u0438. \u2013 \u0422\u0430\u0448\u043a\u0435\u043d\u0442: \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d, 2005. \u2013 312 \u0441.",
+          "3. \u041b\u0438\u0442\u0432\u0438\u043d\u0441\u043a\u0438\u0439 \u0411.\u0410. \u0414\u0440\u0435\u0432\u043d\u044f\u044f \u0411\u0430\u043a\u0442\u0440\u0438\u044f: \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0438 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b. \u2013 \u041c\u043e\u0441\u043a\u0432\u0430: \u041d\u0430\u0443\u043a\u0430, 1989. \u2013 287 \u0441.",
+          "4. \u0428\u0438\u0440\u0438\u043d\u043e\u0432 \u0422.\u0428. \u0410\u0440\u0445\u0435\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0430\u043c\u044f\u0442\u043d\u0438\u043a\u0438 \u042e\u0436\u043d\u043e\u0433\u043e \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0430. \u2013 \u0422\u0430\u0448\u043a\u0435\u043d\u0442: \u0424\u0430\u043d, 2011. \u2013 256 \u0441.",
+          "5. Frye R.N. The Heritage of Central Asia: From Antiquity to the Turkish Expansion. \u2013 Princeton: Markus Wiener Publishers, 1996. \u2013 384 p."
         ],
         "language": "eng",
         "resource_type": {
@@ -293,24 +846,14 @@
           "subtype": "article"
         },
         "journal": {
-          "issue": "2",
-          "pages": "1-17",
-          "title": "Journal of Biodiversity and Environmental Sciences (JBES)",
-          "volume": "23"
+          "issue": "5",
+          "pages": "137-143",
+          "title": "HSR (London), Houghton Street Review",
+          "volume": "12"
         },
-        "alternate_identifiers": [
-          {
-            "identifier": "https://innspub.net/agrochemicals-in-sericulture-and-silk-industry-and-their-effects-on-the-human-health-and-environment/"
-          }
-        ],
         "license": {
           "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "jbes"
-          }
-        ],
         "relations": {
           "version": [
             {
@@ -318,1147 +861,1092 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17773723"
+                "pid_value": "20490000"
               }
             }
           ]
         }
       },
-      "title": "Agrochemicals in sericulture and silk industry, and their effects on the human health and environment",
+      "title": "MATERIAL CULTURE OF ANCIENT NORTHERN BACTRIA: PROBLEMS OF HISTORICAL ANALYSIS AND RECONSTRUCTION",
       "links": {
-        "self": "https://zenodo.org/api/records/17773724",
-        "self_html": "https://zenodo.org/records/17773724",
-        "preview_html": "https://zenodo.org/records/17773724?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17773724",
-        "self_doi": "https://doi.org/10.5281/zenodo.17773724",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17773724",
-        "reserve_doi": "https://zenodo.org/api/records/17773724/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17773723",
-        "parent_html": "https://zenodo.org/records/17773723",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17773723",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17773723",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17773724/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17773724/sequence/default",
-        "files": "https://zenodo.org/api/records/17773724/files",
-        "media_files": "https://zenodo.org/api/records/17773724/media-files",
+        "self": "https://zenodo.org/api/records/20490001",
+        "self_html": "https://zenodo.org/records/20490001",
+        "preview_html": "https://zenodo.org/records/20490001?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20490001",
+        "self_doi": "https://doi.org/10.5281/zenodo.20490001",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490001",
+        "reserve_doi": "https://zenodo.org/api/records/20490001/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20490000",
+        "parent_html": "https://zenodo.org/records/20490000",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20490000",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490000",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20490001/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20490001/sequence/default",
+        "files": "https://zenodo.org/api/records/20490001/files",
+        "media_files": "https://zenodo.org/api/records/20490001/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17773724:JBES-V23-No2-p1-17.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17773724:JBES-V23-No2-p1-17.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17773724:JBES-V23-No2-p1-17.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17773724:JBES-V23-No2-p1-17.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17773724:JBES-V23-No2-p1-17.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17773724:JBES-V23-No2-p1-17.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:20490001:137-143.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20490001:137-143.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20490001:137-143.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20490001:137-143.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20490001:137-143.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20490001:137-143.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17773724/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17773724/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17773724/versions/latest",
-        "latest_html": "https://zenodo.org/records/17773724/latest",
-        "versions": "https://zenodo.org/api/records/17773724/versions",
-        "draft": "https://zenodo.org/api/records/17773724/draft",
-        "access_links": "https://zenodo.org/api/records/17773724/access/links",
-        "access_grants": "https://zenodo.org/api/records/17773724/access/grants",
-        "access_users": "https://zenodo.org/api/records/17773724/access/users",
-        "access_request": "https://zenodo.org/api/records/17773724/access/request",
-        "access": "https://zenodo.org/api/records/17773724/access",
-        "communities": "https://zenodo.org/api/records/17773724/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17773724/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17773724/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17773724/file-modification",
-        "requests": "https://zenodo.org/api/records/17773724/requests"
+        "archive": "https://zenodo.org/api/records/20490001/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20490001/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20490001/versions/latest",
+        "latest_html": "https://zenodo.org/records/20490001/latest",
+        "versions": "https://zenodo.org/api/records/20490001/versions",
+        "draft": "https://zenodo.org/api/records/20490001/draft",
+        "access_links": "https://zenodo.org/api/records/20490001/access/links",
+        "access_grants": "https://zenodo.org/api/records/20490001/access/grants",
+        "access_users": "https://zenodo.org/api/records/20490001/access/users",
+        "access_request": "https://zenodo.org/api/records/20490001/access/request",
+        "access": "https://zenodo.org/api/records/20490001/access",
+        "communities": "https://zenodo.org/api/records/20490001/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20490001/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20490001/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20490001/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20490001/quota-increase",
+        "requests": "https://zenodo.org/api/records/20490001/requests"
       },
-      "updated": "2025-12-01T04:52:50.246641+00:00",
-      "recid": "17773724",
+      "updated": "2026-06-01T12:53:38.803120+00:00",
+      "recid": "20490001",
       "revision": 4,
       "files": [
         {
-          "id": "2fcae8eb-3bd8-4aee-8168-5cd5e8519cfc",
-          "key": "JBES-V23-No2-p1-17.pdf",
-          "size": 460461,
-          "checksum": "md5:a18fa28a5c4ba7fdeb793677597a27c6",
+          "id": "567f0d7d-1b6d-4ad5-951d-8ddf1a77aa42",
+          "key": "137-143.pdf",
+          "size": 232812,
+          "checksum": "md5:64822e2bc65564597d76cd7bbd5835d0",
           "links": {
-            "self": "https://zenodo.org/api/records/17773724/files/JBES-V23-No2-p1-17.pdf/content"
+            "self": "https://zenodo.org/api/records/20490001/files/137-143.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "598309"
+          "id": "488486"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 2,
-        "unique_downloads": 2,
-        "views": 10,
-        "unique_views": 9,
-        "version_downloads": 2,
-        "version_unique_downloads": 2,
-        "version_unique_views": 9,
-        "version_views": 10
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-12-01T03:45:50.185278+00:00",
-      "modified": "2025-12-01T03:48:48.617750+00:00",
-      "id": 17773507,
-      "conceptrecid": "17773506",
-      "doi": "10.5281/zenodo.17773507",
-      "conceptdoi": "10.5281/zenodo.17773506",
-      "doi_url": "https://doi.org/10.5281/zenodo.17773507",
+      "created": "2026-06-01T11:29:47.674307+00:00",
+      "modified": "2026-06-01T11:29:48.286164+00:00",
+      "id": 20430934,
+      "conceptrecid": "17629575",
+      "doi": "10.5281/zenodo.20430934",
+      "conceptdoi": "10.5281/zenodo.17629575",
+      "doi_url": "https://doi.org/10.5281/zenodo.20430934",
       "metadata": {
-        "title": "PREreview of \"Withdrawn: The Electron as a M\u00f6bius-Wrapped Photon: A Node-Based Reconstruction of Atomic Structure\"",
-        "doi": "10.5281/zenodo.17773507",
-        "publication_date": "2025-12-01",
-        "description": "<p><strong>This Zenodo record is a permanently preserved version of a PREreview. You can view the complete PREreview at <a href=\"https://prereview.org/reviews/17773507\">https://prereview.org/reviews/17773507</a>.</strong></p>\n\n<p>The electron is re-examined as a single electromagnetic wave that closes upon itself with a half-twist, forming a M\u00f6bius ribbon whose circumference equals one reduced Compton wavelength. This topological closure traps the invariant rest-energy and forces the field to return to its initial phase only after a 4\u03c0 rotation, reproducing spin one-half without invoking abstract spinors. Adding an integer number <i>N</i> of radial nodes generates a standing-wave ladder where frequency and radius scale as <i>f<sub>N</sub></i> = <i>f<sub>0</sub></i>/(<i>N</i> +1) and <i>r<sub>N</sub></i> = (<i>N</i> +1)<i>r<sub>inner</sub></i>. The ladder matches the Bohr--Rydberg spectrum when <i>n=N+1</i> and links the fine-structure constant to the Compton--Bohr radius ratio <i>\u03b1</i> = <i>r<sub>inner</sub></i>/<i>a<sub>0</sub></i>. We give a concrete sketch for the Schwinger anomaly from core--envelope interference and outline how point-like scattering can coexist with a finite geometric core. The geometry yields two near-term tests: an <i>enhanced h</i>/2<i>e</i> harmonic in mesoscopic Aharonov--Bohm rings (with the usual <i>h</i>/<i>e</i> present but relatively suppressed in a specific regime), and a forward-Compton form-factor minimum at a momentum transfer set by <i>Qr<sub>inner</sub></i>\u2248 <i>x<sub>1</sub></i> with <i>x<sub>1</sub></i> the first Bessel zero (<i>x<sub>1</sub></i> \u2248 2.4048), i.e. <i>Q</i> \u2243 1.2 MeV/c to 1.6 MeV/c depending on the aperture kernel (ring-like <i>J<sub>0</sub></i> vs spherical sinc). We also streamline the orbital taxonomy (S,P,D,...) as <i>emergent angular families</i> from azimuthal node counts; the music-note analogy is offered only as a light heuristic.</p>\n\n    <h2>Competing interests</h2>\n\n    <p>The authors declare that they have no competing interests.</p>\n\n    <h2>Use of Artificial Intelligence (AI)</h2>\n\n    <p>The authors declare that they did not use generative AI to come up with new ideas for their review.</p>",
+        "title": "Intraspecific variability exceeds interspecific variability in thermal responses of Baltic Sea Ostreococcus (Mamiellophyceae) traits",
+        "doi": "10.5281/zenodo.20430934",
+        "publication_date": "2026-05-28",
+        "description": "<p>These are the R Scripts and data files needed to run the statistics in&nbsp;</p>\n<p><strong>Thermal responses of Baltic Sea Ostreococcus vary in their levels of intra- and interspecific variability &nbsp;</strong></p>\n<p>Authors: Carina Peters*, Marie Vogel, Luisa Listmann, C.-Elisa Schaum</p>\n<p>*Corresponding Author: carina.peters@uni-hamburg.de</p>\n<p>The csv files usually contain the data needed for analysis, the Scripts are for the following analyses:</p>\n<p><strong>1. R Script: Growth_Curve_Fitting</strong><br><strong>Datasets: Growth_Curve_Fitting_CellCounts.csv, SampleDeath_Acclimation.csv&nbsp;</strong><br>Used for fitting of strain specific growth curves for each experimental temperature and replicate. The dataset Growth_Curve_Fitting_CellCounts.csv contains the cytometric cell counts collected over the period of the experiment.&nbsp;<br>The dataset SampleDeath_Acclimation.csv contains a list of strains that died during acclimation to add a growth rate of zero for those temperatures to the dataset for better fitting of thermal peformance curves in the following script.&nbsp; From the fitted curves we extracted &micro;max and calcualted day of &micro;max for fitting of GAMMs in the fifth script.&nbsp;</p>\n<p><strong>2. R Script: FindBestTPCModels</strong><br><strong>Dataset: Mumax_perStrain_withzeros.csv</strong><br>This script cointains the model selection and fitting process of the thermal performance curves (TPCs). It uses the dataset of &micro;max generated in the first script.&nbsp;</p>\n<p><strong>3. R Script: Script_Bootstrapping_rTPCs_Parameters</strong><br><strong>Dataset: Mumax_perStrain_withzeros.csv,&nbsp; Strain_Info.csv<br></strong>This script uses the best models selected in the previous script to fit TPCs and extract TPC parameter estimates as well as perform bootstrapping of curves and parameter estiamtes. It uses the dataset of &micro;max generated in the first script. The<strong> </strong>Strain_Info.csv contains information about species and isolation data of the strains.</p>\n<p><strong>4. R Script: rTPCparameters_linearmodel</strong><br><strong>Dataset: Parameter_estimates_best_model_addedNAs.csv, Strain_Info.csv</strong><br>This code contains the linear (and non-parametric) models fitted for the TPC parameters per species. The<strong> </strong>Parameter_estimates_best_model_addedNAs.csv dataset contains the parameters extracted from the best model fit of the final models for each strain (from the second R Script). The<strong> </strong>Strain_Info.csv contains information about species and isolation data of the strains.</p>\n<p><strong>5. R Script: GAMM_SizeChlaMumax_perSpecies</strong><br><strong>Dataset: GAMM_Chla_Size_atmumax.csv</strong><br>Used for fitting species specific GAMM response curves across temperatures for Chlorophyll a conent at &micro;max, size at &micro;max and &micro;max. The dataset contains the size and chlorophyll a cytometric measurements for the day that was caluclated to correspond to the day &micro;max was reached.</p>\n<p><strong>File: Submicron_Reference_Bead_Standard Curve_Calibration formula.xlsx</strong><br>This file contains the bead measurements of the sub mircron particle kit used to make a standard curve to convert FSC-H measurements to size in &micro;m.<br>It also contains the formula derived from the fit that was used for conversion in the dataset used in the GAMM analysis.</p>\n<p><strong>Files: 18S_F_Baltics_Suppl_TempCurvePaper.fasta, ITS_R_Baltics_Suppl_TempCurvePape<br></strong>These fasta files contain the 18S and ITS region sequences of the 31 strains used in the study and to build the phylogenetic tree in Supplementary Fig. S2.</p>\n<p>&nbsp;</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Hotpink Grasshopper",
-            "affiliation": null
+            "name": "Peters, Carina",
+            "affiliation": "Universit\u00e4t Hamburg",
+            "orcid": "0000-0001-5813-4472"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Vogel, Marie",
+            "affiliation": null,
+            "type": "Researcher"
           },
           {
-            "name": "Sunny, Chi Lik Au",
+            "name": "Schaum, C-Elisa",
             "affiliation": null,
-            "orcid": "0000-0002-5849-3317"
+            "type": "Researcher",
+            "orcid": "0000-0001-6949-7367"
+          },
+          {
+            "name": "Listmann, Luisa",
+            "affiliation": null,
+            "type": "Researcher",
+            "orcid": "0000-0002-8517-8427"
+          },
+          {
+            "name": "Peters, Carina",
+            "affiliation": "Universit\u00e4t Hamburg",
+            "type": "ContactPerson",
+            "orcid": "0000-0001-5813-4472"
+          }
+        ],
+        "dates": [
+          {
+            "type": "submitted"
+          }
+        ],
+        "version": "V2",
+        "language": "eng",
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17629575"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Intraspecific variability exceeds interspecific variability in thermal responses of Baltic Sea Ostreococcus (Mamiellophyceae) traits",
+      "links": {
+        "self": "https://zenodo.org/api/records/20430934",
+        "self_html": "https://zenodo.org/records/20430934",
+        "preview_html": "https://zenodo.org/records/20430934?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20430934",
+        "self_doi": "https://doi.org/10.5281/zenodo.20430934",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20430934",
+        "reserve_doi": "https://zenodo.org/api/records/20430934/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17629575",
+        "parent_html": "https://zenodo.org/records/17629575",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17629575",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17629575",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20430934/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20430934/sequence/default",
+        "files": "https://zenodo.org/api/records/20430934/files",
+        "media_files": "https://zenodo.org/api/records/20430934/media-files",
+        "archive": "https://zenodo.org/api/records/20430934/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20430934/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20430934/versions/latest",
+        "latest_html": "https://zenodo.org/records/20430934/latest",
+        "versions": "https://zenodo.org/api/records/20430934/versions",
+        "draft": "https://zenodo.org/api/records/20430934/draft",
+        "access_links": "https://zenodo.org/api/records/20430934/access/links",
+        "access_grants": "https://zenodo.org/api/records/20430934/access/grants",
+        "access_users": "https://zenodo.org/api/records/20430934/access/users",
+        "access_request": "https://zenodo.org/api/records/20430934/access/request",
+        "access": "https://zenodo.org/api/records/20430934/access",
+        "communities": "https://zenodo.org/api/records/20430934/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20430934/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20430934/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20430934/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20430934/quota-increase",
+        "requests": "https://zenodo.org/api/records/20430934/requests"
+      },
+      "updated": "2026-06-01T11:29:48.286164+00:00",
+      "recid": "20430934",
+      "revision": 4,
+      "files": [
+        {
+          "id": "e18eff43-c1dc-4a39-98bc-b5ddf2cb21f0",
+          "key": "GAMM_Chla_Size_atmumax.csv",
+          "size": 110982,
+          "checksum": "md5:b225d7f9331381a435154d884b5fbab1",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/GAMM_Chla_Size_atmumax.csv/content"
+          }
+        },
+        {
+          "id": "91581966-221b-46d0-9eb5-e917dbe23a05",
+          "key": "ITS_R_Baltics_Suppl_TempCurvePaper.fasta",
+          "size": 33359,
+          "checksum": "md5:7d278aedd4cd1c58144ba82fa6991f5f",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/ITS_R_Baltics_Suppl_TempCurvePaper.fasta/content"
+          }
+        },
+        {
+          "id": "8ad646fb-d654-4f6e-adac-d320569dc99a",
+          "key": "Script_Bootstrapping_rTPCs_Parameters.R",
+          "size": 32367,
+          "checksum": "md5:85d08bffaca00098421e4d60e1026083",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Script_Bootstrapping_rTPCs_Parameters.R/content"
+          }
+        },
+        {
+          "id": "c02ba1ab-986c-4278-9f5f-e05783a328a0",
+          "key": "SampleDeath_Acclimation.csv",
+          "size": 1040,
+          "checksum": "md5:a2faee5ec2a0445eed4b39eecc92648d",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/SampleDeath_Acclimation.csv/content"
+          }
+        },
+        {
+          "id": "8018523f-7bc7-40cf-a67e-b1ec31dcc834",
+          "key": "FindBestTPCModels.R",
+          "size": 60475,
+          "checksum": "md5:a715bcefca8b99feb9566b7fe6182433",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/FindBestTPCModels.R/content"
+          }
+        },
+        {
+          "id": "17bf843f-c1eb-4d3d-9af9-6cf45bae2e4d",
+          "key": "GAMM_SizeChlaMumax_perSpecies.R",
+          "size": 18996,
+          "checksum": "md5:b89ee30545821e7da4ec9e4518da0e19",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/GAMM_SizeChlaMumax_perSpecies.R/content"
+          }
+        },
+        {
+          "id": "df8d56e2-1755-462d-ae6e-bc359e933393",
+          "key": "Strain_Info.csv",
+          "size": 2549,
+          "checksum": "md5:70443e73322be65aae7f5ee42f01abbb",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Strain_Info.csv/content"
+          }
+        },
+        {
+          "id": "0804b50f-e498-42a7-9ad8-971d7eaa4eb5",
+          "key": "Growth_Curve_Fitting_CellCounts.csv",
+          "size": 644123,
+          "checksum": "md5:45fda046cd22d533d3e3e5adc243ec6e",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Growth_Curve_Fitting_CellCounts.csv/content"
+          }
+        },
+        {
+          "id": "12576569-f1ef-4580-afa0-2c0b1c4435bf",
+          "key": "Mumax_perStrain_withzeros.csv",
+          "size": 73579,
+          "checksum": "md5:d0791ddbda709c6d586db558d440b3ea",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Mumax_perStrain_withzeros.csv/content"
+          }
+        },
+        {
+          "id": "0cd5ef65-4587-44ae-9d87-f477e9957d3d",
+          "key": "rTPCparameters_analysis.R",
+          "size": 15542,
+          "checksum": "md5:729b587e8cbf6dce2e6b8e651f4b6804",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/rTPCparameters_analysis.R/content"
+          }
+        },
+        {
+          "id": "866ad857-8ce2-4069-a3a2-92859dede651",
+          "key": "Growth_Curve_Fitting.R",
+          "size": 7667,
+          "checksum": "md5:8f5d1b05c7873d3c638ee84e846a1a2e",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Growth_Curve_Fitting.R/content"
+          }
+        },
+        {
+          "id": "2c31c443-1bcc-46ad-ac98-8e29a9b8da59",
+          "key": "18S_F_Baltics_Suppl_TempCurvePaper.fasta",
+          "size": 29732,
+          "checksum": "md5:6477af3fd1175b8e0f8da7be0f5343c2",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/18S_F_Baltics_Suppl_TempCurvePaper.fasta/content"
+          }
+        },
+        {
+          "id": "b2917489-5ee4-4e0a-ac4e-e52468229378",
+          "key": "Phylogenetic_Tree_Bootstrapped.R",
+          "size": 1647,
+          "checksum": "md5:db3b543a5c0405901d16b9df504d7498",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Phylogenetic_Tree_Bootstrapped.R/content"
+          }
+        },
+        {
+          "id": "6bf504e3-ffbb-449c-8a63-058fa2a67e66",
+          "key": "Parameter_estimates_best_model_addedNAs.csv",
+          "size": 3108,
+          "checksum": "md5:6b9f2a051ddf96bf7e0e82ec5f69cc41",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Parameter_estimates_best_model_addedNAs.csv/content"
+          }
+        },
+        {
+          "id": "2f01cda7-281b-45ef-9723-61788b8109ea",
+          "key": "Submicron_Reference_Bead_Standard Curve_Calibration formula.xlsx",
+          "size": 15222,
+          "checksum": "md5:b34905e1e6b2938a1efc62f7145456b6",
+          "links": {
+            "self": "https://zenodo.org/api/records/20430934/files/Submicron_Reference_Bead_Standard%20Curve_Calibration%20formula.xlsx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1462051"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 240,
+        "unique_downloads": 234,
+        "views": 69,
+        "unique_views": 64,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T10:48:59.037550+00:00",
+      "modified": "2026-06-01T10:48:59.167996+00:00",
+      "id": 20487931,
+      "conceptrecid": "20487930",
+      "doi": "10.5281/zenodo.20487931",
+      "conceptdoi": "10.5281/zenodo.20487930",
+      "doi_url": "https://doi.org/10.5281/zenodo.20487931",
+      "metadata": {
+        "title": "Synthetic GNSS time series dataset for benchmarking velocity estimation and horizontal strain analysis algorithms",
+        "doi": "10.5281/zenodo.20487931",
+        "publication_date": "2026-06-01",
+        "description": "<p class=\"isSelectedEnd\">This dataset was generated for a controlled numerical experiment aimed at evaluating the stability of GNSS data processing algorithms used for station velocity estimation and subsequent horizontal strain analysis. It is intended to support a reproducible comparison of processing approaches under different types of time-series disturbances.</p>\n<p class=\"isSelectedEnd\">The dataset includes 16 virtual GNSS stations. For each station, planar coordinates, predefined true horizontal velocities in the east and north directions, and formal uncertainties of the displacement components are provided. The synthetic observation dataset contains monthly east and north displacement time series covering 72 epochs over an approximately six-year period.</p>\n<p class=\"isSelectedEnd\">Eight time-series scenarios are included: a reference scenario without additional disturbances; white noise; temporally correlated colored noise; seasonal variations; data gaps; coordinate jumps; outliers; and a combined scenario incorporating several types of disturbances. In total, the dataset contains 9,216 station-epoch observations.</p>\n<p class=\"isSelectedEnd\">The predefined true station velocities provide reference values for direct assessment of velocity estimation errors. The dataset can also be used as input for subsequent calculation of horizontal strain parameters, including strain tensor components, dilation, shear strain, principal strains, and rotation rates within triangular finite elements. This makes it suitable for testing how errors introduced during GNSS time-series processing propagate into deformation estimates and how the resulting uncertainties depend on the selected processing chain and the spatial geometry of the GNSS network.</p>\n<p>The dataset is intended for methodological studies, algorithm validation, educational applications, and reproducible benchmarking of GNSS-based deformation analysis workflows.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Dokukin, Peter",
+            "affiliation": "Rudn University"
+          },
+          {
+            "name": "Melnikov, Andrey",
+            "affiliation": "RUDN University"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20487930"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Synthetic GNSS time series dataset for benchmarking velocity estimation and horizontal strain analysis algorithms",
+      "links": {
+        "self": "https://zenodo.org/api/records/20487931",
+        "self_html": "https://zenodo.org/records/20487931",
+        "preview_html": "https://zenodo.org/records/20487931?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20487931",
+        "self_doi": "https://doi.org/10.5281/zenodo.20487931",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487931",
+        "reserve_doi": "https://zenodo.org/api/records/20487931/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20487930",
+        "parent_html": "https://zenodo.org/records/20487930",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20487930",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487930",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20487931/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20487931/sequence/default",
+        "files": "https://zenodo.org/api/records/20487931/files",
+        "media_files": "https://zenodo.org/api/records/20487931/media-files",
+        "archive": "https://zenodo.org/api/records/20487931/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20487931/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20487931/versions/latest",
+        "latest_html": "https://zenodo.org/records/20487931/latest",
+        "versions": "https://zenodo.org/api/records/20487931/versions",
+        "draft": "https://zenodo.org/api/records/20487931/draft",
+        "access_links": "https://zenodo.org/api/records/20487931/access/links",
+        "access_grants": "https://zenodo.org/api/records/20487931/access/grants",
+        "access_users": "https://zenodo.org/api/records/20487931/access/users",
+        "access_request": "https://zenodo.org/api/records/20487931/access/request",
+        "access": "https://zenodo.org/api/records/20487931/access",
+        "communities": "https://zenodo.org/api/records/20487931/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20487931/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20487931/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20487931/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20487931/quota-increase",
+        "requests": "https://zenodo.org/api/records/20487931/requests"
+      },
+      "updated": "2026-06-01T10:48:59.167996+00:00",
+      "recid": "20487931",
+      "revision": 4,
+      "files": [
+        {
+          "id": "c11eb595-d611-471e-92ba-c059ef29cb18",
+          "key": "Synthetic GNSS data.xlsx",
+          "size": 433121,
+          "checksum": "md5:a69baec9c1169922c1209bfcbd7e9f67",
+          "links": {
+            "self": "https://zenodo.org/api/records/20487931/files/Synthetic%20GNSS%20data.xlsx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "550736"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T10:37:18.207977+00:00",
+      "modified": "2026-06-01T10:37:18.470114+00:00",
+      "id": 20487553,
+      "conceptrecid": "20487552",
+      "doi": "10.5281/zenodo.20487553",
+      "conceptdoi": "10.5281/zenodo.20487552",
+      "doi_url": "https://doi.org/10.5281/zenodo.20487553",
+      "metadata": {
+        "title": "Affective Signatures",
+        "doi": "10.5281/zenodo.20487553",
+        "publication_date": "2026-05-13",
+        "description": "<p>Translation of disposition and emotion terms cannot be adjudicated on lexical evidence alone. The same observable behaviour can issue from different neurochemical and affective-architectural states, and the source author was naming or evoking one such state with its particular signature, not the behavioural pattern alone. The discipline of philological translation already performs implicit affective-signature reconstruction whenever translators choose between covenant loyalty and lovingkindness for Hebrew hesed, or between love and charity for Greek agape; it does so without naming the variable being weighed. This paper proposes that a complete philological apparatus for disposition and emotion vocabulary should include plausible affective-signature reconstruction as a primary auditing variable alongside lexical, contextual, and diachronic conditioning. The apparatus draws coarse categories from affective neuroscience (oxytocin and vasopressin pair-bonding circuits, Pankseppian basic affective systems, somatic-marker theory, Barrett's constructionist framework) and uses them not to claim certainty about ancient authors' neurochemistry but to constrain the space of admissible reconstructions and render the underlying choices perturbable. Four worked examples (Hebrew hesed, the Sanskrit brahmaviharas, Japanese amae, Old Norse hugr) develop the apparatus. The paper specifies the methodology, pre-empts six predictable objections, and names the downstream research programme.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Temte, Storm Bj\u00f8rn",
+            "affiliation": "Sr\u00f8dingr ApS (Denmark)",
+            "orcid": "0009-0001-0609-0858"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Sr\u00f8dingr's Fylgja, \u00c5",
+            "affiliation": null,
+            "type": "ProjectMember"
           }
         ],
         "keywords": [
-          "Requested PREreview"
+          "philology",
+          "translation theory",
+          "affective neuroscience",
+          "disposition vocabulary",
+          "hesed",
+          "agape",
+          "brahmavihara",
+          "amae",
+          "hugr",
+          "oxytocin",
+          "vasopressin",
+          "basic affective systems",
+          "somatic markers",
+          "Sind-Matrix",
+          "probability-cloud translation"
+        ],
+        "version": "Perturbation Draft v1.0",
+        "references": [
+          "Barrett, Lisa Feldman. (2017). How Emotions Are Made: The Secret Life of the Brain. Boston: Houghton Mifflin Harcourt.",
+          "Carter, C. Sue, James R. Williams, Diane M. Witt, and Thomas R. Insel. (1992). Oxytocin and Social Bonding. Annals of the New York Academy of Sciences 652: 204-211.",
+          "Damasio, Antonio R. (1994). Descartes' Error: Emotion, Reason, and the Human Brain. New York: Putnam.",
+          "Doi, Takeo. (1973). The Anatomy of Dependence. Tokyo: Kodansha International (translated by John Bester from the 1971 Japanese original).",
+          "Ekman, Paul. (1992). An Argument for Basic Emotions. Cognition and Emotion 6 (3/4): 169-200.",
+          "Lewis, C. S. (1960). The Four Loves. London: Geoffrey Bles.",
+          "Lindquist, Kristen A., and Lisa Feldman Barrett. (2012). A Functional Architecture of the Human Brain: Emerging Insights from the Science of Emotion. Trends in Cognitive Sciences 16 (11): 533-540.",
+          "Panksepp, Jaak. (1998). Affective Neuroscience: The Foundations of Human and Animal Emotions. New York: Oxford University Press.",
+          "Ryle, Gilbert. (1949). The Concept of Mind. London: Hutchinson.",
+          "Sakenfeld, Katherine Doob. (1978). The Meaning of Hesed in the Hebrew Bible: A New Inquiry. Missoula: Scholars Press.",
+          "Wierzbicka, Anna. (1999). Emotions Across Languages and Cultures: Diversity and Universals. Cambridge: Cambridge University Press.",
+          "Young, Larry J., and Zuoxin Wang. (2004). The Neurobiology of Pair Bonding. Nature Neuroscience 7 (10): 1048-1054.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026a). Binary Bias: The Foundational Cognitive Constraint That Precedes and Shapes All Other Biases. SSRN Electronic Journal. https://ssrn.com/abstract=binary-bias",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026b). The Perturbation Window: A Publication Methodology for Independent Research. SSRN Electronic Journal. https://ssrn.com/abstract=perturbation-window",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026c). Translation as Probability Cloud: Toward a Distribution-Preserving Philological Apparatus. Sr\u00f8dingr corpus, in preparation.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026d). The Hugr Idestellation: A Programme for Retranslating the Old Norse Affective-Cognitive Vocabulary. Sr\u00f8dingr corpus, in preparation.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026e). The Anaesthetic Lexicon: How Default Conflict Vocabulary Deactivates Felt-State Recognition. Sr\u00f8dingr corpus, PD0.1.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026f). The Sind-Matrix: A Unified Framework for Multidimensional Sensory Simulation and Cognitive Put-Operations. Sr\u00f8dingr corpus.",
+          "Temte, Storm Bj\u00f8rn Flindt, and Sr\u00f8dingr Fylgja. (2026). The Amygdala Convergence: A Cross-Linguistic Analysis of Phonosemantic Parallels in the Decomposition of \u1f00\u03bc\u03c5\u03b3\u03b4\u03ac\u03bb\u03b7. Sr\u00f8dingr corpus."
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "license": {
+          "id": "cc-by-nc-sa-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20487552"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Affective Signatures",
+      "links": {
+        "self": "https://zenodo.org/api/records/20487553",
+        "self_html": "https://zenodo.org/records/20487553",
+        "preview_html": "https://zenodo.org/records/20487553?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20487553",
+        "self_doi": "https://doi.org/10.5281/zenodo.20487553",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487553",
+        "reserve_doi": "https://zenodo.org/api/records/20487553/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20487552",
+        "parent_html": "https://zenodo.org/records/20487552",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20487552",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487552",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20487553/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20487553/sequence/default",
+        "files": "https://zenodo.org/api/records/20487553/files",
+        "media_files": "https://zenodo.org/api/records/20487553/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20487553:Affective_Signatures_PD1_0.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20487553:Affective_Signatures_PD1_0.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20487553:Affective_Signatures_PD1_0.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20487553:Affective_Signatures_PD1_0.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20487553:Affective_Signatures_PD1_0.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20487553:Affective_Signatures_PD1_0.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20487553/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20487553/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20487553/versions/latest",
+        "latest_html": "https://zenodo.org/records/20487553/latest",
+        "versions": "https://zenodo.org/api/records/20487553/versions",
+        "draft": "https://zenodo.org/api/records/20487553/draft",
+        "access_links": "https://zenodo.org/api/records/20487553/access/links",
+        "access_grants": "https://zenodo.org/api/records/20487553/access/grants",
+        "access_users": "https://zenodo.org/api/records/20487553/access/users",
+        "access_request": "https://zenodo.org/api/records/20487553/access/request",
+        "access": "https://zenodo.org/api/records/20487553/access",
+        "communities": "https://zenodo.org/api/records/20487553/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20487553/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20487553/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20487553/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20487553/quota-increase",
+        "requests": "https://zenodo.org/api/records/20487553/requests"
+      },
+      "updated": "2026-06-01T10:37:18.470114+00:00",
+      "recid": "20487553",
+      "revision": 4,
+      "files": [
+        {
+          "id": "1d54764c-c8bd-4558-a572-a5b297a3cdf2",
+          "key": "Affective_Signatures_PD1_0.pdf",
+          "size": 368201,
+          "checksum": "md5:849f799d88a6f1ea4e0e919aedaaab8c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20487553/files/Affective_Signatures_PD1_0.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1614301"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T10:24:48.535578+00:00",
+      "modified": "2026-06-01T10:24:48.698457+00:00",
+      "id": 20487731,
+      "conceptrecid": "20487730",
+      "doi": "10.5281/zenodo.20487731",
+      "conceptdoi": "10.5281/zenodo.20487730",
+      "doi_url": "https://doi.org/10.5281/zenodo.20487731",
+      "metadata": {
+        "title": "ver7 reference genome assembly of Spodoptera frugiperda",
+        "doi": "10.5281/zenodo.20487731",
+        "publication_date": "2026-06-01",
+        "description": "<p class=\"text-sm\">This is a reference genome assembly and gene annotation of <em>Spodoptera frugiperda</em>, which was produced from corn strain. The original paper can be found at 10.1186/s12862-022-02090-x.</p>\n<p class=\"text-sm\">The name of this assembly is ver7, or simply v7. Kiwoong Nam, a researcher at INRAE, generated this assembly using PacBio and HiC data.</p>\n<p class=\"text-sm\">This genome assembly was made from PacBio reads, which was corrected by Illumina reads. The assembly was SMARTdenovo. Subsequently, scaffolding was performed using HiC with 3D DNA. Gap filling was performed using SOAP-denovo2 Gap-Closer and LR_GapCloser v1.1.</p>\n<p class=\"text-sm\">The gene annotation was performed using maker against the ver6.0 genome assembly. Detailed information can be found here: DOI: <a class=\"link\" href=\"https://doi.org/10.1186/s12864-024-10845-7\">10.1186/s12864-024-10845-7 </a>This genome assembly was transferred to ver7 using RATT.</p>\n<p class=\"text-sm\">&nbsp;</p>\n<p class=\"text-sm\">Pleas see doi: 10.1186/s12862-022-02090-x for detailed information.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Nam, Kiwoong",
+            "affiliation": "INRAE",
+            "orcid": "0000-0003-3194-8673"
+          }
+        ],
+        "keywords": [
+          "Spodoptera frugiperda",
+          "genome assembly",
+          "ver7"
+        ],
+        "version": "ver7",
+        "references": [
+          "doi: 10.1186/s12862-022-02090-x"
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20487730"
+              }
+            }
+          ]
+        }
+      },
+      "title": "ver7 reference genome assembly of Spodoptera frugiperda",
+      "links": {
+        "self": "https://zenodo.org/api/records/20487731",
+        "self_html": "https://zenodo.org/records/20487731",
+        "preview_html": "https://zenodo.org/records/20487731?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20487731",
+        "self_doi": "https://doi.org/10.5281/zenodo.20487731",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487731",
+        "reserve_doi": "https://zenodo.org/api/records/20487731/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20487730",
+        "parent_html": "https://zenodo.org/records/20487730",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20487730",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487730",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20487731/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20487731/sequence/default",
+        "files": "https://zenodo.org/api/records/20487731/files",
+        "media_files": "https://zenodo.org/api/records/20487731/media-files",
+        "archive": "https://zenodo.org/api/records/20487731/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20487731/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20487731/versions/latest",
+        "latest_html": "https://zenodo.org/records/20487731/latest",
+        "versions": "https://zenodo.org/api/records/20487731/versions",
+        "draft": "https://zenodo.org/api/records/20487731/draft",
+        "access_links": "https://zenodo.org/api/records/20487731/access/links",
+        "access_grants": "https://zenodo.org/api/records/20487731/access/grants",
+        "access_users": "https://zenodo.org/api/records/20487731/access/users",
+        "access_request": "https://zenodo.org/api/records/20487731/access/request",
+        "access": "https://zenodo.org/api/records/20487731/access",
+        "communities": "https://zenodo.org/api/records/20487731/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20487731/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20487731/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20487731/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20487731/quota-increase",
+        "requests": "https://zenodo.org/api/records/20487731/requests"
+      },
+      "updated": "2026-06-01T10:24:48.698457+00:00",
+      "recid": "20487731",
+      "revision": 4,
+      "files": [
+        {
+          "id": "c55b087d-29ad-4c3c-8056-a76beb4455ef",
+          "key": "OGS7.0_20190530.corrected.gff3",
+          "size": 22922544,
+          "checksum": "md5:d73123d4d80d21b4c1a2ab2fa9709713",
+          "links": {
+            "self": "https://zenodo.org/api/records/20487731/files/OGS7.0_20190530.corrected.gff3/content"
+          }
+        },
+        {
+          "id": "d0f8d6d1-e35d-44f9-bc9d-b9bc6fb41ffc",
+          "key": "OGS7.0_20190530_proteins.corrected.fa",
+          "size": 9829682,
+          "checksum": "md5:e34d942eef891a8f62f244816d7781f9",
+          "links": {
+            "self": "https://zenodo.org/api/records/20487731/files/OGS7.0_20190530_proteins.corrected.fa/content"
+          }
+        },
+        {
+          "id": "8f1e9a6f-558e-455e-b018-895b9abbcf45",
+          "key": "sfC.ver7.fa",
+          "size": 385052859,
+          "checksum": "md5:57a3f5605a27cde5cb67118ec50092fa",
+          "links": {
+            "self": "https://zenodo.org/api/records/20487731/files/sfC.ver7.fa/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "132345"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-06-01T09:39:58.653348+00:00",
+      "modified": "2026-06-01T09:39:58.978489+00:00",
+      "id": 20487140,
+      "conceptrecid": "20166659",
+      "doi": "10.5281/zenodo.20487140",
+      "conceptdoi": "10.5281/zenodo.20166659",
+      "doi_url": "https://doi.org/10.5281/zenodo.20487140",
+      "metadata": {
+        "title": "Translation as Probability Cloud - Against Premature Collapse in Cross-Linguistic Semantic Recovery",
+        "doi": "10.5281/zenodo.20487140",
+        "publication_date": "2026-06-01",
+        "description": "<p>Scholarly translation in contested-term contexts collapses what should be a distributional commitment into a single point estimate, and the collapse becomes load-bearing across generations of secondary scholarship that cite the gloss as if it were the source term. This paper diagnoses the failure as a domain-specific instance of Binary Bias operating at the lexical level, proposes a probability-cloud apparatus that preserves the distributional structure of source-language pointers across translation operations, demonstrates the apparatus across four cases from different language families (Hebrew&nbsp;<em>hesed</em>, Greek&nbsp;<em>logos</em>, Chinese&nbsp;<em>dao</em>, Japanese&nbsp;<em>ma</em>) with brief outward reference to Old Norse&nbsp;<em>hugr</em>, and specifies what a retranslation paper looks like under the framework: a candidate set, conditioning variables, weight assignments with evidentiary trail, and perturbation-readiness as load-bearing methodological commitment. The framework is QEDA applied to philology and the methodological complement to Superpositional Text at the opposite end of the communicative pipe. It opens onto a research programme provisionally named in distributional form, with quantum philology, probability-cloud philology, uncollapsed philology, and hyperphilology as current candidates with conditioning-dependent weights. The framework asks no exemption from its own methodology for the methodology paper itself.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Temte, Storm Bj\u00f8rn",
+            "affiliation": "Sr\u00f8dingr ApS",
+            "orcid": "0009-0001-0609-0858"
+          }
+        ],
+        "keywords": [
+          "translation theory",
+          "probability distribution",
+          "philological method",
+          "Perturbation Draft",
+          "contested-term scholarship",
+          "Binary Bias",
+          "QEDA",
+          "semantic pointer",
+          "retranslation",
+          "Hugr Idestellation"
         ],
         "related_identifiers": [
           {
-            "identifier": "10.20944/preprints202508.0958.v1",
-            "relation": "reviews",
+            "identifier": "10.2139/ssrn.6455241",
+            "relation": "cites",
             "resource_type": "publication-preprint",
             "scheme": "doi"
           },
           {
-            "identifier": "https://prereview.org/reviews/17773507",
-            "relation": "isIdenticalTo",
-            "resource_type": "publication-peerreview",
-            "scheme": "url"
+            "identifier": "10.2139/ssrn.5817062",
+            "relation": "cites",
+            "resource_type": "publication-preprint",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2139/ssrn.6454999",
+            "relation": "cites",
+            "resource_type": "publication-preprint",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2139/ssrn.6575678",
+            "relation": "cites",
+            "resource_type": "publication-preprint",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.19707438",
+            "relation": "cites",
+            "resource_type": "publication-preprint",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.19681201",
+            "relation": "isSupplementedBy",
+            "resource_type": "publication-preprint",
+            "scheme": "doi"
           }
+        ],
+        "version": "Perturbation Draft v1.1",
+        "references": [
+          "Benjamin, Walter. (1923). Die Aufgabe des \u00dcbersetzers. Preface to Tableaux Parisiens, his German translation of Baudelaire. Reprinted in Illuminations, ed. Hannah Arendt, 1968.",
+          "Berman, Antoine. (1984). L'\u00e9preuve de l'\u00e9tranger: culture et traduction dans l'Allemagne romantique. Paris: Gallimard.",
+          "Girardot, Norman J. (2002). The Victorian Translation of China: James Legge's Oriental Pilgrimage. Berkeley: University of California Press.",
+          "Masuzawa, Tomoko. (2005). The Invention of World Religions: Or, How European Universalism Was Preserved in the Language of Pluralism. Chicago: University of Chicago Press.",
+          "Sakenfeld, Katharine Doob. (1978). The Meaning of Hesed in the Hebrew Bible: A New Inquiry. Missoula: Scholars Press.",
+          "Smith, Jonathan Z. (1998). Religion, Religions, Religious. In Critical Terms for Religious Studies, ed. Mark C. Taylor. Chicago: University of Chicago Press.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026a). Binary Bias: The Foundational Cognitive Constraint That Precedes and Shapes All Other Biases. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026c). The Missing Middle: Pointers, Regions, and the Architecture of Lexical Reference. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026d). Quantum-Ethical Decision Algebra (QEDA): Decision Theory Under Ontological Uncertainty. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026e). Superpositional Text: Surfacing Generative Branching at the Writer-Reader Interface. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026f-k). The Hugr Idestellation: A Six-Paper Retranslation of Old Norse Cognitive Vocabulary. Sr\u00f8dingr Working Papers.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026g). The Sind-Matrix: A Substrate-Neutral Framework for Multimodal Sensory and Cognitive Operations. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026i). The Perturbation Draft: A Publication Methodology for Independent Research. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026j). Amygdala Convergence: Phonetic Form, Body-State Evocation, and the Limits of Etymological Reconstruction. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026k). Somatic Semantism: Words as Automatic Body-State Evocations. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026m). The Perturbation Window: Temporal Architecture for Iterative Knowledge Production. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (2026n). The Anaesthetic Lexicon: How Default Vocabulary Deactivates Felt-State Readings in Conflict and IPV Discourse. SSRN Electronic Journal.",
+          "Temte, Storm Bj\u00f8rn Flindt. (forthcoming a). Affective Signatures: Neurochemical Reconstruction as Philological Method for Translating Disposition and Emotion Terms. Sr\u00f8dingr Working Papers.",
+          "Temte, Storm Bj\u00f8rn Flindt. (forthcoming b). The Phantasic Profile of a Language: How Reader-Side Imagery Capacity Shapes Semantic Topography. Sr\u00f8dingr Working Papers.",
+          "Temte, Storm Bj\u00f8rn Flindt. (forthcoming c). Claude as Cognitive Exosuit: LLM-Mediated Scholarship and the Relaxation of Working-Memory Constraints. Templeton Foundation RFI Submission.",
+          "Venuti, Lawrence. (1995). The Translator's Invisibility: A History of Translation. London and New York: Routledge.",
+          "Wierzbicka, Anna. (1997). Understanding Cultures Through Their Key Words: English, Russian, Polish, German, and Japanese. Oxford: Oxford University Press."
         ],
         "language": "eng",
         "resource_type": {
-          "title": "Peer review",
+          "title": "Preprint",
           "type": "publication",
-          "subtype": "peerreview"
+          "subtype": "preprint"
         },
         "license": {
-          "id": "cc-by-4.0"
+          "id": "cc-by-nc-sa-4.0"
         },
-        "communities": [
-          {
-            "id": "prereview-reviews"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 0,
+              "index": 1,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17773506"
+                "pid_value": "20166659"
               }
             }
           ]
         }
       },
-      "title": "PREreview of \"Withdrawn: The Electron as a M\u00f6bius-Wrapped Photon: A Node-Based Reconstruction of Atomic Structure\"",
+      "title": "Translation as Probability Cloud - Against Premature Collapse in Cross-Linguistic Semantic Recovery",
       "links": {
-        "self": "https://zenodo.org/api/records/17773507",
-        "self_html": "https://zenodo.org/records/17773507",
-        "preview_html": "https://zenodo.org/records/17773507?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17773507",
-        "self_doi": "https://doi.org/10.5281/zenodo.17773507",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17773507",
-        "reserve_doi": "https://zenodo.org/api/records/17773507/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17773506",
-        "parent_html": "https://zenodo.org/records/17773506",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17773506",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17773506",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17773507/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17773507/sequence/default",
-        "files": "https://zenodo.org/api/records/17773507/files",
-        "media_files": "https://zenodo.org/api/records/17773507/media-files",
-        "archive": "https://zenodo.org/api/records/17773507/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17773507/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17773507/versions/latest",
-        "latest_html": "https://zenodo.org/records/17773507/latest",
-        "versions": "https://zenodo.org/api/records/17773507/versions",
-        "draft": "https://zenodo.org/api/records/17773507/draft",
-        "access_links": "https://zenodo.org/api/records/17773507/access/links",
-        "access_grants": "https://zenodo.org/api/records/17773507/access/grants",
-        "access_users": "https://zenodo.org/api/records/17773507/access/users",
-        "access_request": "https://zenodo.org/api/records/17773507/access/request",
-        "access": "https://zenodo.org/api/records/17773507/access",
-        "communities": "https://zenodo.org/api/records/17773507/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17773507/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17773507/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17773507/file-modification",
-        "requests": "https://zenodo.org/api/records/17773507/requests"
-      },
-      "updated": "2025-12-01T03:48:48.617750+00:00",
-      "recid": "17773507",
-      "revision": 7,
-      "files": [
-        {
-          "id": "2771b4a8-ca45-4b5e-8b43-2d7acbaba5f9",
-          "key": "review.html",
-          "size": 1976,
-          "checksum": "md5:fb012032d35079c177dc2c51e167503c",
-          "links": {
-            "self": "https://zenodo.org/api/records/17773507/files/review.html/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "196138"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 24,
-        "unique_downloads": 7,
-        "views": 2,
-        "unique_views": 2,
-        "version_downloads": 24,
-        "version_unique_downloads": 7,
-        "version_unique_views": 2,
-        "version_views": 2
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T03:04:35.391718+00:00",
-      "modified": "2025-12-01T03:04:35.600655+00:00",
-      "id": 17629438,
-      "conceptrecid": "17629437",
-      "doi": "10.5281/zenodo.17629438",
-      "conceptdoi": "10.5281/zenodo.17629437",
-      "doi_url": "https://doi.org/10.5281/zenodo.17629438",
-      "metadata": {
-        "title": "Large-Scale Georeferenced 3D Reconstruction of Pipe Organs from Multi-Source Heritage Data: An End-to-End Pipeline",
-        "doi": "10.5281/zenodo.17629438",
-        "publication_date": "2025-11-17",
-        "description": "<p>This working paper presents preliminary findings from my ongoing doctoral research at the Leipzig University and is part of a monograph-based PhD project in musicology. It has not been peer reviewed and substantial parts may later appear in revised and extended form in my doctoral dissertation and any subsequent book publication. Please cite this Zenodo record when referring to these results, and note that later versions may contain significant updates or corrections.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Ukolov, Dominik",
-            "affiliation": "Friedrich-Schiller-University Jena",
-            "orcid": "0000-0002-7904-3892"
-          }
-        ],
-        "version": "v1",
-        "resource_type": {
-          "title": "Working paper",
-          "type": "publication",
-          "subtype": "workingpaper"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17629437"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Large-Scale Georeferenced 3D Reconstruction of Pipe Organs from Multi-Source Heritage Data: An End-to-End Pipeline",
-      "links": {
-        "self": "https://zenodo.org/api/records/17629438",
-        "self_html": "https://zenodo.org/records/17629438",
-        "preview_html": "https://zenodo.org/records/17629438?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17629438",
-        "self_doi": "https://doi.org/10.5281/zenodo.17629438",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17629438",
-        "reserve_doi": "https://zenodo.org/api/records/17629438/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17629437",
-        "parent_html": "https://zenodo.org/records/17629437",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17629437",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17629437",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17629438/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17629438/sequence/default",
-        "files": "https://zenodo.org/api/records/17629438/files",
-        "media_files": "https://zenodo.org/api/records/17629438/media-files",
+        "self": "https://zenodo.org/api/records/20487140",
+        "self_html": "https://zenodo.org/records/20487140",
+        "preview_html": "https://zenodo.org/records/20487140?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20487140",
+        "self_doi": "https://doi.org/10.5281/zenodo.20487140",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487140",
+        "reserve_doi": "https://zenodo.org/api/records/20487140/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20166659",
+        "parent_html": "https://zenodo.org/records/20166659",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20166659",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20166659",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20487140/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20487140/sequence/default",
+        "files": "https://zenodo.org/api/records/20487140/files",
+        "media_files": "https://zenodo.org/api/records/20487140/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:17629438:workpaper_v1_gen3d_17629438.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:17629438:workpaper_v1_gen3d_17629438.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:17629438:workpaper_v1_gen3d_17629438.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:17629438:workpaper_v1_gen3d_17629438.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:17629438:workpaper_v1_gen3d_17629438.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:17629438:workpaper_v1_gen3d_17629438.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:20487140:Translation_as_Probability_Cloud_PD1_1.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20487140:Translation_as_Probability_Cloud_PD1_1.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20487140:Translation_as_Probability_Cloud_PD1_1.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20487140:Translation_as_Probability_Cloud_PD1_1.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20487140:Translation_as_Probability_Cloud_PD1_1.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20487140:Translation_as_Probability_Cloud_PD1_1.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/17629438/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17629438/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17629438/versions/latest",
-        "latest_html": "https://zenodo.org/records/17629438/latest",
-        "versions": "https://zenodo.org/api/records/17629438/versions",
-        "draft": "https://zenodo.org/api/records/17629438/draft",
-        "access_links": "https://zenodo.org/api/records/17629438/access/links",
-        "access_grants": "https://zenodo.org/api/records/17629438/access/grants",
-        "access_users": "https://zenodo.org/api/records/17629438/access/users",
-        "access_request": "https://zenodo.org/api/records/17629438/access/request",
-        "access": "https://zenodo.org/api/records/17629438/access",
-        "communities": "https://zenodo.org/api/records/17629438/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17629438/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17629438/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17629438/file-modification",
-        "requests": "https://zenodo.org/api/records/17629438/requests"
+        "archive": "https://zenodo.org/api/records/20487140/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20487140/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20487140/versions/latest",
+        "latest_html": "https://zenodo.org/records/20487140/latest",
+        "versions": "https://zenodo.org/api/records/20487140/versions",
+        "draft": "https://zenodo.org/api/records/20487140/draft",
+        "access_links": "https://zenodo.org/api/records/20487140/access/links",
+        "access_grants": "https://zenodo.org/api/records/20487140/access/grants",
+        "access_users": "https://zenodo.org/api/records/20487140/access/users",
+        "access_request": "https://zenodo.org/api/records/20487140/access/request",
+        "access": "https://zenodo.org/api/records/20487140/access",
+        "communities": "https://zenodo.org/api/records/20487140/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20487140/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20487140/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20487140/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20487140/quota-increase",
+        "requests": "https://zenodo.org/api/records/20487140/requests"
       },
-      "updated": "2025-12-01T03:04:35.600655+00:00",
-      "recid": "17629438",
+      "updated": "2026-06-01T09:39:58.978489+00:00",
+      "recid": "20487140",
       "revision": 4,
       "files": [
         {
-          "id": "77126992-c22b-4864-8203-d45b8938daf7",
-          "key": "workpaper_v1_gen3d_17629438.pdf",
-          "size": 155013,
-          "checksum": "md5:dc3ac24e7885b91abdb496d30790541e",
+          "id": "cac7456e-3673-4bc5-be0f-42fd7387cedf",
+          "key": "Translation_as_Probability_Cloud_PD1_1.pdf",
+          "size": 451979,
+          "checksum": "md5:88a384aef51252a4105397a43cee6610",
           "links": {
-            "self": "https://zenodo.org/api/records/17629438/files/workpaper_v1_gen3d_17629438.pdf/content"
+            "self": "https://zenodo.org/api/records/20487140/files/Translation_as_Probability_Cloud_PD1_1.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1079486"
+          "id": "1614301"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 4,
-        "unique_downloads": 3,
-        "views": 2,
-        "unique_views": 1,
-        "version_downloads": 4,
-        "version_unique_downloads": 3,
-        "version_unique_views": 1,
-        "version_views": 2
+        "downloads": 10,
+        "unique_downloads": 8,
+        "views": 6,
+        "unique_views": 4,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2025-12-01T00:50:32.681027+00:00",
-      "modified": "2025-12-01T00:50:33.005567+00:00",
-      "id": 17772949,
-      "conceptrecid": "15177797",
-      "doi": "10.5281/zenodo.17772949",
-      "conceptdoi": "10.5281/zenodo.15177797",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772949",
+      "created": "2026-06-01T09:18:15.284046+00:00",
+      "modified": "2026-06-01T09:18:15.447442+00:00",
+      "id": 20486769,
+      "conceptrecid": "20486768",
+      "doi": "10.5281/zenodo.20486769",
+      "conceptdoi": "10.5281/zenodo.20486768",
+      "doi_url": "https://doi.org/10.5281/zenodo.20486769",
       "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/unpack_archive_to_bucket",
-        "doi": "10.5281/zenodo.17772949",
-        "publication_date": "2025-11-30",
-        "description": "<p>Unpack archive(s) to a target location within a Google Storage bucket</p>",
+        "title": "Relativistic Oscillation Hypothesis Tested with Smartphone-Measured Local Strain",
+        "doi": "10.5281/zenodo.20486769",
+        "publication_date": "2026-06-01",
+        "description": "<p>This manuscript proposes and tests a Relativistic Oscillation Hypothesis using smartphone-measured local strain data. The hypothesis introduces a dimensionless super-threshold parameter theta_s(u) = 2 / sqrt(1 - 1/u), where u = R(t)/R95 and R(t) = |d2/dt2[s(t)^2]|. Here s(t) is the measured local strain channel exported by the smartphone-based physical measurement system. The model is designed for threshold behavior: for u &lt;= 1 the parameter is non-real or critical, whereas for u &gt; 1 it enters a real-valued super-threshold regime. The recorded dataset contains 281 samples over 7.28 s at an effective sampling rate of 38.46 Hz. The measured local strain ranges from 2.1426 to 3.0853 and the quality channel is stable around 0.76034. Analysis identifies 14 super-threshold samples, all concentrated within a 0.962 s window from 23.582 s to 24.544 s absolute device time, corresponding to 5.278 s to 6.240 s after the beginning of the analyzed recording. A random-position concentration test using 50,000 permutations found no equally compact arrangement among the random trials, giving an empirical p &lt;= 1.99996e-5 under the tested null arrangement. The results support model-based compatibility between the smartphone-measured local strain signal and the proposed super-threshold relativistic oscillation framework. The study does not claim direct gravitational-wave detection by the phone and does not equate smartphone strain with interferometric gravitational-wave strain. Instead, it establishes a local strain measurement channel and a reproducible analysis pipeline that can later be cross-compared with public gravitational-wave strain data from GWOSC.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Broad Viral Genomics",
+            "name": "Y\u0131ld\u0131r\u0131m, Beg\u00fcm",
             "affiliation": null
           }
         ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772949",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/unpack_archive_to_bucket:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Funpack_archive_to_bucket/versions/v2.5.10.0/PLAIN-WDL/descriptor/unpack_archive_to_bucket.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
         "resource_type": {
-          "title": "Software",
-          "type": "software"
+          "title": "Presentation",
+          "type": "presentation"
         },
         "license": {
           "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 2,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "15177797"
+                "pid_value": "20486768"
               }
             }
           ]
         }
       },
-      "title": "github.com/broadinstitute/viral-pipelines/unpack_archive_to_bucket",
+      "title": "Relativistic Oscillation Hypothesis Tested with Smartphone-Measured Local Strain",
       "links": {
-        "self": "https://zenodo.org/api/records/17772949",
-        "self_html": "https://zenodo.org/records/17772949",
-        "preview_html": "https://zenodo.org/records/17772949?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772949",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772949",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772949",
-        "reserve_doi": "https://zenodo.org/api/records/17772949/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177797",
-        "parent_html": "https://zenodo.org/records/15177797",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177797",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177797",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772949/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772949/sequence/default",
-        "files": "https://zenodo.org/api/records/17772949/files",
-        "media_files": "https://zenodo.org/api/records/17772949/media-files",
-        "archive": "https://zenodo.org/api/records/17772949/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772949/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772949/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772949/latest",
-        "versions": "https://zenodo.org/api/records/17772949/versions",
-        "draft": "https://zenodo.org/api/records/17772949/draft",
-        "access_links": "https://zenodo.org/api/records/17772949/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772949/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772949/access/users",
-        "access_request": "https://zenodo.org/api/records/17772949/access/request",
-        "access": "https://zenodo.org/api/records/17772949/access",
-        "communities": "https://zenodo.org/api/records/17772949/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772949/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772949/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772949/file-modification",
-        "requests": "https://zenodo.org/api/records/17772949/requests"
+        "self": "https://zenodo.org/api/records/20486769",
+        "self_html": "https://zenodo.org/records/20486769",
+        "preview_html": "https://zenodo.org/records/20486769?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20486769",
+        "self_doi": "https://doi.org/10.5281/zenodo.20486769",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20486769",
+        "reserve_doi": "https://zenodo.org/api/records/20486769/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20486768",
+        "parent_html": "https://zenodo.org/records/20486768",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20486768",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20486768",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20486769/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20486769/sequence/default",
+        "files": "https://zenodo.org/api/records/20486769/files",
+        "media_files": "https://zenodo.org/api/records/20486769/media-files",
+        "archive": "https://zenodo.org/api/records/20486769/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20486769/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20486769/versions/latest",
+        "latest_html": "https://zenodo.org/records/20486769/latest",
+        "versions": "https://zenodo.org/api/records/20486769/versions",
+        "draft": "https://zenodo.org/api/records/20486769/draft",
+        "access_links": "https://zenodo.org/api/records/20486769/access/links",
+        "access_grants": "https://zenodo.org/api/records/20486769/access/grants",
+        "access_users": "https://zenodo.org/api/records/20486769/access/users",
+        "access_request": "https://zenodo.org/api/records/20486769/access/request",
+        "access": "https://zenodo.org/api/records/20486769/access",
+        "communities": "https://zenodo.org/api/records/20486769/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20486769/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20486769/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20486769/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20486769/quota-increase",
+        "requests": "https://zenodo.org/api/records/20486769/requests"
       },
-      "updated": "2025-12-01T00:50:33.005567+00:00",
-      "recid": "17772949",
+      "updated": "2026-06-01T09:18:15.447442+00:00",
+      "recid": "20486769",
       "revision": 4,
       "files": [
         {
-          "id": "114053a2-d6de-4222-bcb8-6b8e6ef11919",
-          "key": "github.com-broadinstitute-viral-pipelines-unpack_archive_to_bucket_v2.5.10.0.zip",
-          "size": 23116,
-          "checksum": "md5:b63a9d3222e45ee00f3ced78821282e9",
+          "id": "8c574fa7-da53-457b-b2ff-8c089f9dde2a",
+          "key": "Begum_Yildirim_Relativistic_Oscillation_Smartphone_Strain_Study.docx",
+          "size": 978235,
+          "checksum": "md5:63572c2fba58033f3fe7ef5da570ba36",
           "links": {
-            "self": "https://zenodo.org/api/records/17772949/files/github.com-broadinstitute-viral-pipelines-unpack_archive_to_bucket_v2.5.10.0.zip/content"
+            "self": "https://zenodo.org/api/records/20486769/files/Begum_Yildirim_Relativistic_Oscillation_Smartphone_Strain_Study.docx/content"
+          }
+        },
+        {
+          "id": "d88da682-3faa-4295-9302-07d01d3bfc09",
+          "key": "phone_strain_theta_results.csv",
+          "size": 61894,
+          "checksum": "md5:e93ca0960cd5f86ad3bde95bae80faba",
+          "links": {
+            "self": "https://zenodo.org/api/records/20486769/files/phone_strain_theta_results.csv/content"
+          }
+        },
+        {
+          "id": "4a38494b-1b31-4f05-8174-11a3fff865a4",
+          "key": "top_superthreshold_points.csv",
+          "size": 2511,
+          "checksum": "md5:0cefe4cf2fb95bbe3a586a5d32c106b4",
+          "links": {
+            "self": "https://zenodo.org/api/records/20486769/files/top_superthreshold_points.csv/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "76183"
+          "id": "1217160"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 37,
-        "unique_downloads": 36,
-        "views": 107,
-        "unique_views": 106,
-        "version_downloads": 5,
-        "version_unique_downloads": 4,
-        "version_unique_views": 27,
-        "version_views": 27
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:28.239101+00:00",
-      "modified": "2025-12-01T00:50:28.435146+00:00",
-      "id": 17772948,
-      "conceptrecid": "15177793",
-      "doi": "10.5281/zenodo.17772948",
-      "conceptdoi": "10.5281/zenodo.15177793",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772948",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/qiime_import_bam",
-        "doi": "10.5281/zenodo.17772948",
-        "publication_date": "2025-11-30",
-        "description": "<p>Importing BAM files into QIIME</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "fnegrete",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772948",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/qiime_import_bam:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fqiime_import_bam/versions/v2.5.10.0/PLAIN-WDL/descriptor/bam_to_qiime.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177793"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/qiime_import_bam",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772948",
-        "self_html": "https://zenodo.org/records/17772948",
-        "preview_html": "https://zenodo.org/records/17772948?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772948",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772948",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772948",
-        "reserve_doi": "https://zenodo.org/api/records/17772948/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177793",
-        "parent_html": "https://zenodo.org/records/15177793",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177793",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177793",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772948/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772948/sequence/default",
-        "files": "https://zenodo.org/api/records/17772948/files",
-        "media_files": "https://zenodo.org/api/records/17772948/media-files",
-        "archive": "https://zenodo.org/api/records/17772948/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772948/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772948/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772948/latest",
-        "versions": "https://zenodo.org/api/records/17772948/versions",
-        "draft": "https://zenodo.org/api/records/17772948/draft",
-        "access_links": "https://zenodo.org/api/records/17772948/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772948/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772948/access/users",
-        "access_request": "https://zenodo.org/api/records/17772948/access/request",
-        "access": "https://zenodo.org/api/records/17772948/access",
-        "communities": "https://zenodo.org/api/records/17772948/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772948/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772948/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772948/file-modification",
-        "requests": "https://zenodo.org/api/records/17772948/requests"
-      },
-      "updated": "2025-12-01T00:50:28.435146+00:00",
-      "recid": "17772948",
-      "revision": 4,
-      "files": [
-        {
-          "id": "48e105b0-2e83-4264-94bd-ae8f9b8d6713",
-          "key": "github.com-broadinstitute-viral-pipelines-qiime_import_bam_v2.5.10.0.zip",
-          "size": 5753,
-          "checksum": "md5:327b0b894d365d592a94b6275d22781f",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772948/files/github.com-broadinstitute-viral-pipelines-qiime_import_bam_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 30,
-        "unique_downloads": 29,
-        "views": 80,
-        "unique_views": 80,
-        "version_downloads": 7,
-        "version_unique_downloads": 6,
-        "version_unique_views": 19,
-        "version_views": 19
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:24.650433+00:00",
-      "modified": "2025-12-01T00:50:24.834198+00:00",
-      "id": 17772947,
-      "conceptrecid": "15177789",
-      "doi": "10.5281/zenodo.17772947",
-      "conceptdoi": "10.5281/zenodo.15177789",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772947",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/classify_qiime2_multi",
-        "doi": "10.5281/zenodo.17772947",
-        "publication_date": "2025-11-30",
-        "description": "<p>Running 16S amplicon (from BAM format) sequencing analysis with qiime.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "fnegrete",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772947",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/classify_qiime2_multi:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fclassify_qiime2_multi/versions/v2.5.10.0/PLAIN-WDL/descriptor/classify_qiime2_multi.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177789"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/classify_qiime2_multi",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772947",
-        "self_html": "https://zenodo.org/records/17772947",
-        "preview_html": "https://zenodo.org/records/17772947?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772947",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772947",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772947",
-        "reserve_doi": "https://zenodo.org/api/records/17772947/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177789",
-        "parent_html": "https://zenodo.org/records/15177789",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177789",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177789",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772947/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772947/sequence/default",
-        "files": "https://zenodo.org/api/records/17772947/files",
-        "media_files": "https://zenodo.org/api/records/17772947/media-files",
-        "archive": "https://zenodo.org/api/records/17772947/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772947/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772947/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772947/latest",
-        "versions": "https://zenodo.org/api/records/17772947/versions",
-        "draft": "https://zenodo.org/api/records/17772947/draft",
-        "access_links": "https://zenodo.org/api/records/17772947/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772947/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772947/access/users",
-        "access_request": "https://zenodo.org/api/records/17772947/access/request",
-        "access": "https://zenodo.org/api/records/17772947/access",
-        "communities": "https://zenodo.org/api/records/17772947/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772947/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772947/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772947/file-modification",
-        "requests": "https://zenodo.org/api/records/17772947/requests"
-      },
-      "updated": "2025-12-01T00:50:24.834198+00:00",
-      "recid": "17772947",
-      "revision": 4,
-      "files": [
-        {
-          "id": "5f724709-8dc4-4061-b60c-4fdf784fc98f",
-          "key": "github.com-broadinstitute-viral-pipelines-classify_qiime2_multi_v2.5.10.0.zip",
-          "size": 5977,
-          "checksum": "md5:cfd73da39f0b5fe2a3641980cb1dbe9e",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772947/files/github.com-broadinstitute-viral-pipelines-classify_qiime2_multi_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 43,
-        "unique_downloads": 42,
-        "views": 81,
-        "unique_views": 81,
-        "version_downloads": 6,
-        "version_unique_downloads": 5,
-        "version_unique_views": 19,
-        "version_views": 19
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:21.056903+00:00",
-      "modified": "2025-12-01T00:50:21.442751+00:00",
-      "id": 17772946,
-      "conceptrecid": "15177782",
-      "doi": "10.5281/zenodo.17772946",
-      "conceptdoi": "10.5281/zenodo.15177782",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772946",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/trimal",
-        "doi": "10.5281/zenodo.17772946",
-        "publication_date": "2025-11-30",
-        "description": "<p>Trim a multiple sequence alignment with Trimal.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Broad Viral Genomics",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "phylogenetics"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772946",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/trimal:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Ftrimal/versions/v2.5.10.0/PLAIN-WDL/descriptor/trimal.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177782"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/trimal",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772946",
-        "self_html": "https://zenodo.org/records/17772946",
-        "preview_html": "https://zenodo.org/records/17772946?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772946",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772946",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772946",
-        "reserve_doi": "https://zenodo.org/api/records/17772946/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177782",
-        "parent_html": "https://zenodo.org/records/15177782",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177782",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177782",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772946/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772946/sequence/default",
-        "files": "https://zenodo.org/api/records/17772946/files",
-        "media_files": "https://zenodo.org/api/records/17772946/media-files",
-        "archive": "https://zenodo.org/api/records/17772946/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772946/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772946/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772946/latest",
-        "versions": "https://zenodo.org/api/records/17772946/versions",
-        "draft": "https://zenodo.org/api/records/17772946/draft",
-        "access_links": "https://zenodo.org/api/records/17772946/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772946/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772946/access/users",
-        "access_request": "https://zenodo.org/api/records/17772946/access/request",
-        "access": "https://zenodo.org/api/records/17772946/access",
-        "communities": "https://zenodo.org/api/records/17772946/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772946/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772946/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772946/file-modification",
-        "requests": "https://zenodo.org/api/records/17772946/requests"
-      },
-      "updated": "2025-12-01T00:50:21.442751+00:00",
-      "recid": "17772946",
-      "revision": 4,
-      "files": [
-        {
-          "id": "ff606ea8-101e-4943-bbf4-b2a6d9c6d7c3",
-          "key": "github.com-broadinstitute-viral-pipelines-trimal_v2.5.10.0.zip",
-          "size": 7491,
-          "checksum": "md5:29774fb63516911b694a086f7f733077",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772946/files/github.com-broadinstitute-viral-pipelines-trimal_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 49,
-        "unique_downloads": 48,
-        "views": 77,
-        "unique_views": 77,
-        "version_downloads": 7,
-        "version_unique_downloads": 6,
-        "version_unique_views": 18,
-        "version_views": 18
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:17.663152+00:00",
-      "modified": "2025-12-01T00:50:17.831756+00:00",
-      "id": 17772945,
-      "conceptrecid": "15177778",
-      "doi": "10.5281/zenodo.17772945",
-      "conceptdoi": "10.5281/zenodo.15177778",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772945",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/terra_update_assemblies",
-        "doi": "10.5281/zenodo.17772945",
-        "publication_date": "2025-11-30",
-        "description": "<p>Create data tables in Terra workspace from provided tsv load file.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Broad Viral Genomics",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772945",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/terra_update_assemblies:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fterra_update_assemblies/versions/v2.5.10.0/PLAIN-WDL/descriptor/terra_update_assemblies.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177778"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/terra_update_assemblies",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772945",
-        "self_html": "https://zenodo.org/records/17772945",
-        "preview_html": "https://zenodo.org/records/17772945?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772945",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772945",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772945",
-        "reserve_doi": "https://zenodo.org/api/records/17772945/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177778",
-        "parent_html": "https://zenodo.org/records/15177778",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177778",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177778",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772945/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772945/sequence/default",
-        "files": "https://zenodo.org/api/records/17772945/files",
-        "media_files": "https://zenodo.org/api/records/17772945/media-files",
-        "archive": "https://zenodo.org/api/records/17772945/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772945/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772945/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772945/latest",
-        "versions": "https://zenodo.org/api/records/17772945/versions",
-        "draft": "https://zenodo.org/api/records/17772945/draft",
-        "access_links": "https://zenodo.org/api/records/17772945/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772945/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772945/access/users",
-        "access_request": "https://zenodo.org/api/records/17772945/access/request",
-        "access": "https://zenodo.org/api/records/17772945/access",
-        "communities": "https://zenodo.org/api/records/17772945/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772945/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772945/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772945/file-modification",
-        "requests": "https://zenodo.org/api/records/17772945/requests"
-      },
-      "updated": "2025-12-01T00:50:17.831756+00:00",
-      "recid": "17772945",
-      "revision": 4,
-      "files": [
-        {
-          "id": "4dbe39a9-58e8-47be-8839-371f5fe150ee",
-          "key": "github.com-broadinstitute-viral-pipelines-terra_update_assemblies_v2.5.10.0.zip",
-          "size": 11554,
-          "checksum": "md5:25587a6e2900de0cec0e9dbabac4009e",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772945/files/github.com-broadinstitute-viral-pipelines-terra_update_assemblies_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 39,
-        "unique_downloads": 38,
-        "views": 79,
-        "unique_views": 77,
-        "version_downloads": 8,
-        "version_unique_downloads": 7,
-        "version_unique_views": 18,
-        "version_views": 19
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-01T00:50:13.291975+00:00",
-      "modified": "2025-12-01T00:50:13.490258+00:00",
-      "id": 17772944,
-      "conceptrecid": "15177776",
-      "doi": "10.5281/zenodo.17772944",
-      "conceptdoi": "10.5281/zenodo.15177776",
-      "doi_url": "https://doi.org/10.5281/zenodo.17772944",
-      "metadata": {
-        "title": "github.com/broadinstitute/viral-pipelines/terra_tsv_to_table",
-        "doi": "10.5281/zenodo.17772944",
-        "publication_date": "2025-11-30",
-        "description": "<p>Upload tsv files to Terra data table: insert-or-update on existing rows/columns</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Broad Viral Genomics",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://dockstore.org/aliases/workflow-versions/10.5281-zenodo.17772944",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/workflows/github.com/broadinstitute/viral-pipelines/terra_tsv_to_table:v2.5.10.0",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "https://dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2Fbroadinstitute%2Fviral-pipelines%2Fterra_tsv_to_table/versions/v2.5.10.0/PLAIN-WDL/descriptor/terra_tsv_to_table.wdl",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
-          }
-        ],
-        "version": "v2.5.10.0",
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "f312c6b6-0dd6-4fb2-a224-7c4960394ac1"
-          },
-          {
-            "id": "dockstore"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 2,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15177776"
-              }
-            }
-          ]
-        }
-      },
-      "title": "github.com/broadinstitute/viral-pipelines/terra_tsv_to_table",
-      "links": {
-        "self": "https://zenodo.org/api/records/17772944",
-        "self_html": "https://zenodo.org/records/17772944",
-        "preview_html": "https://zenodo.org/records/17772944?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17772944",
-        "self_doi": "https://doi.org/10.5281/zenodo.17772944",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17772944",
-        "reserve_doi": "https://zenodo.org/api/records/17772944/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15177776",
-        "parent_html": "https://zenodo.org/records/15177776",
-        "parent_doi": "https://doi.org/10.5281/zenodo.15177776",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15177776",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17772944/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17772944/sequence/default",
-        "files": "https://zenodo.org/api/records/17772944/files",
-        "media_files": "https://zenodo.org/api/records/17772944/media-files",
-        "archive": "https://zenodo.org/api/records/17772944/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17772944/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17772944/versions/latest",
-        "latest_html": "https://zenodo.org/records/17772944/latest",
-        "versions": "https://zenodo.org/api/records/17772944/versions",
-        "draft": "https://zenodo.org/api/records/17772944/draft",
-        "access_links": "https://zenodo.org/api/records/17772944/access/links",
-        "access_grants": "https://zenodo.org/api/records/17772944/access/grants",
-        "access_users": "https://zenodo.org/api/records/17772944/access/users",
-        "access_request": "https://zenodo.org/api/records/17772944/access/request",
-        "access": "https://zenodo.org/api/records/17772944/access",
-        "communities": "https://zenodo.org/api/records/17772944/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17772944/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17772944/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17772944/file-modification",
-        "requests": "https://zenodo.org/api/records/17772944/requests"
-      },
-      "updated": "2025-12-01T00:50:13.490258+00:00",
-      "recid": "17772944",
-      "revision": 4,
-      "files": [
-        {
-          "id": "49bbecea-9abe-4b20-b3bb-410d1a302695",
-          "key": "github.com-broadinstitute-viral-pipelines-terra_tsv_to_table_v2.5.10.0.zip",
-          "size": 22621,
-          "checksum": "md5:30ac2d54e980bce9c39c5e12510cc6c6",
-          "links": {
-            "self": "https://zenodo.org/api/records/17772944/files/github.com-broadinstitute-viral-pipelines-terra_tsv_to_table_v2.5.10.0.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "76183"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 45,
-        "unique_downloads": 44,
-        "views": 79,
-        "unique_views": 78,
-        "version_downloads": 6,
-        "version_unique_downloads": 5,
-        "version_unique_views": 15,
-        "version_views": 15
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
       },
       "state": "done",
       "submitted": true

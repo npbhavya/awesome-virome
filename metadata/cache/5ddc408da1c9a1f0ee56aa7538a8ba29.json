@@ -1,6 +1,141 @@
 {
-  "cache_date": "2025-11-01T12:34:34.322283",
+  "cache_date": "2026-06-01T17:22:23.898889",
   "data": [
+    {
+      "created": "2026-04-22T12:27:23.351866+00:00",
+      "modified": "2026-04-22T12:27:23.532540+00:00",
+      "id": 19695289,
+      "conceptrecid": "18961926",
+      "doi": "10.5281/zenodo.19695289",
+      "conceptdoi": "10.5281/zenodo.18961926",
+      "doi_url": "https://doi.org/10.5281/zenodo.19695289",
+      "metadata": {
+        "title": "Phage Bacteria Interaction pipeline",
+        "doi": "10.5281/zenodo.19695289",
+        "publication_date": "2026-04-22",
+        "description": "A bioinformatics pipeline that makes phage genomic data from PhageScope available in an efficient, structured format for training neural networks and AI models for phage-host interaction prediction. PBI integrates data from 14 phage databases (RefSeq, Genbank, PhagesDB, etc.) and downloads matching bacterial host genomes from NCBI RefSeq, consolidating everything into a queryable DuckDB database with indexed FASTA files.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Schowing, Thibault",
+            "affiliation": null,
+            "orcid": "0000-0002-5096-3775"
+          }
+        ],
+        "keywords": [
+          "phage",
+          "bacteriophage",
+          "bioinformatics",
+          "phage-host interaction",
+          "machine learning",
+          "pipeline",
+          "duckdb",
+          "snakemake"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/ThibaultSchowing/PBI/tree/v0.3.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v0.3.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/ThibaultSchowing/PBI"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "18961926"
+              }
+            }
+          ]
+        },
+        "notes": "If you use this software, please cite it as below."
+      },
+      "title": "Phage Bacteria Interaction pipeline",
+      "links": {
+        "self": "https://zenodo.org/api/records/19695289",
+        "self_html": "https://zenodo.org/records/19695289",
+        "preview_html": "https://zenodo.org/records/19695289?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.19695289",
+        "self_doi": "https://doi.org/10.5281/zenodo.19695289",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19695289",
+        "reserve_doi": "https://zenodo.org/api/records/19695289/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/18961926",
+        "parent_html": "https://zenodo.org/records/18961926",
+        "parent_doi": "https://doi.org/10.5281/zenodo.18961926",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18961926",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19695289/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19695289/sequence/default",
+        "files": "https://zenodo.org/api/records/19695289/files",
+        "media_files": "https://zenodo.org/api/records/19695289/media-files",
+        "archive": "https://zenodo.org/api/records/19695289/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19695289/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19695289/versions/latest",
+        "latest_html": "https://zenodo.org/records/19695289/latest",
+        "versions": "https://zenodo.org/api/records/19695289/versions",
+        "draft": "https://zenodo.org/api/records/19695289/draft",
+        "access_links": "https://zenodo.org/api/records/19695289/access/links",
+        "access_grants": "https://zenodo.org/api/records/19695289/access/grants",
+        "access_users": "https://zenodo.org/api/records/19695289/access/users",
+        "access_request": "https://zenodo.org/api/records/19695289/access/request",
+        "access": "https://zenodo.org/api/records/19695289/access",
+        "communities": "https://zenodo.org/api/records/19695289/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19695289/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19695289/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19695289/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19695289/quota-increase",
+        "requests": "https://zenodo.org/api/records/19695289/requests"
+      },
+      "updated": "2026-04-22T12:27:23.532540+00:00",
+      "recid": "19695289",
+      "revision": 4,
+      "files": [
+        {
+          "id": "58cf0b22-ef63-4be2-b065-765da23f62e1",
+          "key": "ThibaultSchowing/PBI-v0.3.0.zip",
+          "size": 29840387,
+          "checksum": "md5:21a54d9b9ade763379f1ae86000958a4",
+          "links": {
+            "self": "https://zenodo.org/api/records/19695289/files/ThibaultSchowing/PBI-v0.3.0.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:c3bffc2ff699831b4082074a0cff80b3b5ddf9a4;origin=https://doi.org/10.5281/zenodo.18961926;visit=swh:1:snp:7f25b8aae6465fbf7a1c7d3be894a5ec58133a34;anchor=swh:1:rel:2d78373f71b5aa47f053b3aa6cccd73daac23182;path=ThibaultSchowing-PBI-2430efc"
+      },
+      "owners": [
+        {
+          "id": "304544"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 4,
+        "unique_downloads": 4,
+        "views": 69,
+        "unique_views": 64,
+        "version_downloads": 3,
+        "version_unique_downloads": 3,
+        "version_unique_views": 13,
+        "version_views": 14
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2021-03-29T18:01:23.486868+00:00",
       "modified": "2024-07-19T05:51:16.532879+00:00",
@@ -99,6 +234,8 @@
         "communities": "https://zenodo.org/api/records/4645746/communities",
         "communities-suggestions": "https://zenodo.org/api/records/4645746/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/4645746/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/4645746/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/4645746/quota-increase",
         "requests": "https://zenodo.org/api/records/4645746/requests"
       },
       "updated": "2024-07-19T05:51:16.532879+00:00",
@@ -303,14 +440,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 2090,
-        "unique_downloads": 2022,
-        "views": 661,
-        "unique_views": 622,
-        "version_downloads": 1249,
-        "version_unique_downloads": 1207,
-        "version_unique_views": 326,
-        "version_views": 346
+        "downloads": 3147,
+        "unique_downloads": 3078,
+        "views": 871,
+        "unique_views": 832,
+        "version_downloads": 1882,
+        "version_unique_downloads": 1840,
+        "version_unique_views": 446,
+        "version_views": 466
       },
       "state": "done",
       "submitted": true
@@ -394,6 +531,8 @@
         "communities": "https://zenodo.org/api/records/3625229/communities",
         "communities-suggestions": "https://zenodo.org/api/records/3625229/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/3625229/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/3625229/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/3625229/quota-increase",
         "requests": "https://zenodo.org/api/records/3625229/requests"
       },
       "updated": "2020-01-25T07:25:31.933068+00:00",
@@ -418,14 +557,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 11,
-        "unique_downloads": 11,
-        "views": 29,
-        "unique_views": 27,
-        "version_downloads": 11,
-        "version_unique_downloads": 11,
-        "version_unique_views": 27,
-        "version_views": 29
+        "downloads": 18,
+        "unique_downloads": 18,
+        "views": 34,
+        "unique_views": 32,
+        "version_downloads": 18,
+        "version_unique_downloads": 18,
+        "version_unique_views": 32,
+        "version_views": 34
       },
       "state": "done",
       "submitted": true

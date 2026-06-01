@@ -1,17 +1,18 @@
 {
-  "cache_date": "2025-11-01T11:45:26.704262",
+  "cache_date": "2026-06-01T16:40:14.593090",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2022,
-            5,
-            14
+            2026,
+            2,
+            28
           ]
         ],
-        "date-time": "2022-05-14T12:15:35Z",
-        "timestamp": 1652530535593
+        "date-time": "2026-02-28T08:46:07Z",
+        "timestamp": 1772268367316,
+        "version": "3.50.1"
       },
       "reference-count": 0,
       "publisher": "PeerJ",
@@ -29,13 +30,13 @@
             13
           ]
         ],
-        "date-time": "2022-05-13T08:05:08Z",
-        "timestamp": 1652429108000
+        "date-time": "2022-05-13T04:05:08Z",
+        "timestamp": 1652414708000
       },
       "source": "Crossref",
       "is-referenced-by-count": 0,
       "title": [
-        "Supplemental Information 1: Combined <i>virsorter2</i> and <i>CheckV</i> outputs."
+        "Supplemental Information 1: Combined\n                      <i>virsorter2</i>\n                      and\n                      <i>CheckV</i>\n                      outputs."
       ],
       "prefix": "10.7717",
       "member": "4443",
@@ -47,10 +48,10 @@
             13
           ]
         ],
-        "date-time": "2022-05-13T08:05:13Z",
-        "timestamp": 1652429113000
+        "date-time": "2022-05-13T04:05:13Z",
+        "timestamp": 1652414713000
       },
-      "score": 20.83581,
+      "score": 20.368599,
       "resource": {
         "primary": {
           "URL": "https://peerj.com/articles/13410/supp-1"
@@ -64,20 +65,29 @@
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.7717/peerj.13410/supp-1"
+      "URL": "https://doi.org/10.7717/peerj.13410/supp-1",
+      "relation": {
+        "is-component-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7717/peerj.13410",
+            "asserted-by": "object"
+          }
+        ]
+      }
     },
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            16
+            2026,
+            2,
+            28
           ]
         ],
-        "date-time": "2025-10-16T00:28:10Z",
-        "timestamp": 1760574490673,
-        "version": "build-2065373602"
+        "date-time": "2026-02-28T08:58:25Z",
+        "timestamp": 1772269105729,
+        "version": "3.50.1"
       },
       "reference-count": 0,
       "publisher": "PeerJ",
@@ -116,7 +126,7 @@
         "date-time": "2025-10-15T08:28:04Z",
         "timestamp": 1760516884000
       },
-      "score": 19.43891,
+      "score": 19.568981,
       "resource": {
         "primary": {
           "URL": "https://peerj.com/articles/20170/supp-8"
@@ -130,7 +140,16 @@
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.7717/peerj.20170/supp-8"
+      "URL": "https://doi.org/10.7717/peerj.20170/supp-8",
+      "relation": {
+        "is-component-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7717/peerj.20170",
+            "asserted-by": "object"
+          }
+        ]
+      }
     },
     {
       "institution": [
@@ -141,14 +160,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-10-31T07:54:49Z",
-        "timestamp": 1761897289611,
-        "version": "3.37.3"
+        "date-time": "2026-01-15T14:51:59Z",
+        "timestamp": 1768488719045,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -161,7 +180,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 60,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -193,7 +212,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>Over the last several years, metagenomics has enabled the assembly of millions of new viral sequences that have vastly expanded our knowledge of Earth\u2019s viral diversity. However, these sequences range from small fragments to complete genomes and no tools currently exist for estimating their quality. To address this problem, we developed CheckV, which is an automated pipeline for estimating the completeness of viral genomes as well as the identification and removal of non-viral regions found on integrated proviruses. After validating the approach on mock datasets, CheckV was applied to large and diverse viral genome collections, including IMG/VR and the Global Ocean Virome, revealing that the majority of viral sequences were small fragments, with just 3.6% classified as high-quality (i.e. &gt; 90% completeness) or complete genomes. Additionally, we found that removal of host contamination significantly improved identification of auxiliary metabolic genes and interpretation of viral-encoded functions. We expect CheckV will be broadly useful for all researchers studying and reporting viral genomes assembled from metagenomes. CheckV is freely available at:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://bitbucket.org/berkeleylab/CheckV\">http://bitbucket.org/berkeleylab/CheckV</jats:ext-link>.</jats:p>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Over the last several years, metagenomics has enabled the assembly of millions of new viral sequences that have vastly expanded our knowledge of Earth\u2019s viral diversity. However, these sequences range from small fragments to complete genomes and no tools currently exist for estimating their quality. To address this problem, we developed CheckV, which is an automated pipeline for estimating the completeness of viral genomes as well as the identification and removal of non-viral regions found on integrated proviruses. After validating the approach on mock datasets, CheckV was applied to large and diverse viral genome collections, including IMG/VR and the Global Ocean Virome, revealing that the majority of viral sequences were small fragments, with just 3.6% classified as high-quality (i.e. &gt; 90% completeness) or complete genomes. Additionally, we found that removal of host contamination significantly improved identification of auxiliary metabolic genes and interpretation of viral-encoded functions. We expect CheckV will be broadly useful for all researchers studying and reporting viral genomes assembled from metagenomes. CheckV is freely available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://bitbucket.org/berkeleylab/CheckV\">http://bitbucket.org/berkeleylab/CheckV</jats:ext-link>\n                  .\n                </jats:p>",
       "DOI": "10.1101/2020.05.06.081778",
       "type": "posted-content",
       "created": {
@@ -204,15 +223,15 @@
             8
           ]
         ],
-        "date-time": "2020-05-08T13:09:39Z",
-        "timestamp": 1588943379000
+        "date-time": "2020-05-08T09:09:39Z",
+        "timestamp": 1588928979000
       },
       "source": "Crossref",
       "is-referenced-by-count": 49,
       "title": [
         "CheckV: assessing the quality of metagenome-assembled viral genomes"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0000-0003-4625-4164",
@@ -220,7 +239,13 @@
           "given": "Stephen",
           "family": "Nayfach",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0003-3913-2484",
@@ -228,7 +253,13 @@
           "given": "Antonio Pedro",
           "family": "Camargo",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-8162-1276",
@@ -236,7 +267,13 @@
           "given": "Emiley",
           "family": "Eloe-Fadrosh",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-5831-5895",
@@ -244,7 +281,13 @@
           "given": "Simon",
           "family": "Roux",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-6131-0462",
@@ -252,10 +295,16 @@
           "given": "Nikos",
           "family": "Kyrpides",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2024080407152335000_2020.05.06.081778v1.1",
@@ -662,15 +711,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            8,
-            4
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-08-04T14:24:17Z",
-        "timestamp": 1722781457000
+        "date-time": "2026-01-15T00:21:01Z",
+        "timestamp": 1768436461000
       },
-      "score": 16.921587,
+      "score": 17.983685,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.05.06.081778"
@@ -747,7 +796,7 @@
         "date-time": "2024-06-25T18:22:00Z",
         "timestamp": 1719339720000
       },
-      "score": 12.524848,
+      "score": 12.678978,
       "resource": {
         "primary": {
           "URL": "https://av.kenzym.com/"
@@ -828,19 +877,37 @@
           "given": "John",
           "family": "Oxford",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Paul",
           "family": "Kellam",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Leslie",
           "family": "Collier",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "286",
@@ -879,7 +946,7 @@
         "date-time": "2024-02-06T08:43:28Z",
         "timestamp": 1707209008000
       },
-      "score": 12.383478,
+      "score": 12.623578,
       "resource": {
         "primary": {
           "URL": "https://www.oxfordsciencetrove.com/view/10.1093/hesc/9780198714682.001.0001/isbn-9780198714682-book-part-29"
@@ -960,7 +1027,7 @@
         "date-time": "2017-12-10T11:53:39Z",
         "timestamp": 1512906819000
       },
-      "score": 12.28008,
+      "score": 12.492062,
       "resource": {
         "primary": {
           "URL": "https://www.hindawi.com/archive/"
@@ -985,83 +1052,6 @@
         {
           "value": "2090-8814",
           "type": "electronic"
-        }
-      ]
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2022,
-            4,
-            2
-          ]
-        ],
-        "date-time": "2022-04-02T18:41:18Z",
-        "timestamp": 1648924878598
-      },
-      "reference-count": 0,
-      "publisher": "Chumakov Institute of Poliomyelitis and Viral Encephalitides",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "DOI": "10.15610/main",
-      "type": "journal",
-      "created": {
-        "date-parts": [
-          [
-            2017,
-            1,
-            10
-          ]
-        ],
-        "date-time": "2017-01-10T16:56:24Z",
-        "timestamp": 1484067384000
-      },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "Medical virology"
-      ],
-      "prefix": "10.15610",
-      "member": "6353",
-      "deposited": {
-        "date-parts": [
-          [
-            2017,
-            1,
-            10
-          ]
-        ],
-        "date-time": "2017-01-10T16:56:24Z",
-        "timestamp": 1484067384000
-      },
-      "score": 12.278898,
-      "resource": {
-        "primary": {
-          "URL": "http://f0108525.xsph.ru/index_en.htm"
-        }
-      },
-      "short-title": [
-        "Medical virology"
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            null
-          ]
-        ]
-      },
-      "references-count": 0,
-      "URL": "https://doi.org/10.15610/main",
-      "ISSN": [
-        "2070-7746"
-      ],
-      "issn-type": [
-        {
-          "value": "2070-7746",
-          "type": "print"
         }
       ]
     },
@@ -1115,7 +1105,7 @@
         "date-time": "2012-10-25T08:28:39Z",
         "timestamp": 1351153719000
       },
-      "score": 12.248874,
+      "score": 12.489155,
       "resource": {
         "primary": {
           "URL": "http://www.hindawi.com/isrn/virology/"
@@ -1259,13 +1249,25 @@
           "given": "Theo W",
           "family": "Dreher",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "A.L.N",
           "family": "Rao",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
       "member": "78",
@@ -1298,7 +1300,7 @@
         "date-time": "2025-09-22T23:25:20Z",
         "timestamp": 1758583520000
       },
-      "score": 12.248689,
+      "score": 12.459829,
       "resource": {
         "primary": {
           "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0042682203006147"
@@ -1382,204 +1384,155 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            9,
-            28
+            2022,
+            4,
+            2
           ]
         ],
-        "date-time": "2025-09-28T03:40:13Z",
-        "timestamp": 1759030813327,
-        "version": "3.44.0"
+        "date-time": "2022-04-02T18:41:18Z",
+        "timestamp": 1648924878598
       },
       "reference-count": 0,
-      "publisher": "Elsevier BV",
-      "license": [
-        {
-          "start": {
-            "date-parts": [
-              [
-                2025,
-                11,
-                1
-              ]
-            ],
-            "date-time": "2025-11-01T00:00:00Z",
-            "timestamp": 1761955200000
-          },
-          "content-version": "tdm",
-          "delay-in-days": 0,
-          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
-        },
-        {
-          "start": {
-            "date-parts": [
-              [
-                2025,
-                11,
-                1
-              ]
-            ],
-            "date-time": "2025-11-01T00:00:00Z",
-            "timestamp": 1761955200000
-          },
-          "content-version": "tdm",
-          "delay-in-days": 0,
-          "URL": "https://www.elsevier.com/legal/tdmrep-license"
-        }
-      ],
+      "publisher": "Chumakov Institute of Poliomyelitis and Viral Encephalitides",
       "content-domain": {
-        "domain": [
-          "clinicalkey.com",
-          "clinicalkey.com.au",
-          "clinicalkey.es",
-          "clinicalkey.fr",
-          "clinicalkey.jp",
-          "elsevier.com",
-          "sciencedirect.com"
-        ],
-        "crossmark-restriction": true
+        "domain": [],
+        "crossmark-restriction": false
       },
-      "short-container-title": [
-        "Virology"
-      ],
-      "published-print": {
-        "date-parts": [
-          [
-            2025,
-            11
-          ]
-        ]
-      },
-      "DOI": "10.1016/j.virol.2025.110687",
-      "type": "journal-article",
+      "DOI": "10.15610/main",
+      "type": "journal",
       "created": {
         "date-parts": [
           [
-            2025,
-            9,
+            2017,
+            1,
             10
           ]
         ],
-        "date-time": "2025-09-10T21:38:03Z",
-        "timestamp": 1757540283000
+        "date-time": "2017-01-10T16:56:24Z",
+        "timestamp": 1484067384000
       },
-      "page": "110687",
-      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
       "source": "Crossref",
       "is-referenced-by-count": 0,
-      "special_numbering": "C",
       "title": [
-        "Editorial: 70th Anniversary of Virology"
+        "Medical virology"
       ],
-      "prefix": "10.1016",
-      "volume": "612",
-      "author": [
-        {
-          "given": "Jasmine",
-          "family": "Tomar",
-          "sequence": "first",
-          "affiliation": []
-        }
-      ],
-      "member": "78",
-      "container-title": [
-        "Virology"
-      ],
-      "language": "en",
-      "link": [
-        {
-          "URL": "https://api.elsevier.com/content/article/PII:S0042682225003010?httpAccept=text/xml",
-          "content-type": "text/xml",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        },
-        {
-          "URL": "https://api.elsevier.com/content/article/PII:S0042682225003010?httpAccept=text/plain",
-          "content-type": "text/plain",
-          "content-version": "vor",
-          "intended-application": "text-mining"
-        }
-      ],
+      "prefix": "10.15610",
+      "member": "6353",
       "deposited": {
         "date-parts": [
           [
-            2025,
-            9,
-            28
+            2017,
+            1,
+            10
           ]
         ],
-        "date-time": "2025-09-28T03:14:14Z",
-        "timestamp": 1759029254000
+        "date-time": "2017-01-10T16:56:24Z",
+        "timestamp": 1484067384000
       },
-      "score": 12.209218,
+      "score": 12.427417,
       "resource": {
         "primary": {
-          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0042682225003010"
+          "URL": "http://f0108525.xsph.ru/index_en.htm"
         }
       },
+      "short-title": [
+        "Medical virology"
+      ],
       "issued": {
         "date-parts": [
           [
-            2025,
-            11
+            null
           ]
         ]
       },
       "references-count": 0,
-      "alternative-id": [
-        "S0042682225003010"
-      ],
-      "URL": "https://doi.org/10.1016/j.virol.2025.110687",
+      "URL": "https://doi.org/10.15610/main",
       "ISSN": [
-        "0042-6822"
+        "2070-7746"
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "0042-6822"
+          "value": "2070-7746",
+          "type": "print"
         }
-      ],
-      "published": {
+      ]
+    },
+    {
+      "indexed": {
         "date-parts": [
           [
-            2025,
-            11
+            2022,
+            3,
+            31
+          ]
+        ],
+        "date-time": "2022-03-31T17:43:23Z",
+        "timestamp": 1648748603114
+      },
+      "reference-count": 0,
+      "publisher": "Chumakov Institute of Poliomyelitis and Viral Encephalitides",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "DOI": "10.15610/18",
+      "type": "journal",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2014-10-27T16:40:27Z",
+        "timestamp": 1414428027000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Medical virology"
+      ],
+      "prefix": "10.15610",
+      "member": "6353",
+      "deposited": {
+        "date-parts": [
+          [
+            2014,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2014-10-27T16:40:27Z",
+        "timestamp": 1414428027000
+      },
+      "score": 12.369309,
+      "resource": {
+        "primary": {
+          "URL": "http://poliomielit.ru/images/doc/J_Med_vir/medvir/index_en.htm"
+        }
+      },
+      "short-title": [
+        "Medical virology"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            null
           ]
         ]
       },
-      "assertion": [
-        {
-          "value": "Elsevier",
-          "name": "publisher",
-          "label": "This article is maintained by"
-        },
-        {
-          "value": "Editorial: 70th Anniversary of Virology",
-          "name": "articletitle",
-          "label": "Article Title"
-        },
-        {
-          "value": "Virology",
-          "name": "journaltitle",
-          "label": "Journal Title"
-        },
-        {
-          "value": "https://doi.org/10.1016/j.virol.2025.110687",
-          "name": "articlelink",
-          "label": "CrossRef DOI link to publisher maintained version"
-        },
-        {
-          "value": "simple-article",
-          "name": "content_type",
-          "label": "Content Type"
-        },
-        {
-          "value": "\u00a9 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
-          "name": "copyright",
-          "label": "Copyright"
-        }
+      "references-count": 0,
+      "URL": "https://doi.org/10.15610/18",
+      "ISSN": [
+        "2070-7746"
       ],
-      "article-number": "110687"
+      "issn-type": [
+        {
+          "value": "2070-7746",
+          "type": "print"
+        }
+      ]
     }
   ]
 }

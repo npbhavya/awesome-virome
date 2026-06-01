@@ -1,6 +1,472 @@
 {
-  "cache_date": "2025-11-01T10:25:05.378520",
+  "cache_date": "2026-06-01T15:21:47.293481",
   "data": [
+    {
+      "created": "2026-05-18T08:15:57.835026+00:00",
+      "modified": "2026-05-18T08:15:58.190858+00:00",
+      "id": 20119467,
+      "conceptrecid": "20119466",
+      "doi": "10.5281/zenodo.20119467",
+      "conceptdoi": "10.5281/zenodo.20119466",
+      "doi_url": "https://doi.org/10.5281/zenodo.20119467",
+      "metadata": {
+        "title": "Swine Nasopharyngeal Phage Catalogue",
+        "doi": "10.5281/zenodo.20119467",
+        "publication_date": "2026-05-08",
+        "description": "<h1>Swine Nasopharyngeal Phage Catalogue</h1>\n<h2>1. Dataset overview</h2>\n<p>This repository accompanies the manuscript *\"Paired viromics resolves the modular ecological architecture of the swine nasopharyngeal phageome\"* and provides a curated, non-redundant catalogue of viral operational taxonomic units (vOTUs) recovered from the upper respiratory tract of post-weaning piglets across ten commercial farms in northwestern Spain. Paired DNA microbiome (DNA-m) and virus-like particle&ndash;enriched (VLP-e) short-read metagenomic libraries were processed, integrated, and dereplicated at species-level identity (&ge;95% average nucleotide identity over &ge;85% alignment fraction) following MIUViG recommendations (Roux et al., 2019).</p>\n<p>The catalogue comprises 2,501 representative vOTU sequences with CheckV-estimated completeness &ge;50%. For each vOTU, this release distributes (i) curated catalogue metadata describing taxonomy, predicted lifestyle, predicted host, quality metrics, and similarity to previously described phages; and (ii) per-gene functional annotations generated with Pharokka. Together, these files are intended to support reuse of the catalogue for comparative viromics, host-prediction benchmarking, downstream functional characterization, and rational pre-selection of lytic phage candidates against porcine respiratory pathogens.</p>\n<h2>2. Files included in this release</h2>\n<p>- **`nasopharyngeal_phages_metadata.tsv`**: one row per representative vOTU (n = 2,501). Contains identification, sample provenance, quality metrics (CheckV, MIUViG), taxonomic assignment, predicted lifestyle (PhaTYP), predicted bacterial host (iPHoP), terL marker information, and similarity to known phages from PhageScope.<br>- **`nasopharyngeal_phages_pharokka.tsv`**: one row per predicted gene across all representative vOTUs. Contains Pharokka annotations (PHROG categories, functional descriptions) and complementary searches against the Virulence Factor Database (VFDB) and the Comprehensive Antibiotic Resistance Database (CARD).<br>- **`nasopharyngeal_phages_vOTUs.fasta`**: nucleotide sequences of the 2,501 representative vOTUs. Sequence headers correspond to the `vOTU-ID` field used as the primary key across both metadata files.<br>- **`nasopharyngeal_phages_pharokka_CDS.faa`**: amino-acid sequences of the CDS derived from Pharokka annotations. CDS headers correspond to the `vOTU-gene` field used as key in the `nasopharyngeal_phages_pharokka` file.</p>\n<h2>3. General conventions</h2>\n<p>- Missing values are encoded as `NA` in the catalogue metadata file and as `None` or `No_PHROG` / `No_custom_HMM` in the Pharokka file, depending on the originating tool.<br>- Coordinates in the Pharokka file (`start`, `stop`) are 1-based and refer to the parent vOTU sequence.<br>- All numeric percentages are reported on a 0&ndash;100 scale; coverages and sequence-identity fractions reported by alignment tools (`qcov`, `tcov`, `fident`, `mmseqs_seqIdentity`) are reported on a 0&ndash;1 scale, following the conventions of the corresponding tools.<br>- Taxonomic strings for predicted bacterial hosts use GTDB rank prefixes (`d__`, `p__`, `c__`, `o__`, `f__`, `g__`, `s__`).<br>- Viral taxonomic strings follow the ICTV-style hierarchy reported by PhaBOX2 (superkingdom, clade, kingdom, phylum, class, order, family, genus).</p>\n<h2>4. `nasopharyngeal_phages_metadata.tsv`</h2>\n<p>This file contains one row per representative vOTU and 26 descriptor columns. The table below provides the field name, expected type or set of values, and a brief description.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Unique identifier of the viral operational taxonomic unit (vOTU) representative sequence. Encodes the originating sample and assembly source (e.g. `M01-C1_DNA-m_NODE_29994_length_56440_cov_17.9864_ID_59987`). |<br>| `Sample-Workflow` | Text (string) | Sample of origin combined with the extraction workflow used to recover the contig: `DNA-m` (DNA microbiome shotgun) or `VLP-e` (virus-like particle&ndash;enriched). The sample component follows the format `M[farm]-C[pen]` (e.g. `M01-C1_DNA-m`). |<br>| `Phage_Detection_Tool` | Categorical: `genomad` / `virsorter2` | Bioinformatic classifier that retained the contig as viral. When both tools identified the same contig, the prediction with the lowest CheckV-estimated contamination was kept. |<br>| `vOTU_Length` | Integer (bp) | Length of the representative vOTU sequence in base pairs. |<br>| `Viral_Taxonomy` | Text (string) or `NA` | Taxonomic lineage assigned by PhaBOX2, reported in semicolon-separated rank format from superkingdom down to the deepest resolved rank (e.g. `superkingdom:Viruses;clade:Duplodnaviria;&hellip;;family:Peduoviridae`). `NA` when no confident assignment was obtained. |<br>| `Number_of_genes` | Integer | Total number of predicted protein-coding genes annotated on the representative sequence. |<br>| `Viral_genes` | Integer | Number of predicted genes assigned to viral functional. |<br>| `Host_genes` | Integer | Number of predicted genes flagged as putatively host-derived by CheckV. Higher values indicate possible host contamination or integrated regions. |<br>| `Provirus` | Categorical: `Yes` / `No` | Whether CheckV identified the contig as a provirus (i.e. an integrated viral region embedded in a longer host-derived sequence). |<br>| `Proviral_Length` | Integer (bp) or `NA` | Length of the proviral region in base pairs when `Provirus = Yes`; `NA` otherwise. |<br>| `CheckV_Quality` | Categorical | CheckV quality category based on completeness and contamination: `Complete`, `High-quality`, `Medium-quality`, `Low-quality`, or `Not-determined`. Only `Medium-quality` or higher were retained in the curated catalogue. |<br>| `MIUViG_Quality` | Categorical | MIUViG (Minimum Information about an Uncultivated Virus Genome; Roux et al., 2019) tier: `Finished`, `High-quality`, or `Genome-fragment`, derived from CheckV completeness and contamination together with assembly status. |<br>| `Completeness (%)` | Numeric (0&ndash;100) | CheckV-estimated genome completeness, expressed as percentage. |<br>| `Contamination (%)` | Numeric (0&ndash;100) | CheckV-estimated host or non-viral contamination, expressed as percentage. |<br>| `Predicted_bacterial_host (IPHOP)` | Text (string) or `NA` | Putative bacterial host predicted by iPHoP, reported in GTDB rank-prefixed format (`d__Bacteria;p__&hellip;;c__&hellip;;o__&hellip;;f__&hellip;;g__&hellip;;s__&hellip;`). When multiple predictions were returned, the highest-confidence call was retained. `NA` when no host could be predicted with sufficient confidence. |<br>| `Confidence_Score_IPHOP` | Numeric (0&ndash;100) or `NA` | iPHoP confidence score associated with the retained host prediction. Higher values indicate greater confidence; `NA` when no host was assigned. |<br>| `Phage_Lifestyle (PhaTYP)` | Categorical: `virulent` / `temperate` / `NA` | Predicted replication strategy obtained from the PhaTYP module of PhaBOX2. `NA` when the model did not produce a confident call. |<br>| `PhaTYPScore` | Numeric (0&ndash;1) | PhaTYP probability score supporting the lifestyle assignment. |<br>| `Relationship with previously described vOTUs` | Categorical: `Permissive` / `Strict` / `NA` | Similarity to known phage sequences from PhageScope after MUMmer4 refinement. `Permissive` denotes vOTUs meeting the lenient match criteria (fident &ge; 0.90, qcov &ge; 0.25, tcov &ge; 0.20, aligned length &ge; 2 kb, target length &ge; 2 kb); `Strict` denotes the high-confidence subset (fident &ge; 0.92, qcov &ge; 0.35, aligned length &ge; 5 kb, target length &ge; 5 kb, and either tcov &ge; 0.50 or query length &ge; 15 kb). `NA` indicates no significant match. Full criteria are described in the Methods section of the associated manuscript. |<br>| `terL_gene` | Text (string) or `NA` | Identifier of the large terminase subunit (terL) gene predicted by Pharokka on the representative vOTU. `NA` when no terL was detected or when the predicted protein was shorter than 100 residues. |<br>| `terL_length` | Integer (amino acids) or `NA` | Length of the predicted terL protein in amino acids. Only sequences &ge;100 residues were used for the terL phylogenetic analysis. |<br>| `PhageScope-target` | Text (string) or `NA` | Identifier of the best-matching reference sequence in the PhageScope database when a similarity hit was retained; `NA` otherwise. |<br>| `PhageScope_source` | Text (string) or `NA` | Source database entry within PhageScope for the matched reference (e.g. originating phage genome accession or collection). |<br>| `qcov` | Numeric (0&ndash;1) or `NA` | Query coverage: fraction of the vOTU sequence covered by the alignment to the PhageScope target. `NA` when no match was retained. |<br>| `tcov` | Numeric (0&ndash;1) or `NA` | Target coverage: fraction of the matched PhageScope reference covered by the alignment. `NA` when no match was retained. |<br>| `fident` | Numeric (0&ndash;1) or `NA` | Fraction of identical nucleotides over the aligned region between the vOTU and the matched PhageScope target. `NA` when no match was retained. |</p>\n<h2>5. `nasopharyngeal_phages_pharokka.tsv`</h2>\n<p>This file contains one row per predicted feature (mainly CDS) generated by Pharokka v1.7.5 across all representative vOTUs. The table below describes its 43 columns. Functional categories follow the PHROG nomenclature; antimicrobial resistance and virulence factor annotations are derived from CARD and VFDB, respectively, and are populated only when a hit was detected.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Identifier of the parent vOTU on which the gene was predicted; matches the `vOTU-ID` column of the catalogue metadata file. |<br>| `vOTU-gene` | Text (string) | Internal gene identifier assigned by Pharokka within each vOTU (e.g. `phage_CDS_0001`). Sequential within a sequence. |<br>| `start` | Integer (bp) | Start coordinate of the predicted CDS on the vOTU sequence (1-based). |<br>| `stop` | Integer (bp) | End coordinate of the predicted CDS on the vOTU sequence (1-based, inclusive). |<br>| `frame` | Categorical: `+` / `&minus;` | Strand of the predicted CDS relative to the vOTU sequence. |<br>| `score` | Numeric | Pyrodigal gene-prediction score reported for the CDS. |<br>| `mmseqs_phrog` | Integer or `No_PHROG` | PHROG identifier returned by MMseqs2 sensitive search against the PHROG database. |<br>| `mmseqs_alnScore` | Numeric | MMseqs2 alignment bit score for the best PHROG hit. |<br>| `mmseqs_seqIdentity` | Numeric (0&ndash;1) | Fraction of identical residues in the MMseqs2 alignment to the PHROG target. |<br>| `mmseqs_eVal` | Numeric | MMseqs2 e-value of the best PHROG hit. |<br>| `mmseqs_top_hit` | Text (string) | Identifier of the top PHROG hit returned by MMseqs2. |<br>| `pyhmmer_phrog` | Integer or `No_PHROG` | PHROG identifier returned by pyhmmer profile HMM search. |<br>| `pyhmmer_bitscore` | Numeric | Bit score from the pyhmmer search against the PHROG HMM database. |<br>| `pyhmmer_evalue` | Numeric | E-value from the pyhmmer search against the PHROG HMM database. |<br>| `custom_hmm_id` | Text or `No_custom_HMM` | Identifier of the matched profile when a custom HMM database was used; `No_custom_HMM` indicates no custom HMM search was applied. |<br>| `custom_hmm_bitscore` | Numeric or `No_custom_HMM` | Bit score from the custom HMM search, when applicable. |<br>| `custom_hmm_evalue` | Numeric or `No_custom_HMM` | E-value from the custom HMM search, when applicable. |<br>| `phrog` | Integer or `No_PHROG` | Final PHROG identifier retained by Pharokka after consolidating MMseqs2 and pyhmmer evidence. |<br>| `Method` | Text (string) | Gene prediction method and version used by Pharokka. |<br>| `Region` | Categorical | Feature type (e.g. CDS, tRNA, tmRNA, CRISPR). |<br>| `color` | Hex colour code | Colour used by Pharokka for category-based visualisation of the gene in genome maps. |<br>| `annot` | Text (string) | Functional annotation of the gene (e.g. `baseplate wedge subunit`, `hypothetical protein`). |<br>| `category` | Text (string) | Higher-order PHROG functional category (e.g. tail, head and packaging, lysis, integration and excision, DNA/RNA and nucleotide metabolism, transcription regulation, moron auxiliary metabolic gene and host takeover, connector, unknown function, other). |<br>| `vfdb_hit` | Text or `None` | Best hit identifier against the Virulence Factor Database (VFDB). |<br>| `vfdb_alnScore` | Numeric or `None` | Alignment score of the best VFDB hit. |<br>| `vfdb_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best VFDB hit. |<br>| `vfdb_eVal` | Numeric or `None` | E-value of the best VFDB hit. |<br>| `vfdb_species` | Text or `None` | Species of origin of the best VFDB hit. |<br>| `vfdb_short_name` | Text or `None` | Short name of the matched VFDB virulence factor. |<br>| `vfdb_description` | Text or `None` | Functional description of the matched VFDB virulence factor. |<br>| `CARD_hit` | Text or `None` | Best hit identifier against the Comprehensive Antibiotic Resistance Database (CARD). |<br>| `CARD_alnScore` | Numeric or `None` | Alignment score of the best CARD hit. |<br>| `CARD_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best CARD hit. |<br>| `CARD_eVal` | Numeric or `None` | E-value of the best CARD hit. |<br>| `CARD_species` | Text or `None` | Species of origin of the best CARD hit. |<br>| `ARO_Accession` | Text or `None` | Antibiotic Resistance Ontology (ARO) accession of the matched CARD entry. |<br>| `CARD_short_name` | Text or `None` | Short name of the matched CARD entry. |<br>| `Protein_Accession` | Text or `None` | Protein accession associated with the matched CARD entry. |<br>| `DNA_Accession` | Text or `None` | Nucleotide accession associated with the matched CARD entry. |<br>| `AMR_Gene_Family` | Text or `None` | Antimicrobial resistance (AMR) gene family of the matched CARD entry. |<br>| `Drug_Class` | Text or `None` | Drug class targeted by the matched CARD entry. |<br>| `Resistance_Mechanism` | Text or `None` | Mechanism of resistance reported by CARD for the matched entry. |</p>",
+        "access_right": "embargoed",
+        "embargo_date": "2026-12-31",
+        "creators": [
+          {
+            "name": "Deneke, Carlus",
+            "affiliation": "Federal Institute for Risk Assessment",
+            "orcid": "0000-0002-2509-4950"
+          },
+          {
+            "name": "MENC\u00cdA ARES, \u00d3SCAR",
+            "affiliation": "Universidad de Le\u00f3n - Facultad de Veterinaria",
+            "orcid": "0000-0002-9923-2623"
+          }
+        ],
+        "keywords": [
+          "Phages",
+          "Next-generation sequencing",
+          "NGS"
+        ],
+        "version": "1.0.0",
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "bfr_bioinformatics"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20119466"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Swine Nasopharyngeal Phage Catalogue",
+      "links": {
+        "self": "https://zenodo.org/api/records/20119467",
+        "self_html": "https://zenodo.org/records/20119467",
+        "preview_html": "https://zenodo.org/records/20119467?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20119467",
+        "self_doi": "https://doi.org/10.5281/zenodo.20119467",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20119467",
+        "reserve_doi": "https://zenodo.org/api/records/20119467/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20119466",
+        "parent_html": "https://zenodo.org/records/20119466",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20119466",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20119466",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20119467/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20119467/sequence/default",
+        "files": "https://zenodo.org/api/records/20119467/files",
+        "media_files": "https://zenodo.org/api/records/20119467/media-files",
+        "archive": "https://zenodo.org/api/records/20119467/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20119467/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20119467/versions/latest",
+        "latest_html": "https://zenodo.org/records/20119467/latest",
+        "versions": "https://zenodo.org/api/records/20119467/versions",
+        "draft": "https://zenodo.org/api/records/20119467/draft",
+        "access_links": "https://zenodo.org/api/records/20119467/access/links",
+        "access_grants": "https://zenodo.org/api/records/20119467/access/grants",
+        "access_users": "https://zenodo.org/api/records/20119467/access/users",
+        "access_request": "https://zenodo.org/api/records/20119467/access/request",
+        "access": "https://zenodo.org/api/records/20119467/access",
+        "communities": "https://zenodo.org/api/records/20119467/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20119467/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20119467/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20119467/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20119467/quota-increase",
+        "requests": "https://zenodo.org/api/records/20119467/requests"
+      },
+      "updated": "2026-05-18T08:15:58.190858+00:00",
+      "recid": "20119467",
+      "revision": 4,
+      "files": [],
+      "swh": null,
+      "owners": [
+        {
+          "id": "52672"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 4,
+        "unique_views": 3,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 3,
+        "version_views": 4
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-05-15T09:12:15.384893+00:00",
+      "modified": "2026-05-15T09:13:48.061060+00:00",
+      "id": 20201145,
+      "conceptrecid": "20201144",
+      "doi": "10.5281/zenodo.20201145",
+      "conceptdoi": "10.5281/zenodo.20201144",
+      "doi_url": "https://doi.org/10.5281/zenodo.20201145",
+      "metadata": {
+        "title": "The vOTUs collected in the mangrove sediment",
+        "doi": "10.5281/zenodo.20201145",
+        "publication_date": "2026-05-15",
+        "description": "<p>The contigs &gt;5.0 kb were collected and then piped through DeepVirFinder v.1.0, VirSorter2 v.2.2.4, and geNomad v.1.11.0 for the identification of viral sequences. Subsequently, CheckV v.1.0.1 was employed to remove potential host regions and perform quality assessment of putative viral contigs. The identified viral contigs were clustered and dereplicated at 95% nucleotide identity and 90% coverage using CD-HIT v.4.8.1, generating 3,825 viral operational taxonomic units (vOTUs).</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Fan, Siyuan",
+            "affiliation": "Peking University",
+            "orcid": "0009-0005-7430-5522"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20201144"
+              }
+            }
+          ]
+        }
+      },
+      "title": "The vOTUs collected in the mangrove sediment",
+      "links": {
+        "self": "https://zenodo.org/api/records/20201145",
+        "self_html": "https://zenodo.org/records/20201145",
+        "preview_html": "https://zenodo.org/records/20201145?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20201145",
+        "self_doi": "https://doi.org/10.5281/zenodo.20201145",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20201145",
+        "reserve_doi": "https://zenodo.org/api/records/20201145/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20201144",
+        "parent_html": "https://zenodo.org/records/20201144",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20201144",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20201144",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20201145/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20201145/sequence/default",
+        "files": "https://zenodo.org/api/records/20201145/files",
+        "media_files": "https://zenodo.org/api/records/20201145/media-files",
+        "archive": "https://zenodo.org/api/records/20201145/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20201145/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20201145/versions/latest",
+        "latest_html": "https://zenodo.org/records/20201145/latest",
+        "versions": "https://zenodo.org/api/records/20201145/versions",
+        "draft": "https://zenodo.org/api/records/20201145/draft",
+        "access_links": "https://zenodo.org/api/records/20201145/access/links",
+        "access_grants": "https://zenodo.org/api/records/20201145/access/grants",
+        "access_users": "https://zenodo.org/api/records/20201145/access/users",
+        "access_request": "https://zenodo.org/api/records/20201145/access/request",
+        "access": "https://zenodo.org/api/records/20201145/access",
+        "communities": "https://zenodo.org/api/records/20201145/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20201145/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20201145/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20201145/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20201145/quota-increase",
+        "requests": "https://zenodo.org/api/records/20201145/requests"
+      },
+      "updated": "2026-05-15T09:13:48.061060+00:00",
+      "recid": "20201145",
+      "revision": 6,
+      "files": [
+        {
+          "id": "ca51d507-20ec-4803-b1ca-d3a27c48b50c",
+          "key": "viral_OTU.fa",
+          "size": 49523710,
+          "checksum": "md5:bced84bacbdfb50d5f86abe10ed74a5c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20201145/files/viral_OTU.fa/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1647453"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 8,
+        "unique_views": 5,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 5,
+        "version_views": 8
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-02-19T14:43:49.564566+00:00",
+      "modified": "2026-02-19T14:43:50.306558+00:00",
+      "id": 18700989,
+      "conceptrecid": "17584275",
+      "doi": "10.5281/zenodo.18700989",
+      "conceptdoi": "10.5281/zenodo.17584275",
+      "doi_url": "https://doi.org/10.5281/zenodo.18700989",
+      "metadata": {
+        "title": "Prokaryotic virus contig sequences from Mar Menor (time series, from October 2019 to October 2022), Mar Menor [Ghai et al. (2012], Albufera of Valencia [Ghai et al. (2012] and other datasets to reproduce figures, and surface water from several locations of the Mediterranean Sea [(L\u00f3pez-P\u00e9rez et al. (2017) and Karsenti et al. (2011)].",
+        "doi": "10.5281/zenodo.18700989",
+        "publication_date": "2026-02-19",
+        "description": "<p>### Prokaryotic virus contig sequences from Mar Menor (time series, from October 2019 to October 2022), Mar Menor [Ghai et al. (2012], Albufera of Valencia [Ghai et al. (2012], and surface water from several locations of the Mediterranean Sea [(L&oacute;pez-P&eacute;rez et al. (2017) and Karsenti et al. (2011)].&nbsp; The virus contig sequences were identified following the SOP recommended by Guo et al. 2021. First, VirSorter2 was applied using a score of 0.5 and candidate viruses were later inspected and sorted into confidence categories using CheckV. Functional annotation with DRAMv was utilized to manually inspect contigs carrying suspicious cellular genes.</p>\n<p><span lang=\"ES\">*datasets_Mar_Menor_viral_contigs.fna --&gt; Mar Menor time-series</span></p>\n<p><span lang=\"ES\">*datasets_454_viral_contigs.fna --&gt; Mar Menor [Ghai et al. </span>(2012], Albufera of Valencia [Ghai et al. (2012]</p>\n<p>*datasets_Med_viral_contigs.fna --&gt; surface water from several locations of the Mediterranean Sea [(L&oacute;pez-P&eacute;rez et al. (2017) and Karsenti et al. (2011)].</p>\n<p>&nbsp;</p>\n<p>### Other data files to reproduce figures (inputs of R scripts):</p>\n<p>*vOTU_relative_abundances_MM_time_series.csv</p>\n<p>*total_nts_in_reads_per_metagenome_MM_time_series.csv</p>\n<p>*total_nts_in_reads_per_metagenome_Medit.csv</p>\n<p>*Med-MM_vOTU_abund_table.csv</p>\n<p>*MM_vOTU_abund_table.csv</p>\n<p>*Med-MM_vOTU_abund_hosts_table.csv</p>\n<p>*Med-MM_vOTU_abund_table_BACPHLIP.csv</p>\n<p>*Med-MM_vOTU_abund_table_lysogeny_markers.csv</p>\n<p>*MM_vOTU_abund_table_lysogeny_markers.csv</p>\n<p>*Med-MM_vOTU_abund_table_con_funciones.csv</p>\n<p>*MM_vOTU_abund_table_con_funcions_wo_underscores.csv</p>\n<p>*environmental_variables.csv</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "DOMINGUEZ-HUERTA, GUILLERMO",
+            "affiliation": "Centro Oceanogr\u00e1fico de M\u00e1laga",
+            "orcid": "0000-0001-9799-6139"
+          }
+        ],
+        "custom": {
+          "code:codeRepository": "https://www.protocols.io/view/viral-sequence-identification-sop-with-virsorter2-5qpvoyqebg4o/v3"
+        },
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 2,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17584275"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Prokaryotic virus contig sequences from Mar Menor (time series, from October 2019 to October 2022), Mar Menor [Ghai et al. (2012], Albufera of Valencia [Ghai et al. (2012] and other datasets to reproduce figures, and surface water from several locations of the Mediterranean Sea [(L\u00f3pez-P\u00e9rez et al. (2017) and Karsenti et al. (2011)].",
+      "links": {
+        "self": "https://zenodo.org/api/records/18700989",
+        "self_html": "https://zenodo.org/records/18700989",
+        "preview_html": "https://zenodo.org/records/18700989?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.18700989",
+        "self_doi": "https://doi.org/10.5281/zenodo.18700989",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18700989",
+        "reserve_doi": "https://zenodo.org/api/records/18700989/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17584275",
+        "parent_html": "https://zenodo.org/records/17584275",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17584275",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17584275",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18700989/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18700989/sequence/default",
+        "files": "https://zenodo.org/api/records/18700989/files",
+        "media_files": "https://zenodo.org/api/records/18700989/media-files",
+        "archive": "https://zenodo.org/api/records/18700989/files-archive",
+        "archive_media": "https://zenodo.org/api/records/18700989/media-files-archive",
+        "latest": "https://zenodo.org/api/records/18700989/versions/latest",
+        "latest_html": "https://zenodo.org/records/18700989/latest",
+        "versions": "https://zenodo.org/api/records/18700989/versions",
+        "draft": "https://zenodo.org/api/records/18700989/draft",
+        "access_links": "https://zenodo.org/api/records/18700989/access/links",
+        "access_grants": "https://zenodo.org/api/records/18700989/access/grants",
+        "access_users": "https://zenodo.org/api/records/18700989/access/users",
+        "access_request": "https://zenodo.org/api/records/18700989/access/request",
+        "access": "https://zenodo.org/api/records/18700989/access",
+        "communities": "https://zenodo.org/api/records/18700989/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/18700989/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/18700989/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/18700989/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/18700989/quota-increase",
+        "requests": "https://zenodo.org/api/records/18700989/requests"
+      },
+      "updated": "2026-02-19T14:43:50.306558+00:00",
+      "recid": "18700989",
+      "revision": 4,
+      "files": [
+        {
+          "id": "874ecd25-9fec-41ec-bd35-d9457df57ff6",
+          "key": "datasets_Mar_Menor_viral_contigs.fna",
+          "size": 368683122,
+          "checksum": "md5:f4a3462e02099213e35ff8e1130ca2b0",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/datasets_Mar_Menor_viral_contigs.fna/content"
+          }
+        },
+        {
+          "id": "2c2f379e-ed41-442d-91ff-e6a36ec564ef",
+          "key": "datasets_Med_viral_contigs.fna",
+          "size": 126266721,
+          "checksum": "md5:9368fdb523ae13aae9f1c67763cae7cc",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/datasets_Med_viral_contigs.fna/content"
+          }
+        },
+        {
+          "id": "9bc45b78-6f0a-4e3c-927c-2f014702b3e8",
+          "key": "vOTU_relative_abundances_MM_time_series.csv",
+          "size": 1941506,
+          "checksum": "md5:888f2fa4e10ee1eac136c12d126a20cb",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/vOTU_relative_abundances_MM_time_series.csv/content"
+          }
+        },
+        {
+          "id": "65ba93f5-c06b-4be1-b824-19d126b5936a",
+          "key": "total_nts_in_reads_per_metagenome_Medit.csv",
+          "size": 289,
+          "checksum": "md5:064c4e47c5aa30a062e4b200ce52501d",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/total_nts_in_reads_per_metagenome_Medit.csv/content"
+          }
+        },
+        {
+          "id": "ff6b4bb4-8b5f-44e1-91a0-b62c5e4b7771",
+          "key": "total_nts_in_reads_per_metagenome_MM_time_series.csv",
+          "size": 351,
+          "checksum": "md5:b8cb8242a542ef7e4734d91ba7ba0d15",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/total_nts_in_reads_per_metagenome_MM_time_series.csv/content"
+          }
+        },
+        {
+          "id": "05af66c4-8d19-44bc-99cb-56b88a84e435",
+          "key": "Med-MM_vOTU_abund_table.csv",
+          "size": 3354201,
+          "checksum": "md5:3ec1c857670e1ae89fb8a97880ac78c6",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/Med-MM_vOTU_abund_table.csv/content"
+          }
+        },
+        {
+          "id": "8711bfb4-b53d-4e8c-8a45-2f6ec8b5ed63",
+          "key": "Med-MM_vOTU_abund_hosts_table.csv",
+          "size": 3630934,
+          "checksum": "md5:1b80abe8d89a45c77007b01a032e921a",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/Med-MM_vOTU_abund_hosts_table.csv/content"
+          }
+        },
+        {
+          "id": "aa8ad900-58ca-454f-9f67-1c7690ea6d95",
+          "key": "Med-MM_vOTU_abund_table_con_funciones.csv",
+          "size": 3658126,
+          "checksum": "md5:3ace2242d7c2bbb6677a04a6b7d6af9c",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/Med-MM_vOTU_abund_table_con_funciones.csv/content"
+          }
+        },
+        {
+          "id": "6499342b-486b-4444-82f4-36b0680ecf54",
+          "key": "MM_vOTU_abund_table.csv",
+          "size": 1877119,
+          "checksum": "md5:9f32c3a7d38f72d5237de04e803b444d",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/MM_vOTU_abund_table.csv/content"
+          }
+        },
+        {
+          "id": "70710a67-75e5-4175-be02-b6ab26021467",
+          "key": "environmental_variables.csv",
+          "size": 1774,
+          "checksum": "md5:63455fe6172175cc6af5abcc88e0b5c7",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/environmental_variables.csv/content"
+          }
+        },
+        {
+          "id": "a83d35fc-3562-4692-8221-ede42725c3b8",
+          "key": "Med-MM_vOTU_abund_table_BACPHLIP.csv",
+          "size": 39800,
+          "checksum": "md5:2065a3c54ce58b60f031925d6f04fbaf",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/Med-MM_vOTU_abund_table_BACPHLIP.csv/content"
+          }
+        },
+        {
+          "id": "6e1a38f2-59ce-4c93-9587-6da86007af45",
+          "key": "Med-MM_vOTU_abund_table_lysogeny_markers.csv",
+          "size": 3723710,
+          "checksum": "md5:1b2b56f34c5a06451fe8185871ca1b61",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/Med-MM_vOTU_abund_table_lysogeny_markers.csv/content"
+          }
+        },
+        {
+          "id": "ecdbe227-37b1-462e-a56b-a0ef56826454",
+          "key": "MM_vOTU_abund_table_con_funcions_wo_underscores.csv",
+          "size": 2101122,
+          "checksum": "md5:418bffd42a2d95ea535016a2928292c6",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/MM_vOTU_abund_table_con_funcions_wo_underscores.csv/content"
+          }
+        },
+        {
+          "id": "e0766109-6c76-45c8-b22c-280772e48c2f",
+          "key": "MM_vOTU_abund_table_lysogeny_markers.csv",
+          "size": 2147232,
+          "checksum": "md5:001e8e8c817e295d25b41dd08b2dc035",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/MM_vOTU_abund_table_lysogeny_markers.csv/content"
+          }
+        },
+        {
+          "id": "58f92c63-8b1d-490c-9437-4644377b6bf5",
+          "key": "datasets_454_viral_contigs.fna",
+          "size": 2004500,
+          "checksum": "md5:66dc71136e2df94d607fa521b780711e",
+          "links": {
+            "self": "https://zenodo.org/api/records/18700989/files/datasets_454_viral_contigs.fna/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1455950"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 191,
+        "unique_downloads": 188,
+        "views": 69,
+        "unique_views": 60,
+        "version_downloads": 83,
+        "version_unique_downloads": 82,
+        "version_unique_views": 22,
+        "version_views": 23
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2025-08-07T22:56:54.606744+00:00",
       "modified": "2025-08-07T22:56:55.318097+00:00",
@@ -118,6 +584,8 @@
         "communities": "https://zenodo.org/api/records/16771119/communities",
         "communities-suggestions": "https://zenodo.org/api/records/16771119/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/16771119/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/16771119/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/16771119/quota-increase",
         "requests": "https://zenodo.org/api/records/16771119/requests"
       },
       "updated": "2025-08-07T22:56:55.318097+00:00",
@@ -277,21 +745,21 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 334,
-        "unique_downloads": 327,
-        "views": 38,
-        "unique_views": 36,
-        "version_downloads": 76,
-        "version_unique_downloads": 74,
-        "version_unique_views": 16,
-        "version_views": 18
+        "downloads": 950,
+        "unique_downloads": 939,
+        "views": 196,
+        "unique_views": 187,
+        "version_downloads": 387,
+        "version_unique_downloads": 381,
+        "version_unique_views": 132,
+        "version_views": 138
       },
       "state": "done",
       "submitted": true
     },
     {
       "created": "2025-06-22T15:36:19.151726+00:00",
-      "modified": "2025-06-22T15:36:19.311033+00:00",
+      "modified": "2025-12-31T00:10:43.108912+00:00",
       "id": 15714874,
       "conceptrecid": "15714873",
       "doi": "10.5281/zenodo.15714874",
@@ -302,7 +770,7 @@
         "doi": "10.5281/zenodo.15714874",
         "publication_date": "2025-06-22",
         "description": "<p>This repository contains the analysis scripts and workflows used in the study:</p>\n<p>&nbsp;<strong>\"Virus-Induced Dominance of Sulfur-Oxidizing Bacteria via Enhanced Substrate Access and Competitor Suppression\"</strong>.</p>\n<p>It includes complete pipelines for:</p>\n<ul>\n<li>\n<p>16S rRNA amplicon processing using QIIME2</p>\n</li>\n<li>\n<p>Metagenomic assembly with MEGAHIT</p>\n</li>\n<li>\n<p>Metagenome binning using MetaWRAP (MetaBAT2, MaxBin2, CONCOCT), followed by bin classification with GTDB-Tk</p>\n</li>\n<li>\n<p>Viral detection via VirSorter2 and vContact2</p>\n</li>\n<li>\n<p>Functional annotation with eggNOG-mapper and hmmersearch against SCycDB for sulfur metabolism genes</p>\n</li>\n<li>\n<p>Gene/contig abundance estimation using CoverM</p>\n</li>\n<li>\n<p>Virus-host prediction using WiSH</p>\n</li>\n<li>\n<p>Statistical analysis and visualization using R (vegan, phyloseq, ggplot2)</p>\n</li>\n</ul>\n<h3>How to Run:</h3>\n<div dir=\"auto\">\n<ul>\n<li><strong>Process 16S rRNA amplicon data:</strong></li>\n</ul>\n<p>bash scripts/16S_qiime2_pipeline.sh</p>\n</div>\n<div dir=\"auto\">\n<ul>\n<li><strong>Assemble metagenomes and identify viral contigs:</strong></li>\n</ul>\n</div>\n<p dir=\"auto\">bash scripts/metagenomic_data_pipeline.sh</p>\n<p dir=\"auto\">bash scripts/virome_data_pipeline.sh</p>\n<ul>\n<li><strong>Generate statistical plots:</strong></li>\n</ul>\n<p dir=\"auto\">Rscript analysis/analysis_plot.R <em>(All required data files are included in the <code>data/</code> directory)</em></p>",
-        "access_right": "embargoed",
+        "access_right": "open",
         "embargo_date": "2025-12-31",
         "creators": [
           {
@@ -365,12 +833,24 @@
         "communities": "https://zenodo.org/api/records/15714874/communities",
         "communities-suggestions": "https://zenodo.org/api/records/15714874/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/15714874/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/15714874/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/15714874/quota-increase",
         "requests": "https://zenodo.org/api/records/15714874/requests"
       },
-      "updated": "2025-06-22T15:36:19.311033+00:00",
+      "updated": "2025-12-31T00:10:43.108912+00:00",
       "recid": "15714874",
-      "revision": 4,
-      "files": [],
+      "revision": 6,
+      "files": [
+        {
+          "id": "b70b88c7-3a10-4c2f-9d27-139bfb545d4b",
+          "key": "code.zip",
+          "size": 174865843,
+          "checksum": "md5:887473466dda98047fe1c7120afe63ab",
+          "links": {
+            "self": "https://zenodo.org/api/records/15714874/files/code.zip/content"
+          }
+        }
+      ],
       "swh": null,
       "owners": [
         {
@@ -379,14 +859,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 19,
-        "unique_views": 12,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 12,
-        "version_views": 19
+        "downloads": 5,
+        "unique_downloads": 5,
+        "views": 27,
+        "unique_views": 20,
+        "version_downloads": 5,
+        "version_unique_downloads": 5,
+        "version_unique_views": 20,
+        "version_views": 27
       },
       "state": "done",
       "submitted": true
@@ -476,6 +956,8 @@
         "communities": "https://zenodo.org/api/records/15637204/communities",
         "communities-suggestions": "https://zenodo.org/api/records/15637204/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/15637204/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/15637204/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/15637204/quota-increase",
         "requests": "https://zenodo.org/api/records/15637204/requests"
       },
       "updated": "2025-06-17T19:24:31.704749+00:00",
@@ -500,14 +982,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 160,
-        "unique_downloads": 153,
-        "views": 286,
-        "unique_views": 280,
-        "version_downloads": 14,
-        "version_unique_downloads": 14,
-        "version_unique_views": 27,
-        "version_views": 31
+        "downloads": 339,
+        "unique_downloads": 332,
+        "views": 630,
+        "unique_views": 622,
+        "version_downloads": 100,
+        "version_unique_downloads": 100,
+        "version_unique_views": 236,
+        "version_views": 241
       },
       "state": "done",
       "submitted": true
@@ -601,6 +1083,8 @@
         "communities": "https://zenodo.org/api/records/11359567/communities",
         "communities-suggestions": "https://zenodo.org/api/records/11359567/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/11359567/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/11359567/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/11359567/quota-increase",
         "requests": "https://zenodo.org/api/records/11359567/requests"
       },
       "updated": "2024-05-27T21:43:54.764687+00:00",
@@ -625,14 +1109,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 13,
-        "unique_downloads": 13,
-        "views": 43,
-        "unique_views": 43,
-        "version_downloads": 13,
-        "version_unique_downloads": 13,
-        "version_unique_views": 43,
-        "version_views": 43
+        "downloads": 51,
+        "unique_downloads": 51,
+        "views": 95,
+        "unique_views": 92,
+        "version_downloads": 51,
+        "version_unique_downloads": 51,
+        "version_unique_views": 92,
+        "version_views": 95
       },
       "state": "done",
       "submitted": true
@@ -714,6 +1198,8 @@
         "communities": "https://zenodo.org/api/records/10452879/communities",
         "communities-suggestions": "https://zenodo.org/api/records/10452879/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/10452879/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/10452879/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/10452879/quota-increase",
         "requests": "https://zenodo.org/api/records/10452879/requests"
       },
       "updated": "2024-01-03T01:51:22.604158+00:00",
@@ -726,7 +1212,7 @@
           "size": 146690933,
           "checksum": "md5:0f23b9b81f6867de6407fd5828a1165f",
           "links": {
-            "self": "https://zenodo.org/api/records/10452879/files/Supplementary material (Additional file 3)-03012024.fasta/content"
+            "self": "https://zenodo.org/api/records/10452879/files/Supplementary%20material%20(Additional%20file%203)-03012024.fasta/content"
           }
         }
       ],
@@ -738,14 +1224,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 15,
-        "unique_downloads": 15,
-        "views": 47,
-        "unique_views": 44,
-        "version_downloads": 10,
-        "version_unique_downloads": 10,
-        "version_unique_views": 25,
-        "version_views": 25
+        "downloads": 29,
+        "unique_downloads": 29,
+        "views": 72,
+        "unique_views": 67,
+        "version_downloads": 19,
+        "version_unique_downloads": 19,
+        "version_unique_views": 41,
+        "version_views": 42
       },
       "state": "done",
       "submitted": true

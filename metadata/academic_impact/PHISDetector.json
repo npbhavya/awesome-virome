@@ -8,14 +8,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            5,
+            20
           ]
         ],
-        "date-time": "2025-10-31T17:04:22Z",
-        "timestamp": 1761930262698,
-        "version": "3.37.3"
+        "date-time": "2026-05-20T08:24:52Z",
+        "timestamp": 1779265492339,
+        "version": "3.51.4"
       },
       "reference-count": 44,
       "publisher": "Oxford University Press (OUP)",
@@ -76,9 +76,14 @@
           "name": "National Natural Science Foundation of China",
           "doi-asserted-by": "publisher",
           "award": [
-            "31825008",
-            "31422014",
-            "61872117"
+            "31825008"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "31825008"
+              ]
+            }
           ],
           "id": [
             {
@@ -93,9 +98,102 @@
           "name": "National Natural Science Foundation of China",
           "doi-asserted-by": "publisher",
           "award": [
-            "31422014",
-            "31825008",
+            "31422014"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "31422014"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
             "61872117"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "61872117"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "31422014"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "31422014"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "31825008"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "31825008"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "61872117"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "61872117"
+              ]
+            }
           ],
           "id": [
             {
@@ -147,7 +245,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Phage\u2013microbe interactions are appealing systems to study coevolution, and have also been increasingly emphasized due to their roles in human health, disease, and the development of novel therapeutics. Phage\u2013microbe interactions leave diverse signals in bacterial and phage genomic sequences, defined as phage\u2013host interaction signals (PHISs), which include clustered regularly interspaced short palindromic repeats (CRISPR) targeting, prophage, and protein\u2013protein interaction signals. In the present study, we developed a novel tool phage\u2013host interaction signal detector (PHISDetector) to predict phage\u2013host interactions by detecting and integrating diverse in silico PHISs, and scoring the probability of phage\u2013host interactions using machine learning models based on PHIS features. We evaluated the performance of PHISDetector on multiple benchmark datasets and application cases. When tested on a dataset of 758 annotated phage\u2013host pairs, PHISDetector yields the prediction accuracies of 0.51 and 0.73 at the species and genus levels, respectively, outperforming other phage\u2013host prediction tools. When applied to on 125,842 metagenomic viral contigs (mVCs) derived from 3042 geographically diverse samples, a detection rate of 54.54% could be achieved. Furthermore, PHISDetector could predict infecting phages for 85.6% of 368 multidrug-resistant (MDR) bacteria and 30% of 454 human gut bacteria obtained from the National Institutes of Health (NIH) Human Microbiome Project (HMP). The PHISDetector can be run either as a web server (http://www.microbiome-bigdata.com/PHISDetector/) for general users to study individual inputs or as a stand-alone version (https://github.com/HIT-ImmunologyLab/PHISDetector) to process massive phage contigs from virome studies.</jats:p>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Phage\u2013microbe interactions are appealing systems to study coevolution, and have also been increasingly emphasized due to their roles in human health, disease, and the development of novel therapeutics. Phage\u2013microbe interactions leave diverse signals in bacterial and phage genomic sequences, defined as phage\u2013host interaction signals (PHISs), which include clustered regularly interspaced short palindromic repeats (CRISPR) targeting, prophage, and protein\u2013protein interaction signals. In the present study, we developed a novel tool phage\u2013host interaction signal detector (PHISDetector) to predict phage\u2013host interactions by detecting and integrating diverse in silico PHISs, and scoring the probability of phage\u2013host interactions using machine learning models based on PHIS features. We evaluated the performance of PHISDetector on multiple benchmark datasets and application cases. When tested on a dataset of 758 annotated phage\u2013host pairs, PHISDetector yields the prediction accuracies of 0.51 and 0.73 at the species and genus levels, respectively, outperforming other phage\u2013host prediction tools. When applied to on 125,842 metagenomic viral contigs (mVCs) derived from 3042 geographically diverse samples, a detection rate of 54.54% could be achieved. Furthermore, PHISDetector could predict infecting phages for 85.6% of 368 multidrug-resistant (MDR) bacteria and 30% of 454 human gut bacteria obtained from the National Institutes of Health (NIH) Human Microbiome Project (HMP). The PHISDetector can be run either as a web server (http://www.microbiome-bigdata.com/PHISDetector/) for general users to study individual inputs or as a stand-alone version (https://github.com/HIT-ImmunologyLab/PHISDetector) to process massive phage contigs from virome studies.</jats:p>",
       "DOI": "10.1016/j.gpb.2022.02.003",
       "type": "journal-article",
       "created": {
@@ -155,18 +253,18 @@
           [
             2022,
             3,
-            8
+            7
           ]
         ],
-        "date-time": "2022-03-08T01:13:53Z",
-        "timestamp": 1646702033000
+        "date-time": "2022-03-07T20:13:53Z",
+        "timestamp": 1646684033000
       },
       "page": "508-523",
       "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
       "source": "Crossref",
-      "is-referenced-by-count": 37,
+      "is-referenced-by-count": 44,
       "title": [
-        "PHISDetector: A Tool to Detect Diverse <i>In Silico</i> Phage\u2013Host Interaction Signals for Virome Studies"
+        "PHISDetector: A Tool to Detect Diverse\n                    <i>In Silico</i>\n                    Phage\u2013Host Interaction Signals for Virome Studies"
       ],
       "prefix": "10.1093",
       "volume": "20",
@@ -181,6 +279,12 @@
             {
               "name": "HIT Center for Life Sciences, School of Life Science and Technology, Harbin Institute of Technology , Harbin, 150080 , China"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -192,6 +296,12 @@
           "affiliation": [
             {
               "name": "HIT Center for Life Sciences, School of Life Science and Technology, Harbin Institute of Technology , Harbin, 150080 , China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         },
@@ -205,6 +315,12 @@
             {
               "name": "HIT Center for Life Sciences, School of Life Science and Technology, Harbin Institute of Technology , Harbin, 150080 , China"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -216,6 +332,12 @@
           "affiliation": [
             {
               "name": "Department of Hematology/oncology, Boston Children\u2019s Hospital, Harvard Medical School , Boston, MA, 02115 , USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         },
@@ -229,6 +351,12 @@
             {
               "name": "HIT Center for Life Sciences, School of Life Science and Technology, Harbin Institute of Technology , Harbin, 150080 , China"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -241,6 +369,12 @@
             {
               "name": "HIT Center for Life Sciences, School of Life Science and Technology, Harbin Institute of Technology , Harbin, 150080 , China"
             }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
           ]
         },
         {
@@ -252,6 +386,12 @@
           "affiliation": [
             {
               "name": "HIT Center for Life Sciences, School of Life Science and Technology, Harbin Institute of Technology , Harbin, 150080 , China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
             }
           ]
         }
@@ -778,8 +918,8 @@
             14
           ]
         ],
-        "date-time": "2024-05-14T05:10:20Z",
-        "timestamp": 1715663420000
+        "date-time": "2024-05-14T01:10:20Z",
+        "timestamp": 1715649020000
       },
       "score": 1,
       "resource": {
@@ -827,12 +967,12 @@
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "1672-0229"
+          "value": "1672-0229",
+          "type": "print"
         },
         {
-          "type": "electronic",
-          "value": "2210-3244"
+          "value": "2210-3244",
+          "type": "electronic"
         }
       ],
       "subject": [],
@@ -891,8 +1031,12 @@
       "influential_citations": 0,
       "citations_by_year": {}
     },
-    "formatted_citations": {}
+    "formatted_citations": {
+      "apa": "Zhou, F., Gan, R., Zhang, F., Ren, C., Yu, L., Si, Y., & Huang, Z. (2022). PHISDetector: A Tool to Detect Diverse\n                    <i>In Silico</i>\n                    Phage\u2013Host Interaction Signals for Virome Studies. Genomics, Proteomics &amp; Bioinformatics, 20(3), 508-523. https://doi.org/10.1016/j.gpb.2022.02.003",
+      "bibtex": "@article{zhou2022,\n  title = {PHISDetector: A Tool to Detect Diverse\n                    <i>In Silico</i>\n                    Phage\u2013Host Interaction Signals for Virome Studies},\n  author = {Zhou, F. and Gan, R. and Zhang, F. and Ren, C. and Yu, L. and Si, Y. and Huang, Z.},\n  year = {2022},\n  journal = {Genomics, Proteomics &amp; Bioinformatics},\n  volume = {20},\n  number = {3},\n  pages = {508-523},\n  doi = {10.1016/j.gpb.2022.02.003},\n}"
+    },
+    "paper_id": "e596f2e5c46582420e37b5773aa4d87ae795751c"
   },
   "related_papers": [],
-  "last_updated": "2025-12-01T09:26:43.571423"
+  "last_updated": "2026-06-01T18:36:56.980673"
 }

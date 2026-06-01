@@ -17,10 +17,14 @@
     "dependencies": {
       "build": [
         "{{ compiler('cxx') }}",
+        "{{ stdlib('c') }}",
         "pkg-config",
         "host:",
         "pip",
         "python",
+        "setuptools",
+        "wheel",
+        "numpy",
         "run:",
         "biopython",
         "numpy",
@@ -40,6 +44,9 @@
       "host": [
         "pip",
         "python",
+        "setuptools",
+        "wheel",
+        "numpy",
         "run:",
         "biopython",
         "numpy",
@@ -52,7 +59,7 @@
     "installation": ""
   },
   "academic_impact": {
-    "doi": "10.5281/zenodo.7749863",
+    "doi": "10.5281/zenodo.19907440",
     "citation_file": "",
     "citation_format": "",
     "total_citations": 0,
@@ -60,5 +67,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2025-11-01T12:07:47.160403"
+  "last_updated": "2026-06-01T16:52:02.781535"
 }

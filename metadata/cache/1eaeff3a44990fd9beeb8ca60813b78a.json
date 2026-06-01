@@ -1,4 +1,152 @@
 {
-  "cache_date": "2025-11-01T12:51:48.579199",
-  "data": []
+  "cache_date": "2026-06-01T17:31:45.804491",
+  "data": [
+    {
+      "created": "2026-05-01T13:15:12.673393+00:00",
+      "modified": "2026-05-01T13:37:39.795660+00:00",
+      "id": 19950607,
+      "conceptrecid": "19950606",
+      "doi": "10.5281/zenodo.19950607",
+      "conceptdoi": "10.5281/zenodo.19950606",
+      "doi_url": "https://doi.org/10.5281/zenodo.19950607",
+      "metadata": {
+        "title": "PhageTB \u2013 An ensemble method for prediction of phage\u2011based therapy against bacterial infections",
+        "doi": "10.5281/zenodo.19950607",
+        "publication_date": "2026-05-01",
+        "description": "<p class=\"ds-markdown-paragraph\"><strong>Title:</strong><br>PhageTB Dataset &ndash; Experimentally validated phage\u2011host interactions across five taxonomic levels (Genus to Phylum)</p>\n<p class=\"ds-markdown-paragraph\"><strong>Description:</strong></p>\n<p class=\"ds-markdown-paragraph\"><strong>Project:</strong> PhageTB &ndash; An ensemble method for prediction of phage\u2011based therapy against bacterial infections</p>\n<p class=\"ds-markdown-paragraph\"><strong>Publication:</strong> Aggarwal, S., Dhall, A., Patiyal, S., Choudhury, S., Arora, A., &amp; Raghava, G.P.S. (2023). An ensemble method for prediction of phage\u2011based therapy against bacterial infections. <em>Frontiers in Microbiology</em>, 14, 1148579. <a href=\"https://doi.org/10.3389/fmicb.2023.1148579\" rel=\"noopener noreferrer\">https://doi.org/10.3389/fmicb.2023.1148579</a></p>\n<p class=\"ds-markdown-paragraph\"><strong>Overview:</strong> This dataset accompanies PhageTB, an ensemble method for predicting phage\u2011host interactions to combat bacterial infections, particularly drug\u2011resistant strains (antimicrobial resistance caused ~1.27 million deaths in 2019). The dataset is derived from VirHostMatcher\u2011Net (Wang et al., 2020) and curated to ensure unbiased evaluation (removing host genera absent from training). The method predicts bacterial hosts for bacteriophages across five taxonomic levels.</p>\n<p class=\"ds-markdown-paragraph\"><strong>Content:</strong></p>\n<div class=\"ds-scroll-area ds-scroll-area--show-on-focus-within _1210dd7 c03cafe9 _5ac647c\">\n<div class=\"ds-scroll-area__gutters\">\n<div class=\"ds-scroll-area__vertical-gutter\">&nbsp;</div>\n</div>\n<table>\n\n<tbody><tr>\n<th>Dataset</th>\n<th>Phage\u2011host pairs</th>\n<th>Description</th>\n</tr>\n\n</tbody><tbody>\n<tr>\n<td><strong>Training</strong></td>\n<td>826</td>\n<td>Each phage has a unique bacterial host (817 bacteria + 9 archaea)</td>\n</tr>\n<tr>\n<td><strong>Validation (modified)</strong></td>\n<td>1,201</td>\n<td>Original 1,462 minus 261 pairs where host genus not in training</td>\n</tr>\n<tr>\n<td>Original testing</td>\n<td>1,462</td>\n<td>As provided by VirHostMatcher\u2011Net (for comparison)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p class=\"ds-markdown-paragraph\"><strong>Taxonomic distribution (training):</strong> Phylum (10), Class (14), Order (30), Family (45), Genus (135)</p>\n<p class=\"ds-markdown-paragraph\"><strong>Best Model Performance (ensemble &ndash; validation set &ndash; 1,201 pairs):</strong></p>\n<div class=\"ds-scroll-area ds-scroll-area--show-on-focus-within _1210dd7 c03cafe9 _5ac647c\">\n<div class=\"ds-scroll-area__gutters\">\n<div class=\"ds-scroll-area__vertical-gutter\">&nbsp;</div>\n</div>\n<table>\n\n<tbody><tr>\n<th>Taxonomic level</th>\n<th>Accuracy</th>\n</tr>\n\n</tbody><tbody>\n<tr>\n<td><strong>Genus</strong></td>\n<td><strong>67.9%</strong></td>\n</tr>\n<tr>\n<td><strong>Family</strong></td>\n<td><strong>80.6%</strong></td>\n</tr>\n<tr>\n<td><strong>Order</strong></td>\n<td><strong>85.5%</strong></td>\n</tr>\n<tr>\n<td><strong>Class</strong></td>\n<td><strong>90.0%</strong></td>\n</tr>\n<tr>\n<td><strong>Phylum</strong></td>\n<td><strong>93.5%</strong></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p class=\"ds-markdown-paragraph\"><strong>Individual component performance (validation &ndash; best e\u2011value thresholds):</strong></p>\n<div class=\"ds-scroll-area ds-scroll-area--show-on-focus-within _1210dd7 c03cafe9 _5ac647c\">\n<div class=\"ds-scroll-area__gutters\">\n<div class=\"ds-scroll-area__vertical-gutter\">&nbsp;</div>\n</div>\n<table>\n\n<tbody><tr>\n<th>Method</th>\n<th>Coverage</th>\n<th>Phylum Accuracy</th>\n</tr>\n\n</tbody><tbody>\n<tr>\n<td>BLASTPhage</td>\n<td>81.8%</td>\n<td>95.9%</td>\n</tr>\n<tr>\n<td>BLASTHost</td>\n<td>71.4%</td>\n<td>92.8%</td>\n</tr>\n<tr>\n<td>CRISPRPred</td>\n<td>73.8%</td>\n<td>92.4%</td>\n</tr>\n<tr>\n<td>Hybrid (LR + similarity scores)</td>\n<td>100%</td>\n<td>93.5%</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p class=\"ds-markdown-paragraph\"><strong>Hybrid model (LR + bit\u2011scores) &ndash; validation:</strong> Genus 60.6%, Family 75.8%, Order 82.0%, Class 89.7%, Phylum 93.5%</p>\n<p class=\"ds-markdown-paragraph\"><strong>Ensemble pipeline (sequential):</strong> BLASTPhage (e=1e\u201110) &rarr; BLASTHost (e=1e\u201120) &rarr; Hybrid Model (prob &ge;0.6) &rarr; CRISPRPred (e=1e\u20112)</p>\n<p class=\"ds-markdown-paragraph\"><strong>Benchmarking (Genus level accuracy &ndash; validation):</strong></p>\n<div class=\"ds-scroll-area ds-scroll-area--show-on-focus-within _1210dd7 c03cafe9 _5ac647c\">\n<div class=\"ds-scroll-area__gutters\">\n<div class=\"ds-scroll-area__horizontal-gutter\">&nbsp;</div>\n<div class=\"ds-scroll-area__vertical-gutter\">&nbsp;</div>\n</div>\n<table>\n\n<tbody><tr>\n<th>Method</th>\n<th>Accuracy</th>\n</tr>\n\n</tbody><tbody>\n<tr>\n<td><strong>PhageTB</strong></td>\n<td><strong>67.9%</strong></td>\n</tr>\n<tr>\n<td>PHP</td>\n<td>54.0%</td>\n</tr>\n<tr>\n<td>VirHostMatcher\u2011Net</td>\n<td>~44%</td>\n</tr>\n<tr>\n<td>Phirbo</td>\n<td>~40%</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p class=\"ds-markdown-paragraph\"><strong>Case Study &ndash; ESKAPE pathogens (lytic phage prediction):</strong></p>\n<div class=\"ds-scroll-area ds-scroll-area--show-on-focus-within _1210dd7 c03cafe9 _5ac647c\">\n<div class=\"ds-scroll-area__gutters\">\n<div class=\"ds-scroll-area__vertical-gutter\">&nbsp;</div>\n</div>\n<table>\n\n<tbody><tr>\n<th>Bacterium</th>\n<th>Predicted phage (GenBank ID)</th>\n</tr>\n\n</tbody><tbody>\n<tr>\n<td><em>Enterococcus faecium</em></td>\n<td>AB746912</td>\n</tr>\n<tr>\n<td><em>Staphylococcus aureus</em></td>\n<td>DQ289556</td>\n</tr>\n<tr>\n<td><em>Klebsiella pneumoniae</em></td>\n<td>CP000711</td>\n</tr>\n<tr>\n<td><em>Acinetobacter baumannii</em></td>\n<td>AB746912</td>\n</tr>\n<tr>\n<td><em>Enterobacter</em></td>\n<td>CP000711</td>\n</tr>\n<tr>\n<td><em>Pseudomonas aeruginosa</em></td>\n<td>No prediction</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p class=\"ds-markdown-paragraph\"><strong>Data Curation &amp; Quality Control:</strong></p>\n<ul>\n<li>\n<p class=\"ds-markdown-paragraph\"><strong>Source:</strong> VirHostMatcher\u2011Net (Wang et al., 2020)</p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><strong>Training:</strong> 826 unique phage\u2011host pairs</p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><strong>Validation:</strong> 1,201 pairs (all host genera present in training &ndash; unbiased evaluation)</p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><strong>Features:</strong> k\u2011mer frequencies (k=6) with chance frequency subtraction (Reinert et al., 2009)</p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><strong>CRISPR extraction:</strong> CRT (CRISPR Recognition Tool)</p>\n</li>\n<li>\n<p class=\"ds-markdown-paragraph\"><strong>Host levels:</strong> Aggregated from strain to Genus/ Family/ Order/ Class/ Phylum</p>\n</li>\n</ul>\n<p class=\"ds-markdown-paragraph\"><strong>Usage:</strong> Predicting bacterial hosts for bacteriophages, phage\u2011host interaction prediction, identifying lytic phages for drug\u2011resistant bacteria (ESKAPE pathogens), phage therapy development, metagenomics analysis.</p>\n<p class=\"ds-markdown-paragraph\"><strong>Related Resources:</strong> Web server: <a href=\"https://webs.iiitd.edu.in/raghava/phagetb/\" rel=\"noopener noreferrer\">https://webs.iiitd.edu.in/raghava/phagetb/</a> | GitHub: <a href=\"https://github.com/raghavagps/phagetb\" rel=\"noopener noreferrer\">https://github.com/raghavagps/phagetb</a></p>\n<p class=\"ds-markdown-paragraph\"><strong>Contact:</strong> raghava@iiitd.ac.in (Gajendra P. S. Raghava)</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Suchet Aggarwal",
+            "affiliation": "Indraprastha Institute of Information Technology Delhi"
+          },
+          {
+            "name": "PATIYAL, SUMEET",
+            "affiliation": "National Cancer Institute",
+            "orcid": "0000-0003-1358-292X"
+          },
+          {
+            "name": "Raghava, Gajendra",
+            "affiliation": "Indraprastha Institute of Information Technology Delhi",
+            "orcid": "0000-0002-8902-2876"
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/raghavagps/phagetb/tree/v1.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v1.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/raghavagps/phagetb"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "gpl-3.0"
+        },
+        "communities": [
+          {
+            "id": "raghavagps"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19950606"
+              }
+            }
+          ]
+        }
+      },
+      "title": "PhageTB \u2013 An ensemble method for prediction of phage\u2011based therapy against bacterial infections",
+      "links": {
+        "self": "https://zenodo.org/api/records/19950607",
+        "self_html": "https://zenodo.org/records/19950607",
+        "preview_html": "https://zenodo.org/records/19950607?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.19950607",
+        "self_doi": "https://doi.org/10.5281/zenodo.19950607",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19950607",
+        "reserve_doi": "https://zenodo.org/api/records/19950607/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19950606",
+        "parent_html": "https://zenodo.org/records/19950606",
+        "parent_doi": "https://doi.org/10.5281/zenodo.19950606",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19950606",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19950607/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19950607/sequence/default",
+        "files": "https://zenodo.org/api/records/19950607/files",
+        "media_files": "https://zenodo.org/api/records/19950607/media-files",
+        "archive": "https://zenodo.org/api/records/19950607/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19950607/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19950607/versions/latest",
+        "latest_html": "https://zenodo.org/records/19950607/latest",
+        "versions": "https://zenodo.org/api/records/19950607/versions",
+        "draft": "https://zenodo.org/api/records/19950607/draft",
+        "access_links": "https://zenodo.org/api/records/19950607/access/links",
+        "access_grants": "https://zenodo.org/api/records/19950607/access/grants",
+        "access_users": "https://zenodo.org/api/records/19950607/access/users",
+        "access_request": "https://zenodo.org/api/records/19950607/access/request",
+        "access": "https://zenodo.org/api/records/19950607/access",
+        "communities": "https://zenodo.org/api/records/19950607/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19950607/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19950607/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19950607/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19950607/quota-increase",
+        "requests": "https://zenodo.org/api/records/19950607/requests"
+      },
+      "updated": "2026-05-01T13:37:39.795660+00:00",
+      "recid": "19950607",
+      "revision": 12,
+      "files": [
+        {
+          "id": "1eda649d-b56d-4a19-ac4c-447d16734917",
+          "key": "blastdb_and_genome.zip",
+          "size": 1589378346,
+          "checksum": "md5:166893294befefaf83b849f2fa91418d",
+          "links": {
+            "self": "https://zenodo.org/api/records/19950607/files/blastdb_and_genome.zip/content"
+          }
+        },
+        {
+          "id": "296750fb-287e-4e99-8138-951edb612bad",
+          "key": "raghavagps/phagetb-v1.0.zip",
+          "size": 7396744,
+          "checksum": "md5:9314294c23e4291b3208d8bc2c8ea716",
+          "links": {
+            "self": "https://zenodo.org/api/records/19950607/files/raghavagps/phagetb-v1.0.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:d93dfb0bac52e14e602ce358cb4a93188df85d2a;origin=https://doi.org/10.5281/zenodo.19950606;visit=swh:1:snp:5ee7d7ab09a3c68f9ef9166a8832e1589751884b;anchor=swh:1:rel:40a1becc094d88ef5243f81d66a0da4fda633657;path=raghavagps-phagetb-736b0b0"
+      },
+      "owners": [
+        {
+          "id": "269102"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 4,
+        "unique_downloads": 4,
+        "views": 13,
+        "unique_views": 8,
+        "version_downloads": 4,
+        "version_unique_downloads": 4,
+        "version_unique_views": 8,
+        "version_views": 13
+      },
+      "state": "done",
+      "submitted": true
+    }
+  ]
 }

@@ -1,6 +1,2322 @@
 {
-  "cache_date": "2025-12-01T09:25:27.248114",
+  "cache_date": "2026-06-01T14:18:11.415671",
   "data": [
+    {
+      "created": "2026-03-19T06:35:22.327890+00:00",
+      "modified": "2026-03-19T06:35:22.729598+00:00",
+      "id": 19105549,
+      "conceptrecid": "19105548",
+      "doi": "10.12688/openreseurope.20823.2",
+      "doi_url": "https://doi.org/10.12688/openreseurope.20823.2",
+      "metadata": {
+        "title": "Tools and approaches for mapping Marine Animal Forests: A practical overview for researchers and conservationists",
+        "doi": "10.12688/openreseurope.20823.2",
+        "publication_date": "2026-02-14",
+        "description": "<p>Mapping marine animal forests (MAFs) is essential for understanding complex benthic ecosystems and supporting their conservation and management. This review provides a comprehensive overview of the key aspects of MAFs that can be mapped, focusing on both biological and substrate data. We summarise the diverse platforms and technologies used to collect relevant data, including space, air, and sea-based mapping tools. In addition, we highlight the software tools, open-source databases, and modelling approaches that enable researchers to analyse and map MAFs effectively. The modelling approaches include unsupervised mapping techniques, geomorphological classification, species distribution modelling, biomass distribution modelling, and community distribution modelling. Given the variability in habitat types, depths, and spatial scales, we discuss how geophysical data often serve as proxies for environmental conditions that influence the distribution of species and substrates. The increasing use of machine learning and advanced modelling techniques is also addressed as a means to overcome gaps in biological and substrate data and achieve comprehensive spatial predictions. Finally, we present two practical decision-support flow charts to help guide researchers and practitioners in selecting appropriate mapping tools and modelling approaches based on specific project objectives, environmental settings, and data availability. This review offers a practical toolbox for marine scientists, conservationists, and managers aiming to map and understand the structure and distribution of MAFs more effectively.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "De Clippele, Laurence H.",
+            "affiliation": "School of Biodiversity One Health and Veterinary Medicine, University of Glasgow College of Medical Veterinary and Life Sciences, Glasgow, Scotland, G12 8QQ, UK",
+            "orcid": "0000-0002-8118-3034"
+          },
+          {
+            "name": "Aguilar, Ricardo",
+            "affiliation": "Oceana, Madrid, Spain",
+            "orcid": "0000-0001-6615-8626"
+          },
+          {
+            "name": "Canals, Miquel",
+            "affiliation": "Institut d'Estudis Catalans (IEC), Barcelona, 08001, Spain"
+          },
+          {
+            "name": "Chimienti, Giovanni",
+            "affiliation": "CoNISMa, Rome, Italy"
+          },
+          {
+            "name": "Mart\u00edn-Garc\u00eda, Laura",
+            "affiliation": "Centro Oceanogr\u00e1fico de Canarias (COC-IEO), CSIC, Santa Cruz de Tenerife, Canary Islands, 38180, Spain",
+            "orcid": "0000-0003-1086-8762"
+          },
+          {
+            "name": "Kotsev, Iliyan",
+            "affiliation": "Geotectonics and Regional Geology Department, Geological Institute, Bulgarian Academy of Sciences, Sofia, Bulgaria",
+            "orcid": "0000-0002-0429-1437"
+          },
+          {
+            "name": "Prodanov, Bogdan",
+            "affiliation": "Coastal Zone Dynamics Department, Institute of Oceanology, Bulgarian Academy of Sciences, Varna, Bulgaria",
+            "orcid": "0000-0002-8118-3034"
+          },
+          {
+            "name": "Poursanidis, Dimitris",
+            "affiliation": "Foundation for Research and Technology\u2014Hellas (FORTH), Institute of Applied and Computational Mathematics, N. Plastira 100, Vassilika Vouton, Heraklion, 70013, Greece"
+          },
+          {
+            "name": "Vinha, Beatriz",
+            "affiliation": "Institut de Recerca de La Biodiversitat (IRBio), Universitat de Barcelona, Barcelona, Spain"
+          }
+        ],
+        "keywords": [
+          "Marine Animal Forests",
+          "habitat mapping",
+          "modelling",
+          "multibeam",
+          "side scan sonar",
+          "satellites",
+          "drones"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.1111/ddi.13400",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-540-87662-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs14051127",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs14051127",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0141039",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-91608-8_16",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.geomorph.2024.109227",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/geb.13813",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/geb.12693",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1088/1748-9326/3/4/045011",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecolmodel.2022.110107",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ddi.70074",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-540-49886-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/esp.261",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/UT49729.2023.10103421",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2019.03.004",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00367-011-0228-0",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2007.11.026",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2011.02.007",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2011.02.007",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs14112666",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/icesjms/fsu223",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/B978-0-12-814960-7.00021-X",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-016-1522-0",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-030-57054-5_10",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/9781118349083",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-91608-8",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-020-65266-9",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/aqc.2654",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1098/rsos.231678",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/TGRS.2008.920020",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/01431161.2018.1500072",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-018-37725-x",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-57852-1_4",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.apacoust.2020.107728",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2024.1366078",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-021-02088-9",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0124815",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s10712-008-9039-x",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-016-1519-8",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-025-01822-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-020-02030-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.721062",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.rse.2007.12.012",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8020034",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.7546/CRABS.2019.05.11",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.scitotenv.2023.164648",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1144/M46",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.622856",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr2.2016.06.006",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2018.04.028",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5194/bg-11-6451-2014",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1086/626171",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.margeo.2011.02.008",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.34892/72x9-rt61",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8050154",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8120455",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1201/9780849330520",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs15092238",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs12030489",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.765407",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2018.04.017",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2024.104350",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs15235599",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ejar.2024.02.004",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1177/0309133317744998",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/B978-0-12-814960-7.00060-9",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.rse.2018.07.014",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs8020118",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0168-6445(99)00022-4",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/JSTARS.2016.2586102",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.620702",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0218904",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0025-3227(03)00092-6",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0028755",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11001-017-9338-z",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1144/M46.182",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs17010110",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/rra.2556",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences9020084",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ecog.06547",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/icesjms/fsw086",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.mex.2024.102935",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/9781118332535.ch5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2017.00083",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1577/1548-8446(1999)024<0014:MFAHI>2.0.CO;2",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2023.1178845",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3856/vol47-issue2-fulltext-7",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences11010009",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5194/isprs-annals-V-3-2022-439-2022",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/jmse12050716",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/01431160701311309",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.10089261",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.crsus.2024.100015",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s41064-021-00142-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.softx.2017.02.002",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2022.103775",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/UT49729.2023.10103403",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8020063",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/feart.2023.1183982",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences10070273",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2022.1004083",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.csr.2012.03.008",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2023.108599",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-020-80612-7",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/gcb.14996",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5194/bg-22-2541-2025",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs13214452",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ecog.01881",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs13214470",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs70403710",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/sed.12673",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2003.09.012",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/0143116021000009895",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S1001-6279(12)60012-2",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences10030100",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/MRA.2019.2908063",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecoinf.2022.101786",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/frsen.2021.824848",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.margeo.2020.106332",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/2041-210X.12180",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5593/sgem2020/2.2/s10.021",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-019-01827-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.673086",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.7546/CRABS.2020.05.09",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2019.00278",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecolind.2011.03.021",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-017-09382-z",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2016.04.008",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-021-04110-0",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/biology12060825",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ocecoaman.2013.07.004",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1088/1755-1315/540/1/012087",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/icesjms/fsq102",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/OCEANS.2006.306879",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.csr.2008.03.001",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2022.936095",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-51412-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/ecs2.1325",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs11121496",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00367-023-00750-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geomatics4010002",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s10531-024-02904-y",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.32693/bomg.34.1.2019.590",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/s21237849",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.sedgeo.2020.105792",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/mcf2.10106",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs15092321",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1466-8238.2011.00656.x",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/maec.70030",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.669372",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/lno.12486",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.13155/83528",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs10091331",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2022.1096594",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.pocean.2025.103532",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ddi.13896",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences9090390",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11802-023-5427-6",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1086/622910",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5697/oc.55-1.167",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/rob.20356",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/edn3.312",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2020.00303",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-981-15-9750-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.margeo.2014.03.012",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/rob.21961",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs10020201",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.12688/openreseurope.20823.1",
+            "relation": "isNewVersionOf",
+            "scheme": "doi"
+          }
+        ],
+        "version": "2",
+        "references": [
+          "Adam AAS, Garcia RA, Galaiduk R (2021). Diminishing potential for tropical reefs to function as coral diversity strongholds under climate change conditions. Divers Distrib. doi:10.1111/ddi.13400",
+          "Ainslie M (2010). Principles of sonar performance modelling. doi:10.1007/978-3-540-87662-5",
+          "Alevizos E, Oikonomou D, Argyriou AV (2022a). Fusion of drone-based RGB and multi-spectral imagery for shallow water bathymetry inversion. Remote Sens. doi:10.3390/rs14051127",
+          "Alevizos E, Oikonomou D, Argyriou AV (2022b). Fusion of drone-based RGB and multi-spectral imagery for shallow water bathymetry inversion. Remote Sens. doi:10.3390/rs14051127",
+          "Althaus F, Hill N, Ferrari R (2015). A standardised vocabulary for identifying benthic biota and substrata from underwater imagery: the CATAMI classification scheme. PLoS One. doi:10.1371/journal.pone.0141039",
+          "Angeletti L, Bargain A, Campiani E (2019). Cold-water coral habitat mapping in the mediterranean sea: methodologies and perspectives. doi:10.1007/978-3-319-91608-8_16",
+          "Arosio R, Gafeira J, De Clippele LH (2024). CoMMa: a GIS geomorphometry toolbox to map and measure confined landforms. Geomorphology. doi:10.1016/j.geomorph.2024.109227",
+          "Assis J, Fern\u00e1ndez Bejarano SJ, Salazar VW (2024). Bio-ORACLE v3.0. Pushing marine data layers to the CMIP6 Earth System Models of climate change research. Glob Ecol Biogeogr. doi:10.1111/geb.13813",
+          "Assis J, Tyberghein L, Bosch S (2018). Bio-ORACLE v2.0: extending marine data layers for bioclimatic modelling. Glob Ecol Biogeogr. doi:10.1111/geb.12693",
+          "Baccini A, Laporte N, Goetz SJ (2008). A first map of tropical Africa's above-ground biomass derived from satellite imagery. Environ Res Lett. doi:10.1088/1748-9326/3/4/045011",
+          "Bao R, Wu Y, Zhao M (2019). Relationships between grain size and organic carbon C contents in surface sediments. Earth Planet Sci Lett.",
+          "Barker JR, MacIsaac HJ (2022). Species distribution models: administrative boundary centroid occurrences require careful interpretation. Ecol Modell. doi:10.1016/j.ecolmodel.2022.110107",
+          "Bizzozzero MR, Marfurt SM, Altermatt F (2025). Integrating environmental DNA metabarcoding and remote sensing reveals known and novel fish diversity hotspots in a world heritage area. Divers Distrib. doi:10.1111/ddi.70074",
+          "Blondel P (2009). The handbook of sidescan sonar. doi:10.1007/978-3-540-49886-5",
+          "Blott SJ, Pye K (2001). GRADISTAT: a grain size distribution and statistics package for the analysis of unconsolidated sediments. Earth Surf Process Landf. doi:10.1002/esp.261",
+          "Bodenmann A, Cappelletto J, Massot-Campos M (2023). High-resolution visual seafloor mapping and classification using long range capable AUV for ship-free benthic surveys. IEEE Underwater Technology (UT). doi:10.1109/UT49729.2023.10103421",
+          "Boero F, Foglini F, Fraschetti S (2016). CoCoNet: towards COast to COast NETworks of marine protected areas (from the shore to the high and deep sea), coupled with sea-based wind energy potential.",
+          "Boolukos CM, Lim A, O'Riordan RM (2019). Cold-water corals in decline \u2013 a temporal (4 year) species abundance and biodiversity appraisal of complete photomosaiced cold-water coral reef on the Irish margin. Deep Sea Res I Oceanogr Res Pap. doi:10.1016/j.dsr.2019.03.004",
+          "Brothers LL, Kelley JT, Belknap DF (2011). More than a century of bathymetric observations and present-day shallow sediment characterization in Belfast Bay, Maine, USA: implications for pockmark field longevity. Geo-Mar Lett. doi:10.1007/s00367-011-0228-0",
+          "Brown CJ, Collier JS (2008). Mapping benthic habitat in regions of gradational substrata: an automated approach utilising geophysical, geological, and biological relationships. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2007.11.026",
+          "Brown CJ, Smith SJ, Lawton P (2011a). Benthic habitat mapping: a review of progress towards improved understanding of the spatial ecology of the seafloor using acoustic techniques. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2011.02.007",
+          "Brown CJ, Smith SJ, Lawton P (2011b). Benthic habitat mapping: a review of progress towards improved understanding of the spatial ecology of the seafloor using acoustic techniques. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2011.02.007",
+          "Burns C, Bollard B, Narayanan A (2022). Machine-learning for mapping and monitoring shallow coral reef habitats. Remote Sens. doi:10.3390/rs14112666",
+          "Calvert J, Strong JA, Service M (2015). An evaluation of supervised and unsupervised classification techniques for marine benthic habitat mapping using multibeam echosounder data. ICES J Mar Sci. doi:10.1093/icesjms/fsu223",
+          "Canals M, Amblas D, Rayo X (2020). Distribution of seagrass communities north of Barcelona, Northwestern Mediterranean Sea. Seafloor Geomorphology as Benthic Habitat. doi:10.1016/B978-0-12-814960-7.00021-X",
+          "Casella E, Collin A, Harris D (2017). Mapping coral reefs using consumer-grade drones and structure from motion photogrammetry techniques. Coral Reefs. doi:10.1007/s00338-016-1522-0",
+          "Cau A, Mercier A, Moccia D (2021). The nursery role of marine animal forests. doi:10.1007/978-3-030-57054-5_10",
+          "Chester R, Jickells T (2012). Marine geochemistry. doi:10.1002/9781118349083",
+          "Chimienti G, Bo M, Taviani M (2019). Mediterranean cold-water corals: past, present and future. doi:10.1007/978-3-319-91608-8",
+          "Chimienti G, De Padova D, Mossa M (2020). A mesophotic black coral forest in the Adriatic sea. Sci Rep. doi:10.1038/s41598-020-65266-9",
+          "Chirayath V, Earle SA (2016). Drones that see through waves \u2013 preliminary results from airborne fluid lensing for centimetre-scale aquatic conservation. Aquat Conserv. doi:10.1002/aqc.2654",
+          "Clark HP, Smith AG, McKay Fletcher D (2024). New interactive machine learning tool for marine image analysis. R Soc Open Sci. doi:10.1098/rsos.231678",
+          "Collin A, Archambault P, Long B (2008). Mapping the shallow water seabed habitat with the SHOALS. doi:10.1109/TGRS.2008.920020",
+          "Collin A, Ramambason C, Pastol Y (2018). Very High Resolution mapping of coral reef state using airborne bathymetric LiDAR surface-intensity and drone imagery. Int J Remote Sens. doi:10.1080/01431161.2018.1500072",
+          "Conti LA, Lim A, Wheeler AJ (2019). High resolution mapping of a cold water coral mound. Sci Rep. doi:10.1038/s41598-018-37725-x",
+          "Crutchley G, Kopp H (2018). Reflection and refraction seismic methods. doi:10.1007/978-3-319-57852-1_4",
+          "Cui X, Liu H, Fan M (2021). Seafloor habitat mapping using multibeam bathymetric and backscatter intensity multi-features SVM classification framework. Appl Acoust. doi:10.1016/j.apacoust.2020.107728",
+          "Cuvelier D, Zurowietz M, Nattkemper TW (2024). Deep learning\u2013assisted biodiversity assessment in deep-sea benthic megafauna communities: a case study in the context of polymetallic nodule mining. Front Mar Sci. doi:10.3389/fmars.2024.1366078",
+          "Dahl TW, Wirth SB, Lenton TM (2016). Sediment properties as important predictors of carbon burial in marine sediments. Nat Geosci.",
+          "David CG, Kohl N, Casella E (2021). Structure-from-Motion on shallow reefs and beaches: potential and limitations of consumer-grade drones to reconstruct topography and bathymetry. Coral Reefs. doi:10.1007/s00338-021-02088-9",
+          "Davies JS, Stewart HA, Narayanaswamy BE (2015). Benthic assemblages of the Anton Dohrn Seamount (NE Atlantic): defining deep-sea biotopes to support habitat mapping and management efforts with a focus on vulnerable marine ecosystems. PLoS One. doi:10.1371/journal.pone.0124815",
+          "Davies AG, Thorne PD (2008). Advances in the study of moving sediments and evolving seabeds. Surv Geophys. doi:10.1007/s10712-008-9039-x",
+          "De Clippele LH, Gafeira J, Robert K (2017). Using novel acoustic and visual mapping tools to predict the small-scale spatial distribution of live biogenic reef framework in cold-water coral habitats. Coral Reefs. doi:10.1007/s00338-016-1519-8",
+          "De Clippele LH, Noz\u00e8res C, Xu J (2025). Fish use of deep-sea sponge habitats evidenced by long-term high-resolution monitoring. Sci Rep. doi:10.1038/s41598-025-01822-5",
+          "De Clippele LH, Rovelli L, Ramiro-S\u00e1nchez B (2021a). Mapping cold-water coral biomass: an approach to derive ecosystem functions. Coral Reefs. doi:10.1007/s00338-020-02030-5",
+          "De Clippele LH, van der Kaaden AS, Maier SR (2021b). Biomass mapping for an improved understanding of the contribution of cold-water coral carbonate mounds to C and N cycling. Front Mar Sci. doi:10.3389/fmars.2021.721062",
+          "Degraer S, Moerkerke G, Rabaut M (2008). Very-high resolution side-scan sonar mapping of biogenic reefs of the tube-worm. Remote Sens Environ. doi:10.1016/j.rse.2007.12.012",
+          "Diesing M, Thorsnes T (2018). Mapping of cold-water coral carbonate mounds based on geomorphometric features: an object-based approach. Geosciences. doi:10.3390/geosciences8020034",
+          "Dimitrov L, Prodanov B, Doncheva V (2019). Seabed mapping of the bulgarian coastal zone between sozopol and tsarevo (Southern Bulgarian black sea). Comptes Rendus de L'Academie Bulgare des Sciences. doi:10.7546/CRABS.2019.05.11",
+          "Doorga JRS, Pasnin O, Dindoyal Y (2023). Risk assessment of coral reef vulnerability to climate change and stressors in tropical islands: the case of Mauritius. Sci Total Environ. doi:10.1016/j.scitotenv.2023.164648",
+          "Dowdeswell J (2016). Atlas of submarine glacial landforms: modern, quaternary and ancient. doi:10.1144/M46",
+          "Eyal G, Laverick JH, Bongaerts P (2021). Mesophotic Coral Ecosystems of the Great Barrier Reef are understudied and underexplored. Front Mar Sci. doi:10.3389/fmars.2021.622856",
+          "Fabri MC, Bargain A, Pairaud I (2017). Cold-water coral ecosystems in Cassidaigne Canyon: an assessment of their environmental living conditions. Deep Sea Res 2 Top Stud Oceanogr. doi:10.1016/j.dsr2.2016.06.006",
+          "Fakiris E, Zoura D, Ramfos A (2018). Object-based classification of sub-bottom profiling data for benthic habitat mapping. Comparison with sidescan and RoxAnn in a Greek shallow-water habitat. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2018.04.028",
+          "Fendereski F, Vogt M, Payne MR (2014). Biogeographic classification of the Caspian Sea. Biogeosciences. doi:10.5194/bg-11-6451-2014",
+          "Folk RL (1954). The distinction between grain size and mineral composition in sedimentary-rock nomenclature. J Geol. doi:10.1086/626171",
+          "Foubert A, Huvenne VAI, Wheeler A (2011). The Moira Mounds, small cold-water coral mounds in the Porcupine Seabight, NE Atlantic: part B\u2013evaluating the impact of sediment dynamics through high-resolution ROV-borne bathymetric mapping. Mar Geol. doi:10.1016/j.margeo.2011.02.008",
+          "Freiwald A, Rogers A, Hall-Spencer J (2021). Global distribution of cold-water corals (version 5.1). doi:10.34892/72x9-rt61",
+          "Gafeira J, Dolan M, Monteys X (2018). Geomorphometric characterization of pockmarks by using a GIS-based semi-automated toolbox. Geosciences. doi:10.3390/geosciences8050154",
+          "Gaida TC, Ali TAT, Snellen M (2018). A multispectral bayesian classification method for increased acoustic discrimination of seabed sediments using multi-frequency multibeam backscatter data. Geosciences (Switzerland). doi:10.3390/geosciences8120455",
+          "Galbraith G, McClure EC, Barnett A (2022). The unique deep habitats of the coral sea marine park diving into the deep.",
+          "Gerwik BC Jr (2007). Construction of marine and offshore structures. doi:10.1201/9780849330520",
+          "Giles AB, Ren K, Davies JE (2023). Combining drones and deep learning to automate coral reef assessment with RGB imagery. Remote Sens. doi:10.3390/rs15092238",
+          "Gonz\u00e1lez-Rivero M, Beijbom O, Rodriguez-Ramirez A (2020). Monitoring of coral reefs using artificial intelligence: a feasible and cost-effective approach. Remote Sens. doi:10.3390/rs12030489",
+          "Goode SL, Rowden AA, Bowden DA (2021). Fine-scale mapping of mega-epibenthic communities and their patch characteristics on two new Zealand seamounts. Front Mar Sci. doi:10.3389/fmars.2021.765407",
+          "Greene A, Rahman AF, Kline R (2018). Side scan sonar: a cost-efficient alternative method for measuring seagrass cover in shallow environments. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2018.04.017",
+          "Greiffenhagen L, Kutti T, Maier SR (2024). Biomass mapping of fjordic cold-water coral reefs reveals distinct functional role of vertical wall habitat. Deep Sea Res 1 Oceanogr Res Pap. doi:10.1016/j.dsr.2024.104350",
+          "Grz\u0105dziel A (2023). The impact of side-scan sonar resolution and acoustic shadow phenomenon on the quality of sonar imagery and data interpretation capabilities. Remote Sens. doi:10.3390/rs15235599",
+          "Gu\u00e9guen M, Blancheteau H, Thuiller W (2025). biomod2: ensemble platform for species distribution modeling.",
+          "Guo X, Pan J, Zeng Z (2021). Evaluation of sedimentary organic carbon reactivity and grain size relationships. J Geophys Res Oceans.",
+          "Hamouda AZ, Fekry A, El-Gharabawy S (2024). Acoustic-based classification of marine geophysical data for benthic habitat mapping in the littoral zone of Qaitbay Citadel of Alexandria. Egypt J Aquat Res. doi:10.1016/j.ejar.2024.02.004",
+          "Hamylton SM (2017). Mapping coral reef environments: a review of historical methods, recent advances and future opportunities. Prog Phys Geogr. doi:10.1177/0309133317744998",
+          "Harris PT, Baker EK (2020). GeoHab atlas of seafloor geomorphic features and benthic habitats-synthesis and lessons learned. doi:10.1016/B978-0-12-814960-7.00060-9",
+          "Hedley JD, Roelfsema C, Brando V (2018). Coral reef applications of sentinel-2: coverage, characteristics, bathymetry and benthic mapping with comparison to landsat 8. Remote Sens Environ. doi:10.1016/j.rse.2018.07.014",
+          "Hedley JD, Roelfsema CM, Chollett I (2016). Remote sensing of coral reefs for monitoring and management: a review. Remote Sens (Basel). doi:10.3390/rs8020118",
+          "Helferty M, Johnson HP (2019). The geological interpretation of side-scan sonar.",
+          "Herbert RA (1999). Nitrogen cycling in coastal marine ecosystems. FEMS Microbiol Rev. doi:10.1016/S0168-6445(99)00022-4",
+          "Hoang HK, Bernier M, Duchesne S (2016). Rice mapping using RADARSAT-2 dual- and quad-pol data in a complex land-use watershed: cau river basin (Vietnam). IEEE J Sel Top Appl Earth Obs Remote Sens. doi:10.1109/JSTARS.2016.2586102",
+          "Horton T, Marsh L, Bett BJ (2021). Recommendations for the standardisation of open taxonomic nomenclature for image-based identifications. Front Mar Sci. doi:10.3389/fmars.2021.620702",
+          "Howell KL, Davies JS, Allcock AL (2019). A framework for the development of a global Standardised Marine Taxon Reference Image Database (SMarTaR-ID) to support image-based analyses. PLoS One. doi:10.1371/journal.pone.0218904",
+          "Huvenne VAI, De Mol B, Henriet JP (2003). A 3D seismic study of the morphology and spatial distribution of buried coral banks in the Porcupine Basin, SW of Ireland. doi:10.1016/S0025-3227(03)00092-6",
+          "Huvenne VAI, Tyler PA, Masson DG (2011). A picture on the wall: innovative mapping reveals cold-water coral refuge in submarine canyon. PLoS One. doi:10.1371/journal.pone.0028755",
+          "Ierodiaconou D, Schimel ACG, Kennedy D (2018). Combining pixel and object based image analysis of ultra-high resolution multibeam bathymetry and backscatter for habitat mapping in shallow marine waters. Mar Geophys Res. doi:10.1007/s11001-017-9338-z",
+          "Jakobsson M, Gyllencreutz R, Mayer LA (2016). Mapping submarine glacial landforms using acoustic methods. doi:10.1144/M46.182",
+          "James JWC, Coggan RA, Blyth-Skyrme VJ (2007). The eastern English channel marine habitat map science series technical report no.139.",
+          "Javan FD, Samadzadegan F, Toosi A (2025). Unmanned aerial geophysical remote sensing: a systematic review. Remote Sens (Basel). doi:10.3390/rs17010110",
+          "Jordan A, Davies P, Ingleton T (2010). Seabed habitat mapping of the continental shelf of NSW.",
+          "Kaeser AJ, Litts TL, Tracy TW (2013). Using low-cost side-scan sonar for benthic mapping throughout the lower flint river, Georgia, USA. River Res Appl. doi:10.1002/rra.2556",
+          "Kaskela AM, Kotilainen AT, Alanen U (2019). Picking up the pieces\u2014harmonising and collating seabed substrate data for European maritime areas. Geosciences (Switzerland). doi:10.3390/geosciences9020084",
+          "Kass JM, Pinilla-Buitrago GE, Paz A (2023). 2: a shiny app for modeling species niches and distributions redesigned to facilitate expansion via module contributions. Ecography. doi:10.1111/ecog.06547",
+          "Kavanaugh MT, Oliver MJ, Chavez FP (2016). Seascapes as a new vernacular for pelagic ocean monitoring, management and conservation. ICES J Mar Sci. doi:10.1093/icesjms/fsw086",
+          "Kearns TA, Breman J (2010). Bathymetry-the art and science of seafloor modeling for modern applications. Ocean globe.",
+          "Klaucke I (2017). Sidescan sonar.",
+          "Knauss JA, Garfield N (2016). Introduction to physical oceanography: third edition.",
+          "Kvile K\u00d8, Gundersen H, Poulsen RN (2024). Drone and ground-truth data collection, image annotation and machine learning: a protocol for coastal habitat mapping and classification. MethodsX. doi:10.1016/j.mex.2024.102935",
+          "Lamarche G, Orpin AR, Mitchell JS (2016). Benthic habitat mapping. doi:10.1002/9781118332535.ch5",
+          "Langenk\u00e4mper D, Zurowietz M, Schoening T (2017). BIIGLE 2.0 - browsing and annotating large marine image collections. Front Mar Sci. doi:10.3389/fmars.2017.00083",
+          "Langton RW, Auster PJ (1999). Marine fishery and habitat interactions: to what extent are fisheries and habitat interdependent?. Fisheries (Bethesda). doi:10.1577/1548-8446(1999)024<0014:MFAHI>2.0.CO;2",
+          "Legge OJ, Sanders R, Johnson M (2020). Carbon budgets for the NW European shelf seas: Implications for blue carbon management. Front Mar Sci.",
+          "Li Z, Peng Z, Zhang Z (2023). Exploring modern bathymetry: a comprehensive review of data acquisition devices, model accuracy, and interpolation techniques for enhanced underwater mapping. Front Mar Sci. doi:10.3389/fmars.2023.1178845",
+          "Lia\u00f1o-Carrera F, Camarena-Luhrs T, G\u00f3mez-Barrero A (2019). New coral reef structures in a tropical coral reef system. Lat Am J Aquat Res. doi:10.3856/vol47-issue2-fulltext-7",
+          "Lim A, Wheeler AJ, Conti L (2021). Cold-water coral habitat mapping: trends and developments in acquisition and processing methods. Geosciences (Switzerland). doi:10.3390/geosciences11010009",
+          "Liu Y, Liu Q, Sample JE (2022). Coastal habitat mapping with UAV multi-sensor data: an experiment among DCNN-based approaches. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. doi:10.5194/isprs-annals-V-3-2022-439-2022",
+          "Liu Z, Wang M, Hu H (2024). An underwater localization method based on visual SLAM for the near-bottom environment. J Mar Sci Eng. doi:10.3390/jmse12050716",
+          "Lucieer VL (2008). Object-oriented classification of sidescan sonar data for mapping benthic marine habitats. Int J Remote Sens. doi:10.1080/01431160701311309",
+          "Lurton X, Lamarche G, Brown C (2015). Backscatter measurements by seafloor-mapping sonars-guidelines and recommendations. doi:10.5281/zenodo.10089261",
+          "Lyons MB, Murray NJ, Kennedy EV (2024). New global area estimates for coral reefs from high-resolution mapping. Cell Rep Sustain. doi:10.1016/j.crsus.2024.100015",
+          "Mandlburger G, K\u00f6lle M, N\u00fcbel H (2021). BathyNet: a deep neural network for water depth mapping from multispectral aerial images. PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science. doi:10.1007/s41064-021-00142-3",
+          "Marcon Y, Purser A (2017). : an open-source software interface for annotating photographs of the deep-sea. SoftwareX. doi:10.1016/j.softx.2017.02.002",
+          "Mart\u00edn-Garc\u00eda L, Prado E, Falc\u00f3n JM (2022). Population structure of kent, 1870 at Concepci\u00f3n Seamount, Canary Islands (Spain). methodological approach using non-invasive techniques. Deep Sea Res 1 Oceanogr Res Pap. doi:10.1016/j.dsr.2022.103775",
+          "Massot-Campos M, Yamada T, Thornton B (2023). Towards sensor agnostic Artificial Intelligence for underwater imagery. IEEE Underwater Technology (UT). doi:10.1109/UT49729.2023.10103403",
+          "Mayer L, Jakobsson M, Allen G (2018). The Nippon Foundation-GEBCO seabed 2030 project: the quest to see the world's oceans completely mapped by 2030. Geosciences (Switzerland). doi:10.3390/geosciences8020063",
+          "Mazza D, Parente L, Cifaldi D (2023). Quick bathymetry mapping of a Roman archaeological site using RTK UAS-based photogrammetry. Front Earth Sci (Lausanne). doi:10.3389/feart.2023.1183982",
+          "Menandro PS, Bastos AC (2020). Seabed mapping: a brief history from meaningful words. GeoSciences. doi:10.3390/geosciences10070273",
+          "Menandro PS, Lavagnino AC, Vieira FV (2022). The role of benthic habitat mapping for science and managers: a multi-design approach in the Southeast Brazilian shelf after a major man-induced disaster. Front Mar Sci. doi:10.3389/fmars.2022.1004083",
+          "Micallef A, Le Bas TP, Huvenne VAI (2012). A multi-method approach for benthic habitat mapping of shallow coastal areas with high-resolution multibeam data. Cont Shelf Res. doi:10.1016/j.csr.2012.03.008",
+          "Bertrand JC, Caumette P (null). Environmental microbiology: fundamentals and applications.",
+          "Misiuk B, Brown CJ (2024). Benthic habitat mapping: a review of three decades of mapping biological patterns on the seafloor. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2023.108599",
+          "Mitchell L, Kirk L, Matt S (2022). Allen Coral Atlas (2022). Imagery, maps and monitoring of the world's tropical coral reefs. Zenodo.",
+          "Monteiro JG, Jim\u00e9nez JL, Gizzi F (2021). Novel approach to enhance coastal habitat and biotope mapping with drone aerial imagery analysis. Sci Rep. doi:10.1038/s41598-020-80612-7",
+          "Morato T, Gonz\u00e1lez-Irusta JM, Dominguez-Carri\u00f3 C (2020). Climate-induced changes in the suitable habitat of cold-water corals and commercially important deep\u2010sea fishes in the North Atlantic. Glob Chang Biol. doi:10.1111/gcb.14996",
+          "M\u00fcller D, Liu B, Geibert W (2025). Depositional controls and budget of organic carbon burial in fine-grained sediments of the North Sea - the Helgoland Mud Area as a natural laboratory. Biogeosciences. doi:10.5194/bg-22-2541-2025",
+          "Mumby PJ, Harborne AR (null). Development of a systematic classiffcation scheme of marine habitats to facilitate regional management and mapping of caribbean coral reefs.",
+          "Nababan B, Mastu LOK, Idris NH (2021). Shallow-water benthic habitat mapping using drone with object based image analyses. Remote Sens (Basel). doi:10.3390/rs13214452",
+          "Naimi B, Ara\u00fajo MB (2016). Sdm: a reproducible and extensible R platform for species distribution modelling. Ecography. doi:10.1111/ecog.01881",
+          "Nguyen T, Liquet B, Mengersen K (2021). Mapping of coral reefs with multispectral satellites: a review of recent papers. Remote Sens (Basel). doi:10.3390/rs13214470",
+          "Nieuwhof S, Herman PM, Dankers N (2015). Remote sensing of epibenthic shellfish using synthetic aperture radar satellite imagery. Remote Sens. doi:10.3390/rs70403710",
+          "Normandeau A, Bourgault D, Neumeier U (2020). Storm-induced turbidity currents on a sediment-starved shelf: insight from direct monitoring and repeat seabed mapping of upslope migrating bedforms. Sedimentology. doi:10.1111/sed.12673",
+          "Ojeda GY, Gayes PT, Van Dolah RF (2004). Spatially quantitative seafloor habitat mapping: example from the northern South Carolina inner continental shelf. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2003.09.012",
+          "Palandro D, Andr\u00e9fou\u00ebt S, Dustan P (2003). Change detection in coral reef communities using Ikonos satellite sensor imagery and historic aerial photographs. Int J Remote Sens. doi:10.1080/0143116021000009895",
+          "Papatheodorou G, Avramidis P, Fakiris E (2012). Bed diversity in the shallow water environment of pappas lagoon in Greece. Int J Sediment Res. doi:10.1016/S1001-6279(12)60012-2",
+          "Papenmeier S, Darr A, Feldens P (2020). Hydroacoustic mapping of geogenic hard substrates: challenges and review of german approaches. Geosciences (Switzerland). doi:10.3390/geosciences10030100",
+          "Petillot YR, Antonelli G, Casalino G (2019). Underwater robots: from remotely operated vehicles to intervention-autonomous underwater vehicles. IEEE Robot Autom Mag. doi:10.1109/MRA.2019.2908063",
+          "Piechaud N, Howell KL (2022). Fast and accurate mapping of fine scale abundance of a VME in the deep sea with computer vision. Ecol Inform. doi:10.1016/j.ecoinf.2022.101786",
+          "Pijanowski BC, Brown CJ (2021). Grand challenges in acoustic remote sensing: discoveries to support a better understanding of our changing Planet. Front Remote Sens. doi:10.3389/frsen.2021.824848",
+          "Pillay T, Cawthra HC, Lombard AT (2020). Characterisation of seafloor substrate using advanced processing of multibeam bathymetry, backscatter, and sidescan sonar in Table Bay, South Africa. Mar Geol. doi:10.1016/j.margeo.2020.106332",
+          "Pollock LJ, Tingley R, Morris WK (2014). Understanding co-occurrence by modelling species simultaneously with a Joint Species Distribution Model (JSDM). Methods Ecol Evol. doi:10.1111/2041-210X.12180",
+          "Prahov N, Prodanov B, Dimitrov K (2020). Application of aerial photogrammetry in the study of the underwater archaeological heritage of Nessebar. doi:10.5593/sgem2020/2.2/s10.021",
+          "Price DM, Robert K, Callaway A (2019). Using 3D photogrammetry from ROV video to quantify cold-water coral reef structural complexity and investigate its influence on biodiversity and community assemblage. Coral Reefs. doi:10.1007/s00338-019-01827-3",
+          "Principe SC, Acosta AL, Andrade JE (2021). Predicted shifts in the distributions of Atlantic reef-building corals in the face of climate change. Front Mar Sci. doi:10.3389/fmars.2021.673086",
+          "Prodanov B, Kotsev I, Lambev T (2020). Unmanned aerial vehicles for surveying the bulgarian black sea coast. Comptes Rendus de L'Academie Bulgare des Sciences. doi:10.7546/CRABS.2020.05.09",
+          "Propp C, Bartholom\u00e4 A, Hass C (2016). Guideline for seafloor mapping in german marine waters using high-resolution sonars.",
+          "Ramiro-S\u00e1nchez B, Gonz\u00e1lez-Irusta JM, Henry LA (2019). Characterization and mapping of a deep-sea sponge ground on the tropic seamount (Northeast Tropical Atlantic): implications for spatial management in the high seas. Front Mar Sci. doi:10.3389/fmars.2019.00278",
+          "Rice J, Arvanitidis C, Borja A (2012). Indicators for sea-floor integrity under the European Marine Strategy Framework Directive. Ecol Indic. doi:10.1016/j.ecolind.2011.03.021",
+          "Robert K, Huvenne VAI, Georgiopoulou A (2017). New approaches to high-resolution mapping of marine vertical structures. Sci Rep. doi:10.1038/s41598-017-09382-z",
+          "Robert K, Jones DOB, Roberts JM (2016). Improving predictive mapping of deep-water habitats: considering multiple model outputs and ensemble techniques. Deep Sea Res I Oceanogr Res Pap. doi:10.1016/j.dsr.2016.04.008",
+          "Roberts SM, Halpin PN, Clark JS (2022). Jointly modeling marine species to inform the effects of environmental change on an ecological community in the Northwest Atlantic. Sci Rep. doi:10.1038/s41598-021-04110-0",
+          "Romoth K, Darr A, Papenmeier S (2023). Substrate heterogeneity as a trigger for species diversity in marine benthic assemblages. Biology (Basel). doi:10.3390/biology12060825",
+          "Rossi S (2013). The destruction of the \"animal forests\" in the oceans: towards an over-simplification of the benthic ecosystems. Ocean Coast Manag. doi:10.1016/j.ocecoaman.2013.07.004",
+          "Rossi S, Bramanti L, Gori A (2017). An overview of the animal forests of the world. Marine animal forests.",
+          "Rusmadi R, Hasan RC (2020). Performance of different classifiers for marine habitat mapping using side scan sonar and object-based image analysis. doi:10.1088/1755-1315/540/1/012087",
+          "Schimel ACG, Healy TR, Johnson D (2010). Quantitative experimental comparison of single-beam, sidescan, and multibeam benthic habitat maps. ICES J Mar Sci. doi:10.1093/icesjms/fsq102",
+          "Schlining B, Stout J (2006). MBARI's video annotation and reference system. doi:10.1109/OCEANS.2006.306879",
+          "Schmitt T, Mitchell N, Ramsay A (2008). Characterizing uncertainties for quantifying bathymetry change between time-separated multibeam echo-sounder surveys. Cont Shelf Res. doi:10.1016/j.csr.2008.03.001",
+          "Schumacher M, Huvenne VAI, Devey CW (2022). The Atlantic Ocean landscape: a basin-wide cluster analysis of the atlantic near seafloor environment. Front Mar Sci. doi:10.3389/fmars.2022.936095",
+          "Seibold E, Wolfgang B (2017). The sea floor: an introduction to marine geology. doi:10.1007/978-3-319-51412-3",
+          "Selgrath JC, Roelfsema C, Gergel SE (2016). Mapping for coral reef conservation: comparing the value of participatory and remote sensing approaches. Ecosphere. doi:10.1002/ecs2.1325",
+          "Shang X, Zhao J, Zhang H (2019). Obtaining high-resolution seabed topography and surface details by co-registration of side-scan sonar and multibeam echo sounder images. Remote Sens (Basel). doi:10.3390/rs11121496",
+          "Smith L, Stark N, Jaber R (2023). Relating side-scan sonar backscatter data to geotechnical properties for the investigation of surficial seabed sediments. Geo-Mar Lett. doi:10.1007/s00367-023-00750-5",
+          "Sowers DC, Mayer LA, Masetti G (2024). Mapping and geomorphic characterization of the vast cold-water coral mounds of the blake plateau. Geomatics. doi:10.3390/geomatics4010002",
+          "Stephenson F, Bowden DA, Rowden AA (2024). Using joint species distribution modelling to predict distributions of seafloor taxa and identify vulnerable marine ecosystems in New Zealand waters. Biodivers Conserv. doi:10.1007/s10531-024-02904-y",
+          "Subarsyah S, Arifin L (2019). Seabed characterization through image processing of side scan sonar case study: Bontang and Batam. Bulletin of Marine Geology. doi:10.32693/bomg.34.1.2019.590",
+          "Sun K, Cui W, Chen C (2021). Review of underwater sensing technologies and applications. Sensors (Basel). doi:10.3390/s21237849",
+          "Sun C, Hu Y, Shi P (2020). Probabilistic neural network based seabed sediment recognition method for side-scan sonar imagery. Sediment Geol. doi:10.1016/j.sedgeo.2020.105792",
+          "Switzer TS, Tyler-Jedlund AJ, Keenan SF (2020). Benthic habitats, as derived from classification of side-scan-sonar mapping data, are important determinants of reef-fish assemblage structure in the Eastern Gulf of Mexico. Mar Coast Fish. doi:10.1002/mcf2.10106",
+          "Tallam K, Nguyen N, Ventura J (2023). Application of deep learning for classification of intertidal eelgrass from drone-acquired imagery. Remote Sens. doi:10.3390/rs15092321",
+          "Todorova V, Dimitrov L, Doncheva V (2015). Benthic habitat mapping in the Bulgarian Black Sea.",
+          "Trifonova E, Keremedchiev S, Valchev N (2015). Case studies worldwide: mitigating flood and erosion risk using sediment management for a tourist City: Varna, Bulgaria.",
+          "Tyberghein L, Verbruggen H, Pauly K (2012). Bio-ORACLE: a global environmental dataset for marine species distribution modelling. Global Ecol Biogeogr. doi:10.1111/j.1466-8238.2011.00656.x",
+          "Udden J (1914). Bulletin of the geological society of America: a mechanical composition of clastic sediments.",
+          "Vad J, Cleland J, De Clippele LH (2025). Drivers of coral and sponge community composition and size structure revealed with cumulative abundance profiles. Marine Ecology. doi:10.1111/maec.70030",
+          "Van Audenhaege L, Broad E, Hendry KR (2021). High-resolution vertical habitat mapping of a deep-sea cliff offshore Greenland. Front Mar Sci. doi:10.3389/fmars.2021.669372",
+          "Van Audenhaege L, Sarrazin J, Legendre P (2024). Monitoring ecological dynamics on complex hydrothermal structures: a novel photogrammetry approach reveals fine-scale variability of vent assemblages. Limnol Oceanogr. doi:10.1002/lno.12486",
+          "Vasquez M, Allen H, Manca E (2021). EUSeaMap 2021. A European broad-scale seabed habitat map. doi:10.13155/83528",
+          "Ventura D, Bonifazi A, Gravina MF (2018). Mapping and classification of ecologically sensitive marine habitats using Unmanned Aerial Vehicle (UAV) imagery and Object-Based Image Analysis (OBIA). Remote Sens (Basel). doi:10.3390/rs10091331",
+          "Ventura D, Grosso L, Pensa D (2023). Coastal benthic habitat mapping and monitoring by integrating aerial and water surface low-cost drones. Front Mar Sci. doi:10.3389/fmars.2022.1096594",
+          "Vinha B, Huvenne VAI, Gori A (2025). Characterization and mapping of bathyal benthic communities of Cabo Verde (NW Africa). Prog Oceanogr. doi:10.1016/j.pocean.2025.103532",
+          "Vinha B, Murillo FJ, Schumacher M (2024). Ensemble modelling to predict the distribution of vulnerable marine ecosystems indicator taxa on data-limited seamounts of Cabo Verde (NW Africa). Divers Distrib. doi:10.1111/ddi.13896",
+          "von R\u00f6nn GA, Schwarzer K, Reimers HC (2019). Limitations of boulder detection in shallow water habitats using high-resolution sidescan sonar images. Geosciences (Switzerland). doi:10.3390/geosciences9090390",
+          "Waddington T, Hart K (2003). Tools and techniques for acquisition of benthic estuarine habitat data.",
+          "Wang Y, Bendtsen J, Meire L (2024). High rates of marine organic carbon burial on the southwest Greenland shelf. Commun Earth Environ.",
+          "Wang Z, Hu Y, Ding J (2023). YOLOv5-based seabed sediment recognition method for side-scan sonar imagery. J Ocean Univ China. doi:10.1007/s11802-023-5427-6",
+          "Wentworth CK (1922). A scale of grade and class terms for clastic sediments. doi:10.1086/622910",
+          "Weslawski JM, Kryla-Straszewska L, Piwowarczyk J (2013). Habitat modelling limitations - puck bay, baltic sea - a case study. Oceanologia. doi:10.5697/oc.55-1.167",
+          "Whitmire C, Embley R, Wakefield WW (2007). A quantitative approach for using multibeam sonar data to map benthic habitats.",
+          "Williams SB, Pizarro O, Webster JM (2010). Autonomous underwater vehicle-assisted surveying of drowned reefs on the shelf edge of the great barrier reef, Australia. J Field Robot. doi:10.1002/rob.20356",
+          "Wilms TJ, Jacobsen MW, Hansen BK (2022). Environmental DNA reveals fine\u2010scale habitat associations for sedentary and resident marine species across a coastal mosaic of soft\u2010 and hard\u2010bottom habitats. Environmental DNA. doi:10.1002/edn3.312",
+          "Winship AJ, Thorson JT, Clarke ME (2020). Good practices for species distribution modeling of deep-sea corals and sponges for resource management: data collection, analysis, validation, and communication. Front Mar Sci. doi:10.3389/fmars.2020.00303",
+          "Wu Z, Yang F, Tang Y (2020). High-resolution seafloor survey and applications. doi:10.1007/978-981-15-9750-3",
+          "Wynn RB, Huvenne VAI, Le Bas TP (2014). Autonomous Underwater Vehicles (AUVs): their past, present and future contributions to the advancement of marine geoscience. Mar Geol. doi:10.1016/j.margeo.2014.03.012",
+          "Yamada T, Pr\u00fcgel-Bennett A, Thornton B (2021). Learning features from georeferenced seafloor imagery with location guided autoencoders. J Field Robot. doi:10.1002/rob.21961",
+          "Zhang L, Jouvencel B, Fang Z (2012). 3D Reconstruction of seabed surface through sonar data of AUVs.",
+          "Zhang W, Sala E, Dunn DC (2024). Global bottom trawling threatens the ocean's largest carbon store. Nat Geosci.",
+          "Zhao J, Shang X, Zhang H (2018). Reconstructing seabed topography from side-scan sonar images with self-constraint. Remote Sens (Basel). doi:10.3390/rs10020201"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "title": "Open Research Europe"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19105548"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Tools and approaches for mapping Marine Animal Forests: A practical overview for researchers and conservationists",
+      "links": {
+        "self": "https://zenodo.org/api/records/19105549",
+        "self_html": "https://zenodo.org/records/19105549",
+        "preview_html": "https://zenodo.org/records/19105549?preview=1",
+        "doi": "https://doi.org/10.12688/openreseurope.20823.2",
+        "self_doi": "https://doi.org/10.12688/openreseurope.20823.2",
+        "self_doi_html": "https://zenodo.org/doi/10.12688/openreseurope.20823.2",
+        "reserve_doi": "https://zenodo.org/api/records/19105549/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19105548",
+        "parent_html": "https://zenodo.org/records/19105548",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19105549/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19105549/sequence/default",
+        "files": "https://zenodo.org/api/records/19105549/files",
+        "media_files": "https://zenodo.org/api/records/19105549/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:19105549:openreseurope-5-23645.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:19105549:openreseurope-5-23645.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:19105549:openreseurope-5-23645.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:19105549:openreseurope-5-23645.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:19105549:openreseurope-5-23645.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:19105549:openreseurope-5-23645.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/19105549/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19105549/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19105549/versions/latest",
+        "latest_html": "https://zenodo.org/records/19105549/latest",
+        "versions": "https://zenodo.org/api/records/19105549/versions",
+        "draft": "https://zenodo.org/api/records/19105549/draft",
+        "access_links": "https://zenodo.org/api/records/19105549/access/links",
+        "access_grants": "https://zenodo.org/api/records/19105549/access/grants",
+        "access_users": "https://zenodo.org/api/records/19105549/access/users",
+        "access_request": "https://zenodo.org/api/records/19105549/access/request",
+        "access": "https://zenodo.org/api/records/19105549/access",
+        "communities": "https://zenodo.org/api/records/19105549/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19105549/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19105549/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19105549/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19105549/quota-increase",
+        "requests": "https://zenodo.org/api/records/19105549/requests"
+      },
+      "updated": "2026-03-19T06:35:22.729598+00:00",
+      "recid": "19105549",
+      "revision": 5,
+      "files": [
+        {
+          "id": "578e017e-68ef-4cf9-a762-666f8e07591a",
+          "key": "openreseurope-5-23645.pdf",
+          "size": 13679932,
+          "checksum": "md5:309d83a0871a873eef55c1eb21c3a7eb",
+          "links": {
+            "self": "https://zenodo.org/api/records/19105549/files/openreseurope-5-23645.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "203484"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 17,
+        "unique_downloads": 17,
+        "views": 24,
+        "unique_views": 24,
+        "version_downloads": 17,
+        "version_unique_downloads": 17,
+        "version_unique_views": 24,
+        "version_views": 24
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-03-19T06:35:18.633807+00:00",
+      "modified": "2026-03-19T06:35:19.324577+00:00",
+      "id": 19105547,
+      "conceptrecid": "19105546",
+      "doi": "10.12688/openreseurope.20823.1",
+      "doi_url": "https://doi.org/10.12688/openreseurope.20823.1",
+      "metadata": {
+        "title": "Tools and approaches for mapping Marine Animal Forests: A practical overview for researchers and conservationists",
+        "doi": "10.12688/openreseurope.20823.1",
+        "publication_date": "2025-09-05",
+        "description": "<p>Mapping marine animal forests (MAFs) is essential for understanding complex benthic ecosystems and supporting their conservation and management. This review provides a comprehensive overview of the key aspects of MAFs that can be mapped, focusing on both biological and substrate (sedimentary) data. We summarise the diverse platforms and technologies used to collect relevant data, including space-based, air-based, and sea-based mapping tools. The latter include active acoustics, side-scan sonar, seismic reflection profiling, multibeam sonar, and underwater cameras. In addition, we highlight the software tools, open-source databases, and modelling approaches that enable researchers to analyse and map MAFs effectively. The modelling approaches include unsupervised mapping techniques, geomorphological classification, species distribution modelling, biomass distribution modelling, and community distribution modelling. Given the variability in habitat types, depths, and spatial scales, we discuss how geophysical data often serve as proxies for environmental conditions that influence the distribution of species and substrates. The increasing use of machine learning and advanced modelling techniques is also addressed as a means to overcome gaps in biological and substrate data and achieve comprehensive spatial predictions. Finally, we present two practical decision-support flow charts to help guide researchers and practitioners in selecting appropriate mapping tools and modelling approaches based on specific project objectives, environmental settings, and data availability. This review offers a practical toolbox for marine scientists, conservationists, and managers aiming to map and understand the structure and distribution of MAFs more effectively.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "De Clippele, Laurence H.",
+            "affiliation": "School of Biodiversity One Health and Veterinary Medicine, University of Glasgow College of Medical Veterinary and Life Sciences, Glasgow, Scotland, G12 8QQ, UK",
+            "orcid": "0000-0002-8118-3034"
+          },
+          {
+            "name": "Aguilar, Ricardo",
+            "affiliation": "Oceana, Madrid, Spain",
+            "orcid": "0000-0001-6615-8626"
+          },
+          {
+            "name": "Canals, Miquel",
+            "affiliation": "Institut d'Estudis Catalans (IEC), Barcelona, 08001, Spain"
+          },
+          {
+            "name": "Chimienti, Giovanni",
+            "affiliation": "CoNISMa, Rome, Italy"
+          },
+          {
+            "name": "Mart\u00edn-Garc\u00eda, Laura",
+            "affiliation": "Centro Oceanogr\u00e1fico de Canarias (COC-IEO), CSIC, Santa Cruz de Tenerife, Canary Islands, 38180, Spain",
+            "orcid": "0000-0003-1086-8762"
+          },
+          {
+            "name": "Kotsev, Iliyan",
+            "affiliation": "Coastal Zone Dynamics Department, Institute of Oceanology, Bulgarian Academy of Sciences, Varna, Bulgaria",
+            "orcid": "0000-0002-0429-1437"
+          },
+          {
+            "name": "Prodanov, Bogdan",
+            "affiliation": "Coastal Zone Dynamics Department, Institute of Oceanology, Bulgarian Academy of Sciences, Varna, Bulgaria",
+            "orcid": "0000-0002-8118-3034"
+          },
+          {
+            "name": "Poursanidis, Dimitris",
+            "affiliation": "Foundation for Research and Technology\u2014Hellas (FORTH), Institute of Applied and Computational Mathematics, N. Plastira 100, Vassilika Vouton, Heraklion, 70013, Greece"
+          },
+          {
+            "name": "Vinha, Beatriz",
+            "affiliation": "Institut de Recerca de La Biodiversitat (IRBio), Universitat de Barcelona, Barcelona, Spain"
+          }
+        ],
+        "keywords": [
+          "Marine Animal Forests",
+          "habitat mapping",
+          "modelling",
+          "multibeam",
+          "side scan sonar",
+          "satellites",
+          "drones"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.1111/ddi.13400",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-540-87662-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs14051127",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs14051127",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0141039",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-91608-8_16",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.geomorph.2024.109227",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/geb.13813",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/geb.12693",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1088/1748-9326/3/4/045011",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecolmodel.2022.110107",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-540-49886-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/UT49729.2023.10103421",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2019.03.004",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00367-011-0228-0",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2007.11.026",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2011.02.007",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2011.02.007",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs14112666",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/icesjms/fsu223",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/B978-0-12-814960-7.00021-X",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-016-1522-0",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-030-57054-5_10",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/9781118349083",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-020-65266-9",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/aqc.2654",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1098/rsos.231678",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/TGRS.2008.920020",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/01431161.2018.1500072",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-018-37725-x",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-57852-1_4",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.apacoust.2020.107728",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2024.1366078",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-021-02088-9",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0124815",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s10712-008-9039-x",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-016-1519-8",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-025-01822-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-020-02030-5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.721062",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.rse.2007.12.012",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8020034",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.7546/CRABS.2019.05.11",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.scitotenv.2023.164648",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1144/M46",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.622856",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr2.2016.06.006",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2018.04.028",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5194/bg-11-6451-2014",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1086/626171",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.margeo.2011.02.008",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.34892/72x9-rt61",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8050154",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8120455",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1201/9780849330520",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs15092238",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs12030489",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.765407",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2018.04.017",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2024.104350",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ejar.2024.02.004",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1177/0309133317744998",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/B978-0-12-814960-7.00060-9",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.rse.2018.07.014",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs8020118",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0168-6445(99)00022-4",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/JSTARS.2016.2586102",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.620702",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0218904",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0025-3227(03)00092-6",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0028755",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11001-017-9338-z",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1144/M46.182",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs17010110",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/rra.2556",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences9020084",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ecog.06547",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/icesjms/fsw086",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.mex.2024.102935",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/9781118332535.ch5",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2017.00083",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1577/1548-8446(1999)024<0014:MFAHI>2.0.CO;2",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2023.1178845",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3856/vol47-issue2-fulltext-7",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences11010009",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5194/isprs-annals-V-3-2022-439-2022",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/jmse12050716",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/01431160701311309",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.10089261",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.crsus.2024.100015",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s41064-021-00142-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.softx.2017.02.002",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2022.103775",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/UT49729.2023.10103403",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences8020063",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/feart.2023.1183982",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2022.1004083",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.csr.2012.03.008",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2023.108599",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-020-80612-7",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs13214452",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ecog.01881",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs13214470",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/sed.12673",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecss.2003.09.012",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/0143116021000009895",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S1001-6279(12)60012-2",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geosciences10030100",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecoinf.2022.101786",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/frsen.2021.824848",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.margeo.2020.106332",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/2041-210X.12180",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5593/sgem2020/2.2/s10.021",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s00338-019-01827-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.673086",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.7546/CRABS.2020.05.09",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2019.00278",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ecolind.2011.03.021",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-017-09382-z",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.dsr.2016.04.008",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-021-04110-0",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/biology12060825",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ocecoaman.2013.07.004",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1088/1755-1315/540/1/012087",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/icesjms/fsq102",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1109/OCEANS.2006.306879",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.csr.2008.03.001",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2022.936095",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-3-319-51412-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/ecs2.1325",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/geomatics4010002",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s10531-024-02904-y",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.32693/bomg.34.1.2019.590",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/s21237849",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.sedgeo.2020.105792",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/mcf2.10106",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs15092321",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1466-8238.2011.00656.x",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2021.669372",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/lno.12486",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.13155/83528",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs10091331",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2022.1096594",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/ddi.13896",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11802-023-5427-6",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1086/622910",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5697/oc.55-1.167",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/rob.20356",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmars.2020.00303",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/978-981-15-9750-3",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.margeo.2014.03.012",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/rob.21961",
+            "relation": "cites",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs10020201",
+            "relation": "cites",
+            "scheme": "doi"
+          }
+        ],
+        "version": "1",
+        "references": [
+          "Adam AAS, Garcia RA, Galaiduk R (2021). Diminishing potential for tropical reefs to function as coral diversity strongholds under climate change conditions. Divers Distrib. doi:10.1111/ddi.13400",
+          "Ainslie M (2010). Principles of sonar performance modelling. doi:10.1007/978-3-540-87662-5",
+          "Alevizos E, Oikonomou D, Argyriou AV (2022a). Fusion of drone-based RGB and multi-spectral imagery for shallow water bathymetry inversion. Remote Sens (Basel). doi:10.3390/rs14051127",
+          "Alevizos E, Oikonomou D, Argyriou AV (2022b). Fusion of drone-based RGB and multi-spectral imagery for shallow water bathymetry inversion. Remote Sens (Basel). doi:10.3390/rs14051127",
+          "Althaus F, Hill N, Ferrari R (2015). A standardised vocabulary for identifying benthic biota and substrata from underwater imagery: the CATAMI classification scheme. PLoS One. doi:10.1371/journal.pone.0141039",
+          "Angeletti L, Bargain A, Campiani E (2019). Cold-water coral habitat mapping in the mediterranean sea: methodologies and perspectives. doi:10.1007/978-3-319-91608-8_16",
+          "Arosio R, Gafeira J, De Clippele LH (2024). CoMMa: a GIS geomorphometry toolbox to map and measure confined landforms. Geomorphology. doi:10.1016/j.geomorph.2024.109227",
+          "Assis J, Fern\u00e1ndez Bejarano SJ, Salazar VW (2024). Bio-ORACLE v3.0. pushing marine data layers to the CMIP6 Earth system models of climate change research. Glob Ecol Biogeogr. doi:10.1111/geb.13813",
+          "Assis J, Tyberghein L, Bosch S (2018). Bio-ORACLE v2.0: extending marine data layers for bioclimatic modelling. Glob Ecol Biogeogr. doi:10.1111/geb.12693",
+          "Baccini A, Laporte N, Goetz SJ (2008). A first map of tropical Africa's above-ground biomass derived from satellite imagery. Environ Res Lett. doi:10.1088/1748-9326/3/4/045011",
+          "Barker JR, MacIsaac HJ (2022). Species distribution models: administrative boundary centroid occurrences require careful interpretation. Ecol Modell. doi:10.1016/j.ecolmodel.2022.110107",
+          "Blondel P (2009). The handbook of sidescan sonar. doi:10.1007/978-3-540-49886-5",
+          "Bodenmann A, Cappelletto J, Massot-Campos M (2023). High-resolution visual seafloor mapping and classification using long range capable AUV for ship-free benthic surveys. IEEE Underwater Technology (UT). doi:10.1109/UT49729.2023.10103421",
+          "Boero F, Foglini F, Fraschetti S (2016). CoCoNet: towards COast to COast NETworks of marine protected areas (from the shore to the high and deep sea), coupled with sea-based wind energy potential.",
+          "Boolukos CM, Lim A, O'Riordan RM (2019). Cold-water corals in decline - a temporal (4 year) species abundance and biodiversity appraisal of complete photomosaiced cold-water coral reef on the Irish margin. Deep Sea Res I Oceanogr Res Pap. doi:10.1016/j.dsr.2019.03.004",
+          "Brothers LL, Kelley JT, Belknap DF (2011). More than a century of bathymetric observations and present-day shallow sediment characterization in Belfast Bay, Maine, USA: implications for pockmark field longevity. Geo-Marine Letters. doi:10.1007/s00367-011-0228-0",
+          "Brown CJ, Collier JS (2008). Mapping benthic habitat in regions of gradational substrata: an automated approach utilising geophysical, geological, and biological relationships. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2007.11.026",
+          "Brown CJ, Smith SJ, Lawton P (2011a). Benthic habitat mapping: a review of progress towards improved understanding of the spatial ecology of the seafloor using acoustic techniques. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2011.02.007",
+          "Brown CJ, Smith SJ, Lawton P (2011b). Benthic habitat mapping: a review of progress towards improved understanding of the spatial ecology of the seafloor using acoustic techniques. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2011.02.007",
+          "Burns C, Bollard B, Narayanan A (2022). Machine-learning for mapping and monitoring shallow coral reef habitats. Remote Sens (Basel). doi:10.3390/rs14112666",
+          "Calvert J, Strong JA, Service M (2015). An evaluation of supervised and unsupervised classification techniques for marine benthic habitat mapping using multibeam echosounder data. ICES Journal of Marine Science. doi:10.1093/icesjms/fsu223",
+          "Canals M, Amblas D, Rayo X (2020). Distribution of seagrass communities north of Barcelona, Northwestern Mediterranean Sea. Seafloor Geomorphology as Benthic Habitat. doi:10.1016/B978-0-12-814960-7.00021-X",
+          "Casella E, Collin A, Harris D (2017). Mapping coral reefs using consumer-grade drones and structure from motion photogrammetry techniques. Coral Reefs. doi:10.1007/s00338-016-1522-0",
+          "Cau A, Mercier A, Moccia D (2021). The nursery role of marine animal forests. doi:10.1007/978-3-030-57054-5_10",
+          "Chester R, Jickells T (2012). Marine geochemistry. doi:10.1002/9781118349083",
+          "Chimienti G, Bo M, Taviani M (2019). Mediterranean cold-water corals: past, present and future.",
+          "Chimienti G, De Padova D, Mossa M (2020). A mesophotic black coral forest in the Adriatic sea. Sci Rep. doi:10.1038/s41598-020-65266-9",
+          "Chirayath V, Earle SA (2016). Drones that see through waves - preliminary results from airborne fluid lensing for centimetre-scale aquatic conservation. Aquat Conserv. doi:10.1002/aqc.2654",
+          "Clark HP, Smith AG, McKay Fletcher D (2024). New interactive machine learning tool for marine image analysis. R Soc Open Sci. doi:10.1098/rsos.231678",
+          "Collin A, Archambault P, Long B (2008). Mapping the shallow water seabed habitat with the SHOALS. doi:10.1109/TGRS.2008.920020",
+          "Collin A, Ramambason C, Pastol Y (2018). Very High Resolution mapping of coral reef state using airborne bathymetric LiDAR surface-intensity and drone imagery. Int J Remote Sens. doi:10.1080/01431161.2018.1500072",
+          "Conti LA, Lim A, Wheeler AJ (2019). High resolution mapping of a cold water coral mound. Sci Rep. doi:10.1038/s41598-018-37725-x",
+          "Crutchley G, Kopp H (2018). Reflection and refraction seismic methods. doi:10.1007/978-3-319-57852-1_4",
+          "Cui X, Liu H, Fan M (2021). Seafloor habitat mapping using multibeam bathymetric and backscatter intensity multi-features SVM classification framework. Appl Acoust. doi:10.1016/j.apacoust.2020.107728",
+          "Cuvelier D, Zurowietz M, Nattkemper TW (2024). Deep learning\u2013assisted biodiversity assessment in deep-sea benthic megafauna communities: a case study in the context of polymetallic nodule mining. Front Mar Sci. doi:10.3389/fmars.2024.1366078",
+          "David CG, Kohl N, Casella E (2021). Structure-from-Motion on shallow reefs and beaches: potential and limitations of consumer-grade drones to reconstruct topography and bathymetry. Coral Reefs. doi:10.1007/s00338-021-02088-9",
+          "Davies JS, Stewart HA, Narayanaswamy BE (2015). Benthic assemblages of the Anton Dohrn Seamount (NE Atlantic): defining deep-sea biotopes to support habitat mapping and management efforts with a focus on vulnerable marine ecosystems. PLoS One. doi:10.1371/journal.pone.0124815",
+          "Davies AG, Thorne PD (2008). Advances in the study of moving sediments and evolving seabeds. Surv Geophys. doi:10.1007/s10712-008-9039-x",
+          "De Clippele LH, Gafeira J, Robert K (2017). Using novel acoustic and visual mapping tools to predict the small-scale spatial distribution of live biogenic reef framework in cold-water coral habitats. Coral Reefs. doi:10.1007/s00338-016-1519-8",
+          "De Clippele LH, Noz\u00e8res C, Xu J (2025). Fish use of deep-sea sponge habitats evidenced by long-term high-resolution monitoring. Sci Rep. doi:10.1038/s41598-025-01822-5",
+          "De Clippele LH, Rovelli L, Ramiro-S\u00e1nchez B (2021a). Mapping cold-water coral biomass: an approach to derive ecosystem functions. Coral Reefs. doi:10.1007/s00338-020-02030-5",
+          "De Clippele LH, van der Kaaden AS, Maier SR (2021b). Biomass mapping for an improved understanding of the contribution of cold-water coral carbonate mounds to C and N cycling. Front Mar Sci. doi:10.3389/fmars.2021.721062",
+          "Degraer S, Moerkerke G, Rabaut M (2008). Very-high resolution side-scan sonar mapping of biogenic reefs of the tube-worm . Remote Sens Environ. doi:10.1016/j.rse.2007.12.012",
+          "Diesing M, Thorsnes T (2018). Mapping of cold-water coral carbonate mounds based on geomorphometric features: an object-based approach. Geosciences. doi:10.3390/geosciences8020034",
+          "Dimitrov L, Prodanov B, Doncheva V (2019). Seabed mapping of the bulgarian coastal zone between sozopol and tsarevo (Southern Bulgarian black sea). Comptes Rendus de L'Academie Bulgare des Sciences. doi:10.7546/CRABS.2019.05.11",
+          "Doorga JRS, Pasnin O, Dindoyal Y (2023). Risk assessment of coral reef vulnerability to climate change and stressors in tropical islands: the case of Mauritius. Sci Total Environ. doi:10.1016/j.scitotenv.2023.164648",
+          "Dowdeswell J (2016). Atlas of submarine glacial landforms: modern, quaternary and ancient. doi:10.1144/M46",
+          "Eyal G, Laverick JH, Bongaerts P (2021). Mesophotic Coral Ecosystems of the Great Barrier Reef are understudied and underexplored. Front Mar Sci. doi:10.3389/fmars.2021.622856",
+          "Fabri MC, Bargain A, Pairaud I (2017). Cold-water coral ecosystems in Cassidaigne Canyon: an assessment of their environmental living conditions. Deep Sea Res 2 Top Stud Oceanogr. doi:10.1016/j.dsr2.2016.06.006",
+          "Fakiris E, Zoura D, Ramfos A (2018). Object-based classification of sub-bottom profiling data for benthic habitat mapping. Comparison with sidescan and RoxAnn in a Greek shallow-water habitat. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2018.04.028",
+          "Fendereski F, Vogt M, Payne MR (2014). Biogeographic classification of the Caspian Sea. Biogeosciences. doi:10.5194/bg-11-6451-2014",
+          "Folk RL (1954). The distinction between grain size and mineral composition in sedimentary-rock nomenclature. J Geol. doi:10.1086/626171",
+          "Foubert A, Huvenne VAI, Wheeler A (2011). The Moira Mounds, small cold-water coral mounds in the Porcupine Seabight, NE Atlantic: part B\u2013evaluating the impact of sediment dynamics through high-resolution ROV-borne bathymetric mapping. Mar Geol. doi:10.1016/j.margeo.2011.02.008",
+          "Freiwald A, Rogers A, Hall-Spencer J (2021). Global distribution of cold-water corals (version 5.1). doi:10.34892/72x9-rt61",
+          "Gafeira J, Dolan M, Monteys X (2018). Geomorphometric characterization of pockmarks by using a GIS-based semi-automated toolbox. Geosciences. doi:10.3390/geosciences8050154",
+          "Gaida TC, Ali TAT, Snellen M (2018). A multispectral bayesian classification method for increased acoustic discrimination of seabed sediments using multi-frequency multibeam backscatter data. Geosciences (Switzerland). doi:10.3390/geosciences8120455",
+          "Galbraith G, McClure EC, Barnett A (2022). The unique deep habitats of the Coral Sea Marine Park diving into the deep.",
+          "Gerwik BC Jr (2007). Construction of marine and offshore structures. doi:10.1201/9780849330520",
+          "Giles AB, Ren K, Davies JE (2023). Combining drones and deep learning to automate coral reef assessment with RGB imagery. Remote Sens (Basel). doi:10.3390/rs15092238",
+          "Gonz\u00e1lez-Rivero M, Beijbom O, Rodriguez-Ramirez A (2020). Monitoring of coral reefs using artificial intelligence: a feasible and cost-effective approach. Remote Sens (Basel). doi:10.3390/rs12030489",
+          "Goode SL, Rowden AA, Bowden DA (2021). Fine-scale mapping of mega-epibenthic communities and their patch characteristics on two new Zealand seamounts. Front Mar Sci. doi:10.3389/fmars.2021.765407",
+          "Greene A, Rahman AF, Kline R (2018). Side scan sonar: a cost-efficient alternative method for measuring seagrass cover in shallow environments. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2018.04.017",
+          "Greiffenhagen L, Kutti T, Maier SR (2024). Biomass mapping of fjordic cold-water coral reefs reveals distinct functional role of vertical wall habitat. Deep Sea Res 1 Oceanogr Res Pap. doi:10.1016/j.dsr.2024.104350",
+          "Gu\u00e9guen M, Blancheteau H, Thuiller W (2025). biomod2: ensemble platform for species distribution modeling.",
+          "Hamouda AZ, Fekry A, El-Gharabawy S (2024). Acoustic-based classification of marine geophysical data for benthic habitat mapping in the littoral zone of Qaitbay Citadel of Alexandria. Egypt J Aquat Res. doi:10.1016/j.ejar.2024.02.004",
+          "Hamylton SM (2017). Mapping coral reef environments: a review of historical methods, recent advances and future opportunities. Prog Phys Geogr. doi:10.1177/0309133317744998",
+          "Harris PT, Baker EK (2020). GeoHab atlas of seafloor geomorphic features and benthic habitats-synthesis and lessons learned. doi:10.1016/B978-0-12-814960-7.00060-9",
+          "Hedley JD, Roelfsema C, Brando V (2018). Coral reef applications of sentinel-2: coverage, characteristics, bathymetry and benthic mapping with comparison to landsat 8. Remote Sens Environ. doi:10.1016/j.rse.2018.07.014",
+          "Hedley JD, Roelfsema CM, Chollett I (2016). Remote sensing of coral reefs for monitoring and management: a review. Remote Sens (Basel). doi:10.3390/rs8020118",
+          "Herbert RA (1999). Nitrogen cycling in coastal marine ecosystems. FEMS Microbiol Rev. doi:10.1016/S0168-6445(99)00022-4",
+          "Hoang HK, Bernier M, Duchesne S (2016). Rice mapping using RADARSAT-2 dual- and quad-pol data in a complex land-use watershed: cau river basin (Vietnam). IEEE J Sel Top Appl Earth Obs Remote Sens. doi:10.1109/JSTARS.2016.2586102",
+          "Horton T, Marsh L, Bett BJ (2021). Recommendations for the standardisation of open taxonomic nomenclature for image-based identifications. Front Mar Sci. doi:10.3389/fmars.2021.620702",
+          "Howell KL, Davies JS, Allcock AL (2019). A framework for the development of a global Standardised Marine Taxon Reference Image Database (SMarTaR-ID) to support image-based analyses. PLoS One. doi:10.1371/journal.pone.0218904",
+          "Huvenne VAI, De Mol B, Henriet JP (2003). A 3D seismic study of the morphology and spatial distribution of buried coral banks in the Porcupine Basin, SW of Ireland. doi:10.1016/S0025-3227(03)00092-6",
+          "Huvenne VAI, Tyler PA, Masson DG (2011). A picture on the wall: innovative mapping reveals cold-water coral refuge in submarine canyon. PLoS One. doi:10.1371/journal.pone.0028755",
+          "Ierodiaconou D, Schimel ACG, Kennedy D (2018). Combining pixel and object based image analysis of ultra-high resolution multibeam bathymetry and backscatter for habitat mapping in shallow marine waters. Mar Geophys Res. doi:10.1007/s11001-017-9338-z",
+          "Jakobsson M, Gyllencreutz R, Mayer LA (2016). Mapping submarine glacial landforms using acoustic methods. doi:10.1144/M46.182",
+          "James JWC, Coggan RA, Blyth-Skyrme VJ (2007). The eastern english channel marine habitat map science series technical report no.139.",
+          "Javan FD, Samadzadegan F, Toosi A (2025). Unmanned aerial geophysical remote sensing: a systematic review. Remote Sens (Basel). doi:10.3390/rs17010110",
+          "Jordan A, Davies P, Ingleton T (2010). Seabed habitat mapping of the continental shelf of NSW.",
+          "Kaeser AJ, Litts TL, Tracy TW (2013). Using low-cost side-scan sonar for benthic mapping throughout the lower flint river, Georgia, USA. River Res Appl. doi:10.1002/rra.2556",
+          "Kaskela AM, Kotilainen AT, Alanen U (2019). Picking up the pieces\u2014harmonising and collating seabed substrate data for European maritime areas. Geosciences (Switzerland). doi:10.3390/geosciences9020084",
+          "Kass JM, Pinilla-Buitrago GE, Paz A (2023). 2: a shiny app for modeling species niches and distributions redesigned to facilitate expansion via module contributions. Ecography. doi:10.1111/ecog.06547",
+          "Kavanaugh MT, Oliver MJ, Chavez FP (2016). Seascapes as a new vernacular for pelagic ocean monitoring, management and conservation. ICES J Mar Sci. doi:10.1093/icesjms/fsw086",
+          "Kearns TA, Breman J (2010). Bathymetry-the art and science of seafloor modeling for modern applications. Ocean globe.",
+          "Klaucke I (2017). Sidescan sonar.",
+          "Knauss JA, Garfield N (2016). Introduction to physical oceanography: third edition.",
+          "Kvile K\u00d8, Gundersen H, Poulsen RN (2024). Drone and ground-truth data collection, image annotation and machine learning: a protocol for coastal habitat mapping and classification. MethodsX. doi:10.1016/j.mex.2024.102935",
+          "Lamarche G, Orpin AR, Mitchell JS (2016). Benthic habitat mapping. doi:10.1002/9781118332535.ch5",
+          "Langenk\u00e4mper D, Zurowietz M, Schoening T (2017). BIIGLE 2.0 - browsing and annotating large marine image collections. Front Mar Sci. doi:10.3389/fmars.2017.00083",
+          "Langton RW, Auster PJ (1999). Marine fishery and habitat interactions: to what extent are fisheries and habitat interdependent?. Fisheries (Bethesda). doi:10.1577/1548-8446(1999)024<0014:MFAHI>2.0.CO;2",
+          "Li Z, Peng Z, Zhang Z (2023). Exploring modern bathymetry: a comprehensive review of data acquisition devices, model accuracy, and interpolation techniques for enhanced underwater mapping. Front Mar Sci. doi:10.3389/fmars.2023.1178845",
+          "Lia\u00f1o-Carrera F, Camarena-Luhrs T, G\u00f3mez-Barrero A (2019). New coral reef structures in a tropical coral reef system. Lat Am J Aquat Res. doi:10.3856/vol47-issue2-fulltext-7",
+          "Lim A, Wheeler AJ, Conti L (2021). Cold-water coral habitat mapping: trends and developments in acquisition and processing methods. Geosciences (Switzerland). doi:10.3390/geosciences11010009",
+          "Liu Y, Liu Q, Sample JE (2022). Coastal habitat mapping with UAV multi-sensor data: an experiment among DCNN-based approaches. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. doi:10.5194/isprs-annals-V-3-2022-439-2022",
+          "Liu Z, Wang M, Hu H (2024). An underwater localization method based on visual SLAM for the near-bottom environment. J Mar Sci Eng. doi:10.3390/jmse12050716",
+          "Lucieer VL (2008). Object-oriented classification of sidescan sonar data for mapping benthic marine habitats. Int J Remote Sens. doi:10.1080/01431160701311309",
+          "Lurton X, Lamarche G, Brown C (2015). Backscatter measurements by seafloor-mapping sonars-guidelines and recommendations. doi:10.5281/zenodo.10089261",
+          "Lyons MB, Murray NJ, Kennedy EV (2024). New global area estimates for coral reefs from high-resolution mapping. Cell Rep Sustain. doi:10.1016/j.crsus.2024.100015",
+          "Mandlburger G, K\u00f6lle M, N\u00fcbel H (2021). BathyNet: a deep neural network for water depth mapping from multispectral aerial images. PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science. doi:10.1007/s41064-021-00142-3",
+          "Marcon Y, Purser A (2017). : an open-source software interface for annotating photographs of the deep-sea. SoftwareX. doi:10.1016/j.softx.2017.02.002",
+          "Mart\u00edn-Garc\u00eda L, Prado E, Falc\u00f3n JM (2022). Population structure of kent, 1870 at Concepci\u00f3n Seamount, Canary Islands (Spain). methodological approach using non-invasive techniques. Deep Sea Res 1 Oceanogr Res Pap. doi:10.1016/j.dsr.2022.103775",
+          "Massot-Campos M, Yamada T, Thornton B (2023). Towards sensor agnostic artificial intelligence for underwater imagery. IEEE Underwater Technology (UT). doi:10.1109/UT49729.2023.10103403",
+          "Mayer L, Jakobsson M, Allen G (2018). The Nippon Foundation-GEBCO seabed 2030 project: the quest to see the world's oceans completely mapped by 2030. Geosciences (Switzerland). doi:10.3390/geosciences8020063",
+          "Mazza D, Parente L, Cifaldi D (2023). Quick bathymetry mapping of a Roman archaeological site using RTK UAS-based photogrammetry. Front Earth Sci (Lausanne). doi:10.3389/feart.2023.1183982",
+          "Menandro PS, Lavagnino AC, Vieira FV (2022). The role of benthic habitat mapping for science and managers: a multi-design approach in the Southeast Brazilian shelf after a major man-induced disaster. Front Mar Sci. doi:10.3389/fmars.2022.1004083",
+          "Micallef A, Le Bas TP, Huvenne VAI (2012). A multi-method approach for benthic habitat mapping of shallow coastal areas with high-resolution multibeam data. Cont Shelf Res. doi:10.1016/j.csr.2012.03.008",
+          "Bertrand JC, Caumette P (null). Environmental microbiology: fundamentals and applications.",
+          "Misiuk B, Brown CJ (2024). Benthic habitat mapping: a review of three decades of mapping biological patterns on the seafloor. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2023.108599",
+          "Mitchell L, Kirk L, Matt S (2022). Allen Coral Atlas (2022). Imagery, maps and monitoring of the world's tropical coral reefs. Zenodo.",
+          "Monteiro JG, Jim\u00e9nez JL, Gizzi F (2021). Novel approach to enhance coastal habitat and biotope mapping with drone aerial imagery analysis. Sci Rep. doi:10.1038/s41598-020-80612-7",
+          "Mumby PJ, Harborne AR (null). Development of a systematic classiffcation scheme of marine habitats to facilitate regional management and mapping of caribbean coral reefs.",
+          "Nababan B, Mastu LOK, Idris NH (2021). Shallow-water benthic habitat mapping using drone with object based image analyses. Remote Sens (Basel). doi:10.3390/rs13214452",
+          "Naimi B, Ara\u00fajo MB (2016). Sdm: a reproducible and extensible R platform for species distribution modelling. Ecography. doi:10.1111/ecog.01881",
+          "Nguyen T, Liquet B, Mengersen K (2021). Mapping of coral reefs with multispectral satellites: a review of recent papers. Remote Sens (Basel). doi:10.3390/rs13214470",
+          "Normandeau A, Bourgault D, Neumeier U (2020). Storm-induced turbidity currents on a sediment-starved shelf: insight from direct monitoring and repeat seabed mapping of upslope migrating bedforms. Sedimentology. doi:10.1111/sed.12673",
+          "Ojeda GY, Gayes PT, Van Dolah RF (2004). Spatially quantitative seafloor habitat mapping: example from the northern South Carolina inner continental shelf. Estuar Coast Shelf Sci. doi:10.1016/j.ecss.2003.09.012",
+          "Palandro D, Andr\u00e9fou\u00ebt S, Dustan P (2003). Change detection in coral reef communities using Ikonos satellite sensor imagery and historic aerial photographs. Int J Remote Sens. doi:10.1080/0143116021000009895",
+          "Papatheodorou G, Avramidis P, Fakiris E (2012). Bed diversity in the shallow water environment of pappas lagoon in Greece. Int J Sediment Res. doi:10.1016/S1001-6279(12)60012-2",
+          "Papenmeier S, Darr A, Feldens P (2020). Hydroacoustic mapping of geogenic hard substrates: challenges and review of german approaches. Geosciences (Switzerland). doi:10.3390/geosciences10030100",
+          "Piechaud N, Howell KL (2022). Fast and accurate mapping of fine scale abundance of a VME in the deep sea with computer vision. Ecol Inform. doi:10.1016/j.ecoinf.2022.101786",
+          "Pijanowski BC, Brown CJ (2021). Grand challenges in acoustic remote sensing: discoveries to support a better understanding of our changing Planet. Front Remote Sens. doi:10.3389/frsen.2021.824848",
+          "Pillay T, Cawthra HC, Lombard AT (2020). Characterisation of seafloor substrate using advanced processing of multibeam bathymetry, backscatter, and sidescan sonar in Table Bay, South Africa. Mar Geol. doi:10.1016/j.margeo.2020.106332",
+          "Pollock LJ, Tingley R, Morris WK (2014). Understanding co-occurrence by modelling species simultaneously with a Joint Species Distribution Model (JSDM). Methods Ecol Evol. doi:10.1111/2041-210X.12180",
+          "Prahov N, Prodanov B, Dimitrov K (2020). Application of aerial photogrammetry in the study of the underwater archaeological heritage of Nessebar. doi:10.5593/sgem2020/2.2/s10.021",
+          "Price DM, Robert K, Callaway A (2019). Using 3D photogrammetry from ROV video to quantify cold-water coral reef structural complexity and investigate its influence on biodiversity and community assemblage. Coral Reefs. doi:10.1007/s00338-019-01827-3",
+          "Principe SC, Acosta AL, Andrade JE (2021). Predicted shifts in the distributions of Atlantic reef-building corals in the face of climate change. Front Mar Sci. doi:10.3389/fmars.2021.673086",
+          "Prodanov B, Kotsev I, Lambev T (2020). Unmanned aerial vehicles for surveying the bulgarian black sea coast. Comptes Rendus de L'Academie Bulgare des Sciences. doi:10.7546/CRABS.2020.05.09",
+          "Propp C, Bartholom\u00e4 A, Hass C (2016). Guideline for seafloor mapping in german marine waters using high-resolution sonars.",
+          "Ramiro-S\u00e1nchez B, Gonz\u00e1lez-Irusta JM, Henry LA (2019). Characterization and mapping of a deep-sea sponge ground on the tropic seamount (Northeast Tropical Atlantic): implications for spatial management in the high seas. Front Mar Sci. doi:10.3389/fmars.2019.00278",
+          "Rice J, Arvanitidis C, Borja A (2012). Indicators for sea-floor integrity under the European Marine Strategy Framework Directive. Ecol Indic. doi:10.1016/j.ecolind.2011.03.021",
+          "Robert K, Huvenne VAI, Georgiopoulou A (2017). New approaches to high-resolution mapping of marine vertical structures. Sci Rep. doi:10.1038/s41598-017-09382-z",
+          "Robert K, Jones DOB, Roberts JM (2016). Improving predictive mapping of deep-water habitats: considering multiple model outputs and ensemble techniques. Deep Sea Res I Oceanogr Res Pap. doi:10.1016/j.dsr.2016.04.008",
+          "Roberts SM, Halpin PN, Clark JS (2022). Jointly modeling marine species to inform the effects of environmental change on an ecological community in the Northwest Atlantic. Sci Rep. doi:10.1038/s41598-021-04110-0",
+          "Romoth K, Darr A, Papenmeier S (2023). Substrate heterogeneity as a trigger for species diversity in marine benthic assemblages. Biology (Basel). doi:10.3390/biology12060825",
+          "Rossi S (2013). The destruction of the \"animal forests\" in the oceans: towards an over-simplification of the benthic ecosystems. Ocean Coast Manag. doi:10.1016/j.ocecoaman.2013.07.004",
+          "Rossi S, Bramanti L, Gori A (2017). An overview of the animal forests of the world. Marine animal forests.",
+          "Rusmadi R, Hasan RC (2020). Performance of different classifiers for marine habitat mapping using side scan sonar and object-based image analysis. doi:10.1088/1755-1315/540/1/012087",
+          "Schimel ACG, Healy TR, Johnson D (2010). Quantitative experimental comparison of single-beam, sidescan, and multibeam benthic habitat maps. ICES J Mar Sci. doi:10.1093/icesjms/fsq102",
+          "Schlining B, Stout J (2006). MBARI's video annotation and reference system. doi:10.1109/OCEANS.2006.306879",
+          "Schmitt T, Mitchell N, Ramsay A (2008). Characterizing uncertainties for quantifying bathymetry change between time-separated multibeam echo-sounder surveys. Cont Shelf Res. doi:10.1016/j.csr.2008.03.001",
+          "Schumacher M, Huvenne VAI, Devey CW (2022). The Atlantic Ocean landscape: a basin-wide cluster analysis of the atlantic near seafloor environment. Front Mar Sci. doi:10.3389/fmars.2022.936095",
+          "Seibold E, Wolfgang B (2017). The sea floor: an introduction to marine geology. doi:10.1007/978-3-319-51412-3",
+          "Selgrath JC, Roelfsema C, Gergel SE (2016). Mapping for coral reef conservation: comparing the value of participatory and remote sensing approaches. Ecosphere. doi:10.1002/ecs2.1325",
+          "Sowers DC, Mayer LA, Masetti G (2024). Mapping and geomorphic characterization of the vast cold-water coral mounds of the blake plateau. Geomatics. doi:10.3390/geomatics4010002",
+          "Stephenson F, Bowden DA, Rowden AA (2024). Using joint species distribution modelling to predict distributions of seafloor taxa and identify vulnerable marine ecosystems in New Zealand waters. Biodivers Conserv. doi:10.1007/s10531-024-02904-y",
+          "Subarsyah S, Arifin L (2019). Seabed characterization through image processing of side scan sonar case study: Bontang and Batam. Bulletin of Marine Geology. doi:10.32693/bomg.34.1.2019.590",
+          "Sun K, Cui W, Chen C (2021). Review of underwater sensing technologies and applications. Sensors. doi:10.3390/s21237849",
+          "Sun C, Hu Y, Shi P (2020). Probabilistic neural network based seabed sediment recognition method for side-scan sonar imagery. Sediment Geol. doi:10.1016/j.sedgeo.2020.105792",
+          "Switzer TS, Tyler-Jedlund AJ, Keenan SF (2020). Benthic habitats, as derived from classification of side-scan-sonar mapping data, are important determinants of reef-fish assemblage structure in the Eastern Gulf of Mexico. Mar Coast Fish. doi:10.1002/mcf2.10106",
+          "Tallam K, Nguyen N, Ventura J (2023). Application of deep learning for classification of intertidal eelgrass from drone-acquired imagery. Remote Sens. doi:10.3390/rs15092321",
+          "Todorova V, Dimitrov L, Doncheva V (2015). Benthic habitat mapping in the Bulgarian Black Sea.",
+          "Trifonova E, Keremedchiev S, Valchev N (2015). Case studies worldwide: mitigating flood and erosion risk using sediment management for a tourist City: Varna, Bulgaria.",
+          "Tyberghein L, Verbruggen H, Pauly K (2012). Bio-ORACLE: a global environmental dataset for marine species distribution modelling. Global Ecol Biogeogr. doi:10.1111/j.1466-8238.2011.00656.x",
+          "Udden J (1914). Bulletin of the geological society of America: a mechanical composition of clastic sediments.",
+          "Van Audenhaege L, Broad E, Hendry KR (2021). High-resolution vertical habitat mapping of a deep-sea cliff offshore Greenland. Front Mar Sci. doi:10.3389/fmars.2021.669372",
+          "Van Audenhaege L, Sarrazin J, Legendre P (2024). Monitoring ecological dynamics on complex hydrothermal structures: a novel photogrammetry approach reveals fine-scale variability of vent assemblages. Limnol Oceanogr. doi:10.1002/lno.12486",
+          "Vasquez M, Allen H, Manca E (2021). EUSeaMap 2021. A European broad-scale seabed habitat map. doi:10.13155/83528",
+          "Ventura D, Bonifazi A, Gravina MF (2018). Mapping and classification of ecologically sensitive marine habitats using Unmanned Aerial Vehicle (UAV) imagery and Object-Based Image Analysis (OBIA). Remote Sens (Basel). doi:10.3390/rs10091331",
+          "Ventura D, Grosso L, Pensa D (2023). Coastal benthic habitat mapping and monitoring by integrating aerial and water surface low-cost drones. Front Mar Sci. doi:10.3389/fmars.2022.1096594",
+          "Vinha B, Huvenne VAI, Gori A (null). Characterization and mapping of bathyal benthic communities of Cabo Verde (NW Africa). Prog Oceanogr.",
+          "Vinha B, Murillo FJ, Schumacher M (2024). Ensemble modelling to predict the distribution of vulnerable marine ecosystems indicator taxa on data-limited seamounts of Cabo Verde (NW Africa). Divers Distrib. doi:10.1111/ddi.13896",
+          "Waddington T, Hart K (2003). Tools and techniques for acquisition of benthic estuarine habitat data.",
+          "Wang Z, Hu Y, Ding J (2023). YOLOv5-based seabed sediment recognition method for side-scan sonar imagery. J Ocean Univ China. doi:10.1007/s11802-023-5427-6",
+          "Wentworth CK (1922). A scale of grade and class terms for clastic sediments. doi:10.1086/622910",
+          "Weslawski JM, Kryla-Straszewska L, Piwowarczyk J (2013). Habitat modelling limitations - puck bay, baltic sea - a case study. Oceanologia. doi:10.5697/oc.55-1.167",
+          "Whitmire C, Embley R, Wakefield WW (2007). A quantitative approach for using multibeam sonar data to map benthic habitats.",
+          "Williams SB, Pizarro O, Webster JM (2010). Autonomous underwater vehicle-assisted surveying of drowned reefs on the shelf edge of the great barrier reef, Australia. J Field Robot. doi:10.1002/rob.20356",
+          "Winship AJ, Thorson JT, Clarke ME (2020). Good practices for species distribution modeling of deep-sea corals and sponges for resource management: data collection, analysis, validation, and communication. Front Mar Sci. doi:10.3389/fmars.2020.00303",
+          "Wu Z, Yang F, Tang Y (2020). High-resolution seafloor survey and applications. doi:10.1007/978-981-15-9750-3",
+          "Wynn RB, Huvenne VAI, Le Bas TP (2014). Autonomous Underwater Vehicles (AUVs): their past, present and future contributions to the advancement of marine geoscience. Mar Geol. doi:10.1016/j.margeo.2014.03.012",
+          "Yamada T, Pr\u00fcgel-Bennett A, Thornton B (2021). Learning features from georeferenced seafloor imagery with location guided autoencoders. J Field Robot. doi:10.1002/rob.21961",
+          "Zhang L, Jouvencel B, Fang Z (2012). 3D Reconstruction of seabed surface through sonar data of AUVs.",
+          "Zhao J, Shang X, Zhang H (2018). Reconstructing seabed topography from side-scan sonar images with self-constraint. Remote Sens (Basel). doi:10.3390/rs10020201"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "title": "Open Research Europe"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19105546"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Tools and approaches for mapping Marine Animal Forests: A practical overview for researchers and conservationists",
+      "links": {
+        "self": "https://zenodo.org/api/records/19105547",
+        "self_html": "https://zenodo.org/records/19105547",
+        "preview_html": "https://zenodo.org/records/19105547?preview=1",
+        "doi": "https://doi.org/10.12688/openreseurope.20823.1",
+        "self_doi": "https://doi.org/10.12688/openreseurope.20823.1",
+        "self_doi_html": "https://zenodo.org/doi/10.12688/openreseurope.20823.1",
+        "reserve_doi": "https://zenodo.org/api/records/19105547/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19105546",
+        "parent_html": "https://zenodo.org/records/19105546",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19105547/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19105547/sequence/default",
+        "files": "https://zenodo.org/api/records/19105547/files",
+        "media_files": "https://zenodo.org/api/records/19105547/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:19105547:openreseurope-5-22529.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:19105547:openreseurope-5-22529.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:19105547:openreseurope-5-22529.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:19105547:openreseurope-5-22529.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:19105547:openreseurope-5-22529.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:19105547:openreseurope-5-22529.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/19105547/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19105547/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19105547/versions/latest",
+        "latest_html": "https://zenodo.org/records/19105547/latest",
+        "versions": "https://zenodo.org/api/records/19105547/versions",
+        "draft": "https://zenodo.org/api/records/19105547/draft",
+        "access_links": "https://zenodo.org/api/records/19105547/access/links",
+        "access_grants": "https://zenodo.org/api/records/19105547/access/grants",
+        "access_users": "https://zenodo.org/api/records/19105547/access/users",
+        "access_request": "https://zenodo.org/api/records/19105547/access/request",
+        "access": "https://zenodo.org/api/records/19105547/access",
+        "communities": "https://zenodo.org/api/records/19105547/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19105547/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19105547/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19105547/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19105547/quota-increase",
+        "requests": "https://zenodo.org/api/records/19105547/requests"
+      },
+      "updated": "2026-03-19T06:35:19.324577+00:00",
+      "recid": "19105547",
+      "revision": 6,
+      "files": [
+        {
+          "id": "56f56d48-9c07-4fb9-8e43-cb22a12839ea",
+          "key": "openreseurope-5-22529.pdf",
+          "size": 7074830,
+          "checksum": "md5:32e4b50b739e5ddc673d2b417a2d46d3",
+          "links": {
+            "self": "https://zenodo.org/api/records/19105547/files/openreseurope-5-22529.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "203484"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 16,
+        "unique_downloads": 15,
+        "views": 30,
+        "unique_views": 30,
+        "version_downloads": 16,
+        "version_unique_downloads": 15,
+        "version_unique_views": 30,
+        "version_views": 30
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2025-07-16T06:06:56.393788+00:00",
       "modified": "2025-09-01T12:37:36.654545+00:00",
@@ -116,6 +2432,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/15852895/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/15852895/request-deletion",
         "file_modification": "https://zenodo.org/api/records/15852895/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/15852895/quota-increase",
         "requests": "https://zenodo.org/api/records/15852895/requests"
       },
       "updated": "2025-09-01T12:37:36.654545+00:00",
@@ -128,7 +2445,7 @@
           "size": 565379,
           "checksum": "md5:4a7b2542688c3ec693c67e21d1c90d49",
           "links": {
-            "self": "https://zenodo.org/api/records/15852895/files/2014.06 - Magnetic lines network.jpg/content"
+            "self": "https://zenodo.org/api/records/15852895/files/2014.06%20-%20Magnetic%20lines%20network.jpg/content"
           }
         },
         {
@@ -137,7 +2454,7 @@
           "size": 6256342,
           "checksum": "md5:91f25fc47f835f31b7ffb8c7af6bf8da",
           "links": {
-            "self": "https://zenodo.org/api/records/15852895/files/2014.06 - Magnetometry COCONET.XYZ/content"
+            "self": "https://zenodo.org/api/records/15852895/files/2014.06%20-%20Magnetometry%20COCONET.XYZ/content"
           }
         },
         {
@@ -146,7 +2463,7 @@
           "size": 369,
           "checksum": "md5:26c84c509cbfbbfb39cb8b26ab6441f8",
           "links": {
-            "self": "https://zenodo.org/api/records/15852895/files/2014.06 - MAG data.txt/content"
+            "self": "https://zenodo.org/api/records/15852895/files/2014.06%20-%20MAG%20data.txt/content"
           }
         }
       ],
@@ -158,14 +2475,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 139,
-        "unique_downloads": 137,
-        "views": 42,
-        "unique_views": 40,
-        "version_downloads": 139,
-        "version_unique_downloads": 137,
-        "version_unique_views": 40,
-        "version_views": 42
+        "downloads": 161,
+        "unique_downloads": 156,
+        "views": 62,
+        "unique_views": 49,
+        "version_downloads": 161,
+        "version_unique_downloads": 156,
+        "version_unique_views": 49,
+        "version_views": 62
       },
       "state": "done",
       "submitted": true
@@ -313,6 +2630,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/15642263/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/15642263/request-deletion",
         "file_modification": "https://zenodo.org/api/records/15642263/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/15642263/quota-increase",
         "requests": "https://zenodo.org/api/records/15642263/requests"
       },
       "updated": "2025-07-03T18:35:38.978910+00:00",
@@ -325,7 +2643,7 @@
           "size": 156991,
           "checksum": "md5:cd8fbd5a2a012914f17e68a99e01f3d1",
           "links": {
-            "self": "https://zenodo.org/api/records/15642263/files/ARTICULO 4-1 (19).pdf/content"
+            "self": "https://zenodo.org/api/records/15642263/files/ARTICULO%204-1%20(19).pdf/content"
           }
         }
       ],
@@ -337,184 +2655,21 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 33,
-        "unique_downloads": 33,
-        "views": 9,
-        "unique_views": 9,
-        "version_downloads": 33,
-        "version_unique_downloads": 33,
-        "version_unique_views": 9,
-        "version_views": 9
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2024-12-11T08:11:23.991190+00:00",
-      "modified": "2024-12-11T08:11:24.271840+00:00",
-      "id": 14380193,
-      "conceptrecid": "14380192",
-      "doi": "10.1016/j.dsr.2015.12.006",
-      "doi_url": "https://doi.org/10.1016/j.dsr.2015.12.006",
-      "metadata": {
-        "title": "Spatial variability of phosphate and nitrate in the Mediterranean Sea: A modeling approach",
-        "doi": "10.1016/j.dsr.2015.12.006",
-        "publication_date": "2015-12-18",
-        "description": "n/a",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Lazzari, P.",
-            "affiliation": null
-          },
-          {
-            "name": "Solidoro, C.",
-            "affiliation": null
-          },
-          {
-            "name": "Salon, S.",
-            "affiliation": null
-          },
-          {
-            "name": "Bolzon, G.",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "EU"
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "license": {
-          "id": "cc-by-nc-nd-4.0"
-        },
-        "grants": [
-          {
-            "code": "287844",
-            "internal_id": "10.13039/501100000780::287844",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Towards COast to COast NETworks of marine protected areas ( from the shore to the high and deep sea), coupled with sea-based wind energy potential.",
-            "acronym": "COCONET",
-            "program": "FP7-KBBE",
-            "url": "https://cordis.europa.eu/projects/287844"
-          },
-          {
-            "code": "287600",
-            "internal_id": "10.13039/501100000780::287600",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Policy-oriented marine Environmental Research in the Southern EUropean Seas",
-            "acronym": "PERSEUS",
-            "program": "FP7-ENVIRONMENT",
-            "url": "https://cordis.europa.eu/projects/287600"
-          }
-        ],
-        "communities": [
-          {
-            "id": "it-mirror"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "14380192"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Spatial variability of phosphate and nitrate in the Mediterranean Sea: A modeling approach",
-      "links": {
-        "self": "https://zenodo.org/api/records/14380193",
-        "self_html": "https://zenodo.org/records/14380193",
-        "preview_html": "https://zenodo.org/records/14380193?preview=1",
-        "doi": "https://doi.org/10.1016/j.dsr.2015.12.006",
-        "self_doi": "https://doi.org/10.1016/j.dsr.2015.12.006",
-        "self_doi_html": "https://zenodo.org/doi/10.1016/j.dsr.2015.12.006",
-        "reserve_doi": "https://zenodo.org/api/records/14380193/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/14380192",
-        "parent_html": "https://zenodo.org/records/14380192",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14380193/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14380193/sequence/default",
-        "files": "https://zenodo.org/api/records/14380193/files",
-        "media_files": "https://zenodo.org/api/records/14380193/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:14380193:fulltext.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:14380193:fulltext.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:14380193:fulltext.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:14380193:fulltext.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:14380193:fulltext.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:14380193:fulltext.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/14380193/files-archive",
-        "archive_media": "https://zenodo.org/api/records/14380193/media-files-archive",
-        "latest": "https://zenodo.org/api/records/14380193/versions/latest",
-        "latest_html": "https://zenodo.org/records/14380193/latest",
-        "versions": "https://zenodo.org/api/records/14380193/versions",
-        "draft": "https://zenodo.org/api/records/14380193/draft",
-        "access_links": "https://zenodo.org/api/records/14380193/access/links",
-        "access_grants": "https://zenodo.org/api/records/14380193/access/grants",
-        "access_users": "https://zenodo.org/api/records/14380193/access/users",
-        "access_request": "https://zenodo.org/api/records/14380193/access/request",
-        "access": "https://zenodo.org/api/records/14380193/access",
-        "communities": "https://zenodo.org/api/records/14380193/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/14380193/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/14380193/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/14380193/file-modification",
-        "requests": "https://zenodo.org/api/records/14380193/requests"
-      },
-      "updated": "2024-12-11T08:11:24.271840+00:00",
-      "recid": "14380193",
-      "revision": 5,
-      "files": [
-        {
-          "id": "308fdb95-dd4a-4ffb-ba70-3f9ae7621221",
-          "key": "fulltext.pdf",
-          "size": 5374512,
-          "checksum": "md5:dd8fa1bb5bd6d4053840b416d7996316",
-          "links": {
-            "self": "https://zenodo.org/api/records/14380193/files/fulltext.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1231459"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 11,
-        "unique_downloads": 10,
-        "views": 6,
-        "unique_views": 6,
-        "version_downloads": 11,
-        "version_unique_downloads": 10,
-        "version_unique_views": 6,
-        "version_views": 6
+        "downloads": 43,
+        "unique_downloads": 43,
+        "views": 46,
+        "unique_views": 46,
+        "version_downloads": 43,
+        "version_unique_downloads": 43,
+        "version_unique_views": 46,
+        "version_views": 46
       },
       "state": "done",
       "submitted": true
     },
     {
       "created": "2024-09-14T13:34:42.509734+00:00",
-      "modified": "2025-04-24T07:29:30.019079+00:00",
+      "modified": "2026-04-23T01:59:39.494898+00:00",
       "id": 13763157,
       "conceptrecid": "7405849",
       "doi": "10.13140/RG.2.2.23878.34885/1",
@@ -589,7 +2744,7 @@
         "resource_type": {
           "title": "Thesis",
           "type": "publication",
-          "subtype": "thesis"
+          "subtype": "dissertation"
         },
         "thesis": {
           "university": "Estonian Entrepreneurship University of Applied Science"
@@ -658,11 +2813,12 @@
         "communities-suggestions": "https://zenodo.org/api/records/13763157/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/13763157/request-deletion",
         "file_modification": "https://zenodo.org/api/records/13763157/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/13763157/quota-increase",
         "requests": "https://zenodo.org/api/records/13763157/requests"
       },
-      "updated": "2025-04-24T07:29:30.019079+00:00",
+      "updated": "2026-04-23T01:59:39.494898+00:00",
       "recid": "13763157",
-      "revision": 8,
+      "revision": 10,
       "files": [
         {
           "id": "10021ed7-c028-4461-9ca1-9bbbb789a8ed",
@@ -682,14 +2838,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 341,
-        "unique_downloads": 320,
-        "views": 244,
-        "unique_views": 226,
-        "version_downloads": 26,
-        "version_unique_downloads": 22,
-        "version_unique_views": 35,
-        "version_views": 35
+        "downloads": 430,
+        "unique_downloads": 409,
+        "views": 355,
+        "unique_views": 337,
+        "version_downloads": 58,
+        "version_unique_downloads": 54,
+        "version_unique_views": 97,
+        "version_views": 97
       },
       "state": "done",
       "submitted": true
@@ -920,6 +3076,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/13228112/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/13228112/request-deletion",
         "file_modification": "https://zenodo.org/api/records/13228112/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/13228112/quota-increase",
         "requests": "https://zenodo.org/api/records/13228112/requests"
       },
       "updated": "2024-08-05T21:53:10.234413+00:00",
@@ -944,14 +3101,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 18,
-        "unique_downloads": 18,
-        "views": 18,
-        "unique_views": 18,
-        "version_downloads": 18,
-        "version_unique_downloads": 18,
-        "version_unique_views": 18,
-        "version_views": 18
+        "downloads": 30,
+        "unique_downloads": 30,
+        "views": 51,
+        "unique_views": 51,
+        "version_downloads": 30,
+        "version_unique_downloads": 30,
+        "version_unique_views": 51,
+        "version_views": 51
       },
       "state": "done",
       "submitted": true
@@ -1080,6 +3237,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/10351039/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/10351039/request-deletion",
         "file_modification": "https://zenodo.org/api/records/10351039/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/10351039/quota-increase",
         "requests": "https://zenodo.org/api/records/10351039/requests"
       },
       "updated": "2024-07-08T11:52:22.628313+00:00",
@@ -1104,14 +3262,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 37,
-        "unique_downloads": 37,
-        "views": 44,
-        "unique_views": 44,
-        "version_downloads": 37,
-        "version_unique_downloads": 37,
-        "version_unique_views": 44,
-        "version_views": 44
+        "downloads": 55,
+        "unique_downloads": 55,
+        "views": 129,
+        "unique_views": 129,
+        "version_downloads": 55,
+        "version_unique_downloads": 55,
+        "version_unique_views": 129,
+        "version_views": 129
       },
       "state": "done",
       "submitted": true
@@ -1258,6 +3416,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/7586134/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/7586134/request-deletion",
         "file_modification": "https://zenodo.org/api/records/7586134/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7586134/quota-increase",
         "requests": "https://zenodo.org/api/records/7586134/requests"
       },
       "updated": "2023-02-02T02:27:16.805802+00:00",
@@ -1309,14 +3468,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 238,
-        "unique_downloads": 219,
-        "views": 184,
-        "unique_views": 174,
-        "version_downloads": 238,
-        "version_unique_downloads": 219,
-        "version_unique_views": 174,
-        "version_views": 184
+        "downloads": 361,
+        "unique_downloads": 342,
+        "views": 275,
+        "unique_views": 260,
+        "version_downloads": 361,
+        "version_unique_downloads": 342,
+        "version_unique_views": 260,
+        "version_views": 275
       },
       "state": "done",
       "submitted": true
@@ -1373,10 +3532,10 @@
         ],
         "communities": [
           {
-            "id": "nersc-research"
+            "id": "eu"
           },
           {
-            "id": "eu"
+            "id": "nersc-research"
           }
         ],
         "relations": {
@@ -1433,6 +3592,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/7501038/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/7501038/request-deletion",
         "file_modification": "https://zenodo.org/api/records/7501038/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7501038/quota-increase",
         "requests": "https://zenodo.org/api/records/7501038/requests"
       },
       "updated": "2024-07-15T11:33:19.125969+00:00",
@@ -1445,7 +3605,7 @@
           "size": 1654744,
           "checksum": "md5:5c3353ab468d19d6c617ae0ec7ebc7c1",
           "links": {
-            "self": "https://zenodo.org/api/records/7501038/files/Rep348B_COCONET-D11 11-WP11.pdf/content"
+            "self": "https://zenodo.org/api/records/7501038/files/Rep348B_COCONET-D11%2011-WP11.pdf/content"
           }
         }
       ],
@@ -1457,14 +3617,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 93,
-        "unique_downloads": 91,
-        "views": 43,
-        "unique_views": 43,
-        "version_downloads": 93,
-        "version_unique_downloads": 91,
-        "version_unique_views": 43,
-        "version_views": 43
+        "downloads": 125,
+        "unique_downloads": 123,
+        "views": 58,
+        "unique_views": 58,
+        "version_downloads": 125,
+        "version_unique_downloads": 123,
+        "version_unique_views": 58,
+        "version_views": 58
       },
       "state": "done",
       "submitted": true
@@ -1539,10 +3699,10 @@
         ],
         "communities": [
           {
-            "id": "nersc-research"
+            "id": "eu"
           },
           {
-            "id": "eu"
+            "id": "nersc-research"
           }
         ],
         "relations": {
@@ -1599,6 +3759,7 @@
         "communities-suggestions": "https://zenodo.org/api/records/7500985/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/7500985/request-deletion",
         "file_modification": "https://zenodo.org/api/records/7500985/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7500985/quota-increase",
         "requests": "https://zenodo.org/api/records/7500985/requests"
       },
       "updated": "2024-07-15T11:33:25.535900+00:00",
@@ -1611,7 +3772,7 @@
           "size": 3227165,
           "checksum": "md5:7bd62ac99856cca82db0d6b16448108b",
           "links": {
-            "self": "https://zenodo.org/api/records/7500985/files/Rep348A_COCONET-D11 9-WP11.pdf/content"
+            "self": "https://zenodo.org/api/records/7500985/files/Rep348A_COCONET-D11%209-WP11.pdf/content"
           }
         }
       ],
@@ -1623,226 +3784,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 80,
-        "unique_downloads": 78,
-        "views": 54,
-        "unique_views": 54,
-        "version_downloads": 80,
-        "version_unique_downloads": 78,
-        "version_unique_views": 54,
-        "version_views": 54
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2022-11-10T15:05:56.376760+00:00",
-      "modified": "2022-11-11T02:26:31.254638+00:00",
-      "id": 7311090,
-      "conceptrecid": "6770201",
-      "doi": "10.5281/zenodo.7311090",
-      "conceptdoi": "10.5281/zenodo.6770201",
-      "doi_url": "https://doi.org/10.5281/zenodo.7311090",
-      "metadata": {
-        "title": "Moored current and temperature measurements in the Southern Adriatic Sea at mooring site BB and FF, March 2012-June 2020",
-        "doi": "10.5281/zenodo.7311090",
-        "publication_date": "2022-05-18",
-        "description": "<p>This data set includes n.4 files (NetCDF format) containing observational data and related metadata from two mooring sites, sites BB and FF, located in the Southern Adriatic Sea from the period from March 2012 to June 2020. The stand-alone moorings are equipped with an ADCP-RDI system which measures currents along the last 100 meters of the water column and a CTD probe located approximatively 10 m above the bottom. Moorings were configured and maintained for continuous long-term monitoring following the approach of the CIESM Hydrochanges Program (www.ciesm.org/marine/programs/hydrochanges.html). The moorings are currently operational as from 2021 they have joined&nbsp; the southern Adriatic submarine observatory of EMSO-ERIC European Consortium.&nbsp; The data are described in data paper Paladini et al., (In prep): Deep water hydrodynamic observations of two moorings&thinsp;sites on the continental slope of the Southern Adriatic Sea (Mediterranean Sea).&nbsp;</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Francesco Paladini de Mendoza",
-            "affiliation": "CNR - ISMAR",
-            "orcid": "0000-0002-0149-5821"
-          },
-          {
-            "name": "Katrin Schroeder",
-            "affiliation": "CNR - ISMAR",
-            "orcid": "0000-0001-7991-9121"
-          },
-          {
-            "name": "Leonardo Langone",
-            "affiliation": "CNR - ISP",
-            "orcid": "0000-0002-1514-0677"
-          },
-          {
-            "name": "Jacopo Chiggiato",
-            "affiliation": "CNR - ISMAR",
-            "orcid": "0000-0002-0998-6473"
-          },
-          {
-            "name": "Mireno Borghini",
-            "affiliation": "CNR - ISMAR",
-            "orcid": "0000-0002-5654-4731"
-          },
-          {
-            "name": "Patrizia Giordano",
-            "affiliation": "CNR - ISP",
-            "orcid": "0000-0001-5662-2659"
-          },
-          {
-            "name": "Giulio Verazzo",
-            "affiliation": "CNR - ISP"
-          },
-          {
-            "name": "Stefano Miserocchi",
-            "affiliation": "CNR - ISP",
-            "orcid": "0000-0002-6315-8919"
-          }
-        ],
-        "keywords": [
-          "Bari canyon",
-          "Southern Adriatic",
-          "Horizontal velocity of the water column (currents)",
-          "Salinity",
-          "Temperature"
-        ],
-        "version": "1.1",
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "grants": [
-          {
-            "code": "287844",
-            "internal_id": "10.13039/501100000780::287844",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Towards COast to COast NETworks of marine protected areas ( from the shore to the high and deep sea), coupled with sea-based wind energy potential.",
-            "acronym": "COCONET",
-            "program": "FP7-KBBE",
-            "url": "https://cordis.europa.eu/projects/287844"
-          },
-          {
-            "code": "226354",
-            "internal_id": "10.13039/501100000780::226354",
-            "funder": {
-              "name": "European Commission",
-              "doi": "10.13039/501100000780",
-              "acronym": "EC"
-            },
-            "title": "Hotspot Ecosystem Research and Man's Impact on European seas",
-            "acronym": "HERMIONE",
-            "program": "FP7-ENVIRONMENT",
-            "url": "https://cordis.europa.eu/projects/226354"
-          }
-        ],
-        "communities": [
-          {
-            "id": "eu"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "6770201"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Moored current and temperature measurements in the Southern Adriatic Sea at mooring site BB and FF, March 2012-June 2020",
-      "links": {
-        "self": "https://zenodo.org/api/records/7311090",
-        "self_html": "https://zenodo.org/records/7311090",
-        "preview_html": "https://zenodo.org/records/7311090?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.7311090",
-        "self_doi": "https://doi.org/10.5281/zenodo.7311090",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7311090",
-        "reserve_doi": "https://zenodo.org/api/records/7311090/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/6770201",
-        "parent_html": "https://zenodo.org/records/6770201",
-        "parent_doi": "https://doi.org/10.5281/zenodo.6770201",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6770201",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7311090/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7311090/sequence/default",
-        "files": "https://zenodo.org/api/records/7311090/files",
-        "media_files": "https://zenodo.org/api/records/7311090/media-files",
-        "archive": "https://zenodo.org/api/records/7311090/files-archive",
-        "archive_media": "https://zenodo.org/api/records/7311090/media-files-archive",
-        "latest": "https://zenodo.org/api/records/7311090/versions/latest",
-        "latest_html": "https://zenodo.org/records/7311090/latest",
-        "versions": "https://zenodo.org/api/records/7311090/versions",
-        "draft": "https://zenodo.org/api/records/7311090/draft",
-        "access_links": "https://zenodo.org/api/records/7311090/access/links",
-        "access_grants": "https://zenodo.org/api/records/7311090/access/grants",
-        "access_users": "https://zenodo.org/api/records/7311090/access/users",
-        "access_request": "https://zenodo.org/api/records/7311090/access/request",
-        "access": "https://zenodo.org/api/records/7311090/access",
-        "communities": "https://zenodo.org/api/records/7311090/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/7311090/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/7311090/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/7311090/file-modification",
-        "requests": "https://zenodo.org/api/records/7311090/requests"
-      },
-      "updated": "2022-11-11T02:26:31.254638+00:00",
-      "recid": "7311090",
-      "revision": 2,
-      "files": [
-        {
-          "id": "06b79922-1aef-40a5-901b-32677a6519a8",
-          "key": "FF_740_CTD.nc",
-          "size": 5917196,
-          "checksum": "md5:54cecf27218e5f79023f0fd858c9230f",
-          "links": {
-            "self": "https://zenodo.org/api/records/7311090/files/FF_740_CTD.nc/content"
-          }
-        },
-        {
-          "id": "d69f45a9-bb30-4347-8660-57957331e073",
-          "key": "BB_600_CTD.nc",
-          "size": 6727520,
-          "checksum": "md5:bfd93e5590957f59a1d3534f73accec6",
-          "links": {
-            "self": "https://zenodo.org/api/records/7311090/files/BB_600_CTD.nc/content"
-          }
-        },
-        {
-          "id": "9f3fb4f6-6076-4011-b3e2-eb17addf09b8",
-          "key": "FF_600_ADCP_v2.nc",
-          "size": 190175604,
-          "checksum": "md5:e937777e913412f04171f0bfa1b6b2b1",
-          "links": {
-            "self": "https://zenodo.org/api/records/7311090/files/FF_600_ADCP_v2.nc/content"
-          }
-        },
-        {
-          "id": "3402dfc0-ad99-4b2e-9eda-a4194f5c73fb",
-          "key": "BB_500_ADCP_v2.nc",
-          "size": 179730940,
-          "checksum": "md5:f5dc042b5b09ccf4104990c53f925833",
-          "links": {
-            "self": "https://zenodo.org/api/records/7311090/files/BB_500_ADCP_v2.nc/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "367325"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 262,
-        "unique_downloads": 231,
-        "views": 837,
-        "unique_views": 768,
-        "version_downloads": 167,
-        "version_unique_downloads": 155,
-        "version_unique_views": 480,
-        "version_views": 534
+        "downloads": 108,
+        "unique_downloads": 106,
+        "views": 73,
+        "unique_views": 73,
+        "version_downloads": 108,
+        "version_unique_downloads": 106,
+        "version_unique_views": 73,
+        "version_views": 73
       },
       "state": "done",
       "submitted": true

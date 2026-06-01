@@ -1,18 +1,18 @@
 {
-  "cache_date": "2025-11-01T09:26:29.622072",
+  "cache_date": "2026-06-01T14:33:09.746714",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            5,
+            27
           ]
         ],
-        "date-time": "2025-10-31T22:13:34Z",
-        "timestamp": 1761948814312,
-        "version": "3.41.2"
+        "date-time": "2026-05-27T13:43:23Z",
+        "timestamp": 1779889403955,
+        "version": "3.53.1"
       },
       "reference-count": 47,
       "publisher": "American Society for Microbiology",
@@ -80,12 +80,12 @@
             7
           ]
         ],
-        "date-time": "2022-09-07T12:01:21Z",
-        "timestamp": 1662552081000
+        "date-time": "2022-09-07T08:01:21Z",
+        "timestamp": 1662537681000
       },
       "update-policy": "https://doi.org/10.1128/asmj-crossmark-policy-page",
       "source": "Crossref",
-      "is-referenced-by-count": 38,
+      "is-referenced-by-count": 49,
       "title": [
         "MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data"
       ],
@@ -102,6 +102,12 @@
             {
               "name": "Department of Biotechnology, University of Verona, Verona, Italy"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -113,6 +119,12 @@
           "affiliation": [
             {
               "name": "Quadram Institute Bioscience, Norwich, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -126,6 +138,12 @@
             {
               "name": "Department of Biotechnology, University of Verona, Verona, Italy"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -138,6 +156,12 @@
             {
               "name": "Quadram Institute Bioscience, Norwich, UK"
             }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
           ]
         },
         {
@@ -149,6 +173,12 @@
           "affiliation": [
             {
               "name": "Department of Biotechnology, University of Verona, Verona, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         }
@@ -420,10 +450,10 @@
             26
           ]
         ],
-        "date-time": "2022-10-26T13:15:08Z",
-        "timestamp": 1666790108000
+        "date-time": "2022-10-26T09:15:08Z",
+        "timestamp": 1666775708000
       },
-      "score": 14.560935,
+      "score": 14.22774,
       "resource": {
         "primary": {
           "URL": "https://journals.asm.org/doi/10.1128/msystems.00741-22"
@@ -434,7 +464,13 @@
           "given": "Jack A.",
           "family": "Gilbert",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
         }
       ],
       "issued": {
@@ -477,8 +513,8 @@
       ],
       "issn-type": [
         {
-          "type": "electronic",
-          "value": "2379-5077"
+          "value": "2379-5077",
+          "type": "electronic"
         }
       ],
       "published": {
@@ -533,14 +569,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            2,
-            21
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-02-21T00:34:43Z",
-        "timestamp": 1740098083272,
-        "version": "3.37.3"
+        "date-time": "2026-01-15T17:35:16Z",
+        "timestamp": 1768498516139,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -553,7 +589,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 35,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
@@ -567,7 +603,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>In the last decades, a great interest has emerged in the study and characterisation of the microbiota, especially the human gut microbiota, demonstrating that commensal microorganisms play a pivotal role in normal anatomical development and physiological function of the human body. To better understand the complex bacterial dynamics that characterize different environments, bacteriophage predation and gene transfer need to be considered as well, as they are important factors that may contribute to controlling the density, diversity, and network interactions among bacterial communities. To date, a variety of bacteriophage identification tools have been developed, differing on phage mining strategies, input files requested and results produced; however, new users approaching the bacteriophage analysis might struggle in untangling the variety of methods and comparing the different results produced. Here we present MetaPhage, a comprehensive reads-to-report pipeline that streamlines the use of multiple miners and generates an exhaustive report to both summarize and visualize the key findings and to enable further exploration of specific results with interactive filterable tables. The pipeline is implemented in Nextflow, a widely adopted workflow manager, that enables an optimized parallelization of the tasks on different premises, from local server to the cloud, and ensures reproducible results using containerized packages. MetaPhage is designed to allow scalability, reproducibility and to be easily expanded with new miners and methods, in a field that is constantly expanding. MetaPhage is freely available under a GPL-3.0 license at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/MattiaPandolfoVR/MetaPhage\">https://github.com/MattiaPandolfoVR/MetaPhage</jats:ext-link>.</jats:p>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  In the last decades, a great interest has emerged in the study and characterisation of the microbiota, especially the human gut microbiota, demonstrating that commensal microorganisms play a pivotal role in normal anatomical development and physiological function of the human body. To better understand the complex bacterial dynamics that characterize different environments, bacteriophage predation and gene transfer need to be considered as well, as they are important factors that may contribute to controlling the density, diversity, and network interactions among bacterial communities. To date, a variety of bacteriophage identification tools have been developed, differing on phage mining strategies, input files requested and results produced; however, new users approaching the bacteriophage analysis might struggle in untangling the variety of methods and comparing the different results produced. Here we present MetaPhage, a comprehensive reads-to-report pipeline that streamlines the use of multiple miners and generates an exhaustive report to both summarize and visualize the key findings and to enable further exploration of specific results with interactive filterable tables. The pipeline is implemented in Nextflow, a widely adopted workflow manager, that enables an optimized parallelization of the tasks on different premises, from local server to the cloud, and ensures reproducible results using containerized packages. MetaPhage is designed to allow scalability, reproducibility and to be easily expanded with new miners and methods, in a field that is constantly expanding. MetaPhage is freely available under a GPL-3.0 license at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/MattiaPandolfoVR/MetaPhage\">https://github.com/MattiaPandolfoVR/MetaPhage</jats:ext-link>\n                  .\n                </jats:p>",
       "DOI": "10.1101/2022.04.17.488583",
       "type": "posted-content",
       "created": {
@@ -578,21 +614,27 @@
             18
           ]
         ],
-        "date-time": "2022-04-18T04:20:23Z",
-        "timestamp": 1650255623000
+        "date-time": "2022-04-18T00:20:23Z",
+        "timestamp": 1650241223000
       },
       "source": "Crossref",
       "is-referenced-by-count": 1,
       "title": [
         "MetaPhage: an automated pipeline for analyzing, annotating, and classifying bacteriophages in metagenomics sequencing data"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "given": "Mattia",
           "family": "Pandolfo",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0001-7619-281X",
@@ -600,19 +642,37 @@
           "given": "Andrea",
           "family": "Telatin",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Gioele",
           "family": "Lazzari",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "given": "Evelien M.",
           "family": "Adriaenssens",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-9571-0747",
@@ -620,10 +680,16 @@
           "given": "Nicola",
           "family": "Vitulo",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2022041908300844000_2022.04.17.488583v1.1",
@@ -854,15 +920,15 @@
       "deposited": {
         "date-parts": [
           [
-            2022,
-            10,
-            28
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2022-10-28T19:53:05Z",
-        "timestamp": 1666986785000
+        "date-time": "2026-01-15T02:56:06Z",
+        "timestamp": 1768445766000
       },
-      "score": 17.011108,
+      "score": 16.555593,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.17.488583"

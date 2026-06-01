@@ -18,7 +18,8 @@
       "build": [
         "make",
         "{{ compiler('c') }}",
-        "{{ compiler('cxx') }}"
+        "{{ compiler('cxx') }}",
+        "{{ stdlib('c') }}"
       ],
       "run": [],
       "host": []
@@ -34,5 +35,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2025-11-01T12:08:29.797439"
+  "last_updated": "2026-06-01T16:52:38.098995"
 }

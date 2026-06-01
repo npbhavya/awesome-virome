@@ -1,17 +1,18 @@
 {
-  "cache_date": "2025-11-01T11:45:00.842086",
+  "cache_date": "2026-06-01T16:39:57.170966",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2022,
-            5,
-            14
+            2026,
+            2,
+            28
           ]
         ],
-        "date-time": "2022-05-14T12:15:35Z",
-        "timestamp": 1652530535593
+        "date-time": "2026-02-28T08:46:07Z",
+        "timestamp": 1772268367316,
+        "version": "3.50.1"
       },
       "reference-count": 0,
       "publisher": "PeerJ",
@@ -29,13 +30,13 @@
             13
           ]
         ],
-        "date-time": "2022-05-13T08:05:08Z",
-        "timestamp": 1652429108000
+        "date-time": "2022-05-13T04:05:08Z",
+        "timestamp": 1652414708000
       },
       "source": "Crossref",
       "is-referenced-by-count": 0,
       "title": [
-        "Supplemental Information 1: Combined <i>virsorter2</i> and <i>CheckV</i> outputs."
+        "Supplemental Information 1: Combined\n                      <i>virsorter2</i>\n                      and\n                      <i>CheckV</i>\n                      outputs."
       ],
       "prefix": "10.7717",
       "member": "4443",
@@ -47,10 +48,10 @@
             13
           ]
         ],
-        "date-time": "2022-05-13T08:05:13Z",
-        "timestamp": 1652429113000
+        "date-time": "2022-05-13T04:05:13Z",
+        "timestamp": 1652414713000
       },
-      "score": 20.83581,
+      "score": 20.368599,
       "resource": {
         "primary": {
           "URL": "https://peerj.com/articles/13410/supp-1"
@@ -64,20 +65,29 @@
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.7717/peerj.13410/supp-1"
+      "URL": "https://doi.org/10.7717/peerj.13410/supp-1",
+      "relation": {
+        "is-component-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7717/peerj.13410",
+            "asserted-by": "object"
+          }
+        ]
+      }
     },
     {
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            16
+            2026,
+            2,
+            28
           ]
         ],
-        "date-time": "2025-10-16T00:28:10Z",
-        "timestamp": 1760574490673,
-        "version": "build-2065373602"
+        "date-time": "2026-02-28T08:58:25Z",
+        "timestamp": 1772269105729,
+        "version": "3.50.1"
       },
       "reference-count": 0,
       "publisher": "PeerJ",
@@ -116,7 +126,7 @@
         "date-time": "2025-10-15T08:28:04Z",
         "timestamp": 1760516884000
       },
-      "score": 19.43891,
+      "score": 19.568974,
       "resource": {
         "primary": {
           "URL": "https://peerj.com/articles/20170/supp-8"
@@ -130,7 +140,16 @@
         ]
       },
       "references-count": 0,
-      "URL": "https://doi.org/10.7717/peerj.20170/supp-8"
+      "URL": "https://doi.org/10.7717/peerj.20170/supp-8",
+      "relation": {
+        "is-component-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7717/peerj.20170",
+            "asserted-by": "object"
+          }
+        ]
+      }
     },
     {
       "institution": [
@@ -141,14 +160,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            10,
-            31
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2025-10-31T07:54:49Z",
-        "timestamp": 1761897289611,
-        "version": "3.37.3"
+        "date-time": "2026-01-15T14:51:59Z",
+        "timestamp": 1768488719045,
+        "version": "3.49.0"
       },
       "posted": {
         "date-parts": [
@@ -161,7 +180,7 @@
       },
       "group-title": "Bioinformatics",
       "reference-count": 60,
-      "publisher": "Cold Spring Harbor Laboratory",
+      "publisher": "openRxiv",
       "license": [
         {
           "start": {
@@ -193,7 +212,7 @@
           ]
         ]
       },
-      "abstract": "<jats:title>Abstract</jats:title><jats:p>Over the last several years, metagenomics has enabled the assembly of millions of new viral sequences that have vastly expanded our knowledge of Earth\u2019s viral diversity. However, these sequences range from small fragments to complete genomes and no tools currently exist for estimating their quality. To address this problem, we developed CheckV, which is an automated pipeline for estimating the completeness of viral genomes as well as the identification and removal of non-viral regions found on integrated proviruses. After validating the approach on mock datasets, CheckV was applied to large and diverse viral genome collections, including IMG/VR and the Global Ocean Virome, revealing that the majority of viral sequences were small fragments, with just 3.6% classified as high-quality (i.e. &gt; 90% completeness) or complete genomes. Additionally, we found that removal of host contamination significantly improved identification of auxiliary metabolic genes and interpretation of viral-encoded functions. We expect CheckV will be broadly useful for all researchers studying and reporting viral genomes assembled from metagenomes. CheckV is freely available at:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://bitbucket.org/berkeleylab/CheckV\">http://bitbucket.org/berkeleylab/CheckV</jats:ext-link>.</jats:p>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Over the last several years, metagenomics has enabled the assembly of millions of new viral sequences that have vastly expanded our knowledge of Earth\u2019s viral diversity. However, these sequences range from small fragments to complete genomes and no tools currently exist for estimating their quality. To address this problem, we developed CheckV, which is an automated pipeline for estimating the completeness of viral genomes as well as the identification and removal of non-viral regions found on integrated proviruses. After validating the approach on mock datasets, CheckV was applied to large and diverse viral genome collections, including IMG/VR and the Global Ocean Virome, revealing that the majority of viral sequences were small fragments, with just 3.6% classified as high-quality (i.e. &gt; 90% completeness) or complete genomes. Additionally, we found that removal of host contamination significantly improved identification of auxiliary metabolic genes and interpretation of viral-encoded functions. We expect CheckV will be broadly useful for all researchers studying and reporting viral genomes assembled from metagenomes. CheckV is freely available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://bitbucket.org/berkeleylab/CheckV\">http://bitbucket.org/berkeleylab/CheckV</jats:ext-link>\n                  .\n                </jats:p>",
       "DOI": "10.1101/2020.05.06.081778",
       "type": "posted-content",
       "created": {
@@ -204,15 +223,15 @@
             8
           ]
         ],
-        "date-time": "2020-05-08T13:09:39Z",
-        "timestamp": 1588943379000
+        "date-time": "2020-05-08T09:09:39Z",
+        "timestamp": 1588928979000
       },
       "source": "Crossref",
       "is-referenced-by-count": 49,
       "title": [
         "CheckV: assessing the quality of metagenome-assembled viral genomes"
       ],
-      "prefix": "10.1101",
+      "prefix": "10.64898",
       "author": [
         {
           "ORCID": "https://orcid.org/0000-0003-4625-4164",
@@ -220,7 +239,13 @@
           "given": "Stephen",
           "family": "Nayfach",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0003-3913-2484",
@@ -228,7 +253,13 @@
           "given": "Antonio Pedro",
           "family": "Camargo",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-8162-1276",
@@ -236,7 +267,13 @@
           "given": "Emiley",
           "family": "Eloe-Fadrosh",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-5831-5895",
@@ -244,7 +281,13 @@
           "given": "Simon",
           "family": "Roux",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-6131-0462",
@@ -252,10 +295,16 @@
           "given": "Nikos",
           "family": "Kyrpides",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
         }
       ],
-      "member": "246",
+      "member": "54368",
       "reference": [
         {
           "key": "2024080407152335000_2020.05.06.081778v1.1",
@@ -662,15 +711,15 @@
       "deposited": {
         "date-parts": [
           [
-            2024,
-            8,
-            4
+            2026,
+            1,
+            15
           ]
         ],
-        "date-time": "2024-08-04T14:24:17Z",
-        "timestamp": 1722781457000
+        "date-time": "2026-01-15T00:21:01Z",
+        "timestamp": 1768436461000
       },
-      "score": 16.921587,
+      "score": 18.057728,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.05.06.081778"
@@ -702,14 +751,14 @@
       "indexed": {
         "date-parts": [
           [
-            2025,
-            11,
+            2026,
+            6,
             1
           ]
         ],
-        "date-time": "2025-11-01T05:20:03Z",
-        "timestamp": 1761974403956,
-        "version": "3.37.3"
+        "date-time": "2026-06-01T14:48:01Z",
+        "timestamp": 1780325281798,
+        "version": "3.54.1"
       },
       "reference-count": 67,
       "publisher": "Springer Science and Business Media LLC",
@@ -754,11 +803,102 @@
           "name": "U.S. Department of Energy",
           "doi-asserted-by": "publisher",
           "award": [
-            "DE-AC02-05CH11231",
-            "DE-AC02-05CH11231",
-            "DE-AC02-05CH11231",
-            "DE-AC02-05CH11231",
             "DE-AC02-05CH11231"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DE-AC02-05CH11231"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000015",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000015",
+          "name": "U.S. Department of Energy",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DE-AC02-05CH11231"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DE-AC02-05CH11231"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000015",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000015",
+          "name": "U.S. Department of Energy",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DE-AC02-05CH11231"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DE-AC02-05CH11231"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000015",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000015",
+          "name": "U.S. Department of Energy",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DE-AC02-05CH11231"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DE-AC02-05CH11231"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000015",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000015",
+          "name": "U.S. Department of Energy",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DE-AC02-05CH11231"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DE-AC02-05CH11231"
+              ]
+            }
           ],
           "id": [
             {
@@ -774,6 +914,13 @@
           "doi-asserted-by": "publisher",
           "award": [
             "2016/23218-0"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2016/23218-0"
+              ]
+            }
           ],
           "id": [
             {
@@ -818,7 +965,7 @@
       "page": "578-585",
       "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
       "source": "Crossref",
-      "is-referenced-by-count": 1163,
+      "is-referenced-by-count": 1506,
       "title": [
         "CheckV assesses the quality and completeness of metagenome-assembled viral genomes"
       ],
@@ -831,7 +978,13 @@
           "given": "Stephen",
           "family": "Nayfach",
           "sequence": "first",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0003-3913-2484",
@@ -839,7 +992,13 @@
           "given": "Antonio Pedro",
           "family": "Camargo",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-4932-4677",
@@ -847,7 +1006,13 @@
           "given": "Frederik",
           "family": "Schulz",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-8162-1276",
@@ -855,13 +1020,25 @@
           "given": "Emiley",
           "family": "Eloe-Fadrosh",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "given": "Simon",
           "family": "Roux",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         },
         {
           "ORCID": "https://orcid.org/0000-0002-6131-0462",
@@ -869,7 +1046,13 @@
           "given": "Nikos C.",
           "family": "Kyrpides",
           "sequence": "additional",
-          "affiliation": []
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
         }
       ],
       "member": "297",
@@ -1606,7 +1789,7 @@
         "date-time": "2023-05-20T22:14:51Z",
         "timestamp": 1684620891000
       },
-      "score": 9.697577,
+      "score": 8.761167,
       "resource": {
         "primary": {
           "URL": "https://www.nature.com/articles/s41587-020-00774-7"
@@ -1643,12 +1826,12 @@
       ],
       "issn-type": [
         {
-          "type": "print",
-          "value": "1087-0156"
+          "value": "1087-0156",
+          "type": "print"
         },
         {
-          "type": "electronic",
-          "value": "1546-1696"
+          "value": "1546-1696",
+          "type": "electronic"
         }
       ],
       "published": {

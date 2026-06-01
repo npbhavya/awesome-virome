@@ -1,5 +1,5 @@
 {
-  "cache_date": "2025-11-01T12:31:27.840458",
+  "cache_date": "2026-06-01T17:19:27.782716",
   "data": {
     "paperId": "59ff834cbaba5141183474e634745cf402233438",
     "externalIds": {
@@ -11,9 +11,9 @@
     "title": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment.",
     "venue": "Genomics",
     "year": 2022,
-    "referenceCount": 33,
-    "citationCount": 18,
-    "influentialCitationCount": 1,
+    "referenceCount": 34,
+    "citationCount": 23,
+    "influentialCitationCount": 2,
     "openAccessPdf": {
       "url": "https://doi.org/10.1016/j.ygeno.2022.110414",
       "status": "GOLD",
@@ -39,6 +39,22 @@
       }
     ],
     "citations": [
+      {
+        "paperId": "89835a6bec30ee6e5a2af5cc2e89008e8c8e2222",
+        "title": "ViroBench: Benchmarking Nucleotide Foundation Models on Viral Genomics Tasks"
+      },
+      {
+        "paperId": "842a27aad827a92839f011a3171cf5a06f685853",
+        "title": "KmerSignificance Score: A discriminative and biologically-informed framework for viral k-mer prioritization"
+      },
+      {
+        "paperId": "94971c99cf3e3f1df9da10507b37783375d95e43",
+        "title": "Impact of phage enrichment on the observed infant gut phageome"
+      },
+      {
+        "paperId": "a6d18e7a57ff8ba5997604c9c283b52101f8683d",
+        "title": "ViroSeek: a viral detection pipeline for second-generation sequencing"
+      },
       {
         "paperId": "6ac5a318b0feefe93da4fa2cc53f8311377c0ebd",
         "title": "Machine Learning Enables Alignment\u2010Free Distance Calculation and Phylogenetic Placement Using k\u2010Mer Frequencies"
@@ -80,6 +96,10 @@
         "title": "A compendium of ruminant gastrointestinal phage genomes revealed a higher proportion of lytic phages than in any other environments"
       },
       {
+        "paperId": "0e02480dd2e2230aa603e70f14456f74161dbd41",
+        "title": "Automated classification of giant virus genomes using a random forest model built on trademark protein families"
+      },
+      {
         "paperId": "e1c94b3fa50593e2c30b4b338aff5794bbacfbc1",
         "title": "Efficient Recovery of Complete Gut Viral Genomes by Combined Short\u2010 and Long\u2010Read Sequencing"
       },
@@ -112,7 +132,7 @@
         "title": "Recent toolset of metagenomics for taxonomical and functional annotation of marine associated viruses: A review"
       }
     ],
-    "abstract": null,
+    "abstract": "Classification of viruses into their taxonomic ranks (e.g., order, family, and genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. For taxonomic classification of viruses from metagenomic sequences, we developed VirusTaxo using diverse (e.g., 402 DNA and 280 RNA) genera of viruses. VirusTaxo has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers of viruses where it assigned taxonomy of a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.",
     "references": [
       {
         "paperId": "fb7a4aa3b76706d047838ed7ddd5f28e6cd43586",
@@ -151,7 +171,7 @@
         "title": "The number of k-mer matches between two DNA sequences as a function of k and applications to estimate phylogenetic distances"
       },
       {
-        "paperId": "7172b8b4431c5129a17569458c1debfa98a91ef2",
+        "paperId": "1fdcec465ca287517b882494c7d31bf9fe78ffd1",
         "title": "KrakenUniq: confident and fast metagenomics classification using unique k-mer counts"
       },
       {
@@ -175,12 +195,16 @@
         "title": "Changes to taxonomy and the International Code of Virus Classification and Nomenclature ratified by the International Committee on Taxonomy of Viruses (2017)"
       },
       {
-        "paperId": "a0202269fcc42b29b17513caffe18bd37a18405d",
-        "title": "Consensus statement: Virus taxonomy in the age of metagenomics"
+        "paperId": "77d729902decfcf6a7b2e81ba22924034407c58c",
+        "title": "A machine learning approach for viral genome classification"
       },
       {
         "paperId": "0f436f849b7e23a312ba912ef732189f8cbe70ce",
         "title": "Clinical and biological insights from viral genome sequencing"
+      },
+      {
+        "paperId": "a0202269fcc42b29b17513caffe18bd37a18405d",
+        "title": "Consensus statement: Virus taxonomy in the age of metagenomics"
       },
       {
         "paperId": "f6206ec95172e7fa128c8198a06d9505ccad7d8e",

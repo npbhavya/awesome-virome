@@ -19,7 +19,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -27,7 +27,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:51:54.017982"
+    "last_updated": "2026-06-01T14:01:14.578881"
   },
   "Databases": {
     "name": "Databases",
@@ -49,7 +49,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17497985",
+      "doi": "10.5281/zenodo.20487451",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -57,7 +57,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:00.035370"
+    "last_updated": "2026-06-01T14:00:49.795658"
   },
   "Functional Analysis": {
     "name": "Functional Analysis",
@@ -79,15 +79,18 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.1109/wicsa.2008.41",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "Muccini, H., & Pelliccione, P. (2008). Simulating Software Architectures for Functional Analysis. Seventh Working IEEE/IFIP Conference on Software Architecture (WICSA 2008), 289-292. https://doi.org/10.1109/wicsa.2008.41",
+        "bibtex": "@article{muccini2008,\n  title = {Simulating Software Architectures for Functional Analysis},\n  author = {Muccini, H. and Pelliccione, P.},\n  year = {2008},\n  journal = {Seventh Working IEEE/IFIP Conference on Software Architecture (WICSA 2008)},\n  pages = {289-292},\n  doi = {10.1109/wicsa.2008.41},\n}"
+      }
     },
-    "last_updated": "2025-12-01T08:52:00.044230"
+    "last_updated": "2026-06-01T14:01:19.803732"
   },
   "Genome Analysis": {
     "name": "Genome Analysis",
@@ -109,15 +112,18 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.2172/956994",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "",
+        "bibtex": ""
+      }
     },
-    "last_updated": "2025-12-01T08:52:00.046103"
+    "last_updated": "2026-06-01T14:01:31.688621"
   },
   "Host Prediction": {
     "name": "Host Prediction",
@@ -139,7 +145,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.5281/zenodo.20490208",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -147,7 +153,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:00.043194"
+    "last_updated": "2026-06-01T14:00:55.748579"
   },
   "Other Tools": {
     "name": "Other Tools",
@@ -169,7 +175,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500032",
+      "doi": "10.5281/zenodo.20490648",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -177,7 +183,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:12.047478"
+    "last_updated": "2026-06-01T14:01:19.818496"
   },
   "Sequence Analysis": {
     "name": "Sequence Analysis",
@@ -199,7 +205,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.6019/tol.jd-sequence-tools-t.2026.00001.1",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -207,7 +213,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:18.063811"
+    "last_updated": "2026-06-01T14:01:31.694722"
   },
   "Sequence Databases": {
     "name": "Sequence Databases",
@@ -229,7 +235,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500032",
+      "doi": "10.5281/zenodo.20490945",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -237,7 +243,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:21.067684"
+    "last_updated": "2026-06-01T14:01:37.663545"
   },
   "Taxonomy": {
     "name": "Taxonomy",
@@ -255,19 +261,45 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [
+          "{{ compiler('c') }}",
+          "{{ compiler('rust') }}",
+          "cargo-bundle-licenses",
+          "pkg-config",
+          "host:",
+          "python",
+          "pip",
+          "maturin",
+          "run:",
+          "python"
+        ],
+        "run": [
+          "python"
+        ],
+        "host": [
+          "python",
+          "pip",
+          "maturin",
+          "run:",
+          "python"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.155954.suppl1",
+      "doi": "10.5220/0007841202180225",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "El Bajta, M., & Idri, A. (2019). A Software Cost Estimation Taxonomy for Global Software Development Projects. Proceedings of the 14th International Conference on Software Technologies, 218-225. https://doi.org/10.5220/0007841202180225",
+        "bibtex": "@article{el bajta2019,\n  title = {A Software Cost Estimation Taxonomy for Global Software Development Projects},\n  author = {El Bajta, M. and Idri, A.},\n  year = {2019},\n  journal = {Proceedings of the 14th International Conference on Software Technologies},\n  pages = {218-225},\n  doi = {10.5220/0007841202180225},\n}"
+      }
     },
-    "last_updated": "2025-12-01T08:52:12.425257"
+    "last_updated": "2026-06-01T14:02:07.881137"
   },
   "Virus and Phage Identification": {
     "name": "Virus and Phage Identification",
@@ -289,7 +321,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/neobiota.103.159848.suppl2",
+      "doi": "10.7287/peerj.4227v0.1/reviews/1",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -297,7 +329,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:18.071478"
+    "last_updated": "2026-06-01T14:02:01.792486"
   },
   "Visualization and Infrastructure": {
     "name": "Visualization and Infrastructure",
@@ -319,15 +351,18 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/neobiota.103.159848.suppl2",
+      "doi": "10.2172/666136",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "",
+        "bibtex": ""
+      }
     },
-    "last_updated": "2025-12-01T08:52:30.098821"
+    "last_updated": "2026-06-01T14:02:19.777165"
   },
   "Metagenome Analysis": {
     "name": "Metagenome Analysis",
@@ -349,7 +384,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.7717/peerj.6160/fig-4",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -357,7 +392,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:33.618280"
+    "last_updated": "2026-06-01T14:02:13.784671"
   },
   "Integrated Viruses": {
     "name": "Integrated Viruses",
@@ -379,7 +414,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17499780",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -387,7 +422,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:39.100555"
+    "last_updated": "2026-06-01T14:02:07.840324"
   },
   "RNA Virus Identification": {
     "name": "RNA Virus Identification",
@@ -409,7 +444,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -417,7 +452,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:39.097352"
+    "last_updated": "2026-06-01T14:02:25.778896"
   },
   "Genome Annotation": {
     "name": "Genome Annotation",
@@ -439,7 +474,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500435",
+      "doi": "10.5281/zenodo.20490535",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -447,7 +482,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:42.082917"
+    "last_updated": "2026-06-01T14:02:31.780868"
   },
   "Genome Assembly": {
     "name": "Genome Assembly",
@@ -469,7 +504,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17497727",
+      "doi": "10.5281/zenodo.20490535",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -477,7 +512,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:48.141635"
+    "last_updated": "2026-06-01T14:02:37.851543"
   },
   "Genome Completeness": {
     "name": "Genome Completeness",
@@ -499,7 +534,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/neobiota.103.159848.suppl2",
+      "doi": "10.5281/zenodo.20490535",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -507,7 +542,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:54.114593"
+    "last_updated": "2026-06-01T14:02:37.802973"
   },
   "Genome Comparison": {
     "name": "Genome Comparison",
@@ -529,7 +564,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17497727",
+      "doi": "10.5281/zenodo.20491164",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -537,7 +572,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:57.116141"
+    "last_updated": "2026-06-01T14:02:43.794711"
   },
   "Gene Finding": {
     "name": "Gene Finding",
@@ -559,7 +594,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500032",
+      "doi": "10.5281/zenodo.20447023",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -567,7 +602,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:52:57.125770"
+    "last_updated": "2026-06-01T14:02:49.809773"
   },
   "Evolutionary Analysis": {
     "name": "Evolutionary Analysis",
@@ -589,7 +624,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.7135/upo9781843313359.017",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -597,7 +632,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:00.138459"
+    "last_updated": "2026-06-01T14:03:14.077171"
   },
   "Lifestyle Classification": {
     "name": "Lifestyle Classification",
@@ -619,7 +654,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17498464",
+      "doi": "10.5281/zenodo.20490648",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -627,7 +662,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:06.140456"
+    "last_updated": "2026-06-01T14:03:08.188130"
   },
   "Phage-specific Analysis": {
     "name": "Phage-specific Analysis",
@@ -649,7 +684,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -657,7 +692,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:12.169019"
+    "last_updated": "2026-06-01T14:03:27.436513"
   },
   "Viral Orthologous Groups": {
     "name": "Viral Orthologous Groups",
@@ -679,7 +714,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -687,7 +722,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:12.156561"
+    "last_updated": "2026-06-01T14:03:08.131825"
   },
   "Multiple Sequence Alignment": {
     "name": "Multiple Sequence Alignment",
@@ -709,7 +744,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500032",
+      "doi": "10.5281/zenodo.20490945",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -717,7 +752,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:15.145728"
+    "last_updated": "2026-06-01T14:03:14.156727"
   },
   "Sequence Translation": {
     "name": "Sequence Translation",
@@ -739,7 +774,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500032",
+      "doi": "10.5281/zenodo.20490945",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -747,7 +782,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:18.134129"
+    "last_updated": "2026-06-01T14:03:25.925809"
   },
   "Cyberinfrastructure": {
     "name": "Cyberinfrastructure",
@@ -769,7 +804,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -777,7 +812,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:24.180165"
+    "last_updated": "2026-06-01T14:03:32.022067"
   },
   "Plaque Analysis": {
     "name": "Plaque Analysis",
@@ -799,7 +834,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.1016/j.virol.2021.05.011",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -807,7 +842,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:30.198302"
+    "last_updated": "2026-06-01T14:03:50.032080"
   },
   "Simulation": {
     "name": "Simulation",
@@ -829,7 +864,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17499991",
+      "doi": "10.5281/zenodo.20489724",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -837,7 +872,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:33.189467"
+    "last_updated": "2026-06-01T14:03:37.969812"
   },
   "Quality Control": {
     "name": "Quality Control",
@@ -859,15 +894,18 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.1101/2024.02.09.579724",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "",
+        "bibtex": ""
+      }
     },
-    "last_updated": "2025-12-01T08:53:33.190570"
+    "last_updated": "2026-06-01T14:04:25.948353"
   },
   "Amplicon Analysis": {
     "name": "Amplicon Analysis",
@@ -889,7 +927,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -897,7 +935,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:36.172734"
+    "last_updated": "2026-06-01T14:04:20.790186"
   },
   "Viral Strain Reconstruction": {
     "name": "Viral Strain Reconstruction",
@@ -919,7 +957,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500032",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -927,7 +965,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:42.200802"
+    "last_updated": "2026-06-01T14:04:07.928657"
   },
   "Transduction": {
     "name": "Transduction",
@@ -949,7 +987,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -957,7 +995,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:48.218041"
+    "last_updated": "2026-06-01T14:04:02.065262"
   },
   "Interaction Analysis": {
     "name": "Interaction Analysis",
@@ -979,7 +1017,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -987,7 +1025,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:51.206387"
+    "last_updated": "2026-06-01T14:04:07.928470"
   },
   "Structural Analysis Tools": {
     "name": "Structural Analysis Tools",
@@ -1009,7 +1047,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1017,7 +1055,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:51.203150"
+    "last_updated": "2026-06-01T14:04:31.901765"
   },
   "Antimicrobial Resistance Analysis": {
     "name": "Antimicrobial Resistance Analysis",
@@ -1039,7 +1077,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1047,7 +1085,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:53:54.189133"
+    "last_updated": "2026-06-01T14:04:25.989480"
   },
   "Viral Metatranscriptomics": {
     "name": "Viral Metatranscriptomics",
@@ -1069,7 +1107,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17487226",
+      "doi": "10.5281/zenodo.20488986",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1077,7 +1115,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:00.263544"
+    "last_updated": "2026-06-01T14:04:25.995713"
   },
   "Viral Quasispecies Analysis": {
     "name": "Viral Quasispecies Analysis",
@@ -1099,7 +1137,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1107,7 +1145,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:06.235397"
+    "last_updated": "2026-06-01T14:04:40.586605"
   },
   "Cloud-based Viral Analysis": {
     "name": "Cloud-based Viral Analysis",
@@ -1129,7 +1167,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/neobiota.103.159848.suppl2",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1137,7 +1175,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:09.235739"
+    "last_updated": "2026-06-01T14:04:46.587028"
   },
   "Machine Learning Models": {
     "name": "Machine Learning Models",
@@ -1159,7 +1197,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500094",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1167,7 +1205,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:09.254934"
+    "last_updated": "2026-06-01T14:04:58.659425"
   },
   "Viral Single-Cell Analysis": {
     "name": "Viral Single-Cell Analysis",
@@ -1189,7 +1227,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1197,7 +1235,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:12.230693"
+    "last_updated": "2026-06-01T14:04:58.674466"
   },
   "Viral Glycoprotein Analysis": {
     "name": "Viral Glycoprotein Analysis",
@@ -1219,7 +1257,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1227,7 +1265,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:15.257710"
+    "last_updated": "2026-06-01T14:04:52.583351"
   },
   "Ancient Viral Sequence Analysis": {
     "name": "Ancient Viral Sequence Analysis",
@@ -1249,7 +1287,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1257,7 +1295,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:21.314154"
+    "last_updated": "2026-06-01T14:04:58.627085"
   },
   "Viral Immune Epitope Prediction": {
     "name": "Viral Immune Epitope Prediction",
@@ -1279,7 +1317,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17500041",
+      "doi": "10.5281/zenodo.20491215",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1287,7 +1325,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:27.283401"
+    "last_updated": "2026-06-01T14:05:06.337702"
   },
   "Viral Molecular Dynamics": {
     "name": "Viral Molecular Dynamics",
@@ -1309,7 +1347,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1317,7 +1355,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:30.234626"
+    "last_updated": "2026-06-01T14:05:31.413166"
   },
   "Dark Matter Viral Analysis": {
     "name": "Dark Matter Viral Analysis",
@@ -1339,7 +1377,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3897/zookeys.1257.163020.suppl4",
+      "doi": "10.5281/zenodo.20491633",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1347,7 +1385,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-12-01T08:54:27.295446"
+    "last_updated": "2026-06-01T14:05:18.373339"
   },
   "Cenote-Taker 3": {
     "name": "Cenote-Taker 3",
@@ -1377,7 +1415,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:22:28.119070"
+    "last_updated": "2026-06-01T14:31:53.507051"
   },
   "Cenote-Taker 2": {
     "name": "Cenote-Taker 2",
@@ -1407,7 +1445,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:22:34.137100"
+    "last_updated": "2026-06-01T14:31:36.776678"
   },
   "CoCoNet": {
     "name": "CoCoNet",
@@ -1432,21 +1470,15 @@
       "doi": "10.1093/bioinformatics/btab213",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 21,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 8,
-        "2024": 3,
-        "2023": 5,
-        "2022": 2,
-        "2021": 2
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Arisdakessian, C., Nigro, O., Steward, G., Poisson, G., & Belcaid, M. (2021). CoCoNet: an efficient deep learning tool for viral metagenome binning. Bioinformatics, 37(18), 2803-2810. https://doi.org/10.1093/bioinformatics/btab213",
         "bibtex": "@article{arisdakessian2021,\n  title = {CoCoNet: an efficient deep learning tool for viral metagenome binning},\n  author = {Arisdakessian, C. and Nigro, O. and Steward, G. and Poisson, G. and Belcaid, M.},\n  year = {2021},\n  journal = {Bioinformatics},\n  volume = {37},\n  number = {18},\n  pages = {2803-2810},\n  doi = {10.1093/bioinformatics/btab213},\n}"
       }
     },
-    "last_updated": "2025-11-01T09:23:23.252645"
+    "last_updated": "2026-06-01T14:18:46.916394"
   },
   "crassus": {
     "name": "crassus",
@@ -1476,7 +1508,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:23:24.967391"
+    "last_updated": "2026-06-01T14:17:57.298279"
   },
   "DBSCAN-SWA": {
     "name": "DBSCAN-SWA",
@@ -1501,22 +1533,15 @@
       "doi": "10.3389/fgene.2022.885048",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 24,
-      "influential_citations": 2,
-      "citations_by_year": {
-        "2025": 8,
-        "2024": 8,
-        "2023": 4,
-        "2022": 2,
-        "2021": 1,
-        "2019": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Gan, R., Zhou, F., Si, Y., Yang, H., Chen, C., Ren, C., ... Zhang, F. (2022). DBSCAN-SWA: An Integrated Tool for Rapid Prophage Detection and Annotation. Frontiers in Genetics, 13. https://doi.org/10.3389/fgene.2022.885048",
         "bibtex": "@article{gan2022,\n  title = {DBSCAN-SWA: An Integrated Tool for Rapid Prophage Detection and Annotation},\n  author = {Gan, R. and Zhou, F. and Si, Y. and Yang, H. and Chen, C. and Ren, C. and Wu, J. and Zhang, F.},\n  year = {2022},\n  journal = {Frontiers in Genetics},\n  volume = {13},\n  doi = {10.3389/fgene.2022.885048},\n}"
       }
     },
-    "last_updated": "2025-11-01T09:23:11.248103"
+    "last_updated": "2026-06-01T14:18:22.953399"
   },
   "Deep6": {
     "name": "Deep6",
@@ -1546,7 +1571,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:24:06.336403"
+    "last_updated": "2026-06-01T14:19:32.543048"
   },
   "DeepVirFinder": {
     "name": "DeepVirFinder",
@@ -1576,7 +1601,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:24:23.069436"
+    "last_updated": "2026-06-01T14:19:57.561192"
   },
   "DePhT": {
     "name": "DePhT",
@@ -1606,7 +1631,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:24:16.964029"
+    "last_updated": "2026-06-01T14:24:59.174490"
   },
   "FastViromeExplorer": {
     "name": "FastViromeExplorer",
@@ -1636,7 +1661,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:23:58.963041"
+    "last_updated": "2026-06-01T14:19:57.286276"
   },
   "GenomePeek": {
     "name": "GenomePeek",
@@ -1658,7 +1683,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.7287/peerj.1025v0.2/reviews/3",
+      "doi": "10.7287/peerj.1025v0.3/reviews/2",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -1666,7 +1691,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:24:04.876080"
+    "last_updated": "2026-06-01T14:20:24.013575"
   },
   "hecatomb": {
     "name": "hecatomb",
@@ -1684,30 +1709,7 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "python",
-          "snakemake",
-          "pulp",
-          "pyyaml",
-          "click",
-          "metasnek",
-          "snaketool-utils"
-        ],
-        "host": [
-          "python",
-          "pip",
-          "run:",
-          "python",
-          "snakemake",
-          "pulp",
-          "pyyaml",
-          "click",
-          "metasnek",
-          "snaketool-utils"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
@@ -1719,7 +1721,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:25:04.126771"
+    "last_updated": "2026-06-01T14:32:12.761038"
   },
   "HoloVir": {
     "name": "HoloVir",
@@ -1749,7 +1751,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:25:16.105971"
+    "last_updated": "2026-06-01T14:53:25.756658"
   },
   "INHERIT": {
     "name": "INHERIT",
@@ -1782,7 +1784,7 @@
         "bibtex": "@article{hounshell2002,\n  title = {Are Programmers Oppressed by Monopoly Capital, or Shall the Geeks Inherit the Earth? Commentary on Nathan Ensmenger &amp; William Aspray, \u201cSoftware as Labor Process\u201d},\n  author = {Hounshell, D.},\n  year = {2002},\n  journal = {History of Computing: Software Issues},\n  pages = {167-175},\n  doi = {10.1007/978-3-662-04954-9_13},\n}"
       }
     },
-    "last_updated": "2025-11-01T09:25:47.072707"
+    "last_updated": "2026-06-01T14:28:30.013445"
   },
   "INSaFLU-TELEVIR": {
     "name": "INSaFLU-TELEVIR",
@@ -1812,7 +1814,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:25:29.168606"
+    "last_updated": "2026-06-01T14:30:23.078087"
   },
   "isling": {
     "name": "isling",
@@ -1842,7 +1844,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:26:04.955296"
+    "last_updated": "2026-06-01T14:32:06.082345"
   },
   "Jaeger": {
     "name": "Jaeger",
@@ -1872,7 +1874,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:26:40.924713"
+    "last_updated": "2026-06-01T15:16:05.397444"
   },
   "Jovian": {
     "name": "Jovian",
@@ -1902,7 +1904,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:26:29.099367"
+    "last_updated": "2026-06-01T14:49:14.002916"
   },
   "LazyPipe": {
     "name": "LazyPipe",
@@ -1932,7 +1934,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:26:16.708176"
+    "last_updated": "2026-06-01T14:32:44.975505"
   },
   "MARVEL": {
     "name": "MARVEL",
@@ -1950,19 +1952,7 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "prokka",
-          "scikit-learn",
-          "numpy",
-          "scipy",
-          "biopython"
-        ],
-        "host": [
-          "python"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
@@ -1974,7 +1964,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:27:17.318764"
+    "last_updated": "2026-06-01T14:54:12.281608"
   },
   "metaPhage": {
     "name": "metaPhage",
@@ -1999,20 +1989,15 @@
       "doi": "10.1128/msystems.00741-22",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 32,
-      "influential_citations": 3,
-      "citations_by_year": {
-        "2025": 5,
-        "2024": 13,
-        "2023": 9,
-        "2022": 4
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Pandolfo, M., Telatin, A., Lazzari, G., Adriaenssens, E., & Vitulo, N. (2022). MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data. mSystems, 7(5). https://doi.org/10.1128/msystems.00741-22",
         "bibtex": "@article{pandolfo2022,\n  title = {MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data},\n  author = {Pandolfo, M. and Telatin, A. and Lazzari, G. and Adriaenssens, E. and Vitulo, N.},\n  year = {2022},\n  journal = {mSystems},\n  volume = {7},\n  number = {5},\n  doi = {10.1128/msystems.00741-22},\n}"
       }
     },
-    "last_updated": "2025-11-01T09:26:47.092337"
+    "last_updated": "2026-06-01T14:33:27.160651"
   },
   "MetaPhinder": {
     "name": "MetaPhinder",
@@ -2042,7 +2027,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:28:06.172556"
+    "last_updated": "2026-06-01T14:35:50.385787"
   },
   "MetaPhlAn 4.1.0": {
     "name": "MetaPhlAn 4.1.0",
@@ -2072,7 +2057,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:27:40.071608"
+    "last_updated": "2026-06-01T14:36:52.364540"
   },
   "PhaBox": {
     "name": "PhaBox",
@@ -2156,7 +2141,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:27:28.953421"
+    "last_updated": "2026-06-01T14:37:27.423370"
   },
   "Phage tools": {
     "name": "Phage tools",
@@ -2186,7 +2171,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:28:29.609081"
+    "last_updated": "2026-06-01T14:49:38.952395"
   },
   "PHAMB": {
     "name": "PHAMB",
@@ -2231,7 +2216,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:49:53.573114"
+    "last_updated": "2026-06-01T14:50:35.089386"
   },
   "phaMers": {
     "name": "phaMers",
@@ -2261,7 +2246,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:49:59.464747"
+    "last_updated": "2026-06-01T14:51:11.528076"
   },
   "Phanta": {
     "name": "Phanta",
@@ -2286,11 +2271,12 @@
       "doi": "10.1038/s41587-023-01799-4",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 35,
-      "influential_citations": 3,
+      "total_citations": 55,
+      "influential_citations": 5,
       "citations_by_year": {
-        "2025": 17,
-        "2024": 12,
+        "2026": 13,
+        "2025": 23,
+        "2024": 13,
         "2023": 4,
         "2022": 2
       },
@@ -2299,7 +2285,7 @@
         "bibtex": "@article{pinto2023,\n  title = {Phage-inclusive profiling of human gut microbiomes with Phanta},\n  author = {Pinto, Y. and Chakraborty, M. and Jain, N. and Bhatt, A.},\n  year = {2023},\n  journal = {Nature Biotechnology},\n  volume = {42},\n  number = {4},\n  pages = {651-662},\n  doi = {10.1038/s41587-023-01799-4},\n}"
       }
     },
-    "last_updated": "2025-11-01T09:54:28.961670"
+    "last_updated": "2026-06-01T14:57:02.208416"
   },
   "PIGv": {
     "name": "PIGv",
@@ -2329,7 +2315,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:05:58.564222"
+    "last_updated": "2026-06-01T15:16:29.723866"
   },
   "PPR-Meta": {
     "name": "PPR-Meta",
@@ -2359,7 +2345,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:30:21.809386"
+    "last_updated": "2026-06-01T14:54:40.550355"
   },
   "Prophage Tracer": {
     "name": "Prophage Tracer",
@@ -2389,7 +2375,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:31:01.578371"
+    "last_updated": "2026-06-01T14:54:46.852411"
   },
   "Seeker": {
     "name": "Seeker",
@@ -2407,24 +2393,40 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": [],
+      "dependencies": {
+        "build": [],
+        "run": [
+          "python",
+          "numpy",
+          "tensorflow",
+          "setuptools"
+        ],
+        "host": [
+          "python",
+          "pip",
+          "setuptools",
+          "run:",
+          "python",
+          "numpy",
+          "tensorflow",
+          "setuptools"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
       "doi": "10.1117/12.884487",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 1,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2012": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Degache, M. (2011). Software toolkit for evaluating infrared imaging seeker. SPIE Proceedings, 8014, 80140E. https://doi.org/10.1117/12.884487",
         "bibtex": "@article{degache2011,\n  title = {Software toolkit for evaluating infrared imaging seeker},\n  author = {Degache, M.},\n  year = {2011},\n  journal = {SPIE Proceedings},\n  volume = {8014},\n  pages = {80140E},\n  doi = {10.1117/12.884487},\n}"
       }
     },
-    "last_updated": "2025-11-01T09:37:37.617644"
+    "last_updated": "2026-06-01T14:56:11.030032"
   },
   "Serratus": {
     "name": "Serratus",
@@ -2454,7 +2456,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:38:15.248849"
+    "last_updated": "2026-06-01T14:55:25.417709"
   },
   "VFM": {
     "name": "VFM",
@@ -2484,7 +2486,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T09:49:47.496750"
+    "last_updated": "2026-06-01T15:16:52.663461"
   },
   "VIBRANT": {
     "name": "VIBRANT",
@@ -2502,24 +2504,51 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [],
+        "run": [
+          "python",
+          "prodigal",
+          "hmmer",
+          "biopython",
+          "pandas",
+          "matplotlib-base",
+          "seaborn",
+          "numpy",
+          "scikit-learn 0.21.3",
+          "wget",
+          "coreutils",
+          "gzip"
+        ],
+        "host": [
+          "wget",
+          "run:",
+          "python",
+          "prodigal",
+          "hmmer",
+          "biopython",
+          "pandas",
+          "matplotlib-base",
+          "seaborn",
+          "numpy",
+          "scikit-learn 0.21.3",
+          "wget",
+          "coreutils",
+          "gzip"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.3837/tiis.2016.08.027",
+      "doi": "10.5281/zenodo.20323806",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 2,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2019": 2
-      },
-      "formatted_citations": {
-        "apa": " (2016). Software Climate Change and its Disruptive Weather: A Potential Shift from \u201cSoftware Engineering\u201d to Vibrant/Dynamic Softology. KSII Transactions on Internet and Information Systems, 10(8). https://doi.org/10.3837/tiis.2016.08.027",
-        "bibtex": "@article{unknown2016,\n  title = {Software Climate Change and its Disruptive Weather: A Potential Shift from \u201cSoftware Engineering\u201d to Vibrant/Dynamic Softology},\n  year = {2016},\n  journal = {KSII Transactions on Internet and Information Systems},\n  volume = {10},\n  number = {8},\n  doi = {10.3837/tiis.2016.08.027},\n}"
-      }
+      "citations_by_year": {},
+      "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:07:18.942797"
+    "last_updated": "2026-06-01T15:02:16.524719"
   },
   "VIGA": {
     "name": "VIGA",
@@ -2544,17 +2573,15 @@
       "doi": "10.5216/reec.v14i1.46511",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 1,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2018": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Castro, E. (2017). PROCEDIMENTO PARA AN\u00c1LISE NUM\u00c9RICA COM SOFTWARE ANSYS DE UMA VIGA EM FLEX\u00c3O COM A FORMA T. REEC - Revista Eletr\u00f4nica de Engenharia Civil, 14(1). https://doi.org/10.5216/reec.v14i1.46511",
         "bibtex": "@article{castro2017,\n  title = {PROCEDIMENTO PARA AN\u00c1LISE NUM\u00c9RICA COM SOFTWARE ANSYS DE UMA VIGA EM FLEX\u00c3O COM A FORMA T},\n  author = {Castro, E.},\n  year = {2017},\n  journal = {REEC - Revista Eletr\u00f4nica de Engenharia Civil},\n  volume = {14},\n  number = {1},\n  doi = {10.5216/reec.v14i1.46511},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:07:40.550021"
+    "last_updated": "2026-06-01T14:59:23.265930"
   },
   "VIP": {
     "name": "VIP",
@@ -2579,18 +2606,15 @@
       "doi": "10.1117/12.479648",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 2,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2005": 1,
-        "2004": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Rehn, H. (2002). Ray tracing software application in VIP lamp design. SPIE Proceedings, 4775, 22. https://doi.org/10.1117/12.479648",
         "bibtex": "@article{rehn2002,\n  title = {Ray tracing software application in VIP lamp design},\n  author = {Rehn, H.},\n  year = {2002},\n  journal = {SPIE Proceedings},\n  volume = {4775},\n  pages = {22},\n  doi = {10.1117/12.479648},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:02:44.375896"
+    "last_updated": "2026-06-01T15:10:57.176532"
   },
   "ViralCC": {
     "name": "ViralCC",
@@ -2620,7 +2644,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:06:22.697145"
+    "last_updated": "2026-06-01T15:16:40.424430"
   },
   "ViralConsensus": {
     "name": "ViralConsensus",
@@ -2650,7 +2674,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:23:15.323084"
+    "last_updated": "2026-06-01T15:16:10.549038"
   },
   "viralMetagenomicsPipeline": {
     "name": "viralMetagenomicsPipeline",
@@ -2680,7 +2704,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:07:40.358366"
+    "last_updated": "2026-06-01T15:17:39.335338"
   },
   "ViralWasm": {
     "name": "ViralWasm",
@@ -2710,7 +2734,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:07:00.957078"
+    "last_updated": "2026-06-01T15:16:52.786733"
   },
   "viraMiner": {
     "name": "viraMiner",
@@ -2740,7 +2764,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:13:34.839055"
+    "last_updated": "2026-06-01T15:23:04.653886"
   },
   "virAnnot": {
     "name": "virAnnot",
@@ -2765,22 +2789,15 @@
       "doi": "10.1094/pbiomes-07-19-0037-a",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 22,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 1,
-        "2023": 4,
-        "2022": 3,
-        "2021": 6,
-        "2020": 5,
-        "2019": 3
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Lefebvre, M., Theil, S., Ma, Y., & Candresse, T. (2019). The VirAnnot Pipeline: A Resource for Automated Viral Diversity Estimation and Operational Taxonomy Units Assignation for Virome Sequencing Data. Phytobiomes Journal, 3(4), 256-259. https://doi.org/10.1094/pbiomes-07-19-0037-a",
         "bibtex": "@article{lefebvre2019,\n  title = {The VirAnnot Pipeline: A Resource for Automated Viral Diversity Estimation and Operational Taxonomy Units Assignation for Virome Sequencing Data},\n  author = {Lefebvre, M. and Theil, S. and Ma, Y. and Candresse, T.},\n  year = {2019},\n  journal = {Phytobiomes Journal},\n  volume = {3},\n  number = {4},\n  pages = {256-259},\n  doi = {10.1094/pbiomes-07-19-0037-a},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:24:18.775560"
+    "last_updated": "2026-06-01T15:19:04.325106"
   },
   "VirFinder": {
     "name": "VirFinder",
@@ -2810,7 +2827,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:23:59.779737"
+    "last_updated": "2026-06-01T15:19:04.411665"
   },
   "Virhunter": {
     "name": "Virhunter",
@@ -2840,7 +2857,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:24:24.525983"
+    "last_updated": "2026-06-01T15:19:17.061961"
   },
   "VirMine": {
     "name": "VirMine",
@@ -2870,7 +2887,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:37:11.800089"
+    "last_updated": "2026-06-01T15:24:55.129735"
   },
   "virMiner": {
     "name": "virMiner",
@@ -2900,7 +2917,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:24:51.902096"
+    "last_updated": "2026-06-01T15:21:16.451741"
   },
   "VirNet": {
     "name": "VirNet",
@@ -2930,7 +2947,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:25:41.702439"
+    "last_updated": "2026-06-01T15:21:41.442094"
   },
   "ViroProfiler": {
     "name": "ViroProfiler",
@@ -2955,19 +2972,15 @@
       "doi": "10.1080/19490976.2023.2192522",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 13,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2025": 1,
-        "2024": 7,
-        "2023": 5
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Ru, J., Khan Mirzaei, M., Xue, J., Peng, X., & Deng, L. (2023). ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis. Gut Microbes, 15(1). https://doi.org/10.1080/19490976.2023.2192522",
         "bibtex": "@article{ru2023,\n  title = {ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis},\n  author = {Ru, J. and Khan Mirzaei, M. and Xue, J. and Peng, X. and Deng, L.},\n  year = {2023},\n  journal = {Gut Microbes},\n  volume = {15},\n  number = {1},\n  doi = {10.1080/19490976.2023.2192522},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:25:47.954881"
+    "last_updated": "2026-06-01T15:21:33.631254"
   },
   "VirSorter": {
     "name": "VirSorter",
@@ -3022,7 +3035,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:25:29.951455"
+    "last_updated": "2026-06-01T15:54:41.113611"
   },
   "VirSorter2": {
     "name": "VirSorter2",
@@ -3052,7 +3065,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:25:29.720534"
+    "last_updated": "2026-06-01T15:22:08.656149"
   },
   "Virtifier": {
     "name": "Virtifier",
@@ -3082,7 +3095,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:37:05.526154"
+    "last_updated": "2026-06-01T15:23:54.713663"
   },
   "Virtus": {
     "name": "Virtus",
@@ -3112,7 +3125,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:36:53.822567"
+    "last_updated": "2026-06-01T15:24:08.468588"
   },
   "virus_prediction": {
     "name": "virus_prediction",
@@ -3142,7 +3155,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:37:47.487582"
+    "last_updated": "2026-06-01T15:24:42.551745"
   },
   "ViruSpy": {
     "name": "ViruSpy",
@@ -3172,7 +3185,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:37:35.460981"
+    "last_updated": "2026-06-01T15:30:19.082644"
   },
   "VirusSeeker": {
     "name": "VirusSeeker",
@@ -3197,25 +3210,15 @@
       "doi": "10.1016/j.virol.2017.01.005",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 114,
-      "influential_citations": 6,
-      "citations_by_year": {
-        "2025": 8,
-        "2024": 9,
-        "2023": 11,
-        "2022": 13,
-        "2021": 19,
-        "2020": 19,
-        "2019": 13,
-        "2018": 12,
-        "2017": 9
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Zhao, G., Wu, G., Lim, E., Droit, L., Krishnamurthy, S., Barouch, D., ... Wang, D. (2017). VirusSeeker, a computational pipeline for virus discovery and virome composition analysis. Virology, 503, 21-30. https://doi.org/10.1016/j.virol.2017.01.005",
         "bibtex": "@article{zhao2017,\n  title = {VirusSeeker, a computational pipeline for virus discovery and virome composition analysis},\n  author = {Zhao, G. and Wu, G. and Lim, E. and Droit, L. and Krishnamurthy, S. and Barouch, D. and Virgin, H. and Wang, D.},\n  year = {2017},\n  journal = {Virology},\n  volume = {503},\n  pages = {21-30},\n  doi = {10.1016/j.virol.2017.01.005},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:37:37.007295"
+    "last_updated": "2026-06-01T15:24:49.097118"
   },
   "vRhyme": {
     "name": "vRhyme",
@@ -3233,43 +3236,7 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "numpy",
-          "python",
-          "samtools",
-          "mmseqs2",
-          "prodigal",
-          "mash",
-          "bowtie2",
-          "bwa",
-          "pandas",
-          "numba",
-          "pysam",
-          "networkx",
-          "scikit-learn"
-        ],
-        "host": [
-          "pip",
-          "python",
-          "gzip",
-          "run:",
-          "numpy",
-          "python",
-          "samtools",
-          "mmseqs2",
-          "prodigal",
-          "mash",
-          "bowtie2",
-          "bwa",
-          "pandas",
-          "numba",
-          "pysam",
-          "networkx",
-          "scikit-learn"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
@@ -3281,7 +3248,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:38:49.308629"
+    "last_updated": "2026-06-01T15:55:04.825405"
   },
   "What_the_phage": {
     "name": "What_the_phage",
@@ -3306,22 +3273,15 @@
       "doi": "10.1093/gigascience/giac110",
       "citation_file": "CITATION.cff",
       "citation_format": "cff",
-      "total_citations": 30,
-      "influential_citations": 2,
-      "citations_by_year": {
-        "2025": 5,
-        "2024": 6,
-        "2023": 6,
-        "2022": 5,
-        "2021": 7,
-        "2020": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Marquet, M., H\u00f6lzer, M., Pletz, M., Viehweger, A., Makarewicz, O., Ehricht, R., & Brandt, C. (2022). What the Phage: a scalable workflow for the identification and analysis of phage sequences. GigaScience, 11. https://doi.org/10.1093/gigascience/giac110",
         "bibtex": "@article{marquet2022,\n  title = {What the Phage: a scalable workflow for the identification and analysis of phage sequences},\n  author = {Marquet, M. and H\u00f6lzer, M. and Pletz, M. and Viehweger, A. and Makarewicz, O. and Ehricht, R. and Brandt, C.},\n  year = {2022},\n  journal = {GigaScience},\n  volume = {11},\n  doi = {10.1093/gigascience/giac110},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:37:53.796035"
+    "last_updated": "2026-06-01T15:41:32.194353"
   },
   "DRAD": {
     "name": "DRAD",
@@ -3351,7 +3311,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:38:13.428173"
+    "last_updated": "2026-06-01T15:25:34.665311"
   },
   "geNomad": {
     "name": "geNomad",
@@ -3369,45 +3329,11 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "python",
-          "pyrodigal-gv",
-          "mmseqs2",
-          "aragorn",
-          "keras",
-          "numba",
-          "numpy",
-          "python-crfsuite",
-          "rich-click",
-          "taxopy",
-          "tensorflow",
-          "xgboost"
-        ],
-        "host": [
-          "pip",
-          "python",
-          "flit-core",
-          "run:",
-          "python",
-          "pyrodigal-gv",
-          "mmseqs2",
-          "aragorn",
-          "keras",
-          "numba",
-          "numpy",
-          "python-crfsuite",
-          "rich-click",
-          "taxopy",
-          "tensorflow",
-          "xgboost"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.15635930",
+      "doi": "10.5281/zenodo.19303689",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -3415,7 +3341,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:38:55.552344"
+    "last_updated": "2026-06-01T15:54:30.272752"
   },
   "hafeZ": {
     "name": "hafeZ",
@@ -3433,70 +3359,22 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "bbmap",
-          "biopython",
-          "blast",
-          "hhsuite",
-          "hmmer",
-          "matplotlib-base",
-          "minimap2",
-          "mosdepth",
-          "numpy",
-          "pandas",
-          "pysam",
-          "pyrodigal",
-          "python",
-          "samtools",
-          "sambamba",
-          "scipy",
-          "seaborn"
-        ],
-        "host": [
-          "pip",
-          "python",
-          "run:",
-          "bbmap",
-          "biopython",
-          "blast",
-          "hhsuite",
-          "hmmer",
-          "matplotlib-base",
-          "minimap2",
-          "mosdepth",
-          "numpy",
-          "pandas",
-          "pysam",
-          "pyrodigal",
-          "python",
-          "samtools",
-          "sambamba",
-          "scipy",
-          "seaborn"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
       "doi": "10.1101/2021.07.21.453177",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 6,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2025": 1,
-        "2023": 2,
-        "2022": 1,
-        "2021": 2
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "",
         "bibtex": ""
       }
     },
-    "last_updated": "2025-11-01T10:39:19.354318"
+    "last_updated": "2026-06-01T15:42:32.111809"
   },
   "LysoPhD": {
     "name": "LysoPhD",
@@ -3526,7 +3404,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:38:37.296035"
+    "last_updated": "2026-06-01T15:42:07.236538"
   },
   "phage_finder": {
     "name": "phage_finder",
@@ -3556,7 +3434,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:38:55.257428"
+    "last_updated": "2026-06-01T15:42:44.058342"
   },
   "phageboost": {
     "name": "phageboost",
@@ -3586,7 +3464,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:39:19.280445"
+    "last_updated": "2026-06-01T15:43:08.038181"
   },
   "PhageWeb": {
     "name": "PhageWeb",
@@ -3616,7 +3494,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:39:39.826157"
+    "last_updated": "2026-06-01T15:43:20.774254"
   },
   "PHASTER": {
     "name": "PHASTER",
@@ -3641,25 +3519,15 @@
       "doi": "10.1093/bib/bbx121",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 171,
-      "influential_citations": 9,
-      "citations_by_year": {
-        "2025": 8,
-        "2024": 30,
-        "2023": 26,
-        "2022": 30,
-        "2021": 30,
-        "2020": 20,
-        "2019": 19,
-        "2018": 7,
-        "2026": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Arndt, D., Marcu, A., Liang, Y., & Wishart, D. (2017). PHAST, PHASTER and PHASTEST: Tools for finding prophage in bacterial genomes. Briefings in Bioinformatics, 20(4), 1560-1567. https://doi.org/10.1093/bib/bbx121",
         "bibtex": "@article{arndt2017,\n  title = {PHAST, PHASTER and PHASTEST: Tools for finding prophage in bacterial genomes},\n  author = {Arndt, D. and Marcu, A. and Liang, Y. and Wishart, D.},\n  year = {2017},\n  journal = {Briefings in Bioinformatics},\n  volume = {20},\n  number = {4},\n  pages = {1560-1567},\n  doi = {10.1093/bib/bbx121},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:39:37.466589"
+    "last_updated": "2026-06-01T15:43:45.422016"
   },
   "Phigaro": {
     "name": "Phigaro",
@@ -3677,58 +3545,21 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "beautifulsoup4",
-          "biopython",
-          "bs4",
-          "future",
-          "lxml",
-          "numpy",
-          "pandas",
-          "plotly",
-          "python",
-          "pyyaml",
-          "sh",
-          "six",
-          "prodigal",
-          "hmmer"
-        ],
-        "host": [
-          "pip",
-          "python",
-          "run:",
-          "beautifulsoup4",
-          "biopython",
-          "bs4",
-          "future",
-          "lxml",
-          "numpy",
-          "pandas",
-          "plotly",
-          "python",
-          "pyyaml",
-          "sh",
-          "six",
-          "prodigal",
-          "hmmer"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
       "doi": "10.1093/bioinformatics/btaa250",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 120,
-      "influential_citations": 9,
+      "total_citations": 158,
+      "influential_citations": 27,
       "citations_by_year": {
-        "2026": 1,
-        "2025": 33,
+        "2026": 23,
+        "2025": 49,
         "2024": 45,
-        "2023": 17,
-        "2022": 12,
+        "2023": 18,
+        "2022": 11,
         "2021": 7,
         "2020": 5
       },
@@ -3737,7 +3568,7 @@
         "bibtex": "@article{starikova2020,\n  title = {Phigaro: high-throughput prophage sequence annotation},\n  author = {Starikova, E. and Tikhonova, P. and Prianichnikov, N. and Rands, C. and Zdobnov, E. and Ilina, E. and Govorun, V.},\n  year = {2020},\n  journal = {Bioinformatics},\n  volume = {36},\n  number = {12},\n  pages = {3882-3884},\n  doi = {10.1093/bioinformatics/btaa250},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:40:24.300388"
+    "last_updated": "2026-06-01T16:10:17.715047"
   },
   "PhiSpy": {
     "name": "PhiSpy",
@@ -3758,10 +3589,14 @@
       "dependencies": {
         "build": [
           "{{ compiler('cxx') }}",
+          "{{ stdlib('c') }}",
           "pkg-config",
           "host:",
           "pip",
           "python",
+          "setuptools",
+          "wheel",
+          "numpy",
           "run:",
           "biopython",
           "numpy",
@@ -3781,6 +3616,9 @@
         "host": [
           "pip",
           "python",
+          "setuptools",
+          "wheel",
+          "numpy",
           "run:",
           "biopython",
           "numpy",
@@ -3793,7 +3631,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.7749863",
+      "doi": "10.5281/zenodo.19907440",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -3801,7 +3639,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:07:47.160403"
+    "last_updated": "2026-06-01T16:52:02.781535"
   },
   "Prophet": {
     "name": "Prophet",
@@ -3834,7 +3672,7 @@
         "bibtex": ""
       }
     },
-    "last_updated": "2025-11-01T10:41:02.382628"
+    "last_updated": "2026-06-01T15:52:01.612957"
   },
   "Prophinder": {
     "name": "Prophinder",
@@ -3859,34 +3697,15 @@
       "doi": "10.1093/bioinformatics/btn043",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 211,
-      "influential_citations": 25,
-      "citations_by_year": {
-        "2025": 5,
-        "2024": 4,
-        "2023": 6,
-        "2022": 7,
-        "2021": 11,
-        "2020": 17,
-        "2019": 14,
-        "2018": 16,
-        "2017": 13,
-        "2016": 15,
-        "2015": 14,
-        "2014": 12,
-        "2013": 13,
-        "2012": 21,
-        "2011": 17,
-        "2010": 13,
-        "2009": 8,
-        "2008": 2
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Lima-Mendez, G., Van Helden, J., Toussaint, A., & Leplae, R. (2008). Prophinder: a computational tool for prophage prediction in prokaryotic genomes. Bioinformatics, 24(6), 863-865. https://doi.org/10.1093/bioinformatics/btn043",
         "bibtex": "@article{lima-mendez2008,\n  title = {Prophinder: a computational tool for prophage prediction in prokaryotic genomes},\n  author = {Lima-Mendez, G. and Van Helden, J. and Toussaint, A. and Leplae, R.},\n  year = {2008},\n  journal = {Bioinformatics},\n  volume = {24},\n  number = {6},\n  pages = {863-865},\n  doi = {10.1093/bioinformatics/btn043},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:40:18.320851"
+    "last_updated": "2026-06-01T15:52:35.722985"
   },
   "VAPiD": {
     "name": "VAPiD",
@@ -3916,7 +3735,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:41:07.402691"
+    "last_updated": "2026-06-01T16:16:57.272715"
   },
   "viralintegration": {
     "name": "viralintegration",
@@ -3946,7 +3765,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:41:34.494400"
+    "last_updated": "2026-06-01T16:16:15.332114"
   },
   "palmID": {
     "name": "palmID",
@@ -3976,7 +3795,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:41:08.186080"
+    "last_updated": "2026-06-01T15:55:24.405533"
   },
   "RdRp-scan": {
     "name": "RdRp-scan",
@@ -4006,7 +3825,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:42:08.737414"
+    "last_updated": "2026-06-01T16:02:34.520582"
   },
   "rdrpsearch": {
     "name": "rdrpsearch",
@@ -4036,7 +3855,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:41:40.312527"
+    "last_updated": "2026-06-01T15:55:59.799983"
   },
   "RNA-Virus-Flow": {
     "name": "RNA-Virus-Flow",
@@ -4066,7 +3885,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:43:00.326145"
+    "last_updated": "2026-06-01T16:16:51.345005"
   },
   "BacteriophageHostPrediction": {
     "name": "BacteriophageHostPrediction",
@@ -4096,7 +3915,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:42:41.927501"
+    "last_updated": "2026-06-01T16:17:15.396008"
   },
   "CHERRY": {
     "name": "CHERRY",
@@ -4121,20 +3940,15 @@
       "doi": "10.1093/bib/bbac182",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 54,
-      "influential_citations": 5,
-      "citations_by_year": {
-        "2025": 14,
-        "2024": 22,
-        "2023": 13,
-        "2022": 5
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Shang, J., & Sun, Y. (2022). CHERRY: a Computational metHod for accuratE pRediction of virus\u2013pRokarYotic interactions using a graph encoder\u2013decoder model. Briefings in Bioinformatics, 23(5). https://doi.org/10.1093/bib/bbac182",
         "bibtex": "@article{shang2022,\n  title = {CHERRY: a Computational metHod for accuratE pRediction of virus\u2013pRokarYotic interactions using a graph encoder\u2013decoder model},\n  author = {Shang, J. and Sun, Y.},\n  year = {2022},\n  journal = {Briefings in Bioinformatics},\n  volume = {23},\n  number = {5},\n  doi = {10.1093/bib/bbac182},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:42:54.107221"
+    "last_updated": "2026-06-01T16:16:39.232089"
   },
   "CrisprOpenDB": {
     "name": "CrisprOpenDB",
@@ -4167,7 +3981,7 @@
         "bibtex": "@article{dion2021,\n  title = {Streamlining CRISPR spacer-based bacterial host predictions to decipher the viral dark matter},\n  author = {Dion, M. and Plante, P. and Zufferey, E. and Shah, S. and Corbeil, J. and Moineau, S.},\n  year = {2021},\n  journal = {Nucleic Acids Research},\n  volume = {49},\n  number = {6},\n  pages = {3127-3138},\n  doi = {10.1093/nar/gkab133},\n}"
       }
     },
-    "last_updated": "2025-11-01T10:43:12.125990"
+    "last_updated": "2026-06-01T16:17:45.197983"
   },
   "DeePaC": {
     "name": "DeePaC",
@@ -4244,7 +4058,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:42:48.264733"
+    "last_updated": "2026-06-01T16:17:15.016920"
   },
   "DeePaC-Live": {
     "name": "DeePaC-Live",
@@ -4301,7 +4115,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:43:25.728985"
+    "last_updated": "2026-06-01T16:17:39.425657"
   },
   "DeepHost": {
     "name": "DeepHost",
@@ -4331,7 +4145,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:45:08.096475"
+    "last_updated": "2026-06-01T16:18:48.299690"
   },
   "HostG": {
     "name": "HostG",
@@ -4361,7 +4175,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:43:57.721771"
+    "last_updated": "2026-06-01T16:18:13.123254"
   },
   "HostPhinder": {
     "name": "HostPhinder",
@@ -4386,25 +4200,15 @@
       "doi": "10.3390/v8050116",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 124,
-      "influential_citations": 9,
-      "citations_by_year": {
-        "2025": 9,
-        "2024": 14,
-        "2023": 12,
-        "2022": 19,
-        "2021": 18,
-        "2020": 17,
-        "2019": 9,
-        "2018": 12,
-        "2017": 11
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Villarroel, J., Kleinheinz, K., Jurtz, V., Zschach, H., Lund, O., Nielsen, M., & Larsen, M. (2016). HostPhinder: A Phage Host Prediction Tool. Viruses, 8(5), 116. https://doi.org/10.3390/v8050116",
         "bibtex": "@article{villarroel2016,\n  title = {HostPhinder: A Phage Host Prediction Tool},\n  author = {Villarroel, J. and Kleinheinz, K. and Jurtz, V. and Zschach, H. and Lund, O. and Nielsen, M. and Larsen, M.},\n  year = {2016},\n  journal = {Viruses},\n  volume = {8},\n  number = {5},\n  pages = {116},\n  doi = {10.3390/v8050116},\n}"
       }
     },
-    "last_updated": "2025-11-01T11:29:38.481181"
+    "last_updated": "2026-06-01T16:18:54.339935"
   },
   "INFH-VH": {
     "name": "INFH-VH",
@@ -4434,7 +4238,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:25:24.240090"
+    "last_updated": "2026-06-01T16:19:15.012207"
   },
   "iPHoP": {
     "name": "iPHoP",
@@ -4509,7 +4313,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:45:56.322165"
+    "last_updated": "2026-06-01T16:19:27.236917"
   },
   "MVP": {
     "name": "MVP",
@@ -4527,11 +4331,19 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [],
+        "run": [
+          "python",
+          "biopython",
+          "pysam"
+        ],
+        "host": []
+      },
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17469848",
+      "doi": "10.1109/test.2010.5699294",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -4539,7 +4351,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:44:05.815177"
+    "last_updated": "2026-06-01T16:19:00.323087"
   },
   "PB-LKS": {
     "name": "PB-LKS",
@@ -4569,7 +4381,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:46:41.698531"
+    "last_updated": "2026-06-01T16:21:04.351524"
   },
   "PhageHostLearn": {
     "name": "PhageHostLearn",
@@ -4599,7 +4411,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:46:23.913204"
+    "last_updated": "2026-06-01T16:45:17.440230"
   },
   "PhageRBPdetect": {
     "name": "PhageRBPdetect",
@@ -4629,7 +4441,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:46:35.704241"
+    "last_updated": "2026-06-01T16:19:39.190636"
   },
   "PHERI": {
     "name": "PHERI",
@@ -4659,7 +4471,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T10:47:53.372066"
+    "last_updated": "2026-06-01T16:21:36.700905"
   },
   "PHIAF": {
     "name": "PHIAF",
@@ -4689,7 +4501,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:29:04.018554"
+    "last_updated": "2026-06-01T16:22:08.349004"
   },
   "PHISDetector": {
     "name": "PHISDetector",
@@ -4717,9 +4529,12 @@
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "Zhou, F., Gan, R., Zhang, F., Ren, C., Yu, L., Si, Y., & Huang, Z. (2022). PHISDetector: A Tool to Detect Diverse\n                    <i>In Silico</i>\n                    Phage\u2013Host Interaction Signals for Virome Studies. Genomics, Proteomics &amp; Bioinformatics, 20(3), 508-523. https://doi.org/10.1016/j.gpb.2022.02.003",
+        "bibtex": "@article{zhou2022,\n  title = {PHISDetector: A Tool to Detect Diverse\n                    <i>In Silico</i>\n                    Phage\u2013Host Interaction Signals for Virome Studies},\n  author = {Zhou, F. and Gan, R. and Zhang, F. and Ren, C. and Yu, L. and Si, Y. and Huang, Z.},\n  year = {2022},\n  journal = {Genomics, Proteomics &amp; Bioinformatics},\n  volume = {20},\n  number = {3},\n  pages = {508-523},\n  doi = {10.1016/j.gpb.2022.02.003},\n}"
+      }
     },
-    "last_updated": "2025-11-01T10:47:11.228220"
+    "last_updated": "2026-06-01T16:20:19.359240"
   },
   "PHIST": {
     "name": "PHIST",
@@ -4774,7 +4589,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:28:50.893193"
+    "last_updated": "2026-06-01T16:22:01.712192"
   },
   "PHP": {
     "name": "PHP",
@@ -4802,12 +4617,9 @@
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {
-        "apa": "Jaro\u0161, A. (2016). Advanced PHP web services for easy software updates to Increase User Experience. Virtual Multidisciplinary Conference, 5, 148-151. https://doi.org/10.18638/ictic.2016.5.1.294",
-        "bibtex": "@article{jaro\u01612016,\n  title = {Advanced PHP web services for easy software updates to Increase User Experience},\n  author = {Jaro\u0161, A.},\n  year = {2016},\n  journal = {Virtual Multidisciplinary Conference},\n  volume = {5},\n  pages = {148-151},\n  doi = {10.18638/ictic.2016.5.1.294},\n}"
-      }
+      "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:25:42.486279"
+    "last_updated": "2026-06-01T16:22:43.689123"
   },
   "PHPGCA": {
     "name": "PHPGCA",
@@ -4837,7 +4649,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:32:02.413626"
+    "last_updated": "2026-06-01T16:23:03.018150"
   },
   "PredPHI": {
     "name": "PredPHI",
@@ -4867,7 +4679,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:32:35.846474"
+    "last_updated": "2026-06-01T16:23:38.330589"
   },
   "RaFaH": {
     "name": "RaFaH",
@@ -4897,7 +4709,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:29:33.313182"
+    "last_updated": "2026-06-01T16:22:49.761114"
   },
   "vHulk": {
     "name": "vHulk",
@@ -4922,19 +4734,15 @@
       "doi": "10.1089/phage.2021.0016",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 17,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 7,
-        "2024": 4,
-        "2023": 5
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Amgarten, D., Iha, B., Piroupo, C., da Silva, A., & Setubal, J. (2022). vHULK, a New Tool for Bacteriophage Host Prediction Based on Annotated Genomic Features and Neural Networks. PHAGE, 3(4), 204-212. https://doi.org/10.1089/phage.2021.0016",
         "bibtex": "@article{amgarten2022,\n  title = {vHULK, a New Tool for Bacteriophage Host Prediction Based on Annotated Genomic Features and Neural Networks},\n  author = {Amgarten, D. and Iha, B. and Piroupo, C. and da Silva, A. and Setubal, J.},\n  year = {2022},\n  journal = {PHAGE},\n  volume = {3},\n  number = {4},\n  pages = {204-212},\n  doi = {10.1089/phage.2021.0016},\n}"
       }
     },
-    "last_updated": "2025-11-01T11:29:56.654688"
+    "last_updated": "2026-06-01T16:23:25.723197"
   },
   "VIDHOP": {
     "name": "VIDHOP",
@@ -4964,7 +4772,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:30:34.635514"
+    "last_updated": "2026-06-01T16:23:52.618844"
   },
   "VirHostMatcher": {
     "name": "VirHostMatcher",
@@ -4994,7 +4802,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:30:47.241255"
+    "last_updated": "2026-06-01T16:24:22.495661"
   },
   "VirHostMatcher-Net": {
     "name": "VirHostMatcher-Net",
@@ -5024,7 +4832,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:31:56.479976"
+    "last_updated": "2026-06-01T16:41:28.053954"
   },
   "VirMatcher": {
     "name": "VirMatcher",
@@ -5054,7 +4862,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:31:14.308705"
+    "last_updated": "2026-06-01T16:24:16.558112"
   },
   "Virus Host DB": {
     "name": "Virus Host DB",
@@ -5084,7 +4892,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:31:32.484786"
+    "last_updated": "2026-06-01T16:24:34.520323"
   },
   "Virus Host Predict": {
     "name": "Virus Host Predict",
@@ -5114,7 +4922,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:32:59.956880"
+    "last_updated": "2026-06-01T16:26:43.510263"
   },
   "WIsH": {
     "name": "WIsH",
@@ -5136,18 +4944,15 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.1109/cgo.2011.5764655",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {
-        "apa": " (2011). WISH: Third workshop on infrastructures for software/hardware co-design. International Symposium on Code Generation and Optimization (CGO 2011), xviii-xviii. https://doi.org/10.1109/cgo.2011.5764655",
-        "bibtex": "@article{unknown2011,\n  title = {WISH: Third workshop on infrastructures for software/hardware co-design},\n  year = {2011},\n  journal = {International Symposium on Code Generation and Optimization (CGO 2011)},\n  pages = {xviii-xviii},\n  doi = {10.1109/cgo.2011.5764655},\n}"
-      }
+      "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:36:58.742107"
+    "last_updated": "2026-06-01T16:26:49.462176"
   },
   "DRAMv": {
     "name": "DRAMv",
@@ -5177,7 +4982,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:57:43.253401"
+    "last_updated": "2026-06-01T16:26:55.521200"
   },
   "MetaCerberus": {
     "name": "MetaCerberus",
@@ -5195,60 +5000,7 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [],
-        "run": [
-          "python",
-          "setuptools",
-          "pandas",
-          "fastqc",
-          "flash2",
-          "fastp",
-          "porechop",
-          "bbmap",
-          "pyrodigal",
-          "pyrodigal-gv",
-          "phanotate",
-          "trnascan-se",
-          "pyhmmer",
-          "plotly",
-          "scikit-learn",
-          "dominate",
-          "python-kaleido",
-          "configargparse",
-          "metaomestats",
-          "psutil",
-          "hydrampp"
-        ],
-        "host": [
-          "pip",
-          "python",
-          "setuptools",
-          "wheel",
-          "run:",
-          "python",
-          "setuptools",
-          "pandas",
-          "fastqc",
-          "flash2",
-          "fastp",
-          "porechop",
-          "bbmap",
-          "pyrodigal",
-          "pyrodigal-gv",
-          "phanotate",
-          "trnascan-se",
-          "pyhmmer",
-          "plotly",
-          "scikit-learn",
-          "dominate",
-          "python-kaleido",
-          "configargparse",
-          "metaomestats",
-          "psutil",
-          "hydrampp"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
@@ -5260,7 +5012,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:42:52.363225"
+    "last_updated": "2026-06-01T16:32:39.605028"
   },
   "PhANNs": {
     "name": "PhANNs",
@@ -5285,22 +5037,15 @@
       "doi": "10.1371/journal.pcbi.1007845",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 83,
-      "influential_citations": 11,
-      "citations_by_year": {
-        "2025": 17,
-        "2024": 14,
-        "2023": 18,
-        "2022": 21,
-        "2021": 11,
-        "2020": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Cantu, V., Salamon, P., Seguritan, V., Redfield, J., Salamon, D., Edwards, R., & Segall, A. (2020). PhANNs, a fast and accurate tool and web server to classify phage structural proteins. PLOS Computational Biology, 16(11), e1007845. https://doi.org/10.1371/journal.pcbi.1007845",
         "bibtex": "@article{cantu2020,\n  title = {PhANNs, a fast and accurate tool and web server to classify phage structural proteins},\n  author = {Cantu, V. and Salamon, P. and Seguritan, V. and Redfield, J. and Salamon, D. and Edwards, R. and Segall, A.},\n  year = {2020},\n  journal = {PLOS Computational Biology},\n  volume = {16},\n  number = {11},\n  pages = {e1007845},\n  doi = {10.1371/journal.pcbi.1007845},\n}"
       }
     },
-    "last_updated": "2025-11-01T11:57:29.577620"
+    "last_updated": "2026-06-01T16:39:35.844989"
   },
   "Pharokka": {
     "name": "Pharokka",
@@ -5342,7 +5087,9 @@
           "black",
           "isort",
           "pytest",
-          "pytest-cov"
+          "pytest-cov",
+          "pyrodigal-rv",
+          "setuptools"
         ],
         "host": [
           "python",
@@ -5370,7 +5117,9 @@
           "black",
           "isort",
           "pytest",
-          "pytest-cov"
+          "pytest-cov",
+          "pyrodigal-rv",
+          "setuptools"
         ]
       },
       "installation": ""
@@ -5379,20 +5128,15 @@
       "doi": "10.1093/bioinformatics/btac776",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 256,
-      "influential_citations": 45,
-      "citations_by_year": {
-        "2025": 131,
-        "2024": 101,
-        "2023": 22,
-        "2021": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Bouras, G., Nepal, R., Houtak, G., Psaltis, A., Wormald, P., & Vreugde, S. (2022). Pharokka: a fast scalable bacteriophage annotation tool. Bioinformatics, 39(1). https://doi.org/10.1093/bioinformatics/btac776",
         "bibtex": "@article{bouras2022,\n  title = {Pharokka: a fast scalable bacteriophage annotation tool},\n  author = {Bouras, G. and Nepal, R. and Houtak, G. and Psaltis, A. and Wormald, P. and Vreugde, S.},\n  year = {2022},\n  journal = {Bioinformatics},\n  volume = {39},\n  number = {1},\n  doi = {10.1093/bioinformatics/btac776},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:08:48.123429"
+    "last_updated": "2026-06-01T16:55:55.569242"
   },
   "coronaSPAdes": {
     "name": "coronaSPAdes",
@@ -5422,7 +5166,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:44:40.131295"
+    "last_updated": "2026-06-01T16:39:17.823284"
   },
   "metaviralSPAdes": {
     "name": "metaviralSPAdes",
@@ -5452,7 +5196,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:44:22.259429"
+    "last_updated": "2026-06-01T16:39:35.924083"
   },
   "VEGA": {
     "name": "VEGA",
@@ -5477,17 +5221,15 @@
       "doi": "10.1117/12.788824",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 1,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2010": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Clausse, J. (2008). Software structure for Vega/Chara instrument. SPIE Proceedings, 7019, 70191Q. https://doi.org/10.1117/12.788824",
         "bibtex": "@article{clausse2008,\n  title = {Software structure for Vega/Chara instrument},\n  author = {Clausse, J.},\n  year = {2008},\n  journal = {SPIE Proceedings},\n  volume = {7019},\n  pages = {70191Q},\n  doi = {10.1117/12.788824},\n}"
       }
     },
-    "last_updated": "2025-11-01T11:55:57.570916"
+    "last_updated": "2026-06-01T16:51:56.041319"
   },
   "CheckV": {
     "name": "CheckV",
@@ -5512,12 +5254,14 @@
           "biopython",
           "importlib-metadata",
           "numpy",
+          "pyrodigal-gv",
           "psutil",
           "requests",
           "kcounter",
+          "click",
+          "loguru",
           "diamond",
-          "hmmer",
-          "prodigal-gv"
+          "hmmer"
         ],
         "host": [
           "python",
@@ -5528,12 +5272,14 @@
           "biopython",
           "importlib-metadata",
           "numpy",
+          "pyrodigal-gv",
           "psutil",
           "requests",
           "kcounter",
+          "click",
+          "loguru",
           "diamond",
-          "hmmer",
-          "prodigal-gv"
+          "hmmer"
         ]
       },
       "installation": ""
@@ -5547,7 +5293,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:45:26.707972"
+    "last_updated": "2026-06-01T16:40:14.596359"
   },
   "viralComplete": {
     "name": "viralComplete",
@@ -5577,7 +5323,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:08:07.225080"
+    "last_updated": "2026-06-01T16:51:03.386798"
   },
   "viralVerify": {
     "name": "viralVerify",
@@ -5595,7 +5341,15 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [],
+        "run": [
+          "python",
+          "prodigal",
+          "hmmer"
+        ],
+        "host": []
+      },
       "installation": ""
     },
     "academic_impact": {
@@ -5607,7 +5361,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:07:17.823926"
+    "last_updated": "2026-06-01T16:42:26.649166"
   },
   "mulitPHATE": {
     "name": "mulitPHATE",
@@ -5637,7 +5391,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:08:41.267908"
+    "last_updated": "2026-06-01T16:42:40.913231"
   },
   "PhageClouds": {
     "name": "PhageClouds",
@@ -5667,7 +5421,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T11:58:22.481136"
+    "last_updated": "2026-06-01T16:43:05.065351"
   },
   "Prodigal": {
     "name": "Prodigal",
@@ -5685,20 +5439,7 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {
-        "build": [
-          "make",
-          "{{ compiler('c') }}",
-          "host:",
-          "unzip",
-          "zlib"
-        ],
-        "run": [],
-        "host": [
-          "unzip",
-          "zlib"
-        ]
-      },
+      "dependencies": {},
       "installation": ""
     },
     "academic_impact": {
@@ -5710,7 +5451,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:01:00.348164"
+    "last_updated": "2026-06-01T17:09:04.627061"
   },
   "MetaProdigal": {
     "name": "MetaProdigal",
@@ -5740,7 +5481,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:01:38.472355"
+    "last_updated": "2026-06-01T17:05:42.469936"
   },
   "GeneMarkS": {
     "name": "GeneMarkS",
@@ -5770,7 +5511,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:02:24.804862"
+    "last_updated": "2026-06-01T16:45:54.850006"
   },
   "GeneMarkS-2": {
     "name": "GeneMarkS-2",
@@ -5800,7 +5541,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:03:08.830869"
+    "last_updated": "2026-06-01T16:46:36.640374"
   },
   "PHANOTATE": {
     "name": "PHANOTATE",
@@ -5830,7 +5571,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:30:30.075201"
+    "last_updated": "2026-06-01T17:18:51.633055"
   },
   "PhageBoost": {
     "name": "PhageBoost",
@@ -5860,7 +5601,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:09:14.601603"
+    "last_updated": "2026-06-01T17:07:42.666723"
   },
   "GLIMMER": {
     "name": "GLIMMER",
@@ -5882,7 +5623,8 @@
         "build": [
           "make",
           "{{ compiler('c') }}",
-          "{{ compiler('cxx') }}"
+          "{{ compiler('cxx') }}",
+          "{{ stdlib('c') }}"
         ],
         "run": [],
         "host": []
@@ -5898,7 +5640,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:08:29.797439"
+    "last_updated": "2026-06-01T16:52:38.098995"
   },
   "VIGOR": {
     "name": "VIGOR",
@@ -5923,23 +5665,15 @@
       "doi": "10.1590/1678-992x-2016-0220",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 16,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 1,
-        "2024": 1,
-        "2022": 2,
-        "2021": 4,
-        "2020": 1,
-        "2019": 3,
-        "2018": 4
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Marchi, J., & Cicero, S. (2017). Use of the software Seed Vigor Imaging System (SVIS\u00ae) for assessing vigor of carrot seeds. Scientia Agricola, 74(6), 469-473. https://doi.org/10.1590/1678-992x-2016-0220",
         "bibtex": "@article{marchi2017,\n  title = {Use of the software Seed Vigor Imaging System (SVIS\u00ae) for assessing vigor of carrot seeds},\n  author = {Marchi, J. and Cicero, S.},\n  year = {2017},\n  journal = {Scientia Agricola},\n  volume = {74},\n  number = {6},\n  pages = {469-473},\n  doi = {10.1590/1678-992x-2016-0220},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:30:11.032413"
+    "last_updated": "2026-06-01T16:55:11.023247"
   },
   "PhageTerm": {
     "name": "PhageTerm",
@@ -5964,26 +5698,15 @@
       "doi": "10.1038/s41598-017-07910-5",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 536,
-      "influential_citations": 61,
-      "citations_by_year": {
-        "2025": 65,
-        "2024": 74,
-        "2023": 76,
-        "2022": 84,
-        "2021": 75,
-        "2020": 60,
-        "2019": 78,
-        "2018": 18,
-        "2017": 1,
-        "2026": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Garneau, J., Depardieu, F., Fortier, L., Bikard, D., & Monot, M. (2017). PhageTerm: a tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data. Scientific Reports, 7(1). https://doi.org/10.1038/s41598-017-07910-5",
         "bibtex": "@article{garneau2017,\n  title = {PhageTerm: a tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data},\n  author = {Garneau, J. and Depardieu, F. and Fortier, L. and Bikard, D. and Monot, M.},\n  year = {2017},\n  journal = {Scientific Reports},\n  volume = {7},\n  number = {1},\n  doi = {10.1038/s41598-017-07910-5},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:51:21.338399"
+    "last_updated": "2026-06-01T17:30:45.192468"
   },
   "VGAS": {
     "name": "VGAS",
@@ -6016,7 +5739,7 @@
         "bibtex": "@article{mansour2022,\n  title = {Parasitic-Aware Simulation-Based Optimization Design Tool for Current Steering VGAs},\n  author = {Mansour, N. and Elnozahi, M. and Ragaai, H.},\n  year = {2022},\n  journal = {Electronics},\n  volume = {12},\n  number = {1},\n  pages = {132},\n  doi = {10.3390/electronics12010132},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:21:15.287130"
+    "last_updated": "2026-06-01T17:18:39.652455"
   },
   "BERTax": {
     "name": "BERTax",
@@ -6046,7 +5769,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:26:04.504298"
+    "last_updated": "2026-06-01T17:06:44.253958"
   },
   "Classiphages 2.0": {
     "name": "Classiphages 2.0",
@@ -6076,7 +5799,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:10:07.505816"
+    "last_updated": "2026-06-01T17:07:18.629372"
   },
   "GraViTy": {
     "name": "GraViTy",
@@ -6109,7 +5832,7 @@
         "bibtex": ""
       }
     },
-    "last_updated": "2025-11-01T12:29:53.087420"
+    "last_updated": "2026-06-01T17:16:42.104522"
   },
   "PhaGCN": {
     "name": "PhaGCN",
@@ -6134,21 +5857,15 @@
       "doi": "10.1093/bioinformatics/btab293",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 93,
-      "influential_citations": 9,
-      "citations_by_year": {
-        "2025": 22,
-        "2024": 26,
-        "2023": 23,
-        "2022": 15,
-        "2021": 6
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Shang, J., Jiang, J., & Sun, Y. (2021). Bacteriophage classification for assembled contigs using graph convolutional network. Bioinformatics, 37(Supplement_1), i25-i33. https://doi.org/10.1093/bioinformatics/btab293",
         "bibtex": "@article{shang2021,\n  title = {Bacteriophage classification for assembled contigs using graph convolutional network},\n  author = {Shang, J. and Jiang, J. and Sun, Y.},\n  year = {2021},\n  journal = {Bioinformatics},\n  volume = {37},\n  number = {Supplement_1},\n  pages = {i25-i33},\n  doi = {10.1093/bioinformatics/btab293},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:30:16.962061"
+    "last_updated": "2026-06-01T17:18:18.170372"
   },
   "vConTACT": {
     "name": "vConTACT",
@@ -6178,7 +5895,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:26:33.592879"
+    "last_updated": "2026-06-01T17:09:30.365228"
   },
   "vConTACT2.0": {
     "name": "vConTACT2.0",
@@ -6208,7 +5925,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:27:11.349588"
+    "last_updated": "2026-06-01T17:10:05.623912"
   },
   "VICTOR": {
     "name": "VICTOR",
@@ -6238,7 +5955,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:29:40.830386"
+    "last_updated": "2026-06-01T17:17:48.812286"
   },
   "VIPtree": {
     "name": "VIPtree",
@@ -6263,27 +5980,15 @@
       "doi": "10.1093/bioinformatics/btx157",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 624,
-      "influential_citations": 75,
-      "citations_by_year": {
-        "2025": 135,
-        "2024": 143,
-        "2023": 132,
-        "2022": 84,
-        "2021": 70,
-        "2020": 29,
-        "2019": 14,
-        "2018": 8,
-        "2017": 1,
-        "2016": 1,
-        "1964": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Nishimura, Y., Yoshida, T., Kuronishi, M., Uehara, H., Ogata, H., & Goto, S. (2017). ViPTree: the viral proteomic tree server. Bioinformatics, 33(15), 2379-2380. https://doi.org/10.1093/bioinformatics/btx157",
         "bibtex": "@article{nishimura2017,\n  title = {ViPTree: the viral proteomic tree server},\n  author = {Nishimura, Y. and Yoshida, T. and Kuronishi, M. and Uehara, H. and Ogata, H. and Goto, S.},\n  year = {2017},\n  journal = {Bioinformatics},\n  volume = {33},\n  number = {15},\n  pages = {2379-2380},\n  doi = {10.1093/bioinformatics/btx157},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:31:03.738257"
+    "last_updated": "2026-06-01T17:18:06.133233"
   },
   "VIRIDIC": {
     "name": "VIRIDIC",
@@ -6313,7 +6018,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:30:29.067924"
+    "last_updated": "2026-06-01T17:18:18.182244"
   },
   "VIRify": {
     "name": "VIRify",
@@ -6343,7 +6048,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:31:26.803327"
+    "last_updated": "2026-06-01T17:19:15.708822"
   },
   "VirusTaxo": {
     "name": "VirusTaxo",
@@ -6368,11 +6073,12 @@
       "doi": "10.1016/j.ygeno.2022.110414",
       "citation_file": "README.md",
       "citation_format": "md",
-      "total_citations": 18,
-      "influential_citations": 1,
+      "total_citations": 23,
+      "influential_citations": 2,
       "citations_by_year": {
+        "2026": 4,
         "2025": 3,
-        "2024": 9,
+        "2024": 10,
         "2023": 5,
         "2022": 1
       },
@@ -6381,7 +6087,7 @@
         "bibtex": "@article{raju2022,\n  title = {VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment},\n  author = {Raju, R. and Al Nahid, A. and Chondrow Dev, P. and Islam, R.},\n  year = {2022},\n  journal = {Genomics},\n  volume = {114},\n  number = {4},\n  pages = {110414},\n  doi = {10.1016/j.ygeno.2022.110414},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:31:39.675932"
+    "last_updated": "2026-06-01T17:19:39.759441"
   },
   "VPF Tools": {
     "name": "VPF Tools",
@@ -6411,7 +6117,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:32:09.636689"
+    "last_updated": "2026-06-01T17:19:51.612547"
   },
   "FDA ARGOS": {
     "name": "FDA ARGOS",
@@ -6441,7 +6147,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:31:15.642862"
+    "last_updated": "2026-06-01T17:19:15.668330"
   },
   "ICTV Virus Metadata Resource (VMR)": {
     "name": "ICTV Virus Metadata Resource (VMR)",
@@ -6471,7 +6177,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:31:45.610029"
+    "last_updated": "2026-06-01T17:19:27.739096"
   },
   "NCBI RefSeq": {
     "name": "NCBI RefSeq",
@@ -6501,7 +6207,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:31:57.651121"
+    "last_updated": "2026-06-01T17:19:57.608103"
   },
   "NCBI GenBank": {
     "name": "NCBI GenBank",
@@ -6523,7 +6229,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.1101/420463",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -6531,7 +6237,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:32:09.864209"
+    "last_updated": "2026-06-01T17:20:04.530748"
   },
   "Reference Viral DataBase (RVDB), nucleic version": {
     "name": "Reference Viral DataBase (RVDB), nucleic version",
@@ -6561,7 +6267,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:32:21.729282"
+    "last_updated": "2026-06-01T17:20:09.647187"
   },
   "Reference Viral DataBase (RVDB), protein version": {
     "name": "Reference Viral DataBase (RVDB), protein version",
@@ -6591,7 +6297,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:32:27.666193"
+    "last_updated": "2026-06-01T17:20:21.956394"
   },
   "SIB Viral reference sequences": {
     "name": "SIB Viral reference sequences",
@@ -6621,7 +6327,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:32:39.709812"
+    "last_updated": "2026-06-01T17:20:33.945694"
   },
   "UniProt Virus proteomes": {
     "name": "UniProt Virus proteomes",
@@ -6651,7 +6357,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:32:51.734460"
+    "last_updated": "2026-06-01T17:20:33.933337"
   },
   "VirMet": {
     "name": "VirMet",
@@ -6675,29 +6381,39 @@
           "biopython",
           "blast",
           "bwa",
-          "entrez-direct",
+          "fastp",
           "htslib",
+          "kraken2",
+          "ncbi-datasets-cli",
+          "numpy",
           "pandas",
-          "prinseq",
           "python",
+          "requests",
           "r-ggplot2",
           "samtools",
+          "seqkit",
           "seqtk"
         ],
         "host": [
           "python",
           "pip",
+          "setuptools",
+          "setuptools-scm",
           "run:",
           "biopython",
           "blast",
           "bwa",
-          "entrez-direct",
+          "fastp",
           "htslib",
+          "kraken2",
+          "ncbi-datasets-cli",
+          "numpy",
           "pandas",
-          "prinseq",
           "python",
+          "requests",
           "r-ggplot2",
           "samtools",
+          "seqkit",
           "seqtk"
         ]
       },
@@ -6712,7 +6428,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:33:50.909778"
+    "last_updated": "2026-06-01T17:21:39.970546"
   },
   "Virosaurus": {
     "name": "Virosaurus",
@@ -6742,7 +6458,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:33:03.812179"
+    "last_updated": "2026-06-01T17:20:45.625802"
   },
   "Virus Pathogen Resource (ViPR)": {
     "name": "Virus Pathogen Resource (ViPR)",
@@ -6767,20 +6483,15 @@
       "doi": "10.1007/978-1-4939-8976-8_3",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 8,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2024": 1,
-        "2021": 2,
-        "2020": 4,
-        "2019": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Zhang, Y., Zmasek, C., Sun, G., Larsen, C., & Scheuermann, R. (2018). Hepatitis C Virus Database and Bioinformatics Analysis Tools in the Virus Pathogen Resource (ViPR). Methods in Molecular Biology, 47-69. https://doi.org/10.1007/978-1-4939-8976-8_3",
         "bibtex": "@article{zhang2018,\n  title = {Hepatitis C Virus Database and Bioinformatics Analysis Tools in the Virus Pathogen Resource (ViPR)},\n  author = {Zhang, Y. and Zmasek, C. and Sun, G. and Larsen, C. and Scheuermann, R.},\n  year = {2018},\n  journal = {Methods in Molecular Biology},\n  pages = {47-69},\n  doi = {10.1007/978-1-4939-8976-8_3},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:33:09.917550"
+    "last_updated": "2026-06-01T17:21:03.782518"
   },
   "Virion": {
     "name": "Virion",
@@ -6810,7 +6521,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:33:50.815385"
+    "last_updated": "2026-06-01T17:22:04.018138"
   },
   "CHVD": {
     "name": "CHVD",
@@ -6840,7 +6551,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:33:32.690794"
+    "last_updated": "2026-06-01T17:21:15.661820"
   },
   "Earth Virome": {
     "name": "Earth Virome",
@@ -6870,7 +6581,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:33:44.842029"
+    "last_updated": "2026-06-01T17:21:21.956869"
   },
   "GOV-RNA": {
     "name": "GOV-RNA",
@@ -6900,7 +6611,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:34:04.815781"
+    "last_updated": "2026-06-01T17:21:45.908046"
   },
   "GOV2.0": {
     "name": "GOV2.0",
@@ -6930,7 +6641,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:34:17.410189"
+    "last_updated": "2026-06-01T17:21:51.749485"
   },
   "GPDB": {
     "name": "GPDB",
@@ -6955,19 +6666,15 @@
       "doi": "10.3410/f.4836956.4766057",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 3,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2014": 1,
-        "2012": 1,
-        "2011": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Ritchie, M., & Bush, W. (2010). Faculty Opinions recommendation of GPCRs, G-proteins, effectors and their interactions: human-gpDB, a database employing visualization tools and data integration techniques.. Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature. https://doi.org/10.3410/f.4836956.4766057",
         "bibtex": "@article{ritchie2010,\n  title = {Faculty Opinions recommendation of GPCRs, G-proteins, effectors and their interactions: human-gpDB, a database employing visualization tools and data integration techniques.},\n  author = {Ritchie, M. and Bush, W.},\n  year = {2010},\n  journal = {Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature},\n  doi = {10.3410/f.4836956.4766057},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:34:26.948001"
+    "last_updated": "2026-06-01T17:22:04.010543"
   },
   "GVD": {
     "name": "GVD",
@@ -6989,20 +6696,15 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.4108/eetsis.5056",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 1,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2024": 1
-      },
-      "formatted_citations": {
-        "apa": "Wang, H., Qu, Z., & Sun, L. (2024). E-GVD: Efficient Software Vulnerability Detection Techniques Based on Graph Neural Network. ICST Transactions on Scalable Information Systems. https://doi.org/10.4108/eetsis.5056",
-        "bibtex": "@article{wang2024,\n  title = {E-GVD: Efficient Software Vulnerability Detection Techniques Based on Graph Neural Network},\n  author = {Wang, H. and Qu, Z. and Sun, L.},\n  year = {2024},\n  journal = {ICST Transactions on Scalable Information Systems},\n  doi = {10.4108/eetsis.5056},\n}"
-      }
+      "citations_by_year": {},
+      "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:34:45.082232"
+    "last_updated": "2026-06-01T17:22:22.253866"
   },
   "KEGG Virus": {
     "name": "KEGG Virus",
@@ -7032,7 +6734,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:34:38.784444"
+    "last_updated": "2026-06-01T17:22:27.807095"
   },
   "mMGE": {
     "name": "mMGE",
@@ -7062,7 +6764,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:34:53.438136"
+    "last_updated": "2026-06-01T17:22:33.740454"
   },
   "PhagesDB": {
     "name": "PhagesDB",
@@ -7092,7 +6794,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:35:15.124872"
+    "last_updated": "2026-06-01T17:22:45.785722"
   },
   "ViromeDB": {
     "name": "ViromeDB",
@@ -7122,7 +6824,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:35:15.055826"
+    "last_updated": "2026-06-01T17:22:45.779781"
   },
   "Viruses.String": {
     "name": "Viruses.String",
@@ -7152,7 +6854,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:35:21.230550"
+    "last_updated": "2026-06-01T17:23:04.170578"
   },
   "OLGenie": {
     "name": "OLGenie",
@@ -7177,9 +6879,11 @@
       "doi": "10.1093/molbev/msaa087",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 23,
+      "total_citations": 26,
       "influential_citations": 1,
       "citations_by_year": {
+        "2026": 1,
+        "2025": 2,
         "2024": 1,
         "2023": 3,
         "2022": 4,
@@ -7191,7 +6895,7 @@
         "bibtex": "@article{nelson2020,\n  title = {OLGenie: Estimating Natural Selection to Predict Functional Overlapping Genes},\n  author = {Nelson, C. and Ardern, Z. and Wei, X.},\n  year = {2020},\n  journal = {Molecular Biology and Evolution},\n  doi = {10.1093/molbev/msaa087},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:36:10.053408"
+    "last_updated": "2026-06-01T17:23:44.590529"
   },
   "SNPGenie": {
     "name": "SNPGenie",
@@ -7231,7 +6935,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:36:29.123099"
+    "last_updated": "2026-06-01T17:24:05.424359"
   },
   "VCFgenie": {
     "name": "VCFgenie",
@@ -7261,7 +6965,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:42:10.996006"
+    "last_updated": "2026-06-01T17:24:23.483286"
   },
   "VIPERA": {
     "name": "VIPERA",
@@ -7283,15 +6987,18 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.1093/ve/veae018)",
-      "citation_file": "CITATION.cff",
-      "citation_format": "cff",
+      "doi": "10.1093/ve/veae018",
+      "citation_file": "README.md",
+      "citation_format": "md",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "\u00c1lvarez-Herrera, M., Sevilla, J., Ruiz-Rodriguez, P., Vergara, A., Vila, J., Cano-Jim\u00e9nez, P., ... Coscoll\u00e1, M. (2024). VIPERA: Viral Intra-Patient Evolution Reporting and Analysis. Virus Evolution, 10(1). https://doi.org/10.1093/ve/veae018",
+        "bibtex": "@article{\u00e1lvarez-herrera2024,\n  title = {VIPERA: Viral Intra-Patient Evolution Reporting and Analysis},\n  author = {\u00c1lvarez-Herrera, M. and Sevilla, J. and Ruiz-Rodriguez, P. and Vergara, A. and Vila, J. and Cano-Jim\u00e9nez, P. and Gonz\u00e1lez-Candelas, F. and Comas, I. and Coscoll\u00e1, M.},\n  year = {2024},\n  journal = {Virus Evolution},\n  volume = {10},\n  number = {1},\n  doi = {10.1093/ve/veae018},\n}"
+      }
     },
-    "last_updated": "2025-11-01T12:35:57.107987"
+    "last_updated": "2026-06-01T17:24:11.280295"
   },
   "BACPHLIP": {
     "name": "BACPHLIP",
@@ -7340,7 +7047,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:41:53.086929"
+    "last_updated": "2026-06-01T17:24:35.176492"
   },
   "PHACTS": {
     "name": "PHACTS",
@@ -7370,7 +7077,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:37:43.565429"
+    "last_updated": "2026-06-01T17:24:59.344306"
   },
   "PhageAI": {
     "name": "PhageAI",
@@ -7400,7 +7107,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:36:53.278837"
+    "last_updated": "2026-06-01T17:24:47.356755"
   },
   "Phanotate": {
     "name": "Phanotate",
@@ -7418,7 +7125,54 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [
+          "{{ compiler('cxx') }}",
+          "host:",
+          "pip",
+          "python",
+          "setuptools",
+          "run:",
+          "python",
+          "setuptools",
+          "matplotlib-base",
+          "scipy",
+          "seaborn-base",
+          "statsmodels",
+          "backports.tempfile",
+          "textwrap3",
+          "trnascan-se",
+          "genbank"
+        ],
+        "run": [
+          "python",
+          "setuptools",
+          "matplotlib-base",
+          "scipy",
+          "seaborn-base",
+          "statsmodels",
+          "backports.tempfile",
+          "textwrap3",
+          "trnascan-se",
+          "genbank"
+        ],
+        "host": [
+          "pip",
+          "python",
+          "setuptools",
+          "run:",
+          "python",
+          "setuptools",
+          "matplotlib-base",
+          "scipy",
+          "seaborn-base",
+          "statsmodels",
+          "backports.tempfile",
+          "textwrap3",
+          "trnascan-se",
+          "genbank"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
@@ -7430,7 +7184,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:36:59.306488"
+    "last_updated": "2026-06-01T17:24:41.286616"
   },
   "PHROGs": {
     "name": "PHROGs",
@@ -7460,7 +7214,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:37:31.485837"
+    "last_updated": "2026-06-01T17:24:59.204439"
   },
   "PHRED": {
     "name": "PHRED",
@@ -7485,22 +7239,15 @@
       "doi": "10.1111/j.1399-0039.2004.00283.x",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 14,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2019": 1,
-        "2014": 3,
-        "2013": 1,
-        "2009": 1,
-        "2007": 7,
-        "2012": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Sayer, D., Goodridge, D., & Christiansen, F. (2004). Assign 2.0: software for the analysis of Phred quality values for quality control of HLA sequencing\u2010based typing. Tissue Antigens, 64(5), 556-565. https://doi.org/10.1111/j.1399-0039.2004.00283.x",
         "bibtex": "@article{sayer2004,\n  title = {Assign 2.0: software for the analysis of Phred quality values for quality control of HLA sequencing\u2010based typing},\n  author = {Sayer, D. and Goodridge, D. and Christiansen, F.},\n  year = {2004},\n  journal = {Tissue Antigens},\n  volume = {64},\n  number = {5},\n  pages = {556-565},\n  doi = {10.1111/j.1399-0039.2004.00283.x},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:37:49.626874"
+    "last_updated": "2026-06-01T17:25:23.340549"
   },
   "SpikeHunter": {
     "name": "SpikeHunter",
@@ -7530,7 +7277,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:39:05.473383"
+    "last_updated": "2026-06-01T17:26:26.688146"
   },
   "efam": {
     "name": "efam",
@@ -7560,7 +7307,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:38:27.539834"
+    "last_updated": "2026-06-01T17:25:29.367418"
   },
   "pVOGs": {
     "name": "pVOGs",
@@ -7590,7 +7337,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:38:33.560774"
+    "last_updated": "2026-06-01T17:25:41.804875"
   },
   "VogDB": {
     "name": "VogDB",
@@ -7620,7 +7367,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:39:18.065999"
+    "last_updated": "2026-06-01T17:25:47.530447"
   },
   "MaGplotR": {
     "name": "MaGplotR",
@@ -7650,7 +7397,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:39:40.492510"
+    "last_updated": "2026-06-01T17:26:38.905484"
   },
   "SpacePHARER": {
     "name": "SpacePHARER",
@@ -7668,7 +7415,42 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [
+          "{{ compiler('cxx') }}",
+          "{{ compiler('c') }}",
+          "cmake",
+          "make",
+          "llvm-openmp  # [osx]",
+          "libgomp      # [linux]",
+          "perl",
+          "host:",
+          "gawk",
+          "zlib",
+          "bzip2",
+          "run:",
+          "wget",
+          "gawk",
+          "zlib",
+          "bzip2"
+        ],
+        "run": [
+          "wget",
+          "gawk",
+          "zlib",
+          "bzip2"
+        ],
+        "host": [
+          "gawk",
+          "zlib",
+          "bzip2",
+          "run:",
+          "wget",
+          "gawk",
+          "zlib",
+          "bzip2"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
@@ -7680,7 +7462,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:45:12.087588"
+    "last_updated": "2026-06-01T17:26:50.822310"
   },
   "ViralMSA": {
     "name": "ViralMSA",
@@ -7727,7 +7509,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:45:35.945728"
+    "last_updated": "2026-06-01T17:27:02.847575"
   },
   "pygenetic_code": {
     "name": "pygenetic_code",
@@ -7773,15 +7555,15 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": null,
-      "citation_file": "",
-      "citation_format": "",
+      "doi": "10.5281/zenodo.10428670",
+      "citation_file": "citation.cff",
+      "citation_format": "cff",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:46:13.267191"
+    "last_updated": "2026-06-01T17:26:32.759873"
   },
   "BVBRC": {
     "name": "BVBRC",
@@ -7811,7 +7593,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:42:34.955421"
+    "last_updated": "2026-06-01T17:27:03.513690"
   },
   "iVirus 2.0": {
     "name": "iVirus 2.0",
@@ -7841,7 +7623,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:42:52.969170"
+    "last_updated": "2026-06-01T17:27:15.241195"
   },
   "PlaqueSizeTool": {
     "name": "PlaqueSizeTool",
@@ -7871,7 +7653,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:48:38.163695"
+    "last_updated": "2026-06-01T17:27:44.677599"
   },
   "PlaqueSizeTool (colab)": {
     "name": "PlaqueSizeTool (colab)",
@@ -7901,7 +7683,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:43:31.529319"
+    "last_updated": "2026-06-01T17:27:32.813359"
   },
   "FAVITES": {
     "name": "FAVITES",
@@ -7931,7 +7713,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:45:23.840346"
+    "last_updated": "2026-06-01T17:28:26.709545"
   },
   "FAVITES-Lite": {
     "name": "FAVITES-Lite",
@@ -7961,7 +7743,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:46:23.991870"
+    "last_updated": "2026-06-01T17:28:20.676618"
   },
   "ViromeQC": {
     "name": "ViromeQC",
@@ -8013,7 +7795,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:46:48.765174"
+    "last_updated": "2026-06-01T17:28:44.979910"
   },
   "vAMPirus": {
     "name": "vAMPirus",
@@ -8043,7 +7825,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:51:54.465626"
+    "last_updated": "2026-06-01T17:29:33.216768"
   },
   "COBRA": {
     "name": "COBRA",
@@ -8114,7 +7896,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:31:39.950959"
+    "last_updated": "2026-06-01T17:29:39.166321"
   },
   "Phables": {
     "name": "Phables",
@@ -8132,7 +7914,32 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [],
+        "run": [
+          "python",
+          "snakemake-minimal",
+          "pyyaml",
+          "click",
+          "jinja2",
+          "mamba",
+          "metasnek",
+          "snaketool-utils"
+        ],
+        "host": [
+          "python",
+          "pip",
+          "run:",
+          "python",
+          "snakemake-minimal",
+          "pyyaml",
+          "click",
+          "jinja2",
+          "mamba",
+          "metasnek",
+          "snaketool-utils"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
@@ -8144,7 +7951,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:51:48.334827"
+    "last_updated": "2026-06-01T17:33:47.869160"
   },
   "VStrains": {
     "name": "VStrains",
@@ -8174,7 +7981,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:49:03.922250"
+    "last_updated": "2026-06-01T17:30:46.923756"
   },
   "TrIdent": {
     "name": "TrIdent",
@@ -8196,18 +8003,15 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.26599/tst.2020.9010018",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {
-        "apa": "Hu, X., Xiang, Y., Li, Y., Qiu, B., Wang, K., & Li, J. (2021). Trident: Efficient and practical software network monitoring. Tsinghua Science and Technology, 26(4), 452-463. https://doi.org/10.26599/tst.2020.9010018",
-        "bibtex": "@article{hu2021,\n  title = {Trident: Efficient and practical software network monitoring},\n  author = {Hu, X. and Xiang, Y. and Li, Y. and Qiu, B. and Wang, K. and Li, J.},\n  year = {2021},\n  journal = {Tsinghua Science and Technology},\n  volume = {26},\n  number = {4},\n  pages = {452-463},\n  doi = {10.26599/tst.2020.9010018},\n}"
-      }
+      "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:49:27.142898"
+    "last_updated": "2026-06-01T17:29:20.976811"
   },
   "DeepVHPPI": {
     "name": "DeepVHPPI",
@@ -8237,7 +8041,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:50:31.963001"
+    "last_updated": "2026-06-01T17:31:02.083047"
   },
   "DePP": {
     "name": "DePP",
@@ -8262,19 +8066,15 @@
       "doi": "10.1186/s12859-023-05341-w",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 25,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 8,
-        "2024": 14,
-        "2023": 3
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Magill, D., & Skvortsov, T. (2023). DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases. BMC Bioinformatics, 24(1). https://doi.org/10.1186/s12859-023-05341-w",
         "bibtex": "@article{magill2023,\n  title = {DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases},\n  author = {Magill, D. and Skvortsov, T.},\n  year = {2023},\n  journal = {BMC Bioinformatics},\n  volume = {24},\n  number = {1},\n  doi = {10.1186/s12859-023-05341-w},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:50:20.224920"
+    "last_updated": "2026-06-01T17:30:23.219123"
   },
   "PhageDPO": {
     "name": "PhageDPO",
@@ -8304,7 +8104,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:51:08.379123"
+    "last_updated": "2026-06-01T17:30:23.070141"
   },
   "PhageTB": {
     "name": "PhageTB",
@@ -8326,7 +8126,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": null,
+      "doi": "10.5281/zenodo.19950607",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -8334,7 +8134,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:52:18.281849"
+    "last_updated": "2026-06-01T17:31:49.603779"
   },
   "PhagePromoter": {
     "name": "PhagePromoter",
@@ -8364,7 +8164,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:08:56.693046"
+    "last_updated": "2026-06-01T17:37:19.670935"
   },
   "VIRMOTIF": {
     "name": "VIRMOTIF",
@@ -8389,20 +8189,15 @@
       "doi": "10.3390/genes12020186",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 23,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2025": 1,
-        "2023": 5,
-        "2022": 13,
-        "2021": 4
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Rajaei, P., Jahanian, K., Beheshti, A., Band, S., Dehzangi, A., & Alinejad-Rokny, H. (2021). VIRMOTIF: A User-Friendly Tool for Viral Sequence Analysis. Genes, 12(2), 186. https://doi.org/10.3390/genes12020186",
         "bibtex": "@article{rajaei2021,\n  title = {VIRMOTIF: A User-Friendly Tool for Viral Sequence Analysis},\n  author = {Rajaei, P. and Jahanian, K. and Beheshti, A. and Band, S. and Dehzangi, A. and Alinejad-Rokny, H.},\n  year = {2021},\n  journal = {Genes},\n  volume = {12},\n  number = {2},\n  pages = {186},\n  doi = {10.3390/genes12020186},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:52:30.393194"
+    "last_updated": "2026-06-01T17:31:23.054728"
   },
   "AlphaFold-Multimer": {
     "name": "AlphaFold-Multimer",
@@ -8432,7 +8227,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:29:46.609207"
+    "last_updated": "2026-06-01T17:37:25.352994"
   },
   "HNADOCK": {
     "name": "HNADOCK",
@@ -8462,7 +8257,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:52:59.533161"
+    "last_updated": "2026-06-01T17:32:03.317241"
   },
   "I-TASSER": {
     "name": "I-TASSER",
@@ -8487,18 +8282,15 @@
       "doi": "10.1093/bioinformatics/btab871",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 4,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2024": 1,
-        "2022": 3
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "MacCarthy, E., Zhang, C., Zhang, Y., & KC, D. (2022). GPU-I-TASSER: a GPU accelerated I-TASSER protein structure prediction tool. Bioinformatics, 38(6), 1754-1755. https://doi.org/10.1093/bioinformatics/btab871",
         "bibtex": "@article{maccarthy2022,\n  title = {GPU-I-TASSER: a GPU accelerated I-TASSER protein structure prediction tool},\n  author = {MacCarthy, E. and Zhang, C. and Zhang, Y. and KC, D.},\n  year = {2022},\n  journal = {Bioinformatics},\n  volume = {38},\n  number = {6},\n  pages = {1754-1755},\n  doi = {10.1093/bioinformatics/btab871},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:53:35.560339"
+    "last_updated": "2026-06-01T17:32:42.623650"
   },
   "VIPERdb": {
     "name": "VIPERdb",
@@ -8523,23 +8315,15 @@
       "doi": "10.1146/annurev-virology-092917-043405",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 35,
-      "influential_citations": 3,
-      "citations_by_year": {
-        "2025": 4,
-        "2024": 2,
-        "2023": 4,
-        "2022": 5,
-        "2021": 7,
-        "2020": 12,
-        "2019": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Ho, P., Montiel-Garcia, D., Wong, J., Carrillo-Tripp, M., Brooks, C., Johnson, J., & Reddy, V. (2018). VIPERdb: A Tool for Virus Research. Annual Review of Virology, 5(1), 477-488. https://doi.org/10.1146/annurev-virology-092917-043405",
         "bibtex": "@article{ho2018,\n  title = {VIPERdb: A Tool for Virus Research},\n  author = {Ho, P. and Montiel-Garcia, D. and Wong, J. and Carrillo-Tripp, M. and Brooks, C. and Johnson, J. and Reddy, V.},\n  year = {2018},\n  journal = {Annual Review of Virology},\n  volume = {5},\n  number = {1},\n  pages = {477-488},\n  doi = {10.1146/annurev-virology-092917-043405},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:53:53.655889"
+    "last_updated": "2026-06-01T17:32:54.678768"
   },
   "VIRALpro": {
     "name": "VIRALpro",
@@ -8564,25 +8348,15 @@
       "doi": "10.1093/bioinformatics/btv727",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 25,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 2,
-        "2024": 2,
-        "2023": 1,
-        "2022": 2,
-        "2021": 6,
-        "2020": 6,
-        "2019": 1,
-        "2018": 3,
-        "2017": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Galiez, C., Magnan, C., Coste, F., & Baldi, P. (2016). VIRALpro: a tool to identify viral capsid and tail sequences. Bioinformatics, 32(9), 1405-1407. https://doi.org/10.1093/bioinformatics/btv727",
         "bibtex": "@article{galiez2016,\n  title = {VIRALpro: a tool to identify viral capsid and tail sequences},\n  author = {Galiez, C. and Magnan, C. and Coste, F. and Baldi, P.},\n  year = {2016},\n  journal = {Bioinformatics},\n  volume = {32},\n  number = {9},\n  pages = {1405-1407},\n  doi = {10.1093/bioinformatics/btv727},\n}"
       }
     },
-    "last_updated": "2025-11-01T12:54:16.956032"
+    "last_updated": "2026-06-01T17:33:19.931818"
   },
   "AMRFinder": {
     "name": "AMRFinder",
@@ -8612,7 +8386,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:16:13.011468"
+    "last_updated": "2026-06-01T17:35:12.069280"
   },
   "PHANOTATE-AMR": {
     "name": "PHANOTATE-AMR",
@@ -8642,7 +8416,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T12:55:01.223569"
+    "last_updated": "2026-06-01T17:34:00.092686"
   },
   "ResFinder": {
     "name": "ResFinder",
@@ -8660,26 +8434,52 @@
     "bioconda": {
       "package": "",
       "version": "",
-      "dependencies": {},
+      "dependencies": {
+        "build": [],
+        "run": [
+          "python",
+          "cgelib",
+          "cgecore",
+          "tabulate",
+          "pandas",
+          "biopython",
+          "python-dateutil",
+          "kma",
+          "blast",
+          "git"
+        ],
+        "host": [
+          "python",
+          "pip",
+          "pdm-backend",
+          "run:",
+          "python",
+          "cgelib",
+          "cgecore",
+          "tabulate",
+          "pandas",
+          "biopython",
+          "python-dateutil",
+          "kma",
+          "blast",
+          "git"
+        ]
+      },
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.1128/aac.03113-14",
+      "doi": "10.1128/aac.02620-14",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 5,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2022": 1,
-        "2017": 3,
-        "2016": 1
-      },
+      "citations_by_year": {},
       "formatted_citations": {
-        "apa": "Gupta, S., & Rolain, J. (2014). Reply to \u201cComparison of the Web Tools ARG-ANNOT and ResFinder for Detection of Resistance Genes in Bacteria\u201d. Antimicrobial Agents and Chemotherapy, 58(8), 4987-4987. https://doi.org/10.1128/aac.03113-14",
-        "bibtex": "@article{gupta2014,\n  title = {Reply to \u201cComparison of the Web Tools ARG-ANNOT and ResFinder for Detection of Resistance Genes in Bacteria\u201d},\n  author = {Gupta, S. and Rolain, J.},\n  year = {2014},\n  journal = {Antimicrobial Agents and Chemotherapy},\n  volume = {58},\n  number = {8},\n  pages = {4987-4987},\n  doi = {10.1128/aac.03113-14},\n}"
+        "apa": "Zankari, E. (2014). Comparison of the Web Tools ARG-ANNOT and ResFinder for Detection of Resistance Genes in Bacteria. Antimicrobial Agents and Chemotherapy, 58(8), 4986-4986. https://doi.org/10.1128/aac.02620-14",
+        "bibtex": "@article{zankari2014,\n  title = {Comparison of the Web Tools ARG-ANNOT and ResFinder for Detection of Resistance Genes in Bacteria},\n  author = {Zankari, E.},\n  year = {2014},\n  journal = {Antimicrobial Agents and Chemotherapy},\n  volume = {58},\n  number = {8},\n  pages = {4986-4986},\n  doi = {10.1128/aac.02620-14},\n}"
       }
     },
-    "last_updated": "2025-11-01T13:12:22.110085"
+    "last_updated": "2026-06-01T17:35:12.046200"
   },
   "VirAMR": {
     "name": "VirAMR",
@@ -8709,7 +8509,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:16:41.607712"
+    "last_updated": "2026-06-01T18:00:58.531721"
   },
   "metaviralSPAdes-RNA": {
     "name": "metaviralSPAdes-RNA",
@@ -8739,7 +8539,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:13:07.028844"
+    "last_updated": "2026-06-01T17:35:52.233274"
   },
   "VirMine-RNA": {
     "name": "VirMine-RNA",
@@ -8769,7 +8569,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:13:51.685833"
+    "last_updated": "2026-06-01T17:35:58.076237"
   },
   "VirusTAP": {
     "name": "VirusTAP",
@@ -8794,26 +8594,15 @@
       "doi": "10.3389/fmicb.2016.00032",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 59,
+      "total_citations": 0,
       "influential_citations": 0,
-      "citations_by_year": {
-        "2025": 1,
-        "2024": 2,
-        "2023": 2,
-        "2022": 6,
-        "2021": 4,
-        "2020": 15,
-        "2019": 8,
-        "2018": 6,
-        "2017": 12,
-        "2016": 2
-      },
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Yamashita, A., Sekizuka, T., & Kuroda, M. (2016). VirusTAP: Viral Genome-Targeted Assembly Pipeline. Frontiers in Microbiology, 7. https://doi.org/10.3389/fmicb.2016.00032",
         "bibtex": "@article{yamashita2016,\n  title = {VirusTAP: Viral Genome-Targeted Assembly Pipeline},\n  author = {Yamashita, A. and Sekizuka, T. and Kuroda, M.},\n  year = {2016},\n  journal = {Frontiers in Microbiology},\n  volume = {7},\n  doi = {10.3389/fmicb.2016.00032},\n}"
       }
     },
-    "last_updated": "2025-11-01T13:16:19.109320"
+    "last_updated": "2026-06-01T17:44:09.779285"
   },
   "CliqueSNV": {
     "name": "CliqueSNV",
@@ -8850,7 +8639,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:32:16.338636"
+    "last_updated": "2026-06-01T17:48:18.419736"
   },
   "QuRe": {
     "name": "QuRe",
@@ -8875,31 +8664,15 @@
       "doi": "10.1093/bioinformatics/btr627",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 147,
-      "influential_citations": 10,
-      "citations_by_year": {
-        "2025": 2,
-        "2023": 1,
-        "2022": 5,
-        "2021": 5,
-        "2020": 19,
-        "2019": 10,
-        "2018": 14,
-        "2017": 12,
-        "2016": 22,
-        "2015": 16,
-        "2014": 19,
-        "2013": 15,
-        "2012": 5,
-        "2011": 1,
-        "2010": 1
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Prosperi, M., & Salemi, M. (2011). QuRe: software for viral quasispecies reconstruction from next-generation sequencing data. Bioinformatics, 28(1), 132-133. https://doi.org/10.1093/bioinformatics/btr627",
         "bibtex": "@article{prosperi2011,\n  title = {QuRe: software for viral quasispecies reconstruction from next-generation sequencing data},\n  author = {Prosperi, M. and Salemi, M.},\n  year = {2011},\n  journal = {Bioinformatics},\n  volume = {28},\n  number = {1},\n  pages = {132-133},\n  doi = {10.1093/bioinformatics/btr627},\n}"
       }
     },
-    "last_updated": "2025-11-01T13:17:05.660345"
+    "last_updated": "2026-06-01T17:37:58.600766"
   },
   "ShoRAH": {
     "name": "ShoRAH",
@@ -8929,7 +8702,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:43:28.941791"
+    "last_updated": "2026-06-01T17:39:36.050504"
   },
   "V-pipe": {
     "name": "V-pipe",
@@ -8959,7 +8732,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:18:58.148244"
+    "last_updated": "2026-06-01T18:00:33.899207"
   },
   "ViQuaS": {
     "name": "ViQuaS",
@@ -9004,7 +8777,7 @@
         "bibtex": "@article{jayasundara2014,\n  title = {ViQuaS: an improved reconstruction pipeline for viral quasispecies spectra generated by next-generation sequencing},\n  author = {Jayasundara, D. and Saeed, I. and Maheswararajah, S. and Chang, B. and Tang, S. and Halgamuge, S.},\n  year = {2014},\n  journal = {Bioinformatics},\n  volume = {31},\n  number = {6},\n  pages = {886-896},\n  doi = {10.1093/bioinformatics/btu754},\n}"
       }
     },
-    "last_updated": "2025-11-01T13:38:40.956556"
+    "last_updated": "2026-06-01T17:43:19.984408"
   },
   "CloVR-Microbe": {
     "name": "CloVR-Microbe",
@@ -9034,7 +8807,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:39:31.576956"
+    "last_updated": "2026-06-01T17:45:02.941602"
   },
   "IDseq": {
     "name": "IDseq",
@@ -9062,9 +8835,12 @@
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
-      "formatted_citations": {}
+      "formatted_citations": {
+        "apa": "Kalantar, K., Carvalho, T., de Bourcy, C., Dimitrov, B., Dingle, G., Egger, R., ... DeRisi, J. (2020). IDseq\u2014An open source cloud-based pipeline and analysis service for metagenomic pathogen detection and monitoring. GigaScience, 9(10). https://doi.org/10.1093/gigascience/giaa111",
+        "bibtex": "@article{kalantar2020,\n  title = {IDseq\u2014An open source cloud-based pipeline and analysis service for metagenomic pathogen detection and monitoring},\n  author = {Kalantar, K. and Carvalho, T. and de Bourcy, C. and Dimitrov, B. and Dingle, G. and Egger, R. and Han, J. and Holmes, O. and Juan, Y. and King, R. and Kislyuk, A. and Lin, M. and Mariano, M. and Morse, T. and Reynoso, L. and Cruz, D. and Sheu, J. and Tang, J. and Wang, J. and Zhang, M. and Zhong, E. and Ahyong, V. and Lay, S. and Chea, S. and Bohl, J. and Manning, J. and Tato, C. and DeRisi, J.},\n  year = {2020},\n  journal = {GigaScience},\n  volume = {9},\n  number = {10},\n  doi = {10.1093/gigascience/giaa111},\n}"
+      }
     },
-    "last_updated": "2025-11-01T13:43:23.045600"
+    "last_updated": "2026-06-01T18:01:09.933385"
   },
   "Viral Beacon": {
     "name": "Viral Beacon",
@@ -9094,7 +8870,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:39:55.603673"
+    "last_updated": "2026-06-01T17:47:27.921399"
   },
   "Viral-NGS": {
     "name": "Viral-NGS",
@@ -9116,15 +8892,15 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.252549)",
-      "citation_file": "",
-      "citation_format": "",
+      "doi": "10.5281/zenodo.20449343",
+      "citation_file": "README.md",
+      "citation_format": "md",
       "total_citations": 0,
       "influential_citations": 0,
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:39:55.705840"
+    "last_updated": "2026-06-01T18:08:55.277672"
   },
   "CHERRY-models": {
     "name": "CHERRY-models",
@@ -9149,20 +8925,15 @@
       "doi": "10.1093/bib/bbac182",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 54,
-      "influential_citations": 5,
-      "citations_by_year": {
-        "2025": 14,
-        "2024": 22,
-        "2023": 13,
-        "2022": 5
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Shang, J., & Sun, Y. (2022). CHERRY: a Computational metHod for accuratE pRediction of virus\u2013pRokarYotic interactions using a graph encoder\u2013decoder model. Briefings in Bioinformatics, 23(5). https://doi.org/10.1093/bib/bbac182",
         "bibtex": "@article{shang2022,\n  title = {CHERRY: a Computational metHod for accuratE pRediction of virus\u2013pRokarYotic interactions using a graph encoder\u2013decoder model},\n  author = {Shang, J. and Sun, Y.},\n  year = {2022},\n  journal = {Briefings in Bioinformatics},\n  volume = {23},\n  number = {5},\n  doi = {10.1093/bib/bbac182},\n}"
       }
     },
-    "last_updated": "2025-11-01T13:39:47.465894"
+    "last_updated": "2026-06-01T17:48:34.790256"
   },
   "DeepVirFinder-models": {
     "name": "DeepVirFinder-models",
@@ -9192,7 +8963,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:40:34.852241"
+    "last_updated": "2026-06-01T17:49:16.706404"
   },
   "PhaTYP-models": {
     "name": "PhaTYP-models",
@@ -9222,7 +8993,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:44:41.512534"
+    "last_updated": "2026-06-01T18:06:48.248943"
   },
   "ViraMiner-models": {
     "name": "ViraMiner-models",
@@ -9252,7 +9023,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:40:43.712036"
+    "last_updated": "2026-06-01T18:01:16.120768"
   },
   "MAVERIC": {
     "name": "MAVERIC",
@@ -9282,7 +9053,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:44:29.743081"
+    "last_updated": "2026-06-01T18:07:47.481800"
   },
   "scViroCap": {
     "name": "scViroCap",
@@ -9312,7 +9083,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:44:35.240266"
+    "last_updated": "2026-06-01T18:08:49.023044"
   },
   "scVIRseq": {
     "name": "scVIRseq",
@@ -9342,7 +9113,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:45:06.033983"
+    "last_updated": "2026-06-01T18:09:01.209835"
   },
   "Viral-Track": {
     "name": "Viral-Track",
@@ -9372,7 +9143,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:45:17.324169"
+    "last_updated": "2026-06-01T18:08:25.273076"
   },
   "GlycoProtViz": {
     "name": "GlycoProtViz",
@@ -9402,7 +9173,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:46:17.648257"
+    "last_updated": "2026-06-01T18:09:37.010152"
   },
   "GlyConnect": {
     "name": "GlyConnect",
@@ -9432,7 +9203,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:45:23.272817"
+    "last_updated": "2026-06-01T18:09:07.403195"
   },
   "NetNGlyc": {
     "name": "NetNGlyc",
@@ -9462,7 +9233,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:45:29.523025"
+    "last_updated": "2026-06-01T18:09:31.217239"
   },
   "pGlyco": {
     "name": "pGlyco",
@@ -9487,21 +9258,19 @@
       "doi": "10.1038/s41592-021-01306-0",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 141,
-      "influential_citations": 4,
+      "total_citations": 179,
+      "influential_citations": 7,
       "citations_by_year": {
-        "2025": 37,
+        "2026": 21,
+        "2025": 53,
         "2024": 42,
         "2023": 37,
         "2022": 23,
         "2021": 2
       },
-      "formatted_citations": {
-        "apa": "Zeng, W., Cao, W., Liu, M., He, S., & Yang, P. (2021). Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3. Nature Methods, 18(12), 1515-1523. https://doi.org/10.1038/s41592-021-01306-0",
-        "bibtex": "@article{zeng2021,\n  title = {Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3},\n  author = {Zeng, W. and Cao, W. and Liu, M. and He, S. and Yang, P.},\n  year = {2021},\n  journal = {Nature Methods},\n  volume = {18},\n  number = {12},\n  pages = {1515-1523},\n  doi = {10.1038/s41592-021-01306-0},\n}"
-      }
+      "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:46:29.712997"
+    "last_updated": "2026-06-01T18:20:29.873243"
   },
   "EVE": {
     "name": "EVE",
@@ -9523,7 +9292,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.5281/zenodo.17436190",
+      "doi": null,
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -9531,7 +9300,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:46:46.202680"
+    "last_updated": "2026-06-01T18:17:00.663081"
   },
   "HOPS": {
     "name": "HOPS",
@@ -9575,7 +9344,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:46:29.726180"
+    "last_updated": "2026-06-01T18:16:25.548503"
   },
   "Paleovirology": {
     "name": "Paleovirology",
@@ -9605,7 +9374,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:46:40.214077"
+    "last_updated": "2026-06-01T18:16:54.882314"
   },
   "PastML": {
     "name": "PastML",
@@ -9663,7 +9432,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:47:28.659499"
+    "last_updated": "2026-06-01T18:17:06.786383"
   },
   "EpiDOCK": {
     "name": "EpiDOCK",
@@ -9688,26 +9457,15 @@
       "doi": "10.1093/protein/gzt018",
       "citation_file": "",
       "citation_format": "",
-      "total_citations": 55,
-      "influential_citations": 1,
-      "citations_by_year": {
-        "2025": 3,
-        "2024": 3,
-        "2023": 6,
-        "2022": 6,
-        "2021": 8,
-        "2020": 11,
-        "2019": 8,
-        "2018": 3,
-        "2017": 3,
-        "2016": 4
-      },
+      "total_citations": 0,
+      "influential_citations": 0,
+      "citations_by_year": {},
       "formatted_citations": {
         "apa": "Atanasova, M., Patronov, A., Dimitrov, I., Flower, D., & Doytchinova, I. (2013). EpiDOCK: a molecular docking-based tool for MHC class II binding prediction. Protein Engineering Design and Selection, 26(10), 631-634. https://doi.org/10.1093/protein/gzt018",
         "bibtex": "@article{atanasova2013,\n  title = {EpiDOCK: a molecular docking-based tool for MHC class II binding prediction},\n  author = {Atanasova, M. and Patronov, A. and Dimitrov, I. and Flower, D. and Doytchinova, I.},\n  year = {2013},\n  journal = {Protein Engineering Design and Selection},\n  volume = {26},\n  number = {10},\n  pages = {631-634},\n  doi = {10.1093/protein/gzt018},\n}"
       }
     },
-    "last_updated": "2025-11-01T13:47:10.153781"
+    "last_updated": "2026-06-01T18:17:24.858563"
   },
   "IEDB-tools": {
     "name": "IEDB-tools",
@@ -9737,7 +9495,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:48:24.547999"
+    "last_updated": "2026-06-01T18:33:38.229793"
   },
   "NetMHCpan": {
     "name": "NetMHCpan",
@@ -9767,7 +9525,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:47:22.528758"
+    "last_updated": "2026-06-01T18:17:41.894770"
   },
   "TepiTool": {
     "name": "TepiTool",
@@ -9789,7 +9547,7 @@
       "installation": ""
     },
     "academic_impact": {
-      "doi": "10.7717/peerj.11232/supp-4",
+      "doi": "10.7717/peerj.11232/table-3",
       "citation_file": "",
       "citation_format": "",
       "total_citations": 0,
@@ -9797,7 +9555,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:47:16.709858"
+    "last_updated": "2026-06-01T18:17:35.582288"
   },
   "CHARMM-GUI": {
     "name": "CHARMM-GUI",
@@ -9827,7 +9585,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:47:54.544270"
+    "last_updated": "2026-06-01T18:18:06.747899"
   },
   "CovidMD": {
     "name": "CovidMD",
@@ -9857,7 +9615,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:47:42.223197"
+    "last_updated": "2026-06-01T18:18:59.011880"
   },
   "NAMD-VIRAL": {
     "name": "NAMD-VIRAL",
@@ -9887,7 +9645,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:48:13.532101"
+    "last_updated": "2026-06-01T18:18:24.763391"
   },
   "VMD-Viral": {
     "name": "VMD-Viral",
@@ -9917,7 +9675,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:48:18.148320"
+    "last_updated": "2026-06-01T18:18:48.631334"
   },
   "BLAST+DIAMOND": {
     "name": "BLAST+DIAMOND",
@@ -9947,7 +9705,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:48:18.272592"
+    "last_updated": "2026-06-01T18:19:50.191882"
   },
   "DarkVirome": {
     "name": "DarkVirome",
@@ -9977,7 +9735,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:49:43.393898"
+    "last_updated": "2026-06-01T18:20:23.827855"
   },
   "Recentrifuge": {
     "name": "Recentrifuge",
@@ -10029,7 +9787,7 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:49:16.388810"
+    "last_updated": "2026-06-01T18:20:23.922332"
   },
   "VirSorter-DarkMatter": {
     "name": "VirSorter-DarkMatter",
@@ -10059,6 +9817,6 @@
       "citations_by_year": {},
       "formatted_citations": {}
     },
-    "last_updated": "2025-11-01T13:48:35.664578"
+    "last_updated": "2026-06-01T18:20:11.911649"
   }
 }

@@ -1,6 +1,124 @@
 {
-  "cache_date": "2025-11-01T12:30:09.981366",
+  "cache_date": "2026-06-01T17:18:07.377965",
   "data": [
+    {
+      "created": "2026-04-29T23:19:28.959440+00:00",
+      "modified": "2026-04-29T23:19:29.175047+00:00",
+      "id": 19900808,
+      "conceptrecid": "19900807",
+      "doi": "10.5281/zenodo.19900808",
+      "conceptdoi": "10.5281/zenodo.19900807",
+      "doi_url": "https://doi.org/10.5281/zenodo.19900808",
+      "metadata": {
+        "title": "MetaSBT Manuscript Reproducibility",
+        "doi": "10.5281/zenodo.19900808",
+        "publication_date": "2026-04-30",
+        "description": "<h1><strong>MetaSBT Reproducibility Scripts</strong></h1>\n<blockquote>\n<p>Fabio Cumbo and Daniel Blankenberg, <em>Characterization of microbial dark matter at scale with MetaSBT and taxonomy-aware Sequence Bloom Trees</em>, <a title=\"MetaSBT\" href=\"https://doi.org/10.1101/2025.08.25.672238\" rel=\"noopener\">https://doi.org/10.1101/2025.08.25.672238</a></p>\n</blockquote>\n<p>This repository contains the custom scripts, pipelines, and configuration files used to conduct the validations, benchmarking, and real-world cohort analyses presented in the manuscript.</p>\n<h2><span>Directory Structure and File Descriptions</span></h2>\n<ul>\n<li><code>dereplication.py</code>: The stringent post hoc dereplication pipeline. Evaluates all species-level clusters at a 99% Average Nucleotide Identity (ANI) threshold to collapse redundant assemblies and establish the high-confidence tier of 302 novel species.</li>\n<li><code>comparison.py</code>: Script to execute and format the comparative benchmarking of MetaSBT cluster delineations against established viral network/clustering tools (VIRIDIC and vConTACT2).</li>\n<li><code>correlation.cpp</code>: A highly optimized C++ utility used to validate the Bloom filter parameterization. It calculates and correlates the single-hash bitwise Jaccard approximation against exact k-mer containment and Mash distances to prove the mathematical soundness of the distance metric.</li>\n<li><code>/accuracy</code>: Contains the scripts used to benchmark the taxonomic assignment accuracy and cluster boundaries of the framework.\n<ul>\n<li><code>00_benchmarking.py</code>: Automates the execution of profiling operations across various known datasets to assess false-positive and true-positive assignment rates.</li>\n<li><code>01_analyze_results.py</code>: Parses the raw outputs from the benchmarking run to calculate final performance metrics (Precision, Recall, F1-Score) discussed in the main Results section.</li>\n</ul>\n</li>\n<li><code>/scalability</code>: Contains the bash scripts used to measure the wall-clock time and peak RSS memory footprints for MetaSBT's core operations, scaling from 1,000 up to 100,000 viral genomes.\n<ul>\n<li><code>00_sample.sh</code>: Randomly sub-samples the viral reference database to create the scaling checkpoints (1K, 5K, 10K, 25K, 50K, 75K, 100K vMAGs).</li>\n<li><code>01_index.sh</code>: Benchmarks the Index construction module (building the hierarchical Tree of Trees).</li>\n<li><code>02_profile.sh</code>: Benchmarks the Profile module (querying large batches of MAGs against the fixed database).</li>\n<li><code>03_update.sh</code>: Benchmarks the Update module (incrementally inserting new uncharacterized genome batches into the existing index structure).</li>\n</ul>\n</li>\n<li><code>/ibd</code>: Contains the data and execution scripts for the Inflammatory Bowel Disease (IBD) cohort profiling experiment, which quantifies the amount of \"microbial dark matter\" rescued by MetaSBT.\n<ul>\n<li><code>PRJNA400072.sh</code>: Script to fetch and preprocess the raw sequencing reads for the healthy and IBD patient cohort (BioProject PRJNA400072).</li>\n<li><code>metadata.tsv</code>: Clinical metadata mapping sample IDs to their corresponding healthy or IBD status.</li>\n<li><code>kraken2__k2_viral.sh</code>: Profiling script using Kraken2 with the standard, baseline k2_viral reference database.</li>\n<li><code>kraken2__MetaSBT_Viruses.sh</code>: Profiling script using Kraken2 equipped with the MetaSBT-enhanced database (which includes the novel dark matter clusters).</li>\n<li><code>kraken2__k2_viral/</code> &amp; <code>kraken2__MetaSBT_Viruses/</code>: Directories containing the raw Kraken2 classification reports.</li>\n<li><code>bracken__k2_viral/</code> &amp; <code>bracken__k2_viral.tsv</code>: Bayesian re-estimation (Bracken) outputs and merged tables at the species level for the standard database.</li>\n<li><code>bracken__MetaSBT_Viruses/</code> &amp; <code>bracken__MetaSBT_Viruses.tsv</code>: Bracken re-estimation outputs and merged tables for the MetaSBT-enhanced database. These files were used to calculate the 40-fold increase in classification rate and identify novel biomarkers like MSBT11765.</li>\n</ul>\n</li>\n</ul>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Cumbo, Fabio",
+            "affiliation": "Cleveland Clinic",
+            "orcid": "0000-0003-2920-5838"
+          },
+          {
+            "name": "Blankenberg, Daniel",
+            "affiliation": "Lerner Research Institute, Cleveland Clinic",
+            "orcid": "0000-0002-6833-9049"
+          }
+        ],
+        "custom": {
+          "code:codeRepository": "https://github.com/cumbof/MetaSBT"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19900807"
+              }
+            }
+          ]
+        }
+      },
+      "title": "MetaSBT Manuscript Reproducibility",
+      "links": {
+        "self": "https://zenodo.org/api/records/19900808",
+        "self_html": "https://zenodo.org/records/19900808",
+        "preview_html": "https://zenodo.org/records/19900808?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.19900808",
+        "self_doi": "https://doi.org/10.5281/zenodo.19900808",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19900808",
+        "reserve_doi": "https://zenodo.org/api/records/19900808/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19900807",
+        "parent_html": "https://zenodo.org/records/19900807",
+        "parent_doi": "https://doi.org/10.5281/zenodo.19900807",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19900807",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19900808/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19900808/sequence/default",
+        "files": "https://zenodo.org/api/records/19900808/files",
+        "media_files": "https://zenodo.org/api/records/19900808/media-files",
+        "archive": "https://zenodo.org/api/records/19900808/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19900808/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19900808/versions/latest",
+        "latest_html": "https://zenodo.org/records/19900808/latest",
+        "versions": "https://zenodo.org/api/records/19900808/versions",
+        "draft": "https://zenodo.org/api/records/19900808/draft",
+        "access_links": "https://zenodo.org/api/records/19900808/access/links",
+        "access_grants": "https://zenodo.org/api/records/19900808/access/grants",
+        "access_users": "https://zenodo.org/api/records/19900808/access/users",
+        "access_request": "https://zenodo.org/api/records/19900808/access/request",
+        "access": "https://zenodo.org/api/records/19900808/access",
+        "communities": "https://zenodo.org/api/records/19900808/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19900808/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19900808/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19900808/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19900808/quota-increase",
+        "requests": "https://zenodo.org/api/records/19900808/requests"
+      },
+      "updated": "2026-04-29T23:19:29.175047+00:00",
+      "recid": "19900808",
+      "revision": 4,
+      "files": [
+        {
+          "id": "31e989f1-2318-4b5c-99e0-715b3335732e",
+          "key": "MetaSBT-Manuscript-Reproducibility.tar.gz",
+          "size": 601109,
+          "checksum": "md5:fd77efdf3d9453b5c1803774695dc607",
+          "links": {
+            "self": "https://zenodo.org/api/records/19900808/files/MetaSBT-Manuscript-Reproducibility.tar.gz/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "42658"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 6,
+        "unique_views": 5,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 5,
+        "version_views": 6
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2023-02-16T16:31:50.884622+00:00",
       "modified": "2024-07-12T15:20:53.348315+00:00",
@@ -940,6 +1058,8 @@
         "communities": "https://zenodo.org/api/records/7646974/communities",
         "communities-suggestions": "https://zenodo.org/api/records/7646974/communities-suggestions",
         "request_deletion": "https://zenodo.org/api/records/7646974/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/7646974/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7646974/quota-increase",
         "requests": "https://zenodo.org/api/records/7646974/requests"
       },
       "updated": "2024-07-12T15:20:53.348315+00:00",
@@ -964,14 +1084,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 73,
-        "unique_downloads": 69,
-        "views": 75,
-        "unique_views": 72,
-        "version_downloads": 72,
-        "version_unique_downloads": 68,
-        "version_unique_views": 71,
-        "version_views": 74
+        "downloads": 101,
+        "unique_downloads": 97,
+        "views": 154,
+        "unique_views": 151,
+        "version_downloads": 100,
+        "version_unique_downloads": 96,
+        "version_unique_views": 150,
+        "version_views": 153
       },
       "state": "done",
       "submitted": true
