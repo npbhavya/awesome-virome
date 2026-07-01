@@ -1,0 +1,2538 @@
+{
+  "cache_date": "2026-07-01T12:35:52.215853",
+  "data": [
+    {
+      "created": "2026-07-01T12:34:11.200526+00:00",
+      "modified": "2026-07-01T12:34:11.573497+00:00",
+      "id": 21041341,
+      "conceptrecid": "21041340",
+      "doi": "10.5281/zenodo.21041341",
+      "conceptdoi": "10.5281/zenodo.21041340",
+      "doi_url": "https://doi.org/10.5281/zenodo.21041341",
+      "metadata": {
+        "title": "Towards a common SMP for NFDI",
+        "doi": "10.5281/zenodo.21041341",
+        "publication_date": "2026-06-29",
+        "description": "<p>Similar to Data Management Plans, Software Management Plans (SMPs) help researchers to manage their software based on good practices and the FAIR for Research Software principles. To do so, SMPs comprise a series of questions, including information about the software itself. A variety of SMPs exist, requiring a comparative analysis to establish a unified, up-to-date framework, tailored to the German National Research Data Infrastructures (NFDI) consortia. Following an initial comparison of current SMPs, a hackthon was held at ZB MED, focusing on harmonisation across the different SMPs, aligned to NFDI and RDMO needs. Here we present the results of this hackathon organised within the framework of the NFDI Base project DMP4NFDI.&nbsp;</p>\n<p><strong>Acknowledgements</strong><br>Angela Kranz is supported by DataPLANT, funded by the Deutsche Forschungsgemeinschaft (DFG), project number 442077441<br>Marco Reidelbach is supported by MaRDI, funded by the Deutsche Forschungsgemeinschaft (DFG), project number 460135501, NFDI 29/1 &ldquo;MaRDI &ndash; Mathematische Forschungsdateninitiative&rdquo;.<br>Laura Baham&oacute;n and David Walter are supported by the MAUS project, funded by the Deutsche Forschungsgemeinschaft (DFG), project number 543616919.<br>The DMP4NFDI service is developed as a service in Base4NFDI. Base4NFDI is funded by DFG, as part of NFDI, under project number 521453681. Bernd M&uuml;ller, Marisabel Ocanto, Leyla Jael Castro, and Sabine Sch&ouml;nau are part of the core team of DMP4NFDI.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "M\u00fcller, Bernd",
+            "affiliation": "ZB MED - Information Centre for Life Sciences",
+            "orcid": "0000-0003-3062-8192"
+          },
+          {
+            "name": "Gonzalez Ocanto, Marisabel",
+            "affiliation": "ZB MED - Information Centre for Life Sciences",
+            "orcid": "0000-0001-5485-9724"
+          },
+          {
+            "name": "Baham\u00f3n Jim\u00e9nez, Laura",
+            "affiliation": "Max Planck Information and Technology",
+            "orcid": "0009-0003-9330-9292"
+          },
+          {
+            "name": "Kranz, Angela",
+            "affiliation": "Forschungszentrum J\u00fclich",
+            "orcid": "0000-0002-8000-0400"
+          },
+          {
+            "name": "Nakhaie, Siamak",
+            "affiliation": "Humboldt-Universit\u00e4t zu Berlin",
+            "orcid": "0009-0002-0896-320X"
+          },
+          {
+            "name": "Rabbani, Ghaus",
+            "affiliation": "LEIZA - Leibniz-Zentrum f\u00fcr Arch\u00e4ologie",
+            "orcid": "0009-0002-0466-865X"
+          },
+          {
+            "name": "Reidelbach, Marco",
+            "affiliation": "Zuse Institute Berlin",
+            "orcid": "0000-0002-1919-1834"
+          },
+          {
+            "name": "Seiwerth, Corinna",
+            "affiliation": "Technical University of Darmstadt",
+            "orcid": "0009-0004-0779-3186"
+          },
+          {
+            "name": "Walter, David",
+            "affiliation": "Max Planck Institute for Informatics",
+            "orcid": "0000-0001-6807-5007"
+          },
+          {
+            "name": "Sch\u00f6nau, Sabine",
+            "affiliation": "RWTH Aachen University",
+            "orcid": "0009-0003-7559-6320"
+          },
+          {
+            "name": "Castro, Leyla Jael",
+            "affiliation": "ZB MED - Information Centre for Life Sciences",
+            "orcid": "0000-0003-3986-0510"
+          }
+        ],
+        "keywords": [
+          "Research management",
+          "SMP",
+          "Software management plan",
+          "NFDI",
+          "Metadata"
+        ],
+        "version": "v1.0",
+        "language": "eng",
+        "resource_type": {
+          "title": "Report",
+          "type": "publication",
+          "subtype": "report"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "grants": [
+          {
+            "code": "521453681",
+            "internal_id": "018mejw64::521453681",
+            "funder": {
+              "name": "Deutsche Forschungsgemeinschaft"
+            },
+            "title": "Base4NFDI",
+            "url": "https://gepris.dfg.de/project/521453681"
+          },
+          {
+            "code": "543616919",
+            "internal_id": "018mejw64::543616919",
+            "funder": {
+              "name": "Deutsche Forschungsgemeinschaft"
+            },
+            "title": "MAUS",
+            "url": "https://gepris.dfg.de/project/543616919"
+          },
+          {
+            "code": "460135501",
+            "internal_id": "018mejw64::460135501",
+            "funder": {
+              "name": "Deutsche Forschungsgemeinschaft"
+            },
+            "title": "MaRDI",
+            "url": "https://gepris.dfg.de/project/460135501"
+          },
+          {
+            "code": "442077441",
+            "internal_id": "018mejw64::442077441",
+            "funder": {
+              "name": "Deutsche Forschungsgemeinschaft"
+            },
+            "title": "DataPLANT",
+            "url": "https://gepris.dfg.de/project/442077441"
+          }
+        ],
+        "communities": [
+          {
+            "id": "zbmed-semtec"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21041340"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Towards a common SMP for NFDI",
+      "links": {
+        "self": "https://zenodo.org/api/records/21041341",
+        "self_html": "https://zenodo.org/records/21041341",
+        "preview_html": "https://zenodo.org/records/21041341?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21041341",
+        "self_doi": "https://doi.org/10.5281/zenodo.21041341",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21041341",
+        "reserve_doi": "https://zenodo.org/api/records/21041341/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21041340",
+        "parent_html": "https://zenodo.org/records/21041340",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21041340",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21041340",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21041341/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21041341/sequence/default",
+        "files": "https://zenodo.org/api/records/21041341/files",
+        "media_files": "https://zenodo.org/api/records/21041341/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21041341:2026%20SMP%20hackathon%20report.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21041341:2026%20SMP%20hackathon%20report.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21041341:2026%20SMP%20hackathon%20report.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21041341:2026%20SMP%20hackathon%20report.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21041341:2026%20SMP%20hackathon%20report.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21041341:2026%20SMP%20hackathon%20report.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21041341/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21041341/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21041341/versions/latest",
+        "latest_html": "https://zenodo.org/records/21041341/latest",
+        "versions": "https://zenodo.org/api/records/21041341/versions",
+        "draft": "https://zenodo.org/api/records/21041341/draft",
+        "access_links": "https://zenodo.org/api/records/21041341/access/links",
+        "access_grants": "https://zenodo.org/api/records/21041341/access/grants",
+        "access_users": "https://zenodo.org/api/records/21041341/access/users",
+        "access_request": "https://zenodo.org/api/records/21041341/access/request",
+        "access": "https://zenodo.org/api/records/21041341/access",
+        "communities": "https://zenodo.org/api/records/21041341/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21041341/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21041341/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21041341/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21041341/quota-increase",
+        "requests": "https://zenodo.org/api/records/21041341/requests"
+      },
+      "updated": "2026-07-01T12:34:11.573497+00:00",
+      "recid": "21041341",
+      "revision": 4,
+      "files": [
+        {
+          "id": "5825d35f-c9a8-4cd4-b334-4524ecb5fe23",
+          "key": "2026 SMP hackathon report.pdf",
+          "size": 163502,
+          "checksum": "md5:f4d2673319167e035873d4ad19a1ba32",
+          "links": {
+            "self": "https://zenodo.org/api/records/21041341/files/2026%20SMP%20hackathon%20report.pdf/content"
+          }
+        },
+        {
+          "id": "587ca48d-c913-43af-9b8a-44c5a870ab75",
+          "key": "2026 SMP hackathon report.rtf",
+          "size": 7002977,
+          "checksum": "md5:2d3d95d7e33cddc717527ed2e3ab5657",
+          "links": {
+            "self": "https://zenodo.org/api/records/21041341/files/2026%20SMP%20hackathon%20report.rtf/content"
+          }
+        },
+        {
+          "id": "15e8520c-cf22-4a22-95c2-e4a33ad8b27b",
+          "key": "2026 SMP hackathon report.odt",
+          "size": 132447,
+          "checksum": "md5:389c031b261943e33857f83f94a4ac66",
+          "links": {
+            "self": "https://zenodo.org/api/records/21041341/files/2026%20SMP%20hackathon%20report.odt/content"
+          }
+        },
+        {
+          "id": "8087f70f-9ec6-4452-a459-2ae9ff91825a",
+          "key": "SMP Questionnaire Comparison and summary.ods",
+          "size": 58585,
+          "checksum": "md5:9cc2497718543c1322e0e39cb27e3101",
+          "links": {
+            "self": "https://zenodo.org/api/records/21041341/files/SMP%20Questionnaire%20Comparison%20and%20summary.ods/content"
+          }
+        },
+        {
+          "id": "bfb122ae-3572-4daf-a53d-9f2a61c2865d",
+          "key": "SMP Questionnaire Comparison and summary.xlsx",
+          "size": 549716,
+          "checksum": "md5:a77682e41ab76730a6d418f42189fa92",
+          "links": {
+            "self": "https://zenodo.org/api/records/21041341/files/SMP%20Questionnaire%20Comparison%20and%20summary.xlsx/content"
+          }
+        },
+        {
+          "id": "846b229a-00ce-4ab2-812b-28ce1a306863",
+          "key": "2026 SMP hackathon report.docx",
+          "size": 1802627,
+          "checksum": "md5:e78a775db91dda5162b572d1e45e3051",
+          "links": {
+            "self": "https://zenodo.org/api/records/21041341/files/2026%20SMP%20hackathon%20report.docx/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "7693"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T12:26:58.106331+00:00",
+      "modified": "2026-07-01T12:26:58.452217+00:00",
+      "id": 21104264,
+      "conceptrecid": "21104263",
+      "doi": "10.5281/zenodo.21104264",
+      "conceptdoi": "10.5281/zenodo.21104263",
+      "doi_url": "https://doi.org/10.5281/zenodo.21104264",
+      "metadata": {
+        "title": "Supplementary Software 1-3 in San Martin et al \"Core\u2013sheath coupling controls flagellar curvature and motility in Leptospira\"",
+        "doi": "10.5281/zenodo.21104264",
+        "publication_date": "2026-07-01",
+        "description": "<p>Home-made scripts from: F San Martin, MR Brady, L Fule, L Nouchikian, A Rodriguez, M Duchateau, S Mondino, N Larrieux, EA Wunder Jr, AI Ko, M Rey, J Chamot-Rooke, R Duran, F Trajtenberg, M Picardeau, CV Sindelar, A Buschiazzo \"Core&ndash;sheath coupling controls flagellar curvature and motility in Leptospira\"<br>Nature Communications (2026).&nbsp;</p>\n<p>These document the methods referenced in the article. They are provided to show how the analyses were done (the cryo-EM raw data RELION star files and intermediate coordinate files are not part of this deposit). The curvature data underlying Fig. 5c of the San Martin F et al article, are provided as Source Data within the article itself.&nbsp;</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Sindelar, Charles V",
+            "affiliation": "Yale University",
+            "orcid": "0000-0002-6646-7776"
+          },
+          {
+            "name": "Buschiazzo, Alejandro",
+            "affiliation": "Institut Pasteur de Montevideo",
+            "orcid": "0000-0002-2509-6526"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21104263"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Supplementary Software 1-3 in San Martin et al \"Core\u2013sheath coupling controls flagellar curvature and motility in Leptospira\"",
+      "links": {
+        "self": "https://zenodo.org/api/records/21104264",
+        "self_html": "https://zenodo.org/records/21104264",
+        "preview_html": "https://zenodo.org/records/21104264?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21104264",
+        "self_doi": "https://doi.org/10.5281/zenodo.21104264",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21104264",
+        "reserve_doi": "https://zenodo.org/api/records/21104264/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21104263",
+        "parent_html": "https://zenodo.org/records/21104263",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21104263",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21104263",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21104264/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21104264/sequence/default",
+        "files": "https://zenodo.org/api/records/21104264/files",
+        "media_files": "https://zenodo.org/api/records/21104264/media-files",
+        "archive": "https://zenodo.org/api/records/21104264/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21104264/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21104264/versions/latest",
+        "latest_html": "https://zenodo.org/records/21104264/latest",
+        "versions": "https://zenodo.org/api/records/21104264/versions",
+        "draft": "https://zenodo.org/api/records/21104264/draft",
+        "access_links": "https://zenodo.org/api/records/21104264/access/links",
+        "access_grants": "https://zenodo.org/api/records/21104264/access/grants",
+        "access_users": "https://zenodo.org/api/records/21104264/access/users",
+        "access_request": "https://zenodo.org/api/records/21104264/access/request",
+        "access": "https://zenodo.org/api/records/21104264/access",
+        "communities": "https://zenodo.org/api/records/21104264/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21104264/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21104264/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21104264/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21104264/quota-increase",
+        "requests": "https://zenodo.org/api/records/21104264/requests"
+      },
+      "updated": "2026-07-01T12:26:58.452217+00:00",
+      "recid": "21104264",
+      "revision": 4,
+      "files": [
+        {
+          "id": "d0fdf0f7-4061-480a-a760-8a2715a2052c",
+          "key": "03_fetch_spirochete_alphafold.sh",
+          "size": 4711,
+          "checksum": "md5:47f472e867917bb06aed2f949b8cc76c",
+          "links": {
+            "self": "https://zenodo.org/api/records/21104264/files/03_fetch_spirochete_alphafold.sh/content"
+          }
+        },
+        {
+          "id": "49ea8122-226f-4fac-bbcf-ef5ff68b9357",
+          "key": "02_crenshaw_curvature_torsion.sh",
+          "size": 2599,
+          "checksum": "md5:b02d9dc2dcf0610fb2e44ccf6af70c7d",
+          "links": {
+            "self": "https://zenodo.org/api/records/21104264/files/02_crenshaw_curvature_torsion.sh/content"
+          }
+        },
+        {
+          "id": "0768942b-4789-422b-8be7-2610a53a96ab",
+          "key": "01_extract_filament_coords.sh",
+          "size": 3028,
+          "checksum": "md5:4c4b3157e8e5aaa397d83e328ec43d21",
+          "links": {
+            "self": "https://zenodo.org/api/records/21104264/files/01_extract_filament_coords.sh/content"
+          }
+        },
+        {
+          "id": "a15386eb-ce83-4d56-8436-58559471d1d9",
+          "key": "README",
+          "size": 2658,
+          "checksum": "md5:22f570aa85c89973d75ec2585593c360",
+          "links": {
+            "self": "https://zenodo.org/api/records/21104264/files/README/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1710132"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T12:25:03.578633+00:00",
+      "modified": "2026-07-01T12:25:03.871760+00:00",
+      "id": 21104418,
+      "conceptrecid": "21104417",
+      "doi": "10.5281/zenodo.21104418",
+      "conceptdoi": "10.5281/zenodo.21104417",
+      "doi_url": "https://doi.org/10.5281/zenodo.21104418",
+      "metadata": {
+        "title": "Validation and Verification of SYSML Activity Diagrams Using HOARE Logic",
+        "doi": "10.5281/zenodo.21104418",
+        "publication_date": "2018-07-23",
+        "description": "<p>SysML diagrams are significant medium using for supporting software lifecycle management. The existing TBFV method is designed for error detection with full automation efficiency, only for code. For verifying the correctness of SysML diagram, we applying TBFV method into SysML diagram. In this paper, we propose a novel technique that makes use of Hoare Logic and testing to verify whether the SysML diagrams meet the requirement, called TBFV-M. This research can improve the correctness of SysML diagram, which is likely to significantly affect the reliability of the implementation. A case study is conducted to show its feasibility and used to illustrate how the proposed method is applied; and discussion on potential challenges to TBFV-M is also presented.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "yin, yufei",
+            "affiliation": "Huzhou University",
+            "orcid": "0009-0007-9878-1229"
+          }
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "4",
+          "pages": "101-117",
+          "title": "Validation and Verification of SYSML Activity Diagrams Using HOARE Logic",
+          "volume": "9"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21104417"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Validation and Verification of SYSML Activity Diagrams Using HOARE Logic",
+      "links": {
+        "self": "https://zenodo.org/api/records/21104418",
+        "self_html": "https://zenodo.org/records/21104418",
+        "preview_html": "https://zenodo.org/records/21104418?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21104418",
+        "self_doi": "https://doi.org/10.5281/zenodo.21104418",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21104418",
+        "reserve_doi": "https://zenodo.org/api/records/21104418/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21104417",
+        "parent_html": "https://zenodo.org/records/21104417",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21104417",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21104417",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21104418/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21104418/sequence/default",
+        "files": "https://zenodo.org/api/records/21104418/files",
+        "media_files": "https://zenodo.org/api/records/21104418/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21104418:9418ijsea07.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21104418:9418ijsea07.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21104418:9418ijsea07.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21104418:9418ijsea07.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21104418:9418ijsea07.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21104418:9418ijsea07.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21104418/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21104418/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21104418/versions/latest",
+        "latest_html": "https://zenodo.org/records/21104418/latest",
+        "versions": "https://zenodo.org/api/records/21104418/versions",
+        "draft": "https://zenodo.org/api/records/21104418/draft",
+        "access_links": "https://zenodo.org/api/records/21104418/access/links",
+        "access_grants": "https://zenodo.org/api/records/21104418/access/grants",
+        "access_users": "https://zenodo.org/api/records/21104418/access/users",
+        "access_request": "https://zenodo.org/api/records/21104418/access/request",
+        "access": "https://zenodo.org/api/records/21104418/access",
+        "communities": "https://zenodo.org/api/records/21104418/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21104418/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21104418/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21104418/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21104418/quota-increase",
+        "requests": "https://zenodo.org/api/records/21104418/requests"
+      },
+      "updated": "2026-07-01T12:25:03.871760+00:00",
+      "recid": "21104418",
+      "revision": 4,
+      "files": [
+        {
+          "id": "2343a47d-e556-465f-afef-5180a742d2d2",
+          "key": "9418ijsea07.pdf",
+          "size": 640470,
+          "checksum": "md5:97e905730abb30481bbe817427f5d66c",
+          "links": {
+            "self": "https://zenodo.org/api/records/21104418/files/9418ijsea07.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1200468"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T12:06:26.814995+00:00",
+      "modified": "2026-07-01T12:12:28.534938+00:00",
+      "id": 21104049,
+      "conceptrecid": "21104048",
+      "doi": "10.5852/cr-palevol2026v25a11",
+      "doi_url": "https://doi.org/10.5852/cr-palevol2026v25a11",
+      "metadata": {
+        "title": "Functional morphology of Pleistocene and Holocene brown bears (Ursus arctos Linnaeus, 1758): a 3D geometric morphometric approach to masseter biomechanics and evolutionary ecology",
+        "doi": "10.5852/cr-palevol2026v25a11",
+        "publication_date": "2026-07-01",
+        "description": "Van Heteren, Anneke H., Alvarado, M\u00f3nica Villalba De (2026): Functional morphology of Pleistocene and Holocene brown bears (Ursus arctos Linnaeus, 1758): a 3D geometric morphometric approach to masseter biomechanics and evolutionary ecology. Comptes Rendus Palevol 25 (11): 189-205, DOI: 10.5852/cr-palevol2026v25a11, URL: https://doi.org/10.5852/cr-palevol2026v25a11",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Van Heteren, Anneke H.",
+            "affiliation": "Sektion Mammalogie, Zoologische Staatssammlung M\u00fcnchen, Staatliche Naturwissenschaftliche Sammlungen Bayerns, M\u00fcnchhausenstrasse 21, 81247 M\u00fcnchen (Germany) and GeoBio-Center, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, Richard-Wagner-Strasse 10, 80333 M\u00fcnchen (Germany) and Department Biologie II, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, Grosshaderner Strasse 2, 82152 Planegg-Martinsried (Germany) vanHeteren@snsb.de (corresponding author)"
+          },
+          {
+            "name": "Alvarado, M\u00f3nica Villalba De",
+            "affiliation": "Departamento de Procesos Psicol\u00f3gicos B\u00e1sicos y Desarrollo, Universidad del Pa\u00eds Vasco/Euskal Herriko Unibertsitatea (UPV/EHU), Tolosa Hiribidea, 70, 20018 Donostia-San Sebasti\u00e1n (Spain) and Universidad Complutense de Madrid, Edif. B, Calle del Profesor Aranguren, s/n, Moncloa-Aravaca, 28040 Madrid (Spain) and Centro UCM-ISCIII de Investigaci\u00f3n sobre Evoluci\u00f3n y Comportamiento Humanos, Avenida Monforte de Lemos, 5, Pabell\u00f3n 14, 28029 Madrid (Spain)"
+          }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.5281/zenodo.21104067",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.21104086",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.21104093",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.21104097",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.21104103",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.21104107",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.21104112",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1177/0163278703255248",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1126/science.1067814",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1076/jcen.23.3.399.1181",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/0031-0182(94)90095-7",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1006/qres.1997.1927",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1139/z04-017",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1365-2907.2011.00192.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-021-93507-y",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1469-7998.2006.00286.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/jmor.10643",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2307/1382077",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2981/wlb.1998.017",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/ece3.10156",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/joa.12639",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1469-7998.2008.00511.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.quascirev.2014.04.015",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.palaeo.2007.12.011",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.quaint.2017.08.063",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s13364-022-00654-2",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.17979/cadlaxe.2024.46.11464",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/bhl.title.4054",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/ar.24233",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41467-024-54722-z",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1098/rspb.2008.1921",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2307/3872570",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1755-0998.2010.02924.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.palaeo.2012.01.037",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1134/S1062359020080087",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/srep09203",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/jzs.12171",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1139/z06-016",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/b110672",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/ajmg.a.33137",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1002/jqs.2883",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pone.0225698",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1365-2435.2009.01549.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.quaint.2007.08.029",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2307/3504138",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s004420050714",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1098/rsbl.2020.0792",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1006/qres.1997.1961",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/0165-7836(94)90100-7",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.cell.2007.01.023",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1038/s41598-019-40168-7",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1073/pnas.0711063105",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.yqres.2007.07.012",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s10764-012-9599-y",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1365-294X.2006.03130.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1017/S0952836904004856",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.quaint.2005.11.023",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1292/jvms.62.7",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1098/rsos.210518",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/jdb9020020",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2307/1373245",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1017/S0094837300019989",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fevo.2020.00067",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1371/journal.pbio.0060294",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/bor.70036",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/08912963.2018.1547901",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/bor.70044",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.quaint.2013.10.056",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s13127-015-0238-2",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/08912963.2018.1487965",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/bor.12537",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "ALGINA J. & OLEJNIK S. 2003. - Conducting power analyses for ANOVA and ANCOVA in between-subjects designs. Eval Health Prof 26 (3): 288-314. https://doi. org/10.1177/0163278703255248",
+          "ALTUNA J., MARIEZKURRENA K., ARMENDARIZ A., DEL BARRIO L., UGALDE T. & PENALVER J. 1982. - Carta arqueologica de Guipuzcoa. MUNIBE 34: 242.",
+          "BALLESIO R. 1983. - Le gisement pleistocene superieur de la grotte de Jaurens a Nespouls, Correze, France : Les carnivores (Mammalia, Carnivora). III. Ursidae, Ursus arctos Linnaeus. Nouvelles archives du Museum d'histoire naturelle de Lyon 21: 9-43.",
+          "BARNES I., MATHEUS P., SHAPIRO B., JENSEN D. & COOPER A. 2002. - Dynamics of Pleistocene population extinctions in Beringian brown bears.Science 295 (5563): 2267-2270.https:// doi.org/doi:10.1126/science.1067814",
+          "BARYSHNIKOV G. 2007. - Ursidae. Nauka (Fauna of Russia and Neighbouring Countries; 5), Saint Petersburg, 541 p.",
+          "BAUMANN C., KANDEL A. W. & HUSSAIN S. T. 2025. - Evidence for the catalytic role of humans in the assembly and evolution of European Late Pleistocene scavenger guilds. Quaternary Science Reviews 349: 109148.https://doi.org/https://doi.org/10.1016/j. quascirev.2024.109148",
+          "BEZEAU S. & GRAVES R. 2001. - Statistical power and effect sizes of clinical neuropsychology research. Journal of Clinical and Experimental Neuropsychology23 (3): 399-406. https://doi. org/10.1076/jcen.23.3.399.1181",
+          "BOCHERENS H., FIZET M. & MARIOTTI A. 1994. - Diet, physiology and ecology of fossil mammals as inferred from stable carbon and nitrogen isotope biogeochemistry: implications for Pleistocene bears.Palaeogeography, Palaeoclimatology, Palaeoecology 107 (3-4): 213-225.https://doi.org/ https://doi.org/10.1016/0031- 0182(94)90095-7",
+          "BOCHERENS H., BILLIOU D., PATOU-MATHIS M., BONJEAN D., OTTE M. & MARIOTTI A. 1997. - Paleobiological implications of the isotopic signatures (13C,15N) of fossil mammal collagen in Scladina cave (Sclayn, Belgium). Quaternary Research 48 (3): 370-380. https://doi.org/10.1006/qres.1997.1927",
+          "BOCHERENS H., ARGANT A., ARGANT J., BILLIOU D., CREGUT-BONNOURE E., DONAT-AYACHE B., PHILIPPE M. & THINON M. 2004. - Diet reconstruction of ancient brown bears (Ursus arctos) from Mont Ventoux (France) using bone collagen stable isotope biogeochemistry (13C, 15N). Canadian Journal of Zoology 82 (4): 576-586. https://doi.org/10.1139/z04-017",
+          "BOJARSKA K. & SELVA N. 2012. - Spatial patterns in brown bear Ursus arctos diet: the role of geographical and environmental factors. Mammal review 42 (2): 120-143. https://doi.org/https:// doi.org/10.1111/j.1365-2907.2011.00192.x",
+          "BOOKSTEIN F. L. 1991. - Morphometric Tools for Landmark Data Geometry and Biology. Cambridge University Press, Cambridge, XVII + 435 p.",
+          "BRUNER E. & COSTANTINI D. 2009. - Head morphology and degree of variation in Lacerta bilineata, Podarcis muralis and Podarcis sicula. International Journal of Morphology 27 (3): 667-676.",
+          "CAREDDU G., CIUCCI P., MONDOVI S., CALIZZA E., ROSSI L. & COSTANTINI M. L. 2021. - Gaining insight into the assimilated diet of small bear populations by stable isotope analysis. Scientific Reports 11 (1): 14118. https://doi.org/10.1038/ s41598-021-93507-y",
+          "CHAKRAVARTY A. K. & JAROSZ D. F. 2018. - More than just a phase: Prions at the crossroads of epigenetic inheritance and evolutionary change. Journal of Molecular Biology 430 (23): 4607-4618. https://doi.org/https://doi.org/10.1016/j. jmb.2018.07.017",
+          "CHRISTIANSEN P. 2007. - Evolutionary implications of bite mechanics and feeding ecology in bears. Journal of Zoology 272 (4): 423-443. https://doi.org/10.1111/j.1469-7998.2006.00286.x",
+          "CHRISTIANSEN P. 2008. - Feeding ecology and morphology of the upper canines in bears (Carnivora: Ursidae). Journal of morphology 269 (7): 896-908. https://doi.org/10.1002/ jmor.10643",
+          "CIUCCI P. & BOITANI L. 2008. - The Apennine brown bear: a critical review of its status and conservation problems. Ursus 19 (2): 130-145.",
+          "CLEVENGER A. P., PURROY F. J. & PELTON M. R. 1992. - Food habits of brown bears (Ursus arctos) in the Cantabrian Mountains, Spain.Journal of Mammalogy 73 (2): 415-421.https://doi. org/10.2307/1382077",
+          "DAHLE B., SORENSEN O. J., WEDUL E. H., SWENSON J. E. & SANDEGREN F. 1998. - The diet of brown bears U rsus arctos in central Scandinavia: effect of access to free-ranging domestic sheep Ovis aries. Wildlife Biology 4 (3): 147-158, 112. https://doi. org/10.2981/wlb.1998.017",
+          "DAVISON J., HO S. Y. W., BRAY S. C., KORSTEN M., TAMMELEHT E., HINDRIKSON M., OSTBYE K., OSTBYE E., LAURITZEN S.-E., AUSTIN J., COOPER A. & SAARMA U. 2011. - Late-Quaternary biogeographic scenarios for the brown bear (Ursus arctos), a wild mammal model species. Quaternary Science Reviews 30 (3-4): 418-430. https://doi.org/j.quascirev.2010.11.023",
+          "DE CUYPER A., STRUBBE D., CLAUSS M., LENS L., ZEDROSSER A., STEYAERT S., VERBIST L. & JANSSENS G. P. J. 2023. - Nutrient intake and its possible drivers in free-ranging European brown bears (Ursus arctos arctos). Ecology and Evolution 13 (5): e10156. https://doi.org/10.1002/ece3.10156",
+          "DELPECH F. 1996.- L'environnement animal des Mousteriens Quina du Perigord. Paleo, Revue d'Archeologie Prehistorique 8 (1): 31-46.",
+          "FABRE P.-H., HERREL A., FITRIANA Y., MESLIN L. & HAUTIER L. 2017. - Masticatory muscle architecture in a water-rat from Australasia (Murinae, Hydromys) and its implication for the evolution of carnivory in rodents. Journal of anatomy 231 (3): 380-397. https://doi.org/https://doi.org/10.1111/joa.12639",
+          "FIGUEIRIDO B., PALMQVIST P. & PEREZ-CLAROS J. A. 2009. - Ecomorphological correlates of craniodental variation in bears and paleobiological implications for extinct taxa: an approach based on geometric morphometrics. Journal of Zoology 277 (1): 70-80. https://doi.org/10.1111/j.1469-7998.2008.00511.x",
+          "FLOWER L. O. H. & SCHREVE D. C. 2014. - An investigation of palaeodietary variability in European Pleistocene canids. Quaternary Science Reviews 96: 188-203. https://doi.org/10.1016/j. quascirev.2014.04.015",
+          "FOX-DOBBS K., LEONARD J. A. & KOCH P. L. 2008. - Pleistocene megafauna from eastern Beringia: Paleoecological and paleoenvironmental interpretations of stable carbon and nitrogen isotope and radiocarbon records. Palaeogeography, Palaeoclimatology, Palaeoecology 261 (1-2): 30-46. https://doi.org/10.1016/j.palaeo.2007.12.011",
+          "FRACKOWIAK W. & GULA R. 1992. - The autumn and spring diet of brown bear Ursus arctos in the Biesczady Mountains of Poland. Acta Theriologica 37 (4): 339-344.",
+          "GARCIA-VAZQUEZ A. & GRANDAL D' ANGLADE A. 2010. - Comparacion de la dieta de Ursus arctos fosil de Galicia con grizzlies actuales utilizando isotopos estables (13C y 15N). Cidaris 30: 139-144.",
+          "GARCIA- VAZQUEZ A., PINTO- LLONA A. C. & GRANDALD' ANGLADE A. 2018. - Brown bear (Ursus arctos L.) palaeoecology and diet in the Late Pleistocene and Holocene of the NW of the Iberian Peninsula: A study on stable isotopes. Quaternary International 481: 42-51. https://doi.org/10.1016/j. quaint.2017.08.063",
+          "GARCIA-VAZQUEZ A., CRAMPTON D. A., LAMB A. L., WOLFF G. A., KIRIAKOULAKIS K., GUIDARELLI G., LOY A., CIUCCI P., GROFF C., PINTO-LLONA A. C., GRANDAL-D' ANGLADE A. & MELORO C. 2023. - Isotopic signature in isolated south-western populations of European brown bear (Ursus arctos). Mammal Research 68 (1): 63-76. https://doi.org/10.1007/s13364-022-00654-2",
+          "GARCIA- VAZQUEZ A., OUJAA A., SHAYMAE I. & GRANDALD' ANGLADE A. 2024. - First insights into the diet of the Atlas brown bear: evidence from Ifri Oussaid Cave (Middle Atlas, Morocco). Cadernos do Laboratorio Xeoloxico de Laxe. Revista de Xeoloxia Galega e do Hercinico Peninsular 46: 69-84. https://doi. org/10.17979/cadlaxe.2024.46.11464",
+          "GUTHRIE R. D. 1995. - Mammalian evolution in response to the Pleistocene-Holocene transition and the break-up of the mammoth steppe: two case studies. Acta Zoologica Cracoviensia 38 (1): 139-154.",
+          "HALL E. R. 1984. - Geographic variation among brown and grizzly bears (Ursus arctos) in North America. Special Publications, Museum of Natural History, University of Kansas 13: 1-16. https:// doi.org/10.5962/bhl.title.4054",
+          "HAMMER O., HARPER D. A. T. & RYAN P. D. 2001. - PAST:Paleontological statistics software package for education and data analysis. Palaeontologia Electronica 4 (1): 1-9.",
+          "HARTSTONE- ROSE A., HERTZIG I. & DICKINSON E. 2019. - Bite force and masticatory muscle architecture adaptations in the dietarily diverse musteloidea (Carnivora).The Anatomical Record 302 (12): 2287-2299. https://doi.org/10.1002/ar.24233",
+          "HERTEL A. G., ALBRECHT J., SELVA N., SERGIEL A., HOBSON K. A., JANZ D. M., MULCH A., KINDBERG J., HANSEN J. E., FRANK S. C., ZEDROSSER A. & MUELLER T. 2024. - Ontogeny shapes individual dietary specialization in female European brown bears (Ursus arctos). Nature Communications 15 (1): 10406. https:// doi.org/10.1038/s41467-024-54722-z",
+          "HILDERBRAND G. V., SCHWARTZ C. C., ROBBINS C. T., JACOBY M. E., HANLEY T. A., ARTHUR S. M. & SERVHEEN C. 1999. - The importance of meat, particularly salmon, to body size, population productivity, and conservation of North American brown bears. Canadian Journal of Zoology-Revue Canadienne De Zoologie 77 (1): 132-138.",
+          "JOHNSON C. N. 2009. - Ecological consequences of Late Quaternary extinctions of megafauna 1667: 2509-2519. https://doi. org/10.1098/rspb.2008.1921",
+          "KISTCHINSKI A. A. 1972. - Life history of the brown bear (Ursus arctos L.) in North-east Siberia. Bears:Their Biology and Management 2: 67-73. https://doi.org/10.2307/3872570",
+          "KLINGENBERG C. P. 2010a. - Regression, MorphoJ User's Guide. https://morphometrics.uk/MorphoJ_guide/frameset. htm?index.htm",
+          "KLINGENBERG C. P. 2010b. - New Procrustes Fit, MorphoJ User's Guide. https://morphometrics.uk/MorphoJ_guide/frameset. htm?index.htm",
+          "KLINGENBERG C. P. 2010c. - MorphoJ: an integrated software package for geometric morphometrics. Molecular Ecology Resources 11 (2): 353-357. https://doi.org/10.1111/j.1755- 0998.2010.02924.x",
+          "KLINKA D. R. & REIMCHEN T. E. 2002. - Nocturnal and diurnal foraging behaviour of brown bears (Ursus arctos) on a salmon stream in coastal British Columbia.Canadian Journal of Zoology-Revue Canadienne De Zoologie 80 (8): 1317-1322.",
+          "KOBY F. E. 1944. - Un squelette d'ours brun du pleistocene italien. Verhandlungen der Naturforschenden Gesellschaft in Basel 56: 58-85.",
+          "KOHN M. J. & MCKAY M. P. 2012. - Paleoecology of late Pleistocene -Holocene faunas of eastern and central Wyoming, USA, with implications for LGM climate models. Palaeogeography, Palaeoclimatology, Palaeoecology 326-328: 42-53. https://doi. org/10.1016/j.palaeo.2012.01.037",
+          "KRYLOVICH O., BOESKOROV G., SHCHELCHKOVA M. & SAVINETSKY A. 2020. - The trophic position of Pleistocene and modern brown bears (Ursus arctos) of Yakutia based on stable isotope analyses.Biology Bulletin 47: 1013-1021.https://doi.org/10.1134/ S1062359020080087",
+          "KURT F. 1990. - True bears, in PARKER S. P. (ed.), Grzimek's encyclopedia of mammals. Vol. 3. McGraw-Hill Publishing Company, New York: 480-501.",
+          "KURTEN B. 1959. - On the bears of the Holsteinian Interglacial. Almqvist & Wiksell, Stockholm contributions in geology, Stockholm: 73-102 p.",
+          "MATSUBAYASHI J., MORIMOTO J. O., TAYASU I., MANO T., NAKAJIMA M., TAKAHASHI O., KOBAYASHI K. & NAKAMURA F. 2015. - Major decline in marine and terrestrial animal consumption by brown bears (Ursus arctos). Scientific Reports 5: 9203. https://doi. org/10.1038/srep09203",
+          "MATTSON D. J. 1998. - Diet and morphology of extant and recently extinct northern bears. Ursus 10: 479-496.",
+          "MCLELLAN B. & REINER D. C. 1994. - A review of bear evolution. Bears: Their Biology and Management 9 (1): 85-96.",
+          "MELORO C., GUIDARELLI G., COLANGELO P., CIUCCI P. & LOY A. 2017. - Mandible size and shape in extant Ursidae (Carnivora, Mammalia): A tool for taxonomy and ecogeography. Journal of Zoological Systematics and Evolutionary Research 55 (4): 269-287. https://doi.org/10.1111/jzs.12171",
+          "MOIGNE A. M., PALOMBO M. R., BELDA V., HERIECH-BRIKI D., KACIMI S., LACOMBAT F., DE LUMLEY M. A., MOUTOUSSAMY J., RIVALS F., QUILES J. & TESTU A. 2006. - An interpretation of a large mammal fauna from la Caune de l'Arago (France) in comparison to a Middle Pleistocene biochronological frame from Italy. Anthropologie 110 (5): 788-831.",
+          "MOWAT G. & HEARD D. 2011. - Major components of grizzly bear diet across North America.Canadian Journal of Zoology 84: 473-489. https://doi.org/10.1139/z06-016",
+          "MUSSI M. 2002. - Earliest Italy: An Overview of the Italian Paleolithic and Mesolithic. Vol. 9. Springer, New York, 402 p. https:// doi.org/10.1007/b110672",
+          "MUTSVANGWA T. E. M., MEINTJES E. M., VILJOEN D. L. & DOUGLAS T. S. 2010. - Morphometric analysis and classification of the facial phenotype associated with fetal alcohol syndrome in 5- and 12-year-old children.American Journal of Medical Genetics Part A 152A (1): 32-41. https://doi.org/10.1002/ajmg.a.33137",
+          "NAITO Y. I., GERMONPRE M., CHIKARAISHI Y., OHKOUCHI N., DRUCKER D. G., HOBSON K. A., EDWARDS M. A., WISSING C. & BOCHERENS H. 2016. - Evidence for herbivorous cave bears (Ursus spelaeus) in Goyet Cave, Belgium: implications for palaeodietary reconstruction of fossil bears using amino acid \u03b415N approaches. Journal of Quaternary Science 31 (6): 598-606.https:// doi.org/https://doi.org/10.1002/jqs.2883",
+          "NAWAZ M. A., VALENTINI A., KHAN N. K., MIQUEL C., TABERLET P. & SWENSON J. E. 2019. - Diet of the brown bear in Himalaya: Combining classical and molecular genetic techniques. PLOS ONE 14 (12): e0225698.https://doi.org/10.1371/journal. pone.0225698",
+          "NOGUEIRA M. R., PERACCHI A. L. & MONTEIRO L. R. 2009. - Morphological correlates of bite force and diet in the skull and mandible of phyllostomid bats. Functional Ecology 23 (4): 715- 723. https://doi.org/doi:10.1111/j.1365-2435.2009.01549.x",
+          "PALOMBO M. R., SARDELLA R. & NOVELLI M. 2008. - Carnivora dispersal in Western Mediterranean during the last 2.6 Ma.Quaternary International 179 (1): 176-189.https://doi.org/10.1016/j. quaint.2007.08.029",
+          "PASITSCHNIAK-ARTS M. 1993. - Ursus arctos. Mammalian species 439: 1-10. https://doi.org/10.2307/3504138",
+          "PEREZ-BARBERIA F. J. & GORDON I. J. 1999. - The functional relationship between feeding type and jaw and cranial morphology in ungulates. Oecologia 118 (2): 157-165. https://doi. org/10.1007/s004420050714",
+          "PEREZ-RAMOS A., ROMERO A., RODRIGUEZ E. & FIGUEIRIDO B. 2020. - Three-dimensional dental topography and feeding ecology in the extinct cave bear. Biology Letters 16 (12): 20200792. https://doi.org/10.1098/rsbl.2020.0792",
+          "PEYRON O., GUIOT J., CHEDDADI R., TARASOV P., REILLE M., DE BEAULIEU J.-L., BOTTEMA S. & ANDRIEU V. 1998. - Climatic reconstruction in Europe for 18,000 YR B.P. from pollen data. Quaternary Research 49 (2): 183-196. https://doi.org/10.1006/ qres.1997.1961",
+          "PIERCE G. J., HASTIE L. C., GUERRA A., THORPE R. S., HOWARD F. G. & BOYLE P. R. 1994. - Morphometric variation in Loligo forbesi and Loligo vulgaris: regional, seasonal, sex, maturity and worker differences. Fisheries Research 21 (1-2): 127-148. https://doi.org/10.1016/0165-7836(94)90100-7",
+          "RABEDER G., PACHER M. & WITHALM G. 2010. - Die altpleistozanen Baren von Deutsch-Altenburg (Niederosterreich) Early Pleistocene Bear Remains from Deutsch-Altenburg (Lower Austria). Mitteilungen der Kommission fur Quartarforschung der Osterreichischen Akademie der Wissenschaften 17: 139.",
+          "RANDO O. J. & VERSTREPEN K. J. 2007. - Timescales of genetic and epigenetic inheritance. Cell 128 (4): 655-668. https://doi. org/10.1016/j.cell.2007.01.023",
+          "REY-IGLESIA A., GARCIA-VAZQUEZ A., TREADAWAY E. C., VAN DER PLICHT J., BARYSHNIKOV G. F., SZPAK P., BOCHERENS H., BOESKOROV G. G. & LORENZEN E. D. 2019. - Evolutionary history and palaeoecology of brown bear in North-East Siberia re-examined using ancient DNA and stable isotopes from skeletal remains. Scientific Reports 9 (1): 4462. https://doi.org/10.1038/ s41598-019-40168-7",
+          "RICHARDS M. P., PACHER M., STILLER M., QUILES J., HOFREITER M., CONSTANTIN S., ZILHAO J. & TRINKAUS E. 2008. - Isotopic evidence for omnivory among European cave bears: Late Pleistocene Ursus spelaeus from the Pestera cu Oase, Romania. Proceedings of the National Academy of Sciences 105 (2): 600-604. https://doi. org/10.1073/pnas.0711063105",
+          "RIVALS F., SOLOUNIAS N. & MIHLBACHLER M. C. 2007. - Evidence for geographic variation in the diets of late Pleistocene and early Holocene Bison in North America, and differences from the diets of recent Bison. Quaternary Research 68 (3): 338-346. https://doi.org/10.1016/j.yqres.2007.07.012",
+          "ROSS C. F., IRIARTE-DIAZ J. & NUNN C. L. 2012. - Innovative approaches to the relationship between diet and mandibular morphology in primates. International Journal of Primatology 33 (3): 632-660. https://doi.org/10.1007/s10764-012-9599-y",
+          "SAARMA U., HO S. Y. W., PYBUS O. G., KALJUSTE M., TUMANOV I. L., KOJOLA I., VOROBIEV A. A., MARKOV N. I., SAVELJEV A. P., VALDMANN H., LYAPUNOVA E. A., ABRAMOV A. V., MANNIL P., KORSTEN M., VULLA E., PAZETNOV S. V., PAZETNOV V. S., PUTCHKOVSKIY S. V. & ROKOV A. M. 2007. - Mitogenetic structure of brown bears (Ursus arctos L.) in northeastern Europe and a new time frame for the formation of European brown bear lineages. Molecular Ecology 16 (2): 401-413. https://doi. org/10.1111/j.1365-294X.2006.03130.x",
+          "SACCO T. & VAN VALKENBURGH B. 2004. - Ecomorphological indicators of feeding behaviour in the bears (Carnivora : Ursidae). Journal of Zoology 263 (1): 41-54. https://doi.org/10.1017/ S0952836904004856",
+          "SARDELLA R., PALOMBO M. R., PETRONIO C., BEDETTI C. & PAVIA M. 2006. - The early Middle Pleistocene large mammal faunas of Italy: an overview. Quaternary International 149 (1): 104-109. https://doi.org/https://doi.org/10.1016/j.quaint.2005.11.023",
+          "SASAKI M., ENDO H., YAMAGIWA D., TAKAGI H., ARISHIMA K., MAKITA T. & HAYASHI Y. 2000. - Adaptation of the muscles of mastication to the flat skull feature in the polar bear (Ursus maritimus). Journal of Veterinary Medical Science 62 (1): 7-14. https://doi.org/10.1292/jvms.62.7",
+          "SEGAWA T., YONEZAWA T., MORI H., AKIYOSHI A., ALLENTOFT M. E., KOHNO A., TOKANAI F., WILLERSLEV E., KOHNO N. & NISHIHARA H. 2021. - Ancient DNA reveals multiple origins and migration waves of extinct Japanese brown bear lineages. Royal Society Open Science 8 (8): 210518. https://doi.org/10.1098/ rsos.210518",
+          "SEN R. & BARNES C. 2021. - Do transgenerational epigenetic inheritance and immune system development share common epigenetic processes? Journal of Developmental Biology 9 (2): https://doi.org/10.3390/jdb9020020",
+          "SOWERBY A. D. C. 1920. - Notes on Heude's bears in the Sikawei museum, and on the bears of palaearctic eastern Asia. Journal of Mammalogy 1 (5): 213-233. https://doi.org/10.2307/1373245",
+          "STINER M. C., ACHYUTHAN H., ARSEBUK G., HOWELL F. C., JOSEPHSON S. C., JUELL K. E., PIGATI J. & QUADE J. 1998. - Reconstructing cave bear paleoecology from skeletons: a crossdisciplinary study of Middle Pleistocene bears from Yarimburgaz cave, Turkey.Paleobiology 24 (1): 74-98.https://doi.org/10.1017/ S0094837300019989",
+          "SURAPRASIT K., JAEGER J.-J., SHOOCONGDEJ R., CHAIMANEE Y., WATTANAPITUKSAKUL A. & BOCHERENS H. 2020. - Long-term isotope evidence on the diet and habitat breadth of Pleistocene to Holocene caprines in Thailand: implications for the extirpation and conservation of Himalayan gorals. Frontiers in Ecology and Evolution 8: https://doi.org/10.3389/fevo.2020.00067",
+          "TORRES PEREZ-HIDALGO T. J. 1988a. - Osos (Mammalia, Carnivora, Ursidae) del Pleistoceno Iberico: II. Estudio anatomico y metrico de la mandibula, hioides atlas y axis. Boletin del Instituto Geologico y minero de Espana 99 (2): 220-249.",
+          "TORRES PEREZ-HIDALGO T. J. 1988b. - Osos (Mammalia, Carnivara, Ursidae) del Pleistoceno Iberico (U. deningeri Von Reichenau, U. spelaeus Rosenmuller-Heinroth, U. arctos Linneo): VI. Denticion inferior. Boletin del Instituto Geologico y minero de Espana 99 (6): 886-940.",
+          "TYEDMERS J., MADARIAGA M. L. & LINDQUIST S. 2008. - Prion switching in response to environmental stress.PLoS biology 6 (11): e294. https://doi.org/10.1371/journal.pbio.0060294",
+          "VAN HETEREN A. H. 2026. - Exploring dietary adaptations in Ursus minimus: a 3D geometric morphometric analysis of the mandible.Boreas 55: 443-453.https://doi.org/10.1111/bor.70036",
+          "VAN HETEREN A. H. & FIGUEIRIDO B. 2019. - Diet reconstruction in cave bears from craniodental morphology: past evidences, new results and future directions. Historical Biology 31 (4): 500-509. https://doi.org/10.1080/08912963.2018.1547901",
+          "VAN HETEREN A. H. & GERMONPRE M. 2023. - Geometric morphometric assessment of the fossil bears of Namur: Allometry and ecomorphology. Boreas 55: 443-453. https://doi.org/10.1111/ bor.70036",
+          "VAN HETEREN A. H. & LUFT A. S. 2026. - Fossil bears break free from inhibitory cascade constraints at least twice (Ursus minimus and Ursus deningeri) caused by dietary adaptations. Boreas 55: 503-516. https://doi.org/10.1111/bor.70044",
+          "VAN HETEREN A. H., MACLARNON A., RAE T. C. & SOLIGO C. 2009. - Cave bears and their closest living relatives: a 3D geometric morphometrical approach to the functional morphology of the cave bear Ursus spelaeus. Slovensky Kras Acta Carsologica Slovaca 47 (supplement 1): 33-46.",
+          "VAN HETEREN A. H., MACLARNON A. M., SOLIGO C. & RAE T. C. 2012. - 3D geometric morphometrical analyses of intraspecific variation in the mandible of Ursus spelaeus from the Alpine region. Braunschweiger Naturkundliche Schriften 11: 111-128.",
+          "VAN HETEREN A. H., MACLARNON A. M., SOLIGO C. & RAE T. C. 2014. - Functional morphology of the cave bear (Ursus spelaeus) cranium: a three-dimensional geometric morphometric analysis. Quaternary International 339-340: 209-216. https:// doi.org/10.1016/j.quaint.2013.10.056",
+          "VAN HETEREN A. H., MACLARNON A., SOLIGO C. & RAE T. C. 2016. - Functional morphology of the cave bear (Ursus spelaeus) mandible: a 3D geometric morphometric analysis. Organisms Diversity & Evolution 16 (1): 299-314.https://doi.org/10.1007/ s13127-015-0238-2",
+          "VAN HETEREN A. H., ARLEGI M., SANTOS E., ARSUAGA J.-L. & GOMEZ-OLIVENCIA A. 2019. - Cranial and mandibular morphology of Middle Pleistocene cave bears (Ursus deningeri): implications for diet and evolution. Historical Biology 31 (4): 485-499. https:// doi.org/10.1080/08912963.2018.1487965",
+          "VILLALBA DE ALVARADO M., COLLADO GIRALDO H., ARSUAGA J. L., BELLO RODRIGO J. R., VAN HETEREN A. H. & GOMEZ-OLIVENCIA A. 2022. - Looking for the earliest evidence of Ursus arctos Linnaeus, 1758 in the Iberian Peninsula: the Middle Pleistocene site of Postes cave. Boreas 51 (1): 159-184. https://doi. org/10.1111/bor.12537",
+          "VILLALUENGA A. 2011. - Sima de Illobi (Aralar, Navarra) yacimiento de oso pardo (U. arctos Linnaeus, 1758). Estudio taxonomico y tafonomico. MUNIBE 62: 145-174.",
+          "VIRANTA S. & GRANDAL D' ANGLADE A. 2012. - Late Pleistocene large mammal paleocommunities: a comparative study between localities with brown bear (Ursus arctos), cave bear (U. spelaeus) and Mousterian Lithic assemblage.Journal of Taphonomy 10 (3-4): 265-276."
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "11",
+          "pages": "189-205",
+          "title": "Comptes Rendus Palevol",
+          "volume": "25"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "urn:lsid:zoobank.org:pub:urn:lsid:zoobank.org:pub:E0C8EF6E-5D42-4B71-97B9-7BC900A90912"
+          },
+          {
+            "identifier": "urn:lsid:plazi.org:pub:FFF249059268FFCDFFB3FF8A693DFFF6"
+          }
+        ],
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "communities": [
+          {
+            "id": "biosyslit"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21104048"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Functional morphology of Pleistocene and Holocene brown bears (Ursus arctos Linnaeus, 1758): a 3D geometric morphometric approach to masseter biomechanics and evolutionary ecology",
+      "links": {
+        "self": "https://zenodo.org/api/records/21104049",
+        "self_html": "https://zenodo.org/records/21104049",
+        "preview_html": "https://zenodo.org/records/21104049?preview=1",
+        "doi": "https://doi.org/10.5852/cr-palevol2026v25a11",
+        "self_doi": "https://doi.org/10.5852/cr-palevol2026v25a11",
+        "self_doi_html": "https://zenodo.org/doi/10.5852/cr-palevol2026v25a11",
+        "reserve_doi": "https://zenodo.org/api/records/21104049/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21104048",
+        "parent_html": "https://zenodo.org/records/21104048",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21104049/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21104049/sequence/default",
+        "files": "https://zenodo.org/api/records/21104049/files",
+        "media_files": "https://zenodo.org/api/records/21104049/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21104049:source.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21104049:source.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21104049:source.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21104049:source.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21104049:source.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21104049:source.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21104049/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21104049/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21104049/versions/latest",
+        "latest_html": "https://zenodo.org/records/21104049/latest",
+        "versions": "https://zenodo.org/api/records/21104049/versions",
+        "draft": "https://zenodo.org/api/records/21104049/draft",
+        "access_links": "https://zenodo.org/api/records/21104049/access/links",
+        "access_grants": "https://zenodo.org/api/records/21104049/access/grants",
+        "access_users": "https://zenodo.org/api/records/21104049/access/users",
+        "access_request": "https://zenodo.org/api/records/21104049/access/request",
+        "access": "https://zenodo.org/api/records/21104049/access",
+        "communities": "https://zenodo.org/api/records/21104049/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21104049/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21104049/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21104049/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21104049/quota-increase",
+        "requests": "https://zenodo.org/api/records/21104049/requests"
+      },
+      "updated": "2026-07-01T12:12:28.534938+00:00",
+      "recid": "21104049",
+      "revision": 7,
+      "files": [
+        {
+          "id": "523c06a3-f8a3-4bcf-b281-1343512a7b76",
+          "key": "source.pdf",
+          "size": 3430838,
+          "checksum": "md5:c4f24905926828cd12b3c58a693d2af6",
+          "links": {
+            "self": "https://zenodo.org/api/records/21104049/files/source.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1161"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T12:02:55.022513+00:00",
+      "modified": "2026-07-01T12:02:55.279265+00:00",
+      "id": 21103986,
+      "conceptrecid": "17650128",
+      "doi": "10.5281/zenodo.21103986",
+      "conceptdoi": "10.5281/zenodo.17650128",
+      "doi_url": "https://doi.org/10.5281/zenodo.21103986",
+      "metadata": {
+        "title": "PyAerial: Scalable association rule mining from tabular data",
+        "doi": "10.5281/zenodo.21103986",
+        "publication_date": "2026-07-01",
+        "description": "<p>Scalable association rule mining from tabular data using the Aerial neurosymbolic method. PyAerial provides a comprehensive toolkit for association rule mining with advanced capabilities:</p><ul><li><strong>Scalable Rule Mining</strong> - Efficiently mine association rules from large tabular datasets without rule explosion</li><li><strong>Automatic Quality Metrics</strong> - Rules include support, confidence, Zhang's metric, and more calculated automatically</li><li><strong>Frequent Itemset Mining</strong> - Generate frequent itemsets with support values using the same neural approach</li><li><strong>ARM with Item Constraints</strong> - Focus rule mining on specific features of interest</li><li><strong>Classification Rules</strong> - Extract rules with target class labels for interpretable inference</li><li><strong>Numerical Data Support</strong> - 8 built-in discretization methods (unsupervised: equal-frequency, equal-width, k-means, quantile, custom bins; supervised: entropy-based, ChiMerge, decision tree)</li><li><strong>Customizable Architectures</strong> - Fine-tune autoencoder layers and dimensions for optimal performance</li><li><strong>GPU Acceleration</strong> - Leverage CUDA for faster training on large datasets</li><li><strong>Comprehensive Metrics</strong> - Support, confidence, lift, conviction, Zhang's metric, Yule's Q, interestingness</li><li><strong>Rule Visualization</strong> - Integrate with NiaARM for scatter plots and visual analysis</li><li><strong>Flexible Training</strong> - Adjust epochs, learning rate, batch size, and noise factors</li></ul><p><strong>CITATION:</strong> If you use PyAerial in your research, please cite our papers:</p><ol><li>The neurosymbolic method paper:<br>Karabulut, E., Groth, P., &amp; Degeler, V. (2025). Neurosymbolic Association Rule Mining from Tabular Data. In Proceedings of The 19th International Conference on Neurosymbolic Learning and Reasoning (NeSy 2025), PMLR 284:565-588.<br><a href=\"https://proceedings.mlr.press/v284/karabulut25a.html\">https://proceedings.mlr.press/v284/karabulut25a.html</a></li><li>The software paper:<br>Karabulut, E., Groth, P., &amp; Degeler, V. (2025). PyAerial: Scalable association rule mining from tabular data. SoftwareX, 31, 102341.<br><a href=\"https://doi.org/10.1016/j.softx.2025.102341\">https://doi.org/10.1016/j.softx.2025.102341</a></li></ol>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Karabulut, Erkan",
+            "affiliation": "University of Amsterdam",
+            "orcid": "0000-0003-2710-7951"
+          },
+          {
+            "name": "Groth, Paul",
+            "affiliation": "University of Amsterdam",
+            "orcid": "0000-0003-0183-6910"
+          },
+          {
+            "name": "Degeler, Victoria",
+            "affiliation": "University of Amsterdam",
+            "orcid": "0000-0001-7054-3770"
+          }
+        ],
+        "keywords": [
+          "association rule mining",
+          "machine learning",
+          "neurosymbolic artificial intelligence",
+          "tabular data",
+          "autoencoder",
+          "data mining",
+          "interpretable machine learning",
+          "Python"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.1016/j.softx.2025.102341",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://proceedings.mlr.press/v284/karabulut25a.html",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://github.com/DiTEC-project/pyaerial",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v1.0.29",
+        "custom": {
+          "code:codeRepository": "https://github.com/DiTEC-project/pyaerial"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 11,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17650128"
+              }
+            }
+          ]
+        }
+      },
+      "title": "PyAerial: Scalable association rule mining from tabular data",
+      "links": {
+        "self": "https://zenodo.org/api/records/21103986",
+        "self_html": "https://zenodo.org/records/21103986",
+        "preview_html": "https://zenodo.org/records/21103986?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21103986",
+        "self_doi": "https://doi.org/10.5281/zenodo.21103986",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21103986",
+        "reserve_doi": "https://zenodo.org/api/records/21103986/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17650128",
+        "parent_html": "https://zenodo.org/records/17650128",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17650128",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17650128",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21103986/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21103986/sequence/default",
+        "files": "https://zenodo.org/api/records/21103986/files",
+        "media_files": "https://zenodo.org/api/records/21103986/media-files",
+        "archive": "https://zenodo.org/api/records/21103986/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21103986/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21103986/versions/latest",
+        "latest_html": "https://zenodo.org/records/21103986/latest",
+        "versions": "https://zenodo.org/api/records/21103986/versions",
+        "draft": "https://zenodo.org/api/records/21103986/draft",
+        "access_links": "https://zenodo.org/api/records/21103986/access/links",
+        "access_grants": "https://zenodo.org/api/records/21103986/access/grants",
+        "access_users": "https://zenodo.org/api/records/21103986/access/users",
+        "access_request": "https://zenodo.org/api/records/21103986/access/request",
+        "access": "https://zenodo.org/api/records/21103986/access",
+        "communities": "https://zenodo.org/api/records/21103986/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21103986/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21103986/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21103986/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21103986/quota-increase",
+        "requests": "https://zenodo.org/api/records/21103986/requests"
+      },
+      "updated": "2026-07-01T12:02:55.279265+00:00",
+      "recid": "21103986",
+      "revision": 4,
+      "files": [
+        {
+          "id": "a0b59172-b3ca-4ecc-ac19-26aa8b88299c",
+          "key": "DiTEC-project/pyaerial-v1.0.29.zip",
+          "size": 15967442,
+          "checksum": "md5:0e04bf0e90b40a3919ead1c49de7c379",
+          "links": {
+            "self": "https://zenodo.org/api/records/21103986/files/DiTEC-project/pyaerial-v1.0.29.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "341822"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 53,
+        "unique_downloads": 51,
+        "views": 1080,
+        "unique_views": 918,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T11:59:55.957210+00:00",
+      "modified": "2026-07-01T12:02:25.579135+00:00",
+      "id": 21102622,
+      "conceptrecid": "21102621",
+      "doi": "10.5281/zenodo.21102622",
+      "conceptdoi": "10.5281/zenodo.21102621",
+      "doi_url": "https://doi.org/10.5281/zenodo.21102622",
+      "metadata": {
+        "title": "Melanin-Compensated SpO\u2082 Algorithm Development: A Software-Defined, IEC 62304 Class B Approach to Skin-Tone-Agnostic Pulse Oximetry",
+        "doi": "10.5281/zenodo.21102622",
+        "publication_date": "2026-07-01",
+        "description": "<div class=\"OutlineElement Ltr SCXW259266045 BCX0\">\n<p class=\"Paragraph SCXW259266045 BCX0\"><span class=\"TextRun SCXW259266045 BCX0\"><span class=\"NormalTextRun SCXW259266045 BCX0\">Standard dual-wavelength pulse oximeters&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">systematically overestimate arterial blood oxygen</span><span class=\"NormalTextRun SCXW259266045 BCX0\">&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">saturation (SpO\u2082) in patients with higher skin&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">melanin concentrations</span><span class=\"NormalTextRun SCXW259266045 BCX0\">,&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">a consequence of</span><span class=\"NormalTextRun SCXW259266045 BCX0\">&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">melanin's&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">differential absorption of red (660nm) versus&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">near-infrared (940nm) light that distorts the&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">optical ratio-of-ratios (R-value) before SpO\u2082&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">is calculated. This technical report documents&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">the development of a software-defined, six-block&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">algorithm core designed to compensate for this&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">melanin-induced measurement bias using standard&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">dual-wavelength hardware without modification.</span></span><span class=\"EOP Selected SCXW259266045 BCX0\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW259266045 BCX0\">\n<p class=\"Paragraph SCXW259266045 BCX0\"><span class=\"TextRun SCXW259266045 BCX0\"><span class=\"NormalTextRun SCXW259266045 BCX0\">The algorithm was developed in MATLAB R2023b and&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">Simulink under an IEC 62304 Class B Software in&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">a Medical Device development framework, with&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">production C++ generated via Simulink Embedded&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">Coder. A real-time Melanin Index derived from&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">the DC baseline ratio of both wavelength channels&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">drives a tier-specific correction applied to the&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">raw R-value before the empirical SpO\u2082 calibration&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">stage. Verification against the</span><span class=\"NormalTextRun SCXW259266045 BCX0\"> pulse transit time, photopl</span><span class=\"NormalTextRun SCXW259266045 BCX0\">e</span><span class=\"NormalTextRun SCXW259266045 BCX0\">th</span><span class=\"NormalTextRun SCXW259266045 BCX0\">y</span><span class=\"NormalTextRun SCXW259266045 BCX0\">smography</span><span class=\"NormalTextRun SCXW259266045 BCX0\"> (PTT-PPG) </span><span class=\"NormalTextRun SCXW259266045 BCX0\">dual-wavelength dataset (PhysioNet, MAX30101&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">sensor, 500Hz) across n=213 validated measurement&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">windows yielded an Accuracy Root Mean Square&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">(ARMS) of 2.35%, within the FDA premarket accuracy&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">threshold of &le;3.0%. Algorithm precision (standard&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">deviation of errors) was 0.22%.</span></span><span class=\"EOP Selected SCXW259266045 BCX0\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW259266045 BCX0\">\n<p class=\"Paragraph SCXW259266045 BCX0\"><span class=\"TextRun SCXW259266045 BCX0\"><span class=\"NormalTextRun SCXW259266045 BCX0\">This report documents the development&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">methodology</span><span class=\"NormalTextRun SCXW259266045 BCX0\">,&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">algorithm architecture, design decisions,&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">compliance framework, and verification results&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">in a format suitable for technical reference by&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">engineers working in pulse oximetry algorithm&nbsp;</span><span class=\"NormalTextRun SCXW259266045 BCX0\">development and medical device software</span><span class=\"NormalTextRun SCXW259266045 BCX0\">-i</span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW259266045 BCX0\">ntegration.</span></span><span class=\"EOP Selected SCXW259266045 BCX0\">&nbsp;</span></p>\n</div>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Obidike, Ifeanyichukwu",
+            "affiliation": "Anyionic Technologies",
+            "orcid": "0009-0002-6357-6034"
+          }
+        ],
+        "resource_type": {
+          "title": "Report",
+          "type": "publication",
+          "subtype": "report"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21102621"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Melanin-Compensated SpO\u2082 Algorithm Development: A Software-Defined, IEC 62304 Class B Approach to Skin-Tone-Agnostic Pulse Oximetry",
+      "links": {
+        "self": "https://zenodo.org/api/records/21102622",
+        "self_html": "https://zenodo.org/records/21102622",
+        "preview_html": "https://zenodo.org/records/21102622?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21102622",
+        "self_doi": "https://doi.org/10.5281/zenodo.21102622",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21102622",
+        "reserve_doi": "https://zenodo.org/api/records/21102622/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21102621",
+        "parent_html": "https://zenodo.org/records/21102621",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21102621",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21102621",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21102622/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21102622/sequence/default",
+        "files": "https://zenodo.org/api/records/21102622/files",
+        "media_files": "https://zenodo.org/api/records/21102622/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21102622:Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21102622:Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21102622:Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21102622:Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21102622:Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21102622:Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21102622/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21102622/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21102622/versions/latest",
+        "latest_html": "https://zenodo.org/records/21102622/latest",
+        "versions": "https://zenodo.org/api/records/21102622/versions",
+        "draft": "https://zenodo.org/api/records/21102622/draft",
+        "access_links": "https://zenodo.org/api/records/21102622/access/links",
+        "access_grants": "https://zenodo.org/api/records/21102622/access/grants",
+        "access_users": "https://zenodo.org/api/records/21102622/access/users",
+        "access_request": "https://zenodo.org/api/records/21102622/access/request",
+        "access": "https://zenodo.org/api/records/21102622/access",
+        "communities": "https://zenodo.org/api/records/21102622/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21102622/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21102622/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21102622/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21102622/quota-increase",
+        "requests": "https://zenodo.org/api/records/21102622/requests"
+      },
+      "updated": "2026-07-01T12:02:25.579135+00:00",
+      "recid": "21102622",
+      "revision": 6,
+      "files": [
+        {
+          "id": "5371bdd0-273c-4507-84b4-56ba37acdc7f",
+          "key": "Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf",
+          "size": 520719,
+          "checksum": "md5:7a7fd5a9ad787e27be284eafcd8174b2",
+          "links": {
+            "self": "https://zenodo.org/api/records/21102622/files/Skin_Tone_Agnostic_SpO2_Algorithm_Technical_Report.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1472479"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T11:53:58.230361+00:00",
+      "modified": "2026-07-01T11:53:58.445613+00:00",
+      "id": 21103760,
+      "conceptrecid": "17397139",
+      "doi": "10.5281/zenodo.21103760",
+      "conceptdoi": "10.5281/zenodo.17397139",
+      "doi_url": "https://doi.org/10.5281/zenodo.21103760",
+      "metadata": {
+        "title": "pymovements: A Python Package for Processing Eye Movement Data",
+        "doi": "10.5281/zenodo.21103760",
+        "publication_date": "2026-07-01",
+        "description": "<h2>\ud83d\udee0\ufe0f Maintenance</h2>\n<ul>\n<li>use <code>horizontal_extend</code> for <code>polars.concat</code> and require polars 1.42.1 (#1598)</li>\n<li>explicitly set <code>empty_as_null</code> for <code>list.explode</code> (#1596)</li>\n<li>pass <code>calibrations</code> and <code>validations</code> to <code>Gaze</code> init in <code>from_asc</code> (#1590)</li>\n</ul>\n<h2>\ud83d\udcd6 Documentation</h2>\n<ul>\n<li>migrate readthedocs os to ubuntu-24.04 (#1597)</li>\n</ul>\n<h2>\ud83d\udc77 Contributors</h2>\n<p>Shoutout to all our contributors for making this release possible!\n@cbueth and @dkrako</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Krakowczyk, Daniel G.",
+            "affiliation": null,
+            "orcid": "0009-0009-5100-0733"
+          },
+          {
+            "name": "Reich, David R.",
+            "affiliation": null,
+            "orcid": "0000-0002-3524-3788"
+          },
+          {
+            "name": "B\u00fcth, Carlson Moses",
+            "affiliation": null,
+            "orcid": "0000-0003-2298-8438"
+          },
+          {
+            "name": "Prasse, Paul",
+            "affiliation": null,
+            "orcid": "0000-0003-1842-3645"
+          },
+          {
+            "name": "Angele, Bernhard",
+            "affiliation": null,
+            "orcid": "0000-0001-8989-8555"
+          },
+          {
+            "name": "Behler, Anna",
+            "affiliation": null,
+            "orcid": "0000-0001-7129-7006"
+          },
+          {
+            "name": "Bondar, Anna",
+            "affiliation": null,
+            "orcid": "0009-0009-6927-3684"
+          },
+          {
+            "name": "Chwastek, Jakob",
+            "affiliation": null,
+            "orcid": "0000-0001-7092-6245"
+          },
+          {
+            "name": "Cretton, Isabelle C.R.",
+            "affiliation": null,
+            "orcid": "0009-0003-0547-7422"
+          },
+          {
+            "name": "Funken, Josephine",
+            "affiliation": null,
+            "orcid": "0009-0007-3928-2956"
+          },
+          {
+            "name": "Gramatikov, Sasho",
+            "affiliation": null,
+            "orcid": "0000-0001-6490-5093"
+          },
+          {
+            "name": "Jakobi, Deborah N.",
+            "affiliation": null,
+            "orcid": "0000-0002-9719-6673"
+          },
+          {
+            "name": "Kasprowski, Pawe\u0142",
+            "affiliation": null,
+            "orcid": "0000-0002-2090-335X"
+          },
+          {
+            "name": "Kloostra, Li",
+            "affiliation": null,
+            "orcid": "0000-0002-2827-8122"
+          },
+          {
+            "name": "Kuribayashi, Tatsuki",
+            "affiliation": null,
+            "orcid": "0000-0001-7762-5576"
+          },
+          {
+            "name": "Nagasawa, Junichi",
+            "affiliation": null,
+            "orcid": "0009-0001-5866-7348"
+          },
+          {
+            "name": "Nisioi, Sergiu",
+            "affiliation": null,
+            "orcid": "0000-0003-2247-4488"
+          },
+          {
+            "name": "Pan, Dongpeng",
+            "affiliation": null,
+            "orcid": "0000-0001-6761-0979"
+          },
+          {
+            "name": "P\u00e9rez, Carlos J.",
+            "affiliation": null,
+            "orcid": "0009-0002-7119-1812"
+          },
+          {
+            "name": "S\u00e4uberli, Andreas",
+            "affiliation": null,
+            "orcid": "0000-0001-9613-334X"
+          },
+          {
+            "name": "Scozzaro, Calogero Jerik",
+            "affiliation": null,
+            "orcid": "0009-0003-8311-7801"
+          },
+          {
+            "name": "Shaitarova, Anastassia",
+            "affiliation": null,
+            "orcid": "0000-0003-3124-190X"
+          },
+          {
+            "name": "Shubi, Omer",
+            "affiliation": null,
+            "orcid": "0000-0002-2961-5012"
+          },
+          {
+            "name": "\u0160krjanec, Iza",
+            "affiliation": null,
+            "orcid": "0009-0001-7044-8957"
+          },
+          {
+            "name": "S\u00fcss, Assunta",
+            "affiliation": null,
+            "orcid": "0000-0002-9797-0278"
+          },
+          {
+            "name": "J\u00e4ger, Lena A.",
+            "affiliation": null,
+            "orcid": "0000-0001-9018-9713"
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/pymovements/pymovements/tree/v0.27.1-rc1",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v0.27.1-rc1",
+        "custom": {
+          "code:codeRepository": "https://github.com/pymovements/pymovements"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 38,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "17397139"
+              }
+            }
+          ]
+        },
+        "notes": "If you use this software, please cite it as below."
+      },
+      "title": "pymovements: A Python Package for Processing Eye Movement Data",
+      "links": {
+        "self": "https://zenodo.org/api/records/21103760",
+        "self_html": "https://zenodo.org/records/21103760",
+        "preview_html": "https://zenodo.org/records/21103760?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21103760",
+        "self_doi": "https://doi.org/10.5281/zenodo.21103760",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21103760",
+        "reserve_doi": "https://zenodo.org/api/records/21103760/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17397139",
+        "parent_html": "https://zenodo.org/records/17397139",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17397139",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17397139",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21103760/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21103760/sequence/default",
+        "files": "https://zenodo.org/api/records/21103760/files",
+        "media_files": "https://zenodo.org/api/records/21103760/media-files",
+        "archive": "https://zenodo.org/api/records/21103760/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21103760/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21103760/versions/latest",
+        "latest_html": "https://zenodo.org/records/21103760/latest",
+        "versions": "https://zenodo.org/api/records/21103760/versions",
+        "draft": "https://zenodo.org/api/records/21103760/draft",
+        "access_links": "https://zenodo.org/api/records/21103760/access/links",
+        "access_grants": "https://zenodo.org/api/records/21103760/access/grants",
+        "access_users": "https://zenodo.org/api/records/21103760/access/users",
+        "access_request": "https://zenodo.org/api/records/21103760/access/request",
+        "access": "https://zenodo.org/api/records/21103760/access",
+        "communities": "https://zenodo.org/api/records/21103760/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21103760/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21103760/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21103760/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21103760/quota-increase",
+        "requests": "https://zenodo.org/api/records/21103760/requests"
+      },
+      "updated": "2026-07-01T11:53:58.445613+00:00",
+      "recid": "21103760",
+      "revision": 4,
+      "files": [
+        {
+          "id": "8926274c-82f9-49e9-b7f2-0b1fbedff057",
+          "key": "pymovements/pymovements-v0.27.1-rc1.zip",
+          "size": 2142398,
+          "checksum": "md5:84fd5b11d23838fa551449e20c3b938d",
+          "links": {
+            "self": "https://zenodo.org/api/records/21103760/files/pymovements/pymovements-v0.27.1-rc1.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "604930"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 231,
+        "unique_downloads": 231,
+        "views": 846,
+        "unique_views": 802,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T11:50:19.077026+00:00",
+      "modified": "2026-07-01T11:50:19.867555+00:00",
+      "id": 20578320,
+      "conceptrecid": "20578319",
+      "doi": "10.3897/mycokeys.133.195707",
+      "doi_url": "https://doi.org/10.3897/mycokeys.133.195707",
+      "metadata": {
+        "title": "Three new species of Inocybe (Inocybaceae, Agaricales) from Southwestern China",
+        "doi": "10.3897/mycokeys.133.195707",
+        "publication_date": "2026-06-05",
+        "description": "<p>The genus <i>Inocybe</i> (Inocybaceae, Agaricales) is a globally diverse fungal lineage with significant ecological importance. In China, species belonging to <i>Inocybe</i> are widely distributed and exhibit exceptionally high diversity. However, the overall diversity of this genus in the country, particularly in the complex mountainous landscapes of southwestern China, remains severely underestimated. Here, based on morphological evidence and multi-locus (ITS, LSU, and <i>rpb2</i>) phylogenetic analyses, we describe three new species from the area, namely <i>Inocybe subtropicocinnamomea</i>, <i>I. biformis</i>, and <i>I. fulvobasalis</i>. Phylogenetically, <i>I. subtropicocinnamomea</i> is assigned to sect. <i>Inocybe</i> and occurs in subtropical broad-leaved or mixed forests. <i>Inocybe biformis</i> belongs to the smooth-spored temperate boreal clade (STBC) and is uniquely adapted to high-altitude subalpine coniferous habitats above 4000 m. <i>Inocybe fulvobasalis</i> is nested within the <i>I. geophylla</i> group and occurs in temperate broad-leaved and coniferous mixed forests. Detailed morphological descriptions, macroscopic photographs, line drawings, scanning electron micrographs of basidiospores, and taxonomic comparisons with allied taxa are provided for the novel species.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Yu, Zi X.",
+            "affiliation": "State Key Laboratory of Phytochemistry and Natural Medicines, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, China|College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China|Yunnan Key Laboratory for Fungal Diversity and Green Development, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, China"
+          },
+          {
+            "name": "Yang, Zhu L.",
+            "affiliation": "State Key Laboratory of Phytochemistry and Natural Medicines, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, China|Yunnan Key Laboratory for Fungal Diversity and Green Development, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, China"
+          }
+        ],
+        "keywords": [
+          "Basidiomycota",
+          "diversity",
+          "morphology",
+          "phylogeny",
+          "taxa",
+          "taxonomy"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/mycokeys.133.195707.figure3",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/mycokeys.133.195707.figure2",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/mycokeys.133.195707.figure1",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/mycokeys.133.195707.figure4",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20578620",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20578613",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20578603",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://zenodo.org/record/20578624",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.3852/10-041",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11557-021-01712-w",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11557-018-1439-9",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/jof10120893",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/00275514.2022.2115284",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/00275514.2019.1677419",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.13346/j.mycosystema.140043",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/21501203.2024.2380069",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fmicb.2025.1540570",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1111/j.1365-294X.1993.tb00005.x",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/00275514.1977.12020068",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.11646/phytotaxa.575.1.5",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.11646/phytotaxa.230.3.1",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/bhl.title.58545",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1177/104438942400401009",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/nar/gkab301",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/21501203.2026.2678690",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/mycokeys.81.68485",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/21501203.2025.2525864",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/oxfordjournals.aob.a088972",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ympev.2004.11.014",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/15572536.2006.11832627",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/00275514.2019.1668906",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3159/TORREY-D-18-00060.1",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3114/fuse.2023.12.09",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s12228-008-9066-4",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/00275514.2018.1469880",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/molbev/msu300",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2307/3558378",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11557-016-1174-z",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1093/sysbio/sys029",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.ympev.2010.02.011",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1186/1471-2148-8-50",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5962/bhl.title.45927",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/21501203.2024.2436000",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1128/jb.172.8.4238-4246.1990",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/21501203.2024.2441178",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/B978-0-12-372180-8.50042-1",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/mycokeys.122.163942",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "Alvarado P, Manj\u00f3n JL, Matheny PB, Esteve-Ravent\u00f3s F (2010) Tubariomyces, a new genus of Inocybaceae from the Mediterranean region. Mycologia 102(6): 1389\u20131397. https://doi.org/10.3852/10-041",
+          "Bandini D, Oertel B, Eberhardt U (2021) A fresh outlook on the smooth-spored species of Inocybe: type studies and 18 new species. Mycological Progress 20(9): 1019\u20131114. https://doi.org/10.1007/s11557-021-01712-w",
+          "Bandini D, Oertel B, Eberhardt U (2022) Noch mehr Risspilze (3): Einundzwanzig neue Arten der Familie Inocybaceae. Mycologia Bavarica 22: 31\u2013138.",
+          "Bandini D, Oertel B, Eberhardt U (2023) Noch mehr Risspilze (4): Vierzehn neue Arten der Familie Inocybaceae. Mycologia Bavarica 23: 1\u201350.",
+          "Bandini D, Oertel B, Ploch S, Ali T, Vauras J, Schneider A, Scholler M, Eberhardt U, Thines M (2019) Revision of some central European species of Inocybe (Fr.: Fr.) Fr. subgenus Inocybe, with the description of five new species. Mycological Progress 18(1): 247\u2013294. https://doi.org/10.1007/s11557-018-1439-9",
+          "Bandini D, Oertel B, Sch\u00fcssler C, Eberhardt U (2020) Noch mehr Risspilze: F\u00fcnfzehn neue und zwei wenig bekannte Arten der Gattung Inocybe. Mycologia Bavarica 20: 13\u2013101.",
+          "Bau T (2022) Flora Fungorum Sinicorum, vol. 53: Inocybaceae. Science Press, Beijing (China). [in Chinese]",
+          "Bizio E, Ferisin G, Dovana F (2016) Inocybe costinitii, a new species from the Istrian coast. Micologia e Vegetazione Mediterranea 31(2): 95\u2013102.",
+          "Chen X, Yu WJ, Bau T, Matheny PB, Horak E, Liu Y, Qin LW, Tang LP, Ge YP, Liu TZ, Fan YG (2024) Contributions to the Inocybe umbratica-paludinella (Agaricales) group in China: taxonomy, species diversity, and molecular phylogeny. Journal of Fungi 10(12): 893. https://doi.org/10.3390/jof10120893",
+          "Corrales A, Koch RA, Vasco-Palacios AM, Smith ME, Ge ZW, Henkel TW (2022) Diversity and distribution of tropical ectomycorrhizal fungi. Mycologia 114(6): 919\u2013933. https://doi.org/10.1080/00275514.2022.2115284",
+          "Cripps CL, Larsson E, Vauras J (2020) Nodulose-spored Inocybe from the Rocky Mountain alpine zone molecularly linked to European and type specimens. Mycologia 112(1): 133\u2013153. https://doi.org/10.1080/00275514.2019.1677419",
+          "Fan YG, Bau T (2010) A revised checklist of the genus Inocybe (Fr.) Fr. in China. Journal of Fungal Research 8: 189\u2013193. [in Chinese]",
+          "Fan YG, Bau T (2014) Inocybe hainanensis, a new lilac-stiped species from tropical China. Mycosystema 33(5): 954\u2013960. https://doi.org/10.13346/j.mycosystema.140043",
+          "Fayod V (1889) Prodrome d'une histoire naturelle des Agaricin\u00e9s. Annales des Sciences Naturelles Botanique 7(9): 181\u2013411.",
+          "Ferrari E (2006) Inocybe alpine e subalpine (Fungi non delineati 34\u201336). Candusso, Alassio (Italy).",
+          "Fries E (1821) Systema mycologicum: Vol. I. Ex Officina Berlingiana, Lundae (Sweden).",
+          "Fries E (1863) Monographia hymenomycetum sueciae: Vol. II. CA Leffler, Uppsala (Sweden).",
+          "Gao JL, Ge YP, Matheny PB, He PM, Wu XP, Bau T, Yu WJ, Fan YG (2024) A phylogeny of the Inocybe alienospora group (Agaricales) with emphasis on seven new species from China and emendation of sect. Leptocybe. Mycology 16(2): 812\u2013855. https://doi.org/10.1080/21501203.2024.2380069",
+          "Gao JL, Wu XP, Zhou YL, Yu WJ, Fan YG (2025) Additions to the Inocybe sect. Leptocybe (Agaricales) in China: new species from tropical rainforests, new geographical distributions, and toxin detection. Frontiers in Microbiology 16: 1540570. https://doi.org/10.3389/fmicb.2025.1540570",
+          "Gardes M, Bruns TD (1993) ITS primers with enhanced specificity for basidiomycetes: application to identification of mycorrhizae and rusts. Molecular Ecology 2(2): 113\u2013118. https://doi.org/10.1111/j.1365-294X.1993.tb00005.x",
+          "Grund DW, Stuntz DE (1977) Nova Scotian inocybes: IV. Mycologia 69(2): 392\u2013408. https://doi.org/10.1080/00275514.1977.12020068",
+          "He PM, Fan YG, Deng LS, Yu WJ (2022) Inocybe carpinicola (Inocybaceae, Agaricales), a new nodulose-spored species from Hainan Province, China. Phytotaxa 575(1): 79\u201388. https://doi.org/10.11646/phytotaxa.575.1.5",
+          "Heim R (1931) Le genre Inocybe (Encyclop\u00e9die Mycologique I). Lechevalier, Paris (France).",
+          "Horak E (1968) Synopsis generum Agaricalium (Die Gattungstypen der Agaricales). Beitr Kryptogamenflora Schweiz 13: 1\u2013741.",
+          "Horak E, Matheny PB, Desjardin DE, Soytong K (2015) The genus Inocybe (Inocybaceae, Agaricales, Basidiomycota) in Thailand and Malaysia. Phytotaxa 230(3): 201\u2013238. https://doi.org/10.11646/phytotaxa.230.3.1",
+          "Kauffman CH (1918) The Agaricaceae of Michigan. Vol. 1. Wynkoop Hallenbeck Crawford Co. State Printers, Lansing (USA). https://doi.org/10.5962/bhl.title.58545",
+          "Kauffman CH (1924) Inocybe. North American Flora 10(4): 227\u2013260. https://doi.org/10.1177/104438942400401009",
+          "Kobayashi T (2002) The taxonomic studies of the genus Inocybe. Nova Hedwigia Beihefte 124: 1\u2013246.",
+          "Kornerup A, Wanscher JH (1978) Methuen handbook of color. 3rd edn. Methuen, London (UK).",
+          "K\u00fchner R (1933) Notes sur le genre Inocybe. 1. Les Inocybe leiospor\u00e9s. Bulletin Trimestriel de la Soci\u00e9t\u00e9 Mycologique de France 49: 81\u2013121.",
+          "Kuyper TW (1986) A revision of the genus Inocybe in Europe. I. subgenus Inosperma and the smooth-spored species of subgenus Inocybe. Persoonia 3(Suppl): 1\u2013247.",
+          "Latha KPD, Manimohan P (2017) Inocybes of Kerala. SporePrint Books, Calicut (India).",
+          "Letunic I, Bork P (2021) Interactive Tree Of Life (iTOL) v5: an online tool for phylogenetic tree display and annotation. Nucleic Acids Research 49(W1): W293\u2013W296. https://doi.org/10.1093/nar/gkab301",
+          "Li GR, Yu ZX, Yang ZL (2026) Ten new species of Inocybe (Inocybaceae, Agaricales) from the Gaoligong Mountains, southwestern China. Mycology. https://doi.org/10.1080/21501203.2026.2678690",
+          "Li SN, Xu F, Jiang M, Liu F, Wu F, Zhang P, Fan YG, Chen ZH (2021) Two new toxic yellow Inocybe species from China: morphological characteristics, phylogenetic analyses and toxin detection. MycoKeys 81: 185\u2013204. https://doi.org/10.3897/mycokeys.81.68485",
+          "Lincoff GH (1981) National Audubon Society field guide to North American mushrooms. Alfred A. Knopf, New York (USA).",
+          "Lu JR, Lei L, Yu FM, Zhu XT, Liang JF, Jia LK, Mu LH, Zhang JM, Wang GS, Zhang Y, Hyde KD, Yang ZL, Zhao Q (2025) Diversity of macrofungi in southeast Xizang, China 2. Mycology. 1\u201357. https://doi.org/10.1080/21501203.2025.2525864",
+          "Ludwig E (2017) Pilzkompendium 4 (parts 1 & 2). Fungicon, Berlin (Germany).",
+          "Marchetti M, Franchi P, Consiglio G (2014) Typification of some of Britzelmayr's Inocybe species. Rivista di Micologia 57(2): 127\u2013178.",
+          "Massee G (1904) A monograph of the genus Inocybe, Karsten. Annals of Botany 18(3): 459\u2013504. https://doi.org/10.1093/oxfordjournals.aob.a088972",
+          "Matheny PB (2005) Improving phylogenetic inference of mushrooms with RPB1 and RPB2 nucleotide sequences (Inocybe; Agaricales). Molecular Phylogenetics and Evolution 35(1): 1\u201320. https://doi.org/10.1016/j.ympev.2004.11.014",
+          "Matheny PB (2009) A phylogenetic classification of the Inocybaceae. McIlvainea 18(1): 11\u201321.",
+          "Matheny PB (2020) Key to species of Inocybaceae from eastern North America. http://inocybaceae.org [accessed 26.03.2026]",
+          "Matheny PB (2023) Key to species of Inocybaceae from eastern North America. http://inocybaceae.org [accessed 26.03.2026]",
+          "Matheny PB, Bougher NL (2017) Fungi of Australia: Inocybaceae. CSIRO Publishing, Melbourne (Australia).",
+          "Matheny PB, Curtis JM, Hofstetter V, Aime MC, Moncalvo JM, Ge ZW, Yang ZL, Slot JC, Ammirati JF, Baroni TJ, Bougher NL, Hughes KW, Lodge DJ, Kerrigan RW, Seidl MT, Aanen DK, DeNitis M, Daniele GM, Desjardin DE, Kropp BR, Norvell LL, Parker A, Vellinga EC, Vilgalys R, Hibbett DS (2006) Major clades of Agaricales: a multilocus phylogenetic overview. Mycologia 98(6): 982\u2013995. https://doi.org/10.1080/15572536.2006.11832627",
+          "Matheny PB, Hobbs AM, Esteve-Ravent\u00f3s F (2020) Genera of Inocybaceae: new skin for the old ceremony. Mycologia 112(1): 83\u2013120. https://doi.org/10.1080/00275514.2019.1668906",
+          "Matheny PB, Kropp BR (2001) A revision of the Inocybe lanuginosa group and allied species in North America. Sydowia 53(1): 93\u2013139.",
+          "Matheny PB, Kudzma LV (2019) New species of Inocybe (Inocybaceae) from eastern North America. Journal of the Torrey Botanical Society 146(3): 213\u2013235. https://doi.org/10.3159/TORREY-D-18-00060.1",
+          "Matheny PB, Kudzma LV, Graddy MG, Mardini SM, Swenie RA, Bougher NL (2023) A phylogeny for North American Mallocybe (Inocybaceae) and taxonomic revision of eastern North American taxa. Fungal Systematics and Evolution 12(1): 153\u2013202. https://doi.org/10.3114/fuse.2023.12.09",
+          "Matheny PB, Moreau PA (2009) A rare and unusual lignicolous species of Inocybe (Agaricales) from eastern North America. Brittonia 61(2): 163\u2013171. https://doi.org/10.1007/s12228-008-9066-4",
+          "Matheny PB, Swenie RA (2018) The Inocybe geophylla group in North America: a revision of the lilac species surrounding I. lilacina. Mycologia 110(3): 618\u2013634. https://doi.org/10.1080/00275514.2018.1469880",
+          "Moser MM (1978) Fungorum rariorum icones coloratae, Pars VII. J. Cramer, Vaduz (Liechtenstein).",
+          "Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ (2015) IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Molecular Biology and Evolution 32(1): 268\u2013274. https://doi.org/10.1093/molbev/msu300",
+          "Peck CH (1874) Report of the botanist. Annual Report of the New York State Museum of Natural History 26: 36\u201391.",
+          "Peintner U, Bougher NL, Castellano MA, Moncalvo JM, Moser MM, Trappe JM, Vilgalys R (2001) Multiple origins of sequestrate fungi related to Cortinarius (Cortinariaceae). American Journal of Botany 88(12): 2168\u20132179. https://doi.org/10.2307/3558378",
+          "Pradeep CK, Vrinda KB, Varghese SP, Korotkin HB, Matheny PB (2016) New and noteworthy species of Inocybe (Agaricales) from tropical India. Mycological Progress 15(3): 24. https://doi.org/10.1007/s11557-016-1174-z",
+          "Qu\u00e9let L (1888) Flore mycologique de la France et des pays limitrophes. O. Doin, Paris (France).",
+          "Rambaut A (2018) FigTree v.1.4.4. http://tree.bio.ed.ac.uk/software/figtree/ [accessed 26.03.2026]",
+          "Ronquist F, Teslenko M, van der Mark P, Ayres DL, Darling A, H\u00f6hna S, Larget B, Liu L, Suchard MA, Huelsenbeck JP (2012) MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology 61(3): 539\u2013542. https://doi.org/10.1093/sysbio/sys029",
+          "Ryberg M, Larsson E, Jacobsson S (2010) An evolutionary perspective on morphological and ecological characters in the mushroom family Inocybaceae (Agaricomycotina, Fungi). Molecular Phylogenetics and Evolution 55(2): 431\u2013442. https://doi.org/10.1016/j.ympev.2010.02.011",
+          "Ryberg M, Nilsson RH, Kristiansson E, T\u00f6pel M, Jacobsson S, Larsson E (2008) Mining metadata from unidentified ITS sequences in GenBank: a case study in Inocybe (Basidiomycota). BMC Evolutionary Biology 8: 50. https://doi.org/10.1186/1471-2148-8-50",
+          "Schroeter J (1889) Die Pilze Schlesiens. In: Cohn F (Ed.) Kryptogamen-Flora von Schlesien, Vol. 3. J.U. Kern's Verlag, Breslau (Germany), 1\u2013814. https://doi.org/10.5962/bhl.title.45927",
+          "Singer R (1986) The Agaricales in modern taxonomy. 4th ed. Koeltz Scientific Books, K\u00f6nigstein (Germany).",
+          "Stangl J (1989) Die Gattung Inocybe in Bayern. Hoppea 46: 5\u2013388.",
+          "Stuntz DE (1954) Studies on the genus Inocybe II. New and noteworthy species from Michigan. Papers of the Michigan Academy of Science, Arts, and Letters 39: 53\u201384.",
+          "Su HL, Hyde KD, Cai Q, Chen WY, Al-Otibi F, Chethana KWT, Yang ZL, Zhao Q (2025) Phylogeny of Geoglossomycetes with species diversity in China. Mycology 16(3): 1222\u20131276. https://doi.org/10.1080/21501203.2024.2436000",
+          "Vilgalys R, Hester M (1990) Rapid genetic identification and mapping of enzymatically amplified ribosomal DNA from several Cryptococcus species. Journal of Bacteriology 172(8): 4238\u20134246. https://doi.org/10.1128/jb.172.8.4238-4246.1990",
+          "Wang ZR, Zhou SY, Liu FF, Yang ZL (2025) The genus Thaxterogaster (Cortinariaceae): phylogeny and species diversity in Western China. Mycology 16(3): 1141\u20131179. https://doi.org/10.1080/21501203.2024.2441178",
+          "White TJ, Bruns T, Lee S, Taylor JW (1990) Amplification and direct sequencing of fungal ribosomal RNA genes for phylogenetics. In: Innis MA, Gelfand DH, Sninsky JJ, White TJ (Eds) PCR protocols: a guide to methods and applications. Academic Press, San Diego (California), 315\u2013322. https://doi.org/10.1016/B978-0-12-372180-8.50042-1",
+          "Zhu AH, Xu YR, Ma HX, Yu WJ (2025) Three nodulose-spored Inocybe (Agaricales, Basidiomycota) species discovered from Motuo, Southwest China. MycoKeys 122: 99\u2013121. https://doi.org/10.3897/mycokeys.122.163942"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "",
+          "pages": "237-257",
+          "title": "MycoKeys",
+          "volume": "133"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20578319"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Three new species of Inocybe (Inocybaceae, Agaricales) from Southwestern China",
+      "links": {
+        "self": "https://zenodo.org/api/records/20578320",
+        "self_html": "https://zenodo.org/records/20578320",
+        "preview_html": "https://zenodo.org/records/20578320?preview=1",
+        "doi": "https://doi.org/10.3897/mycokeys.133.195707",
+        "self_doi": "https://doi.org/10.3897/mycokeys.133.195707",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/mycokeys.133.195707",
+        "reserve_doi": "https://zenodo.org/api/records/20578320/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20578319",
+        "parent_html": "https://zenodo.org/records/20578319",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20578320/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20578320/sequence/default",
+        "files": "https://zenodo.org/api/records/20578320/files",
+        "media_files": "https://zenodo.org/api/records/20578320/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:20578320:MC_article_195707.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:20578320:MC_article_195707.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:20578320:MC_article_195707.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:20578320:MC_article_195707.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:20578320:MC_article_195707.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:20578320:MC_article_195707.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/20578320/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20578320/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20578320/versions/latest",
+        "latest_html": "https://zenodo.org/records/20578320/latest",
+        "versions": "https://zenodo.org/api/records/20578320/versions",
+        "draft": "https://zenodo.org/api/records/20578320/draft",
+        "access_links": "https://zenodo.org/api/records/20578320/access/links",
+        "access_grants": "https://zenodo.org/api/records/20578320/access/grants",
+        "access_users": "https://zenodo.org/api/records/20578320/access/users",
+        "access_request": "https://zenodo.org/api/records/20578320/access/request",
+        "access": "https://zenodo.org/api/records/20578320/access",
+        "communities": "https://zenodo.org/api/records/20578320/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20578320/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20578320/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20578320/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20578320/quota-increase",
+        "requests": "https://zenodo.org/api/records/20578320/requests"
+      },
+      "updated": "2026-07-01T11:50:19.867555+00:00",
+      "recid": "20578320",
+      "revision": 5,
+      "files": [
+        {
+          "id": "6474119d-edb4-491a-8436-f1a6c75a43f9",
+          "key": "MC_article_195707.xml",
+          "size": 216590,
+          "checksum": "md5:fe1024731589f500834b7c3c53a9ee16",
+          "links": {
+            "self": "https://zenodo.org/api/records/20578320/files/MC_article_195707.xml/content"
+          }
+        },
+        {
+          "id": "f414aef7-0579-43e2-a8ed-8c8fb97d9535",
+          "key": "MC_article_195707.pdf",
+          "size": 5271746,
+          "checksum": "md5:beefe8c838a9b955d0c2174d35ea521e",
+          "links": {
+            "self": "https://zenodo.org/api/records/20578320/files/MC_article_195707.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "22270"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T11:46:47.562239+00:00",
+      "modified": "2026-07-01T11:46:47.846845+00:00",
+      "id": 21101198,
+      "conceptrecid": "21101197",
+      "doi": "10.5281/zenodo.21101198",
+      "conceptdoi": "10.5281/zenodo.21101197",
+      "doi_url": "https://doi.org/10.5281/zenodo.21101198",
+      "metadata": {
+        "title": "Discomfort Heat Index Intensity in Miami, FL (1940\u20132025)",
+        "doi": "10.5281/zenodo.21101198",
+        "publication_date": "2026-07-01",
+        "description": "<p class=\"MsoNormal\">This work focuses on the practical impacts of climate change by analyzing changes in the Heat Index (HI) that affect thermal comfort.</p>\n<p class=\"MsoNormal\">The term &ldquo;<em>Comfort Heat Index</em>&rdquo; (CHI = 26.6&deg;C (79.9&deg;F)) is defined as a Heat Index that is sufficiently comfortable and does not require cooling. A Heat Index above CHI is considered as a &ldquo;discomfort&rdquo; Heat Index (DC).</p>\n<p class=\"MsoNormal\">The calculations are for various levels of &ldquo;<em>discomfort</em>&rdquo;, from 0&deg;C to 8&deg;C, each 2&deg;C, which is 0&deg;C to 8&deg;C above the CHI.</p>\n<p class=\"MsoNormal\">The publication introduces the &ldquo;<em>Summer Discomfort Heat Index Intensity</em>&rdquo; (DCI) which quantifies the cumulative annual Discomfort Heat Index during the summer. It is calculated as the difference between the actual mean Heat Index and the Comfort Heat Index (CHI = 26.6&deg;C) multiplied by the cumulative time the Heat Index remains above the threshold.</p>\n<p class=\"MsoNormal\">The analyzed parameters are:</p>\n<ul>\n<li class=\"MsoNormal\">Summer Discomfort Heat Index - DC</li>\n<li class=\"MsoNormal\">Duration of Summer Discomfort Heat Index - DDC</li>\n<li class=\"MsoNormal\">Summer Discomfort Heat Index Intensity - DCI</li>\n</ul>\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n<p class=\"MsoNormal\">The annual mean Discomfort Heat Index has increased significantly between 1940 and 2025. The average Heat Index <span>&nbsp;</span>increased from 30.1&deg;C to 30.9&deg;C (86.1&deg;F to 87.7&deg;F), from 3.5&deg;C to 4.3&deg;C above CHI, and its duration increased from 2,893 to 3,621 hours per year.</p>\n<p class=\"MsoNormal\">The Discomfort Heat Index Intensity has increased by 60% in the last 86 years, from 9,883 to 15,763 degree-hours/year.</p>\n<p class=\"MsoNormal\">The duration of the Discomfort Heat Index above the CHI on non-summer days increased much more than on summer days, from 87 hours in 1940 to 227 hours in 2025, an increase of 161%.</p>\n<p class=\"MsoNormal\">The Summer Discomfort Heat Index increased between 1940 and 2025 from 30.1&deg;C to 31.1&deg;C and its duration increased from 2,806 to 3,394 hours per summer, reaching 64% of all summer hours.</p>\n<p class=\"MsoNormal\">The increase in the Summer Discomfort Heat Index duration analyzed with the parabolic trendline for the highest threshold (equivalent to a Heat Index of 34.6&deg;C) was 235%, from 155 hr/summer to 520 hr/summer, while the actual increase was from 71 hr/summer in 1940 to 545 hr/summer in 2025, 668%.</p>\n<p class=\"MsoNormal\">The increase in the Summer Discomfort Heat Index Intensity analyzed with the parabolic trendline for the highest threshold (8&deg;C, equivalent to a Heat Index of 34.6&deg;C) was 243%, from 1,430 to 4,900<span>&nbsp; </span>degree-hours/summer, while the actual increase was from 614 degree-hours/summer in 1940 to 5,161 in 2025, +741%.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Nowarski, Joseph",
+            "affiliation": null,
+            "orcid": "0000-0003-3406-1998"
+          }
+        ],
+        "keywords": [
+          "Heat Index",
+          "thermal comfort",
+          "thermal discomfort",
+          "Miami"
+        ],
+        "dates": [
+          {
+            "type": "created"
+          }
+        ],
+        "version": "1.1.1",
+        "references": [
+          "Open Meteo - Historical Weather API https://open-meteo.com",
+          "Zippenfenig, P. (2023). Open-Meteo.com Weather API [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7970649",
+          "Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horanyi, A., Munoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Thepaut, J-N. (2023). ERA5 hourly data on single levels from 1940 to present [Data set]. ECMWF. https://doi.org/10.24381/cds.adbb2d47",
+          "Munoz Sabater, J. (2019). ERA5-Land hourly data from 2001 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.E2161BAC",
+          "Schimanke S., Ridal M., Le Moigne P., Berggren L., Unden P., Randriamampianina R., Andrea U., Bazile E., Bertelsen A., Brousseau P., Dahlgren P., Edvinsson L., El Said A., Glinton M., Hopsch S., Isaksson L., Mladek R., Olsson E., Verrelle A., Wang Z.Q. (2021). CERRA sub-daily regional reanalysis data for Europe on single levels from 1984 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.622A565A",
+          "nowagreen Heat Index dataset online generator - HIDOG https://www.geocities.ws/nowagreen/HIDOG/",
+          "Long-Term Changes in Summer Weak Wind Duration and Stagnation Indicators in Tel Aviv (1940\u20132025) \u2013 Joseph Nowarski, DOI:10.5281/zenodo.20686479",
+          "Comfort Heat Index \u2013 Thermostatic Control of Air Conditioning Units - Joseph Nowarski, DOI:10.5281/zenodo.17375074",
+          "Overcooling Index of Air Conditioning - Joseph Nowarski, DOI:10.5281/zenodo.17630849",
+          "Dataset: Heat Index in Miami, FL, 1940\u20132025, hourly data \u2013 Joseph Nowarski, DOI:10.5281/zenodo.21101196",
+          "Dataset: Discomfort Heat Index Duration and Intensity in Miami, FL, 1940\u20132025, yearly data \u2013 Joseph Nowarski, DOI:10.5281/zenodo.21101200"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Publication",
+          "type": "publication"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21101197"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Discomfort Heat Index Intensity in Miami, FL (1940\u20132025)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21101198",
+        "self_html": "https://zenodo.org/records/21101198",
+        "preview_html": "https://zenodo.org/records/21101198?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21101198",
+        "self_doi": "https://doi.org/10.5281/zenodo.21101198",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21101198",
+        "reserve_doi": "https://zenodo.org/api/records/21101198/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21101197",
+        "parent_html": "https://zenodo.org/records/21101197",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21101197",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21101197",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21101198/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21101198/sequence/default",
+        "files": "https://zenodo.org/api/records/21101198/files",
+        "media_files": "https://zenodo.org/api/records/21101198/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21101198:Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21101198:Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21101198:Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21101198:Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21101198:Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21101198:Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21101198/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21101198/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21101198/versions/latest",
+        "latest_html": "https://zenodo.org/records/21101198/latest",
+        "versions": "https://zenodo.org/api/records/21101198/versions",
+        "draft": "https://zenodo.org/api/records/21101198/draft",
+        "access_links": "https://zenodo.org/api/records/21101198/access/links",
+        "access_grants": "https://zenodo.org/api/records/21101198/access/grants",
+        "access_users": "https://zenodo.org/api/records/21101198/access/users",
+        "access_request": "https://zenodo.org/api/records/21101198/access/request",
+        "access": "https://zenodo.org/api/records/21101198/access",
+        "communities": "https://zenodo.org/api/records/21101198/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21101198/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21101198/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21101198/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21101198/quota-increase",
+        "requests": "https://zenodo.org/api/records/21101198/requests"
+      },
+      "updated": "2026-07-01T11:46:47.846845+00:00",
+      "recid": "21101198",
+      "revision": 4,
+      "files": [
+        {
+          "id": "1c2e23ff-03e9-4828-9571-ec19bd37c6e3",
+          "key": "Discomfort Heat Index Intensity in Miami, FL (1940\u20132025).pdf",
+          "size": 635873,
+          "checksum": "md5:6ce54c80ded8751790fbe25308233782",
+          "links": {
+            "self": "https://zenodo.org/api/records/21101198/files/Discomfort%20Heat%20Index%20Intensity%20in%20Miami,%20FL%20(1940%E2%80%932025).pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "304403"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-01T11:44:28.817584+00:00",
+      "modified": "2026-07-01T11:44:29.186191+00:00",
+      "id": 20808500,
+      "conceptrecid": "20808499",
+      "doi": "10.5281/zenodo.20808500",
+      "conceptdoi": "10.5281/zenodo.20808499",
+      "doi_url": "https://doi.org/10.5281/zenodo.20808500",
+      "metadata": {
+        "title": "Supporting Data for \"Correlation-enhanced metrology from scrambling dynamics in a solid-state spin system\"",
+        "doi": "10.5281/zenodo.20808500",
+        "publication_date": "2026-07-01",
+        "description": "<p>This repository provides the <strong>raw experimental data</strong> and essential <strong>processing scripts</strong> associated with our paper, \"Correlation-enhanced metrology from scrambling dynamics in a solid-state spin system.\" This resource includes everything needed to reproduce the figures presented in the main text and the Supplemental Material.</p>\n<h3>Data and Scripts</h3>\n<p>Each folder contains the following:</p>\n<ol>\n<li>\n<p><strong><code>PlotData.xlsx</code></strong>: Records the x- and y-coordinates along with the corresponding error bars for the data points in each figure.</p>\n</li>\n<li>\n<p><strong>NMR Metadata</strong>: <code>.zip</code>. Contains the raw experimental data, acquisition parameters, and pulse sequences. These files can be viewed directly using supported software such as TopSpin.</p>\n</li>\n<li>\n<p><strong>MATLAB Scripts</strong>: Used for reading metadata, processing data, and generating plots. The provided file formats include <code>.mat</code>, <code>.m</code>, and <code>.mlx</code>. The <code>main.mlx</code> file serves as the main program and can be executed directly after unzipping the NMR metadata.</p>\n</li>\n</ol>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Li, Yu-Chen",
+            "affiliation": "University of Science and Technology of China",
+            "orcid": "0000-0001-6320-683X"
+          },
+          {
+            "name": "Zhang, Shengyu",
+            "affiliation": "University of Science and Technology of China",
+            "orcid": "0009-0005-7932-5135"
+          },
+          {
+            "name": "Wu, Ze",
+            "affiliation": "The Chinese University of Hong Kong",
+            "orcid": "0000-0001-8186-2718"
+          },
+          {
+            "name": "Yin, Haochuan",
+            "affiliation": "University of Science and Technology of China"
+          },
+          {
+            "name": "Zhao, Liqiang",
+            "affiliation": "University of Science and Technology of China"
+          },
+          {
+            "name": "An, Xiaoxue",
+            "affiliation": "University of Science and Technology of China"
+          },
+          {
+            "name": "Cui, Jiaxi",
+            "affiliation": "University of Science and Technology of China"
+          },
+          {
+            "name": "Suter, Dieter",
+            "affiliation": "TU Dortmund University"
+          },
+          {
+            "name": "Peng, Xinhua",
+            "affiliation": "University of Science and Technology of China",
+            "orcid": "0000-0001-5260-2976"
+          }
+        ],
+        "dates": [
+          {
+            "type": "submitted"
+          }
+        ],
+        "version": "v1",
+        "language": "eng",
+        "custom": {
+          "code:programmingLanguage": [
+            {
+              "id": "matlab",
+              "title": {
+                "en": "MATLAB"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "20808499"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Supporting Data for \"Correlation-enhanced metrology from scrambling dynamics in a solid-state spin system\"",
+      "links": {
+        "self": "https://zenodo.org/api/records/20808500",
+        "self_html": "https://zenodo.org/records/20808500",
+        "preview_html": "https://zenodo.org/records/20808500?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20808500",
+        "self_doi": "https://doi.org/10.5281/zenodo.20808500",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20808500",
+        "reserve_doi": "https://zenodo.org/api/records/20808500/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/20808499",
+        "parent_html": "https://zenodo.org/records/20808499",
+        "parent_doi": "https://doi.org/10.5281/zenodo.20808499",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20808499",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20808500/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20808500/sequence/default",
+        "files": "https://zenodo.org/api/records/20808500/files",
+        "media_files": "https://zenodo.org/api/records/20808500/media-files",
+        "archive": "https://zenodo.org/api/records/20808500/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20808500/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20808500/versions/latest",
+        "latest_html": "https://zenodo.org/records/20808500/latest",
+        "versions": "https://zenodo.org/api/records/20808500/versions",
+        "draft": "https://zenodo.org/api/records/20808500/draft",
+        "access_links": "https://zenodo.org/api/records/20808500/access/links",
+        "access_grants": "https://zenodo.org/api/records/20808500/access/grants",
+        "access_users": "https://zenodo.org/api/records/20808500/access/users",
+        "access_request": "https://zenodo.org/api/records/20808500/access/request",
+        "access": "https://zenodo.org/api/records/20808500/access",
+        "communities": "https://zenodo.org/api/records/20808500/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20808500/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20808500/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20808500/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20808500/quota-increase",
+        "requests": "https://zenodo.org/api/records/20808500/requests"
+      },
+      "updated": "2026-07-01T11:44:29.186191+00:00",
+      "recid": "20808500",
+      "revision": 4,
+      "files": [
+        {
+          "id": "daea2ff2-5015-43b4-856d-d56e63dd904f",
+          "key": "source data_zenodo.zip",
+          "size": 219657836,
+          "checksum": "md5:8a6528a405dcf7086016bdc2fa60c30e",
+          "links": {
+            "self": "https://zenodo.org/api/records/20808500/files/source%20data_zenodo.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1688639"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    }
+  ]
+}

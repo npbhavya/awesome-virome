@@ -1,6 +1,251 @@
 {
-  "cache_date": "2026-06-01T17:08:42.859817",
+  "cache_date": "2026-07-01T12:44:14.540115",
   "data": [
+    {
+      "created": "2026-06-13T11:26:31.444400+00:00",
+      "modified": "2026-06-13T11:26:31.935270+00:00",
+      "id": 20678720,
+      "conceptrecid": "10444557",
+      "doi": "10.5281/zenodo.20678720",
+      "conceptdoi": "10.5281/zenodo.10444557",
+      "doi_url": "https://doi.org/10.5281/zenodo.20678720",
+      "metadata": {
+        "title": "Emergence and evolution of heterocyte glycolipid biosynthesis enabled specialized nitrogen fixation in cyanobacteria",
+        "doi": "10.5281/zenodo.20678720",
+        "publication_date": "2026-06-13",
+        "description": "<h1><strong>Abstract&nbsp;</strong></h1>\n<p>Paleontological and phylogenomic observations have shed light on the evolution of cyanobacteria. Nevertheless, the emergence of heterocytes, specialized cells for nitrogen fixation, remains unclear. Heterocytes are surrounded by heterocyte glycolipids (HGs), which contribute to protection of the nitrogenase enzyme from oxygen. Here, by comprehensive HG identification and screening of HG biosynthesis genes throughout cyanobacteria, we identify HG analogs produced by specific and distantly related non-heterocytous cyanobacteria. These structurally less complex molecules probably acted as precursors of HGs, suggesting that HGs arose after a genomic reorganization and expansion of ancestral biosynthetic machinery, enabling the rise of cyanobacterial heterocytes in an increasingly oxygenated atmosphere. Subsequently, HG chemical structure evolved convergently in response to environmental pressures. Our results open a new chapter in the potential use of diagenetic products of HGs and HG analogs as fossils for reconstructing the evolution of multicellularity and division of labor in cyanobacteria.</p>\n<h2><strong>Here we supply:</strong></h2>\n<div>\n<ul>\n<li><strong><span>Supplementary Data 1. Selected cyanobacterial genomes from the PATRIC genome database (now part of the BV-BRC database).</span></strong><span> Files called &lsquo;selected_Cyanogenomes.genome_*.20220430.txt&rsquo; are sourced from the PATRIC File Transfer Protocol server (ftp.patricbrc.org). &lsquo;gtdbtk.bac120.summary.tsv&rsquo; is the GTDB-Tk output file, and &lsquo;qa.summary_extended.txt&rsquo; the CheckM output file.</span></li>\n<li><strong><span>Supplementary Data 2. HG biosynthetic gene clusters in selected PATRIC genomes and 14 newly sequenced genomes.</span></strong><span> The file &lsquo;islands_on_contigs.3_ORFs_in_between.expanded_island_with_nucleotide_positions.txt&rsquo; contains the location of all hits to <em>Anabaena</em> sp. PCC 7120 HG biosynthesis genes. ORFs were predicted with Prodigal. The structure of a contig is as follows: &ldquo;genome | contig&rdquo;. The structure of a hit is as follows: &ldquo;ORF number on contig | query (<em>e</em>-value; bit-score; start of alignment in query; end of alignment in query; query coverage per subject; start of alignment in subject; end of alignment in subject; subject coverage) [nucleotide position on contig start; nucleotide position on contig end; direction]&rdquo;. Non-overlapping hits on the same ORF (see Online Methods) are connected with &lsquo;&amp;&amp;&amp;&rsquo; characters. An asterisk (&lsquo;*&rsquo;) indicates that the hit is located at most three ORFs from a contig edge. Clusters of hits that are at most three open reading frames (ORFs) apart are connected with &lsquo;~~~&rsquo; characters. The file &lsquo;Supplementary_table.script_1.txt&rsquo; contains a summary of all identified <em>hgl</em> islands (i.e. clusters containing at least seven unique HG biosynthesis gene hits).</span></li>\n<li><strong><span>Supplementary Data 3. HG biosynthetic gene clusters in 255,388 prokaryotic genomes from the PATRIC genome database (now part of the BV-BRC database).</span></strong><span> The file called &lsquo;PATRIC_20230120.selection_c50_c10.txt&rsquo; contains information on the selected PATRIC genomes based on data sourced from the PATRIC File Transfer Protocol server (<a>ftp.patricbrc.org</a>). The file &lsquo;all_tree_of_life_genomes.islands_on_contigs.3_ORFs_in_between.expanded_island_with_nucleotide_positions.txt&rsquo; contains the location of all hits to <em>Anabaena</em> sp. PCC 7120 HG biosynthesis genes. ORFs were predicted with Prodigal. The structure of a contig is as follows: &ldquo;genome | contig&rdquo;. The structure of a hit is as follows: &ldquo;ORF number on contig | query (<em>e</em>-value; bit-score; start of alignment in query; end of alignment in query; query coverage per subject; start of alignment in subject; end of alignment in subject; subject coverage) [nucleotide position on contig start; nucleotide position on contig end; direction]&rdquo;. Non-overlapping hits on the same ORF (see Online Methods) are connected with &lsquo;&amp;&amp;&amp;&rsquo; characters. An asterisk (&lsquo;*&rsquo;) indicates that the hit is located at most three ORFs from a contig edge. Clusters of hits that are at most three open reading frames (ORFs) apart are connected with &lsquo;~~~&rsquo; characters.</span></li>\n<li><strong><span>Supplementary Data 4. Phylogeny of representative cyanobacterial genomes based on a core gene superalignment.</span></strong><span> The folder contains the files used to generate Fig. 2a. The directory &lsquo;IQ-TREE&rsquo; contains the tree file and iTOL annotation files. The file &lsquo;dRep.representative_to_cluster.txt&rsquo; contains the dRep clusters. Note that the manually defined subclades in the iTOL annotation file &lsquo;iTOL_annotation.manually_defined_clades.DATASET_STYLE.txt&rsquo; have a different numbering from the paper: subclades 0 and 1 are the &lsquo;heterocytous sister clades&rsquo;, and subclades 2-10 in the annotation file are heterocytous subclades 1-9 in the paper, respectively.</span></li>\n<li><strong><span>Supplementary Data 5. Lipid data files.</span></strong><span> The folder contains all the UHPLC-HRMS<em><sup>n</sup></em> (Orbitrap) datafiles used in this study. The directory &lsquo;CCY strains&rsquo; includes 24 heterocytous cyanobacterial cultures corresponding to 23 strains grown in nitrogen-deficient media, the resulting data are shown in Supplementary Table 10. Directory &lsquo;HglT mutant&rsquo; contains the datafiles used to generate Supplementary Table 15. The directory &lsquo;LEGE strains&rsquo; includes the UHPLC-HRMS<em><sup>n</sup></em> (Orbitrap) and GC-MS datafiles corresponding to eight cultures of two non-heterocytous strains grown in media with and without nitrogen for 38 to 77 days, the resulting data are shown in Supplementary Tables 10, 17 and 18.</span></li>\n<li><strong><span>Supplementary Data 6. Plasmid maps.&nbsp;</span></strong><span>GenBank and FASTA files of plasmids generated in this study. &lsquo;HglT deletion&rsquo; directory contains the genomic region surrounding <em>hglT</em> in the <em>wild-type </em>strain and after deletion used to generate Supplementary Fig. 15. pAM5404 is shown in Supplementary Fig. 16 and p(A)RP0XX are shown in Supplementary Fig. 17.<span><span></span></span></span></li>\n<li><strong><span>Supplementary Data 7. Phylogenies of seven <em>hgl</em> island genes and of a concatenated alignment of these genes.</span></strong><span> The folder contains the files used to generate Supplementary Fig. 18 (in the directory &lsquo;gene_trees_hgl_islands&rsquo;), and Fig. 4 and related figures (in the directory &lsquo;gene_trees_hgl_islands_4&rsquo;. The directories contain the alignments and trimmed alignments, IQ-TREE output files, and iTOL annotation files. The file &lsquo;gene_trees_hgl_islands/analysis_individual_gene_trees/explore_individual_gene_clusters.ipynb&rsquo; contains the code to identify the five&nbsp;<em>hgl</em> islands that contain genes with incongruent evolutionary histories.</span></li>\n<li><strong><span>Supplementary Data 8. Phylogeny of <em>hglE<sub>A</sub></em> homologs.</span></strong><span> The folder contains the files used to generate Supplementary Fig. 24 and related figures. The file &lsquo;selected_hglE_hits.txt&rsquo; contains the selected <em>hglE<sub>A</sub></em> hits and the genomic cluster on which they are located. The folder contains the alignment and trimmed alignment, IQ-TREE output files, and iTOL annotation files.</span></li>\n<li><strong><span>All the code used in this publication&nbsp;</span></strong><span>including scripts used for: genome assemblies, download of genomes from public repositories, quality and contamination checks, genome analysis, construction of the phylogenetic trees, <em>hgl</em> island identification, etc. The shell script 'commands.sh' within each directory contains all the code used to generate the content in the directory.</span></li>\n<li><strong><span>All the figures used in this publication </span></strong><span>including the figures in the Supplementary Information file.</span></li>\n</ul>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "P\u00e9rez Gallego, Ruth",
+            "affiliation": "Royal Netherlands Institute for Sea Research",
+            "orcid": "0000-0003-3916-7732"
+          },
+          {
+            "name": "von Meijenfeldt, F. A. Bastiaan",
+            "affiliation": "Royal Netherlands Institute for Sea Research",
+            "orcid": "0000-0002-0037-0007"
+          },
+          {
+            "name": "Bale, Nicole J.",
+            "affiliation": "Royal Netherlands Institute for Sea Research",
+            "orcid": "0000-0001-9118-3890"
+          },
+          {
+            "name": "Sinninghe Damste, Jaap S",
+            "affiliation": "Royal Netherlands Institute for Sea Research",
+            "orcid": "0000-0002-8683-1854"
+          },
+          {
+            "name": "Villanueva, Laura",
+            "affiliation": "Royal Netherlands Institute for Sea Research",
+            "orcid": "0000-0001-5659-8599"
+          }
+        ],
+        "keywords": [
+          "heterocyte glycolipids",
+          "heterocytous cyanobacteria",
+          "lipid biosynthesis",
+          "biomarkers",
+          "biosynthetic gene cluster",
+          "nitrogen fixation"
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "grants": [
+          {
+            "code": "694569",
+            "internal_id": "10.13039/501100000780::694569",
+            "funder": {
+              "name": "European Commission",
+              "doi": "10.13039/501100000780",
+              "acronym": "EC"
+            },
+            "title": "Microbial lipids: The three domain \u2018lipid divide\u2019 revisited",
+            "acronym": "MICROLIPIDS",
+            "program": "H2020-EU.1.1.",
+            "url": "https://cordis.europa.eu/projects/694569"
+          },
+          {
+            "code": "2300127965",
+            "internal_id": "10.13039/501100003246::2300127965",
+            "funder": {
+              "name": "Dutch Research Council",
+              "doi": "10.13039/501100003246",
+              "acronym": "NWO"
+            },
+            "title": "Spinoza-premie 2004"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 4,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "10444557"
+              }
+            }
+          ]
+        },
+        "notes": "<p>LV and JSSD also received funding from the Soehngen Institute for Anaerobic Microbiology (SIAM) through a Gravitation Grant (024.002.002) from the Dutch Ministry of Education, Culture, and Science (OCW).</p>"
+      },
+      "title": "Emergence and evolution of heterocyte glycolipid biosynthesis enabled specialized nitrogen fixation in cyanobacteria",
+      "links": {
+        "self": "https://zenodo.org/api/records/20678720",
+        "self_html": "https://zenodo.org/records/20678720",
+        "preview_html": "https://zenodo.org/records/20678720?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20678720",
+        "self_doi": "https://doi.org/10.5281/zenodo.20678720",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20678720",
+        "reserve_doi": "https://zenodo.org/api/records/20678720/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/10444557",
+        "parent_html": "https://zenodo.org/records/10444557",
+        "parent_doi": "https://doi.org/10.5281/zenodo.10444557",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10444557",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20678720/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20678720/sequence/default",
+        "files": "https://zenodo.org/api/records/20678720/files",
+        "media_files": "https://zenodo.org/api/records/20678720/media-files",
+        "archive": "https://zenodo.org/api/records/20678720/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20678720/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20678720/versions/latest",
+        "latest_html": "https://zenodo.org/records/20678720/latest",
+        "versions": "https://zenodo.org/api/records/20678720/versions",
+        "draft": "https://zenodo.org/api/records/20678720/draft",
+        "access_links": "https://zenodo.org/api/records/20678720/access/links",
+        "access_grants": "https://zenodo.org/api/records/20678720/access/grants",
+        "access_users": "https://zenodo.org/api/records/20678720/access/users",
+        "access_request": "https://zenodo.org/api/records/20678720/access/request",
+        "access": "https://zenodo.org/api/records/20678720/access",
+        "communities": "https://zenodo.org/api/records/20678720/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20678720/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20678720/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20678720/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20678720/quota-increase",
+        "requests": "https://zenodo.org/api/records/20678720/requests"
+      },
+      "updated": "2026-06-13T11:26:31.935270+00:00",
+      "recid": "20678720",
+      "revision": 4,
+      "files": [
+        {
+          "id": "88573ee7-72f0-48b4-82f9-21f57efcc37d",
+          "key": "Supplementary_Data_2.HG_clusters_in_cyano_genomes.tar.gz",
+          "size": 2052719,
+          "checksum": "md5:d939686f1d6e3bba8bb113637579676a",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_2.HG_clusters_in_cyano_genomes.tar.gz/content"
+          }
+        },
+        {
+          "id": "a6641a8f-d40a-49c5-adb5-54029f262697",
+          "key": "Supplementary_Data_3.HG_clusters_in_all_tree_of_life_genomes.tar.gz",
+          "size": 122475227,
+          "checksum": "md5:dba349d04426a28d2789ea23c0625487",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_3.HG_clusters_in_all_tree_of_life_genomes.tar.gz/content"
+          }
+        },
+        {
+          "id": "35725d9e-85d4-4262-abb4-c3bb51b0392f",
+          "key": "Supplementary_Data_1.Selected_cyano_genomes.tar.gz",
+          "size": 1833453,
+          "checksum": "md5:88d2a266c6f90b889693eccb0136da8c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_1.Selected_cyano_genomes.tar.gz/content"
+          }
+        },
+        {
+          "id": "f05000ab-76a2-4187-b24f-e46373ed1207",
+          "key": "Supplementary_Data_4.Core_gene_phylogeny.tar.gz",
+          "size": 18886066,
+          "checksum": "md5:22e95ab4f7eb7f7138247d5b71a4b2d4",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_4.Core_gene_phylogeny.tar.gz/content"
+          }
+        },
+        {
+          "id": "e92e0ff9-b3c3-43cc-b378-ca4c4052e292",
+          "key": "Supplementary_Data_5._Lipid_datafiles.zip",
+          "size": 13544186806,
+          "checksum": "md5:543c50e12f17e2b63faca1392aa856ae",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_5._Lipid_datafiles.zip/content"
+          }
+        },
+        {
+          "id": "ddedc3b5-5141-4d52-9544-94bcce26e748",
+          "key": "Supplementary_Data_7.Phylogenies_of_7_genes.tar.gz",
+          "size": 12232257,
+          "checksum": "md5:ad3b0bfeeadff4fe4db079d6a0b03d2b",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_7.Phylogenies_of_7_genes.tar.gz/content"
+          }
+        },
+        {
+          "id": "666bf3f1-b053-48fd-a50f-7b1a813aa9af",
+          "key": "Supplementary_Data_6._Plasmid_maps.tar.gz",
+          "size": 90244,
+          "checksum": "md5:4feef3d98a4a3cc1d5d4fed951b272fc",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_6._Plasmid_maps.tar.gz/content"
+          }
+        },
+        {
+          "id": "869ec437-6baa-4e19-af52-193a8c9134b2",
+          "key": "Supplementary_Data_8.Phylogeny_of_hglEA_homologs.tar.gz",
+          "size": 2689431,
+          "checksum": "md5:d0fa21ecc7317030b6652c9d62685aff",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Supplementary_Data_8.Phylogeny_of_hglEA_homologs.tar.gz/content"
+          }
+        },
+        {
+          "id": "ab76e018-9b3c-40b6-8aeb-b49b0773db0b",
+          "key": "Code_for_Zenodo.tar.gz",
+          "size": 1782586,
+          "checksum": "md5:51258f069d66c4a9026d792217d801d0",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Code_for_Zenodo.tar.gz/content"
+          }
+        },
+        {
+          "id": "b67c5c57-6ef3-431c-ad43-b5a601468543",
+          "key": "Figures.zip",
+          "size": 443257900,
+          "checksum": "md5:3e157c0155c3911862150d05ed26db0c",
+          "links": {
+            "self": "https://zenodo.org/api/records/20678720/files/Figures.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "604743"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 285,
+        "unique_downloads": 267,
+        "views": 338,
+        "unique_views": 313,
+        "version_downloads": 9,
+        "version_unique_downloads": 9,
+        "version_unique_views": 56,
+        "version_views": 57
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2026-05-26T05:28:21.869862+00:00",
       "modified": "2026-05-26T05:28:22.200079+00:00",
@@ -126,14 +371,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 315,
-        "unique_downloads": 314,
-        "views": 1357,
-        "unique_views": 1332,
+        "downloads": 317,
+        "unique_downloads": 316,
+        "views": 1492,
+        "unique_views": 1467,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 2,
-        "version_views": 2
+        "version_unique_views": 38,
+        "version_views": 38
       },
       "state": "done",
       "submitted": true
@@ -338,14 +583,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 2,
-        "unique_downloads": 2,
-        "views": 1,
-        "unique_views": 1,
-        "version_downloads": 2,
-        "version_unique_downloads": 2,
-        "version_unique_views": 1,
-        "version_views": 1
+        "downloads": 33,
+        "unique_downloads": 32,
+        "views": 6,
+        "unique_views": 6,
+        "version_downloads": 33,
+        "version_unique_downloads": 32,
+        "version_unique_views": 6,
+        "version_views": 6
       },
       "state": "done",
       "submitted": true
@@ -554,14 +799,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 3,
-        "unique_downloads": 3,
-        "views": 3,
-        "unique_views": 2,
-        "version_downloads": 3,
-        "version_unique_downloads": 3,
-        "version_unique_views": 2,
-        "version_views": 3
+        "downloads": 13,
+        "unique_downloads": 13,
+        "views": 7,
+        "unique_views": 6,
+        "version_downloads": 13,
+        "version_unique_downloads": 13,
+        "version_unique_views": 6,
+        "version_views": 7
       },
       "state": "done",
       "submitted": true
@@ -774,12 +1019,12 @@
       "stats": {
         "downloads": 2,
         "unique_downloads": 2,
-        "views": 1,
-        "unique_views": 1,
+        "views": 4,
+        "unique_views": 4,
         "version_downloads": 2,
         "version_unique_downloads": 2,
-        "version_unique_views": 1,
-        "version_views": 1
+        "version_unique_views": 4,
+        "version_views": 4
       },
       "state": "done",
       "submitted": true
@@ -986,12 +1231,12 @@
       "stats": {
         "downloads": 4,
         "unique_downloads": 3,
-        "views": 6,
-        "unique_views": 6,
+        "views": 9,
+        "unique_views": 9,
         "version_downloads": 4,
         "version_unique_downloads": 3,
-        "version_unique_views": 6,
-        "version_views": 6
+        "version_unique_views": 9,
+        "version_views": 9
       },
       "state": "done",
       "submitted": true
@@ -1196,14 +1441,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 2,
-        "unique_views": 2,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 2,
-        "version_views": 2
+        "downloads": 2,
+        "unique_downloads": 1,
+        "views": 4,
+        "unique_views": 4,
+        "version_downloads": 2,
+        "version_unique_downloads": 1,
+        "version_unique_views": 4,
+        "version_views": 4
       },
       "state": "done",
       "submitted": true
@@ -1408,14 +1653,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 1,
-        "unique_views": 1,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 1,
-        "version_views": 1
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 6,
+        "unique_views": 6,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 6,
+        "version_views": 6
       },
       "state": "done",
       "submitted": true
@@ -1622,12 +1867,12 @@
       "stats": {
         "downloads": 0,
         "unique_downloads": 0,
-        "views": 1,
-        "unique_views": 1,
+        "views": 12,
+        "unique_views": 12,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 1,
-        "version_views": 1
+        "version_unique_views": 12,
+        "version_views": 12
       },
       "state": "done",
       "submitted": true
@@ -1755,131 +2000,12 @@
       "stats": {
         "downloads": 6,
         "unique_downloads": 4,
-        "views": 5,
-        "unique_views": 5,
+        "views": 8,
+        "unique_views": 8,
         "version_downloads": 6,
         "version_unique_downloads": 4,
-        "version_unique_views": 5,
-        "version_views": 5
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-04-19T13:48:45.192292+00:00",
-      "modified": "2026-04-19T13:48:45.416401+00:00",
-      "id": 19652229,
-      "conceptrecid": "19652228",
-      "doi": "10.5281/zenodo.19652229",
-      "conceptdoi": "10.5281/zenodo.19652228",
-      "doi_url": "https://doi.org/10.5281/zenodo.19652229",
-      "metadata": {
-        "title": "Why Stories Return: A Hermeneutic Account of Delayed Meaning in Narrative Reception",
-        "doi": "10.5281/zenodo.19652229",
-        "publication_date": "2026-04-19",
-        "description": "<p class=\"MsoNormal\">Human beings do not live by facts alone. They live also by stories, and certain stories come back to them across decades with renewed force. This paper advances a hermeneutic thesis about that phenomenon: narrative is an intrinsically delayed form of meaning, delayed relative to the interpretive capacity of the reader at the moment of first reception. The experience ordinary readers call coming back to a book, and that C. S. Lewis named becoming old enough to read fairy tales again, is the structural expression of this delay. The argument is positioned in relation to Ricoeur's threefold mimesis (and in particular his concept of distanciation), MacIntyre's narrative unity thesis, Kermode on endings, Iser's reader-response theory, Bloom on rereading as struggle, and McAdams's empirical work on narrative identity. The paper distinguishes seven principal narrative forms &mdash; myth, legend and sacred story, historical narrative, parable and didactic story, fable and allegory, fiction and imaginative literature, and personal and collective identity story &mdash; as a working vocabulary rather than an original discovery. Its distinctive contributions are four. It offers a phenomenological description of rereading grounded in three testimonies drawn from literary criticism rather than in hypothetical composite readers. It works through three sustained close readings &mdash; Hansel and Gretel, the return of Odysseus, and the parable of the Prodigal Son &mdash; to show what delayed meaning looks like in practice. It takes seriously the counterexample: not all stories return, and the conditions under which a story fails to return are as diagnostic of the thesis as the cases of successful return. And it addresses the critical register directly, arguing through a worked case that the same mechanism permitting deepened understanding can also sustain deepened ideological complicity.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Matta, David (Daoud)",
-            "affiliation": "American University of Beirut",
-            "orcid": "0009-0002-5688-0687"
-          }
-        ],
-        "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "19652228"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Why Stories Return: A Hermeneutic Account of Delayed Meaning in Narrative Reception",
-      "links": {
-        "self": "https://zenodo.org/api/records/19652229",
-        "self_html": "https://zenodo.org/records/19652229",
-        "preview_html": "https://zenodo.org/records/19652229?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.19652229",
-        "self_doi": "https://doi.org/10.5281/zenodo.19652229",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19652229",
-        "reserve_doi": "https://zenodo.org/api/records/19652229/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/19652228",
-        "parent_html": "https://zenodo.org/records/19652228",
-        "parent_doi": "https://doi.org/10.5281/zenodo.19652228",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19652228",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19652229/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19652229/sequence/default",
-        "files": "https://zenodo.org/api/records/19652229/files",
-        "media_files": "https://zenodo.org/api/records/19652229/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:19652229:Why_Stories_Return_v1.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:19652229:Why_Stories_Return_v1.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:19652229:Why_Stories_Return_v1.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:19652229:Why_Stories_Return_v1.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:19652229:Why_Stories_Return_v1.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:19652229:Why_Stories_Return_v1.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/19652229/files-archive",
-        "archive_media": "https://zenodo.org/api/records/19652229/media-files-archive",
-        "latest": "https://zenodo.org/api/records/19652229/versions/latest",
-        "latest_html": "https://zenodo.org/records/19652229/latest",
-        "versions": "https://zenodo.org/api/records/19652229/versions",
-        "draft": "https://zenodo.org/api/records/19652229/draft",
-        "access_links": "https://zenodo.org/api/records/19652229/access/links",
-        "access_grants": "https://zenodo.org/api/records/19652229/access/grants",
-        "access_users": "https://zenodo.org/api/records/19652229/access/users",
-        "access_request": "https://zenodo.org/api/records/19652229/access/request",
-        "access": "https://zenodo.org/api/records/19652229/access",
-        "communities": "https://zenodo.org/api/records/19652229/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/19652229/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/19652229/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/19652229/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/19652229/quota-increase",
-        "requests": "https://zenodo.org/api/records/19652229/requests"
-      },
-      "updated": "2026-04-19T13:48:45.416401+00:00",
-      "recid": "19652229",
-      "revision": 4,
-      "files": [
-        {
-          "id": "491fe642-fd2c-4bba-bf99-02157a3c71a7",
-          "key": "Why_Stories_Return_v1.pdf",
-          "size": 444694,
-          "checksum": "md5:d98e8438dd5d1e652dfcf59fd4b9e10a",
-          "links": {
-            "self": "https://zenodo.org/api/records/19652229/files/Why_Stories_Return_v1.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1430371"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 7,
-        "unique_downloads": 6,
-        "views": 13,
-        "unique_views": 12,
-        "version_downloads": 7,
-        "version_unique_downloads": 6,
-        "version_unique_views": 12,
-        "version_views": 13
+        "version_unique_views": 8,
+        "version_views": 8
       },
       "state": "done",
       "submitted": true
