@@ -1,6 +1,443 @@
 {
-  "cache_date": "2026-07-01T12:37:14.021564",
+  "cache_date": "2026-08-01T11:20:59.335257",
   "data": [
+    {
+      "created": "2026-08-01T06:29:12.002201+00:00",
+      "modified": "2026-08-01T06:29:12.225723+00:00",
+      "id": 21735731,
+      "conceptrecid": "3589527",
+      "doi": "10.5281/zenodo.21735731",
+      "conceptdoi": "10.5281/zenodo.3589527",
+      "doi_url": "https://doi.org/10.5281/zenodo.21735731",
+      "metadata": {
+        "title": "nf-core/mag: mag 5.5.0 - Purple Penguin",
+        "doi": "10.5281/zenodo.21735731",
+        "publication_date": "2026-08-01",
+        "description": "<h3><code>Added</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/mag/pull/908\">#908</a> - Add nf-test snapshot for <code>test_single_end</code> profile (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1028\">#1028</a> - Add nf-test snapshot for <code>test_longread_alternatives</code> profile (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/908\">#1029</a> - Add nf-test snapshot for <code>test_hybrid</code> profile (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1037\">#1037</a> - Complement usage documentation with guidance on pipeline defaults, choices and alternatives (by @d4straub and @jfy133 )</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1039\">#1039</a> - Add nf-test snapshot for <code>test_longread</code> profile (started by @brovolia, finished by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1041\">#1041</a> - Refined and corrected unclear section of metromap (by @jfy133)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1042\">#1042</a> - Add nf-test snapshot for <code>test_default</code> profile (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1044\">#1044</a> - Add new <code>--gtdbtk_place_species</code> parameter (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/issues/1007\">#1047</a> - Add <code>--gtdbtk_single_job</code> to run GTDB-Tk classification for all bins in a single job (requested by @sarah-shah-bioinf, by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1048\">#1048</a> - Add optional PyPOLCA polishing for long-read assemblies via <code>--run_pypolca</code> (by @Harshita-sriv)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1055\">#1055</a> - Add dedicated page describing resource usage (by @jfy133)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1057\">#1057</a> - Add skip_fastqc switch (by @jorondo1)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1059\">#1059</a> - Add <code>--filtlong_filtering_by_shortreads</code> parameter to enable filtlong's short-read-based long read filtering (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1062\">#1062</a> - Add <code>--bin_seqkit_stats_max_forks</code> parameter to cap concurrent bin-stats jobs (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1063\">#1063</a> - Add new <code>--ale_per_base_output</code> parameter to enable ALE per-base output (by @dialvarezs)</li>\n</ul>\n<h3><code>Changed</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/mag/pull/1011\">#1011</a> - Reverted CheckM2 database download workaround from #966 (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1020\">#1020</a> - Update CONCOCT subworkflow and modules (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1030\">#1030</a> - Updated to nf-core 4.0.2 template (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1044\">#1044</a> - Updated GTDB-Tk to v2.7.2 / GTDB r232 (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1059\">#1059</a> - Changed the default long read filtering tool from <code>filtlong</code> to <code>chopper</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1060\">#1060</a> - Updated module tags to make them more specific (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1061\">#1061</a>, <a href=\"https://github.com/nf-core/mag/pull/1064\">#1064</a> - Speed up binning by not waiting for all mapping jobs to finish before starting (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1062\">#1062</a> - Remove grouping to prevent bin QC blocking by waiting for all binners (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1063\">#1063</a> - Run ALE with <code>--metagenome</code> and disable its per-base output by default (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1065\">#1065</a> - Improved efficiency by removing usage of per-bin GUNZIP module for bins and unbinned contigs and allowing gzip support for all modules (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1066\">#1066</a> - Improved efficiency by removing channel &quot;locks&quot; on Seqkit, QUAST, and GTDB-Tk (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1070\">#1070</a> - Update BUSCO nf-core module (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1071\">#1071</a> - Improved efficiency by batching <code>DASTOOL_FASTATOCONTIG2BIN</code> per binner instead of per bin (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1074\">#1074</a> - Exclude BUSCO output directories to reduce storage usage in output dir (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1075\">#1075</a> - Update output documentation to reflect BUSCO complete directory no longer being published (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1079\">#1079</a> - Add exit code 247 to the MEGAHIT retry error strategy (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1080\">#1080</a> - Updated to nf-core 4.0.3 <code>TEMPLATE</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1081\">#1081</a> - Use subset database for geNomad (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1084\">#1084</a> - Disable NanoPlot static plot image files by default, since it depends on Chrome installed (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1088\">#1088</a> - Update Prokka (to v1.15.6), Prodigal and PyDamage modules, fixing conda/container output mismatches (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1088\">#1088</a> - Run GTDB-Tk with a single CPU on the <code>test_single_end</code> profile, so its outputs no longer depend on the machine running the test (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1091\">#1091</a> - Optimize process resource configs (by @dialvarezs)</li>\n</ul>\n<h3><code>Fixed</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/mag/pull/1011\">#1011</a> - Fix issue making CheckM2 running only for one sample per run (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1012\">#1012</a> - Prevent adapter trimming with Porechop on PacBio reads (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1016\">#1016</a> - Merge input reads on assembly input to prevent repeated filenames on multi-run samples (reported by @erikrikarddaniel, fix by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1017\">#1017</a> - Prevent ALE running on long read assemblies when a sample has both LR and SR data (reported by @jfy133, fix by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1018\">#1018</a> - Ignore <code>catpack/summarise</code> errors, since it's a limitation from the tool (reported by @jfy133, fix by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1018\">#1018</a> - Feed <code>catpack/contig</code> with merged unbinned output to prevent execution errors (reported by @Juassis, fix by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1021\">#1021</a> - Prevent execution of <code>gtdbtk/summary</code> when no bins pass QC (reported by @jfy133, fix by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1031\">#1031</a> - Fix hybrid co-assembly with SPAdes (short &amp; long reads with <code>--coassemble_group</code>) (fix by @d4straub)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1049\">#1049</a> - Fix publishing issue with <code>gtdbtk/classifywf</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1058\">#1058</a> - Make <code>create_metabinner_bins.py</code> save gzipped bin files to prevent NFS race condition (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1069\">#1069</a> - Exclude eukaryotic bins from CheckM2, which only supports bacterial and archaeal genomes (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1076\">#1076</a> - Add missing PyPOLCA citations to README, <code>CITATIONS.md</code> and the pipeline citation/bibliography text (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1078\">#1078</a> - Sort bins before GTDB-Tk classification so order-sensitive outputs are reproducible across environments (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1084\">#1084</a> - Update Prokka nf-core module, which pins GNU parallel to fix Prokka failures with Conda (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1086\">#1086</a> - Rename MaxBin2 bins inside the <code>MAXBIN2</code> module via a patch instead of the <code>ADJUST_MAXBIN2_EXT</code> local module, which emitted dangling symlinks rather than bin contents on remote filesystems (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1086\">#1086</a> - Copy instead of move staged bins in <code>TIARA_CLASSIFY</code>, which emitted dangling symlinks rather than bin contents on remote filesystems (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1086\">#1086</a> - Match bin filenames exactly in <code>TIARA_CLASSIFY</code> so that e.g. bin <code>.1</code> no longer also picks up bin <code>.10</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1087\">#1087</a> - Use non-mutating <code>toSorted</code> instead of in-place <code>sort</code> on shared channel items, which could cause <code>ConcurrentModificationException</code> failures (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1093\">#1093</a> - Ignore CheckM <code>storage/</code> subdirectories in nf-test snapshots, whose contents vary between runs and machines (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1094\">#1094</a> - Convert depths in a single streaming pass, so <code>CONVERT_DEPTHS</code> no longer writes a decompressed copy of the depth file to the work directory and re-reads it once per read set, which stalled short-read assemblies for hours on object-backed work directories (by @dialvarezs)</li>\n</ul>\n<h3><code>Dependencies</code></h3>\n<p>| Tool            | Previous version | New version |\n| --------------- | ---------------- | ----------- |\n| BUSCO           | 6.0.0            | 6.1.0       |\n| GTDB (database) | r226             | r232        |\n| GTDB-Tk         | 2.5.2            | 2.7.2       |\n| MultiQC         | 1.31             | 1.34        |\n| Nextflow        | 25.10.4          | 26.04.0     |\n| nf-core         | 3.5.1            | 4.0.3       |\n| nf-schema       | 2.5.1            | 2.7.2       |\n| Prokka          | 1.14.6           | 1.15.6      |\n| pypolca         |                  | 0.4.0       |</p>\n<h3><code>Deprecated</code></h3>\n<ul>\n<li><a href=\"https://github.com/nf-core/mag/pull/908\">#908</a> - Removed local <code>quast_bins_summary</code> in favor of <code>csvtk/concat</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1018\">#1018</a> - Remove <code>mag_depths_plot</code> local module (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1018\">#1018</a> - Deprecated <code>--gtdbtk_skip_aniscreen</code> in favor of <code>--gtdbtk_place_species</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1066\">#1067</a> - Deprecated <code>--skip_metaeuk</code> as it has no effect, MetaEuk is gated by <code>--metaeuk_db</code> / <code>--metaeuk_mmseqs_db</code> (by @dialvarezs)</li>\n<li><a href=\"https://github.com/nf-core/mag/pull/1086\">#1086</a> - Removed <code>adjust_maxbin2_ext</code> local module, replaced by a patch on the <code>MAXBIN2</code> nf-core module (by @dialvarezs)</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/nf-core/mag/compare/5.4.2...5.5.0</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "James A. Fellows Yates",
+            "affiliation": "HKI Jena, MPI-EVA Leipzig"
+          },
+          {
+            "name": "Diego Alvarez S.",
+            "affiliation": "Universidad de Magallanes"
+          },
+          {
+            "name": "Sabrina Krakau",
+            "affiliation": "@qbicsoftware"
+          },
+          {
+            "name": "Daniel Straub",
+            "affiliation": "Quantitative Biology Center (QBiC)"
+          },
+          {
+            "name": "Adam Rosenbaum",
+            "affiliation": "Clinical Genetics, Ume\u00e5 University Hospital"
+          },
+          {
+            "name": "Jim Downie",
+            "affiliation": "Wellcome Sanger"
+          },
+          {
+            "name": "Hadrien Gourl\u00e9",
+            "affiliation": "Folkhalsomyndigheten"
+          },
+          {
+            "name": "nf-core bot",
+            "affiliation": null
+          },
+          {
+            "name": "Maxime Borry",
+            "affiliation": null
+          },
+          {
+            "name": "Daniel Lundin",
+            "affiliation": "Linnaeus University & Stockholm University"
+          },
+          {
+            "name": "G Fedewa",
+            "affiliation": null
+          },
+          {
+            "name": "Jeferyd Yepes G",
+            "affiliation": "University of Fribourg"
+          },
+          {
+            "name": "PhilPalmer",
+            "affiliation": null
+          },
+          {
+            "name": "Carson J Miller",
+            "affiliation": "University of Washington"
+          },
+          {
+            "name": "Gregory Sprenger",
+            "affiliation": null
+          },
+          {
+            "name": "Pranjal-Bioinfo",
+            "affiliation": null
+          },
+          {
+            "name": "willros",
+            "affiliation": null
+          },
+          {
+            "name": "Harshita Srivastava",
+            "affiliation": null
+          },
+          {
+            "name": "Alex Caswell",
+            "affiliation": "Swansea University"
+          },
+          {
+            "name": "PetcuBogdan",
+            "affiliation": null
+          },
+          {
+            "name": "Alex H\u00fcbner",
+            "affiliation": null
+          },
+          {
+            "name": "Antonia Beller",
+            "affiliation": "Epic Games"
+          },
+          {
+            "name": "Maxime U Garcia",
+            "affiliation": null
+          },
+          {
+            "name": "Vini Salazar",
+            "affiliation": null
+          },
+          {
+            "name": "Usman Rashid",
+            "affiliation": null
+          },
+          {
+            "name": "Phil Ewels",
+            "affiliation": "@seqeralabs"
+          },
+          {
+            "name": "Alexander Ramos",
+            "affiliation": "Bioinformatician"
+          },
+          {
+            "name": "Gisela Gabernet",
+            "affiliation": null
+          },
+          {
+            "name": "Alem Gusinac",
+            "affiliation": "Radboudumc"
+          },
+          {
+            "name": "Alexander Peltzer",
+            "affiliation": "Boehringer Ingelheim"
+          }
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/nf-core/mag/tree/5.5.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "5.5.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/nf-core/mag"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "communities": [
+          {
+            "id": "nf-core"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 38,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "3589527"
+              }
+            }
+          ]
+        }
+      },
+      "title": "nf-core/mag: mag 5.5.0 - Purple Penguin",
+      "links": {
+        "self": "https://zenodo.org/api/records/21735731",
+        "self_html": "https://zenodo.org/records/21735731",
+        "preview_html": "https://zenodo.org/records/21735731?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21735731",
+        "self_doi": "https://doi.org/10.5281/zenodo.21735731",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735731",
+        "reserve_doi": "https://zenodo.org/api/records/21735731/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/3589527",
+        "parent_html": "https://zenodo.org/records/3589527",
+        "parent_doi": "https://doi.org/10.5281/zenodo.3589527",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3589527",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21735731/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21735731/sequence/default",
+        "files": "https://zenodo.org/api/records/21735731/files",
+        "media_files": "https://zenodo.org/api/records/21735731/media-files",
+        "archive": "https://zenodo.org/api/records/21735731/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21735731/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21735731/versions/latest",
+        "latest_html": "https://zenodo.org/records/21735731/latest",
+        "versions": "https://zenodo.org/api/records/21735731/versions",
+        "draft": "https://zenodo.org/api/records/21735731/draft",
+        "access_links": "https://zenodo.org/api/records/21735731/access/links",
+        "access_grants": "https://zenodo.org/api/records/21735731/access/grants",
+        "access_users": "https://zenodo.org/api/records/21735731/access/users",
+        "access_request": "https://zenodo.org/api/records/21735731/access/request",
+        "access": "https://zenodo.org/api/records/21735731/access",
+        "communities": "https://zenodo.org/api/records/21735731/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21735731/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21735731/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21735731/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21735731/quota-increase",
+        "requests": "https://zenodo.org/api/records/21735731/requests"
+      },
+      "updated": "2026-08-01T06:29:12.225723+00:00",
+      "recid": "21735731",
+      "revision": 4,
+      "files": [
+        {
+          "id": "758d3b9f-4e63-41fd-9c45-bea7752090f2",
+          "key": "nf-core/mag-5.5.0.zip",
+          "size": 4779633,
+          "checksum": "md5:8ced54879606fbf17342d415e89e8478",
+          "links": {
+            "self": "https://zenodo.org/api/records/21735731/files/nf-core/mag-5.5.0.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:400ad2b45f2495cd38573ddd905905db9a76c15f;origin=https://doi.org/10.5281/zenodo.3589527;visit=swh:1:snp:1eae9e99c97e816c69f20b41556ccd08a468934e;anchor=swh:1:rel:a6d137a6152346084504f38434d82c4e5a492a1b;path=nf-core-mag-56abab5"
+      },
+      "owners": [
+        {
+          "id": "20760"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 591,
+        "unique_downloads": 587,
+        "views": 3329,
+        "unique_views": 3202,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-22T14:01:09.652574+00:00",
+      "modified": "2026-07-22T14:01:10.032242+00:00",
+      "id": 21471992,
+      "conceptrecid": "21471991",
+      "doi": "10.5281/zenodo.21471992",
+      "conceptdoi": "10.5281/zenodo.21471991",
+      "doi_url": "https://doi.org/10.5281/zenodo.21471992",
+      "metadata": {
+        "title": "PHORAGER - HumGut database genomes without prophages",
+        "doi": "10.5281/zenodo.21471992",
+        "publication_date": "2026-07-21",
+        "description": "<h1>Prophage-depleted HumGut representative genomes (\"phoraged\" genomes)</h1>\n<p>This archive contains prophage-depleted bacterial genomes derived from the HumGut&nbsp;collection of human gut prokaryotic genomes. Each genome is a HumGut cluster&nbsp;representative from which predicted prophage regions have been removed (\"excised\")&nbsp;using the PHORAGER pipeline. The resulting genomes are intended as prophage-depleted&nbsp;host references; for example, for building mock-community references and benchmarking&nbsp;prophage-detection methods.</p>\n<p>- <strong>Pipeline: </strong>PHORAGER v0.5.0-beta : https://github.com/aponsero/PHORAGER<br>- <strong>Generated by</strong>: the PHORAGER `prophage` workflows, run with default parameters.<br>- <strong>Humgut database available at</strong>: <a href=\"http://arken.nmbu.no/~larssn/humgut/\">http://arken.nmbu.no/~larssn/humgut/</a><br>- <strong>HumGut database described in</strong> : <a href=\"https://doi.org/10.1186/s40168-021-01114-w\">https://doi.org/10.1186/s40168-021-01114-w</a><br>--&gt; Number of genomes: 30,691 HumGut cluster representatives</p>\n<p>---</p>\n<h2>1. What is in this archive</h2>\n<p>This archive provides one gzipped FASTA per genome plus a single summary table.</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Item</strong></td>\n<td><strong>Type</strong></td>\n<td><strong>Content</strong></td>\n</tr>\n<tr>\n<td>&lt;HumGut_ID&gt;_phoraged.fasta.gz</td>\n<td>gzipped FASTA (nt)</td>\n<td>One HumGut representative genome after prophage excision (host sequence only).</td>\n</tr>\n<tr>\n<td>humgut_summary.tsv</td>\n<td>TSV</td>\n<td>Per-genome taxonomy and prophage-excision summary (one row per genome).</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Upload structure</strong>: To keep individual uploads manageable, the genomes are split into batches of 5,000 and distributed as separate ZIP files, named by genome range : `Humgut1_5000`, `Humgut5000_10000`, `Humgut10000_15000`, and so on. With 30,691 genomes this gives seven ZIP files, the last of which is smaller than 5,000.</p>\n<p><strong>File naming</strong>: Each genome file is named `&lt;HumGut_ID&gt;_phoraged.fasta.gz`, where `&lt;HumGut_ID&gt;` is the HumGut cluster representative identifier (e.g. `HumGut_17012`). This identifier is the join key to `humgut_summary.tsv` (`HumGut_name` column).</p>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>2. File descriptions</h2>\n<h3>2.1 `&lt;HumGut_ID&gt;_phoraged.fasta.gz` : prophage-depleted genome</h3>\n<p>Nucleotide FASTA (gzip-compressed) containing the retained host sequence of a single&nbsp;HumGut representative genome after prophage excision. Contigs that contained no predicted&nbsp;prophage are included unchanged; contigs that contained an internal prophage are split&nbsp;into their host flank(s); contigs predicted to be entirely prophage are omitted (see &sect;3).</p>\n<p>Contig headers take one of two forms:</p>\n<p>- Unmodified contigs (no prophage removed) retain their original renamed contig header.<br>- Host fragments produced by splitting a prophage-containing contig carry a coordinate suffix indicating the retained interval, `..._host_&lt;start&gt;_&lt;end&gt;` (1-based, inclusive,&nbsp; relative to the pre-excision contig).</p>\n<h3>2.2 `humgut_summary.tsv` &mdash; per-genome taxonomy and excision summary</h3>\n<p>Tab-separated, one row per genome.</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Column</strong></td>\n<td><strong>Description</strong></td>\n</tr>\n<tr>\n<td>`HumGut_name`</td>\n<td>HumGut cluster representative identifier; matches the `&lt;HumGut_ID&gt;` prefix of the corresponding `_phoraged.fasta.gz` file.</td>\n</tr>\n<tr>\n<td>`HumGut_tax_id`</td>\n<td>HumGut taxonomy identifier for the cluster.</td>\n</tr>\n<tr>\n<td>`gtdbtk_taxonomy`</td>\n<td>GTDB-based taxonomic assignment (domain &rarr; species), semicolon-delimited.</td>\n</tr>\n<tr>\n<td>`original_genome_file`</td>\n<td>Filename of the original (pre-excision) genome assembly used as input to PHORAGER.</td>\n</tr>\n<tr>\n<td>`n_prophage_regions`</td>\n<td>Number of prophage regions excised from this genome. `0` if no prophage was detected.</td>\n</tr>\n<tr>\n<td>`total_prophage_bp`</td>\n<td>Total length (bp) of sequence removed as prophage. `0` if none.</td>\n</tr>\n</tbody>\n</table>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>3. How prophages were excised</h2>\n<p><strong>Excision was performed in two stages</strong>: prophage prediction with PHORAGER, followed by&nbsp;removal of the predicted regions from each genome.</p>\n<p>Prediction. Each genome's contigs were renamed to unique identifiers and screened for&nbsp;prophages with geNomad and VIBRANT. Overlapping predictions from the two tools were&nbsp;consolidated into non-redundant coordinate ranges per contig (1-based, inclusive).</p>\n<p><strong>Excision. For each contig:</strong></p>\n<p>- Contigs with no predicted prophage were retained unchanged.<br>- Contigs containing an internal prophage (host sequence remaining on at least one side) had the prophage region(s) removed and the flanking host sequence retained. Such a contig is split into separate host fragments rather than rejoined, so no artificial&nbsp; host&ndash;host junction is created.<br>- Contigs predicted to be entirely prophage: whole-contig predictions, or predictions&nbsp;spanning the full contig length were removed in their entirety.<br>- Host fragments were kept regardless of length (no minimum-length filter was applied).</p>\n<p><strong>Only retained host sequence is included in this archive.</strong></p>\n<p>Detection-stage regions are not annotation-confirmed. The regions removed here are PHORAGER's consolidated geNomad/VIBRANT predictions. They were deliberately NOT passed through PHORAGER's downstream confirmation steps (CheckV quality assessment and Pharokka/Phold annotation-based filtering). This is the conservative choice for building prophage-depleted host genomes: any region flagged by either detection tool is removed, minimizing the chance that a genuine prophage remains in a genome presented as host, at the cost of occasionally removing sequence that later confirmation might have retained.</p>\n<p>Consequently:</p>\n<p>- The excised prophage sequences are NOT distributed in this archive and should not be&nbsp;treated as a validated prophage set.<br>- `n_prophage_regions` and `total_prophage_bp` describe the detection-stage sequence that&nbsp;was removed; they are not a confirmed prophage count.</p>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>4. Notes and limitations</h2>\n<p>- Region boundaries are as predicted by geNomad/VIBRANT and are not CheckV-trimmed. A small amount of host sequence may be removed at region edges, and conversely some&nbsp; prophage-adjacent bases may remain in the host output.<br>- `n_prophage_regions = 0` means no prophage was detected for that genome; it is not a&nbsp;guarantee that the genome is prophage-free.<br>- Genomes are provided as prophage-depleted contig sets. Contigs carrying internal&nbsp;prophages are split and are not re-scaffolded or otherwise re-assembled.</p>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>5. How these outputs were generated</h2>\n<p><strong>Provenance chain:</strong></p>\n<p>&nbsp; HumGut representative genome<br>&nbsp; &nbsp; &rarr; PHORAGER prophage detection (geNomad + VIBRANT, consolidated)<br>&nbsp; &nbsp; &rarr; prophage excision (this archive: host sequence retained)</p>\n<p><strong>Tool versions:</strong></p>\n<table>\n<tbody>\n<tr>\n<td>Tool</td>\n<td>Version</td>\n<td>Role</td>\n</tr>\n<tr>\n<td>PHORAGER</td>\n<td>v0.5.0</td>\n<td>Pipeline (detection + excision)</td>\n</tr>\n<tr>\n<td>geNomad</td>\n<td>1.8.1</td>\n<td>Prophage prediction</td>\n</tr>\n<tr>\n<td>VIBRANT</td>\n<td>1.2.1</td>\n<td>Prophage prediction</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Parameters</strong> : PHORAGER prophage subworkflow using default parameters</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ponsero, Alise Jany",
+            "affiliation": "Quadram Institute",
+            "orcid": "0000-0002-4125-7561"
+          },
+          {
+            "name": "Dyball, Xena",
+            "affiliation": "Quadram Institute",
+            "orcid": "0009-0005-8070-698X"
+          },
+          {
+            "name": "Cook, Ryan",
+            "affiliation": "Quadram Institute",
+            "orcid": "0000-0003-4203-2193"
+          },
+          {
+            "name": "Adriaenssens, Evelien",
+            "affiliation": "Quadram Institute",
+            "orcid": "0000-0003-4826-5406"
+          }
+        ],
+        "version": "1.0.0",
+        "language": "enc",
+        "custom": {
+          "code:codeRepository": "https://github.com/aponsero/PHORAGER"
+        },
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21471991"
+              }
+            }
+          ]
+        }
+      },
+      "title": "PHORAGER - HumGut database genomes without prophages",
+      "links": {
+        "self": "https://zenodo.org/api/records/21471992",
+        "self_html": "https://zenodo.org/records/21471992",
+        "preview_html": "https://zenodo.org/records/21471992?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21471992",
+        "self_doi": "https://doi.org/10.5281/zenodo.21471992",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21471992",
+        "reserve_doi": "https://zenodo.org/api/records/21471992/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21471991",
+        "parent_html": "https://zenodo.org/records/21471991",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21471991",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21471991",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21471992/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21471992/sequence/default",
+        "files": "https://zenodo.org/api/records/21471992/files",
+        "media_files": "https://zenodo.org/api/records/21471992/media-files",
+        "archive": "https://zenodo.org/api/records/21471992/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21471992/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21471992/versions/latest",
+        "latest_html": "https://zenodo.org/records/21471992/latest",
+        "versions": "https://zenodo.org/api/records/21471992/versions",
+        "draft": "https://zenodo.org/api/records/21471992/draft",
+        "access_links": "https://zenodo.org/api/records/21471992/access/links",
+        "access_grants": "https://zenodo.org/api/records/21471992/access/grants",
+        "access_users": "https://zenodo.org/api/records/21471992/access/users",
+        "access_request": "https://zenodo.org/api/records/21471992/access/request",
+        "access": "https://zenodo.org/api/records/21471992/access",
+        "communities": "https://zenodo.org/api/records/21471992/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21471992/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21471992/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21471992/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21471992/quota-increase",
+        "requests": "https://zenodo.org/api/records/21471992/requests"
+      },
+      "updated": "2026-07-22T14:01:10.032242+00:00",
+      "recid": "21471992",
+      "revision": 4,
+      "files": [
+        {
+          "id": "5bf501b8-3ce0-4c49-bf8a-d922caf36e0e",
+          "key": "HumGut_phoraged_5k-10k.tar.gz",
+          "size": 2939472199,
+          "checksum": "md5:e73443d99456778c3ea25895ca574031",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_5k-10k.tar.gz/content"
+          }
+        },
+        {
+          "id": "3ee7cd92-d103-4403-82e9-da28de1a9de2",
+          "key": "HumGut_phoraged_1-5k.tar.gz",
+          "size": 3234317408,
+          "checksum": "md5:49049b80fe01e015e5e70a07d68adacc",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_1-5k.tar.gz/content"
+          }
+        },
+        {
+          "id": "c1a0b2b0-ac2c-4cfb-ac03-b516fd0d185d",
+          "key": "HumGut_phoraged_10k-15k.tar.gz",
+          "size": 3127856080,
+          "checksum": "md5:6bbe766e10a584e9b108e870b2343018",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_10k-15k.tar.gz/content"
+          }
+        },
+        {
+          "id": "d492028f-027a-4454-bb64-9322ce4de150",
+          "key": "HumGut_phoraged_15k-20k.tar.gz",
+          "size": 2991254794,
+          "checksum": "md5:fafeda8d8893ea0eb7f69b28f81b6da4",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_15k-20k.tar.gz/content"
+          }
+        },
+        {
+          "id": "dbe081c2-d93b-4e1d-ae57-f94e97dea5fe",
+          "key": "humgut_summary.tsv",
+          "size": 5284811,
+          "checksum": "md5:d55146a69fc376ba9c48f8da8573c672",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/humgut_summary.tsv/content"
+          }
+        },
+        {
+          "id": "74c3c9f5-b94c-4530-99ea-7cbcf98589e9",
+          "key": "HumGut_phoraged_20k-25k.tar.gz",
+          "size": 2899056595,
+          "checksum": "md5:80d9c96d420ea31e4516b44c5de361b6",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_20k-25k.tar.gz/content"
+          }
+        },
+        {
+          "id": "fb1307d5-2aa8-4c92-9c85-7911f54f1877",
+          "key": "HumGut_phoraged_25k-30k.tar.gz",
+          "size": 2958127018,
+          "checksum": "md5:6177b607c65eed16707b7b9f586907f7",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_25k-30k.tar.gz/content"
+          }
+        },
+        {
+          "id": "77c6bdd2-7075-4648-816f-269595d5516e",
+          "key": "HumGut_phoraged_30k-31k.tar.gz",
+          "size": 442088074,
+          "checksum": "md5:80516a80fb26517237560d7975da4182",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_30k-31k.tar.gz/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "572037"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 8,
+        "unique_views": 8,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 8,
+        "version_views": 8
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2026-05-18T19:46:18.738702+00:00",
       "modified": "2026-05-19T18:11:32.061215+00:00",
@@ -184,21 +621,21 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 62,
-        "unique_downloads": 62,
-        "views": 102,
-        "unique_views": 89,
-        "version_downloads": 62,
-        "version_unique_downloads": 62,
-        "version_unique_views": 82,
-        "version_views": 93
+        "downloads": 105,
+        "unique_downloads": 105,
+        "views": 167,
+        "unique_views": 153,
+        "version_downloads": 105,
+        "version_unique_downloads": 105,
+        "version_unique_views": 146,
+        "version_views": 158
       },
       "state": "done",
       "submitted": true
     },
     {
       "created": "2026-05-18T08:15:57.835026+00:00",
-      "modified": "2026-05-18T08:15:58.190858+00:00",
+      "modified": "2026-07-21T13:48:54.017764+00:00",
       "id": 20119467,
       "conceptrecid": "20119466",
       "doi": "10.5281/zenodo.20119467",
@@ -209,8 +646,7 @@
         "doi": "10.5281/zenodo.20119467",
         "publication_date": "2026-05-08",
         "description": "<h1>Swine Nasopharyngeal Phage Catalogue</h1>\n<h2>1. Dataset overview</h2>\n<p>This repository accompanies the manuscript *\"Paired viromics resolves the modular ecological architecture of the swine nasopharyngeal phageome\"* and provides a curated, non-redundant catalogue of viral operational taxonomic units (vOTUs) recovered from the upper respiratory tract of post-weaning piglets across ten commercial farms in northwestern Spain. Paired DNA microbiome (DNA-m) and virus-like particle&ndash;enriched (VLP-e) short-read metagenomic libraries were processed, integrated, and dereplicated at species-level identity (&ge;95% average nucleotide identity over &ge;85% alignment fraction) following MIUViG recommendations (Roux et al., 2019).</p>\n<p>The catalogue comprises 2,501 representative vOTU sequences with CheckV-estimated completeness &ge;50%. For each vOTU, this release distributes (i) curated catalogue metadata describing taxonomy, predicted lifestyle, predicted host, quality metrics, and similarity to previously described phages; and (ii) per-gene functional annotations generated with Pharokka. Together, these files are intended to support reuse of the catalogue for comparative viromics, host-prediction benchmarking, downstream functional characterization, and rational pre-selection of lytic phage candidates against porcine respiratory pathogens.</p>\n<h2>2. Files included in this release</h2>\n<p>- **`nasopharyngeal_phages_metadata.tsv`**: one row per representative vOTU (n = 2,501). Contains identification, sample provenance, quality metrics (CheckV, MIUViG), taxonomic assignment, predicted lifestyle (PhaTYP), predicted bacterial host (iPHoP), terL marker information, and similarity to known phages from PhageScope.<br>- **`nasopharyngeal_phages_pharokka.tsv`**: one row per predicted gene across all representative vOTUs. Contains Pharokka annotations (PHROG categories, functional descriptions) and complementary searches against the Virulence Factor Database (VFDB) and the Comprehensive Antibiotic Resistance Database (CARD).<br>- **`nasopharyngeal_phages_vOTUs.fasta`**: nucleotide sequences of the 2,501 representative vOTUs. Sequence headers correspond to the `vOTU-ID` field used as the primary key across both metadata files.<br>- **`nasopharyngeal_phages_pharokka_CDS.faa`**: amino-acid sequences of the CDS derived from Pharokka annotations. CDS headers correspond to the `vOTU-gene` field used as key in the `nasopharyngeal_phages_pharokka` file.</p>\n<h2>3. General conventions</h2>\n<p>- Missing values are encoded as `NA` in the catalogue metadata file and as `None` or `No_PHROG` / `No_custom_HMM` in the Pharokka file, depending on the originating tool.<br>- Coordinates in the Pharokka file (`start`, `stop`) are 1-based and refer to the parent vOTU sequence.<br>- All numeric percentages are reported on a 0&ndash;100 scale; coverages and sequence-identity fractions reported by alignment tools (`qcov`, `tcov`, `fident`, `mmseqs_seqIdentity`) are reported on a 0&ndash;1 scale, following the conventions of the corresponding tools.<br>- Taxonomic strings for predicted bacterial hosts use GTDB rank prefixes (`d__`, `p__`, `c__`, `o__`, `f__`, `g__`, `s__`).<br>- Viral taxonomic strings follow the ICTV-style hierarchy reported by PhaBOX2 (superkingdom, clade, kingdom, phylum, class, order, family, genus).</p>\n<h2>4. `nasopharyngeal_phages_metadata.tsv`</h2>\n<p>This file contains one row per representative vOTU and 26 descriptor columns. The table below provides the field name, expected type or set of values, and a brief description.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Unique identifier of the viral operational taxonomic unit (vOTU) representative sequence. Encodes the originating sample and assembly source (e.g. `M01-C1_DNA-m_NODE_29994_length_56440_cov_17.9864_ID_59987`). |<br>| `Sample-Workflow` | Text (string) | Sample of origin combined with the extraction workflow used to recover the contig: `DNA-m` (DNA microbiome shotgun) or `VLP-e` (virus-like particle&ndash;enriched). The sample component follows the format `M[farm]-C[pen]` (e.g. `M01-C1_DNA-m`). |<br>| `Phage_Detection_Tool` | Categorical: `genomad` / `virsorter2` | Bioinformatic classifier that retained the contig as viral. When both tools identified the same contig, the prediction with the lowest CheckV-estimated contamination was kept. |<br>| `vOTU_Length` | Integer (bp) | Length of the representative vOTU sequence in base pairs. |<br>| `Viral_Taxonomy` | Text (string) or `NA` | Taxonomic lineage assigned by PhaBOX2, reported in semicolon-separated rank format from superkingdom down to the deepest resolved rank (e.g. `superkingdom:Viruses;clade:Duplodnaviria;&hellip;;family:Peduoviridae`). `NA` when no confident assignment was obtained. |<br>| `Number_of_genes` | Integer | Total number of predicted protein-coding genes annotated on the representative sequence. |<br>| `Viral_genes` | Integer | Number of predicted genes assigned to viral functional. |<br>| `Host_genes` | Integer | Number of predicted genes flagged as putatively host-derived by CheckV. Higher values indicate possible host contamination or integrated regions. |<br>| `Provirus` | Categorical: `Yes` / `No` | Whether CheckV identified the contig as a provirus (i.e. an integrated viral region embedded in a longer host-derived sequence). |<br>| `Proviral_Length` | Integer (bp) or `NA` | Length of the proviral region in base pairs when `Provirus = Yes`; `NA` otherwise. |<br>| `CheckV_Quality` | Categorical | CheckV quality category based on completeness and contamination: `Complete`, `High-quality`, `Medium-quality`, `Low-quality`, or `Not-determined`. Only `Medium-quality` or higher were retained in the curated catalogue. |<br>| `MIUViG_Quality` | Categorical | MIUViG (Minimum Information about an Uncultivated Virus Genome; Roux et al., 2019) tier: `Finished`, `High-quality`, or `Genome-fragment`, derived from CheckV completeness and contamination together with assembly status. |<br>| `Completeness (%)` | Numeric (0&ndash;100) | CheckV-estimated genome completeness, expressed as percentage. |<br>| `Contamination (%)` | Numeric (0&ndash;100) | CheckV-estimated host or non-viral contamination, expressed as percentage. |<br>| `Predicted_bacterial_host (IPHOP)` | Text (string) or `NA` | Putative bacterial host predicted by iPHoP, reported in GTDB rank-prefixed format (`d__Bacteria;p__&hellip;;c__&hellip;;o__&hellip;;f__&hellip;;g__&hellip;;s__&hellip;`). When multiple predictions were returned, the highest-confidence call was retained. `NA` when no host could be predicted with sufficient confidence. |<br>| `Confidence_Score_IPHOP` | Numeric (0&ndash;100) or `NA` | iPHoP confidence score associated with the retained host prediction. Higher values indicate greater confidence; `NA` when no host was assigned. |<br>| `Phage_Lifestyle (PhaTYP)` | Categorical: `virulent` / `temperate` / `NA` | Predicted replication strategy obtained from the PhaTYP module of PhaBOX2. `NA` when the model did not produce a confident call. |<br>| `PhaTYPScore` | Numeric (0&ndash;1) | PhaTYP probability score supporting the lifestyle assignment. |<br>| `Relationship with previously described vOTUs` | Categorical: `Permissive` / `Strict` / `NA` | Similarity to known phage sequences from PhageScope after MUMmer4 refinement. `Permissive` denotes vOTUs meeting the lenient match criteria (fident &ge; 0.90, qcov &ge; 0.25, tcov &ge; 0.20, aligned length &ge; 2 kb, target length &ge; 2 kb); `Strict` denotes the high-confidence subset (fident &ge; 0.92, qcov &ge; 0.35, aligned length &ge; 5 kb, target length &ge; 5 kb, and either tcov &ge; 0.50 or query length &ge; 15 kb). `NA` indicates no significant match. Full criteria are described in the Methods section of the associated manuscript. |<br>| `terL_gene` | Text (string) or `NA` | Identifier of the large terminase subunit (terL) gene predicted by Pharokka on the representative vOTU. `NA` when no terL was detected or when the predicted protein was shorter than 100 residues. |<br>| `terL_length` | Integer (amino acids) or `NA` | Length of the predicted terL protein in amino acids. Only sequences &ge;100 residues were used for the terL phylogenetic analysis. |<br>| `PhageScope-target` | Text (string) or `NA` | Identifier of the best-matching reference sequence in the PhageScope database when a similarity hit was retained; `NA` otherwise. |<br>| `PhageScope_source` | Text (string) or `NA` | Source database entry within PhageScope for the matched reference (e.g. originating phage genome accession or collection). |<br>| `qcov` | Numeric (0&ndash;1) or `NA` | Query coverage: fraction of the vOTU sequence covered by the alignment to the PhageScope target. `NA` when no match was retained. |<br>| `tcov` | Numeric (0&ndash;1) or `NA` | Target coverage: fraction of the matched PhageScope reference covered by the alignment. `NA` when no match was retained. |<br>| `fident` | Numeric (0&ndash;1) or `NA` | Fraction of identical nucleotides over the aligned region between the vOTU and the matched PhageScope target. `NA` when no match was retained. |</p>\n<h2>5. `nasopharyngeal_phages_pharokka.tsv`</h2>\n<p>This file contains one row per predicted feature (mainly CDS) generated by Pharokka v1.7.5 across all representative vOTUs. The table below describes its 43 columns. Functional categories follow the PHROG nomenclature; antimicrobial resistance and virulence factor annotations are derived from CARD and VFDB, respectively, and are populated only when a hit was detected.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Identifier of the parent vOTU on which the gene was predicted; matches the `vOTU-ID` column of the catalogue metadata file. |<br>| `vOTU-gene` | Text (string) | Internal gene identifier assigned by Pharokka within each vOTU (e.g. `phage_CDS_0001`). Sequential within a sequence. |<br>| `start` | Integer (bp) | Start coordinate of the predicted CDS on the vOTU sequence (1-based). |<br>| `stop` | Integer (bp) | End coordinate of the predicted CDS on the vOTU sequence (1-based, inclusive). |<br>| `frame` | Categorical: `+` / `&minus;` | Strand of the predicted CDS relative to the vOTU sequence. |<br>| `score` | Numeric | Pyrodigal gene-prediction score reported for the CDS. |<br>| `mmseqs_phrog` | Integer or `No_PHROG` | PHROG identifier returned by MMseqs2 sensitive search against the PHROG database. |<br>| `mmseqs_alnScore` | Numeric | MMseqs2 alignment bit score for the best PHROG hit. |<br>| `mmseqs_seqIdentity` | Numeric (0&ndash;1) | Fraction of identical residues in the MMseqs2 alignment to the PHROG target. |<br>| `mmseqs_eVal` | Numeric | MMseqs2 e-value of the best PHROG hit. |<br>| `mmseqs_top_hit` | Text (string) | Identifier of the top PHROG hit returned by MMseqs2. |<br>| `pyhmmer_phrog` | Integer or `No_PHROG` | PHROG identifier returned by pyhmmer profile HMM search. |<br>| `pyhmmer_bitscore` | Numeric | Bit score from the pyhmmer search against the PHROG HMM database. |<br>| `pyhmmer_evalue` | Numeric | E-value from the pyhmmer search against the PHROG HMM database. |<br>| `custom_hmm_id` | Text or `No_custom_HMM` | Identifier of the matched profile when a custom HMM database was used; `No_custom_HMM` indicates no custom HMM search was applied. |<br>| `custom_hmm_bitscore` | Numeric or `No_custom_HMM` | Bit score from the custom HMM search, when applicable. |<br>| `custom_hmm_evalue` | Numeric or `No_custom_HMM` | E-value from the custom HMM search, when applicable. |<br>| `phrog` | Integer or `No_PHROG` | Final PHROG identifier retained by Pharokka after consolidating MMseqs2 and pyhmmer evidence. |<br>| `Method` | Text (string) | Gene prediction method and version used by Pharokka. |<br>| `Region` | Categorical | Feature type (e.g. CDS, tRNA, tmRNA, CRISPR). |<br>| `color` | Hex colour code | Colour used by Pharokka for category-based visualisation of the gene in genome maps. |<br>| `annot` | Text (string) | Functional annotation of the gene (e.g. `baseplate wedge subunit`, `hypothetical protein`). |<br>| `category` | Text (string) | Higher-order PHROG functional category (e.g. tail, head and packaging, lysis, integration and excision, DNA/RNA and nucleotide metabolism, transcription regulation, moron auxiliary metabolic gene and host takeover, connector, unknown function, other). |<br>| `vfdb_hit` | Text or `None` | Best hit identifier against the Virulence Factor Database (VFDB). |<br>| `vfdb_alnScore` | Numeric or `None` | Alignment score of the best VFDB hit. |<br>| `vfdb_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best VFDB hit. |<br>| `vfdb_eVal` | Numeric or `None` | E-value of the best VFDB hit. |<br>| `vfdb_species` | Text or `None` | Species of origin of the best VFDB hit. |<br>| `vfdb_short_name` | Text or `None` | Short name of the matched VFDB virulence factor. |<br>| `vfdb_description` | Text or `None` | Functional description of the matched VFDB virulence factor. |<br>| `CARD_hit` | Text or `None` | Best hit identifier against the Comprehensive Antibiotic Resistance Database (CARD). |<br>| `CARD_alnScore` | Numeric or `None` | Alignment score of the best CARD hit. |<br>| `CARD_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best CARD hit. |<br>| `CARD_eVal` | Numeric or `None` | E-value of the best CARD hit. |<br>| `CARD_species` | Text or `None` | Species of origin of the best CARD hit. |<br>| `ARO_Accession` | Text or `None` | Antibiotic Resistance Ontology (ARO) accession of the matched CARD entry. |<br>| `CARD_short_name` | Text or `None` | Short name of the matched CARD entry. |<br>| `Protein_Accession` | Text or `None` | Protein accession associated with the matched CARD entry. |<br>| `DNA_Accession` | Text or `None` | Nucleotide accession associated with the matched CARD entry. |<br>| `AMR_Gene_Family` | Text or `None` | Antimicrobial resistance (AMR) gene family of the matched CARD entry. |<br>| `Drug_Class` | Text or `None` | Drug class targeted by the matched CARD entry. |<br>| `Resistance_Mechanism` | Text or `None` | Mechanism of resistance reported by CARD for the matched entry. |</p>",
-        "access_right": "embargoed",
-        "embargo_date": "2026-12-31",
+        "access_right": "open",
         "creators": [
           {
             "name": "Deneke, Carlus",
@@ -289,10 +725,56 @@
         "quota_increase": "https://zenodo.org/api/records/20119467/quota-increase",
         "requests": "https://zenodo.org/api/records/20119467/requests"
       },
-      "updated": "2026-05-18T08:15:58.190858+00:00",
+      "updated": "2026-07-21T13:48:54.017764+00:00",
       "recid": "20119467",
-      "revision": 4,
-      "files": [],
+      "revision": 6,
+      "files": [
+        {
+          "id": "4d1d4b53-adb4-4605-9eca-bf6bbc6bdfe5",
+          "key": "nasopharyngeal_phages_pharokka_CDS.faa",
+          "size": 44556893,
+          "checksum": "md5:52a1f2c973b4c084021be83bb689ff52",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_pharokka_CDS.faa/content"
+          }
+        },
+        {
+          "id": "b7864916-c4b8-4ba0-8649-5c5e770a8892",
+          "key": "nasopharyngeal_phages_vOTUs.fasta",
+          "size": 94792602,
+          "checksum": "md5:bc838d914aae66c844bb60f5efb467dc",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_vOTUs.fasta/content"
+          }
+        },
+        {
+          "id": "f8b0f9af-cafe-408c-8c00-f921393b9fa3",
+          "key": "nasopharyngeal_phages_metadata.tsv",
+          "size": 762890,
+          "checksum": "md5:ea43ed5ae0ae4846bc51af6437d5b156",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_metadata.tsv/content"
+          }
+        },
+        {
+          "id": "2761bf66-a0ba-463e-ba00-1f7dd3c130ab",
+          "key": "nasopharyngeal_phages_pharokka.tsv",
+          "size": 60149100,
+          "checksum": "md5:f4b5c0fef42bb9cde59fe7e14af30ee6",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_pharokka.tsv/content"
+          }
+        },
+        {
+          "id": "7bfffe42-feeb-4a17-bbb5-fd951a4def93",
+          "key": "README.md",
+          "size": 13875,
+          "checksum": "md5:b6998cbb8c6dbcb66c62dd9a183893e2",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/README.md/content"
+          }
+        }
+      ],
       "swh": null,
       "owners": [
         {
@@ -301,14 +783,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 35,
-        "unique_views": 32,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 32,
-        "version_views": 35
+        "downloads": 13,
+        "unique_downloads": 13,
+        "views": 57,
+        "unique_views": 53,
+        "version_downloads": 13,
+        "version_unique_downloads": 13,
+        "version_unique_views": 53,
+        "version_views": 57
       },
       "state": "done",
       "submitted": true
@@ -411,14 +893,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 16,
-        "unique_views": 13,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 13,
-        "version_views": 16
+        "downloads": 6,
+        "unique_downloads": 6,
+        "views": 18,
+        "unique_views": 15,
+        "version_downloads": 6,
+        "version_unique_downloads": 6,
+        "version_unique_views": 15,
+        "version_views": 18
       },
       "state": "done",
       "submitted": true
@@ -571,14 +1053,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 2,
-        "unique_downloads": 2,
-        "views": 17,
-        "unique_views": 14,
-        "version_downloads": 2,
-        "version_unique_downloads": 2,
-        "version_unique_views": 14,
-        "version_views": 17
+        "downloads": 34,
+        "unique_downloads": 34,
+        "views": 22,
+        "unique_views": 19,
+        "version_downloads": 34,
+        "version_unique_downloads": 34,
+        "version_unique_views": 19,
+        "version_views": 22
       },
       "state": "done",
       "submitted": true
@@ -716,14 +1198,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 9,
-        "unique_downloads": 9,
-        "views": 41,
-        "unique_views": 39,
-        "version_downloads": 9,
-        "version_unique_downloads": 9,
-        "version_unique_views": 39,
-        "version_views": 41
+        "downloads": 20,
+        "unique_downloads": 20,
+        "views": 47,
+        "unique_views": 45,
+        "version_downloads": 20,
+        "version_unique_downloads": 20,
+        "version_unique_views": 45,
+        "version_views": 47
       },
       "state": "done",
       "submitted": true
@@ -853,14 +1335,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 525,
-        "unique_downloads": 508,
-        "views": 2515,
-        "unique_views": 2433,
-        "version_downloads": 31,
-        "version_unique_downloads": 31,
-        "version_unique_views": 94,
-        "version_views": 95
+        "downloads": 618,
+        "unique_downloads": 601,
+        "views": 2688,
+        "unique_views": 2604,
+        "version_downloads": 41,
+        "version_unique_downloads": 41,
+        "version_unique_views": 117,
+        "version_views": 118
       },
       "state": "done",
       "submitted": true
@@ -964,14 +1446,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 3,
-        "unique_downloads": 3,
-        "views": 21,
-        "unique_views": 20,
-        "version_downloads": 3,
-        "version_unique_downloads": 3,
-        "version_unique_views": 20,
-        "version_views": 21
+        "downloads": 6,
+        "unique_downloads": 6,
+        "views": 26,
+        "unique_views": 25,
+        "version_downloads": 6,
+        "version_unique_downloads": 6,
+        "version_unique_views": 25,
+        "version_views": 26
       },
       "state": "done",
       "submitted": true
@@ -1091,566 +1573,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 29,
-        "unique_downloads": 29,
-        "views": 114,
-        "unique_views": 111,
-        "version_downloads": 5,
-        "version_unique_downloads": 5,
-        "version_unique_views": 66,
-        "version_views": 66
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-12-16T15:03:59.513940+00:00",
-      "modified": "2025-12-16T15:04:03.138360+00:00",
-      "id": 14181291,
-      "conceptrecid": "14181290",
-      "doi": "10.5281/zenodo.14181291",
-      "conceptdoi": "10.5281/zenodo.14181290",
-      "doi_url": "https://doi.org/10.5281/zenodo.14181291",
-      "metadata": {
-        "title": "Southern Ocean Reference Gene Catalogs",
-        "doi": "10.5281/zenodo.14181291",
-        "publication_date": "2024-11-18",
-        "description": "<p>These data correspond to gene catalogs and matrices obtained from 218 metagenomes sampled during the Antarctic Circumpolar Expedition (ACE). The methodology and results obtained using these data are presented in the study entitled <strong>Water mass specific genes dominate the Southern Ocean microbiome</strong>, by Faure et al. (2025).</p>\n<p>Here is a description of each catalog/dataset :</p>\n<ul>\n<li><strong>ACE_Unigenes_catalog.fa.gz</strong>: Catalog of all unigenes obtained from the 218 ACE metagenomes, <em>i.e.</em> ORFs clustered at 95% similarity and 90% coverage thresholds. Includes ORFs detected by Prodigal in the eukaryote-dominated &gt;3&micro;m size fraction. In FASTA format.</li>\n<li><strong>SO-RGC.fa.gz</strong>: Catalog of unigenes that included at least one ORF from the 0.2-3&micro;m size fraction, <em>i.e.</em> limited to the bacterial free-living size fraction used to build <em>Tara Oceans and Polar Circle</em> Reference Gene Catalogs (OM-RGC). In FASTA format.</li>\n<li><strong>Polar_Genes.fa.gz</strong>: Catalog of ACE unigenes that were only detected in polar samples from <em>Tara Oceans and Polar Circle</em> (see Faure et al. for detailed methods). In FASTA format.</li>\n<li><strong>Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz</strong>: Annotation table of all ACE ORFs (tab-separated format, one line = one non-dereplicated ORF), including (in column order):\n<ul>\n<li>ORF ID</li>\n<li>AGNOSTOS cluster ID</li>\n<li>AGNOSTOS cluster representative ID</li>\n<li>AGNOSTOS cluster size</li>\n<li>AGNOSTOS cluster category</li>\n<li>If AGNOSTOS singleton, singleton category</li>\n<li>Unigene cluster representative ID</li>\n<li>Predicted domain (Prokaryote / Eukaryote)</li>\n<li>KEGG KO</li>\n<li>EggNOG seed ortholog</li>\n<li>EggNOG OGs</li>\n<li>EggNOG narrow OG name</li>\n<li>EggNOG narrow OG category</li>\n<li>EggNOG best OG name</li>\n<li>EggNOG best OG category</li>\n<li>EggNOG best OG description</li>\n<li>EggNOG preferred name</li>\n<li>EggNOG CAZy</li>\n<li>EggNOG BiGG Reaction</li>\n<li>EggNOG PFAMs</li>\n</ul>\n</li>\n<li><strong>AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz</strong>: AGNOSTOS cluster-level matrix of coverage. Columns correspond to samples and lines to AGNOSTOS clusters, with ID matching those of the Annotation table. Cell values correspond to ORF-level DESeq2-normalized per-base pair coverage values, summed by AGNOSTOS cluster.</li>\n<li><strong>AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz</strong>: AGNOSTOS cluster-level matrix of Detection. Detection is calculated at ORF-level after mapping: proportion of the ORF covered at at least 1X. In this matrix, the maximum detection value observed for each AGNOSTOS cluster in each sample is given.</li>\n<li><strong>EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz</strong>: Functional enrichment test outputs for polar unigenes (<em>i.e.</em> genes present in Polar_Genes.fa.gz) <em>versus</em> the rest of ACE unigenes.</li>\n<li><strong>Contig_GTDBlineage_kraken.tsv.gz</strong>: Taxonomic annotation of ACE contigs based on the Genome Taxonomy DataBase (GTDB) using Kraken2, please refer to the study for more details on the methodology.</li>\n<li><strong>ACEsamples_CorrespondanceTable.xlsx:</strong>&nbsp;Table of correspondance linking the different IDs given to ACE samples accross different steps, including BioSamples and ENA run and experiment codes.</li>\n<li><strong>RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz:</strong> Random forest models outputs for the large size fraction. Presents for each AGC the model R-squared, mean squared error and predictors' importance.</li>\n<li><strong>RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz:</strong> Random forest models outputs for the small size fraction. Presents for each AGC the model R-squared, mean squared error and predictors' importance.</li>\n<li><strong>DMSP_Lyase.tar.gz</strong>: Folder containing the matrix of abundance of the DMSP lyase AGCs, the corresponding ORF-level annotation table and random forest outputs.</li>\n<li><strong>contigs_virus_genomadannot.tsv.gz:</strong> Annotation of ACE viral contigs (geNomad outputs).</li>\n<li><strong>contigs_mimiviridae.xlsx:</strong> More detailed annotation of mimivirus contigs (please refer to the study for more details on the methodology).</li>\n</ul>\n<p>Please note that all CAG-related files are available on Figshare at DOI 10.6084/m9.figshare.29821949.</p>\n<p>&nbsp;</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Faure, Emile",
-            "affiliation": "Universit\u00e9 de Bretagne Occidentale (UBO)",
-            "orcid": "0000-0002-9049-2269"
-          },
-          {
-            "name": "Pommellec, Jolann",
-            "affiliation": "Universit\u00e9 de Bretagne Occidentale (UBO)",
-            "orcid": "0000-0002-7849-0586"
-          },
-          {
-            "name": "Noel, Cyril",
-            "affiliation": "Ifremer",
-            "orcid": "0000-0002-7139-4073"
-          },
-          {
-            "name": "Cormier, Alexandre",
-            "affiliation": "Ifremer",
-            "orcid": "0000-0002-7775-8413"
-          },
-          {
-            "name": "Delpech, Lisa-Marie",
-            "affiliation": "La Rochelle Universit\u00e9",
-            "orcid": "0009-0006-0154-0211"
-          },
-          {
-            "name": "Eren, Murat",
-            "affiliation": "Helmholtz Institute for Functional Marine Biodiversity",
-            "orcid": "0000-0001-9013-4827"
-          },
-          {
-            "name": "Fernandez-Guerra, Antonio",
-            "affiliation": "Marum",
-            "orcid": "0000-0002-8679-490X"
-          },
-          {
-            "name": "Chiara, Vanni",
-            "affiliation": "Marum",
-            "orcid": "0000-0002-1124-1147"
-          },
-          {
-            "name": "Fourquez, Marion",
-            "affiliation": "Aix-Marseille Universit\u00e9",
-            "orcid": "0000-0001-5395-4877"
-          },
-          {
-            "name": "Houssais, Marie-No\u00eblle",
-            "affiliation": "Laboratoire d'Oc\u00e9anographie et du Climat : Exp\u00e9rimentations et Approches Num\u00e9riques"
-          },
-          {
-            "name": "Corinne, Da Silva",
-            "affiliation": "Genoscope",
-            "orcid": "0000-0002-7618-7831"
-          },
-          {
-            "name": "Frederick, Gavory",
-            "affiliation": "Genoscope",
-            "orcid": "0000-0003-1534-5725"
-          },
-          {
-            "name": "Perdereau, Aude",
-            "affiliation": "Genoscope",
-            "orcid": "0000-0001-7125-5308"
-          },
-          {
-            "name": "Labadie, Karine",
-            "affiliation": "Genoscope",
-            "orcid": "0000-0001-7467-8509"
-          },
-          {
-            "name": "Guyet, Ulysse",
-            "affiliation": "Genoscope",
-            "orcid": "0000-0002-3603-5382"
-          },
-          {
-            "name": "Wincker, Patrick",
-            "affiliation": "Universit\u00e9 Paris-Saclay",
-            "orcid": "0000-0001-7562-3454"
-          },
-          {
-            "name": "Poulain, Julie",
-            "affiliation": "Genoscope",
-            "orcid": "0000-0002-8744-3116"
-          },
-          {
-            "name": "Hassler, Christel",
-            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
-            "orcid": "0000-0002-8976-5469"
-          },
-          {
-            "name": "Lin, Yajuan",
-            "affiliation": "Texas A&M University \u2013 Corpus Christi",
-            "orcid": "0000-0002-9057-9321"
-          },
-          {
-            "name": "Cassar, Nicolas",
-            "affiliation": "Duke University",
-            "orcid": "0000-0003-0100-3783"
-          },
-          {
-            "name": "Maignien, Lois",
-            "affiliation": "Universit\u00e9 de Bretagne Occidentale (UBO)",
-            "orcid": "0000-0002-5571-5228"
-          }
-        ],
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "grants": [
-          {
-            "code": "18-CE02-0024",
-            "internal_id": "10.13039/501100001665::18-CE02-0024",
-            "funder": {
-              "name": "Agence Nationale de la Recherche",
-              "doi": "10.13039/501100001665",
-              "acronym": "ANR"
-            },
-            "title": "ACE-Ecogenomics",
-            "url": "https://anr.fr/Projet-ANR-18-CE02-0024"
-          },
-          {
-            "code": "10-INBS-09-08",
-            "internal_id": "10.13039/501100001665::10-INBS-09-08",
-            "funder": {
-              "name": "Agence Nationale de la Recherche",
-              "doi": "10.13039/501100001665",
-              "acronym": "ANR"
-            },
-            "title": "France G\u00e9nomique",
-            "url": "https://anr.fr/ProjetIA-10-INBS-0009"
-          }
-        ],
-        "communities": [
-          {
-            "id": "spi-ace"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "14181290"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Southern Ocean Reference Gene Catalogs",
-      "links": {
-        "self": "https://zenodo.org/api/records/14181291",
-        "self_html": "https://zenodo.org/records/14181291",
-        "preview_html": "https://zenodo.org/records/14181291?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.14181291",
-        "self_doi": "https://doi.org/10.5281/zenodo.14181291",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14181291",
-        "reserve_doi": "https://zenodo.org/api/records/14181291/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/14181290",
-        "parent_html": "https://zenodo.org/records/14181290",
-        "parent_doi": "https://doi.org/10.5281/zenodo.14181290",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14181290",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14181291/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14181291/sequence/default",
-        "files": "https://zenodo.org/api/records/14181291/files",
-        "media_files": "https://zenodo.org/api/records/14181291/media-files",
-        "archive": "https://zenodo.org/api/records/14181291/files-archive",
-        "archive_media": "https://zenodo.org/api/records/14181291/media-files-archive",
-        "latest": "https://zenodo.org/api/records/14181291/versions/latest",
-        "latest_html": "https://zenodo.org/records/14181291/latest",
-        "versions": "https://zenodo.org/api/records/14181291/versions",
-        "draft": "https://zenodo.org/api/records/14181291/draft",
-        "access_links": "https://zenodo.org/api/records/14181291/access/links",
-        "access_grants": "https://zenodo.org/api/records/14181291/access/grants",
-        "access_users": "https://zenodo.org/api/records/14181291/access/users",
-        "access_request": "https://zenodo.org/api/records/14181291/access/request",
-        "access": "https://zenodo.org/api/records/14181291/access",
-        "communities": "https://zenodo.org/api/records/14181291/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/14181291/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/14181291/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/14181291/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/14181291/quota-increase",
-        "requests": "https://zenodo.org/api/records/14181291/requests"
-      },
-      "updated": "2025-12-16T15:04:03.138360+00:00",
-      "recid": "14181291",
-      "revision": 4,
-      "files": [
-        {
-          "id": "4d1e4625-77c1-45b1-826f-80971e2b7d6b",
-          "key": "ACE_Unigenes_catalog.fa.gz",
-          "size": 16776557865,
-          "checksum": "md5:a350003f2d498271d2643871c511b51b",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/ACE_Unigenes_catalog.fa.gz/content"
-          }
-        },
-        {
-          "id": "cf1af475-90d9-4995-b21c-c491206518d0",
-          "key": "SO-RGC.fa.gz",
-          "size": 12436043927,
-          "checksum": "md5:e3d81ae9fdbdb2fd084d71cc2ad3a0fe",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/SO-RGC.fa.gz/content"
-          }
-        },
-        {
-          "id": "1c65afcc-94d5-4400-b7b9-0ad7bd44e3c9",
-          "key": "Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz",
-          "size": 4389569506,
-          "checksum": "md5:30fa797a29d907af6ef9cdad14739162",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz/content"
-          }
-        },
-        {
-          "id": "6bad1dfc-f53d-44e3-8576-9ee716ba39e8",
-          "key": "AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz",
-          "size": 3903706507,
-          "checksum": "md5:9a28b319bc150d7a527850d67671dc84",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz/content"
-          }
-        },
-        {
-          "id": "5ae65aa2-c401-4694-864e-7750d21ec1a1",
-          "key": "AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz",
-          "size": 3438083727,
-          "checksum": "md5:a3944e10e5c36b5a136a59764922a47c",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz/content"
-          }
-        },
-        {
-          "id": "dfe6a960-70e3-4631-9084-4adf6412fb4d",
-          "key": "Polar_Genes.fa.gz",
-          "size": 5439681696,
-          "checksum": "md5:99abd7a41cc4dd575768e53ca6e94448",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/Polar_Genes.fa.gz/content"
-          }
-        },
-        {
-          "id": "d815edfc-ddae-4d47-b23c-a48274fd535a",
-          "key": "EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz",
-          "size": 686021,
-          "checksum": "md5:d5fa2fee5e82e58e71366a8195883fec",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz/content"
-          }
-        },
-        {
-          "id": "f902c5ee-f14b-4a22-926a-f7e039d0a075",
-          "key": "ACEsamples_CorrespondanceTable.xlsx",
-          "size": 26438,
-          "checksum": "md5:26e98f83e673ea274d207066cd67403a",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/ACEsamples_CorrespondanceTable.xlsx/content"
-          }
-        },
-        {
-          "id": "8e1cbdbb-9fa5-4ddd-9319-22b8fa1a8883",
-          "key": "DMSP_Lyase.tar.gz",
-          "size": 89652,
-          "checksum": "md5:ba3a9d366aa1d2900923d2c44fb2a1fe",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/DMSP_Lyase.tar.gz/content"
-          }
-        },
-        {
-          "id": "4bd573bd-2cb3-4e6c-9105-09cfb4a38ada",
-          "key": "contig_GTDBlineage_kraken.tsv.gz",
-          "size": 915745805,
-          "checksum": "md5:dfa7a1b598448902fdffe7a93cb7d268",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/contig_GTDBlineage_kraken.tsv.gz/content"
-          }
-        },
-        {
-          "id": "3c6144cf-a035-4ebc-81ec-649f34fe9c9e",
-          "key": "contigs_mimiviridae.xlsx",
-          "size": 1170344,
-          "checksum": "md5:7ed3db2b7ec3b2611710901aa161f133",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/contigs_mimiviridae.xlsx/content"
-          }
-        },
-        {
-          "id": "7ecc4876-9d55-4a26-a4c0-3f6274aca539",
-          "key": "RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz",
-          "size": 1098825552,
-          "checksum": "md5:545e2eb8e79c543160af744521c10847",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz/content"
-          }
-        },
-        {
-          "id": "3ba50e1d-681c-4222-91bd-2e81546f25b2",
-          "key": "contigs_virus_genomadannot.tsv.gz",
-          "size": 14403879,
-          "checksum": "md5:27e98157dcf8898ca29d032af2a377e9",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/contigs_virus_genomadannot.tsv.gz/content"
-          }
-        },
-        {
-          "id": "6130295c-79d0-4669-977b-e20bb9dbe4db",
-          "key": "RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz",
-          "size": 873959587,
-          "checksum": "md5:8457a15d05b6001305386b8c42f0ca0e",
-          "links": {
-            "self": "https://zenodo.org/api/records/14181291/files/RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1221729"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 254,
-        "unique_downloads": 251,
-        "views": 186,
-        "unique_views": 166,
-        "version_downloads": 254,
-        "version_unique_downloads": 251,
-        "version_unique_views": 166,
-        "version_views": 186
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-09-03T06:57:26.980026+00:00",
-      "modified": "2025-09-03T06:57:27.802336+00:00",
-      "id": 16616313,
-      "conceptrecid": "16616312",
-      "doi": "10.5281/zenodo.16616313",
-      "conceptdoi": "10.5281/zenodo.16616312",
-      "doi_url": "https://doi.org/10.5281/zenodo.16616313",
-      "metadata": {
-        "title": "Efficient detection and typing of phage-plasmids",
-        "doi": "10.5281/zenodo.16616313",
-        "publication_date": "2025-08-31",
-        "description": "<p><em>Link to bioRxiv:</em></p>\n<p>https://doi.org/10.1101/2025.08.29.673033</p>\n<p>&nbsp;</p>\n<p><em>Link to GitHub:&nbsp;</em></p>\n<p>https://github.com/EpfeiferNutri/Phage-plasmids</p>\n<p>&nbsp;</p>\n<p><em>Summary:</em></p>\n<p>Phage-plasmids are both temperate phages and plasmids. They facilitate genetic exchanges and recombination between the two and this dual nature complicates their accurate classification.</p>\n<p>To address this challenge, we developed <strong>tyPPing</strong>, a user-friendly computational pipeline designed to detect and type the most common P-P types. tyPPing uses curated protein profiles to identify new P-P candidates with high accuracy. It also assigns confidence scores to its predictions to facilitate the result interpretation.</p>\n<p>In our study, we applied tyPPing to a collection of complete and draft bacterial genomes and identified numerous high-confidence P-Ps. Experiments confirmed that selected candidates were active phage-plasmids. Compared to existing methods (such as MM-GRC, vConTACT v2, geNomad) tyPPing demonstrated superior sensitivity and scalability. We also examine the current limitations in detecting rare or poorly characterized P-P types and suggest new strategies for improving future identification efforts.</p>\n<p>&nbsp;</p>\n<p>-&nbsp; <strong>tyPPing_signature_profiles.hmm </strong>&ndash; P-P HMMs, specific to P-P types and used for protein-to-profile searches by tyPPing.</p>\n<p>- &nbsp;<strong>phage.hmm</strong> &ndash; phage-specific HMM profiles used by MM-GRC.</p>\n<p>- &nbsp;<strong>models/</strong> &ndash; random forest models trained to detect P-Ps in plasmid datasets (used by MM-GRC).</p>\n<p>- &nbsp;<strong>draft_genomes_analysis/</strong> &ndash; incomplete genomes from carbapenem-resistant Enterobacteriales (CRE) species. It includes short-read assemblies, long-read assemblies, complete P-P genomes (organized in corresponding subfolders), and prediction tables generated by tyPPing_for_draft_genomes.R.</p>\n<p>- &nbsp;<strong>g2g_plot_tables/</strong> &ndash; input tables used to generate genome-to-genome comparative plots.</p>\n<p>- &nbsp;<strong>tyPPing_criteria_tables/</strong> &ndash; Tables how MinProteins and Composition thresholds (required for tyPPing) were chosen.</p>\n<p>- <strong>PPs_complete_assemblies -&nbsp;</strong>Complete sequences of P-Ps detected in draft genomes of CRE species (P-Ps found in PMID:&nbsp;36154183 and this study)</p>\n<p>- <strong>Reads_PPs_MMC_induction </strong>- Reads (short) from the MMC induction experiments of strain 170D8, 174J8 and 204G7. Also available at the European nucleotide archive under PRJEB92425.</p>\n<p>- <strong>Draft_genomes_long_reads </strong>- Long reads (PacBio) generated by whole genome sequencing of strain 170D8, 174J8 and 204G7. Also available at the European nucleotide archive under PRJEB92425.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Ilchenko, Karina",
-            "affiliation": null
-          },
-          {
-            "name": "Pfeifer, Eugen",
-            "affiliation": null,
-            "orcid": "0000-0002-4554-3696"
-          }
-        ],
-        "custom": {
-          "code:codeRepository": "https://github.com/EpfeiferNutri/Phage-plasmids",
-          "code:programmingLanguage": [
-            {
-              "id": "r",
-              "title": {
-                "en": "R"
-              }
-            }
-          ]
-        },
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "16616312"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Efficient detection and typing of phage-plasmids",
-      "links": {
-        "self": "https://zenodo.org/api/records/16616313",
-        "self_html": "https://zenodo.org/records/16616313",
-        "preview_html": "https://zenodo.org/records/16616313?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.16616313",
-        "self_doi": "https://doi.org/10.5281/zenodo.16616313",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16616313",
-        "reserve_doi": "https://zenodo.org/api/records/16616313/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/16616312",
-        "parent_html": "https://zenodo.org/records/16616312",
-        "parent_doi": "https://doi.org/10.5281/zenodo.16616312",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16616312",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16616313/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16616313/sequence/default",
-        "files": "https://zenodo.org/api/records/16616313/files",
-        "media_files": "https://zenodo.org/api/records/16616313/media-files",
-        "archive": "https://zenodo.org/api/records/16616313/files-archive",
-        "archive_media": "https://zenodo.org/api/records/16616313/media-files-archive",
-        "latest": "https://zenodo.org/api/records/16616313/versions/latest",
-        "latest_html": "https://zenodo.org/records/16616313/latest",
-        "versions": "https://zenodo.org/api/records/16616313/versions",
-        "draft": "https://zenodo.org/api/records/16616313/draft",
-        "access_links": "https://zenodo.org/api/records/16616313/access/links",
-        "access_grants": "https://zenodo.org/api/records/16616313/access/grants",
-        "access_users": "https://zenodo.org/api/records/16616313/access/users",
-        "access_request": "https://zenodo.org/api/records/16616313/access/request",
-        "access": "https://zenodo.org/api/records/16616313/access",
-        "communities": "https://zenodo.org/api/records/16616313/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/16616313/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/16616313/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/16616313/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/16616313/quota-increase",
-        "requests": "https://zenodo.org/api/records/16616313/requests"
-      },
-      "updated": "2025-09-03T06:57:27.802336+00:00",
-      "recid": "16616313",
-      "revision": 4,
-      "files": [
-        {
-          "id": "b93ac554-15cd-496c-aad1-30ab921af197",
-          "key": "draft_genomes_analysis.zip",
-          "size": 27128548,
-          "checksum": "md5:7474860e2f90297c85ad535f3a86d2ac",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/draft_genomes_analysis.zip/content"
-          }
-        },
-        {
-          "id": "550aef42-827a-4483-8ebb-c2a88548bbb9",
-          "key": "g2g_plot_tables.zip",
-          "size": 11789235,
-          "checksum": "md5:53b9465c12c51f59915312da5c90dd7f",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/g2g_plot_tables.zip/content"
-          }
-        },
-        {
-          "id": "56017366-75d7-4b36-b861-cdc543a26271",
-          "key": "PPs_complete_assemblies.zip",
-          "size": 294470,
-          "checksum": "md5:0bba2fa3fcd214c36b9e7ba02c2cc0e5",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/PPs_complete_assemblies.zip/content"
-          }
-        },
-        {
-          "id": "2790f773-eaee-4259-aafa-165ee74ebe8a",
-          "key": "tyPPing_signature_profiles.hmm",
-          "size": 95629221,
-          "checksum": "md5:dfa2632627fad55719e84c4fd2c9930c",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/tyPPing_signature_profiles.hmm/content"
-          }
-        },
-        {
-          "id": "4d41154f-7520-4e1f-a3b2-78284837836a",
-          "key": "tyPPing_criteria_tables.zip",
-          "size": 53669438,
-          "checksum": "md5:fce670b857b330967b75e525ef9f37c5",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/tyPPing_criteria_tables.zip/content"
-          }
-        },
-        {
-          "id": "d451cbdf-774a-48d7-a652-e9a08dcbbc42",
-          "key": "models.zip",
-          "size": 195224553,
-          "checksum": "md5:f8e2661fc8056c99427324378ff52379",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/models.zip/content"
-          }
-        },
-        {
-          "id": "a81bae90-dba3-4fef-bfda-abc27c8f35a5",
-          "key": "phage.hmm",
-          "size": 800207502,
-          "checksum": "md5:143ee9f417b23bda120099c885663943",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/phage.hmm/content"
-          }
-        },
-        {
-          "id": "702721fd-73ee-41f8-98ea-cef8f6389b4b",
-          "key": "Draft_genomes_long_reads.zip",
-          "size": 1369740886,
-          "checksum": "md5:96d00017252c1ed5c2eca6c8f4199389",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/Draft_genomes_long_reads.zip/content"
-          }
-        },
-        {
-          "id": "05739b2e-9b4c-4a94-a122-34a4fce8a17a",
-          "key": "Reads_PPs_MMC_induction.zip",
-          "size": 2185198181,
-          "checksum": "md5:fc761eb39431297f92632b95f8502f86",
-          "links": {
-            "self": "https://zenodo.org/api/records/16616313/files/Reads_PPs_MMC_induction.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1375332"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 183,
-        "unique_downloads": 170,
-        "views": 225,
-        "unique_views": 202,
-        "version_downloads": 183,
-        "version_unique_downloads": 170,
-        "version_unique_views": 202,
-        "version_views": 225
+        "downloads": 39,
+        "unique_downloads": 39,
+        "views": 143,
+        "unique_views": 138,
+        "version_downloads": 6,
+        "version_unique_downloads": 6,
+        "version_unique_views": 78,
+        "version_views": 79
       },
       "state": "done",
       "submitted": true

@@ -1,87 +1,186 @@
 {
-  "cache_date": "2026-06-01T14:33:05.787215",
+  "cache_date": "2026-08-01T10:49:29.388392",
   "data": [
     {
-      "created": "2026-06-01T14:32:18.994262+00:00",
-      "modified": "2026-06-01T14:32:19.277070+00:00",
-      "id": 20394872,
-      "conceptrecid": "20394871",
-      "doi": "10.5281/zenodo.20394872",
-      "conceptdoi": "10.5281/zenodo.20394871",
-      "doi_url": "https://doi.org/10.5281/zenodo.20394872",
+      "created": "2026-08-01T10:13:23.099135+00:00",
+      "modified": "2026-08-01T10:17:11.862518+00:00",
+      "id": 21738046,
+      "conceptrecid": "21522841",
+      "doi": "10.5281/zenodo.21738046",
+      "conceptdoi": "10.5281/zenodo.21522841",
+      "doi_url": "https://doi.org/10.5281/zenodo.21738046",
       "metadata": {
-        "title": "LumpedFlux",
-        "doi": "10.5281/zenodo.20394872",
-        "publication_date": "2026-06-01",
-        "description": "<p>LumpedFlux is a software library for specifying and resolving reduced-order lumped parameters (0D) models, especially hemodynamics/cardiovascular.</p>",
+        "title": "eDemOS: a Shiny application bundle for online participation and deliberation",
+        "doi": "10.5281/zenodo.21738046",
+        "publication_date": "2026-08-01",
+        "description": "Companion software for the AMULET eDemOS deliberative platform. The bundle comprises a hub (amulet-main), a card-sorting questionnaire on open science (amulet-cards) with a results dashboard (amulet-cards-results), a proposal-voting module (amulet-decidim), a Pol.is-style deliberation module (amulet-delib), and a shared data/helpers module (amulet-global). Public demo: no login, no data is saved. Developed within project AMULET CZ.02.01.01/00/22_008/0004558.",
+        "access_right": "restricted",
+        "creators": [
+          {
+            "name": "Tr\u010dka, Michal",
+            "affiliation": "J. Heyrovsk\u00fd Institute of Physical Chemistry, Czech Academy of Sciences",
+            "orcid": "0000-0003-4846-7630"
+          },
+          {
+            "name": "\u017dabka, Vratislav",
+            "affiliation": "Technical University of Liberec",
+            "orcid": "0000-0001-7161-3152"
+          }
+        ],
+        "keywords": [
+          "deliberation",
+          "online participation",
+          "open science",
+          "e-democracy",
+          "Shiny",
+          "R"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/Vratja/edemos25/tree/v1.0.1",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v1.0.1",
+        "custom": {
+          "code:codeRepository": "https://github.com/Vratja/edemos25"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "mit-license"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21522841"
+              }
+            }
+          ]
+        }
+      },
+      "title": "eDemOS: a Shiny application bundle for online participation and deliberation",
+      "links": {
+        "self": "https://zenodo.org/api/records/21738046",
+        "self_html": "https://zenodo.org/records/21738046",
+        "preview_html": "https://zenodo.org/records/21738046?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21738046",
+        "self_doi": "https://doi.org/10.5281/zenodo.21738046",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21738046",
+        "reserve_doi": "https://zenodo.org/api/records/21738046/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21522841",
+        "parent_html": "https://zenodo.org/records/21522841",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21522841",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21522841",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21738046/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21738046/sequence/default",
+        "files": "https://zenodo.org/api/records/21738046/files",
+        "media_files": "https://zenodo.org/api/records/21738046/media-files",
+        "archive": "https://zenodo.org/api/records/21738046/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21738046/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21738046/versions/latest",
+        "latest_html": "https://zenodo.org/records/21738046/latest",
+        "versions": "https://zenodo.org/api/records/21738046/versions",
+        "draft": "https://zenodo.org/api/records/21738046/draft",
+        "access_links": "https://zenodo.org/api/records/21738046/access/links",
+        "access_grants": "https://zenodo.org/api/records/21738046/access/grants",
+        "access_users": "https://zenodo.org/api/records/21738046/access/users",
+        "access_request": "https://zenodo.org/api/records/21738046/access/request",
+        "access": "https://zenodo.org/api/records/21738046/access",
+        "communities": "https://zenodo.org/api/records/21738046/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21738046/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21738046/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21738046/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21738046/quota-increase",
+        "requests": "https://zenodo.org/api/records/21738046/requests"
+      },
+      "updated": "2026-08-01T10:17:11.862518+00:00",
+      "recid": "21738046",
+      "revision": 6,
+      "files": [],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1440230"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 16,
+        "unique_views": 9,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T09:35:32.134783+00:00",
+      "modified": "2026-08-01T09:35:32.486044+00:00",
+      "id": 21671175,
+      "conceptrecid": "18618171",
+      "doi": "10.5281/zenodo.21671175",
+      "conceptdoi": "10.5281/zenodo.18618171",
+      "doi_url": "https://doi.org/10.5281/zenodo.21671175",
+      "metadata": {
+        "title": "PCC-Explorer",
+        "doi": "10.5281/zenodo.21671175",
+        "publication_date": "2026-07-29",
+        "description": "<p>PCC-Explorer is an open-source software tool to assess the impact of GNSS antenna Phase Center Corrections (PCC) on geodetic parameters.</p>\n<p>PCC-Explorer allows researchers and practitioners to analyze how PCC differences propagate into estimated geodetic parameters<br>such as coordinates and tropospheric delays.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Vignon-Clementel, Irene",
-            "affiliation": "Inria",
-            "orcid": "0000-0001-9754-4386"
+            "name": "Kr\u00f6ger, Johannes",
+            "affiliation": "Leibniz University Hannover",
+            "orcid": "0000-0001-5557-2506"
           },
           {
-            "name": "Freud, Sylvain",
-            "affiliation": "Institut national de recherche en informatique et en automatique"
+            "name": "Fawzy, Amr",
+            "affiliation": null,
+            "orcid": "0009-0004-6669-0945"
           },
           {
-            "name": "Bessaid, Ramdane",
-            "affiliation": "Institut national de recherche en informatique et en automatique"
+            "name": "Kersten, Tobias",
+            "affiliation": "Leibniz Universit\u00e4t Hannover Institut f\u00fcr Erdmessung",
+            "orcid": "0000-0003-3117-4567"
+          },
+          {
+            "name": "Sch\u00f6n, Steffen",
+            "affiliation": "Leibniz University Hannover",
+            "orcid": "0000-0002-5042-6742"
           }
         ],
-        "contributors": [
-          {
-            "name": "Sch\u00e4fer, Friederike",
-            "affiliation": "Inria Saclay - \u00cele de France",
-            "type": "Researcher",
-            "orcid": "0009-0009-4429-3742"
-          },
-          {
-            "name": "Varsos, Pavlos",
-            "affiliation": "Institut national de recherche en informatique et en automatique",
-            "type": "Other",
-            "orcid": "0009-0004-5714-6307"
-          },
-          {
-            "name": "Songia, Francesco",
-            "affiliation": "Institut national de recherche en informatique et en automatique",
-            "type": "Researcher"
-          },
-          {
-            "name": "Pradhan, Aseem Milind",
-            "affiliation": "Institut national de recherche en informatique et en automatique",
-            "type": "Researcher",
-            "orcid": "0000-0001-7333-4245"
-          },
-          {
-            "name": "Kottman, Peter",
-            "affiliation": "Institut national de recherche en informatique et en automatique",
-            "type": "Other",
-            "orcid": "0009-0000-4325-3532"
-          },
-          {
-            "name": "Pe\u0161ek, Ji\u0159\u00ed",
-            "affiliation": "Inria Centre de Recherche de Paris",
-            "type": "Other",
-            "orcid": "0000-0001-5168-1326"
-          }
+        "keywords": [
+          "GNSS antenna calibration",
+          "Phase Center Corrections",
+          "ANTEX",
+          "Geodetic Paramters"
         ],
         "dates": [
           {
-            "type": "created"
+            "type": "available"
+          },
+          {
+            "type": "updated"
           }
         ],
-        "version": "0.3.0",
+        "version": "1.0.1",
+        "language": "eng",
         "custom": {
-          "code:codeRepository": "https://codeberg.org/twin4life-team-inria/lumpedflux",
+          "code:codeRepository": "https://github.com/J-kroeger/pcc-explorer",
           "code:programmingLanguage": [
-            {
-              "id": "c++",
-              "title": {
-                "en": "C++"
-              }
-            },
             {
               "id": "python",
               "title": {
@@ -101,537 +200,84 @@
           "type": "software"
         },
         "license": {
-          "id": "lgpl-3.0"
+          "id": "gpl-3.0-or-later"
         },
         "relations": {
           "version": [
             {
-              "index": 0,
+              "index": 1,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20394871"
+                "pid_value": "18618171"
               }
             }
           ]
         }
       },
-      "title": "LumpedFlux",
+      "title": "PCC-Explorer",
       "links": {
-        "self": "https://zenodo.org/api/records/20394872",
-        "self_html": "https://zenodo.org/records/20394872",
-        "preview_html": "https://zenodo.org/records/20394872?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20394872",
-        "self_doi": "https://doi.org/10.5281/zenodo.20394872",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20394872",
-        "reserve_doi": "https://zenodo.org/api/records/20394872/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20394871",
-        "parent_html": "https://zenodo.org/records/20394871",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20394871",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20394871",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20394872/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20394872/sequence/default",
-        "files": "https://zenodo.org/api/records/20394872/files",
-        "media_files": "https://zenodo.org/api/records/20394872/media-files",
-        "archive": "https://zenodo.org/api/records/20394872/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20394872/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20394872/versions/latest",
-        "latest_html": "https://zenodo.org/records/20394872/latest",
-        "versions": "https://zenodo.org/api/records/20394872/versions",
-        "draft": "https://zenodo.org/api/records/20394872/draft",
-        "access_links": "https://zenodo.org/api/records/20394872/access/links",
-        "access_grants": "https://zenodo.org/api/records/20394872/access/grants",
-        "access_users": "https://zenodo.org/api/records/20394872/access/users",
-        "access_request": "https://zenodo.org/api/records/20394872/access/request",
-        "access": "https://zenodo.org/api/records/20394872/access",
-        "communities": "https://zenodo.org/api/records/20394872/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20394872/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20394872/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20394872/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20394872/quota-increase",
-        "requests": "https://zenodo.org/api/records/20394872/requests"
+        "self": "https://zenodo.org/api/records/21671175",
+        "self_html": "https://zenodo.org/records/21671175",
+        "preview_html": "https://zenodo.org/records/21671175?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21671175",
+        "self_doi": "https://doi.org/10.5281/zenodo.21671175",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21671175",
+        "reserve_doi": "https://zenodo.org/api/records/21671175/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/18618171",
+        "parent_html": "https://zenodo.org/records/18618171",
+        "parent_doi": "https://doi.org/10.5281/zenodo.18618171",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18618171",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21671175/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21671175/sequence/default",
+        "files": "https://zenodo.org/api/records/21671175/files",
+        "media_files": "https://zenodo.org/api/records/21671175/media-files",
+        "archive": "https://zenodo.org/api/records/21671175/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21671175/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21671175/versions/latest",
+        "latest_html": "https://zenodo.org/records/21671175/latest",
+        "versions": "https://zenodo.org/api/records/21671175/versions",
+        "draft": "https://zenodo.org/api/records/21671175/draft",
+        "access_links": "https://zenodo.org/api/records/21671175/access/links",
+        "access_grants": "https://zenodo.org/api/records/21671175/access/grants",
+        "access_users": "https://zenodo.org/api/records/21671175/access/users",
+        "access_request": "https://zenodo.org/api/records/21671175/access/request",
+        "access": "https://zenodo.org/api/records/21671175/access",
+        "communities": "https://zenodo.org/api/records/21671175/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21671175/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21671175/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21671175/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21671175/quota-increase",
+        "requests": "https://zenodo.org/api/records/21671175/requests"
       },
-      "updated": "2026-06-01T14:32:19.277070+00:00",
-      "recid": "20394872",
+      "updated": "2026-08-01T09:35:32.486044+00:00",
+      "recid": "21671175",
       "revision": 4,
       "files": [
         {
-          "id": "ed6746d5-3d11-4653-9ca5-297558dafede",
-          "key": "LumpedFlux-main.tar.gz",
-          "size": 2978420,
-          "checksum": "md5:232321f2cbad7d44bb205c014828b3e2",
+          "id": "1a99e648-248b-41e3-b6aa-734336f1a456",
+          "key": "PCC-Explorer.zip",
+          "size": 140919138,
+          "checksum": "md5:ad664ac8a6abca7af5d0d418f90012aa",
           "links": {
-            "self": "https://zenodo.org/api/records/20394872/files/LumpedFlux-main.tar.gz/content"
-          }
-        },
-        {
-          "id": "3f9ec542-f52d-4a79-b01c-d8bb6e93a213",
-          "key": "technical_reference.tar.gz",
-          "size": 6990436,
-          "checksum": "md5:18bcbc7bcfef488a990b45693162ad9f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20394872/files/technical_reference.tar.gz/content"
-          }
-        },
-        {
-          "id": "c88ef783-c0d4-4c2a-9cb7-0c519a618b1d",
-          "key": "documentation.tar.gz",
-          "size": 1630359,
-          "checksum": "md5:af3cd495aa09040ca4238944adbcef4e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20394872/files/documentation.tar.gz/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1662841"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T14:02:51.455300+00:00",
-      "modified": "2026-06-01T14:02:52.023305+00:00",
-      "id": 20491599,
-      "conceptrecid": "20491598",
-      "doi": "10.5281/zenodo.20491599",
-      "conceptdoi": "10.5281/zenodo.20491598",
-      "doi_url": "https://doi.org/10.5281/zenodo.20491599",
-      "metadata": {
-        "title": "The Dilemma of Choice: How Design Shapes Consumer Decisions",
-        "doi": "10.5281/zenodo.20491599",
-        "publication_date": "2025-12-31",
-        "description": "Acharya Abstract, Prashant S. (2025): The Dilemma of Choice: How Design Shapes Consumer Decisions. FishTaxa 36 (9): 422-429",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Acharya Abstract, Prashant S.",
-            "affiliation": null
-          }
-        ],
-        "keywords": [
-          "Biodiversity",
-          "Taxonomy"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "10.1007/s12599-022-00783-7",
-            "relation": "cites",
-            "resource_type": "publication",
-            "scheme": "doi"
-          }
-        ],
-        "references": [
-          "1. Brignull, H. (2010). Deceptive design: Types of dark patterns. https://www.deceptive.design/types",
-          "2. Caragay, E., Xiong, K., Zong, J., & Jackson, D. (2023). Beyond dark patterns: A concept-based framework for software design ethics. https://groups.csail.mit.edu/sdg/pubs/2023/dark-concepts-23.pdf",
-          "3. Dayananda, L. (2025). Dark patterns in user experience design: The erosion of user autonomy and trust. https://www.researchgate.net/publication/391156550",
-          "4. Di Geronimo, L., Braz, L., Faria, A., et al. (2020). UI dark patterns and where to find them. Proceedings of the CHI 2020 Conference on Human Factors in Computing Systems.",
-          "5. Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018). The dark (patterns) side of UX design. Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.",
-          "6. Gunawan, J., Fitri, N., & Wibowo, P. (2021). A comparative study of dark patterns across mobile and web modalities. https://www.ftc.gov/system/files/documents/public_events/1582978/gunawan_pradeep_choffnes_hartzog_wilson_dark_patte",
-          "7. Kollmer, T. (2022). Dark patterns: Ethical and economic perspectives. Business & Information Systems Engineering. https://link.springer.com/article/10.1007/s12599-022-00783-7",
-          "8. Mathur, A., Acar, G., Friedman, M. G., et al. (2019). Dark patterns at scale: Findings from a crawl of 11,000 shopping websites. Proceedings of the ACM on Human-Computer Interaction, 3(CSCW).",
-          "9. Nielsen Norman Group. (2023). Deceptive patterns: When persuasive design becomes deception. https://www.nngroup.com/articles/deceptive-patterns/",
-          "10. Raw Studio. (2023). Designing with integrity: The ethical designer's handbook on dark patterns. https://raw.studio/blog/designing-with-integrity-the-ethical-designers-handbook-on-dark-patterns/",
-          "11. Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.",
-          "12. Think Design. (2021). Responsible design - Bait and switch. https://think.design/blog/responsible-design-part-6-of-14-bait-and-switch/",
-          "13. UITOP. (2023). Dark patterns in UX: What they are and how to avoid them. https://uitop.design/blog/design/dark-patterns-in-ux/",
-          "14. UX Design. (2022). Little UX crimes: A collection of dark patterns in design. https://uxdesign.cc/little-ux-crimes-a-collectionof-dark-patterns-in-design-7783b75195e0",
-          "15. UX Design Institute. (2023). What are dark patterns in UX? https://www.uxdesigninstitute.com/blog/what-are-dark-patternsin-ux/",
-          "16. Zero To Mastery. (2023). Dark patterns in UX: How they trick users (and how to avoid them). https://zerotomastery.io/blog/dark-patterns-in-ux/"
-        ],
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "journal": {
-          "issue": "9",
-          "pages": "422-429",
-          "title": "FishTaxa",
-          "volume": "36"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "urn:lsid:plazi.org:pub:FF8BFF8BC279FFA6FF99FFFDFFD26914"
-          }
-        ],
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "biosyslit"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20491598"
-              }
-            }
-          ]
-        }
-      },
-      "title": "The Dilemma of Choice: How Design Shapes Consumer Decisions",
-      "links": {
-        "self": "https://zenodo.org/api/records/20491599",
-        "self_html": "https://zenodo.org/records/20491599",
-        "preview_html": "https://zenodo.org/records/20491599?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20491599",
-        "self_doi": "https://doi.org/10.5281/zenodo.20491599",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491599",
-        "reserve_doi": "https://zenodo.org/api/records/20491599/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20491598",
-        "parent_html": "https://zenodo.org/records/20491598",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20491598",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491598",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491599/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491599/sequence/default",
-        "files": "https://zenodo.org/api/records/20491599/files",
-        "media_files": "https://zenodo.org/api/records/20491599/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:20491599:source.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:20491599:source.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:20491599:source.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:20491599:source.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:20491599:source.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:20491599:source.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/20491599/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20491599/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20491599/versions/latest",
-        "latest_html": "https://zenodo.org/records/20491599/latest",
-        "versions": "https://zenodo.org/api/records/20491599/versions",
-        "draft": "https://zenodo.org/api/records/20491599/draft",
-        "access_links": "https://zenodo.org/api/records/20491599/access/links",
-        "access_grants": "https://zenodo.org/api/records/20491599/access/grants",
-        "access_users": "https://zenodo.org/api/records/20491599/access/users",
-        "access_request": "https://zenodo.org/api/records/20491599/access/request",
-        "access": "https://zenodo.org/api/records/20491599/access",
-        "communities": "https://zenodo.org/api/records/20491599/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20491599/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20491599/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20491599/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20491599/quota-increase",
-        "requests": "https://zenodo.org/api/records/20491599/requests"
-      },
-      "updated": "2026-06-01T14:02:52.023305+00:00",
-      "recid": "20491599",
-      "revision": 5,
-      "files": [
-        {
-          "id": "a42a1252-53e6-4c13-9e00-7da31f9a6912",
-          "key": "source.pdf",
-          "size": 672175,
-          "checksum": "md5:4a8b938bc2790ba6c599c1fde1d26914",
-          "links": {
-            "self": "https://zenodo.org/api/records/20491599/files/source.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1161"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T13:57:41.233638+00:00",
-      "modified": "2026-06-01T13:57:41.405725+00:00",
-      "id": 20491215,
-      "conceptrecid": "10813020",
-      "doi": "10.5281/zenodo.20491215",
-      "conceptdoi": "10.5281/zenodo.10813020",
-      "doi_url": "https://doi.org/10.5281/zenodo.20491215",
-      "metadata": {
-        "title": "Migovec Survey Data",
-        "doi": "10.5281/zenodo.20491215",
-        "publication_date": "2026-06-01",
-        "description": "This is the status of cave exploration on the Tolminski Migovec Plateau as of 2024.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Imperial College Caving Club",
-            "affiliation": null
-          },
-          {
-            "name": "Jamarska Sekcija Planinskega Dru\u0161tva Tolmin",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/iccaving/migovec-survey-data/tree/latest",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "latest",
-        "custom": {
-          "code:codeRepository": "https://github.com/iccaving/migovec-survey-data"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-nc-sa-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 120,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "10813020"
-              }
-            }
-          ]
-        },
-        "notes": "If you use this software, please cite it using these metadata."
-      },
-      "title": "Migovec Survey Data",
-      "links": {
-        "self": "https://zenodo.org/api/records/20491215",
-        "self_html": "https://zenodo.org/records/20491215",
-        "preview_html": "https://zenodo.org/records/20491215?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20491215",
-        "self_doi": "https://doi.org/10.5281/zenodo.20491215",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491215",
-        "reserve_doi": "https://zenodo.org/api/records/20491215/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/10813020",
-        "parent_html": "https://zenodo.org/records/10813020",
-        "parent_doi": "https://doi.org/10.5281/zenodo.10813020",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10813020",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20491215/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20491215/sequence/default",
-        "files": "https://zenodo.org/api/records/20491215/files",
-        "media_files": "https://zenodo.org/api/records/20491215/media-files",
-        "archive": "https://zenodo.org/api/records/20491215/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20491215/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20491215/versions/latest",
-        "latest_html": "https://zenodo.org/records/20491215/latest",
-        "versions": "https://zenodo.org/api/records/20491215/versions",
-        "draft": "https://zenodo.org/api/records/20491215/draft",
-        "access_links": "https://zenodo.org/api/records/20491215/access/links",
-        "access_grants": "https://zenodo.org/api/records/20491215/access/grants",
-        "access_users": "https://zenodo.org/api/records/20491215/access/users",
-        "access_request": "https://zenodo.org/api/records/20491215/access/request",
-        "access": "https://zenodo.org/api/records/20491215/access",
-        "communities": "https://zenodo.org/api/records/20491215/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20491215/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20491215/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20491215/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20491215/quota-increase",
-        "requests": "https://zenodo.org/api/records/20491215/requests"
-      },
-      "updated": "2026-06-01T13:57:41.405725+00:00",
-      "recid": "20491215",
-      "revision": 4,
-      "files": [
-        {
-          "id": "7d905172-4e51-4294-8699-9ee69488f19c",
-          "key": "iccaving/migovec-survey-data-latest.zip",
-          "size": 176604017,
-          "checksum": "md5:4e6c369fad6ebf6a7728995ebaa3150e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20491215/files/iccaving/migovec-survey-data-latest.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1082057"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 529,
-        "unique_downloads": 528,
-        "views": 2164,
-        "unique_views": 2152,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T13:45:45.052042+00:00",
-      "modified": "2026-06-01T13:45:45.159408+00:00",
-      "id": 20490967,
-      "conceptrecid": "17018496",
-      "doi": "10.5281/zenodo.20490967",
-      "conceptdoi": "10.5281/zenodo.17018496",
-      "doi_url": "https://doi.org/10.5281/zenodo.20490967",
-      "metadata": {
-        "title": "Template Python Package: An opinionated setup for making Python packages",
-        "doi": "10.5281/zenodo.20490967",
-        "publication_date": "2026-06-01",
-        "description": "A template for making a Git repository that follows strongly opinionated practices for building and managing Python packages.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Johnston, Luke William",
-            "affiliation": "Steno Diabetes Center Aarhus",
-            "orcid": "0000-0003-4169-2616"
-          },
-          {
-            "name": "Br\u00f8db\u00e6k, Signe Kirk",
-            "affiliation": "Steno Diabetes Center Aarhus",
-            "orcid": "0009-0000-2208-7088"
-          },
-          {
-            "name": "Beicher, Kristiane",
-            "affiliation": "Steno Diabetes Center Aarhus",
-            "orcid": "0000-0001-7556-9566"
-          },
-          {
-            "name": "Vago, Marton",
-            "affiliation": "Steno Diabetes Center Aarhus",
-            "orcid": "0009-0007-4628-655X"
-          }
-        ],
-        "keywords": [
-          "copier template",
-          "template",
-          "template repository",
-          "template project",
-          "template python package"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/seedcase-project/template-python-package/tree/0.23.5",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "0.23.5",
-        "custom": {
-          "code:codeRepository": "https://github.com/seedcase-project/template-python-package"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "mit-license"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 32,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17018496"
-              }
-            }
-          ]
-        },
-        "notes": "If you use this software, please cite it using these metadata."
-      },
-      "title": "Template Python Package: An opinionated setup for making Python packages",
-      "links": {
-        "self": "https://zenodo.org/api/records/20490967",
-        "self_html": "https://zenodo.org/records/20490967",
-        "preview_html": "https://zenodo.org/records/20490967?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20490967",
-        "self_doi": "https://doi.org/10.5281/zenodo.20490967",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490967",
-        "reserve_doi": "https://zenodo.org/api/records/20490967/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17018496",
-        "parent_html": "https://zenodo.org/records/17018496",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17018496",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17018496",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20490967/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20490967/sequence/default",
-        "files": "https://zenodo.org/api/records/20490967/files",
-        "media_files": "https://zenodo.org/api/records/20490967/media-files",
-        "archive": "https://zenodo.org/api/records/20490967/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20490967/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20490967/versions/latest",
-        "latest_html": "https://zenodo.org/records/20490967/latest",
-        "versions": "https://zenodo.org/api/records/20490967/versions",
-        "draft": "https://zenodo.org/api/records/20490967/draft",
-        "access_links": "https://zenodo.org/api/records/20490967/access/links",
-        "access_grants": "https://zenodo.org/api/records/20490967/access/grants",
-        "access_users": "https://zenodo.org/api/records/20490967/access/users",
-        "access_request": "https://zenodo.org/api/records/20490967/access/request",
-        "access": "https://zenodo.org/api/records/20490967/access",
-        "communities": "https://zenodo.org/api/records/20490967/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20490967/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20490967/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20490967/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20490967/quota-increase",
-        "requests": "https://zenodo.org/api/records/20490967/requests"
-      },
-      "updated": "2026-06-01T13:45:45.159408+00:00",
-      "recid": "20490967",
-      "revision": 4,
-      "files": [
-        {
-          "id": "3bea841f-9c1d-40f4-bf32-2aed5a4d424c",
-          "key": "seedcase-project/template-python-package-0.23.5.zip",
-          "size": 1022961,
-          "checksum": "md5:fa0482dab36526f43080db5b0319b8fc",
-          "links": {
-            "self": "https://zenodo.org/api/records/20490967/files/seedcase-project/template-python-package-0.23.5.zip/content"
+            "self": "https://zenodo.org/api/records/21671175/files/PCC-Explorer.zip/content"
           }
         }
       ],
       "swh": {
-        "swhid": "swh:1:dir:2957ce4af2e3320736548006d214e5ac8fc45aec;origin=https://doi.org/10.5281/zenodo.17018496;visit=swh:1:snp:ca2c453e5a18a445cfa835168159d30cd43b020a;anchor=swh:1:rel:852926269f9c944d13f81f7ad7e46d52044d552b;path=seedcase-project-template-python-package-7c6d4d0"
+        "swhid": "swh:1:dir:07102e96fb12ceda19d9abda175a43dfd4459e5b;origin=https://doi.org/10.5281/zenodo.18618171;visit=swh:1:snp:934f4ad113d22d62c8e0ff87e37b2fd64067eef3;anchor=swh:1:rel:48c3031e68fc393abc08513202223633754cb2c6;path=/"
       },
       "owners": [
         {
-          "id": "34416"
+          "id": "1541354"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 80,
-        "unique_downloads": 80,
-        "views": 529,
-        "unique_views": 502,
+        "downloads": 36,
+        "unique_downloads": 29,
+        "views": 199,
+        "unique_views": 174,
         "version_downloads": 0,
         "version_unique_downloads": 0,
         "version_unique_views": 0,
@@ -641,1683 +287,304 @@
       "submitted": true
     },
     {
-      "created": "2026-06-01T13:22:00.333032+00:00",
-      "modified": "2026-06-01T13:22:00.827467+00:00",
-      "id": 20474294,
-      "conceptrecid": "4127100",
-      "doi": "10.5281/zenodo.20474294",
-      "conceptdoi": "10.5281/zenodo.4127100",
-      "doi_url": "https://doi.org/10.5281/zenodo.20474294",
+      "created": "2026-08-01T09:35:02.775789+00:00",
+      "modified": "2026-08-01T09:35:02.940475+00:00",
+      "id": 21737791,
+      "conceptrecid": "21735703",
+      "doi": "10.5281/zenodo.21737791",
+      "conceptdoi": "10.5281/zenodo.21735703",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737791",
       "metadata": {
-        "title": "PUDL Raw FERC Form 714",
-        "doi": "10.5281/zenodo.20474294",
-        "publication_date": "2026-06-01",
-        "description": "<p>Federal Energy Regulatory Commission (FERC) Form 714 Data, archived from <a href=\"https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-no-714-annual-electric/data\">https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-no-714-annual-electric/data</a></p>\n\n<p>This archive contains raw input data for the Public Utility Data Liberation (PUDL) software developed by <a href=\"https://catalyst.coop\">Catalyst Cooperative</a>. It is organized into <a href=\"https://specs.frictionlessdata.io/data-package/\">Frictionless Data Packages</a>. For additional information about this data and PUDL, see the following resources:</p>\n\n<ul>\n\t<li><a href=\"https://github.com/catalyst-cooperative/pudl\">The PUDL Repository on GitHub</a></li>\n\t<li><a href=\"https://readthedocs.org/projects/catalystcoop-pudl/\">PUDL Documentation</a></li>\n\t<li><a href=\"https://zenodo.org/communities/catalyst-cooperative/\">Other Catalyst Cooperative data archives</a></li>\n</ul>\n\n<p>&nbsp;</p>",
+        "title": "ULTR-AI: Ultrasound-led TB Recognition Using AI",
+        "doi": "10.5281/zenodo.21737791",
+        "publication_date": "2026-08-01",
+        "description": "ULTR-AI is research software for developing and evaluating artificial intelligence models that analyze lung ultrasound for pulmonary tuberculosis triage. The codebase supports direct image-to-TB prediction, prediction of human-recognizable lung ultrasound signs, patient-level aggregation, and evaluation against study outcome labels.",
         "access_right": "open",
         "creators": [
           {
-            "name": "Gosnell, Christina",
-            "affiliation": "Catalyst Cooperative"
+            "name": "Brokowski, Trevor",
+            "affiliation": "Laboratory for Intelligent Global Health and Humanitarian Response Technologies (LiGHT), EPFL"
+          }
+        ],
+        "keywords": [
+          "artificial intelligence",
+          "deep learning",
+          "diagnostic accuracy",
+          "global health",
+          "lung ultrasound",
+          "medical imaging",
+          "point-of-care ultrasound",
+          "tuberculosis",
+          "triage"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/tbrokowski/UltrAI/tree/v1.0.1",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v1.0.1",
+        "custom": {
+          "code:codeRepository": "https://github.com/tbrokowski/UltrAI"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "apache2.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21735703"
+              }
+            }
+          ]
+        },
+        "notes": "If you use ULTR-AI, please cite the version-specific software release and the associated research article below."
+      },
+      "title": "ULTR-AI: Ultrasound-led TB Recognition Using AI",
+      "links": {
+        "self": "https://zenodo.org/api/records/21737791",
+        "self_html": "https://zenodo.org/records/21737791",
+        "preview_html": "https://zenodo.org/records/21737791?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737791",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737791",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737791",
+        "reserve_doi": "https://zenodo.org/api/records/21737791/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21735703",
+        "parent_html": "https://zenodo.org/records/21735703",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21735703",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735703",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737791/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737791/sequence/default",
+        "files": "https://zenodo.org/api/records/21737791/files",
+        "media_files": "https://zenodo.org/api/records/21737791/media-files",
+        "archive": "https://zenodo.org/api/records/21737791/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737791/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737791/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737791/latest",
+        "versions": "https://zenodo.org/api/records/21737791/versions",
+        "draft": "https://zenodo.org/api/records/21737791/draft",
+        "access_links": "https://zenodo.org/api/records/21737791/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737791/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737791/access/users",
+        "access_request": "https://zenodo.org/api/records/21737791/access/request",
+        "access": "https://zenodo.org/api/records/21737791/access",
+        "communities": "https://zenodo.org/api/records/21737791/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737791/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737791/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737791/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737791/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737791/requests"
+      },
+      "updated": "2026-08-01T09:35:02.940475+00:00",
+      "recid": "21737791",
+      "revision": 4,
+      "files": [
+        {
+          "id": "d782b022-2334-4ecd-b431-52ea9229f02c",
+          "key": "tbrokowski/UltrAI-v1.0.1.zip",
+          "size": 1059085,
+          "checksum": "md5:5f9cbcc1cf095d64d86b6e8d9fe640d1",
+          "links": {
+            "self": "https://zenodo.org/api/records/21737791/files/tbrokowski/UltrAI-v1.0.1.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:0685e831a948f652569ba54190b815c32b98ad70;origin=https://doi.org/10.5281/zenodo.21735703;visit=swh:1:snp:8f7739b3de53e7ed42f82958bb880fba23b0149d;anchor=swh:1:rel:07d6266eeb78551e30022d5717771c4f6efa6f95;path=tbrokowski-UltrAI-34ddbee"
+      },
+      "owners": [
+        {
+          "id": "1794248"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T09:28:44.772147+00:00",
+      "modified": "2026-08-01T09:28:45.035238+00:00",
+      "id": 21737706,
+      "conceptrecid": "17811441",
+      "doi": "10.5281/zenodo.21737706",
+      "conceptdoi": "10.5281/zenodo.17811441",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737706",
+      "metadata": {
+        "title": "Snapquery: FAIR Management of Query Sets to Mitigate Query Rot in Knowledge Graphs",
+        "doi": "10.5281/zenodo.21737706",
+        "publication_date": "2026-08-01",
+        "description": "<div>\n<div>\n<div>\n<p><span>Will the &ldquo;cats&rdquo; Wikidata SPARQL query example still work in the future? While link rot has been a known issue, the </span><span>Query Rot </span><span>problem has not been investigated much in the past. We introduce an approach for quality assessment and refactoring of query sets and evalu- ate its implementation for SPARQL. </span></p>\n<p><span>By applying information hiding and dependency inversion principles, we hide the details of the query and introduce the </span><span>snapquery </span><span>SPARQL query endpoint middleware to maintain expected query behavior independently of technical details, context, and even, as a future option, the query lan- guage. &ldquo;snapquery cats&rdquo; is designed to work consistently in the future no matter what changes. This approach enables the swapping of endpoints, conceals the complexity of (federated) queries, and manages SPARQL query sets by making the queries FAIR first-class citizens of the Knowl- edge Graph infrastructure. The increased abstraction aligns well with state-of-the-art Artificial Intelligence approaches that allow the use of natural language input to generate query sets. </span></p>\n<p><span>This novel, systematic, and semi-automatic approach is generally useful in most knowledge graph management scenarios. It allows for the gath- ering of query metadata from real-world environments on the fly, sup- porting the creation of test suites, benchmarks, challenges, dashboards, and other analytical applications for query performance and health moni- toring. Our approach contributes to advancing knowledge engineering by bridging gaps between knowledge graphs, software engineering, and large language models. </span></p>\n<p><span>We reproduce use cases of the Scholia, QLever and general Wikidata projects to demonstrate functionality and measure non-functional quality improvements over those projects.<br>We conclude that advancing Knowledge Graph management requires 1. introducing queries as FAIR first-class citizens by developing platform- independent named parameterized queries (thus confirming a 2019 pro- posal), 2. structured, implementation-independent error messages, and 3. shifting to higher abstraction levels that support human and machine generated general text input. We suggest corresponding improvements to the SPARQL standard. </span></p>\n</div>\n</div>\n</div>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Fahl, Wolfgang",
+            "affiliation": "RWTH Aachen University, Computer Science i5; BITPlan GmbH, Willich",
+            "orcid": "0000-0002-0821-6995"
           },
           {
-            "name": "Selvans, Zane",
-            "affiliation": "Catalyst Cooperative"
-          }
-        ],
-        "keywords": [
-          "electricity",
-          "electric",
-          "utility",
-          "planning area",
-          "form 714",
-          "ferc714",
-          "balancing authority",
-          "demand",
-          "system lambda",
-          "ferc",
-          "federal energy regulatory commission",
-          "hourly",
-          "generation",
-          "interchange",
-          "forecast",
-          "load",
-          "adjacency",
-          "plants",
-          "f31f0894-639e-4bc2-9b7f-8a84713bcc87"
-        ],
-        "version": "26.0.0",
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "other-pd"
-        },
-        "communities": [
-          {
-            "id": "catalyst-cooperative"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 25,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "4127100"
-              }
-            }
-          ]
-        }
-      },
-      "title": "PUDL Raw FERC Form 714",
-      "links": {
-        "self": "https://zenodo.org/api/records/20474294",
-        "self_html": "https://zenodo.org/records/20474294",
-        "preview_html": "https://zenodo.org/records/20474294?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20474294",
-        "self_doi": "https://doi.org/10.5281/zenodo.20474294",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474294",
-        "reserve_doi": "https://zenodo.org/api/records/20474294/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/4127100",
-        "parent_html": "https://zenodo.org/records/4127100",
-        "parent_doi": "https://doi.org/10.5281/zenodo.4127100",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4127100",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20474294/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20474294/sequence/default",
-        "files": "https://zenodo.org/api/records/20474294/files",
-        "media_files": "https://zenodo.org/api/records/20474294/media-files",
-        "archive": "https://zenodo.org/api/records/20474294/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20474294/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20474294/versions/latest",
-        "latest_html": "https://zenodo.org/records/20474294/latest",
-        "versions": "https://zenodo.org/api/records/20474294/versions",
-        "draft": "https://zenodo.org/api/records/20474294/draft",
-        "access_links": "https://zenodo.org/api/records/20474294/access/links",
-        "access_grants": "https://zenodo.org/api/records/20474294/access/grants",
-        "access_users": "https://zenodo.org/api/records/20474294/access/users",
-        "access_request": "https://zenodo.org/api/records/20474294/access/request",
-        "access": "https://zenodo.org/api/records/20474294/access",
-        "communities": "https://zenodo.org/api/records/20474294/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20474294/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20474294/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20474294/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20474294/quota-increase",
-        "requests": "https://zenodo.org/api/records/20474294/requests"
-      },
-      "updated": "2026-06-01T13:22:00.827467+00:00",
-      "recid": "20474294",
-      "revision": 4,
-      "files": [
-        {
-          "id": "5e31daad-4e1d-400c-8aa3-80c020929c95",
-          "key": "ferc714.zip",
-          "size": 57293468,
-          "checksum": "md5:4ed329eaee51a685858f45b9d5ceb8b1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714.zip/content"
-          }
-        },
-        {
-          "id": "2b99bf4f-3fb3-4f4e-ac99-9c14c51b5284",
-          "key": "ferc714-xbrl-2020.zip",
-          "size": 247370,
-          "checksum": "md5:d30757964846f18d6cf0e64ddb4d905f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2020.zip/content"
-          }
-        },
-        {
-          "id": "63c7cef1-3dc3-421a-b636-95de914f4906",
-          "key": "ferc714-xbrl-2023.zip",
-          "size": 27088986,
-          "checksum": "md5:466cf5a9fd8ef5472abcfe401bff1c40",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2023.zip/content"
-          }
-        },
-        {
-          "id": "2e25e1b3-9abf-4c36-8f50-3d48fd4bdbcd",
-          "key": "ferc714-xbrl-2024.zip",
-          "size": 20433968,
-          "checksum": "md5:b4fa2a3f377040af93e5a4148f6c942b",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2024.zip/content"
-          }
-        },
-        {
-          "id": "e98cb237-bf8a-402f-b436-6db9f73cc6a5",
-          "key": "ferc714-xbrl-2019.zip",
-          "size": 624406,
-          "checksum": "md5:eb754dae322687d9dcf1e0221da9accd",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2019.zip/content"
-          }
-        },
-        {
-          "id": "5d74eabb-5c6d-4a10-805e-37354b1716d4",
-          "key": "ferc714-xbrl-2021.zip",
-          "size": 42691084,
-          "checksum": "md5:c76deef0215c3f17dd1a7637c6bc48df",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2021.zip/content"
-          }
-        },
-        {
-          "id": "5d55ac34-77bb-48e7-a00c-9f23a93fee0c",
-          "key": "ferc714-xbrl-2025.zip",
-          "size": 25438612,
-          "checksum": "md5:9d2ad6d117421917e71d6fc8ae392fb3",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2025.zip/content"
-          }
-        },
-        {
-          "id": "9c0b2191-2fff-4f3b-bd63-0600102782a6",
-          "key": "ferc714-xbrl-taxonomies.zip",
-          "size": 275864,
-          "checksum": "md5:722c0ca3c7dc4437e2d42f7de44f4664",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-taxonomies.zip/content"
-          }
-        },
-        {
-          "id": "774f4f73-b230-46b3-a5e3-b2914a901e27",
-          "key": "ferc714-xbrl-2026.zip",
-          "size": 5080,
-          "checksum": "md5:8e2596618b3b5f5055ae7f866b778e74",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2026.zip/content"
-          }
-        },
-        {
-          "id": "03282781-bb59-41d6-b3df-500609687013",
-          "key": "datapackage.json",
-          "size": 9353,
-          "checksum": "md5:f46c1fc084ca615c478f2f0c82b39419",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/datapackage.json/content"
-          }
-        },
-        {
-          "id": "e1d140d9-128d-46e0-884a-f402543bd4fa",
-          "key": "ferc714-xbrl-2022.zip",
-          "size": 46012014,
-          "checksum": "md5:af2478551da31d98bde8c9de058aeb3d",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474294/files/ferc714-xbrl-2022.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "90379"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 19236,
-        "unique_downloads": 18104,
-        "views": 3142,
-        "unique_views": 3045,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T13:20:41.873023+00:00",
-      "modified": "2026-06-01T13:20:43.281392+00:00",
-      "id": 20474289,
-      "conceptrecid": "7683517",
-      "doi": "10.5281/zenodo.20474289",
-      "conceptdoi": "10.5281/zenodo.7683517",
-      "doi_url": "https://doi.org/10.5281/zenodo.20474289",
-      "metadata": {
-        "title": "PUDL Raw Mine Safety and Health Administration (MSHA) Mines",
-        "doi": "10.5281/zenodo.20474289",
-        "publication_date": "2026-06-01",
-        "description": "<p>The Mine dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine. Archived from \n<a href=\"https://arlweb.msha.gov/OpenGovernmentData/OGIMSHA.asp\">https://arlweb.msha.gov/OpenGovernmentData/OGIMSHA.asp</a></p>\n<p>This archive contains raw input data for the Public Utility Data Liberation (PUDL)\nsoftware developed by <a href=\"https://catalyst.coop\">Catalyst Cooperative</a>. It is\norganized into <a href=\"https://specs.frictionlessdata.io/data-package/\">Frictionless\nData Packages</a>. For additional information about this data and PUDL, see the\nfollowing resources:\n</p><ul>\n  <li><a href=\"https://github.com/catalyst-cooperative/pudl\">The PUDL Repository on GitHub</a></li>\n  <li><a href=\"https://catalystcoop-pudl.readthedocs.io\">PUDL Documentation</a></li>\n  <li><a href=\"https://zenodo.org/communities/catalyst-cooperative/\">Other Catalyst Cooperative data archives</a></li>\n</ul>\n<p></p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Catalyst Cooperative",
-            "affiliation": "Catalyst Cooperative"
-          }
-        ],
-        "keywords": [
-          "coal",
-          "department of labor",
-          "federal",
-          "government",
-          "metal",
-          "mine safety and health administration",
-          "mines",
-          "mining",
-          "msha",
-          "mshamines",
-          "united states",
-          "us",
-          "usa"
-        ],
-        "version": "72.0.0",
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "other-pd"
-        },
-        "communities": [
-          {
-            "id": "catalyst-cooperative"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 72,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "7683517"
-              }
-            }
-          ]
-        }
-      },
-      "title": "PUDL Raw Mine Safety and Health Administration (MSHA) Mines",
-      "links": {
-        "self": "https://zenodo.org/api/records/20474289",
-        "self_html": "https://zenodo.org/records/20474289",
-        "preview_html": "https://zenodo.org/records/20474289?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20474289",
-        "self_doi": "https://doi.org/10.5281/zenodo.20474289",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474289",
-        "reserve_doi": "https://zenodo.org/api/records/20474289/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/7683517",
-        "parent_html": "https://zenodo.org/records/7683517",
-        "parent_doi": "https://doi.org/10.5281/zenodo.7683517",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7683517",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20474289/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20474289/sequence/default",
-        "files": "https://zenodo.org/api/records/20474289/files",
-        "media_files": "https://zenodo.org/api/records/20474289/media-files",
-        "archive": "https://zenodo.org/api/records/20474289/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20474289/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20474289/versions/latest",
-        "latest_html": "https://zenodo.org/records/20474289/latest",
-        "versions": "https://zenodo.org/api/records/20474289/versions",
-        "draft": "https://zenodo.org/api/records/20474289/draft",
-        "access_links": "https://zenodo.org/api/records/20474289/access/links",
-        "access_grants": "https://zenodo.org/api/records/20474289/access/grants",
-        "access_users": "https://zenodo.org/api/records/20474289/access/users",
-        "access_request": "https://zenodo.org/api/records/20474289/access/request",
-        "access": "https://zenodo.org/api/records/20474289/access",
-        "communities": "https://zenodo.org/api/records/20474289/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20474289/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20474289/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20474289/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20474289/quota-increase",
-        "requests": "https://zenodo.org/api/records/20474289/requests"
-      },
-      "updated": "2026-06-01T13:20:43.281392+00:00",
-      "recid": "20474289",
-      "revision": 4,
-      "files": [
-        {
-          "id": "c4f8aa67-6173-4c0d-bb54-d5b85286d0af",
-          "key": "mshamines-quartz_samples_definitions.txt",
-          "size": 2390,
-          "checksum": "md5:e3325bda714b3a4ff32037ce79fe25f9",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-quartz_samples_definitions.txt/content"
-          }
-        },
-        {
-          "id": "7b3caaf8-8c04-48c1-af6a-0e7d086171a7",
-          "key": "mshamines-contractor_prod_yearly_definitions.txt",
-          "size": 1924,
-          "checksum": "md5:dda5b6d9758a692f9313a916f7872d7e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-contractor_prod_yearly_definitions.txt/content"
-          }
-        },
-        {
-          "id": "dfd25b07-4838-4c74-9563-7672f5e41840",
-          "key": "mshamines-area_samples_definitions.txt",
-          "size": 1996,
-          "checksum": "md5:43228f76830eec77de0f0e5bfc0068ec",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-area_samples_definitions.txt/content"
-          }
-        },
-        {
-          "id": "b6729598-c9e1-47b8-bcc3-bea09abf40fa",
-          "key": "mshamines-address_of_record_definitions.txt",
-          "size": 2527,
-          "checksum": "md5:5566d303cac8fe07937a3e070ba4f78b",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-address_of_record_definitions.txt/content"
-          }
-        },
-        {
-          "id": "56338872-459e-47bc-9b3c-a776702d0f6f",
-          "key": "mshamines-contractor_prod_quarterly.zip",
-          "size": 9444489,
-          "checksum": "md5:bc59a304a5f345294800c3430825cc50",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-contractor_prod_quarterly.zip/content"
-          }
-        },
-        {
-          "id": "747040b8-836a-4a03-9380-19309c0b8d2b",
-          "key": "mshamines-noise_samples.zip",
-          "size": 6342151,
-          "checksum": "md5:fd87770fef5fcd85058bf151c48f8f74",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-noise_samples.zip/content"
-          }
-        },
-        {
-          "id": "6c81bd8e-00fb-4139-9f21-6296d0589984",
-          "key": "mshamines-contested_violations.zip",
-          "size": 29346585,
-          "checksum": "md5:eaddb7e864323b402dd8357b9fdee464",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-contested_violations.zip/content"
-          }
-        },
-        {
-          "id": "d5e2020b-5fa6-428b-bf58-79f1ed1a959c",
-          "key": "mshamines-conferences.zip",
-          "size": 1056925,
-          "checksum": "md5:6e3ddec98c0e9c25bd62abe9132bdff1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-conferences.zip/content"
-          }
-        },
-        {
-          "id": "13c415aa-edff-40c4-a8df-1a1059856783",
-          "key": "mshamines-area_samples.zip",
-          "size": 231043,
-          "checksum": "md5:846fe10a8035227b0d3aae3878a7f03c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-area_samples.zip/content"
-          }
-        },
-        {
-          "id": "9a18b77e-98c1-4aea-a3e5-e3c9b90ff855",
-          "key": "mshamines-coal_dust_samples_definitions.txt",
-          "size": 4326,
-          "checksum": "md5:ec8063366e35ec21cfe226c21e442242",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-coal_dust_samples_definitions.txt/content"
-          }
-        },
-        {
-          "id": "e638ec8b-d774-4712-956a-bd83b1933bc3",
-          "key": "mshamines-address_of_record.zip",
-          "size": 3612188,
-          "checksum": "md5:141c51bd7668eb27510f67ee0d82728c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-address_of_record.zip/content"
-          }
-        },
-        {
-          "id": "0762f203-0e38-44b1-9ad5-2e0c2310ee1a",
-          "key": "mshamines-personal_health_samples_definitions.txt",
-          "size": 2850,
-          "checksum": "md5:129e055bded878872abf9fbc3fd09f78",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-personal_health_samples_definitions.txt/content"
-          }
-        },
-        {
-          "id": "19fc5cb8-39d6-48fc-8e21-aa6c8dde37f3",
-          "key": "mshamines-civil_penalty_dockets_decisions_definitions.txt",
-          "size": 3786,
-          "checksum": "md5:a944e2e2b4df34a7f1a592adeb57f7a0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-civil_penalty_dockets_decisions_definitions.txt/content"
-          }
-        },
-        {
-          "id": "83d4d17f-57c7-4e2f-a1bc-9e83d7bf4824",
-          "key": "mshamines-controller_operator_history.zip",
-          "size": 4469952,
-          "checksum": "md5:f7c02186970048fed8d2b35976352d6c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-controller_operator_history.zip/content"
-          }
-        },
-        {
-          "id": "a51e2a21-4e9e-4c41-96bd-65100feba1c4",
-          "key": "mshamines-mines_prod_quarterly_definitions.txt",
-          "size": 2055,
-          "checksum": "md5:f28ac8bf57fa69c0ca9a59f4955ca4b7",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-mines_prod_quarterly_definitions.txt/content"
-          }
-        },
-        {
-          "id": "72390168-d0b3-4f29-ba3b-9256b52f225d",
-          "key": "mshamines-accidents_definitions.txt",
-          "size": 10214,
-          "checksum": "md5:2490beb0d8bb7904e64fad3e701b09d4",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-accidents_definitions.txt/content"
-          }
-        },
-        {
-          "id": "18302d9a-60ba-4449-b25d-1c11853832f5",
-          "key": "mshamines-violations_definitions.txt",
-          "size": 10733,
-          "checksum": "md5:f0c1d644f37098860860afa9aea1dfdf",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-violations_definitions.txt/content"
-          }
-        },
-        {
-          "id": "692061cc-b79a-4ce6-b197-f3256c8a882a",
-          "key": "mshamines-107a.zip",
-          "size": 190241,
-          "checksum": "md5:26e67f961c6475e3df9838dac2712d93",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-107a.zip/content"
-          }
-        },
-        {
-          "id": "bb011469-3a8a-41f4-aabe-cdea99e1806a",
-          "key": "mshamines-mines_prod_yearly_definitions.txt",
-          "size": 2023,
-          "checksum": "md5:b0743915e39b9d4843b5041929af3a1a",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-mines_prod_yearly_definitions.txt/content"
-          }
-        },
-        {
-          "id": "ad0b2235-0e62-4759-a17a-e1f92821029b",
-          "key": "mshamines-conferences_definitions.txt",
-          "size": 888,
-          "checksum": "md5:9a8e5be6eb5eb2cdd0f75f9c6983c7c5",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-conferences_definitions.txt/content"
-          }
-        },
-        {
-          "id": "f0ca5289-4849-4473-af17-5ce533d67cee",
-          "key": "mshamines-contractor_prod_yearly.zip",
-          "size": 3242399,
-          "checksum": "md5:9d16c595efa320f351a0b5f96cfce9a1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-contractor_prod_yearly.zip/content"
-          }
-        },
-        {
-          "id": "2cb4fb91-97cb-4660-b495-b41923a197f0",
-          "key": "mshamines-accidents.zip",
-          "size": 51857937,
-          "checksum": "md5:d9d98ee9df7fba1614620eb286ade79f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-accidents.zip/content"
-          }
-        },
-        {
-          "id": "64723312-c60c-4ef2-919c-3eb0b23686c3",
-          "key": "mshamines-contested_violations_definitions.txt",
-          "size": 5272,
-          "checksum": "md5:1bf477902b15211a74d3f8fe71341886",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-contested_violations_definitions.txt/content"
-          }
-        },
-        {
-          "id": "773138e7-ed17-4176-b07d-f64f32b3e732",
-          "key": "mshamines-contractor_prod_quarterly_definitions.txt",
-          "size": 1983,
-          "checksum": "md5:6ae18975ab0e074abc7f157c7f0ffb45",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-contractor_prod_quarterly_definitions.txt/content"
-          }
-        },
-        {
-          "id": "bb7d216c-1b69-42be-8e20-6c1e176d78e9",
-          "key": "mshamines-controller_operator_history_definitions.txt",
-          "size": 2687,
-          "checksum": "md5:d37b48823dc504c533eaa87ffed319df",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-controller_operator_history_definitions.txt/content"
-          }
-        },
-        {
-          "id": "f5bd6010-bc87-42f8-9934-663198e49b7d",
-          "key": "mshamines-coal_dust_samples.zip",
-          "size": 110512511,
-          "checksum": "md5:d2c147b6b8db86a4b31c599a1ed025df",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-coal_dust_samples.zip/content"
-          }
-        },
-        {
-          "id": "e820687f-ead8-4b5f-aa4a-eb8da135d6a2",
-          "key": "mshamines-assessed_violations_definitions.txt",
-          "size": 10024,
-          "checksum": "md5:8515cd9a01555be244a49b19e03ac140",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-assessed_violations_definitions.txt/content"
-          }
-        },
-        {
-          "id": "0820e84f-0183-4130-8cdc-6846b7f7abbb",
-          "key": "mshamines-mines_definitions.txt",
-          "size": 10285,
-          "checksum": "md5:199754bccdac75d451c41e8ddefd3571",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-mines_definitions.txt/content"
-          }
-        },
-        {
-          "id": "5d50e20e-2f7c-4b12-88bf-4584e9cc7b43",
-          "key": "mshamines-civil_penalty_dockets_decisions.zip",
-          "size": 14457984,
-          "checksum": "md5:321200d09f8294b455ae89a7f2bd379f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-civil_penalty_dockets_decisions.zip/content"
-          }
-        },
-        {
-          "id": "cc02b2ac-2f8a-4287-a75d-4c83d9b8fc3d",
-          "key": "datapackage.json",
-          "size": 23303,
-          "checksum": "md5:ab7c7ec19156a80ea9d5c89de2e1798d",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/datapackage.json/content"
-          }
-        },
-        {
-          "id": "56c9bba1-401d-4a60-9c5c-c076c6e9e23d",
-          "key": "mshamines-noise_samples_definitions.txt",
-          "size": 3579,
-          "checksum": "md5:19894d1b7ff82c9c9aa1b269af298ac4",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-noise_samples_definitions.txt/content"
-          }
-        },
-        {
-          "id": "0d4be907-bfdf-4346-9783-4754ded36130",
-          "key": "mshamines-inspections.zip",
-          "size": 72699022,
-          "checksum": "md5:c29a38e9841fff836f64902e0c8aa911",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-inspections.zip/content"
-          }
-        },
-        {
-          "id": "484e5724-c862-423d-82f7-809e08fc5add",
-          "key": "mshamines-quartz_samples.zip",
-          "size": 5829236,
-          "checksum": "md5:2e6f20cf8b963709c199f9029d5f529f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-quartz_samples.zip/content"
-          }
-        },
-        {
-          "id": "e2b72257-4406-4760-a4b6-acaf236f6262",
-          "key": "mshamines-inspections_definitions.txt",
-          "size": 6062,
-          "checksum": "md5:96d35020fadf0a4eaa148ee81593992f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-inspections_definitions.txt/content"
-          }
-        },
-        {
-          "id": "d5b0c513-e09b-408e-91f5-b80a40de4a2f",
-          "key": "mshamines-personal_health_samples.zip",
-          "size": 6190383,
-          "checksum": "md5:73f5d8c5b4c38c2790731a58462dbdee",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-personal_health_samples.zip/content"
-          }
-        },
-        {
-          "id": "d60104f7-0421-42e9-85b2-26406f3047a2",
-          "key": "mshamines-violations.zip",
-          "size": 119601597,
-          "checksum": "md5:1c96f1867813704dcfd48afc0d663379",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-violations.zip/content"
-          }
-        },
-        {
-          "id": "0f7caa97-9661-45af-be69-cc167309ccfe",
-          "key": "mshamines-mines_prod_yearly.zip",
-          "size": 7044909,
-          "checksum": "md5:db596412a6d5b23b6b9ef8a97fc1ce77",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-mines_prod_yearly.zip/content"
-          }
-        },
-        {
-          "id": "08c13bc2-3cdc-4494-9db1-51b74749dbdf",
-          "key": "mshamines-mines.zip",
-          "size": 7266265,
-          "checksum": "md5:9d2b9d44c048f2cca84499f5b66eb29e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-mines.zip/content"
-          }
-        },
-        {
-          "id": "1c6d302c-77f4-4147-a387-e8d39620b19a",
-          "key": "mshamines-mines_prod_quarterly.zip",
-          "size": 56314804,
-          "checksum": "md5:df9d900d6ef16aac424ac575da6501a3",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-mines_prod_quarterly.zip/content"
-          }
-        },
-        {
-          "id": "0aa49873-1eb9-4eda-ac03-eb21677ad442",
-          "key": "mshamines-assessed_violations.zip",
-          "size": 108300014,
-          "checksum": "md5:f33bd480aba48fb13e389327362a9922",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474289/files/mshamines-assessed_violations.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "90379"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 73181,
-        "unique_downloads": 71253,
-        "views": 6115,
-        "unique_views": 5936,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T13:20:25.491384+00:00",
-      "modified": "2026-06-01T13:20:26.959050+00:00",
-      "id": 20474297,
-      "conceptrecid": "7126395",
-      "doi": "10.5281/zenodo.20474297",
-      "conceptdoi": "10.5281/zenodo.7126395",
-      "doi_url": "https://doi.org/10.5281/zenodo.20474297",
-      "metadata": {
-        "title": "PUDL Raw FERC Form 6",
-        "doi": "10.5281/zenodo.20474297",
-        "publication_date": "2026-06-01",
-        "description": "<p>The Federal Energy Regulatory Commission (FERC) Form 6 is a comprehensive financial and operating report submitted for oil pipelines rate regulation and financial audits. Archived from <a href=\"https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-66-q-overview-orders\">https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-66-q-overview-orders</a></p>\n\n<p>This archive contains raw input data for the Public Utility Data Liberation (PUDL) software developed by <a href=\"https://catalyst.coop\">Catalyst Cooperative</a>. It is organized into <a href=\"https://specs.frictionlessdata.io/data-package/\">Frictionless Data Packages</a>. For additional information about this data and PUDL, see the following resources:</p>\n\n<ul>\n\t<li><a href=\"https://github.com/catalyst-cooperative/pudl\">The PUDL Repository on GitHub</a></li>\n\t<li><a href=\"https://catalystcoop-pudl.readthedocs.io\">PUDL Documentation</a></li>\n\t<li><a href=\"https://zenodo.org/communities/catalyst-cooperative/\">Other Catalyst Cooperative data archives</a></li>\n</ul>\n\n<p>&nbsp;</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Catalyst Cooperative",
-            "affiliation": "Catalyst Cooperative"
-          }
-        ],
-        "keywords": [
-          "accounting",
-          "capex",
-          "capital",
-          "capital expenses",
-          "contract",
-          "cost",
-          "debt",
-          "depreciation",
-          "federal energy regulatory commission",
-          "ferc",
-          "ferc6",
-          "finance",
-          "form 6",
-          "operating expenses",
-          "opex",
-          "ownership",
-          "plant in service",
-          "price",
-          "receipts",
-          "21d71f60-6073-421a-9208-e4d1adfc4ee2"
-        ],
-        "version": "42.0.0",
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "other-pd"
-        },
-        "communities": [
-          {
-            "id": "catalyst-cooperative"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 41,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "7126395"
-              }
-            }
-          ]
-        }
-      },
-      "title": "PUDL Raw FERC Form 6",
-      "links": {
-        "self": "https://zenodo.org/api/records/20474297",
-        "self_html": "https://zenodo.org/records/20474297",
-        "preview_html": "https://zenodo.org/records/20474297?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20474297",
-        "self_doi": "https://doi.org/10.5281/zenodo.20474297",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474297",
-        "reserve_doi": "https://zenodo.org/api/records/20474297/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/7126395",
-        "parent_html": "https://zenodo.org/records/7126395",
-        "parent_doi": "https://doi.org/10.5281/zenodo.7126395",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7126395",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20474297/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20474297/sequence/default",
-        "files": "https://zenodo.org/api/records/20474297/files",
-        "media_files": "https://zenodo.org/api/records/20474297/media-files",
-        "archive": "https://zenodo.org/api/records/20474297/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20474297/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20474297/versions/latest",
-        "latest_html": "https://zenodo.org/records/20474297/latest",
-        "versions": "https://zenodo.org/api/records/20474297/versions",
-        "draft": "https://zenodo.org/api/records/20474297/draft",
-        "access_links": "https://zenodo.org/api/records/20474297/access/links",
-        "access_grants": "https://zenodo.org/api/records/20474297/access/grants",
-        "access_users": "https://zenodo.org/api/records/20474297/access/users",
-        "access_request": "https://zenodo.org/api/records/20474297/access/request",
-        "access": "https://zenodo.org/api/records/20474297/access",
-        "communities": "https://zenodo.org/api/records/20474297/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20474297/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20474297/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20474297/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20474297/quota-increase",
-        "requests": "https://zenodo.org/api/records/20474297/requests"
-      },
-      "updated": "2026-06-01T13:20:26.959050+00:00",
-      "recid": "20474297",
-      "revision": 4,
-      "files": [
-        {
-          "id": "a23cbc7e-5b63-482c-9b48-597d3124cbba",
-          "key": "ferc6-xbrl-2016.zip",
-          "size": 34324,
-          "checksum": "md5:dc41b4375494821fc896432d03e7ea09",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2016.zip/content"
-          }
-        },
-        {
-          "id": "1d62ed67-4b90-4872-b55e-6d62fd17df79",
-          "key": "ferc6-xbrl-2015.zip",
-          "size": 35406,
-          "checksum": "md5:e623f42cce71b86589e65fc81db8e795",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2015.zip/content"
-          }
-        },
-        {
-          "id": "a648113d-4d71-46d9-9e7a-ba082fc81973",
-          "key": "ferc6-xbrl-2014.zip",
-          "size": 35056,
-          "checksum": "md5:c79272318d28a445ace1042113dbbef1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2014.zip/content"
-          }
-        },
-        {
-          "id": "d75bc8e7-ed87-4501-9ebf-4355544bc535",
-          "key": "ferc6-2016.zip",
-          "size": 6489049,
-          "checksum": "md5:441be8e3808adcbd262618fd1a4c6ecf",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2016.zip/content"
-          }
-        },
-        {
-          "id": "723d972f-12fa-4917-a229-dcb2f9936d8c",
-          "key": "ferc6-2006.zip",
-          "size": 4529035,
-          "checksum": "md5:51d67fe68329813be99ab18d1f517ff0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2006.zip/content"
-          }
-        },
-        {
-          "id": "8318f4bb-dc78-4ad5-a1ae-6bdcb4793299",
-          "key": "ferc6-2017.zip",
-          "size": 7479081,
-          "checksum": "md5:176763d5243f3c945ba4931632c93487",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2017.zip/content"
-          }
-        },
-        {
-          "id": "f76ce4c6-0440-407d-8298-042136324040",
-          "key": "ferc6-2009.zip",
-          "size": 7482947,
-          "checksum": "md5:dc1913b79da2469a86ca7c0197d94e12",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2009.zip/content"
-          }
-        },
-        {
-          "id": "ad819064-56ae-4596-84eb-dd73a6fb4eb5",
-          "key": "ferc6-2002.zip",
-          "size": 2332082,
-          "checksum": "md5:7ae2d85cd700e61ce10d64a51310e5fe",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2002.zip/content"
-          }
-        },
-        {
-          "id": "e70eabb4-0cbe-4dc1-b95c-f7fef992cab1",
-          "key": "ferc6-xbrl-2018.zip",
-          "size": 101317,
-          "checksum": "md5:4eb00bfd0e037bf08e0bbe30f0ed2ad5",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2018.zip/content"
-          }
-        },
-        {
-          "id": "0cde19ac-9e3d-4664-bec6-0f347e99add6",
-          "key": "ferc6-xbrl-2017.zip",
-          "size": 35525,
-          "checksum": "md5:584a82356f0a1fa71957025dea39372b",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2017.zip/content"
-          }
-        },
-        {
-          "id": "2774721b-5021-4517-a5a7-56f97718e62d",
-          "key": "ferc6-xbrl-2020.zip",
-          "size": 2586221,
-          "checksum": "md5:56297dd975d936c88173685e853fb30e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2020.zip/content"
-          }
-        },
-        {
-          "id": "af267617-6e5e-4a84-9d7b-ece270ec36a2",
-          "key": "ferc6-xbrl-2021.zip",
-          "size": 11066202,
-          "checksum": "md5:02df3124f3e1ebf0fb8ef94c2915cac4",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2021.zip/content"
-          }
-        },
-        {
-          "id": "571c6dbc-ba24-409a-b88d-9cd251424c1f",
-          "key": "ferc6-xbrl-2022.zip",
-          "size": 11019138,
-          "checksum": "md5:fdea00f7c7169b6f69e108d7d61c81bf",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2022.zip/content"
-          }
-        },
-        {
-          "id": "6a06e120-9aa8-44f0-b315-983d8967ef46",
-          "key": "ferc6-xbrl-2019.zip",
-          "size": 135741,
-          "checksum": "md5:8c7d7050fd4978eae86617ee9abc79ca",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2019.zip/content"
-          }
-        },
-        {
-          "id": "c4bba55a-93d5-4187-ac08-3c55bd8d2e4d",
-          "key": "ferc6-xbrl-2023.zip",
-          "size": 10246406,
-          "checksum": "md5:387c289f687b5a94f0e3810e60a44925",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2023.zip/content"
-          }
-        },
-        {
-          "id": "5e0f1b74-9491-4fcd-aa98-ffc5ee701485",
-          "key": "ferc6-xbrl-2024.zip",
-          "size": 11346360,
-          "checksum": "md5:455e709f547eb03fe7af34cdff6ea990",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2024.zip/content"
-          }
-        },
-        {
-          "id": "178ba526-4f1b-4d70-9ceb-54796de12927",
-          "key": "ferc6-xbrl-2025.zip",
-          "size": 9919699,
-          "checksum": "md5:69ddc25e6e8c62c094c7abd20d0df7ce",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-2025.zip/content"
-          }
-        },
-        {
-          "id": "cdedbde2-a236-4d4d-8de1-669cd40998ce",
-          "key": "ferc6-xbrl-taxonomies.zip",
-          "size": 3460402,
-          "checksum": "md5:405f57133de268e2ddfd99004942f479",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-xbrl-taxonomies.zip/content"
-          }
-        },
-        {
-          "id": "2ea24544-e37d-426e-9102-fa23e7801c8c",
-          "key": "datapackage.json",
-          "size": 22437,
-          "checksum": "md5:e00b88eca7828f014d3029494f4d23f0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/datapackage.json/content"
-          }
-        },
-        {
-          "id": "b5fc4b3f-a81b-4f4b-94eb-2a72149e1e3c",
-          "key": "ferc6-2014.zip",
-          "size": 7157829,
-          "checksum": "md5:def360a346069b2337b628f5f842acde",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2014.zip/content"
-          }
-        },
-        {
-          "id": "948aed52-459a-47ac-9c5b-646cf375c9c8",
-          "key": "ferc6-2003.zip",
-          "size": 2278207,
-          "checksum": "md5:8c28f3dc8c24f255f491ec003d5ebd14",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2003.zip/content"
-          }
-        },
-        {
-          "id": "2d2a020d-2110-4730-88ac-db8792d62181",
-          "key": "ferc6-2010.zip",
-          "size": 8334023,
-          "checksum": "md5:6e11d8bc6172834b603ba69e03a03aa8",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2010.zip/content"
-          }
-        },
-        {
-          "id": "887cdcec-3c00-482e-875d-718385cfee7d",
-          "key": "ferc6-2000.zip",
-          "size": 2132139,
-          "checksum": "md5:9c36dcac93995baba5fe14c2b1733ec8",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2000.zip/content"
-          }
-        },
-        {
-          "id": "90440f3e-0492-4259-9e68-e4758ef0df53",
-          "key": "ferc6-2001.zip",
-          "size": 2131997,
-          "checksum": "md5:a16e5826f89d3ded3adea92f0b3c9ba2",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2001.zip/content"
-          }
-        },
-        {
-          "id": "6ccbe178-81f6-4688-adf3-749427fd30d2",
-          "key": "ferc6-2015.zip",
-          "size": 6369487,
-          "checksum": "md5:25c595e0e823f979075855be1df95b82",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2015.zip/content"
-          }
-        },
-        {
-          "id": "dc9ac23f-4212-463c-9a0d-dd756e3f656a",
-          "key": "ferc6-2008.zip",
-          "size": 4996001,
-          "checksum": "md5:15d6df246e17cfee585e7f6ea176f2d8",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2008.zip/content"
-          }
-        },
-        {
-          "id": "850b2b40-104e-4637-b9b9-88c2f623dafb",
-          "key": "ferc6-2018.zip",
-          "size": 7265931,
-          "checksum": "md5:985728e8e8201abcd72161a7042af574",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2018.zip/content"
-          }
-        },
-        {
-          "id": "a9c30ef9-5314-4ae2-9bf2-479d0b0250a7",
-          "key": "ferc6-2004.zip",
-          "size": 3743553,
-          "checksum": "md5:5a40416316a62b6cd7e7edd29a0ae613",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2004.zip/content"
-          }
-        },
-        {
-          "id": "d740a5b4-e893-47d9-8cc8-16f4f6155240",
-          "key": "ferc6-2021.zip",
-          "size": 2681882,
-          "checksum": "md5:7d39581c89df4a62ebec5481644013a7",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2021.zip/content"
-          }
-        },
-        {
-          "id": "a07d7823-0b8f-428c-b303-2b9cd056852d",
-          "key": "ferc6-2005.zip",
-          "size": 3793146,
-          "checksum": "md5:9c131c2005da564d66306e44660a7b24",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2005.zip/content"
-          }
-        },
-        {
-          "id": "91bb9a04-1fe3-4983-8c47-96aad0ad1507",
-          "key": "ferc6-2019.zip",
-          "size": 7058079,
-          "checksum": "md5:552192f818236194661a1de695431d0f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2019.zip/content"
-          }
-        },
-        {
-          "id": "6d48d8b2-0b61-428b-b7d0-0aaad2421355",
-          "key": "ferc6-2007.zip",
-          "size": 5024147,
-          "checksum": "md5:9eab4a3e14a5c858d643d7a362948f99",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2007.zip/content"
-          }
-        },
-        {
-          "id": "138cab06-9054-4e54-87f0-0a49c574e643",
-          "key": "ferc6-2012.zip",
-          "size": 8320181,
-          "checksum": "md5:6638858cdf079f4e5ae46470ef183a6e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2012.zip/content"
-          }
-        },
-        {
-          "id": "898b1c7a-d7f7-419e-9967-02bdc56e73ca",
-          "key": "ferc6-2013.zip",
-          "size": 8821669,
-          "checksum": "md5:4716eed8b3cb1d479e746fbf63edddae",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2013.zip/content"
-          }
-        },
-        {
-          "id": "c372ab98-c3f8-49f0-9346-03a83dccbb89",
-          "key": "ferc6-2020.zip",
-          "size": 7811744,
-          "checksum": "md5:35b63993fe73385d2d5df7a63f0c7989",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2020.zip/content"
-          }
-        },
-        {
-          "id": "59ce7dcc-55cd-4396-9a74-b02702f7b4c8",
-          "key": "ferc6-2011.zip",
-          "size": 8401356,
-          "checksum": "md5:21da32a0bf72a151344294c8e21f6a32",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474297/files/ferc6-2011.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "90379"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 37547,
-        "unique_downloads": 37131,
-        "views": 3158,
-        "unique_views": 3076,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T13:20:22.703767+00:00",
-      "modified": "2026-06-01T13:20:23.886966+00:00",
-      "id": 20474290,
-      "conceptrecid": "4127043",
-      "doi": "10.5281/zenodo.20474290",
-      "conceptdoi": "10.5281/zenodo.4127043",
-      "doi_url": "https://doi.org/10.5281/zenodo.20474290",
-      "metadata": {
-        "title": "PUDL Raw FERC Form 1",
-        "doi": "10.5281/zenodo.20474290",
-        "publication_date": "2026-06-01",
-        "description": "<p>Raw Federal Energy Regulatory Commission (FERC) Form 1 data, archived from <a href=\"https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-1-electric-utility-annual\">https://www.ferc.gov/industries-data/electric/general-information/electric-industry-forms/form-1-electric-utility-annual</a></p>\n\n<p>This archive contains raw input data for the Public Utility Data Liberation (PUDL) software developed by <a href=\"https://catalyst.coop\">Catalyst Cooperative</a>. It is organized into <a href=\"https://specs.frictionlessdata.io/data-package/\">Frictionless Data Packages</a>. For additional information about this data and PUDL, see the following resources:</p>\n\n<ul>\n\t<li><a href=\"https://github.com/catalyst-cooperative/pudl\">The PUDL Repository on GitHub</a></li>\n\t<li><a href=\"https://readthedocs.org/projects/catalystcoop-pudl/\">PUDL Documentation</a></li>\n\t<li><a href=\"https://zenodo.org/communities/catalyst-cooperative/\">Other Catalyst Cooperative data archives</a></li>\n</ul>\n\n<p>&nbsp;</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Gosnell, Christina",
-            "affiliation": "Catalyst Cooperative"
+            "name": "Lange, Christoph",
+            "affiliation": "RWTH Aachen University, Computer Science i5; Fraunhofer FIT, Sankt Augustin",
+            "orcid": "0000-0001-9879-3827"
           },
           {
-            "name": "Selvans, Zane",
-            "affiliation": "Catalyst Cooperative"
+            "name": "Holzheim, Tim",
+            "affiliation": "RWTH Aachen University, Computer Science i5",
+            "orcid": "0000-0003-2533-6363"
+          },
+          {
+            "name": "Decker, Stefan",
+            "affiliation": "RWTH Aachen University, Computer Science i5; Fraunhofer FIT, Sankt Augustin",
+            "orcid": "0000-0001-6324-7164"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Fahl, Wolfgang",
+            "affiliation": "BITPlan GmbH",
+            "type": "Researcher",
+            "orcid": "0000-0002-0821-6995"
+          },
+          {
+            "name": "Holzheim, Tim",
+            "affiliation": "RWTH Aachen University",
+            "type": "Researcher",
+            "orcid": "0000-0003-2533-6363"
+          },
+          {
+            "name": "Lange, Christoph",
+            "affiliation": "Fraunhofer Institute for Applied Information Technology",
+            "type": "Researcher",
+            "orcid": "0000-0001-9879-3827"
+          },
+          {
+            "name": "Decker, Stefan",
+            "affiliation": "Fraunhofer Institute for Surface Engineering and Thin Films",
+            "type": "Researcher",
+            "orcid": "0000-0001-6324-7164"
           }
         ],
         "keywords": [
-          "electricity",
-          "electric",
-          "utility",
-          "plant",
-          "steam",
-          "generation",
-          "cost",
-          "expense",
-          "price",
-          "heat content",
-          "ferc",
-          "form 1",
-          "federal energy regulatory commission",
-          "capital",
-          "accounting",
-          "depreciation",
-          "finance",
-          "plant in service",
-          "hydro",
-          "coal",
-          "natural gas",
-          "gas",
-          "opex",
-          "capex",
-          "accounts",
-          "investment",
-          "capacity",
-          "usa",
-          "d3d91c87-c595-49d5-a7f3-e5f5669c8306"
+          "SPARQL",
+          "Query Rot",
+          "Query Set",
+          "Knowledge Graph Management",
+          "Benchmarking",
+          "Refactoring",
+          "Snapquery",
+          "Middleware"
         ],
-        "version": "51.0.0",
+        "version": "2",
         "language": "eng",
         "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
         },
         "license": {
-          "id": "other-pd"
+          "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "catalyst-cooperative"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 50,
+              "index": 2,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "4127043"
+                "pid_value": "17811441"
               }
             }
           ]
         }
       },
-      "title": "PUDL Raw FERC Form 1",
+      "title": "Snapquery: FAIR Management of Query Sets to Mitigate Query Rot in Knowledge Graphs",
       "links": {
-        "self": "https://zenodo.org/api/records/20474290",
-        "self_html": "https://zenodo.org/records/20474290",
-        "preview_html": "https://zenodo.org/records/20474290?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20474290",
-        "self_doi": "https://doi.org/10.5281/zenodo.20474290",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474290",
-        "reserve_doi": "https://zenodo.org/api/records/20474290/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/4127043",
-        "parent_html": "https://zenodo.org/records/4127043",
-        "parent_doi": "https://doi.org/10.5281/zenodo.4127043",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4127043",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20474290/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20474290/sequence/default",
-        "files": "https://zenodo.org/api/records/20474290/files",
-        "media_files": "https://zenodo.org/api/records/20474290/media-files",
-        "archive": "https://zenodo.org/api/records/20474290/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20474290/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20474290/versions/latest",
-        "latest_html": "https://zenodo.org/records/20474290/latest",
-        "versions": "https://zenodo.org/api/records/20474290/versions",
-        "draft": "https://zenodo.org/api/records/20474290/draft",
-        "access_links": "https://zenodo.org/api/records/20474290/access/links",
-        "access_grants": "https://zenodo.org/api/records/20474290/access/grants",
-        "access_users": "https://zenodo.org/api/records/20474290/access/users",
-        "access_request": "https://zenodo.org/api/records/20474290/access/request",
-        "access": "https://zenodo.org/api/records/20474290/access",
-        "communities": "https://zenodo.org/api/records/20474290/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20474290/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20474290/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20474290/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20474290/quota-increase",
-        "requests": "https://zenodo.org/api/records/20474290/requests"
+        "self": "https://zenodo.org/api/records/21737706",
+        "self_html": "https://zenodo.org/records/21737706",
+        "preview_html": "https://zenodo.org/records/21737706?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737706",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737706",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737706",
+        "reserve_doi": "https://zenodo.org/api/records/21737706/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/17811441",
+        "parent_html": "https://zenodo.org/records/17811441",
+        "parent_doi": "https://doi.org/10.5281/zenodo.17811441",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17811441",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737706/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737706/sequence/default",
+        "files": "https://zenodo.org/api/records/21737706/files",
+        "media_files": "https://zenodo.org/api/records/21737706/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21737706:snapquery-preprint.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21737706:snapquery-preprint.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21737706:snapquery-preprint.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21737706:snapquery-preprint.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21737706:snapquery-preprint.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21737706:snapquery-preprint.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21737706/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737706/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737706/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737706/latest",
+        "versions": "https://zenodo.org/api/records/21737706/versions",
+        "draft": "https://zenodo.org/api/records/21737706/draft",
+        "access_links": "https://zenodo.org/api/records/21737706/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737706/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737706/access/users",
+        "access_request": "https://zenodo.org/api/records/21737706/access/request",
+        "access": "https://zenodo.org/api/records/21737706/access",
+        "communities": "https://zenodo.org/api/records/21737706/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737706/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737706/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737706/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737706/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737706/requests"
       },
-      "updated": "2026-06-01T13:20:23.886966+00:00",
-      "recid": "20474290",
+      "updated": "2026-08-01T09:28:45.035238+00:00",
+      "recid": "21737706",
       "revision": 4,
       "files": [
         {
-          "id": "42ceb425-6c89-4a12-9a84-89f8b4f33a0a",
-          "key": "ferc1-2008.zip",
-          "size": 57283630,
-          "checksum": "md5:1c21c29ce97b676b655008131465412a",
+          "id": "51db716a-a043-406a-97b1-bd90efbfc14a",
+          "key": "snapquery-preprint.pdf",
+          "size": 989231,
+          "checksum": "md5:d9b5ba345767d4c2f238b4878beda517",
           "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2008.zip/content"
-          }
-        },
-        {
-          "id": "ee72d55d-ce83-47cf-93b8-40e9c02c5381",
-          "key": "ferc1-1997.zip",
-          "size": 15449642,
-          "checksum": "md5:ec7f179080e07df799883f1013f60a52",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-1997.zip/content"
-          }
-        },
-        {
-          "id": "45827a20-cfba-4d98-a7af-86029c074e8a",
-          "key": "ferc1-1994.zip",
-          "size": 15090677,
-          "checksum": "md5:cf32a4d82d7f9ce18c281de6c2d7a434",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-1994.zip/content"
-          }
-        },
-        {
-          "id": "ad502e7d-494a-4ba5-b09a-6566aaf3e6ed",
-          "key": "ferc1-1995.zip",
-          "size": 14969680,
-          "checksum": "md5:6e1326d40d538d106d69bbcc99551793",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-1995.zip/content"
-          }
-        },
-        {
-          "id": "b6d643ca-0566-4f14-baca-f4004d974959",
-          "key": "ferc1-xbrl-2021.zip",
-          "size": 100333783,
-          "checksum": "md5:256c996da2f286618b99747923f0530e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2021.zip/content"
-          }
-        },
-        {
-          "id": "bc22e335-2c5f-4849-8bdc-f8134c98a5a4",
-          "key": "ferc1-xbrl-2019.zip",
-          "size": 2881374,
-          "checksum": "md5:41b410db6e49d526e027de49f40b8ae2",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2019.zip/content"
-          }
-        },
-        {
-          "id": "e2bf9062-d255-436b-88ec-8e92983017d0",
-          "key": "ferc1-xbrl-2020.zip",
-          "size": 4746218,
-          "checksum": "md5:8adf48a810912c356ade7c0aab0a774e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2020.zip/content"
-          }
-        },
-        {
-          "id": "5e4af3d1-be3c-4c84-9119-46b07a767a8b",
-          "key": "ferc1-xbrl-2025.zip",
-          "size": 58677766,
-          "checksum": "md5:a775da8a821afe6450ac88245cc08913",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2025.zip/content"
-          }
-        },
-        {
-          "id": "8fa41e8f-ed76-4ea6-a759-f9424f6b31c0",
-          "key": "ferc1-xbrl-2015.zip",
-          "size": 249998,
-          "checksum": "md5:1361d4c9e9b9af4f76e7d5024977ccd0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2015.zip/content"
-          }
-        },
-        {
-          "id": "0b2e1307-c429-4b2e-a1fb-f3f4dae0cff2",
-          "key": "ferc1-xbrl-2018.zip",
-          "size": 381106,
-          "checksum": "md5:087e914bbc3a2c8257eea908129c82c9",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2018.zip/content"
-          }
-        },
-        {
-          "id": "8f12203e-e5f5-4a0b-af30-30d998c72f91",
-          "key": "ferc1-xbrl-taxonomies.zip",
-          "size": 5401439,
-          "checksum": "md5:8db122c0ccb43a51b075101991adf111",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-taxonomies.zip/content"
-          }
-        },
-        {
-          "id": "962ce043-3e08-457a-99ba-5fb981a871c3",
-          "key": "ferc1-xbrl-2016.zip",
-          "size": 250778,
-          "checksum": "md5:9321b856784f89a3e89906affe6c3396",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2016.zip/content"
-          }
-        },
-        {
-          "id": "d56a6538-6f98-4ade-8f15-0385dd378203",
-          "key": "datapackage.json",
-          "size": 26460,
-          "checksum": "md5:d2583b2b4c8343b88c16f9fc2dad8698",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/datapackage.json/content"
-          }
-        },
-        {
-          "id": "c8d86604-8d89-448a-909c-84f94b36451a",
-          "key": "ferc1-xbrl-2022.zip",
-          "size": 94716866,
-          "checksum": "md5:008fafd9cbef823cf240aa38f6a76ce0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2022.zip/content"
-          }
-        },
-        {
-          "id": "afc9dcb2-2278-4434-b8f8-9c983bc87ec3",
-          "key": "ferc1-xbrl-2017.zip",
-          "size": 263796,
-          "checksum": "md5:87574223ca0dc40b2352441c2b8ab1f1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2017.zip/content"
-          }
-        },
-        {
-          "id": "23759a36-208b-470e-b788-98727e3d8eda",
-          "key": "ferc1-xbrl-2014.zip",
-          "size": 249769,
-          "checksum": "md5:875b17c475dcf9f9ad05e093a1aea161",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2014.zip/content"
-          }
-        },
-        {
-          "id": "3b464fd4-b537-45be-ab7f-f9fcbec857c2",
-          "key": "ferc1-xbrl-2023.zip",
-          "size": 58310488,
-          "checksum": "md5:40209694bf6ef2d9ef6501bdf9ff168f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2023.zip/content"
-          }
-        },
-        {
-          "id": "5ff8f8c5-2b9f-4073-802d-d409aa4b7937",
-          "key": "ferc1-xbrl-2024.zip",
-          "size": 57711451,
-          "checksum": "md5:7cbf7ee86983d732c8e084cf17b15719",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-xbrl-2024.zip/content"
-          }
-        },
-        {
-          "id": "25154111-9e40-4deb-a747-f2aa0a4a7182",
-          "key": "ferc1-2014.zip",
-          "size": 101194112,
-          "checksum": "md5:d6a9f48b003edb531a1583d44ca0aaa0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2014.zip/content"
-          }
-        },
-        {
-          "id": "194c3a07-4175-4616-ad69-f80c8f2e9afa",
-          "key": "ferc1-2007.zip",
-          "size": 46636188,
-          "checksum": "md5:73a87387b15ad542172966c2bf556a14",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2007.zip/content"
-          }
-        },
-        {
-          "id": "17baad22-45fa-4f04-8aa9-e93c585ca967",
-          "key": "ferc1-2002.zip",
-          "size": 22744717,
-          "checksum": "md5:d9a57891cd1f35ea26f9337b7d3c623c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2002.zip/content"
-          }
-        },
-        {
-          "id": "8f9937d4-d74f-49b8-b07a-bbf96596b5c5",
-          "key": "ferc1-2001.zip",
-          "size": 22961862,
-          "checksum": "md5:fd2c06532efdd0350012b0818e5c2a1e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2001.zip/content"
-          }
-        },
-        {
-          "id": "83d04882-968c-4c26-b1df-5541d08e2052",
-          "key": "ferc1-1998.zip",
-          "size": 16704222,
-          "checksum": "md5:c4ecabca1ac0b3f6f7775cb3514c83df",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-1998.zip/content"
-          }
-        },
-        {
-          "id": "c2a3d30c-70f0-4238-b75f-cbc3d7118fd1",
-          "key": "ferc1-2011.zip",
-          "size": 113239920,
-          "checksum": "md5:97edde1238cff2a7f467ea392df3c958",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2011.zip/content"
-          }
-        },
-        {
-          "id": "35559f2d-2ae7-4284-8742-9a4fb56406f5",
-          "key": "ferc1-2020.zip",
-          "size": 98134361,
-          "checksum": "md5:00fd3023ace303be47d9fbad61e58cec",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2020.zip/content"
-          }
-        },
-        {
-          "id": "340cbe0e-3b8f-48e0-822e-8c6be793c8aa",
-          "key": "ferc1-1999.zip",
-          "size": 20987986,
-          "checksum": "md5:6fac466d737a6f36d04e0b57a639602b",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-1999.zip/content"
-          }
-        },
-        {
-          "id": "1e440695-c27a-4c0c-bc2c-defd337108a2",
-          "key": "ferc1-1996.zip",
-          "size": 15460160,
-          "checksum": "md5:0686c34144f9fac1d81af27973c24201",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-1996.zip/content"
-          }
-        },
-        {
-          "id": "60b3b344-a0ef-4168-abe0-b64ef1ba629b",
-          "key": "ferc1-2000.zip",
-          "size": 23269556,
-          "checksum": "md5:d7292a7175af8c08b12594e21de3af1f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2000.zip/content"
-          }
-        },
-        {
-          "id": "9bd7883f-9efe-4062-af0f-47bdaf6280fc",
-          "key": "ferc1-2017.zip",
-          "size": 109415262,
-          "checksum": "md5:50d74758db83c8d8b59a2c8e18c283f4",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2017.zip/content"
-          }
-        },
-        {
-          "id": "c1859444-171b-4165-9c25-c6cc03135a31",
-          "key": "ferc1-2012.zip",
-          "size": 112731604,
-          "checksum": "md5:48b80850497dbd24ec0df932da6a8ef2",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2012.zip/content"
-          }
-        },
-        {
-          "id": "8b333e14-016a-4685-ac87-bd0f5fd29a9f",
-          "key": "ferc1-2009.zip",
-          "size": 62317874,
-          "checksum": "md5:807318a28db941c9e640ee6a2113a67e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2009.zip/content"
-          }
-        },
-        {
-          "id": "372680b9-3091-43e9-ba87-17731ba33779",
-          "key": "ferc1-2004.zip",
-          "size": 44377773,
-          "checksum": "md5:d506185aa7cd7150e11c03e78b9d4ad7",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2004.zip/content"
-          }
-        },
-        {
-          "id": "10088732-3bba-4c8b-b021-e1005609ca5f",
-          "key": "ferc1-2015.zip",
-          "size": 97336730,
-          "checksum": "md5:0b70a01f4ea9385f8a486c2e47a5f640",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2015.zip/content"
-          }
-        },
-        {
-          "id": "aa5ed33e-183b-46eb-b252-72000384a36f",
-          "key": "ferc1-2018.zip",
-          "size": 137445419,
-          "checksum": "md5:5129c23762060ab3bee6aa7e5109c179",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2018.zip/content"
-          }
-        },
-        {
-          "id": "fdd63502-0492-42c2-b5bb-5f86c067a56d",
-          "key": "ferc1-2010.zip",
-          "size": 87170566,
-          "checksum": "md5:2e8f431bc056a81c8ae79a0be44c519c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2010.zip/content"
-          }
-        },
-        {
-          "id": "7677bf4f-ea0a-4506-a736-d54189b05aa3",
-          "key": "ferc1-2006.zip",
-          "size": 47407898,
-          "checksum": "md5:b9cbd6c5e0f5973737a86bb8029f76c1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2006.zip/content"
-          }
-        },
-        {
-          "id": "b1663322-2e53-4d08-aff7-57024b5d0fe6",
-          "key": "ferc1-2016.zip",
-          "size": 109979281,
-          "checksum": "md5:947dd1c3a8afee45e82880c3da9a09d8",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2016.zip/content"
-          }
-        },
-        {
-          "id": "5aad590a-baf7-46de-8165-58f1a2985121",
-          "key": "ferc1-2003.zip",
-          "size": 24867946,
-          "checksum": "md5:d1569550ac0d5830b1b9f87abe130b6d",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2003.zip/content"
-          }
-        },
-        {
-          "id": "10d70b04-75dc-4513-b561-4d9ecfd923e6",
-          "key": "ferc1-2013.zip",
-          "size": 128797149,
-          "checksum": "md5:ccfef2ee520b77cfff19972ee549d3f3",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2013.zip/content"
-          }
-        },
-        {
-          "id": "3d9069d5-0f21-4043-9d62-36dea7725a33",
-          "key": "ferc1-2019.zip",
-          "size": 114506513,
-          "checksum": "md5:b7d3cc00e7c9894406a68d6669ae5d6d",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2019.zip/content"
-          }
-        },
-        {
-          "id": "4d6329c7-15fc-4570-be5c-e6528a69e5e1",
-          "key": "ferc1-2021.zip",
-          "size": 31021850,
-          "checksum": "md5:ce4fdeb21ab275feca4b744c98ff5929",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2021.zip/content"
-          }
-        },
-        {
-          "id": "bbed823e-b3dc-4869-923e-6a099d69d909",
-          "key": "ferc1-2005.zip",
-          "size": 40947131,
-          "checksum": "md5:3122e77806b1a1fb2c8af8d404457fd7",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474290/files/ferc1-2005.zip/content"
+            "self": "https://zenodo.org/api/records/21737706/files/snapquery-preprint.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "90379"
+          "id": "352886"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 66810,
-        "unique_downloads": 64971,
-        "views": 5816,
-        "unique_views": 5559,
+        "downloads": 30,
+        "unique_downloads": 27,
+        "views": 40,
+        "unique_views": 38,
         "version_downloads": 0,
         "version_unique_downloads": 0,
         "version_unique_views": 0,
@@ -2327,229 +594,140 @@
       "submitted": true
     },
     {
-      "created": "2026-06-01T13:19:58.731589+00:00",
-      "modified": "2026-06-01T13:19:59.224876+00:00",
-      "id": 20474298,
-      "conceptrecid": "14783043",
-      "doi": "10.5281/zenodo.20474298",
-      "conceptdoi": "10.5281/zenodo.14783043",
-      "doi_url": "https://doi.org/10.5281/zenodo.20474298",
+      "created": "2026-08-01T09:22:49.638374+00:00",
+      "modified": "2026-08-01T09:22:49.917236+00:00",
+      "id": 21737617,
+      "conceptrecid": "21737616",
+      "doi": "10.5281/zenodo.21737617",
+      "conceptdoi": "10.5281/zenodo.21737616",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737617",
       "metadata": {
-        "title": "EPA MATS -- Mercury and Air Toxics Standards",
-        "doi": "10.5281/zenodo.20474298",
-        "publication_date": "2026-06-01",
-        "description": "<p>The EPA Mercury and Air Toxics Standards (MATS) dataset provides detailed information on emissions of hazardous air pollutants, specifically mercury and other toxic substances, from power plants in the United States. Established by the U.S. Environmental Protection Agency (EPA) under the Clean Air Act, MATS aims to reduce air pollution and its associated health risks by setting limits on the emissions of mercury, arsenic, acid gases, and other pollutants from coal- and oil-fired power plants. The dataset typically includes metrics such as emission levels, compliance testing results, facility locations, and operational data. It serves as a critical resource for policymakers, researchers, and environmental organizations to assess the effectiveness of pollution control measures, monitor compliance, and evaluate the environmental and public health impacts of power plant emissions. Archived from \n<a href=\"https://www.epa.gov/stationary-sources-air-pollution/mercury-and-air-toxics-standards\">https://www.epa.gov/stationary-sources-air-pollution/mercury-and-air-toxics-standards</a></p>\n<p>This archive contains raw input data for the Public Utility Data Liberation (PUDL)\nsoftware developed by <a href=\"https://catalyst.coop\">Catalyst Cooperative</a>. It is\norganized into <a href=\"https://specs.frictionlessdata.io/data-package/\">Frictionless\nData Packages</a>. For additional information about this data and PUDL, see the\nfollowing resources:\n</p><ul>\n  <li><a href=\"https://github.com/catalyst-cooperative/pudl\">The PUDL Repository on GitHub</a></li>\n  <li><a href=\"https://catalystcoop-pudl.readthedocs.io\">PUDL Documentation</a></li>\n  <li><a href=\"https://zenodo.org/communities/catalyst-cooperative/\">Other Catalyst Cooperative data archives</a></li>\n</ul>\n<p></p>",
+        "title": "IN VIVO EVALUATION OF THE WOUND-HEALING POTENTIAL OF NANOZINC GEL CONTAINING ZINC OXIDE NANOPARTICLES",
+        "doi": "10.5281/zenodo.21737617",
+        "publication_date": "2026-04-05",
+        "description": "<p class=\"Kalitsoz\"><span>The development of topical formulations containing zinc oxide nanoparticles has attracted considerable attention because of their antimicrobial, anti-inflammatory, and regenerative properties. The present study aimed to evaluate the wound-healing efficacy of NanoZinc gel in an in vivo excisional wound model. </span><span>The study was performed using fifteen healthy white mice randomly divided into control and treatment groups. Full-thickness excisional skin wounds (1 cm in diameter) were created under aseptic conditions. Animals in the treatment group received topical NanoZinc gel (0.02%, 2 mg/kg), whereas the control group was treated with sunflower oil. Wound healing was monitored for 14 days by measuring wound area using ImageJ software. Statistical analysis was performed using one-way ANOVA with GraphPad Prism 8.0 (p &lt; 0.05). </span><span>NanoZinc gel significantly accelerated wound contraction compared with the control group. Faster epithelialization and granulation tissue formation were observed from day 5 onward, with almost complete wound closure by day 9. No signs of skin irritation or local toxicity were detected.&nbsp;The obtained findings indicate that NanoZinc gel possesses pronounced wound-healing activity and represents a promising topical formulation for further preclinical and clinical investigations</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Catalyst Cooperative",
-            "affiliation": "Catalyst Cooperative"
+            "name": "Maksudova, Firuza",
+            "affiliation": null
+          },
+          {
+            "name": "Shermatova, Iroda",
+            "affiliation": null
+          },
+          {
+            "name": "Rakhimberganova, Zilola",
+            "affiliation": null
+          },
+          {
+            "name": "Bakhtiyorova, Ziyodakhon",
+            "affiliation": null
+          },
+          {
+            "name": "Alimdjanova, Lola",
+            "affiliation": null
+          },
+          {
+            "name": "Shamsutdinova, Madina",
+            "affiliation": null
           }
         ],
-        "keywords": [
-          "air",
-          "environment",
-          "epa",
-          "mercury",
-          "standards",
-          "toxics"
-        ],
-        "version": "33.0.0",
-        "language": "eng",
         "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "title": "Publication",
+          "type": "publication"
+        },
+        "journal": {
+          "issue": "4",
+          "pages": "18-22",
+          "title": "EURASIAN JOURNAL OF ACADEMIC RESEARCH",
+          "volume": "6"
         },
         "license": {
-          "id": "other-pd"
+          "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "catalyst-cooperative"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 32,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "14783043"
+                "pid_value": "21737616"
               }
             }
           ]
         }
       },
-      "title": "EPA MATS -- Mercury and Air Toxics Standards",
+      "title": "IN VIVO EVALUATION OF THE WOUND-HEALING POTENTIAL OF NANOZINC GEL CONTAINING ZINC OXIDE NANOPARTICLES",
       "links": {
-        "self": "https://zenodo.org/api/records/20474298",
-        "self_html": "https://zenodo.org/records/20474298",
-        "preview_html": "https://zenodo.org/records/20474298?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20474298",
-        "self_doi": "https://doi.org/10.5281/zenodo.20474298",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20474298",
-        "reserve_doi": "https://zenodo.org/api/records/20474298/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/14783043",
-        "parent_html": "https://zenodo.org/records/14783043",
-        "parent_doi": "https://doi.org/10.5281/zenodo.14783043",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14783043",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20474298/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20474298/sequence/default",
-        "files": "https://zenodo.org/api/records/20474298/files",
-        "media_files": "https://zenodo.org/api/records/20474298/media-files",
-        "archive": "https://zenodo.org/api/records/20474298/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20474298/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20474298/versions/latest",
-        "latest_html": "https://zenodo.org/records/20474298/latest",
-        "versions": "https://zenodo.org/api/records/20474298/versions",
-        "draft": "https://zenodo.org/api/records/20474298/draft",
-        "access_links": "https://zenodo.org/api/records/20474298/access/links",
-        "access_grants": "https://zenodo.org/api/records/20474298/access/grants",
-        "access_users": "https://zenodo.org/api/records/20474298/access/users",
-        "access_request": "https://zenodo.org/api/records/20474298/access/request",
-        "access": "https://zenodo.org/api/records/20474298/access",
-        "communities": "https://zenodo.org/api/records/20474298/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20474298/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20474298/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20474298/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20474298/quota-increase",
-        "requests": "https://zenodo.org/api/records/20474298/requests"
+        "self": "https://zenodo.org/api/records/21737617",
+        "self_html": "https://zenodo.org/records/21737617",
+        "preview_html": "https://zenodo.org/records/21737617?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737617",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737617",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737617",
+        "reserve_doi": "https://zenodo.org/api/records/21737617/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21737616",
+        "parent_html": "https://zenodo.org/records/21737616",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21737616",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737616",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737617/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737617/sequence/default",
+        "files": "https://zenodo.org/api/records/21737617/files",
+        "media_files": "https://zenodo.org/api/records/21737617/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21737617:EJAR%200403.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21737617:EJAR%200403.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21737617:EJAR%200403.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21737617:EJAR%200403.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21737617:EJAR%200403.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21737617:EJAR%200403.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21737617/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737617/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737617/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737617/latest",
+        "versions": "https://zenodo.org/api/records/21737617/versions",
+        "draft": "https://zenodo.org/api/records/21737617/draft",
+        "access_links": "https://zenodo.org/api/records/21737617/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737617/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737617/access/users",
+        "access_request": "https://zenodo.org/api/records/21737617/access/request",
+        "access": "https://zenodo.org/api/records/21737617/access",
+        "communities": "https://zenodo.org/api/records/21737617/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737617/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737617/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737617/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737617/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737617/requests"
       },
-      "updated": "2026-06-01T13:19:59.224876+00:00",
-      "recid": "20474298",
+      "updated": "2026-08-01T09:22:49.917236+00:00",
+      "recid": "21737617",
       "revision": 4,
       "files": [
         {
-          "id": "81bd3c02-ceac-45cd-a914-864afda3f9f4",
-          "key": "epamats-2015.zip",
-          "size": 24755150,
-          "checksum": "md5:7b50ff161b042b232549fc6b36a7f536",
+          "id": "c2ae1d0e-90f3-4a16-aff7-6ffdb139c6f5",
+          "key": "EJAR 0403.pdf",
+          "size": 497340,
+          "checksum": "md5:e6146cd08a226cce9c6a53ea34c17186",
           "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2015.zip/content"
-          }
-        },
-        {
-          "id": "bc4e2a05-fc22-4389-86aa-837f29861cec",
-          "key": "epamats-2023.zip",
-          "size": 44553909,
-          "checksum": "md5:c6f14a58ac7f635cbafdc390d96c39bb",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2023.zip/content"
-          }
-        },
-        {
-          "id": "ee8f4184-7284-40dc-bb5f-5172769a9e8c",
-          "key": "epamats-2025.zip",
-          "size": 41796637,
-          "checksum": "md5:ca4676cb3d7ca6acee2525494e27cb11",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2025.zip/content"
-          }
-        },
-        {
-          "id": "5abe7334-170d-4955-a775-b91e4ddaeb3b",
-          "key": "epamats-2021.zip",
-          "size": 52280564,
-          "checksum": "md5:41106f9092e1112aef3aeff2a6654581",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2021.zip/content"
-          }
-        },
-        {
-          "id": "c898ec9e-02d1-4f1c-9b34-e45d99b7d546",
-          "key": "epamats-2024.zip",
-          "size": 42822503,
-          "checksum": "md5:1a1ccb13263681e7be03014951f4640a",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2024.zip/content"
-          }
-        },
-        {
-          "id": "15946905-28bd-4098-b79c-1dabc7e9b971",
-          "key": "epamats-2016.zip",
-          "size": 61635976,
-          "checksum": "md5:2c9111d72b6d61c5029cccb048869014",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2016.zip/content"
-          }
-        },
-        {
-          "id": "8e03658f-9ecc-4f62-8838-60db46637041",
-          "key": "epamats-2026.zip",
-          "size": 9513318,
-          "checksum": "md5:c05f7bbb2db2441767a472fba4bb113a",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2026.zip/content"
-          }
-        },
-        {
-          "id": "6d877bd4-fd92-450a-9329-c76dddf7ba51",
-          "key": "epamats-2017.zip",
-          "size": 70326452,
-          "checksum": "md5:079e844f23c52adadd5820c03a471f13",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2017.zip/content"
-          }
-        },
-        {
-          "id": "a7b97c23-d1b1-4d6d-88e2-94ded5661cd3",
-          "key": "epamats-2019.zip",
-          "size": 59232365,
-          "checksum": "md5:908ac400492374137012b046a88386d9",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2019.zip/content"
-          }
-        },
-        {
-          "id": "7c0004aa-69e5-4770-b71a-2da2ee32169f",
-          "key": "epamats-2022.zip",
-          "size": 50403470,
-          "checksum": "md5:d4f9da42791c8c8656a2cd03c875e3e3",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2022.zip/content"
-          }
-        },
-        {
-          "id": "afc1653e-47cf-44aa-921f-bc9e511a5f20",
-          "key": "epamats-2018.zip",
-          "size": 66110377,
-          "checksum": "md5:6714b27cc5e78b846629ba95c936e434",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2018.zip/content"
-          }
-        },
-        {
-          "id": "a08b0003-540c-4fca-84b9-42fa7303765c",
-          "key": "epamats-2020.zip",
-          "size": 49923367,
-          "checksum": "md5:6684eedaff46f16924deeaef40b72f13",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/epamats-2020.zip/content"
-          }
-        },
-        {
-          "id": "bcc7360b-cc5c-480b-aaa6-145b902a481d",
-          "key": "datapackage.json",
-          "size": 9526,
-          "checksum": "md5:9c985a9172ccd753694021757eb15285",
-          "links": {
-            "self": "https://zenodo.org/api/records/20474298/files/datapackage.json/content"
+            "self": "https://zenodo.org/api/records/21737617/files/EJAR%200403.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "90379"
+          "id": "213214"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 8251,
-        "unique_downloads": 8089,
-        "views": 2658,
-        "unique_views": 2555,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
         "version_downloads": 0,
         "version_unique_downloads": 0,
         "version_unique_views": 0,
@@ -2559,445 +737,762 @@
       "submitted": true
     },
     {
-      "created": "2026-06-01T13:19:51.863896+00:00",
-      "modified": "2026-06-01T13:19:52.758881+00:00",
-      "id": 20380529,
-      "conceptrecid": "10233185",
-      "doi": "10.5281/zenodo.20380529",
-      "conceptdoi": "10.5281/zenodo.10233185",
-      "doi_url": "https://doi.org/10.5281/zenodo.20380529",
+      "created": "2026-08-01T09:07:22.589560+00:00",
+      "modified": "2026-08-01T09:07:22.984849+00:00",
+      "id": 21737449,
+      "conceptrecid": "21737448",
+      "doi": "10.5281/zenodo.21737449",
+      "conceptdoi": "10.5281/zenodo.21737448",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737449",
       "metadata": {
-        "title": "PUDL Raw EPA Hourly Continuous Emission Monitoring System (CEMS)",
-        "doi": "10.5281/zenodo.20380529",
-        "publication_date": "2026-06-01",
-        "description": "<p>US EPA hourly Continuous Emissions Monitoring System (CEMS) data. Hourly CO2, SO2, NOx emissions and gross load. Archived from <a href=\"https://campd.epa.gov/\">https://campd.epa.gov/</a></p><p>This archive contains raw input data for the Public Utility Data Liberation (PUDL) software developed by <a href=\"https://catalyst.coop\">Catalyst Cooperative</a>. It is organized into <a href=\"https://specs.frictionlessdata.io/data-package/\">Frictionless Data Packages</a>. For additional information about this data and PUDL, see the following resources:</p><ul><li><a href=\"https://github.com/catalyst-cooperative/pudl\">The PUDL Repository on GitHub</a></li><li><a href=\"https://catalystcoop-pudl.readthedocs.io\">PUDL Documentation</a></li><li><a href=\"https://zenodo.org/communities/catalyst-cooperative/\">Other Catalyst Cooperative data archives</a></li></ul><p>In order to enable more regular CEMS updates, this dataset replaces a prior PUDL EPA CEMS archive that pulled one annual file for each state. That archive is no longer updated but can be found <a href=\"https://zenodo.org/doi/10.5281/zenodo.4127054\">here</a>.</p>",
+        "title": "Audit Committee Characteristics and Financial Reporting Lag of Quoted Financial Services Firms in Nigeria",
+        "doi": "10.5281/zenodo.21737449",
+        "publication_date": "2026-08-01",
+        "description": "<p class=\"MsoNormal\"><strong><span>Abstract:</span></strong><span> </span><span>A crucial component of corporate accountability and transparency is timely financial reporting, especially in developing nations like Nigeria where institutional frameworks may be inadequate. This study examined the effect of audit committee characteristics on financial reporting lag of quoted financial services firms in Nigeria. The specific objectives of the study are to evaluate the effect of audit committee diligence audit committee size, and audit committee financial expertise on financial reporting lag of quoted financial services firms in Nigeria. The research design adopted by the study is ex-post facto research design and the population constitutes all the forty-five (45) financial services firms quoted on the Nigerian exchange group (NGX group) as at 31st December, 2024. Secondary data were extracted from the audited annual reports of the sampled firms from 2015-2024. The study used random effect regression as the techniques of analysis using STATA 17.0 software. The findings revealed that audit committee diligence has an insignificant positive effect on audit report lag of quoted financial services firms in Nigeria. However, audit committee size and audit committee financial expertise has a significant positive effect on audit report lag of quoted financial services firms in Nigeria. The study recommended that firms should maintain an optimal committee size that promotes efficiency without compromising diversity of expertise. The study further recommended that firms should prioritize the appointment of members with strong accounting, auditing, and financial management knowledge. Financially literate committee members are better equipped to understand complex financial issues and ensure quicker completion of audit processes.</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Catalyst Cooperative",
-            "affiliation": "Catalyst Cooperative"
+            "name": "Idris Ibrahim Kemi",
+            "affiliation": "Department of Accounting, Prince Abubakar Audu University Anyigba, Nigeria"
+          },
+          {
+            "name": "Audu Friday",
+            "affiliation": "Department of Accounting, Prince Abubakar Audu University Anyigba, Nigeria"
+          },
+          {
+            "name": "Elaigwu Moses",
+            "affiliation": "Department of Accounting, Prince Abubakar Audu University Anyigba, Nigeria"
           }
         ],
         "keywords": [
-          "MW",
-          "MWh",
-          "air markets program data",
-          "ampd",
-          "ash",
-          "carbon dioxide",
-          "cems",
-          "chlorine",
-          "co2",
-          "continuous emissions monitoring system",
-          "distribution",
-          "electric",
-          "electricity",
-          "emissions",
-          "energy",
-          "environmental protection agency",
-          "epa",
-          "federal",
-          "generation",
-          "ghg",
-          "government",
-          "hourly",
-          "kW",
-          "kWh",
-          "kilowatt hours",
-          "kilowatts",
-          "megawatt hours",
-          "megawatts",
-          "mercury",
-          "nox",
-          "particulate",
-          "pm2.5",
-          "pollution",
-          "power",
-          "so2",
-          "sox",
-          "sulfur",
-          "transmission",
-          "united states",
-          "us",
-          "usa",
-          "utility"
+          "Audit Committee Characteristics, Audit Report Lag, Financial Services Firms, Market Share Price."
         ],
-        "version": "56.0.0",
-        "language": "eng",
+        "custom": {
+          "code:codeRepository": "https://mrspublisher.com/article/Audit-Committee-Characteristics-and-Financial-Reporting-Lag-of-Quoted-Financial-Services-Firms-in-Nigeria"
+        },
         "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "title": "Journal",
+          "type": "publication",
+          "subtype": "journal"
+        },
+        "journal": {
+          "issue": "8",
+          "pages": "1-11",
+          "title": "MRS Journal of Accounting and Business Management",
+          "volume": "3"
         },
         "license": {
-          "id": "other-pd"
+          "id": "cc-by-4.0"
         },
-        "communities": [
-          {
-            "id": "catalyst-cooperative"
-          }
-        ],
         "relations": {
           "version": [
             {
-              "index": 57,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "10233185"
+                "pid_value": "21737448"
               }
             }
           ]
         }
       },
-      "title": "PUDL Raw EPA Hourly Continuous Emission Monitoring System (CEMS)",
+      "title": "Audit Committee Characteristics and Financial Reporting Lag of Quoted Financial Services Firms in Nigeria",
       "links": {
-        "self": "https://zenodo.org/api/records/20380529",
-        "self_html": "https://zenodo.org/records/20380529",
-        "preview_html": "https://zenodo.org/records/20380529?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20380529",
-        "self_doi": "https://doi.org/10.5281/zenodo.20380529",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20380529",
-        "reserve_doi": "https://zenodo.org/api/records/20380529/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/10233185",
-        "parent_html": "https://zenodo.org/records/10233185",
-        "parent_doi": "https://doi.org/10.5281/zenodo.10233185",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10233185",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20380529/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20380529/sequence/default",
-        "files": "https://zenodo.org/api/records/20380529/files",
-        "media_files": "https://zenodo.org/api/records/20380529/media-files",
-        "archive": "https://zenodo.org/api/records/20380529/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20380529/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20380529/versions/latest",
-        "latest_html": "https://zenodo.org/records/20380529/latest",
-        "versions": "https://zenodo.org/api/records/20380529/versions",
-        "draft": "https://zenodo.org/api/records/20380529/draft",
-        "access_links": "https://zenodo.org/api/records/20380529/access/links",
-        "access_grants": "https://zenodo.org/api/records/20380529/access/grants",
-        "access_users": "https://zenodo.org/api/records/20380529/access/users",
-        "access_request": "https://zenodo.org/api/records/20380529/access/request",
-        "access": "https://zenodo.org/api/records/20380529/access",
-        "communities": "https://zenodo.org/api/records/20380529/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20380529/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20380529/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20380529/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20380529/quota-increase",
-        "requests": "https://zenodo.org/api/records/20380529/requests"
+        "self": "https://zenodo.org/api/records/21737449",
+        "self_html": "https://zenodo.org/records/21737449",
+        "preview_html": "https://zenodo.org/records/21737449?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737449",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737449",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737449",
+        "reserve_doi": "https://zenodo.org/api/records/21737449/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21737448",
+        "parent_html": "https://zenodo.org/records/21737448",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21737448",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737448",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737449/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737449/sequence/default",
+        "files": "https://zenodo.org/api/records/21737449/files",
+        "media_files": "https://zenodo.org/api/records/21737449/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21737449:MRSJABM001322026-galley-proof.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21737449:MRSJABM001322026-galley-proof.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21737449:MRSJABM001322026-galley-proof.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21737449:MRSJABM001322026-galley-proof.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21737449:MRSJABM001322026-galley-proof.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21737449:MRSJABM001322026-galley-proof.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21737449/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737449/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737449/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737449/latest",
+        "versions": "https://zenodo.org/api/records/21737449/versions",
+        "draft": "https://zenodo.org/api/records/21737449/draft",
+        "access_links": "https://zenodo.org/api/records/21737449/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737449/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737449/access/users",
+        "access_request": "https://zenodo.org/api/records/21737449/access/request",
+        "access": "https://zenodo.org/api/records/21737449/access",
+        "communities": "https://zenodo.org/api/records/21737449/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737449/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737449/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737449/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737449/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737449/requests"
       },
-      "updated": "2026-06-01T13:19:52.758881+00:00",
-      "recid": "20380529",
+      "updated": "2026-08-01T09:07:22.984849+00:00",
+      "recid": "21737449",
       "revision": 4,
       "files": [
         {
-          "id": "cf429b47-13c1-444c-b337-cf1e7631cc38",
-          "key": "epacems-2017.zip",
-          "size": 314516372,
-          "checksum": "md5:d36abfa2e1060af02d1a1b2d8e83fd95",
+          "id": "3e584f34-f511-4f79-9935-fcfbc5f7e425",
+          "key": "MRSJABM001322026-galley-proof.pdf",
+          "size": 777757,
+          "checksum": "md5:c1af9314c8842535136f7d86ccdbd14e",
           "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2017.zip/content"
-          }
-        },
-        {
-          "id": "2494e713-0265-41fa-a5d6-22b4b4a2cf21",
-          "key": "epacems-2018.zip",
-          "size": 322269182,
-          "checksum": "md5:868cd3142b502c412eb436edca4804bd",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2018.zip/content"
-          }
-        },
-        {
-          "id": "f18fec15-8627-400d-9779-0a9f34cc7665",
-          "key": "epacems-2020.zip",
-          "size": 295631013,
-          "checksum": "md5:adbf71c07ff7ef4cfd2a96fd025c898f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2020.zip/content"
-          }
-        },
-        {
-          "id": "a54d818b-15af-439d-b841-69c5bc396117",
-          "key": "epacems-2019.zip",
-          "size": 309276725,
-          "checksum": "md5:2921e95bff06970e35b9358a94ec06a1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2019.zip/content"
-          }
-        },
-        {
-          "id": "861c5357-ba54-4d82-aa25-06c1e6ffd02a",
-          "key": "epacems-2023.zip",
-          "size": 291711921,
-          "checksum": "md5:1419551207d1698b02caff78569d16ea",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2023.zip/content"
-          }
-        },
-        {
-          "id": "976a62da-048e-4b84-9738-4598dbc572fb",
-          "key": "epacems-2021.zip",
-          "size": 297913717,
-          "checksum": "md5:f73dbe84e2a66fcf8460a4ede185f449",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2021.zip/content"
-          }
-        },
-        {
-          "id": "7ea2d34d-d9e8-4ebc-8a18-285dc0f002e8",
-          "key": "epacems-2022.zip",
-          "size": 301364285,
-          "checksum": "md5:0079eeaa7b1c98a8019d96e17d3df906",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2022.zip/content"
-          }
-        },
-        {
-          "id": "543db07e-7c5c-49ca-9d5c-955191d4f1da",
-          "key": "epacems-2026.zip",
-          "size": 66358797,
-          "checksum": "md5:791636310fb0900b4701b7c8a68f7896",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2026.zip/content"
-          }
-        },
-        {
-          "id": "5ec59640-c1b4-40de-a752-c5f99fb5d41c",
-          "key": "epacems-2025.zip",
-          "size": 290266781,
-          "checksum": "md5:a62e74dadac17591fecaf8c57d774848",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2025.zip/content"
-          }
-        },
-        {
-          "id": "ae5e14fd-0545-4342-a864-f2ce924d839c",
-          "key": "epacems-2024.zip",
-          "size": 291259091,
-          "checksum": "md5:0efa20a491abfb12d2b2635ea5b83ab5",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2024.zip/content"
-          }
-        },
-        {
-          "id": "6a4336dd-83a5-40b1-a0e3-0c3ddfae1922",
-          "key": "datapackage.json",
-          "size": 22030,
-          "checksum": "md5:c681b2cb74f704254b0bad6c760643aa",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/datapackage.json/content"
-          }
-        },
-        {
-          "id": "e8f018c0-c876-4464-9301-b48ca766459c",
-          "key": "epacems-1996.zip",
-          "size": 75959903,
-          "checksum": "md5:ecadd00fe0b819bbfad04769def4dbc7",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-1996.zip/content"
-          }
-        },
-        {
-          "id": "e5f65953-e87f-4e52-8b07-8cdc53ba694a",
-          "key": "epacems-1995.zip",
-          "size": 78118649,
-          "checksum": "md5:49815517938d68fe596a915518e13c0e",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-1995.zip/content"
-          }
-        },
-        {
-          "id": "27fe5724-7b08-42a0-b9d9-ca715698c35a",
-          "key": "epacems-1997.zip",
-          "size": 288751095,
-          "checksum": "md5:922e787ea549948c021483b39be7e2bd",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-1997.zip/content"
-          }
-        },
-        {
-          "id": "9c9da083-998d-46f3-b969-c3cb84e421f1",
-          "key": "epacems-1998.zip",
-          "size": 300090465,
-          "checksum": "md5:6518a290ce8323af54329987bfd508c1",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-1998.zip/content"
-          }
-        },
-        {
-          "id": "f2626133-02c1-4961-9ad8-f35967a828d4",
-          "key": "epacems-1999.zip",
-          "size": 323094154,
-          "checksum": "md5:17a7637387f4d3bb4e3592f630b92ee5",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-1999.zip/content"
-          }
-        },
-        {
-          "id": "8995bafb-018b-4700-9cca-3a73f9649a49",
-          "key": "epacems-2000.zip",
-          "size": 343250824,
-          "checksum": "md5:2953bb50ab3d2760916c30360eb11cbb",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2000.zip/content"
-          }
-        },
-        {
-          "id": "bebee09d-1fc7-43b9-9b28-753bbefd2752",
-          "key": "epacems-2001.zip",
-          "size": 348386032,
-          "checksum": "md5:41886cd89e091056dc59e8254a6b769b",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2001.zip/content"
-          }
-        },
-        {
-          "id": "2c159173-9341-437e-819d-0dc746354f10",
-          "key": "epacems-2002.zip",
-          "size": 368277289,
-          "checksum": "md5:1f36cc4f903607b9bb9260a27cb27b51",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2002.zip/content"
-          }
-        },
-        {
-          "id": "06e291a4-3d2f-4bf5-9e8e-6b1ff6e21bc4",
-          "key": "epacems-2003.zip",
-          "size": 381861165,
-          "checksum": "md5:fa69bd8407b3348db566664572b32b74",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2003.zip/content"
-          }
-        },
-        {
-          "id": "52c3b46b-43ce-4e52-b12b-d6154916567e",
-          "key": "epacems-2004.zip",
-          "size": 387322800,
-          "checksum": "md5:1aa0c14a0485819e01cde3e9114c1dd3",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2004.zip/content"
-          }
-        },
-        {
-          "id": "5a760438-7b0d-4b2e-b0f5-f5557afbcab4",
-          "key": "epacems-2006.zip",
-          "size": 390228509,
-          "checksum": "md5:152439db48f4aeb208caddbc50030d92",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2006.zip/content"
-          }
-        },
-        {
-          "id": "a2afd730-1247-4848-ac98-4bdfc71c5f24",
-          "key": "epacems-2005.zip",
-          "size": 395248219,
-          "checksum": "md5:ead50e76f04bcacdd3631e3e3a506cd4",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2005.zip/content"
-          }
-        },
-        {
-          "id": "a2ba545f-1cc2-462c-b965-6540ea846b0e",
-          "key": "epacems-2008.zip",
-          "size": 398631596,
-          "checksum": "md5:9efb19aab045805bec1571cd65b3af82",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2008.zip/content"
-          }
-        },
-        {
-          "id": "d0b9e9a1-3b76-4329-a482-568864553b89",
-          "key": "epacems-2009.zip",
-          "size": 372191658,
-          "checksum": "md5:08915d91acf1603ad67c68e66640043d",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2009.zip/content"
-          }
-        },
-        {
-          "id": "da04557d-4178-4b9b-b888-8235a57844f3",
-          "key": "epacems-2010.zip",
-          "size": 388649889,
-          "checksum": "md5:77bc7378a98fd064004f7d4545a791c4",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2010.zip/content"
-          }
-        },
-        {
-          "id": "52c4b312-c561-4a66-86cc-16f399fc6e73",
-          "key": "epacems-2007.zip",
-          "size": 398439061,
-          "checksum": "md5:37f19430705738d93dddce7299d2aa80",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2007.zip/content"
-          }
-        },
-        {
-          "id": "d4d0f7ab-62b5-4623-9308-7cd7b8cb2bf8",
-          "key": "epacems-2012.zip",
-          "size": 366217730,
-          "checksum": "md5:dcfd8ab5a20212b6a938f8ae6e016d8f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2012.zip/content"
-          }
-        },
-        {
-          "id": "75815ef1-766d-4783-97b5-e383c9f1156c",
-          "key": "epacems-2011.zip",
-          "size": 378116286,
-          "checksum": "md5:ce59e50b362ce64a9e848fbf92947ed0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2011.zip/content"
-          }
-        },
-        {
-          "id": "ef4b210e-e71e-4363-bade-bf64ad902cd8",
-          "key": "epacems-2013.zip",
-          "size": 358795381,
-          "checksum": "md5:be16c9d48ff06ea35974575177c0aa9a",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2013.zip/content"
-          }
-        },
-        {
-          "id": "750874ac-670e-4fa1-bd2f-71a2faf4b914",
-          "key": "epacems-2014.zip",
-          "size": 355119357,
-          "checksum": "md5:16552840c318f1147abdd17c2946c051",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2014.zip/content"
-          }
-        },
-        {
-          "id": "b2fee93f-c46c-4184-a685-7c7233bf1bd2",
-          "key": "epacems-2015.zip",
-          "size": 344078045,
-          "checksum": "md5:f1b8ee96f17e4c2d2a9c58e3ab141d06",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2015.zip/content"
-          }
-        },
-        {
-          "id": "b2f39197-c78e-43f9-9045-b98a4ad784de",
-          "key": "epacems-2016.zip",
-          "size": 329783416,
-          "checksum": "md5:bedf3f336515fdc3cd352e749e3d436f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20380529/files/epacems-2016.zip/content"
+            "self": "https://zenodo.org/api/records/21737449/files/MRSJABM001322026-galley-proof.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "90379"
+          "id": "1261294"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 71721,
-        "unique_downloads": 70134,
-        "views": 5406,
-        "unique_views": 5219,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T09:01:59.287897+00:00",
+      "modified": "2026-08-01T10:29:29.039029+00:00",
+      "id": 21722475,
+      "conceptrecid": "19934000",
+      "doi": "10.5281/zenodo.21722475",
+      "conceptdoi": "10.5281/zenodo.19934000",
+      "doi_url": "https://doi.org/10.5281/zenodo.21722475",
+      "metadata": {
+        "title": "FPSieve: Dataset and Replication Package for ASE 2026",
+        "doi": "10.5281/zenodo.21722475",
+        "publication_date": "2026-08-01",
+        "description": "<p>This dataset and replication package accompanies the paper &ldquo;FPSieve:<br>LLM-Powered Cascade for Filtering False Positives in OS Migration<br>Testing.&rdquo;</p>\n<p>The artifact contains the materials used in the study, including<br>CentOS 8 and AnolisOS 8 package execution results, 7,131<br>differential-testing records, manually confirmed ground-truth labels,<br>LLM prompts, the FPSieve Python implementation, baseline<br>implementations, evaluation scripts, and container-based reproduction<br>materials for selected compatibility issues.</p>\n<p>The released dataset covers the complete workflow from package<br>test-case generation, execution on both operating systems, difference<br>extraction and prioritization, and manual ground-truth construction to<br>false-positive filtering and container-based verification. The<br>FPSieve implementation includes rule-based filtering, semantic<br>similarity filtering, historical case retrieval, package-level LLM<br>reasoning, confidence-based routing, and container-supported<br>re-judgment.</p>\n<p>Chinese and English README files describe the dataset organization,<br>representative data structures, and the relationship between the data,<br>code, prompts, labels, and reproduction materials. External LLM<br>services, third-party operating-system images, and external package<br>repositories are not redistributed.</p>\n<p>This record is Version 2.0 of the FPSieve artifact. Compared with<br>Version 1, it provides the expanded dataset, updated documentation,<br>additional source code, baseline implementations, and container<br>reproduction materials.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Dong, Jie",
+            "affiliation": "Central South University",
+            "orcid": "0009-0003-6513-4130"
+          },
+          {
+            "name": "Fu, Ying",
+            "affiliation": "Tsinghua University",
+            "orcid": "0000-0001-5329-2586"
+          },
+          {
+            "name": "Hu, Chao",
+            "affiliation": "Central South University",
+            "orcid": "0000-0003-3606-2900"
+          },
+          {
+            "name": "Chen, Yuhang",
+            "affiliation": "Central South University",
+            "orcid": "0009-0004-5255-925X"
+          },
+          {
+            "name": "Xiao, Qi",
+            "affiliation": "Hunan Congmao Technology",
+            "orcid": "0009-0007-4354-5640"
+          },
+          {
+            "name": "Shi, Heyuan",
+            "affiliation": "Central South University",
+            "orcid": "0000-0002-9040-7247"
+          }
+        ],
+        "keywords": [
+          "FPSieve",
+          "OS migration",
+          "differential testing",
+          "software compatibility",
+          "large language models",
+          "false-positive filtering"
+        ],
+        "version": "2.0.0",
+        "language": "cpi",
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "19934000"
+              }
+            }
+          ]
+        }
+      },
+      "title": "FPSieve: Dataset and Replication Package for ASE 2026",
+      "links": {
+        "self": "https://zenodo.org/api/records/21722475",
+        "self_html": "https://zenodo.org/records/21722475",
+        "preview_html": "https://zenodo.org/records/21722475?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21722475",
+        "self_doi": "https://doi.org/10.5281/zenodo.21722475",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21722475",
+        "reserve_doi": "https://zenodo.org/api/records/21722475/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/19934000",
+        "parent_html": "https://zenodo.org/records/19934000",
+        "parent_doi": "https://doi.org/10.5281/zenodo.19934000",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19934000",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21722475/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21722475/sequence/default",
+        "files": "https://zenodo.org/api/records/21722475/files",
+        "media_files": "https://zenodo.org/api/records/21722475/media-files",
+        "archive": "https://zenodo.org/api/records/21722475/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21722475/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21722475/versions/latest",
+        "latest_html": "https://zenodo.org/records/21722475/latest",
+        "versions": "https://zenodo.org/api/records/21722475/versions",
+        "draft": "https://zenodo.org/api/records/21722475/draft",
+        "access_links": "https://zenodo.org/api/records/21722475/access/links",
+        "access_grants": "https://zenodo.org/api/records/21722475/access/grants",
+        "access_users": "https://zenodo.org/api/records/21722475/access/users",
+        "access_request": "https://zenodo.org/api/records/21722475/access/request",
+        "access": "https://zenodo.org/api/records/21722475/access",
+        "communities": "https://zenodo.org/api/records/21722475/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21722475/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21722475/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21722475/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21722475/quota-increase",
+        "requests": "https://zenodo.org/api/records/21722475/requests"
+      },
+      "updated": "2026-08-01T10:29:29.039029+00:00",
+      "recid": "21722475",
+      "revision": 8,
+      "files": [
+        {
+          "id": "788ad26c-ad1f-4e51-87c1-e116a60013e7",
+          "key": "FPSieve_ASE2026_Artifact_v2.0.zip",
+          "size": 25870891,
+          "checksum": "md5:a3dda8fb83fd3d7e6debf39779529a85",
+          "links": {
+            "self": "https://zenodo.org/api/records/21722475/files/FPSieve_ASE2026_Artifact_v2.0.zip/content"
+          }
+        },
+        {
+          "id": "be5a1047-709d-4139-bc72-b90bb31e493e",
+          "key": "README_EN.md",
+          "size": 16472,
+          "checksum": "md5:0f28d808cef4e2bc87c11a84baf50bbd",
+          "links": {
+            "self": "https://zenodo.org/api/records/21722475/files/README_EN.md/content"
+          }
+        },
+        {
+          "id": "af6ecb7b-c793-4c87-862f-5dfcae52bb60",
+          "key": "README.md",
+          "size": 13981,
+          "checksum": "md5:1f322d871e60146400e4e95c88373c0f",
+          "links": {
+            "self": "https://zenodo.org/api/records/21722475/files/README.md/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1631961"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 4,
+        "unique_downloads": 4,
+        "views": 36,
+        "unique_views": 23,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 4,
+        "version_views": 4
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T08:54:48.166099+00:00",
+      "modified": "2026-08-01T08:54:48.349242+00:00",
+      "id": 21737329,
+      "conceptrecid": "13319290",
+      "doi": "10.5281/zenodo.21737329",
+      "conceptdoi": "10.5281/zenodo.13319290",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737329",
+      "metadata": {
+        "title": "flowR: A sophisticated static program analysis framework for the R programming language",
+        "doi": "10.5281/zenodo.21737329",
+        "publication_date": "2026-08-01",
+        "description": "flowR is a sophisticated static program analysis framework for the R programming language.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Sihler, Florian",
+            "affiliation": "Ulm University",
+            "orcid": "0000-0001-7195-7801"
+          },
+          {
+            "name": "Gerstl, Oliver",
+            "affiliation": "Ulm University",
+            "orcid": "0009-0007-5612-0780"
+          },
+          {
+            "name": "Schubert, Julian",
+            "affiliation": "Ulm University",
+            "orcid": "0009-0007-1284-8008"
+          },
+          {
+            "name": "Pfrenger, Lars",
+            "affiliation": "Ulm University"
+          },
+          {
+            "name": "Pietzschmann, Lukas",
+            "affiliation": "Ulm University",
+            "orcid": "0009-0002-7803-6583"
+          },
+          {
+            "name": "Sch\u00f6ller, Thomas",
+            "affiliation": "Ulm University"
+          },
+          {
+            "name": "Schlegel, Felix",
+            "affiliation": "Ulm University"
+          },
+          {
+            "name": "Rohde, Lukas",
+            "affiliation": "Ulm University"
+          },
+          {
+            "name": "Scheck, Johanna",
+            "affiliation": "Ulm University",
+            "orcid": "0009-0003-2465-3858"
+          },
+          {
+            "name": "Schmidt, Tim",
+            "affiliation": "Ulm University"
+          }
+        ],
+        "keywords": [
+          "r",
+          "static-analyzer",
+          "dataflow-analysis",
+          "program-slicing",
+          "static-program-slicing"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/flowr-analysis/flowr/tree/v2.13.7",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v2.13.7",
+        "custom": {
+          "code:codeRepository": "https://github.com/flowr-analysis/flowr"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "gpl-3.0"
+        },
+        "communities": [
+          {
+            "id": "flowr"
+          }
+        ],
+        "relations": {
+          "version": [
+            {
+              "index": 122,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "13319290"
+              }
+            }
+          ]
+        },
+        "notes": "If you use this software, please cite it using the metadata from this file."
+      },
+      "title": "flowR: A sophisticated static program analysis framework for the R programming language",
+      "links": {
+        "self": "https://zenodo.org/api/records/21737329",
+        "self_html": "https://zenodo.org/records/21737329",
+        "preview_html": "https://zenodo.org/records/21737329?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737329",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737329",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737329",
+        "reserve_doi": "https://zenodo.org/api/records/21737329/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/13319290",
+        "parent_html": "https://zenodo.org/records/13319290",
+        "parent_doi": "https://doi.org/10.5281/zenodo.13319290",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13319290",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737329/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737329/sequence/default",
+        "files": "https://zenodo.org/api/records/21737329/files",
+        "media_files": "https://zenodo.org/api/records/21737329/media-files",
+        "archive": "https://zenodo.org/api/records/21737329/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737329/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737329/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737329/latest",
+        "versions": "https://zenodo.org/api/records/21737329/versions",
+        "draft": "https://zenodo.org/api/records/21737329/draft",
+        "access_links": "https://zenodo.org/api/records/21737329/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737329/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737329/access/users",
+        "access_request": "https://zenodo.org/api/records/21737329/access/request",
+        "access": "https://zenodo.org/api/records/21737329/access",
+        "communities": "https://zenodo.org/api/records/21737329/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737329/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737329/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737329/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737329/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737329/requests"
+      },
+      "updated": "2026-08-01T08:54:48.349242+00:00",
+      "recid": "21737329",
+      "revision": 4,
+      "files": [
+        {
+          "id": "70e3eb5f-8015-4443-b3bf-b7619c8d1830",
+          "key": "flowr-analysis/flowr-v2.13.7.zip",
+          "size": 3555746,
+          "checksum": "md5:6356fbb1b279e494cfe03ad9ea9cf180",
+          "links": {
+            "self": "https://zenodo.org/api/records/21737329/files/flowr-analysis/flowr-v2.13.7.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:b9805bf16a1e4478e6fdf2dea52acd7725cc52d6;origin=https://doi.org/10.5281/zenodo.13319290;visit=swh:1:snp:1d74dfebf798f3201c8da32f8c0b8831e6c5556c;anchor=swh:1:rel:ec3d7e9ad006e9cd6aefaaa22fe6271d20a1e160;path=flowr-analysis-flowr-95c8175"
+      },
+      "owners": [
+        {
+          "id": "440812"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1677,
+        "unique_downloads": 1669,
+        "views": 5455,
+        "unique_views": 5388,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T08:53:07.072763+00:00",
+      "modified": "2026-08-01T08:53:07.256721+00:00",
+      "id": 21737307,
+      "conceptrecid": "21735988",
+      "doi": "10.5281/zenodo.21737307",
+      "conceptdoi": "10.5281/zenodo.21735988",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737307",
+      "metadata": {
+        "title": "Benchmarking and Rethinking Evaluation of Pre-trained Language Models for Automated Vulnerability Patching",
+        "doi": "10.5281/zenodo.21737307",
+        "publication_date": "2026-08-01",
+        "description": "<p>Software vulnerabilities pose critical security risks, demanding prompt and effective mitigation strategies. While advancements in Automated Program Repair (APR) have primarily targeted general software bugs, the domain of vulnerability patching, which is a security-critical subset of APR, remains underexplored. This paper investigates the potential of pre-trained language models, CodeBERT and CodeT5, for automated vulnerability patching across diverse datasets and five programming languages. Rather than reporting accuracy alone, we examine three factors that determine how such results should be interpreted: how preprocessing-induced information loss affects accuracy, how well commonly used evaluation metrics agree with one another, and how patch complexity relates to model performance. We find that preprocessing loss significantly degrades BLEU scores for both models, while structural and exact-match metrics remain largely unaffected, indicating that preprocessing artifacts disrupt surface-form similarity more than deeper correctness. Evaluation metrics themselves show weak, model-dependent agreement, with no dataset showing consensus across metrics on which model performs better, revealing that metric choice alone can change reported conclusions. Patch complexity is consistently associated with lower accuracy across both models, though this relationship is only statistically robust for CodeBERT, and no significant difference in complexity sensitivity between the two models could be confirmed. Together, these findings benchmark model performance while highlighting key limitations in both the models and the metrics used to evaluate them, offering guidance for more reliable evaluation of automated vulnerability patching in practical security applications.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Khan, Zanis Ali",
+            "affiliation": "Luxembourg Institute of Science and Technology",
+            "orcid": "0000-0002-3935-2148"
+          },
+          {
+            "name": "Bettaieb, Seifeddine",
+            "affiliation": "Luxembourg Institute of Science and Technology",
+            "orcid": "0009-0004-5749-2090"
+          }
+        ],
+        "keywords": [
+          "Vulnerability Patching",
+          "Code Patching",
+          "Automated Program Repair",
+          "Large Language Models",
+          "Software Security"
+        ],
+        "dates": [
+          {
+            "type": "submitted"
+          }
+        ],
+        "version": "v2",
+        "language": "eng",
+        "resource_type": {
+          "title": "Preprint",
+          "type": "publication",
+          "subtype": "preprint"
+        },
+        "meeting": {
+          "title": "International Conference on AI new Technologies and open Discussions",
+          "acronym": "ICAITD",
+          "dates": "12-15 October",
+          "place": "TOKYO, JAPAN",
+          "url": "https://www.icaitd.com/"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21735988"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Benchmarking and Rethinking Evaluation of Pre-trained Language Models for Automated Vulnerability Patching",
+      "links": {
+        "self": "https://zenodo.org/api/records/21737307",
+        "self_html": "https://zenodo.org/records/21737307",
+        "preview_html": "https://zenodo.org/records/21737307?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737307",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737307",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737307",
+        "reserve_doi": "https://zenodo.org/api/records/21737307/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21735988",
+        "parent_html": "https://zenodo.org/records/21735988",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21735988",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735988",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737307/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737307/sequence/default",
+        "files": "https://zenodo.org/api/records/21737307/files",
+        "media_files": "https://zenodo.org/api/records/21737307/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21737307:main.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21737307:main.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21737307:main.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21737307:main.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21737307:main.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21737307:main.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21737307/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737307/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737307/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737307/latest",
+        "versions": "https://zenodo.org/api/records/21737307/versions",
+        "draft": "https://zenodo.org/api/records/21737307/draft",
+        "access_links": "https://zenodo.org/api/records/21737307/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737307/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737307/access/users",
+        "access_request": "https://zenodo.org/api/records/21737307/access/request",
+        "access": "https://zenodo.org/api/records/21737307/access",
+        "communities": "https://zenodo.org/api/records/21737307/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737307/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737307/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737307/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737307/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737307/requests"
+      },
+      "updated": "2026-08-01T08:53:07.256721+00:00",
+      "recid": "21737307",
+      "revision": 4,
+      "files": [
+        {
+          "id": "4c7428df-615c-4773-906f-3813a49d5687",
+          "key": "main.pdf",
+          "size": 1666926,
+          "checksum": "md5:0f1c90ece76b5a3a43133118039187fd",
+          "links": {
+            "self": "https://zenodo.org/api/records/21737307/files/main.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "272870"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T08:40:02.701969+00:00",
+      "modified": "2026-08-01T08:40:02.833304+00:00",
+      "id": 21737199,
+      "conceptrecid": "15858845",
+      "doi": "10.5281/zenodo.21737199",
+      "conceptdoi": "10.5281/zenodo.15858845",
+      "doi_url": "https://doi.org/10.5281/zenodo.21737199",
+      "metadata": {
+        "title": "City2Graph: A Python Library for Heterogeneous Graph Neural Networks and Spatial Analysis in Urban Systems",
+        "doi": "10.5281/zenodo.21737199",
+        "publication_date": "2026-08-01",
+        "description": "City2Graph is a Python library that provides an integrated interface of geospatial datasets from multiple domains converting into graph representations. It facilitates the one-stop data pipeline for spatial network analysis and Graph Neaural Networks (GNNs)  for GeoAI applications.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Sato, Yuta",
+            "affiliation": "University of Liverpool",
+            "orcid": "0009-0004-7052-7163"
+          }
+        ],
+        "keywords": [
+          "GeoAI",
+          "Graph Neural Networks",
+          "GNN",
+          "PyTorch Geometric",
+          "Geospatial Analysis",
+          "Urban Analytics",
+          "Spatial Data Science",
+          "Urban Mobility",
+          "Transportation Networks",
+          "Spatial Knowledge Graphs",
+          "Spatiotemporal Analysis",
+          "Geospatial Foundation Models",
+          "Digital Twin",
+          "Urban Informatics",
+          "Geographic Data Science",
+          "Graph Representation Learning",
+          "Urban Planning and Design"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/c2g-dev/city2graph/tree/v1.0.0",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "version": "v1.0.0",
+        "custom": {
+          "code:codeRepository": "https://github.com/c2g-dev/city2graph"
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "bsd-3-clause"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 19,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "15858845"
+              }
+            }
+          ]
+        },
+        "notes": "If you use this software, please cite it as below."
+      },
+      "title": "City2Graph: A Python Library for Heterogeneous Graph Neural Networks and Spatial Analysis in Urban Systems",
+      "links": {
+        "self": "https://zenodo.org/api/records/21737199",
+        "self_html": "https://zenodo.org/records/21737199",
+        "preview_html": "https://zenodo.org/records/21737199?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21737199",
+        "self_doi": "https://doi.org/10.5281/zenodo.21737199",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21737199",
+        "reserve_doi": "https://zenodo.org/api/records/21737199/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/15858845",
+        "parent_html": "https://zenodo.org/records/15858845",
+        "parent_doi": "https://doi.org/10.5281/zenodo.15858845",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15858845",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21737199/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21737199/sequence/default",
+        "files": "https://zenodo.org/api/records/21737199/files",
+        "media_files": "https://zenodo.org/api/records/21737199/media-files",
+        "archive": "https://zenodo.org/api/records/21737199/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21737199/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21737199/versions/latest",
+        "latest_html": "https://zenodo.org/records/21737199/latest",
+        "versions": "https://zenodo.org/api/records/21737199/versions",
+        "draft": "https://zenodo.org/api/records/21737199/draft",
+        "access_links": "https://zenodo.org/api/records/21737199/access/links",
+        "access_grants": "https://zenodo.org/api/records/21737199/access/grants",
+        "access_users": "https://zenodo.org/api/records/21737199/access/users",
+        "access_request": "https://zenodo.org/api/records/21737199/access/request",
+        "access": "https://zenodo.org/api/records/21737199/access",
+        "communities": "https://zenodo.org/api/records/21737199/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21737199/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21737199/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21737199/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21737199/quota-increase",
+        "requests": "https://zenodo.org/api/records/21737199/requests"
+      },
+      "updated": "2026-08-01T08:40:02.833304+00:00",
+      "recid": "21737199",
+      "revision": 4,
+      "files": [
+        {
+          "id": "d31072fd-8a47-423a-91d0-bfccb50093b5",
+          "key": "c2g-dev/city2graph-v1.0.0.zip",
+          "size": 84456890,
+          "checksum": "md5:7d407418729eb0b2936199d5bd4427dc",
+          "links": {
+            "self": "https://zenodo.org/api/records/21737199/files/c2g-dev/city2graph-v1.0.0.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1298623"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 304,
+        "unique_downloads": 296,
+        "views": 1785,
+        "unique_views": 1612,
         "version_downloads": 0,
         "version_unique_downloads": 0,
         "version_unique_views": 0,

@@ -5,11 +5,11 @@
   "repo_path": "simroux/VirSorter",
   "description": "Source code of the VirSorter tool, also available as an App on CyVerse/iVirus (https://de.iplantcollaborative.org/de/)",
   "created_at": "2014-09-23T23:28:19Z",
-  "updated_at": "2025-01-27T16:26:50Z",
+  "updated_at": "2025-09-09T10:06:01Z",
   "pushed_at": "2020-10-03T20:17:25Z",
-  "stars": 103,
-  "watchers": 103,
-  "forks": 30,
+  "stars": 101,
+  "watchers": 101,
+  "forks": 31,
   "open_issues": 34,
   "default_branch": "master",
   "license": "GNU General Public License v2.0",
@@ -17,7 +17,7 @@
   "homepage": "",
   "is_archived": false,
   "is_disabled": false,
-  "fetch_time": "2025-03-17T23:06:37.509324",
+  "fetch_time": "2026-08-01T10:06:00.673985",
   "languages": {
     "Perl": 140755,
     "C": 10881,
@@ -32,44 +32,5 @@
     "published_at": "2019-10-07T18:06:54Z",
     "url": "https://github.com/simroux/VirSorter/releases/tag/v1.0.6"
   },
-  "dependencies": {
-    "sbom": {
-      "spdxVersion": "SPDX-2.3",
-      "dataLicense": "CC0-1.0",
-      "SPDXID": "SPDXRef-DOCUMENT",
-      "name": "com.github.simroux/VirSorter",
-      "documentNamespace": "https://spdx.org/spdxdocs/protobom/b0c3beba-469e-48e9-8a20-012d5573baf5",
-      "creationInfo": {
-        "creators": [
-          "Tool: protobom-v0.0.0-20250317171231-8d724299549d+dirty",
-          "Tool: GitHub.com-Dependency-Graph"
-        ],
-        "created": "2025-03-17T23:06:45Z"
-      },
-      "packages": [
-        {
-          "name": "com.github.simroux/VirSorter",
-          "SPDXID": "SPDXRef-github-simroux-VirSorter-master-d94323",
-          "versionInfo": "master",
-          "downloadLocation": "git+https://github.com/simroux/VirSorter",
-          "filesAnalyzed": false,
-          "licenseDeclared": "GPL-2.0",
-          "externalRefs": [
-            {
-              "referenceCategory": "PACKAGE-MANAGER",
-              "referenceType": "purl",
-              "referenceLocator": "pkg:github/simroux/VirSorter@master"
-            }
-          ]
-        }
-      ],
-      "relationships": [
-        {
-          "spdxElementId": "SPDXRef-DOCUMENT",
-          "relatedSpdxElement": "SPDXRef-github-simroux-VirSorter-master-d94323",
-          "relationshipType": "DESCRIBES"
-        }
-      ]
-    }
-  }
+  "dependencies": null
 }

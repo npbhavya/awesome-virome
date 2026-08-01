@@ -1,5 +1,5 @@
 {
-  "cache_date": "2026-06-01T16:17:27.541929",
+  "cache_date": "2026-08-01T11:48:22.608154",
   "data": [
     {
       "indexed": {
@@ -261,7 +261,7 @@
         "date-time": "2024-03-13T23:15:34Z",
         "timestamp": 1710371734000
       },
-      "score": 18.98367,
+      "score": 19.077898,
       "resource": {
         "primary": {
           "URL": "https://ieeexplore.ieee.org/document/10239273/"
@@ -426,7 +426,7 @@
         "date-time": "2021-11-29T20:08:51Z",
         "timestamp": 1638216531000
       },
-      "score": 18.705727,
+      "score": 18.602863,
       "resource": {
         "primary": {
           "URL": "http://ieeexplore.ieee.org/document/687939/"
@@ -546,7 +546,7 @@
         "date-time": "2019-11-28T10:28:21Z",
         "timestamp": 1574936901000
       },
-      "score": 18.377304,
+      "score": 18.353355,
       "resource": {
         "primary": {
           "URL": "https://www.taylorfrancis.com/books/9781351807999/chapters/10.4324/9781315209883-6"
@@ -577,136 +577,152 @@
       }
     },
     {
-      "institution": [
-        {
-          "id": [
-            {
-              "id": "https://ror.org/042rh9p26",
-              "id-type": "ROR",
-              "asserted-by": "publisher"
-            }
-          ],
-          "name": "Ecole nationale sup\u00e9rieure Mines-T\u00e9l\u00e9com Lille Douai"
-        }
-      ],
       "indexed": {
         "date-parts": [
           [
-            2026,
-            4,
-            3
+            2024,
+            2,
+            11
           ]
         ],
-        "date-time": "2026-04-03T13:05:24Z",
-        "timestamp": 1775221524349,
-        "version": "3.50.1"
+        "date-time": "2024-02-11T11:19:41Z",
+        "timestamp": 1707650381663
       },
-      "reference-count": 0,
-      "publisher": "Agence Bibliographique de l'Enseignement Sup\u00e9rieur",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "abstract": "<jats:title>Mise \u00e0 jour Dynamique pour Environnemts de Production et Programmation Interactive</jats:title>\n                <jats:p xml:lang=\"fr\">Mettre \u00e0 jour des applications durant leur ex\u00e9cution est utilis\u00e9 aussi bien en production pour r\u00e9duire les temps d\u2019arr\u00eat des applications que dans des environnements de d\u00e9veloppement interactifs (IDE pour live programming). Toutefois, ces deux sc\u00e9narios pr\u00e9sentent des d\u00e9fis diff\u00e9rents qui font que les solutions de mise \u00e0 jour dynamique (DSU pour Dynamic Software Updating) existantes sont souvent sp\u00e9cifiques \u00e0 l\u2019un des deux. Par exemple, les DSUs pour la programmation interactives ne supportent g\u00e9n\u00e9ralement pas la d\u00e9tection automatique de points s\u00fbrs de mise \u00e0 jour ni la migration d\u2019instances, alors que les DSUs pour la production n\u00e9cessitent une g\u00e9n\u00e9ration manuelle de l\u2019ensemble des modifications et manquent d\u2019int\u00e9gration avec l\u2019IDE. Les solutions existantes ont \u00e9galement une capacit\u00e9 limit\u00e9es \u00e0 se mettre \u00e0 jour elles-m\u00eames ou \u00e0 mettre \u00e0 jour les biblioth\u00e8ques de base du langage ; et certaines d\u2019entre elles introduisent m\u00eamle une d\u00e9gradation des performances d\u2019ex\u00e9cution en dehors du processus de mise \u00e0 jour.Dans cette th\u00e8se, nous proposons un DSU (nomm\u00e9 gDSU) unifi\u00e9 qui fonctionne \u00e0 la fois pour la programmation interactive et les environnements de production. gDSU permet la d\u00e9tection automatique des points s\u00fbrs de mise \u00e0 jour en analysant et manipulant la pile d\u2019ex\u00e9cution, et offre un m\u00e9canisme r\u00e9utilisable de migration d\u2019instances afin de minimiser les interventions manuelles lors de l\u2019application d\u2019une migration. gDSU supporte \u00e9galement la mise \u00e0 jour des biblioth\u00e8ques du noyau du langage et du m\u00e9canisme de mise \u00e0 jour lui-m\u00eame. Ceci est r\u00e9alis\u00e9 par une copie incr\u00e9mentale des objets \u00e0 modifier et une application atomique de ces modifications.gDSU n\u2019affecte pas les performances globales de l\u2019application et ne pr\u00e9sente qu\u2019une p\u00e9nalit\u00e9 d\u2019ex\u00e9cution lors processus de mise \u00e0 jour. Par exemple, gDSU est capable d\u2019appliquer une mise \u00e0 jour sur 100 000 instances en 1 seconde. Durant cette seconde, l\u2019application ne r\u00e9pond pas pendant 250 milli-secondes seulement. Le reste du temps, l\u2019application s\u2019ex\u00e9cute normalement pendant que gDSU recherche un point s\u00fbr de mise \u00e0 jour qui consiste alors uniquement \u00e0 copier les \u00e9l\u00e9ments modifi\u00e9s.Nous pr\u00e9sentons \u00e9galement deux extensions de gDSU permettant un meilleur support du d\u00e9veloppement interactif dans les IDEs : la programmation interactive transactionnelle et l\u2019application atomique de reusinages (refactorings).</jats:p>",
-      "DOI": "10.70675/26d1eeb9z821dz4e44zaab2z52bb2b0b47d9",
-      "type": "dissertation",
-      "created": {
+      "publisher": "Fundacao para a Ciencia e a Tecnologia (unidadeFCCN)",
+      "award-start": {
         "date-parts": [
           [
-            2026,
-            4,
-            3
-          ]
-        ],
-        "date-time": "2026-04-03T12:09:21Z",
-        "timestamp": 1775218161000
-      },
-      "approved": {
-        "date-parts": [
-          [
-            2018,
-            12,
-            17
+            2020,
+            11,
+            1
           ]
         ]
       },
-      "source": "Crossref",
-      "is-referenced-by-count": 0,
-      "title": [
-        "Dynamic Software Update for Production and Live Programming Environments"
-      ],
-      "prefix": "10.70675",
-      "author": [
-        {
-          "sequence": "additional",
-          "affiliation": [],
-          "role": [
-            {
-              "role": "author",
-              "vocabulary": "crossref"
-            }
+      "award": "2020.05161.BD",
+      "DOI": "10.54499/2020.05161.bd",
+      "type": "grant",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
           ]
-        },
+        ],
+        "date-time": "2024-02-09T10:37:58Z",
+        "timestamp": 1707475078000
+      },
+      "source": "Crossref",
+      "prefix": "10.54499",
+      "member": "31773",
+      "project": [
         {
-          "ORCID": "https://orcid.org/0000-0002-5615-6691",
-          "authenticated-orcid": false,
-          "given": "Pablo",
-          "family": "Tesone",
-          "sequence": "first",
-          "affiliation": [
+          "project-title": [
             {
-              "id": [
-                {
-                  "id": "https://ror.org/042rh9p26",
-                  "id-type": "ROR",
-                  "asserted-by": "publisher"
-                }
-              ],
-              "name": "Ecole nationale sup\u00e9rieure Mines-T\u00e9l\u00e9com Lille Douai"
+              "title": "A Live Environment for Continuous Software Inspection and Refactoring",
+              "language": "en"
+            },
+            {
+              "title": "A Live Environment for Continuous Software Inspection and Refactoring",
+              "language": "pt"
             }
           ],
-          "role": [
+          "investigator": [
             {
-              "role": "author",
-              "vocabulary": "crossref"
+              "ORCID": "http://orcid.org/0000-0003-2941-6993",
+              "authenticated-orcid": false,
+              "given": "Sara",
+              "family": "Filipa Couto Fernandes",
+              "alternate-name": [
+                "Sara Filipa Couto Fernandes"
+              ],
+              "affiliation": []
+            }
+          ],
+          "lead-investigator": [
+            {
+              "ORCID": "http://orcid.org/0000-0003-2941-6993",
+              "authenticated-orcid": false,
+              "given": "Sara",
+              "family": "Filipa Couto Fernandes",
+              "alternate-name": [
+                "Sara Filipa Couto Fernandes"
+              ],
+              "affiliation": []
+            }
+          ],
+          "award-amount": {
+            "amount": 50137.04,
+            "currency": "EUR"
+          },
+          "award-start": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                1
+              ]
+            ]
+          },
+          "award-end": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                31
+              ]
+            ]
+          },
+          "funding": [
+            {
+              "type": "grant",
+              "scheme": "FCT",
+              "award-amount": {
+                "amount": 50137.04,
+                "currency": "EUR",
+                "percentage": null
+              },
+              "funder": {
+                "id": [
+                  {
+                    "id": "10.13039/501100001871",
+                    "id-type": "DOI",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia"
+              }
             }
           ]
         }
       ],
-      "member": "51494",
       "deposited": {
         "date-parts": [
           [
-            2026,
-            4,
-            3
+            2024,
+            2,
+            9
           ]
         ],
-        "date-time": "2026-04-03T12:09:23Z",
-        "timestamp": 1775218163000
+        "date-time": "2024-02-09T10:37:59Z",
+        "timestamp": 1707475079000
       },
-      "score": 18.10956,
-      "degree": [
-        "Doctorat \u00e8s Informatique",
-        "PhD"
-      ],
+      "score": 18.032106,
       "resource": {
         "primary": {
-          "URL": "https://theses.fr/2018MTLD0012"
+          "URL": "https://sciproj.ptcris.pt/78297DFA"
         }
       },
       "issued": {
         "date-parts": [
           [
-            null
+            2020,
+            11,
+            1
           ]
         ]
       },
-      "references-count": 0,
-      "alternative-id": [
-        "2018MTLD0012"
-      ],
-      "URL": "https://doi.org/10.70675/26d1eeb9z821dz4e44zaab2z52bb2b0b47d9"
+      "URL": "https://doi.org/10.54499/2020.05161.bd"
     },
     {
       "indexed": {
@@ -846,7 +862,7 @@
         "date-time": "2021-11-29T20:08:56Z",
         "timestamp": 1638216536000
       },
-      "score": 18.091251,
+      "score": 18.020332,
       "resource": {
         "primary": {
           "URL": "http://ieeexplore.ieee.org/document/896252/"
@@ -882,152 +898,135 @@
       }
     },
     {
+      "institution": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/042rh9p26",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ],
+          "name": "Ecole nationale sup\u00e9rieure Mines-T\u00e9l\u00e9com Lille Douai"
+        }
+      ],
       "indexed": {
         "date-parts": [
           [
-            2024,
-            2,
-            11
+            2026,
+            7,
+            30
           ]
         ],
-        "date-time": "2024-02-11T11:19:41Z",
-        "timestamp": 1707650381663
+        "date-time": "2026-07-30T13:14:22Z",
+        "timestamp": 1785417262466,
+        "version": "3.56.0"
       },
-      "publisher": "Fundacao para a Ciencia e a Tecnologia (unidadeFCCN)",
-      "award-start": {
-        "date-parts": [
-          [
-            2020,
-            11,
-            1
-          ]
-        ]
+      "reference-count": 0,
+      "publisher": "Agence Bibliographique de l'Enseignement Sup\u00e9rieur",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
       },
-      "award": "2020.05161.BD",
-      "DOI": "10.54499/2020.05161.bd",
-      "type": "grant",
+      "abstract": "<jats:title>Mise \u00e0 jour Dynamique pour Environnemts de Production et Programmation Interactive</jats:title>\n                <jats:p xml:lang=\"fr\">Mettre \u00e0 jour des applications durant leur ex\u00e9cution est utilis\u00e9 aussi bien en production pour r\u00e9duire les temps d\u2019arr\u00eat des applications que dans des environnements de d\u00e9veloppement interactifs (IDE pour live programming). Toutefois, ces deux sc\u00e9narios pr\u00e9sentent des d\u00e9fis diff\u00e9rents qui font que les solutions de mise \u00e0 jour dynamique (DSU pour Dynamic Software Updating) existantes sont souvent sp\u00e9cifiques \u00e0 l\u2019un des deux. Par exemple, les DSUs pour la programmation interactives ne supportent g\u00e9n\u00e9ralement pas la d\u00e9tection automatique de points s\u00fbrs de mise \u00e0 jour ni la migration d\u2019instances, alors que les DSUs pour la production n\u00e9cessitent une g\u00e9n\u00e9ration manuelle de l\u2019ensemble des modifications et manquent d\u2019int\u00e9gration avec l\u2019IDE. Les solutions existantes ont \u00e9galement une capacit\u00e9 limit\u00e9es \u00e0 se mettre \u00e0 jour elles-m\u00eames ou \u00e0 mettre \u00e0 jour les biblioth\u00e8ques de base du langage ; et certaines d\u2019entre elles introduisent m\u00eamle une d\u00e9gradation des performances d\u2019ex\u00e9cution en dehors du processus de mise \u00e0 jour.Dans cette th\u00e8se, nous proposons un DSU (nomm\u00e9 gDSU) unifi\u00e9 qui fonctionne \u00e0 la fois pour la programmation interactive et les environnements de production. gDSU permet la d\u00e9tection automatique des points s\u00fbrs de mise \u00e0 jour en analysant et manipulant la pile d\u2019ex\u00e9cution, et offre un m\u00e9canisme r\u00e9utilisable de migration d\u2019instances afin de minimiser les interventions manuelles lors de l\u2019application d\u2019une migration. gDSU supporte \u00e9galement la mise \u00e0 jour des biblioth\u00e8ques du noyau du langage et du m\u00e9canisme de mise \u00e0 jour lui-m\u00eame. Ceci est r\u00e9alis\u00e9 par une copie incr\u00e9mentale des objets \u00e0 modifier et une application atomique de ces modifications.gDSU n\u2019affecte pas les performances globales de l\u2019application et ne pr\u00e9sente qu\u2019une p\u00e9nalit\u00e9 d\u2019ex\u00e9cution lors processus de mise \u00e0 jour. Par exemple, gDSU est capable d\u2019appliquer une mise \u00e0 jour sur 100 000 instances en 1 seconde. Durant cette seconde, l\u2019application ne r\u00e9pond pas pendant 250 milli-secondes seulement. Le reste du temps, l\u2019application s\u2019ex\u00e9cute normalement pendant que gDSU recherche un point s\u00fbr de mise \u00e0 jour qui consiste alors uniquement \u00e0 copier les \u00e9l\u00e9ments modifi\u00e9s.Nous pr\u00e9sentons \u00e9galement deux extensions de gDSU permettant un meilleur support du d\u00e9veloppement interactif dans les IDEs : la programmation interactive transactionnelle et l\u2019application atomique de reusinages (refactorings).</jats:p>",
+      "DOI": "10.70675/26d1eeb9z821dz4e44zaab2z52bb2b0b47d9",
+      "type": "dissertation",
       "created": {
         "date-parts": [
           [
-            2024,
-            2,
-            9
+            2026,
+            4,
+            3
           ]
         ],
-        "date-time": "2024-02-09T10:37:58Z",
-        "timestamp": 1707475078000
+        "date-time": "2026-04-03T12:09:21Z",
+        "timestamp": 1775218161000
+      },
+      "approved": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            17
+          ]
+        ]
       },
       "source": "Crossref",
-      "prefix": "10.54499",
-      "member": "31773",
-      "project": [
+      "is-referenced-by-count": 0,
+      "title": [
+        "Dynamic Software Update for Production and Live Programming Environments"
+      ],
+      "prefix": "10.70675",
+      "author": [
         {
-          "project-title": [
+          "ORCID": "https://orcid.org/0000-0002-5615-6691",
+          "authenticated-orcid": false,
+          "given": "Pablo",
+          "family": "Tesone",
+          "sequence": "first",
+          "affiliation": [
             {
-              "title": "A Live Environment for Continuous Software Inspection and Refactoring",
-              "language": "en"
-            },
-            {
-              "title": "A Live Environment for Continuous Software Inspection and Refactoring",
-              "language": "pt"
-            }
-          ],
-          "investigator": [
-            {
-              "ORCID": "http://orcid.org/0000-0003-2941-6993",
-              "authenticated-orcid": false,
-              "given": "Sara",
-              "family": "Filipa Couto Fernandes",
-              "alternate-name": [
-                "Sara Filipa Couto Fernandes"
+              "id": [
+                {
+                  "id": "https://ror.org/042rh9p26",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
               ],
-              "affiliation": []
+              "name": "Ecole nationale sup\u00e9rieure Mines-T\u00e9l\u00e9com Lille Douai"
             }
           ],
-          "lead-investigator": [
+          "role": [
             {
-              "ORCID": "http://orcid.org/0000-0003-2941-6993",
-              "authenticated-orcid": false,
-              "given": "Sara",
-              "family": "Filipa Couto Fernandes",
-              "alternate-name": [
-                "Sara Filipa Couto Fernandes"
-              ],
-              "affiliation": []
+              "vocabulary": "crossref",
+              "role": "author"
             }
-          ],
-          "award-amount": {
-            "amount": 50137.04,
-            "currency": "EUR"
-          },
-          "award-start": {
-            "date-parts": [
-              [
-                2020,
-                11,
-                1
-              ]
-            ]
-          },
-          "award-end": {
-            "date-parts": [
-              [
-                2023,
-                10,
-                31
-              ]
-            ]
-          },
-          "funding": [
-            {
-              "type": "grant",
-              "scheme": "FCT",
-              "award-amount": {
-                "amount": 50137.04,
-                "currency": "EUR",
-                "percentage": null
-              },
-              "funder": {
-                "id": [
-                  {
-                    "id": "10.13039/501100001871",
-                    "id-type": "DOI",
-                    "asserted-by": "publisher"
-                  }
-                ],
-                "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia"
-              }
-            }
+          ]
+        }
+      ],
+      "member": "51494",
+      "contributor": [
+        {
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            null
           ]
         }
       ],
       "deposited": {
         "date-parts": [
           [
-            2024,
-            2,
-            9
+            2026,
+            4,
+            3
           ]
         ],
-        "date-time": "2024-02-09T10:37:59Z",
-        "timestamp": 1707475079000
+        "date-time": "2026-04-03T12:09:23Z",
+        "timestamp": 1775218163000
       },
-      "score": 17.932606,
+      "score": 17.997276,
+      "degree": [
+        "Doctorat \u00e8s Informatique",
+        "PhD"
+      ],
       "resource": {
         "primary": {
-          "URL": "https://sciproj.ptcris.pt/78297DFA"
+          "URL": "https://theses.fr/2018MTLD0012"
         }
       },
       "issued": {
         "date-parts": [
           [
-            2020,
-            11,
-            1
+            null
           ]
         ]
       },
-      "URL": "https://doi.org/10.54499/2020.05161.bd"
+      "references-count": 0,
+      "alternative-id": [
+        "2018MTLD0012"
+      ],
+      "URL": "https://doi.org/10.70675/26d1eeb9z821dz4e44zaab2z52bb2b0b47d9"
     },
     {
       "indexed": {
@@ -1212,7 +1211,7 @@
         "date-time": "2019-05-27T18:17:32Z",
         "timestamp": 1558981052000
       },
-      "score": 17.850716,
+      "score": 17.970022,
       "resource": {
         "primary": {
           "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0007699800370046"
@@ -1339,7 +1338,7 @@
         "date-time": "2017-03-09T02:57:22Z",
         "timestamp": 1489028242000
       },
-      "score": 17.843147,
+      "score": 17.920769,
       "resource": {
         "primary": {
           "URL": "http://ieeexplore.ieee.org/document/344234/"
@@ -1494,7 +1493,7 @@
         "date-time": "2025-02-06T14:44:48Z",
         "timestamp": 1738853088000
       },
-      "score": 17.826523,
+      "score": 17.917362,
       "resource": {
         "primary": {
           "URL": "https://scienceopen.com/hosted-document?doi=10.14293/APMC13-2025-0394"
@@ -1705,7 +1704,7 @@
         "date-time": "2017-03-23T02:14:24Z",
         "timestamp": 1490235264000
       },
-      "score": 17.644522,
+      "score": 17.736118,
       "resource": {
         "primary": {
           "URL": "http://ieeexplore.ieee.org/document/6606771/"

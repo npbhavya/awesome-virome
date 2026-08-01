@@ -14,7 +14,19 @@
   "bioconda": {
     "package": "",
     "version": "",
-    "dependencies": {},
+    "dependencies": {
+      "build": [],
+      "run": [
+        "prokka",
+        "scikit-learn",
+        "numpy",
+        "scipy",
+        "biopython"
+      ],
+      "host": [
+        "python"
+      ]
+    },
     "installation": ""
   },
   "academic_impact": {
@@ -26,5 +38,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2026-06-01T14:54:12.281608"
+  "last_updated": "2026-08-01T10:50:11.835311"
 }

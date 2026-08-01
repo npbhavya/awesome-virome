@@ -1,20 +1,31 @@
 {
-  "cache_date": "2026-06-01T18:01:04.553669",
+  "cache_date": "2026-08-01T14:24:54.584117",
   "data": [
     {
       "indexed": {
         "date-parts": [
           [
-            2022,
-            4,
-            5
+            2026,
+            6,
+            10
           ]
         ],
-        "date-time": "2022-04-05T07:23:59Z",
-        "timestamp": 1649143439493
+        "date-time": "2026-06-10T16:00:46Z",
+        "timestamp": 1781107246114,
+        "version": "3.54.1"
       },
       "reference-count": 0,
       "publisher": "IGI Global",
+      "isbn-type": [
+        {
+          "value": "9781931777124",
+          "type": "print"
+        },
+        {
+          "value": "9781931777339",
+          "type": "electronic"
+        }
+      ],
       "content-domain": {
         "domain": [],
         "crossmark-restriction": false
@@ -37,8 +48,8 @@
             4
           ]
         ],
-        "date-time": "2011-10-04T15:17:06Z",
-        "timestamp": 1317741426000
+        "date-time": "2011-10-04T11:17:06Z",
+        "timestamp": 1317727026000
       },
       "page": "284-292",
       "source": "Crossref",
@@ -59,8 +70,8 @@
           ],
           "role": [
             {
-              "role": "author",
-              "vocabulary": "crossref"
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         },
@@ -75,8 +86,8 @@
           ],
           "role": [
             {
-              "role": "author",
-              "vocabulary": "crossref"
+              "vocabulary": "crossref",
+              "role": "author"
             }
           ]
         }
@@ -101,10 +112,10 @@
             14
           ]
         ],
-        "date-time": "2019-01-14T18:57:10Z",
-        "timestamp": 1547492230000
+        "date-time": "2019-01-14T13:57:10Z",
+        "timestamp": 1547474230000
       },
-      "score": 18.091312,
+      "score": 17.839138,
       "resource": {
         "primary": {
           "URL": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-931777-12-4.ch020"
@@ -120,6 +131,10 @@
           ]
         ]
       },
+      "ISBN": [
+        "9781931777124",
+        "9781931777339"
+      ],
       "references-count": 0,
       "URL": "https://doi.org/10.4018/978-1-931777-12-4.ch020",
       "published": {
@@ -129,6 +144,460 @@
           ]
         ]
       }
+    },
+    {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T06:14:30Z",
+        "timestamp": 1780380870643,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            8
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Despite its clinical importance, detection of highly divergent or yet unknown viruses is a major challenge. When human samples are sequenced, conventional alignments classify many assembled contigs as \u201cunknown\u201d since many of the sequences are not similar to known genomes. In this work, we developed ViraMiner, a deep learning-based method to identify viruses in various human biospecimens. ViraMiner contains two branches of Convolutional Neural Networks designed to detect both patterns and pattern-frequencies on raw metagenomics contigs. The training dataset included sequences obtained from 19 metagenomic experiments which were analyzed and labeled by BLAST. The model achieves significantly improved accuracy compared to other machine learning methods for viral genome classification. Using 300 bp contigs ViraMiner achieves 0.923 area under the ROC curve. To our knowledge, this is the first machine learning methodology that can detect the presence of viral sequences among raw metagenomic contigs from diverse human samples. We suggest that the proposed model captures different types of information of genome composition, and can be used as a recommendation system to further investigate sequences labeled as \u201cunknown\u201d by conventional alignment methods. Exploring these highly-divergent viruses, in turn, can enhance our knowledge of infectious causes of diseases.</jats:p>",
+      "DOI": "10.1101/602656",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2019-04-09T01:25:51Z",
+        "timestamp": 1554773151000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 18,
+      "title": [
+        "ViraMiner: Deep Learning on Raw DNA Sequences for Identifying Viral Genomes in Human Samples"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2120-1712",
+          "authenticated-orcid": false,
+          "given": "Ardi",
+          "family": "Tampuu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zurab",
+          "family": "Bzhalava",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joakim",
+          "family": "Dillner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raul",
+          "family": "Vicente",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2019041311050936000_602656v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0027735"
+        },
+        {
+          "key": "2019041311050936000_602656v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0007370"
+        },
+        {
+          "key": "2019041311050936000_602656v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trsl.2012.03.006"
+        },
+        {
+          "key": "2019041311050936000_602656v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tim.2013.07.001"
+        },
+        {
+          "issue": "2",
+          "key": "2019041311050936000_602656v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "427",
+          "DOI": "10.1016/j.virol.2012.06.022",
+          "article-title": "Phylogenetically diverse tt virus viremia among pregnant women",
+          "volume": "432",
+          "year": "2012",
+          "journal-title": "Virology"
+        },
+        {
+          "key": "2019041311050936000_602656v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ijc.29666"
+        },
+        {
+          "key": "2019041311050936000_602656v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0065953"
+        },
+        {
+          "key": "2019041311050936000_602656v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep05807"
+        },
+        {
+          "key": "2019041311050936000_602656v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ijc.26204"
+        },
+        {
+          "key": "2019041311050936000_602656v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1152586"
+        },
+        {
+          "issue": "9",
+          "key": "2019041311050936000_602656v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "2479",
+          "DOI": "10.1007/s00125-012-2591-4",
+          "article-title": "No evidence of enteroviruses in the intestine of patients with type 1 diabetes",
+          "volume": "55",
+          "year": "2012",
+          "journal-title": "Diabetologia"
+        },
+        {
+          "key": "2019041311050936000_602656v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Sundstr\u00f6m , P. Juto , G. Wadell , G. Hallmans , Anders Svenningsson , Lennarth Nystr\u00f6m , J. Dillner , and Lars Forsgren . An altered immune response to Epstein-Barr virus in multiple sclerosis: A prospective study, volume 62. 2004.",
+          "DOI": "10.1212/01.WNL.0000130496.51156.D7"
+        },
+        {
+          "key": "2019041311050936000_602656v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1743-422X-9-164"
+        },
+        {
+          "key": "2019041311050936000_602656v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0038499"
+        },
+        {
+          "key": "2019041311050936000_602656v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1000212"
+        },
+        {
+          "key": "2019041311050936000_602656v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1165/rcmb.2011-0253OC"
+        },
+        {
+          "key": "2019041311050936000_602656v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.virol.2013.01.023"
+        },
+        {
+          "key": "2019041311050936000_602656v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ismej.2013.110"
+        },
+        {
+          "key": "2019041311050936000_602656v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/2042-5783-2-3"
+        },
+        {
+          "key": "2019041311050936000_602656v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt263"
+        },
+        {
+          "key": "2019041311050936000_602656v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0105067"
+        },
+        {
+          "key": "2019041311050936000_602656v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0190938"
+        },
+        {
+          "key": "2019041311050936000_602656v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deyvid Amgarten , Lucas P. P. Braga , Aline M. da Silva , and Jo\u00e3o C. Setubal. Marvel , a tool for prediction of bacteriophage sequences in metagenomic bins. Frontiers in Genetics, 9(304), 2018.",
+          "DOI": "10.3389/fgene.2018.00304"
+        },
+        {
+          "key": "2019041311050936000_602656v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40168-017-0283-5"
+        },
+        {
+          "key": "2019041311050936000_602656v2.25",
+          "unstructured": "Kai ; Deng Chao ; Ahlgren Nathan A. ; Fuhrman Jed A. ; Li Yi ; Xie Xiaohui ; Sun Fengzhu ; Ren, Jie ; Song . Identifying viruses from metagenomic data by deep learning. In Conference Proceedings."
+        },
+        {
+          "key": "2019041311050936000_602656v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv683"
+        },
+        {
+          "key": "2019041311050936000_602656v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0116106"
+        },
+        {
+          "key": "2019041311050936000_602656v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-018-2340-x"
+        },
+        {
+          "key": "2019041311050936000_602656v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep25235"
+        },
+        {
+          "key": "2019041311050936000_602656v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1016/j.virol.2015.07.023",
+          "article-title": "Does human papillomavirus-negative condylomata exist?",
+          "volume": "485",
+          "year": "2015",
+          "journal-title": "Virology"
+        },
+        {
+          "key": "2019041311050936000_602656v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ijc.29325"
+        },
+        {
+          "key": "2019041311050936000_602656v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Bzhalava and J. Dillner . Bioinformatics for viral metagenomics. J Data Mining Genomics Proteomics, 4(3), 2013.",
+          "DOI": "10.4172/2153-0602.1000134"
+        },
+        {
+          "key": "2019041311050936000_602656v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp324"
+        },
+        {
+          "key": "2019041311050936000_602656v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts174"
+        },
+        {
+          "key": "2019041311050936000_602656v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1883"
+        },
+        {
+          "key": "2019041311050936000_602656v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/2047-217X-1-18"
+        },
+        {
+          "key": "2019041311050936000_602656v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2018.0079"
+        },
+        {
+          "issue": "10-10",
+          "key": "2019041311050936000_602656v2.38",
+          "first-page": "95",
+          "article-title": "Spark: Cluster computing with working sets",
+          "volume": "10",
+          "year": "2010",
+          "journal-title": "HotCloud"
+        },
+        {
+          "key": "2019041311050936000_602656v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.1989.1.4.541"
+        },
+        {
+          "key": "2019041311050936000_602656v2.40",
+          "unstructured": "Ian Goodfellow , Yoshua Bengio , and Aaron Courville . Deep learning. MIT press, 2016."
+        },
+        {
+          "key": "2019041311050936000_602656v2.41",
+          "unstructured": "Alex Krizhevsky , Ilya Sutskever , and Geoffrey E Hinton . Imagenet classification with deep convolutional neural networks. In Advances in neural information processing systems, pages 1097\u20131105, 2012."
+        },
+        {
+          "issue": "10",
+          "key": "2019041311050936000_602656v2.42",
+          "first-page": "1995",
+          "article-title": "Convolutional networks for images, speech, and time series",
+          "volume": "3361",
+          "year": "1995",
+          "journal-title": "The handbook of brain theory and neural networks"
+        },
+        {
+          "key": "2019041311050936000_602656v2.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Geoffrey Hinton , Li Deng , Dong Yu , George Dahl , Abdel-rahman Mohamed , Navdeep Jaitly , Andrew Senior , Vincent Vanhoucke , Patrick Nguyen , and Brian Kingsbury . Deep neural networks for acoustic modeling in speech recognition. IEEE Signal processing magazine, 29, 2012.",
+          "DOI": "10.1109/MSP.2012.2205597"
+        },
+        {
+          "key": "2019041311050936000_602656v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.200535.115"
+        },
+        {
+          "issue": "10",
+          "key": "2019041311050936000_602656v2.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning\u2013based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2019041311050936000_602656v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20156651"
+        },
+        {
+          "key": "2019041311050936000_602656v2.47",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2019041311050936000_602656v2.48",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "Journal of machine learning research"
+        },
+        {
+          "key": "2019041311050936000_602656v2.49",
+          "unstructured": "Fran\u00e7ois Chollet et al. Keras. https://keras.io, 2015."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/602656",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2026-01-14T22:51:20Z",
+        "timestamp": 1768431080000
+      },
+      "score": 17.7424,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/602656"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            8
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/602656",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pone.0222271",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
     },
     {
       "indexed": {
@@ -233,7 +702,7 @@
         "date-time": "2017-09-25T11:33:35Z",
         "timestamp": 1506339215000
       },
-      "score": 17.353905,
+      "score": 17.274601,
       "resource": {
         "primary": {
           "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0004460300030004"
@@ -378,7 +847,7 @@
         "date-time": "2018-09-14T12:46:23Z",
         "timestamp": 1536929183000
       },
-      "score": 17.30426,
+      "score": 17.252506,
       "resource": {
         "primary": {
           "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006852006050616"
@@ -523,7 +992,7 @@
         "date-time": "2018-08-07T09:41:03Z",
         "timestamp": 1533634863000
       },
-      "score": 17.275019,
+      "score": 17.22525,
       "resource": {
         "primary": {
           "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006852005710582"
@@ -615,7 +1084,7 @@
         "date-time": "2023-05-15T21:17:14Z",
         "timestamp": 1684185434000
       },
-      "score": 17.232487,
+      "score": 17.17342,
       "resource": {
         "primary": {
           "URL": "https://ieeexplore.ieee.org/document/5989269"
@@ -740,7 +1209,7 @@
         "date-time": "2018-10-02T18:56:17Z",
         "timestamp": 1538506577000
       },
-      "score": 17.17825,
+      "score": 17.128506,
       "resource": {
         "primary": {
           "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780080340913500258"
@@ -842,7 +1311,7 @@
         "date-time": "2020-07-09T17:47:58Z",
         "timestamp": 1594316878000
       },
-      "score": 16.99748,
+      "score": 16.959805,
       "resource": {
         "primary": {
           "URL": "https://www.taylorfrancis.com/books/9781466510357/chapters/10.1201/b11678-8"
@@ -1084,7 +1553,7 @@
         "date-time": "2022-03-08T07:55:26Z",
         "timestamp": 1646726126000
       },
-      "score": 16.917704,
+      "score": 16.849483,
       "resource": {
         "primary": {
           "URL": "http://www.jos.org.cn/1000-9825/3739.htm"
@@ -1131,184 +1600,6 @@
             2011,
             6,
             16
-          ]
-        ]
-      }
-    },
-    {
-      "indexed": {
-        "date-parts": [
-          [
-            2026,
-            1,
-            18
-          ]
-        ],
-        "date-time": "2026-01-18T04:12:04Z",
-        "timestamp": 1768709524687,
-        "version": "3.49.0"
-      },
-      "reference-count": 0,
-      "publisher": "SCITEPRESS - Science and Technology Publications",
-      "content-domain": {
-        "domain": [],
-        "crossmark-restriction": false
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
-      "DOI": "10.5220/0008117701410150",
-      "type": "proceedings-article",
-      "created": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            9
-          ]
-        ],
-        "date-time": "2019-08-09T05:33:10Z",
-        "timestamp": 1565328790000
-      },
-      "page": "141-150",
-      "source": "Crossref",
-      "is-referenced-by-count": 1,
-      "title": [
-        "Optimization of Software Estimation Models"
-      ],
-      "prefix": "10.5220",
-      "author": [
-        {
-          "given": "Chris",
-          "family": "Kopetschny",
-          "sequence": "first",
-          "affiliation": [
-            {
-              "name": "Dezember IT GmbH, Edenkoben and Germany, --- Select a Country ---"
-            }
-          ],
-          "role": [
-            {
-              "role": "author",
-              "vocabulary": "crossref"
-            }
-          ]
-        },
-        {
-          "given": "Morgan",
-          "family": "Ericsson",
-          "sequence": "first",
-          "affiliation": [
-            {
-              "name": "Department of Computer Science, Linnaeus University, V\u00e4xj\u00f6 and Sweden, --- Select a Country ---"
-            }
-          ],
-          "role": [
-            {
-              "role": "author",
-              "vocabulary": "crossref"
-            }
-          ]
-        },
-        {
-          "given": "Welf",
-          "family": "L\u00f6we",
-          "sequence": "first",
-          "affiliation": [
-            {
-              "name": "Department of Computer Science, Linnaeus University, V\u00e4xj\u00f6 and Sweden, --- Select a Country ---"
-            }
-          ],
-          "role": [
-            {
-              "role": "author",
-              "vocabulary": "crossref"
-            }
-          ]
-        },
-        {
-          "given": "Anna",
-          "family": "Wingkvist",
-          "sequence": "first",
-          "affiliation": [
-            {
-              "name": "Department of Computer Science, Linnaeus University, V\u00e4xj\u00f6 and Sweden, --- Select a Country ---"
-            }
-          ],
-          "role": [
-            {
-              "role": "author",
-              "vocabulary": "crossref"
-            }
-          ]
-        }
-      ],
-      "member": "3171",
-      "event": {
-        "name": "14th International Conference on Software Technologies",
-        "location": "Prague, Czech Republic",
-        "start": {
-          "date-parts": [
-            [
-              2019,
-              7,
-              26
-            ]
-          ]
-        },
-        "end": {
-          "date-parts": [
-            [
-              2019,
-              7,
-              28
-            ]
-          ]
-        }
-      },
-      "container-title": [
-        "Proceedings of the 14th International Conference on Software Technologies"
-      ],
-      "original-title": [
-        "Optimization of Software Estimation Models"
-      ],
-      "deposited": {
-        "date-parts": [
-          [
-            2019,
-            8,
-            9
-          ]
-        ],
-        "date-time": "2019-08-09T05:33:19Z",
-        "timestamp": 1565328799000
-      },
-      "score": 16.780884,
-      "resource": {
-        "primary": {
-          "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0008117701410150"
-        }
-      },
-      "subtitle": [
-        ""
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2019
-          ]
-        ]
-      },
-      "references-count": 0,
-      "URL": "https://doi.org/10.5220/0008117701410150",
-      "published": {
-        "date-parts": [
-          [
-            2019
           ]
         ]
       }
@@ -1426,7 +1717,7 @@
         "date-time": "2018-10-02T22:56:17Z",
         "timestamp": 1538520977000
       },
-      "score": 16.764238,
+      "score": 16.735535,
       "resource": {
         "primary": {
           "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780080340913500076"

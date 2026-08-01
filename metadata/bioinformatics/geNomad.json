@@ -14,7 +14,41 @@
   "bioconda": {
     "package": "",
     "version": "",
-    "dependencies": {},
+    "dependencies": {
+      "build": [],
+      "run": [
+        "python",
+        "pyrodigal-gv",
+        "mmseqs2",
+        "aragorn",
+        "keras",
+        "numba",
+        "numpy",
+        "python-crfsuite",
+        "rich-click",
+        "taxopy",
+        "tensorflow",
+        "xgboost"
+      ],
+      "host": [
+        "pip",
+        "python",
+        "flit-core",
+        "run:",
+        "python",
+        "pyrodigal-gv",
+        "mmseqs2",
+        "aragorn",
+        "keras",
+        "numba",
+        "numpy",
+        "python-crfsuite",
+        "rich-click",
+        "taxopy",
+        "tensorflow",
+        "xgboost"
+      ]
+    },
     "installation": ""
   },
   "academic_impact": {
@@ -26,5 +60,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2026-06-01T15:54:30.272752"
+  "last_updated": "2026-08-01T11:21:04.336704"
 }

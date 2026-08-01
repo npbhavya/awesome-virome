@@ -1,5 +1,5 @@
 {
-  "cache_date": "2026-06-01T17:18:07.377965",
+  "cache_date": "2026-08-01T13:05:47.545426",
   "data": [
     {
       "created": "2026-04-29T23:19:28.959440+00:00",
@@ -107,14 +107,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 6,
-        "unique_views": 5,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 5,
-        "version_views": 6
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 23,
+        "unique_views": 20,
+        "version_downloads": 2,
+        "version_unique_downloads": 2,
+        "version_unique_views": 20,
+        "version_views": 23
       },
       "state": "done",
       "submitted": true
@@ -1084,14 +1084,134 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 101,
-        "unique_downloads": 97,
-        "views": 154,
-        "unique_views": 151,
-        "version_downloads": 100,
-        "version_unique_downloads": 96,
-        "version_unique_views": 150,
-        "version_views": 153
+        "downloads": 112,
+        "unique_downloads": 107,
+        "views": 179,
+        "unique_views": 174,
+        "version_downloads": 111,
+        "version_unique_downloads": 106,
+        "version_unique_views": 173,
+        "version_views": 178
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-08T07:05:49.690179+00:00",
+      "modified": "2026-07-26T13:57:34.447140+00:00",
+      "id": 21186527,
+      "conceptrecid": "21186526",
+      "doi": "10.5281/zenodo.21186527",
+      "conceptdoi": "10.5281/zenodo.21186526",
+      "doi_url": "https://doi.org/10.5281/zenodo.21186527",
+      "metadata": {
+        "title": "JMPhage Full Test Dataset",
+        "doi": "10.5281/zenodo.21186527",
+        "publication_date": "2026-07-02",
+        "description": "<h3>Test dataset and reference outputs for the JMPhage pipeline (v1.0)</h3>\n<p>This dataset provides a curated set of small input files and selected reference outputs for JMPhage v1.0, a modular one-stop pipeline for annotation, characterization, and comparative analysis of tailed phages (<em>Caudoviricetes</em>). It is intended for two purposes:</p>\n<ol>\n<li>\n<p>To let new users verify that their local installation reproduces the expected behavior of each JMPhage subcommand.</p>\n</li>\n<li>\n<p>To serve as a lightweight worked example of what typical JMPhage outputs look like in both single-phage and multi-phage (joint) modes.</p>\n</li>\n</ol>\n<blockquote>\n<p><strong>Note on file selection:</strong> A complete JMPhage output directory can reach several gigabytes per phage once all intermediate files (BAM alignments, Pharokka native outputs, vConTACT2 intermediates, VIRIDIC working directories, GLUVAB per-tree scratch files, etc.) are retained. To keep this archive at a manageable size, only key end-user output files from each module are included. Intermediate files, native tool outputs, and per-tree scratch data have been removed. Users who run JMPhage locally on the provided inputs will obtain a superset of these outputs.</p>\n</blockquote>\n<h3>Directory Structure and Dataset Contents</h3>\n<ul>\n<li>\n<p><strong><code>single_phage/</code></strong> &mdash; Three worked examples of single-genome analysis:</p>\n<ul>\n<li>\n<p><strong><code>vB_EcoM-Sa45lw_all_mode/</code></strong>: <em>Escherichia coli</em> phage vB_EcoM-Sa45lw analyzed in <code>all</code> mode (assembly + paired-end reads).</p>\n</li>\n<li>\n<p><strong><code>z90_all_mode/</code></strong>: <em>Aeromonas hydrophila</em> jumbo phage Z90 (234 kb) analyzed in <code>all</code> mode (assembly + paired-end reads).</p>\n</li>\n<li>\n<p><strong><code>vB_EcoS-UDS3lw_nomapping_mode/</code></strong>: <em>Escherichia coli</em> phage vB_EcoS-UDS3lw analyzed in <code>no_mapping</code> mode (assembly only).</p>\n</li>\n</ul>\n<p>&nbsp;</p>\n</li>\n<li>\n<p><strong><code>joint_phage/</code></strong> &mdash; Two worked examples of multi-phage joint analysis:</p>\n<ul>\n<li>\n<p><strong><code>joint_all_mode/</code></strong>: Two phages (vB_EcoM-Sa45lw and Z90) analyzed jointly in <code>all</code> mode. Contains per-phage subdirectories plus a shared <code>summary/</code> directory with the joint vConTACT2 network, joint ANI heatmap, and joint phylogenetic tree.</p>\n</li>\n<li>\n<p><strong><code>joint_nomapping_mode/</code></strong>: Four <em>Staphylococcus epidermidis</em> phages (vB_Sep_steph1&ndash;4) analyzed jointly in <code>no_mapping</code> mode, illustrating the joint workflow when no paired-end reads are available.</p>\n</li>\n</ul>\n</li>\n</ul>\n<h3>Files Retained per Module</h3>\n<p>The archive keeps the following representative files per phage output directory:</p>\n<ul>\n<li>\n<p><strong><code>1.read_mapping/</code></strong>: <code>base_depth.tsv</code>, <code>depth_plot.pdf</code>, and the <code>phageterm/</code> report subdirectory</p>\n</li>\n<li>\n<p><strong><code>2.ORF_prediction/</code></strong>: <code>phanotate.faa</code>, <code>&lt;phage&gt;.gbk</code>, <code>&lt;phage&gt;.gff</code></p>\n</li>\n<li>\n<p><strong><code>3.function_annotation/</code></strong>: <code>&lt;phage&gt;_top_vog.tsv</code></p>\n</li>\n<li>\n<p><strong><code>4.genome_visualization/</code></strong>: <code>genome_features_classified.tsv</code>, <code>protein_function_summary.tsv</code>, <code>genome_plot.pdf</code></p>\n</li>\n<li>\n<p><strong><code>5.shared_network/</code></strong>: <code>c1.ntw</code></p>\n</li>\n<li>\n<p><strong><code>6.collinearity_analysis/</code></strong>: <code>gene_functions.csv</code>, <code>&lt;phage&gt;.html</code></p>\n</li>\n<li>\n<p><strong><code>7.ANI_analysis/</code></strong>: <code>Heatmap.PDF</code>, <code>sim_MA_genCol.csv</code></p>\n</li>\n<li>\n<p><strong><code>8.phylogenetic_tree/</code></strong>: <code>&lt;phage&gt;_tree.pdf</code>, <code>small_tree/</code>, <code>big_tree/</code></p>\n</li>\n</ul>\n<p>For joint runs, the <strong><code>summary/</code></strong> directory additionally contains: <code>pipeline_report.tsv</code>, <code>shared_network/</code>, <code>ANI_analysis/</code>, and <code>phylogenetic_tree/</code>.</p>\n<blockquote>\n<p><strong>Omitted Files:</strong> Files omitted to save space include sorted BAM alignments, Pharokka native output subdirectories, raw DIAMOND/HMMER search tables, vConTACT2 intermediate files, VIRIDIC working directories, and GLUVAB per-tree scratch files.</p>\n</blockquote>\n<h3>Related Resources</h3>\n<ul>\n<li>\n<p><strong>JMPhage Source Code:</strong> <a class=\"ng-star-inserted\" href=\"https://github.com/linxiaoxu02/JMPhage.git\" rel=\"noopener\">https://github.com/linxiaoxu02/JMPhage.git</a></p>\n</li>\n<li>\n<p><strong>JMPhage Reference Database (<code>jm_db</code>):</strong> <a class=\"ng-star-inserted\" href=\"https://doi.org/10.5281/zenodo.20838733\" rel=\"noopener\">https://doi.org/10.5281/zenodo.20838733</a></p>\n</li>\n</ul>\n<h3>License</h3>\n<p>Distributed under the <strong>GNU General Public License v3.0</strong>, consistent with the JMPhage source code.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Lin, Xiaoxu",
+            "affiliation": "Fujian Agriculture and Forestry University"
+          },
+          {
+            "name": "Yu, Meishun",
+            "affiliation": "Xiamen University"
+          }
+        ],
+        "keywords": [
+          "bacteriophage",
+          "Caudoviricetes",
+          "test dataset",
+          "JMPhage"
+        ],
+        "language": "eng",
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21186526"
+              }
+            }
+          ]
+        }
+      },
+      "title": "JMPhage Full Test Dataset",
+      "links": {
+        "self": "https://zenodo.org/api/records/21186527",
+        "self_html": "https://zenodo.org/records/21186527",
+        "preview_html": "https://zenodo.org/records/21186527?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21186527",
+        "self_doi": "https://doi.org/10.5281/zenodo.21186527",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21186527",
+        "reserve_doi": "https://zenodo.org/api/records/21186527/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21186526",
+        "parent_html": "https://zenodo.org/records/21186526",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21186526",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21186526",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21186527/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21186527/sequence/default",
+        "files": "https://zenodo.org/api/records/21186527/files",
+        "media_files": "https://zenodo.org/api/records/21186527/media-files",
+        "archive": "https://zenodo.org/api/records/21186527/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21186527/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21186527/versions/latest",
+        "latest_html": "https://zenodo.org/records/21186527/latest",
+        "versions": "https://zenodo.org/api/records/21186527/versions",
+        "draft": "https://zenodo.org/api/records/21186527/draft",
+        "access_links": "https://zenodo.org/api/records/21186527/access/links",
+        "access_grants": "https://zenodo.org/api/records/21186527/access/grants",
+        "access_users": "https://zenodo.org/api/records/21186527/access/users",
+        "access_request": "https://zenodo.org/api/records/21186527/access/request",
+        "access": "https://zenodo.org/api/records/21186527/access",
+        "communities": "https://zenodo.org/api/records/21186527/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21186527/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21186527/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21186527/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21186527/quota-increase",
+        "requests": "https://zenodo.org/api/records/21186527/requests"
+      },
+      "updated": "2026-07-26T13:57:34.447140+00:00",
+      "recid": "21186527",
+      "revision": 6,
+      "files": [
+        {
+          "id": "4541fe30-ad99-4f2f-bb54-7496bddc019e",
+          "key": "JMPhage_test.tar.gz",
+          "size": 9395519355,
+          "checksum": "md5:6e239526345f7e7821a7fbc09dd38a66",
+          "links": {
+            "self": "https://zenodo.org/api/records/21186527/files/JMPhage_test.tar.gz/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1691035"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 13,
+        "unique_views": 11,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 11,
+        "version_views": 13
       },
       "state": "done",
       "submitted": true

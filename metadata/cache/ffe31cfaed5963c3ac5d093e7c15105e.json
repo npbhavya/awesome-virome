@@ -1,44 +1,77 @@
 {
-  "cache_date": "2026-06-01T16:41:07.682280",
+  "cache_date": "2026-08-01T12:07:02.426982",
   "data": [
     {
-      "created": "2026-06-01T16:34:58.409237+00:00",
-      "modified": "2026-06-01T16:34:58.508810+00:00",
-      "id": 20493273,
-      "conceptrecid": "20492201",
-      "doi": "10.5281/zenodo.20493273",
-      "conceptdoi": "10.5281/zenodo.20492201",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493273",
+      "created": "2026-08-01T11:36:42.974891+00:00",
+      "modified": "2026-08-01T11:36:43.203982+00:00",
+      "id": 21738637,
+      "conceptrecid": "21738636",
+      "doi": "10.5281/zenodo.21738637",
+      "conceptdoi": "10.5281/zenodo.21738636",
+      "doi_url": "https://doi.org/10.5281/zenodo.21738637",
       "metadata": {
-        "title": "H3 Integrated Information Geometry: Phi as Hyperbolic Geodesic Curvature and ZPL as the Binding Problem Solution",
-        "doi": "10.5281/zenodo.20493273",
-        "publication_date": "2026-06-01",
-        "description": "Integrated Information Theory Phi realized as H3 geodesic curvature of system phase trajectory. Theorem OG-CON01: For K22 system, Phi=kappa^2*(1-exp(-lambda_coherence*t)) saturating at kappa^2=2.567 for perfectly integrated systems. Binding problem solved by ZPL: |sum_k exp(2*pi*i*k/231)|=0 algebraically guarantees zero net phase disagreement across all 231 gate pairings. Theorem OG-CON02: Neural system satisfying ZPL + KAM (lambda&lt;0.01) is in maximally coherent integrated state. Sefirot potential provides topological map of conscious states from Malkuth (high entropy) to Kether (ZPL satisfied). kappa=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
+        "title": "Long-Run SSP Population and Human-Capital Projections, 2025-Rebased, 2100-2300 (zen2300y2025V01)",
+        "doi": "10.5281/zenodo.21738637",
+        "publication_date": "2026-08-01",
+        "description": "<p>This dataset (version zen2300y2025V01) extends the 2025-rebased SSP population and&nbsp;human-capital projections beyond the conventional 2100 horizon to the year 2300. It is the long-run continuation of the 2025-2100 release (doi 10.5281/zenodo.21738149) and covers four Shared Socioeconomic Pathways: SSP1, SSP2, SSP3, and SSP5. Results are disaggregated by region, sex, five-year age group, and six levels of educational attainment, at five-year intervals, for 200 countries and territories together with UN area, subregion, and world aggregates. Files are gzip-compressed CSV and can be read without unpacking.&nbsp;</p>\n<p>Each scenario is provided as a separate file. The dataset also includes a recode dictionary, a file overview, and a README describing structure and caveats.</p>\n<p>No SSP4 extension. The long-run extension was produced for SSP1, SSP2, SSP3, and SSP5 only. Analyses requiring SSP4 must stop at 2100.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
+            "name": "KC, Samir",
+            "affiliation": "Population and Statistics Research Hub",
+            "orcid": "0000-0002-5213-9181"
           }
         ],
         "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "consciousness",
-          "IIT",
-          "binding problem",
-          "H3 geometry",
-          "neural coherence",
-          "cognitive science",
-          "integrated information"
+          "demographic projections",
+          "long-term population",
+          "population projections",
+          "SSP scenarios",
+          "Shared Socioeconomic Pathways",
+          "multidimensional demography",
+          "human capital",
+          "educational attainment",
+          "population to 2300",
+          "global population scenarios",
+          "2025 base year"
         ],
+        "related_identifiers": [
+          {
+            "identifier": "10.5281/zenodo.21738149",
+            "relation": "continues",
+            "resource_type": "dataset",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.14718294",
+            "relation": "isDerivedFrom",
+            "resource_type": "dataset",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5281/zenodo.18596542",
+            "relation": "references",
+            "resource_type": "dataset",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://pure.iiasa.ac.at/id/eprint/19487/",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-workingpaper",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.1016/j.gloenvcha.2015.01.004",
+            "relation": "cites",
+            "resource_type": "publication-peerreview",
+            "scheme": "doi"
+          }
+        ],
+        "version": "zen2300y2025V01",
+        "language": "eng",
         "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
+          "title": "Dataset",
+          "type": "dataset"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -46,69 +79,124 @@
         "relations": {
           "version": [
             {
-              "index": 1,
+              "index": 0,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20492201"
+                "pid_value": "21738636"
               }
             }
           ]
-        }
+        },
+        "method": "<p>These projections are produced with the Multidimensional Demographic Modelling (MDM) workflow, the multidimensional cohort-component model used for the Wittgenstein Centre (WIC) population and human-capital projections (Lutz, Butz &amp; KC, 2014; KC &amp; Lutz, 2017). Population is projected in five-year steps by country, sex, five-year age group, and six levels of educational attainment (no education, some primary, primary, lower secondary, upper secondary, post-secondary).</p>\n<p>The projections to 2100 build on the WIC2023 round of the SSP population and human-capital projections (KC et al., 2024), re-anchored on the projected 2025 population by age, sex, and education from the SSP2 pathway. That 2025 state is the common jump-off for all pathways, with the SSP1, SSP3, and SSP5 assumptions (O'Neill et al., 2017) applied from 2025 onward. SSP2 is unchanged by the re-basing: the SSP2 pathway already passes through its own 2025 state, so the re-based SSP2 and the original SSP2 describe the same trajectory, and the SSP2 file here is identical to the corresponding file in the 2020-based long-run record.</p>\n<p>Long-run assumptions. Beyond 2100 the pathways converge to fixed fertility and mortality schedules. The SSP2 total fertility rate converges to 1.75 children per woman by 2200 across all countries. For SSP1 and SSP5, the low-fertility variant applied to the education-specific fertility schedules yields a global average near 1.53 by 2200; for SSP3, the high-fertility variant yields approximately 1.97. These last two values are outcomes of the variant schedules and the population composition, not independently imposed global convergence targets in the way the SSP2 value is. Life expectancy at birth is assumed to continue rising toward a cap of 105 years for both sexes; some countries do not reach that level by 2300. Net international migration converges toward zero in the long run.</p>\n<p>Horizon. The SSP1, SSP3, and SSP5 source runs extend to 2500, but all four scenarios are truncated here at 2300 so that the set is internally uniform and directly comparable with the 2020-based long-run record.</p>\n<p>Relationship to other releases&nbsp;</p>\n<p>Wittgenstein Centre (WIC) Population and Human Capital Projections 2023, V14, 2020 base to 2100: doi 10.5281/zenodo.14718294. SSP Projections, 2025-rebased, 2025-2100: doi 10.5281/zenodo.21738149, which this dataset continues in time. SSP Population Projections to 2300 (zen2300V15), 2020 base, 2100-2300: doi 10.5281/zenodo.18596542, which covers the same years from a different base year. Re-basing changes long-run totals by under one percent and leaves SSP2 identical, but the two long-run records should not be mixed within a single analysis.</p>\n<p>Notes for users</p>\n<p>The files contain individual countries together with UN area, subregion, and world aggregates in the same table. Filter on the region_level column before aggregating, otherwise totals will be double-counted. Rows with agest = -5 are a newborn accounting placeholder rather than a stock age group and should be excluded when computing population stocks; a small number of terminal-period rows at that age carry negligible negative values as a rounding artefact.</p>\n<p>These are scenario outputs, not probabilistic forecasts. Two centuries beyond the conventional projection horizon, they are best read as a disciplined thought experiment about what follows if the demographic assumptions embedded in the SSPs are maintained, not as predictions. Country-level results for small territories warrant particular caution; in this version Mayotte shows implausible long-run growth arising from its high starting fertility combined with a small&nbsp; opulation denominator.</p>\n<p>References</p>\n<p>KC, S., Dhakad, M., Potan\u010dokov&aacute;, M., Adhikari, S., Yildiz, D., Mamolo, M., Sobotka, T., Zeman, K., Abel, G., Lutz, W., &amp; Goujon, A. (2024). Updating the Shared Socioeconomic Pathways (SSPs) Global Population and Human Capital Projections. Laxenburg: International Institute for Applied Systems Analysis. https://pure.iiasa.ac.at/id/eprint/19487/</p>\n<p>KC, S., &amp; Lutz, W. (2017). The human core of the shared socioeconomic pathways: Population scenarios by age, sex and level of education for all countries to 2100. Global Environmental Change, 42, 181-192.</p>\n<p>Lutz, W., Butz, W. P., &amp; KC, S. (Eds.). (2014). World Population and Human Capital in the Twenty-First Century. Oxford: Oxford University Press. ISBN 978-0-19-870316-7.</p>\n<p>O'Neill, B. C., Kriegler, E., Ebi, K. L., Kemp-Benedict, E., Riahi, K., Rothman, D. S., van Ruijven, B. J., van Vuuren, D. P., Birkmann, J., Kok, K., Levy, M., &amp; Solecki, W. (2017). The roads ahead: Narratives for shared socioeconomic pathways describing world futures in the 21st century. Global Environmental Change, 42, 169-180. https://doi.org/10.1016/j.gloenvcha.2015.01.004</p>"
       },
-      "title": "H3 Integrated Information Geometry: Phi as Hyperbolic Geodesic Curvature and ZPL as the Binding Problem Solution",
+      "title": "Long-Run SSP Population and Human-Capital Projections, 2025-Rebased, 2100-2300 (zen2300y2025V01)",
       "links": {
-        "self": "https://zenodo.org/api/records/20493273",
-        "self_html": "https://zenodo.org/records/20493273",
-        "preview_html": "https://zenodo.org/records/20493273?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493273",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493273",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493273",
-        "reserve_doi": "https://zenodo.org/api/records/20493273/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20492201",
-        "parent_html": "https://zenodo.org/records/20492201",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20492201",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20492201",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493273/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493273/sequence/default",
-        "files": "https://zenodo.org/api/records/20493273/files",
-        "media_files": "https://zenodo.org/api/records/20493273/media-files",
-        "archive": "https://zenodo.org/api/records/20493273/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493273/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493273/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493273/latest",
-        "versions": "https://zenodo.org/api/records/20493273/versions",
-        "draft": "https://zenodo.org/api/records/20493273/draft",
-        "access_links": "https://zenodo.org/api/records/20493273/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493273/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493273/access/users",
-        "access_request": "https://zenodo.org/api/records/20493273/access/request",
-        "access": "https://zenodo.org/api/records/20493273/access",
-        "communities": "https://zenodo.org/api/records/20493273/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493273/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493273/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493273/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493273/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493273/requests"
+        "self": "https://zenodo.org/api/records/21738637",
+        "self_html": "https://zenodo.org/records/21738637",
+        "preview_html": "https://zenodo.org/records/21738637?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21738637",
+        "self_doi": "https://doi.org/10.5281/zenodo.21738637",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21738637",
+        "reserve_doi": "https://zenodo.org/api/records/21738637/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21738636",
+        "parent_html": "https://zenodo.org/records/21738636",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21738636",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21738636",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21738637/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21738637/sequence/default",
+        "files": "https://zenodo.org/api/records/21738637/files",
+        "media_files": "https://zenodo.org/api/records/21738637/media-files",
+        "archive": "https://zenodo.org/api/records/21738637/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21738637/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21738637/versions/latest",
+        "latest_html": "https://zenodo.org/records/21738637/latest",
+        "versions": "https://zenodo.org/api/records/21738637/versions",
+        "draft": "https://zenodo.org/api/records/21738637/draft",
+        "access_links": "https://zenodo.org/api/records/21738637/access/links",
+        "access_grants": "https://zenodo.org/api/records/21738637/access/grants",
+        "access_users": "https://zenodo.org/api/records/21738637/access/users",
+        "access_request": "https://zenodo.org/api/records/21738637/access/request",
+        "access": "https://zenodo.org/api/records/21738637/access",
+        "communities": "https://zenodo.org/api/records/21738637/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21738637/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21738637/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21738637/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21738637/quota-increase",
+        "requests": "https://zenodo.org/api/records/21738637/requests"
       },
-      "updated": "2026-06-01T16:34:58.508810+00:00",
-      "recid": "20493273",
+      "updated": "2026-08-01T11:36:43.203982+00:00",
+      "recid": "21738637",
       "revision": 4,
       "files": [
         {
-          "id": "c47bac36-cef8-4bdf-b300-4f3b3ebf16cf",
-          "key": "pfmi_compliance_zkp_proof.zip",
-          "size": 2532,
-          "checksum": "md5:fcb7748c503613cf2351f660aec5576c",
+          "id": "5b027cc3-1bb1-42e0-bce7-4932d41cd97a",
+          "key": "Recode dictionary.csv",
+          "size": 22510,
+          "checksum": "md5:fd1249c31620cb9b4457bc990e923152",
           "links": {
-            "self": "https://zenodo.org/api/records/20493273/files/pfmi_compliance_zkp_proof.zip/content"
+            "self": "https://zenodo.org/api/records/21738637/files/Recode%20dictionary.csv/content"
+          }
+        },
+        {
+          "id": "80d4f696-4e28-4683-b840-ad0404749be6",
+          "key": "README.md",
+          "size": 5474,
+          "checksum": "md5:53c40125e2c57b05671158498c5d0eb6",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738637/files/README.md/content"
+          }
+        },
+        {
+          "id": "4c232726-94a9-4011-a849-37a6ed45d89d",
+          "key": "File description.csv",
+          "size": 572,
+          "checksum": "md5:ad38a48eced2af8641444c5570ce2f27",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738637/files/File%20description.csv/content"
+          }
+        },
+        {
+          "id": "bb26d099-3ea7-495c-9ae3-2bde1b65f0f5",
+          "key": "PROJresult_AGE_SSP22300y2025_V01.csv.gz",
+          "size": 79422641,
+          "checksum": "md5:2056db3695ee76ce8478a03f67dc01a0",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738637/files/PROJresult_AGE_SSP22300y2025_V01.csv.gz/content"
+          }
+        },
+        {
+          "id": "d2ae8e81-277c-4961-8e50-85483fd3ef88",
+          "key": "PROJresult_AGE_SSP12300y2025_V01.csv.gz",
+          "size": 80170969,
+          "checksum": "md5:05eff788398856053281f9c79ee61bc6",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738637/files/PROJresult_AGE_SSP12300y2025_V01.csv.gz/content"
+          }
+        },
+        {
+          "id": "19a90c20-f3d0-4585-b664-07bcdbd86df8",
+          "key": "PROJresult_AGE_SSP32300y2025_V01.csv.gz",
+          "size": 80061289,
+          "checksum": "md5:1c9d6090fe2a010a311be521984accea",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738637/files/PROJresult_AGE_SSP32300y2025_V01.csv.gz/content"
+          }
+        },
+        {
+          "id": "1ba4acad-915c-4701-92c7-70072a9d2d2a",
+          "key": "PROJresult_AGE_SSP52300y2025_V01.csv.gz",
+          "size": 80162833,
+          "checksum": "md5:8a831de0cee2dadd65518807ec59d77e",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738637/files/PROJresult_AGE_SSP52300y2025_V01.csv.gz/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1358538"
+          "id": "521874"
         }
       ],
       "status": "published",
@@ -126,101 +214,485 @@
       "submitted": true
     },
     {
-      "created": "2026-06-01T16:34:38.598709+00:00",
-      "modified": "2026-06-01T16:34:38.941922+00:00",
-      "id": 20494274,
-      "conceptrecid": "20494273",
-      "doi": "10.5281/zenodo.20494274",
-      "conceptdoi": "10.5281/zenodo.20494273",
-      "doi_url": "https://doi.org/10.5281/zenodo.20494274",
+      "created": "2026-08-01T11:02:26.394439+00:00",
+      "modified": "2026-08-01T11:02:26.815957+00:00",
+      "id": 21738149,
+      "conceptrecid": "21738148",
+      "doi": "10.5281/zenodo.21738149",
+      "conceptdoi": "10.5281/zenodo.21738148",
+      "doi_url": "https://doi.org/10.5281/zenodo.21738149",
       "metadata": {
-        "title": "Enoclerus zebra",
-        "doi": "10.5281/zenodo.20494274",
-        "publication_date": "2025-12-19",
-        "description": "<p><b><i>Enoclerus zebra</i> (Chevrolat, 1843)</b></p><p>NicaRagua, N. Segovia, CeRRo Jesus, VI-7-2013, floweRs CRoton dRaco, 1100m, tRoPic net 13.97&deg;N, 86.18&deg;W, B. RabeR, D. HeffeRn 7 E. van den BeRghe (JNRC).</p><p>GuatemaLa, Huehuetenango DePt., La Laguna, 735, HoteL deL Bosque, N 15.76419&deg; W 91.84991&deg;, 5 SePt 2019, geneRaL coLLecting (WSUC).</p>",
+        "title": "SSP Population and Human-Capital Projections, 2025-Rebased, 2025-2100 (zen2025V01)",
+        "doi": "10.5281/zenodo.21738149",
+        "publication_date": "2026-08-01",
+        "description": "<p>This dataset (version zen2025V01) provides population and human-capital projection<br>outputs for the five Shared Socioeconomic Pathways (SSPs), re-based on a 2025 jump-off<br>population, covering 2025-2100 at five-year intervals. Results are generated with the<br>Multidimensional Demographic Modelling (MDM) workflow, the cohort-component machinery<br>used for the Wittgenstein Centre / SSP projections, and are disaggregated by region, sex,<br>five-year age group, and six levels of educational attainment. All files are provided in<br>open CSV format.</p>\n<p>Each scenario is uploaded as a separate CSV file, allowing users to download only the<br>pathway they need. In addition to the projection outputs, the dataset includes a recode<br>dictionary and a file overview to support interpretation, together with a README<br>describing the structure and known caveats.</p>\n<p>The projection files contain five-year interval estimates of population size, births,<br>deaths, immigration, and emigration by region, sex, age, and education. Variable<br>descriptions, value labels, and category mappings are provided in Recode dictionary.csv.</p>\n<p>Note on SSP2: SSP2 is unchanged by the 2025 re-basing. The re-basing takes the SSP2<br>projection's 2025 population as the new jump-off state and applies the SSP1, SSP3, SSP4,<br>and SSP5 assumptions from 2025 onward. SSP2 projected from the earlier base year already<br>passes through exactly that state, so the 2025-based SSP2 and the original SSP2 describe<br>the same trajectory. All five scenarios therefore share an identical 2025 population of<br>approximately 8.15 billion, and the SSP2 file serves as the common reference pathway.</p>\n<p>Notes for users: the files contain individual countries together with UN area, subregion,<br>and world aggregates in the same table. Filter on the region_level column before<br>aggregating, otherwise totals will be double-counted. Rows with agest = -5 are a newborn<br>accounting placeholder rather than a stock age group and should be excluded when computing<br>population stocks; a small number of terminal-period rows at that age carry negligible<br>negative values as a rounding artefact.</p>\n<p>These are scenario outputs, not probabilistic forecasts. They should not be read as<br>predictions, and long-run country-level results for small territories warrant particular<br>caution.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Rifkind, Jacques",
-            "affiliation": "CaLifoRnia State CoLLection of ARthRoPods 3294 Meadowview Road, SacRamento, CA 95832 USA"
+            "name": "KC, Samir",
+            "affiliation": "Population and Statistics Research Hub",
+            "orcid": "0000-0002-5213-9181"
           }
         ],
         "keywords": [
-          "Biodiversity",
-          "Taxonomy",
-          "Animalia",
-          "Arthropoda",
-          "Insecta",
-          "Coleoptera",
-          "Cleridae",
-          "Enoclerus",
-          "Enoclerus zebra"
+          "demographic projections",
+          "population projections",
+          "SSP scenarios",
+          "Shared Socioeconomic Pathways",
+          "multidimensional demography",
+          "human capital",
+          "educational attainment",
+          "global population scenarios",
+          "2025 base year"
         ],
         "related_identifiers": [
           {
-            "identifier": "10.64338/im.1163.v7hl4",
-            "relation": "isPartOf",
-            "resource_type": "publication-article",
+            "identifier": "10.5281/zenodo.14718294",
+            "relation": "isDerivedFrom",
+            "resource_type": "dataset",
             "scheme": "doi"
           },
           {
-            "identifier": "http://publication.plazi.org/id/FFB8FFC22160FFFCFFC6476FFF8BFFD6",
-            "relation": "isPartOf",
-            "resource_type": "publication-article",
-            "scheme": "url"
+            "identifier": "10.5281/zenodo.18596542",
+            "relation": "references",
+            "resource_type": "dataset",
+            "scheme": "doi"
           },
           {
-            "identifier": "https://biodiversitypmc.sibils.org/collections/plazi/038187BA216CFFF0FF06478AFE7FFE48",
-            "relation": "isSourceOf",
+            "identifier": "10.1016/j.gloenvcha.2015.01.004",
+            "relation": "cites",
+            "resource_type": "publication-peerreview",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://pure.iiasa.ac.at/id/eprint/19487/",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-workingpaper",
             "scheme": "url"
           }
         ],
-        "custom": {
-          "dwc:family": [
-            "Cleridae"
-          ],
-          "dwc:genus": [
-            "Enoclerus"
-          ],
-          "dwc:kingdom": [
-            "Animalia"
-          ],
-          "dwc:order": [
-            "Coleoptera"
-          ],
-          "dwc:phylum": [
-            "Arthropoda"
-          ],
-          "dwc:scientificNameAuthorship": [
-            "Chevrolat"
-          ],
-          "dwc:specificEpithet": [
-            "zebra"
-          ],
-          "dwc:taxonRank": [
-            "species"
-          ],
-          "openbiodiv:TaxonomicConceptLabel": [
-            "Enoclerus zebra (Chevrolat, 1843) sec. Rifkind, 2025"
+        "version": "zen2025V01",
+        "language": "eng",
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21738148"
+              }
+            }
           ]
         },
-        "resource_type": {
-          "title": "Taxonomic treatment",
-          "type": "publication",
-          "subtype": "taxonomictreatment"
+        "method": "<p>These projections are produced with the Multidimensional Demographic Modelling (MDM)<br>workflow, the multidimensional cohort-component model used for the Wittgenstein Centre<br>(WIC) population and human-capital projections (Lutz, Butz &amp; KC, 2014; KC &amp; Lutz, 2017).<br>Population is projected in five-year steps by country, sex, five-year age group, and six<br>levels of educational attainment (no education, some primary, primary, lower secondary,<br>upper secondary, post-secondary). Coverage is 200 countries and territories; UN area,<br>subregion, and world figures are aggregated from the country results.</p>\n<p>Starting point. The scenarios build on the WIC2023 round of the SSP population and<br>human-capital projections (KC et al., 2024). WIC2023 uses 2020 as its reference year and<br>revised the treatment of fertility, mortality, education, and migration relative to earlier<br>rounds, including updated education-specific fertility estimates, country- and<br>region-specific education differentials in mortality, and, for the first time,<br>education-specific migration rates.</p>\n<p>The 2025 re-basing. Rather than re-estimating a new empirical base year, the scenarios in<br>this dataset are re-anchored on the projected 2025 population by age, sex, and education<br>from the SSP2 pathway. That 2025 state becomes the common jump-off for all five SSPs, and<br>the SSP1, SSP3, SSP4, and SSP5 assumptions (O'Neill et al., 2017) on fertility, mortality,<br>educational attainment, and migration are applied from 2025 onward.</p>\n<p>One consequence deserves emphasis: SSP2 is unchanged by the re-basing. The SSP2 pathway<br>projected from 2020 already passes through its own 2025 state, so the re-based SSP2 and the<br>original SSP2 describe the same trajectory. All five scenarios share an identical 2025<br>population of approximately 8.15 billion, and divergence between them emerges only after<br>2025. The SSP2 file therefore serves as the reference pathway for the set.</p>\n<p>Scenario assumptions. Fertility and educational-attainment transitions follow the<br>SSP-specific assumptions of the corresponding WIC2023 pathway. Mortality follows the<br>low-mortality variant under SSP1 and SSP5 and the high-mortality variant under SSP3,<br>consistent with the SSP narratives (O'Neill et al., 2017). SSP4 combines the two by country<br>group: high-fertility countries take the high-mortality schedule, as in SSP3, while the<br>remaining countries follow the medium schedule used for SSP2. Migration is modelled with<br>age-specific emigration and immigration rates, with net international migration converging<br>to zero by 2060 and an additional correction applied to migration below age 15. All<br>scenarios carry the Ukraine displacement adjustment used in the WIC2023 baseline.</p>\n<p>Outputs. Each file reports population stocks by cell together with the period flows that<br>generate them, births, deaths, immigration, and emigration, for every five-year period<br>from 2025 to 2100.</p>\n<p>Status. These are scenario outputs, not probabilistic forecasts. They make a set of<br>internally consistent assumptions explicit and traceable; they are not predictions, and<br>long-run country-level results for small territories should be interpreted with care.</p>\n<p>References</p>\n<p>KC, S., Dhakad, M., Potan\u010dokov&aacute;, M., Adhikari, S., Yildiz, D., Mamolo, M., Sobotka, T.,<br>Zeman, K., Abel, G., Lutz, W., &amp; Goujon, A. (2024). Updating the Shared Socioeconomic<br>Pathways (SSPs) Global Population and Human Capital Projections. Laxenburg: International<br>Institute for Applied Systems Analysis. https://pure.iiasa.ac.at/id/eprint/19487/</p>\n<p>KC, S., &amp; Lutz, W. (2017). The human core of the shared socioeconomic pathways: Population<br>scenarios by age, sex and level of education for all countries to 2100. Global<br>Environmental Change, 42, 181-192.</p>\n<p>Lutz, W., Butz, W. P., &amp; KC, S. (Eds.). (2014). World Population and Human Capital in the<br>Twenty-First Century. Oxford: Oxford University Press. ISBN 978-0-19-870316-7.</p>\n<p>O'Neill, B. C., Kriegler, E., Ebi, K. L., Kemp-Benedict, E., Riahi, K., Rothman, D. S.,<br>van Ruijven, B. J., van Vuuren, D. P., Birkmann, J., Kok, K., Levy, M., &amp; Solecki, W.<br>(2017). The roads ahead: Narratives for shared socioeconomic pathways describing world<br>futures in the 21st century. Global Environmental Change, 42, 169-180.<br>https://doi.org/10.1016/j.gloenvcha.2015.01.004I thi</p>"
+      },
+      "title": "SSP Population and Human-Capital Projections, 2025-Rebased, 2025-2100 (zen2025V01)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21738149",
+        "self_html": "https://zenodo.org/records/21738149",
+        "preview_html": "https://zenodo.org/records/21738149?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21738149",
+        "self_doi": "https://doi.org/10.5281/zenodo.21738149",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21738149",
+        "reserve_doi": "https://zenodo.org/api/records/21738149/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21738148",
+        "parent_html": "https://zenodo.org/records/21738148",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21738148",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21738148",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21738149/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21738149/sequence/default",
+        "files": "https://zenodo.org/api/records/21738149/files",
+        "media_files": "https://zenodo.org/api/records/21738149/media-files",
+        "archive": "https://zenodo.org/api/records/21738149/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21738149/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21738149/versions/latest",
+        "latest_html": "https://zenodo.org/records/21738149/latest",
+        "versions": "https://zenodo.org/api/records/21738149/versions",
+        "draft": "https://zenodo.org/api/records/21738149/draft",
+        "access_links": "https://zenodo.org/api/records/21738149/access/links",
+        "access_grants": "https://zenodo.org/api/records/21738149/access/grants",
+        "access_users": "https://zenodo.org/api/records/21738149/access/users",
+        "access_request": "https://zenodo.org/api/records/21738149/access/request",
+        "access": "https://zenodo.org/api/records/21738149/access",
+        "communities": "https://zenodo.org/api/records/21738149/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21738149/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21738149/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21738149/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21738149/quota-increase",
+        "requests": "https://zenodo.org/api/records/21738149/requests"
+      },
+      "updated": "2026-08-01T11:02:26.815957+00:00",
+      "recid": "21738149",
+      "revision": 4,
+      "files": [
+        {
+          "id": "59021fa5-a946-4995-84b2-8c3267bf3bd7",
+          "key": "README.md",
+          "size": 4663,
+          "checksum": "md5:34e5272cfa6de4780d94ef1318ee7405",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/README.md/content"
+          }
         },
-        "journal": {
-          "pages": "11",
-          "title": "On the identity of Enoclerus crabronarius (SPinoLa), with the descRiPtion of a new sPecies of Enoclerus Gahan, and new distRibutionaL RecoRds foR Mexican and CentRaL AmeRican CLeRidae (CoLeoPteRa), pp. 1-12 in Insecta Mundi",
-          "volume": "2025"
+        {
+          "id": "426b13e9-577b-4718-a327-7b4144ce5f8b",
+          "key": "Recode dictionary.csv",
+          "size": 20741,
+          "checksum": "md5:415c3497e8ce4cf113f6662b726dbd3f",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/Recode%20dictionary.csv/content"
+          }
         },
-        "alternate_identifiers": [
+        {
+          "id": "a48c2869-b306-423c-939f-f8cf9afbaf25",
+          "key": "File description.csv",
+          "size": 645,
+          "checksum": "md5:5fb51ab3730560fdc0783da7d133461d",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/File%20description.csv/content"
+          }
+        },
+        {
+          "id": "3dfb4e2d-358f-4ee5-8c87-235c4ce966b9",
+          "key": "PROJresult_AGE_SSP5y2025_V01.csv",
+          "size": 130792556,
+          "checksum": "md5:01ecf15e763681c0cbc7a6d43f000971",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/PROJresult_AGE_SSP5y2025_V01.csv/content"
+          }
+        },
+        {
+          "id": "64a74cb5-7ccb-4280-8c03-ce416b87cbd5",
+          "key": "PROJresult_AGE_SSP4y2025_V01.csv",
+          "size": 130125174,
+          "checksum": "md5:6cefa6c368a3245cb20eacffd3217ae4",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/PROJresult_AGE_SSP4y2025_V01.csv/content"
+          }
+        },
+        {
+          "id": "c7fee986-535c-4e71-a891-9ffa6f0f6dc6",
+          "key": "PROJresult_AGE_SSP3y2025_V01.csv",
+          "size": 130478327,
+          "checksum": "md5:6a8288e176b572422f7bcf35b0e88d80",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/PROJresult_AGE_SSP3y2025_V01.csv/content"
+          }
+        },
+        {
+          "id": "d0fb9a99-d045-4779-9fa6-8662694c14c7",
+          "key": "PROJresult_AGE_SSP1y2025_V01.csv",
+          "size": 131138026,
+          "checksum": "md5:cbfaa33b5a3fedfe527917538d64a54c",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/PROJresult_AGE_SSP1y2025_V01.csv/content"
+          }
+        },
+        {
+          "id": "ca458b17-35ca-47ee-afa3-dbc84b6ffc5b",
+          "key": "PROJresult_AGE_SSP2y2025_V01.csv",
+          "size": 130641124,
+          "checksum": "md5:7cc45aef70ec66f44f7d6eebcf7dc3e9",
+          "links": {
+            "self": "https://zenodo.org/api/records/21738149/files/PROJresult_AGE_SSP2y2025_V01.csv/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "521874"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T07:32:34.617727+00:00",
+      "modified": "2026-08-01T07:32:34.966626+00:00",
+      "id": 21736362,
+      "conceptrecid": "21736361",
+      "doi": "10.3897/ia.2026.180728",
+      "doi_url": "https://doi.org/10.3897/ia.2026.180728",
+      "metadata": {
+        "title": "Comparative profitability analysis of land uses between Eucalyptus woodlot and crop production: evidence from Dangila Woreda, Northwest Ethiopia",
+        "doi": "10.3897/ia.2026.180728",
+        "publication_date": "2026-07-30",
+        "description": "<p>This study assessed the financial profitability of two land use systems (<i>Eucalyptus</i> versus crop production) in Dangila Woreda, where there is a significant shift toward <i>Eucalyptus</i> woodlots. The expansion of <i>Eucalyptus</i> on arable land competes with food crop production and threatens household food security in the study area. Previously, land use allocation was not based on systematic feasibility assessments. This study evaluated the profitability of the two land uses using financial indicators (NPV and BCR). A multi-stage sampling technique was used to select 316 respondents from four randomly selected kebeles. To evaluate financial profitability, both primary and secondary data were used, including focus group discussions, key informant interviews, and household surveys. The collected data were analyzed using descriptive statistics, t-tests, chi-square tests, trend analysis, and NPV and BCR analyses. The results showed that <i>Eucalyptus</i> woodlot plantations have increased in area over time. The profitability analysis indicated that the <i>Eucalyptus</i> investment generates a significantly higher NPV of 193,978.66 ETB/ha and a BCR of 4.69, whereas crop production yields an NPV of 162,699.13 ETB/ha and a BCR of 1.32. Across sensitivity analysis scenarios, <i>Eucalyptus</i> plantations consistently provide higher net returns and a more favorable return on investment. Despite its higher return, the <i>Eucalyptus</i> planting site must be identified and chosen in consultation with experts to minimize competition with food production.</p>",
+        "access_right": "open",
+        "creators": [
           {
-            "identifier": "http://treatment.plazi.org/id/038187BA216CFFF0FF06478AFE7FFE48"
+            "name": "Getachew, Abdulkerim",
+            "affiliation": "Policy and Socioeconomics Research Program, Ethiopian Forestry Development, Bahir Dar Center, Bahir Dar, Ethiopia"
+          },
+          {
+            "name": "Birara, Abebe",
+            "affiliation": "Department of Agricultural Economics, University of Gondar, Gondar, Ethiopia"
+          },
+          {
+            "name": "Chanie, Kassa",
+            "affiliation": "Policy and Socioeconomics Research Program, Ethiopian Forestry Development, Bahir Dar Center, Bahir Dar, Ethiopia"
           }
         ],
+        "keywords": [
+          "Benefit-cost ratio",
+          "Eucalyptus woodlot",
+          "financial profitability",
+          "land use conversion",
+          "net present value",
+          "smallholder farmers"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/ia.2026.180728.figure5",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure8",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure6",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure3",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure4",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure1",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure2",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/ia.2026.180728.figure7",
+            "relation": "hasPart",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/f13050686",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.tfp.2022.100269",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s10745-023-00446-5",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1155/2024/6322124",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1596/978-1-4648-1331-3",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.tfp.2024.100636",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1080/14728028.2024.2357157",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.5120/ijca2016911109",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/rs15030661",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/land11060838",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1108/jtf-11-2019-0129",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.21203/rs.3.rs-2399249/v1",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.2139/ssrn.4868339",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1007/s11842-021-09493-6",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1088/1755-1315/1104/1/012007",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/su132212819",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/resources11080071",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.heliyon.2023.e14393",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3389/fsufs.2024.1393863",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.tfp.2021.100087",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3390/agriculture11030192",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          }
+        ],
+        "references": [
+          "Abate D, Borges J, Marques S, Bushenkov V (2022) An ecological-economic approach to assess impacts of the expansion of Eucalyptus plantations in agroforest landscapes of Northern Ethiopia. Forests 13(5): 686. https://doi.org/10.3390/f13050686",
+          "Addis F, Melak S, Tefera B, Kassa H (2016) Impacts of smallholder tree plantation in Amhara Region of Ethiopia: the case of Lay Gayint and Fagta Locuma Districts. Ethiopian Journal of Economics 25(1): 35\u201358.",
+          "Alemayehu A, Melka Y (2022) Small-scale Eucalyptus cultivation and its socioeconomic impacts in Ethiopia: A review of practices and conditions. Trees, Forests, and People 8: 100269. https://doi.org/10.1016/j.tfp.2022.100269",
+          "Amare D, Darr D (2023) Profitability of smallholder agroforestry woodlot innovations. Human Ecology 51: 1009\u20131019. https://doi.org/10.1007/s10745-023-00446-5",
+          "Asfaw A, Admassie A (2004) The role of education on the adoption of chemical fertiliser under different socioeconomic environments in Ethiopia. Agricultural Economics 30(3): 215\u2013228.",
+          "Ayana AN, Lejissa LT (2018) Comparative economic analysis of three competing land use types in southern Ethiopia: tools for informed decision-making on land use choices. Journal of Economics and Sustainable Development 9(1): 37\u201345.",
+          "Barnum HN, Squire L (1979) An econometric application of the theory of the farm-household. Journal of Development Economics 6(1): 79\u2013102.",
+          "Belay YB, Melka Y (2024) Comparative profitability analysis of monoculture and intercropping land\u2010use systems: The Case of Smallholder Farmers in North\u2010Western Ethiopia. International Journal of Forestry Research 2024(1): 6322124. https://doi.org/10.1155/2024/6322124",
+          "Blarel B, Hazell P, Place F, Quiggin J (1992) The economics of farm fragmentation: evidence from Ghana and Rwanda. The World Bank Economic Review 6(2): 233\u2013254.",
+          "Boardman AE, Greenberg DH, Vining AR, Weimer DL, Information M, Boardman AE, Greenberg DH, Vining AR (2018) Cost-benefit analysis: concepts and practice. Cambridge University Press.",
+          "Campbell HF, Brown RPC (2003) Benefit-cost analysis: financial and economic appraisal using spreadsheets. Cambridge University Press.",
+          "Deaton A (2019) The Analysis of Household Surveys: A Microeconometric Approach to Development Policy (Reissue Edition). https://doi.org/10.1596/978-1-4648-1331-3",
+          "Debie E (2024) Analysis of the decision to convert croplands into E. camaldulensis woodlot and its impact on income diversification in Mecha district, Northwest Ethiopia. Trees, Forests, and People 17: 100636. https://doi.org/10.1016/j.tfp.2024.100636",
+          "Dercon S, Christiansen L (2011) Consumption risk, technology adoption and poverty traps: evidence from Ethiopia. Journal of Development Economics 96(2): 159\u2013173.",
+          "DWOA (2023) Dangila Woreda Office of Agriculture, report.",
+          "FAO (2023) Food Security And Nutrition in the World Across the Rural \u2013 Urban Continuum.",
+          "Gittinger JP (1982) Economic analysis of agricultural projects. John Hopkins University Press.",
+          "Greene WH (2018) Econometric Analysis Eighth Edition.",
+          "Holden S, Shiferaw B (2004) Land degradation, drought and food security in a less\u2010favored area in the Ethiopian highlands: a bio\u2010economic model with market imperfections. Agricultural Economics 30(1): 31\u201349.",
+          "Kerbo A, Klilu Degaga T, Egefa Beyene AD (2024) Determinants of the share of land allocated to Eucalyptus trees and their contribution to rural farm households' livelihoods: empirical evidence from Gurage Zone, Ethiopia. Forests, Trees and Livelihoods 33(4): 319\u2013333. https://doi.org/10.1080/14728028.2024.2357157",
+          "KV RS, Kavya NP (2016) Trend analysis of e-commerce data using the Hadoop ecosystem. International Journal of Computer Applications 147(6): 1\u20135. https://doi.org/10.5120/ijca2016911109",
+          "Mekonnen Z (2010) Community opinion, marketing, and current debates on Eucalyptus in Huruta District, Arsi Zone of Oromia Region, Ethiopia. Eucalyptus Species Management, History, Status and Trends in Ethiopia, 15\u201317.",
+          "Molla G, Addisie MB (2023) Expansion of Eucalyptus plantation on fertile cultivated lands in the north-western highlands of Ethiopia. Remote Sensing 15(3): 661. https://doi.org/10.3390/rs15030661",
+          "Mulu S, Asfaw Z, Alemu A, Teketay D (2022) Determinants of decision-making by smallholder farmers on land allocation for small-scale forest management in northwestern Ethiopian Highlands. Land 11(6): 838. https://doi.org/10.3390/land11060838",
+          "NBE (2017) National Bank of Ethiopia, Directive to Determine the Loan and Lending rate.",
+          "NPC [National Planning Commission] (2018) Ethiopia's Progress Towards Eradicating Poverty.",
+          "Postma A, Papp B (2021) Of trends and trend pyramids. Journal of Tourism Futures 7(2): 162\u2013167. https://doi.org/10.1108/jtf-11-2019-0129",
+          "Ryan M, O'Donoghue C, Upton V, Phillips H, Farrelly N (2013) Modelling Inter-temporal Differential Returns to Agricultural and Forestry Land Use using the Forest Investment and Valuation Estimator (FIVE).",
+          "Sete Y, Alemu A, Dagnew A (2023) Analysis of the profitability of smallholder farmers' Eucalyptus woodlot production system in Wogera District, North Gondar, Ethiopia. https://doi.org/10.21203/rs.3.rs-2399249/v1",
+          "Sinden A, Adelman DE (2024) The Misleading Successes of Cost-Benefit Analysis in Environmental Policy. Temple University Legal Studies Research Paper 2024\u201320. https://doi.org/10.2139/ssrn.4868339",
+          "Siyoum M, Woldeamanuel T, Eshete A (2022) Financial analysis of highland bamboo plantation: A comparative analysis with other land-use systems in Ethiopia. Small-Scale Forestry 21(2): 169\u2013183. https://doi.org/10.1007/s11842-021-09493-6",
+          "Storck H, Emana B, Adenew B, Borowiecki A, Hawariat SW (1991) Farming systems and farm management practices of smallholders in the Hararghe highlands-a baseline survey.",
+          "Suparwata DO, Indrianti MA, Mokoginta MM, Mokoolang S (2022) Agroforestry farming system: measuring its development in financial feasibility aspects. IOP Conference Series: Earth and Environmental Science 1104(1): 12007. https://doi.org/10.1088/1755-1315/1104/1/012007",
+          "Tefera, Abebaw S, Lerra Dea M (2016) Determinants of farmers' decision-making for planting Eucalyptus trees in the market district, North Wollo, Ethiopia. Research on Humanities and Social Sciences 6(13): 62\u201370.",
+          "Tesfaw A, Senbeta F, Alemu D, Teferi E (2021) Value chain analysis of Eucalyptus wood products in the blue nile highlands of Northwestern Ethiopia. Sustainability 13(22): 12819. https://doi.org/10.3390/su132212819",
+          "Tesfaw A, Alemu D, Senbeta F, Teferi E (2022) Eucalyptus succession on croplands in the highlands of northwestern Ethiopia: Economic impact analysis using farm household model. Resources 11(8): 71. https://doi.org/10.3390/resources11080071",
+          "Tesfaw A, Teferi E, Senbeta F, Alemu D (2023) The spatial distribution and expansion of Eucalyptus in its hotspots: Implications for agricultural landscapes. Heliyon 9(3): e14393. https://doi.org/10.1016/j.heliyon.2023.e14393",
+          "World Bank (2020) Ethiopia Economic Update: Strengthening the Foundation for Private Sector-Led Growth.",
+          "Zeleke G, Kassawmar T, Tadesse M, Teferi E, Girma A, Anteneh Y, Gelaw F, Walsh C, O'Donnell's G (2024) Dynamics in smallholder-based land use systems: drivers and outcomes of cropland\u2013Eucalyptus field\u2013cropland conversions in north-west Ethiopia. Frontiers in Sustainable Food Systems 8: 1393863. https://doi.org/10.3389/fsufs.2024.1393863",
+          "Zerga B, Warkineh B, Teketay D, Woldetsadik M, Sahle M (2021) Land use and land cover changes driven by expansion of eucalypt plantations in the Western Gurage Watersheds, Central-South Ethiopia. Trees, Forests and People 5: 100087. https://doi.org/10.1016/j.tfp.2021.100087",
+          "Zerssa G, Feyssa D, Kim D-G, Eichler-L\u00f6bermann B (2021) Challenges of smallholder farming in Ethiopia and opportunities by adopting climate-smart agriculture. Agriculture 11(3): 192. https://doi.org/10.3390/agriculture11030192"
+        ],
+        "resource_type": {
+          "title": "Journal article",
+          "type": "publication",
+          "subtype": "article"
+        },
+        "journal": {
+          "issue": "",
+          "pages": "e180728",
+          "title": "Innovations in Agriculture",
+          "volume": "9"
+        },
         "license": {
-          "id": "cc-zero"
+          "id": "cc-by-4.0"
         },
         "communities": [
           {
@@ -234,66 +706,80 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20494273"
+                "pid_value": "21736361"
               }
             }
           ]
-        },
-        "notes": "Published as part of <i>Rifkind, Jacques, 2025, On the identity of Enoclerus crabronarius (SPinoLa), with the descRiPtion of a new sPecies of Enoclerus Gahan, and new distRibutionaL RecoRds foR Mexican and CentRaL AmeRican CLeRidae (CoLeoPteRa), pp. 1-12 in Insecta Mundi 2025</i> on page 11, DOI: 10.64338/im.1163.v7hl4"
+        }
       },
-      "title": "Enoclerus zebra",
+      "title": "Comparative profitability analysis of land uses between Eucalyptus woodlot and crop production: evidence from Dangila Woreda, Northwest Ethiopia",
       "links": {
-        "self": "https://zenodo.org/api/records/20494274",
-        "self_html": "https://zenodo.org/records/20494274",
-        "preview_html": "https://zenodo.org/records/20494274?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20494274",
-        "self_doi": "https://doi.org/10.5281/zenodo.20494274",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20494274",
-        "reserve_doi": "https://zenodo.org/api/records/20494274/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20494273",
-        "parent_html": "https://zenodo.org/records/20494273",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20494273",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20494273",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20494274/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20494274/sequence/default",
-        "files": "https://zenodo.org/api/records/20494274/files",
-        "media_files": "https://zenodo.org/api/records/20494274/media-files",
-        "archive": "https://zenodo.org/api/records/20494274/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20494274/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20494274/versions/latest",
-        "latest_html": "https://zenodo.org/records/20494274/latest",
-        "versions": "https://zenodo.org/api/records/20494274/versions",
-        "draft": "https://zenodo.org/api/records/20494274/draft",
-        "access_links": "https://zenodo.org/api/records/20494274/access/links",
-        "access_grants": "https://zenodo.org/api/records/20494274/access/grants",
-        "access_users": "https://zenodo.org/api/records/20494274/access/users",
-        "access_request": "https://zenodo.org/api/records/20494274/access/request",
-        "access": "https://zenodo.org/api/records/20494274/access",
-        "communities": "https://zenodo.org/api/records/20494274/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20494274/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20494274/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20494274/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20494274/quota-increase",
-        "requests": "https://zenodo.org/api/records/20494274/requests"
+        "self": "https://zenodo.org/api/records/21736362",
+        "self_html": "https://zenodo.org/records/21736362",
+        "preview_html": "https://zenodo.org/records/21736362?preview=1",
+        "doi": "https://doi.org/10.3897/ia.2026.180728",
+        "self_doi": "https://doi.org/10.3897/ia.2026.180728",
+        "self_doi_html": "https://zenodo.org/doi/10.3897/ia.2026.180728",
+        "reserve_doi": "https://zenodo.org/api/records/21736362/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21736361",
+        "parent_html": "https://zenodo.org/records/21736361",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21736362/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21736362/sequence/default",
+        "files": "https://zenodo.org/api/records/21736362/files",
+        "media_files": "https://zenodo.org/api/records/21736362/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21736362:InnovAgr_article_180728.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21736362:InnovAgr_article_180728.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21736362:InnovAgr_article_180728.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21736362:InnovAgr_article_180728.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21736362:InnovAgr_article_180728.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21736362:InnovAgr_article_180728.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21736362/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21736362/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21736362/versions/latest",
+        "latest_html": "https://zenodo.org/records/21736362/latest",
+        "versions": "https://zenodo.org/api/records/21736362/versions",
+        "draft": "https://zenodo.org/api/records/21736362/draft",
+        "access_links": "https://zenodo.org/api/records/21736362/access/links",
+        "access_grants": "https://zenodo.org/api/records/21736362/access/grants",
+        "access_users": "https://zenodo.org/api/records/21736362/access/users",
+        "access_request": "https://zenodo.org/api/records/21736362/access/request",
+        "access": "https://zenodo.org/api/records/21736362/access",
+        "communities": "https://zenodo.org/api/records/21736362/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21736362/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21736362/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21736362/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21736362/quota-increase",
+        "requests": "https://zenodo.org/api/records/21736362/requests"
       },
-      "updated": "2026-06-01T16:34:38.941922+00:00",
-      "recid": "20494274",
+      "updated": "2026-08-01T07:32:34.966626+00:00",
+      "recid": "21736362",
       "revision": 5,
       "files": [
         {
-          "id": "cb00f291-0554-4391-97b6-088ff905e257",
-          "key": "treatment.html",
-          "size": 669,
-          "checksum": "md5:1c4ac83140a997418d83686c0ed8c3fd",
+          "id": "d391b4f2-7a3e-4298-8da0-14985d631fbf",
+          "key": "InnovAgr_article_180728.xml",
+          "size": 122065,
+          "checksum": "md5:62c7e806cf42a8ddc1602cfc210ce629",
           "links": {
-            "self": "https://zenodo.org/api/records/20494274/files/treatment.html/content"
+            "self": "https://zenodo.org/api/records/21736362/files/InnovAgr_article_180728.xml/content"
+          }
+        },
+        {
+          "id": "04b0a2f8-4b6d-4eb1-a25d-40707c4a2f0a",
+          "key": "InnovAgr_article_180728.pdf",
+          "size": 1493517,
+          "checksum": "md5:fc0af2fc57eeaca46aa7f01265a91f3c",
+          "links": {
+            "self": "https://zenodo.org/api/records/21736362/files/InnovAgr_article_180728.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1161"
+          "id": "22270"
         }
       ],
       "status": "published",
@@ -311,777 +797,47 @@
       "submitted": true
     },
     {
-      "created": "2026-06-01T16:34:04.465231+00:00",
-      "modified": "2026-06-01T16:34:04.582565+00:00",
-      "id": 20493231,
-      "conceptrecid": "20492190",
-      "doi": "10.5281/zenodo.20493231",
-      "conceptdoi": "10.5281/zenodo.20492190",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493231",
+      "created": "2026-08-01T06:44:33.583609+00:00",
+      "modified": "2026-08-01T06:44:35.615340+00:00",
+      "id": 21735870,
+      "conceptrecid": "21735869",
+      "doi": "10.5281/zenodo.21735870",
+      "conceptdoi": "10.5281/zenodo.21735869",
+      "doi_url": "https://doi.org/10.5281/zenodo.21735870",
       "metadata": {
-        "title": "Ramanujan Spectral Gap Bound for Electronic Band Gap Engineering and Anderson Localization Prevention",
-        "doi": "10.5281/zenodo.20493231",
-        "publication_date": "2026-06-01",
-        "description": "K22 Ramanujan expander spectral gap lambda_1=22/21 appears in condensed matter as ratio for Anderson localization. Super-Ramanujan condition kappa^2=2.567 provides Anderson delocalization certificate. Theorem OG-MAT01: H3 Laplacian spectrum lowest eigenvalue kappa^2-1=1.567&gt;0 corresponding to band gap hbar*kappa^2/m*. Graphene analogy: Dirac cone slope = hbar*v_F*kappa where kappa sets cone curvature. ZPL applied to crystal symmetry groups: Bravais lattice passing ZPL has zero net piezoelectric response. kappa=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
+        "title": "Sovereign Green Bonds and India's Climate Finance Strategy: An Empirical Assessment of Pricing, Demand, and Comparative Positioning",
+        "doi": "10.5281/zenodo.21735870",
+        "publication_date": "2026-08-01",
+        "description": "<p><span>India's Sovereign Green Bond (SGrB) programme, launched in January 2023, was designed to serve three purposes at once: to lower the government's own cost of borrowing through a pricing discount known as the greenium, to widen the base of climate-conscious investors, and to signal institutional credibility on climate commitments to international markets. This paper offers an empirical, data-grounded assessment of how far the programme has achieved these aims over its first three years of operation, drawing on Reserve Bank of India auction records, market commentary, and a comparative review of four other emerging-market sovereign issuers: Chile, Indonesia, Nigeria, and Poland. The analysis finds that India's greenium has been inconsistent rather than dependable: an early positive differential gave way to a confirmed negative greenium of 9 basis points at the August 2024 auction, meaning the government paid a premium rather than a discount to issue green. Investor demand, measured through subscription ratios, has also weakened over time, from 4.11 times the notified amount at the debut auction to close to parity by mid-2024. Placed alongside Chile, Indonesia, and Nigeria, India's cumulative issuance covers under 1 per cent of its own annual climate finance requirement, a smaller share than Chile's, though larger than Nigeria's. The paper concludes that SGrBs have, so far, functioned more effectively as an instrument of institutional signalling and market development than as a reliable source of cost savings, and it sets out specific, data-supported recommendations for improving reporting transparency, deepening the domestic investor base, and scaling issuance.</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
-          }
-        ],
-        "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "materials science",
-          "band gap",
-          "Anderson localization",
-          "Ramanujan",
-          "condensed matter",
-          "superconductors"
-        ],
-        "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20492190"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Ramanujan Spectral Gap Bound for Electronic Band Gap Engineering and Anderson Localization Prevention",
-      "links": {
-        "self": "https://zenodo.org/api/records/20493231",
-        "self_html": "https://zenodo.org/records/20493231",
-        "preview_html": "https://zenodo.org/records/20493231?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493231",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493231",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493231",
-        "reserve_doi": "https://zenodo.org/api/records/20493231/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20492190",
-        "parent_html": "https://zenodo.org/records/20492190",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20492190",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20492190",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493231/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493231/sequence/default",
-        "files": "https://zenodo.org/api/records/20493231/files",
-        "media_files": "https://zenodo.org/api/records/20493231/media-files",
-        "archive": "https://zenodo.org/api/records/20493231/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493231/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493231/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493231/latest",
-        "versions": "https://zenodo.org/api/records/20493231/versions",
-        "draft": "https://zenodo.org/api/records/20493231/draft",
-        "access_links": "https://zenodo.org/api/records/20493231/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493231/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493231/access/users",
-        "access_request": "https://zenodo.org/api/records/20493231/access/request",
-        "access": "https://zenodo.org/api/records/20493231/access",
-        "communities": "https://zenodo.org/api/records/20493231/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493231/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493231/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493231/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493231/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493231/requests"
-      },
-      "updated": "2026-06-01T16:34:04.582565+00:00",
-      "recid": "20493231",
-      "revision": 4,
-      "files": [
-        {
-          "id": "675927e4-8120-4f66-975b-3166bbfde276",
-          "key": "pfmi_compliance_zkp_proof.zip",
-          "size": 2532,
-          "checksum": "md5:fcb7748c503613cf2351f660aec5576c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20493231/files/pfmi_compliance_zkp_proof.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1358538"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T16:33:57.728777+00:00",
-      "modified": "2026-06-01T16:33:57.843640+00:00",
-      "id": 20493228,
-      "conceptrecid": "20491427",
-      "doi": "10.5281/zenodo.20493228",
-      "conceptdoi": "10.5281/zenodo.20491427",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493228",
-      "metadata": {
-        "title": "KAM Stability Certificates for Circadian Rhythms and H\u00b3 Geodesic Phylogenetic Distance Metrics",
-        "doi": "10.5281/zenodo.20493228",
-        "publication_date": "2026-06-01",
-        "description": "Biological oscillators are near-integrable Hamiltonians governed by KAM theory. Theorem OG-BIO01: Circadian oscillator passing KAMCheck() maintains amplitude stability under perturbations \u03b5&lt;1/21\u22484.76% \u2014 matching jet-lag recovery bounds. H\u00b3 geodesic distance computes evolutionary divergence with lower distortion than Euclidean embedding. ZPL applied to gene regulatory networks: GRN passing ZPL has zero net transcriptional bias \u2014 formal homeostasis certificate. Applications: drug chronotherapy, cancer cell cycle disruption, CRISPR off-target minimization. \u03ba=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
-          }
-        ],
-        "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "circadian",
-          "phylogenetics",
-          "KAM",
-          "gene regulatory",
-          "evolutionary biology",
-          "H3 geometry"
-        ],
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20491427"
-              }
-            }
-          ]
-        }
-      },
-      "title": "KAM Stability Certificates for Circadian Rhythms and H\u00b3 Geodesic Phylogenetic Distance Metrics",
-      "links": {
-        "self": "https://zenodo.org/api/records/20493228",
-        "self_html": "https://zenodo.org/records/20493228",
-        "preview_html": "https://zenodo.org/records/20493228?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493228",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493228",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493228",
-        "reserve_doi": "https://zenodo.org/api/records/20493228/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20491427",
-        "parent_html": "https://zenodo.org/records/20491427",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20491427",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491427",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493228/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493228/sequence/default",
-        "files": "https://zenodo.org/api/records/20493228/files",
-        "media_files": "https://zenodo.org/api/records/20493228/media-files",
-        "archive": "https://zenodo.org/api/records/20493228/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493228/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493228/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493228/latest",
-        "versions": "https://zenodo.org/api/records/20493228/versions",
-        "draft": "https://zenodo.org/api/records/20493228/draft",
-        "access_links": "https://zenodo.org/api/records/20493228/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493228/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493228/access/users",
-        "access_request": "https://zenodo.org/api/records/20493228/access/request",
-        "access": "https://zenodo.org/api/records/20493228/access",
-        "communities": "https://zenodo.org/api/records/20493228/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493228/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493228/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493228/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493228/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493228/requests"
-      },
-      "updated": "2026-06-01T16:33:57.843640+00:00",
-      "recid": "20493228",
-      "revision": 4,
-      "files": [
-        {
-          "id": "815d9f5e-9dd9-45f8-bcd9-6772b9c9542f",
-          "key": "pfmi_compliance_zkp_proof.zip",
-          "size": 2532,
-          "checksum": "md5:fcb7748c503613cf2351f660aec5576c",
-          "links": {
-            "self": "https://zenodo.org/api/records/20493228/files/pfmi_compliance_zkp_proof.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1358538"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T16:33:50.995479+00:00",
-      "modified": "2026-06-01T16:33:51.154685+00:00",
-      "id": 20493224,
-      "conceptrecid": "20492187",
-      "doi": "10.5281/zenodo.20493224",
-      "conceptdoi": "10.5281/zenodo.20492187",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493224",
-      "metadata": {
-        "title": "H3 Geodesic Trajectory Optimization for Non-Keplerian Spacecraft Propulsion via Kappa-Curvature Thrust Geometry",
-        "doi": "10.5281/zenodo.20493224",
-        "publication_date": "2026-06-01",
-        "description": "Classical rocket trajectory optimization assumes Euclidean/Newtonian geometry. OmegaFlow v13: minimum-energy path between orbital states is H3 geodesic. Theorem OG-PROP01: Geodesic thrust arcs in H3 have delta-v strictly less than or equal to Euclidean cost. ZPL ensures zero net phase drag on EM field \u2014 cavity satisfying ZPL has zero systematic vacuum radiation pressure imbalance. KAM tori in H3 phase space describe stable non-decaying propulsion orbits. Applications: solar sail steering, plasma thruster tuning, optimal low-thrust interplanetary transfer. kappa=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
-          }
-        ],
-        "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "spacecraft propulsion",
-          "trajectory optimization",
-          "H3 geometry",
-          "electromagnetic propulsion",
-          "KAM",
-          "orbital mechanics"
-        ],
-        "resource_type": {
-          "title": "Preprint",
-          "type": "publication",
-          "subtype": "preprint"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20492187"
-              }
-            }
-          ]
-        }
-      },
-      "title": "H3 Geodesic Trajectory Optimization for Non-Keplerian Spacecraft Propulsion via Kappa-Curvature Thrust Geometry",
-      "links": {
-        "self": "https://zenodo.org/api/records/20493224",
-        "self_html": "https://zenodo.org/records/20493224",
-        "preview_html": "https://zenodo.org/records/20493224?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493224",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493224",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493224",
-        "reserve_doi": "https://zenodo.org/api/records/20493224/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20492187",
-        "parent_html": "https://zenodo.org/records/20492187",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20492187",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20492187",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493224/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493224/sequence/default",
-        "files": "https://zenodo.org/api/records/20493224/files",
-        "media_files": "https://zenodo.org/api/records/20493224/media-files",
-        "archive": "https://zenodo.org/api/records/20493224/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493224/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493224/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493224/latest",
-        "versions": "https://zenodo.org/api/records/20493224/versions",
-        "draft": "https://zenodo.org/api/records/20493224/draft",
-        "access_links": "https://zenodo.org/api/records/20493224/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493224/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493224/access/users",
-        "access_request": "https://zenodo.org/api/records/20493224/access/request",
-        "access": "https://zenodo.org/api/records/20493224/access",
-        "communities": "https://zenodo.org/api/records/20493224/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493224/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493224/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493224/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493224/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493224/requests"
-      },
-      "updated": "2026-06-01T16:33:51.154685+00:00",
-      "recid": "20493224",
-      "revision": 4,
-      "files": [
-        {
-          "id": "72063786-26d9-45fc-a4cd-24b8ea9637a5",
-          "key": "zpl_lock_zkp_proof.zip",
-          "size": 2537,
-          "checksum": "md5:88e2424f20c5c482948d3e1fc808a865",
-          "links": {
-            "self": "https://zenodo.org/api/records/20493224/files/zpl_lock_zkp_proof.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1358538"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T16:32:21.975583+00:00",
-      "modified": "2026-06-01T16:32:22.154087+00:00",
-      "id": 20493161,
-      "conceptrecid": "20491280",
-      "doi": "10.5281/zenodo.20493161",
-      "conceptdoi": "10.5281/zenodo.20491280",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493161",
-      "metadata": {
-        "title": "ZPL as Zero-Point Energy Lock Condition: \u03ba-Bounded Vacuum Fluctuation Amplitude in H\u00b3 Quantum Field Theory",
-        "doi": "10.5281/zenodo.20493161",
-        "publication_date": "2026-06-01",
-        "description": "The quantum vacuum zero-point energy density diverges in standard QFT \u2014 the cosmological constant problem (10\u00b9\u00b2\u2070 discrepancy). OmegaFlow v13 provides a natural UV cutoff via the K\u2082\u2082 gate algebra (231 modes). The Zero-Point Lock condition |\u03a3\u2096 exp(2\u03c0ik/231)|=0 ensures zero net vacuum phase bias \u2014 modes cancel exactly. Theorem OG-ZPE01: The H\u00b3 vacuum energy with K\u2082\u2082 cutoff is finite: \u03c1_vac=27027\u210f\u03ba/(2V). Verified: |sum of 231 roots of unity|=2.25\u00d710\u207b\u00b9\u2074 (algebraically exact). \u03ba=1.60225455 from ORCID 0009-0003-2911-444X. ZKP commitment block 40840.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
-          }
-        ],
-        "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "zero-point energy",
-          "quantum vacuum",
-          "Casimir",
-          "cosmological constant",
-          "K22",
-          "ZPL",
-          "vacuum energy"
-        ],
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20491280"
-              }
-            }
-          ]
-        }
-      },
-      "title": "ZPL as Zero-Point Energy Lock Condition: \u03ba-Bounded Vacuum Fluctuation Amplitude in H\u00b3 Quantum Field Theory",
-      "links": {
-        "self": "https://zenodo.org/api/records/20493161",
-        "self_html": "https://zenodo.org/records/20493161",
-        "preview_html": "https://zenodo.org/records/20493161?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493161",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493161",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493161",
-        "reserve_doi": "https://zenodo.org/api/records/20493161/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20491280",
-        "parent_html": "https://zenodo.org/records/20491280",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20491280",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491280",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493161/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493161/sequence/default",
-        "files": "https://zenodo.org/api/records/20493161/files",
-        "media_files": "https://zenodo.org/api/records/20493161/media-files",
-        "archive": "https://zenodo.org/api/records/20493161/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493161/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493161/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493161/latest",
-        "versions": "https://zenodo.org/api/records/20493161/versions",
-        "draft": "https://zenodo.org/api/records/20493161/draft",
-        "access_links": "https://zenodo.org/api/records/20493161/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493161/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493161/access/users",
-        "access_request": "https://zenodo.org/api/records/20493161/access/request",
-        "access": "https://zenodo.org/api/records/20493161/access",
-        "communities": "https://zenodo.org/api/records/20493161/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493161/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493161/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493161/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493161/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493161/requests"
-      },
-      "updated": "2026-06-01T16:32:22.154087+00:00",
-      "recid": "20493161",
-      "revision": 4,
-      "files": [
-        {
-          "id": "373e7668-2c4b-4925-8808-a4aeb75402ba",
-          "key": "zpl_lock_zkp_proof.zip",
-          "size": 2537,
-          "checksum": "md5:88e2424f20c5c482948d3e1fc808a865",
-          "links": {
-            "self": "https://zenodo.org/api/records/20493161/files/zpl_lock_zkp_proof.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1358538"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T16:32:13.758698+00:00",
-      "modified": "2026-06-01T16:32:13.842818+00:00",
-      "id": 20493155,
-      "conceptrecid": "20491278",
-      "doi": "10.5281/zenodo.20493155",
-      "conceptdoi": "10.5281/zenodo.20491278",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493155",
-      "metadata": {
-        "title": "H\u00b3(\u03ba\u00b2) as the Spatial Section of de Sitter Spacetime: Dark Energy as \u03ba-Curvature Vacuum Density",
-        "doi": "10.5281/zenodo.20493155",
-        "publication_date": "2026-06-01",
-        "description": "OmegaFlow v13 provides a geometric derivation of dark energy and dark matter via H\u00b3(\u03ba\u00b2) hyperbolic geometry. Theorem OG-COSMO01: Dark energy density \u039b/(8\u03c0G)=\u03ba\u00b2/3 \u2014 the cosmological constant IS the H\u00b3 curvature \u03ba\u00b2. The baryon asymmetry \u03b7=6.19\u00d710\u207b\u00b9\u2070 is predicted from K\u2082\u2082 net chirality \u03c7=56.43 with zero free parameters, matching Planck 2018 observation (6.10\u00d710\u207b\u00b9\u2070) to 1.5%. SPARC validation: \u03ba_galactic\u00d7r_disk_MW=1.00113 across 175 galaxies (p=10\u207b\u00b3\u00b9). \u03ba=1.60225455 derived from ORCID 0009-0003-2911-444X. ZKP commitment at block 40840.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
-          }
-        ],
-        "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "cosmology",
-          "dark energy",
-          "dark matter",
-          "de Sitter",
-          "H3 geometry",
-          "cosmological constant",
-          "baryon asymmetry",
-          "SPARC"
-        ],
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20491278"
-              }
-            }
-          ]
-        }
-      },
-      "title": "H\u00b3(\u03ba\u00b2) as the Spatial Section of de Sitter Spacetime: Dark Energy as \u03ba-Curvature Vacuum Density",
-      "links": {
-        "self": "https://zenodo.org/api/records/20493155",
-        "self_html": "https://zenodo.org/records/20493155",
-        "preview_html": "https://zenodo.org/records/20493155?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493155",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493155",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493155",
-        "reserve_doi": "https://zenodo.org/api/records/20493155/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20491278",
-        "parent_html": "https://zenodo.org/records/20491278",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20491278",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491278",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493155/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493155/sequence/default",
-        "files": "https://zenodo.org/api/records/20493155/files",
-        "media_files": "https://zenodo.org/api/records/20493155/media-files",
-        "archive": "https://zenodo.org/api/records/20493155/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493155/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493155/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493155/latest",
-        "versions": "https://zenodo.org/api/records/20493155/versions",
-        "draft": "https://zenodo.org/api/records/20493155/draft",
-        "access_links": "https://zenodo.org/api/records/20493155/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493155/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493155/access/users",
-        "access_request": "https://zenodo.org/api/records/20493155/access/request",
-        "access": "https://zenodo.org/api/records/20493155/access",
-        "communities": "https://zenodo.org/api/records/20493155/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493155/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493155/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493155/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493155/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493155/requests"
-      },
-      "updated": "2026-06-01T16:32:13.842818+00:00",
-      "recid": "20493155",
-      "revision": 4,
-      "files": [
-        {
-          "id": "0d644d0c-afad-438a-b401-2102bf02a04d",
-          "key": "baryon_asymmetry_zkp_proof.zip",
-          "size": 2882,
-          "checksum": "md5:1a99d7b2a4289e0b3598287639d5e74f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20493155/files/baryon_asymmetry_zkp_proof.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1358538"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T16:31:56.577144+00:00",
-      "modified": "2026-06-01T16:31:56.692673+00:00",
-      "id": 20493152,
-      "conceptrecid": "20491267",
-      "doi": "10.5281/zenodo.20493152",
-      "conceptdoi": "10.5281/zenodo.20491267",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493152",
-      "metadata": {
-        "title": "OmegaFlow v13 Selberg Zeta as Riemann Hypothesis Analog: Zeros on Re(s)=1/2 via H\u00b3 Spectral Geometry",
-        "doi": "10.5281/zenodo.20493152",
-        "publication_date": "2026-06-01",
-        "description": "The Selberg zeta function Z(s,\u0393) satisfies the Riemann Hypothesis exactly: all non-trivial zeros lie on Re(s)=1/2 (Selberg 1956). OmegaFlow v13 computes Z(s) for the K\u2082\u2082 Schottky group acting on H\u00b3. The K\u2082\u2082 gate algebra has 22 vertices (Hebrew letters), 231 undirected and 462 directed gates, net chirality \u03c7=56.43. Theorem OG-RH01: For the K\u2082\u2082 Schottky group, Z(s) has all non-trivial zeros on Re(s)=1/2 by the Selberg trace formula. The prime geodesic theorem for K\u2082\u2082 gives \u03c0_geo(T)~e^T/T matching the prime counting function under T=log(x). This establishes OmegaFlow v13 as a concrete spectral model for the Riemann Hypothesis via the Hilbert-P\u00f3lya program. \u03ba=1.60225455 derived from ORCID 0009-0003-2911-444X. ZKP commitment at block 40840.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Gary Charles Gonzalez",
-            "affiliation": null,
-            "orcid": "0009-0003-2911-444X"
-          }
-        ],
-        "keywords": [
-          "omegagenesis",
-          "OmegaFlow-v13",
-          "H3-hyperbolic",
-          "ORCID:0009-0003-2911-444X",
-          "Riemann Hypothesis",
-          "Selberg zeta",
-          "prime geodesic",
-          "H3 geometry",
-          "spectral theory",
-          "Millennium Problem",
-          "Hilbert-Polya"
-        ],
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20491267"
-              }
-            }
-          ]
-        }
-      },
-      "title": "OmegaFlow v13 Selberg Zeta as Riemann Hypothesis Analog: Zeros on Re(s)=1/2 via H\u00b3 Spectral Geometry",
-      "links": {
-        "self": "https://zenodo.org/api/records/20493152",
-        "self_html": "https://zenodo.org/records/20493152",
-        "preview_html": "https://zenodo.org/records/20493152?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493152",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493152",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493152",
-        "reserve_doi": "https://zenodo.org/api/records/20493152/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20491267",
-        "parent_html": "https://zenodo.org/records/20491267",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20491267",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20491267",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493152/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493152/sequence/default",
-        "files": "https://zenodo.org/api/records/20493152/files",
-        "media_files": "https://zenodo.org/api/records/20493152/media-files",
-        "archive": "https://zenodo.org/api/records/20493152/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493152/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493152/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493152/latest",
-        "versions": "https://zenodo.org/api/records/20493152/versions",
-        "draft": "https://zenodo.org/api/records/20493152/draft",
-        "access_links": "https://zenodo.org/api/records/20493152/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493152/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493152/access/users",
-        "access_request": "https://zenodo.org/api/records/20493152/access/request",
-        "access": "https://zenodo.org/api/records/20493152/access",
-        "communities": "https://zenodo.org/api/records/20493152/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493152/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493152/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493152/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493152/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493152/requests"
-      },
-      "updated": "2026-06-01T16:31:56.692673+00:00",
-      "recid": "20493152",
-      "revision": 4,
-      "files": [
-        {
-          "id": "15ff9029-baea-403f-b214-49346c020390",
-          "key": "theorem_registry_zkp_proof.zip",
-          "size": 2745,
-          "checksum": "md5:8db1571a7f5316547602f0215414b663",
-          "links": {
-            "self": "https://zenodo.org/api/records/20493152/files/theorem_registry_zkp_proof.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1358538"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T16:10:19.287430+00:00",
-      "modified": "2026-06-01T16:10:19.533023+00:00",
-      "id": 20493779,
-      "conceptrecid": "20493778",
-      "doi": "10.5281/zenodo.20493779",
-      "conceptdoi": "10.5281/zenodo.20493778",
-      "doi_url": "https://doi.org/10.5281/zenodo.20493779",
-      "metadata": {
-        "title": "Sanayi Politikas\u0131n\u0131n Y\u00fckseli\u015fi",
-        "doi": "10.5281/zenodo.20493779",
-        "publication_date": "2026-05-22",
-        "description": "K\u00fcresel finansal krizden bu yana hem geli\u015fmi\u015f hem de geli\u015fmekte olan ekonomiler, \u00f6zellikle te\u015fvikleri kullanarak net s\u0131f\u0131ra ge\u00e7i\u015fi h\u0131zland\u0131rmak, tedarik zinciri dayan\u0131kl\u0131l\u0131\u011f\u0131n\u0131 art\u0131rmak ve anahtar sekt\u00f6rlerde stratejik rekabet\u00e7ilik gibi ama\u00e7lar do\u011frultusunda giderek daha fazla sanayi politikas\u0131 uyguluyor.",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Bar\u0131\u015f G\u00fcven",
+            "name": "Mahima M Naik",
             "affiliation": null
           }
         ],
-        "related_identifiers": [
+        "keywords": [
+          "Sovereign Green Bonds, Greenium, Climate Finance, India, Reserve Bank of India, Comparative Analysis, Sustainable Finance"
+        ],
+        "dates": [
           {
-            "identifier": "https://katmanportal.com/?p=5162",
-            "relation": "isIdenticalTo",
-            "scheme": "url"
+            "type": "submitted",
+            "description": "Climate change has moved from being treated as a peripheral environmental concern to a central fiscal and macroeconomic one, particularly for large developing economies such as India. India has committed to reducing the emission intensity of its GDP by 45 per cent from 2005 levels by 2030 and to reaching net-zero emissions by 2070 (Government of India, 2022). Meeting these commitments requires climate finance on a scale that dwarfs current flows: estimates of the cumulative requirement by 2030 range up to \u20b9217.5 lakh crore, rising to \u20b9878.7 lakh crore by 2070 (Deloitte, 2025; Climate Risk Horizons, 2026)."
           }
         ],
+        "references": [
+          "\u2022\tAndo, S., Fu, C., Roch, F., & Wiriadinata, U. (2023). How large is the sovereign greenium? (IMF Working Paper No. 2023/080). International Monetary Fund. \u2022\tCICERO Shades of Green. (2022). Second Party Opinion on India's Sovereign Green Bond Framework. \u2022\tClimate Bonds Initiative. (2019). Chile sovereign green bond post-issuance report. \u2022\tClimate Bonds Initiative. (2023). Sovereign green, social, and sustainability bond survey. \u2022\tClimate Bonds Initiative. (2024). Global and European trends in the sustainable bond markets (Market Report). \u2022\tClimate Risk Horizons. (2026). India's climate finance requirement: Tracking the NDC funding gap. \u2022\tDash, S., Singh, H., & Nath, B. R. (2025). Financing India's green transition: The emergence of sovereign green bonds as a strategic lever in India's sustainable finance agenda for Viksit Bharat@2047. European Economic Letters, 15(3), 416\u2013436. \u2022\tDeloitte. (2025). India's climate finance landscape: Financing the transition to net-zero. \u2022\tGovernment of India, Department of Economic Affairs, Ministry of Finance. (2022). Framework for sovereign green bonds. \u2022\tGrip Invest. (2025). RBI sovereign green bond auction commentary. \u2022\tInternational Capital Market Association. (2021). Green Bond Principles: Voluntary process guidelines for issuing green bonds. \u2022\tKaur, G., Sharma, A., & Ahuja, D. (2026). Green bonds in India: Performance vs promise (SSRN Working Paper). \u2022\tMadeira, R., & Perez, J. (2023). Chile's climate finance requirement and green bond programme: A market assessment. \u2022\tMercom India. (2024). RBI sovereign green bond auction results and commentary. \u2022\tNaik, M. M. (2026). Sovereign green bonds as a catalyst for strengthening India's climate finance strategy. International Scientific Journal of Engineering and Management (ISJEM), 5(7). https://doi.org/10.55041/ISJEM08217 \u2022\tNanayakkara, M., & Colombage, S. (2019). Do investors in green bond market pay a premium? Global evidence. Applied Economics, 51(40), 4425\u20134437. \u2022\tNordSip. (2025). European and emerging-market sovereign green bond pricing commentary. \u2022\tPanizza, U., Weder di Mauro, B., Sshi, S., & Gulati, M. (2025). The sovereign greenium: Big promise but small price effect (CEPR Working Paper). Centre for Economic Policy Research. \u2022\tPigou, A. C. (1920). The economics of welfare. Macmillan. \u2022\tRao, D. N., Mahesh, K. M., & Aithal, P. S. (2025). Case study on sovereign green bonds (SGBs) impact on sustainable green public sector infrastructure. \u2022\tReserve Bank of India. (2023\u20132025). Sovereign Green Bond auction notifications and press releases. \u2022\tRFMLR (Reserve Finance and Money Law Review). (2025). Commentary on India's sovereign green bond auctions. \u2022\tSingh, H. (2025). Evaluating the effectiveness of sovereign green bonds (SGrBs) in India (SSRN Working Paper). \u2022\tSpence, M. (1973). Job market signaling. The Quarterly Journal of Economics, 87(3), 355\u2013374. \u2022\tZerbib, O. D. (2019). The effect of pro-environmental preferences on bond prices: Evidence from green bonds. Journal of Banking & Finance, 98, 39\u201360."
+        ],
+        "language": "eng",
         "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
+          "title": "Publication",
+          "type": "publication"
         },
         "journal": {
-          "title": "Katman Portal"
+          "issue": "8",
+          "pages": "1-5",
+          "title": "Sovereign Green Bonds and India's Climate Finance Strategy: An Empirical Assessment of Pricing, Demand, and Comparative Positioning",
+          "volume": "04"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -1093,73 +849,73 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20493778"
+                "pid_value": "21735869"
               }
             }
           ]
         }
       },
-      "title": "Sanayi Politikas\u0131n\u0131n Y\u00fckseli\u015fi",
+      "title": "Sovereign Green Bonds and India's Climate Finance Strategy: An Empirical Assessment of Pricing, Demand, and Comparative Positioning",
       "links": {
-        "self": "https://zenodo.org/api/records/20493779",
-        "self_html": "https://zenodo.org/records/20493779",
-        "preview_html": "https://zenodo.org/records/20493779?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20493779",
-        "self_doi": "https://doi.org/10.5281/zenodo.20493779",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493779",
-        "reserve_doi": "https://zenodo.org/api/records/20493779/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20493778",
-        "parent_html": "https://zenodo.org/records/20493778",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20493778",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20493778",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20493779/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20493779/sequence/default",
-        "files": "https://zenodo.org/api/records/20493779/files",
-        "media_files": "https://zenodo.org/api/records/20493779/media-files",
+        "self": "https://zenodo.org/api/records/21735870",
+        "self_html": "https://zenodo.org/records/21735870",
+        "preview_html": "https://zenodo.org/records/21735870?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21735870",
+        "self_doi": "https://doi.org/10.5281/zenodo.21735870",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735870",
+        "reserve_doi": "https://zenodo.org/api/records/21735870/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21735869",
+        "parent_html": "https://zenodo.org/records/21735869",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21735869",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735869",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21735870/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21735870/sequence/default",
+        "files": "https://zenodo.org/api/records/21735870/files",
+        "media_files": "https://zenodo.org/api/records/21735870/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:20493779:sanayi-politikasinin-yukselisi.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:21735870:Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21735870:Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21735870:Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21735870:Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21735870:Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21735870:Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/20493779/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20493779/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20493779/versions/latest",
-        "latest_html": "https://zenodo.org/records/20493779/latest",
-        "versions": "https://zenodo.org/api/records/20493779/versions",
-        "draft": "https://zenodo.org/api/records/20493779/draft",
-        "access_links": "https://zenodo.org/api/records/20493779/access/links",
-        "access_grants": "https://zenodo.org/api/records/20493779/access/grants",
-        "access_users": "https://zenodo.org/api/records/20493779/access/users",
-        "access_request": "https://zenodo.org/api/records/20493779/access/request",
-        "access": "https://zenodo.org/api/records/20493779/access",
-        "communities": "https://zenodo.org/api/records/20493779/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20493779/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20493779/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20493779/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20493779/quota-increase",
-        "requests": "https://zenodo.org/api/records/20493779/requests"
+        "archive": "https://zenodo.org/api/records/21735870/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21735870/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21735870/versions/latest",
+        "latest_html": "https://zenodo.org/records/21735870/latest",
+        "versions": "https://zenodo.org/api/records/21735870/versions",
+        "draft": "https://zenodo.org/api/records/21735870/draft",
+        "access_links": "https://zenodo.org/api/records/21735870/access/links",
+        "access_grants": "https://zenodo.org/api/records/21735870/access/grants",
+        "access_users": "https://zenodo.org/api/records/21735870/access/users",
+        "access_request": "https://zenodo.org/api/records/21735870/access/request",
+        "access": "https://zenodo.org/api/records/21735870/access",
+        "communities": "https://zenodo.org/api/records/21735870/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21735870/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21735870/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21735870/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21735870/quota-increase",
+        "requests": "https://zenodo.org/api/records/21735870/requests"
       },
-      "updated": "2026-06-01T16:10:19.533023+00:00",
-      "recid": "20493779",
+      "updated": "2026-08-01T06:44:35.615340+00:00",
+      "recid": "21735870",
       "revision": 4,
       "files": [
         {
-          "id": "ee769e2f-df60-4b32-9b6a-ed9d7ea26039",
-          "key": "sanayi-politikasinin-yukselisi.pdf",
-          "size": 46391,
-          "checksum": "md5:9e1ec25ce26e828dd9cbede8c5eb097c",
+          "id": "be42fd38-65cd-4d36-8701-d41326593e7d",
+          "key": "Sovereign Green Bonds and India's Climate Finance Strategy An Empirical Assessment of Pricing, Demand, and Comparative Positioning.pdf",
+          "size": 898176,
+          "checksum": "md5:da687da28565e3171323e22a68fa52c9",
           "links": {
-            "self": "https://zenodo.org/api/records/20493779/files/sanayi-politikasinin-yukselisi.pdf/content"
+            "self": "https://zenodo.org/api/records/21735870/files/Sovereign%20Green%20Bonds%20and%20India's%20Climate%20Finance%20Strategy%20An%20Empirical%20Assessment%20of%20Pricing,%20Demand,%20and%20Comparative%20Positioning.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1567774"
+          "id": "1237427"
         }
       ],
       "status": "published",
@@ -1177,57 +933,163 @@
       "submitted": true
     },
     {
-      "created": "2026-06-01T15:58:41.438422+00:00",
-      "modified": "2026-06-01T15:58:42.043593+00:00",
-      "id": 17525890,
-      "conceptrecid": "17525889",
-      "doi": "10.5281/zenodo.17525890",
-      "conceptdoi": "10.5281/zenodo.17525889",
-      "doi_url": "https://doi.org/10.5281/zenodo.17525890",
+      "created": "2026-08-01T06:07:58.726366+00:00",
+      "modified": "2026-08-01T06:07:58.988691+00:00",
+      "id": 21735351,
+      "conceptrecid": "21735350",
+      "doi": "10.5281/zenodo.21735351",
+      "conceptdoi": "10.5281/zenodo.21735350",
+      "doi_url": "https://doi.org/10.5281/zenodo.21735351",
       "metadata": {
-        "title": "Data to: High Uncertainties in Simulating and Evaluating Gaining and Losing Streams at Large Spatial Scales",
-        "doi": "10.5281/zenodo.17525890",
-        "publication_date": "2025-11-04",
-        "description": "<p>The data is related to the preprint article: High Uncertainties in Simulating and Evaluating Gaining and Losing Streams at Large Spatial Scales (DOI: <a href=\"https://doi.org/10.22541/essoar.176409467.73281253/v1\">10.22541/essoar.176409467.73281253/v1</a>).</p>\n<p>Simulation output of the coupled WaterGAP-G&sup3;M model for the continental USA. The model output of the WaterGap model is used as input data for the G3M model. Both models are uncalibrated and simulate human water use. The G&sup3;M model simulates a reduced river conductance in the transient model compared to steady-state. This is experiment 5 as indicated in Table 1 in the related manuscript (<a href=\"https://doi.org/10.22541/essoar.176409467.73281253/v1\">10.22541/essoar.176409467.73281253/v1</a>). Simulation experiments were conducted by Sebastian Ackermann.</p>\n<p>Every netcdf file contains the monthly results for the whole globe/North America between 1901 to 2019 for one variable which are listed in the Table below.</p>\n<p><em>Table 1: Overview of files and the variables that they contain.</em></p>\n<table>\n<tbody>\n<tr>\n<td>Model</td>\n<td>Variable</td>\n<td>Unit</td>\n<td>Region</td>\n<td>Spatial resolution</td>\n<td>File name</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Precipitation</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ precmon_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Actual Evapotranspiration</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ evap_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Streamflow</strong></td>\n<td>m3 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ dis_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Streamflow from upstream cells</strong></td>\n<td>m3 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ dis_upstream_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Actual Net Abstraction From Surface Water</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ anas_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Actual Net Abstraction From Groundwater</strong></td>\n<td>kg m-2 s-1</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ anag_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>WaterGap 2.2e</td>\n<td><strong>Total Water Storage</strong></td>\n<td>kg m-2</td>\n<td>Global</td>\n<td>0.5&deg;</td>\n<td>\n<p>watergap_22e_gswp3-w5e5_hist_nocal_coupled_ tws_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Hydraulic head</strong></td>\n<td>m</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ head_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Water table Depth</strong></td>\n<td>m</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ wtd_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Submarine groundwater discharge</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>\n<p>g3m_1_watergap_hist_nocal_coupled_ sgd_monthly_1901_2019.nc</p>\n</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from rivers</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnriv_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from lakes</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnlak_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from lakes (global)</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnlak_global_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from wetlands</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnwet_monthly_1901_2019.nc</td>\n</tr>\n<tr>\n<td>G3M 1.0</td>\n<td><strong>Groundwater drainage/surface water capture from wetlands (global)</strong></td>\n<td>m3 month-1</td>\n<td>North America</td>\n<td>5 arcminutes</td>\n<td>g3m_1_watergap_hist_nocal_coupled_ gwdrnwet_global_monthly_1901_2019.nc</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+        "title": "INCREASING THE ECONOMIC EFFICIENCY OF IMPLEMENTING THE PROPOSED HARROW WOOL SCOURING MACHINE INTO PRODUCTION",
+        "doi": "10.5281/zenodo.21735351",
+        "publication_date": "2026-08-01",
+        "description": "<p class=\"MsoNormal\"><span>This article analyzes the economic efficiency of implementing an improved harrow wool scouring machine into enterprises. As a result of the changes made to the machine design, it was determined that the productivity was increased, electricity, water and detergent consumption were reduced, and maintenance costs were reduced. Capital investments, annual economic efficiency, payback period, and net economic efficiency indicators were calculated. The results obtained indicate the economic feasibility of implementing the proposed design into production.</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Reinecke, Robert",
-            "affiliation": "Institute of Geography, Johannes Gutenberg-University Mainz, Mainz, Germany",
-            "orcid": "0000-0001-5699-8584"
+            "name": "Nosirov, Muhammadali",
+            "affiliation": null
           },
           {
-            "name": "Ackermann, Sebastian",
-            "affiliation": "Institute of Physical Geography, Goethe University Frankfurt, Frankfurt am Main, Germany",
-            "orcid": "0009-0005-2699-9953"
+            "name": "Kayumov, Juramirza",
+            "affiliation": null
           },
           {
-            "name": "Nyenah, Emmanuel",
-            "affiliation": "Institute of Physical Geography, Goethe University Frankfurt, Frankfurt am Main, Germany",
-            "orcid": "0000-0001-8766-7657"
+            "name": "Maxmudov, Abdulrasul",
+            "affiliation": null
+          }
+        ],
+        "resource_type": {
+          "title": "Publication",
+          "type": "publication"
+        },
+        "journal": {
+          "issue": "9",
+          "pages": "130-137",
+          "title": "\u041c\u0415\u0416\u0414\u0423\u041d\u0410\u0420\u041e\u0414\u041d\u0410\u042f \u041a\u041e\u041d\u0424\u0415\u0420\u0415\u041d\u0426\u0418\u042f  \u0410\u041a\u0410\u0414\u0415\u041c\u0418\u0427\u0415\u0421\u041a\u0418\u0425 \u041d\u0410\u0423\u041a",
+          "volume": "5"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21735350"
+              }
+            }
+          ]
+        }
+      },
+      "title": "INCREASING THE ECONOMIC EFFICIENCY OF IMPLEMENTING THE PROPOSED HARROW WOOL SCOURING MACHINE INTO PRODUCTION",
+      "links": {
+        "self": "https://zenodo.org/api/records/21735351",
+        "self_html": "https://zenodo.org/records/21735351",
+        "preview_html": "https://zenodo.org/records/21735351?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21735351",
+        "self_doi": "https://doi.org/10.5281/zenodo.21735351",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735351",
+        "reserve_doi": "https://zenodo.org/api/records/21735351/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21735350",
+        "parent_html": "https://zenodo.org/records/21735350",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21735350",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21735350",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21735351/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21735351/sequence/default",
+        "files": "https://zenodo.org/api/records/21735351/files",
+        "media_files": "https://zenodo.org/api/records/21735351/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21735351:ICAS%200922.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21735351:ICAS%200922.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21735351:ICAS%200922.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21735351:ICAS%200922.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21735351:ICAS%200922.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21735351:ICAS%200922.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21735351/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21735351/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21735351/versions/latest",
+        "latest_html": "https://zenodo.org/records/21735351/latest",
+        "versions": "https://zenodo.org/api/records/21735351/versions",
+        "draft": "https://zenodo.org/api/records/21735351/draft",
+        "access_links": "https://zenodo.org/api/records/21735351/access/links",
+        "access_grants": "https://zenodo.org/api/records/21735351/access/grants",
+        "access_users": "https://zenodo.org/api/records/21735351/access/users",
+        "access_request": "https://zenodo.org/api/records/21735351/access/request",
+        "access": "https://zenodo.org/api/records/21735351/access",
+        "communities": "https://zenodo.org/api/records/21735351/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21735351/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21735351/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21735351/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21735351/quota-increase",
+        "requests": "https://zenodo.org/api/records/21735351/requests"
+      },
+      "updated": "2026-08-01T06:07:58.988691+00:00",
+      "recid": "21735351",
+      "revision": 4,
+      "files": [
+        {
+          "id": "2e7caa20-4b4f-4a62-a5c7-984b21143dec",
+          "key": "ICAS 0922.pdf",
+          "size": 460672,
+          "checksum": "md5:56fc67579e6128c0b5c69382b56f3389",
+          "links": {
+            "self": "https://zenodo.org/api/records/21735351/files/ICAS%200922.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "213214"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T05:52:42.110736+00:00",
+      "modified": "2026-08-01T05:52:42.399330+00:00",
+      "id": 21405873,
+      "conceptrecid": "21405872",
+      "doi": "10.5281/zenodo.21405873",
+      "conceptdoi": "10.5281/zenodo.21405872",
+      "doi_url": "https://doi.org/10.5281/zenodo.21405873",
+      "metadata": {
+        "title": "ELITE land surface temperature: FY-3D/MERSI-\u2161Cloudy-Sky LST (2020)",
+        "doi": "10.5281/zenodo.21405873",
+        "publication_date": "2026-07-17",
+        "description": "<p>The <strong>E</strong>ssential therma<strong>L</strong> <strong>I</strong>nfrared remo<strong>T</strong>e s<strong>E</strong>nsing (<strong>ELITE</strong>) product suite currently has four types of products, including land surface temperature (LST: clear-sky and all-sky), emissivity (NBE: narrowband emissivity; BBE: broadband emissivity; and spectral emissivity), the component of surface radiation and energy budget (SLUR: surface longwave upwelling radiation; SLDR: surface longwave downward radiation SLDR; SLNR: surface longwave net radiation), and the component of Earth's radiation budget (OLR; outgoing longwave radiation; RSR: reflected solar radiation). The spatial-temporal resolutions of the ELITE products are mainly determined by the employed satellite data sources. For more information about ELITE products, please refer to the website (<a href=\"https://elite.bnu.edu.cn\">https://elite.bnu.edu.cn</a>).</p>\n<p>This dataset is the ELITE Cloudy-Sky LST dataset over China landmass(2020). First, an improved split-window algorithm was used to obtain the clear-sky LST. Then, under the framework of the SEB theory, a unique way was proposed to solve the temperature difference between the cloudy-sky LST and hypothetical clear-sky LST caused by cloud radiative effects. The in situ validation results show that the bias (RMSE) of the MERSI Cloudy-Sky LST is 0.02 K (3.77 K).&nbsp;</p>\n<p>This is the ELITE FY-3D/MERSI-\u2161Cloudy-Sky LST product in 2020.</p>\n<p><strong>Dataset Characteristics:</strong></p>\n<ul>\n<li>Spatial Coverage: China</li>\n<li>Temporal Coverage: 2020</li>\n<li>Spatial Resolution: 1 KM</li>\n<li>Temporal Resolution: 1 times per day</li>\n<li>Data Format: Tiff</li>\n</ul>\n<p><strong>Citation&nbsp;</strong>(Please cite these papers when using the data)<strong>:</strong></p>\n<ol>\n<li>Wu, C., Liu, W., Meng, X., Dong, L., &amp; Cheng, J. (2025). Estimating cloudy-sky Land Surface Temperature from FY-3D/MERSI-II using the surface energy balance theory.&nbsp;<em>IEEE Geoscience and Remote Sensing Letters</em>.</li>\n</ol>\n<p>If you have any questions, please contact Prof. Jie Cheng (eliteqrs@126.com).</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Jie Cheng",
+            "affiliation": "Beijing Normal University",
+            "orcid": "0000-0002-7620-4507"
           },
           {
-            "name": "Maa\u00df, Kolja",
-            "affiliation": "Institute of Engineering Hydrology and Water Resources Management, Ruhr University Bochum, Bochum, Germany"
+            "name": "Weihan Liu",
+            "affiliation": "Beijing Normal University"
           },
           {
-            "name": "Brakebusch, Imke",
-            "affiliation": "Institute of Geography, Johannes Gutenberg-University Mainz, Mainz, Germany"
-          },
-          {
-            "name": "B\u00e4thge, Annemarie",
-            "affiliation": "Institute of Geography, Johannes Gutenberg-University Mainz, Mainz, Germany",
-            "orcid": "0009-0006-3439-6594"
-          },
-          {
-            "name": "Fleckenstein, Jan H.",
-            "affiliation": "Helmholtz Centre for Environmental Research",
-            "orcid": "0000-0001-7213-9448"
-          },
-          {
-            "name": "D\u00f6ll, Petra",
-            "affiliation": "Institute of Physical Geography, Goethe University Frankfurt, Frankfurt am Main, Germany",
-            "orcid": "0000-0003-2238-4546"
+            "name": "Chenze Wu",
+            "affiliation": "Beijing Normal University"
           }
         ],
         "resource_type": {
@@ -1237,15 +1099,6 @@
         "license": {
           "id": "cc-by-4.0"
         },
-        "grants": [
-          {
-            "code": "XX and 559655498",
-            "internal_id": "018mejw64::XX and 559655498",
-            "funder": {
-              "name": "Deutsche Forschungsgemeinschaft"
-            }
-          }
-        ],
         "relations": {
           "version": [
             {
@@ -1253,210 +1106,714 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "17525889"
+                "pid_value": "21405872"
               }
             }
           ]
         }
       },
-      "title": "Data to: High Uncertainties in Simulating and Evaluating Gaining and Losing Streams at Large Spatial Scales",
+      "title": "ELITE land surface temperature: FY-3D/MERSI-\u2161Cloudy-Sky LST (2020)",
       "links": {
-        "self": "https://zenodo.org/api/records/17525890",
-        "self_html": "https://zenodo.org/records/17525890",
-        "preview_html": "https://zenodo.org/records/17525890?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.17525890",
-        "self_doi": "https://doi.org/10.5281/zenodo.17525890",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17525890",
-        "reserve_doi": "https://zenodo.org/api/records/17525890/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17525889",
-        "parent_html": "https://zenodo.org/records/17525889",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17525889",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17525889",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17525890/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17525890/sequence/default",
-        "files": "https://zenodo.org/api/records/17525890/files",
-        "media_files": "https://zenodo.org/api/records/17525890/media-files",
-        "archive": "https://zenodo.org/api/records/17525890/files-archive",
-        "archive_media": "https://zenodo.org/api/records/17525890/media-files-archive",
-        "latest": "https://zenodo.org/api/records/17525890/versions/latest",
-        "latest_html": "https://zenodo.org/records/17525890/latest",
-        "versions": "https://zenodo.org/api/records/17525890/versions",
-        "draft": "https://zenodo.org/api/records/17525890/draft",
-        "access_links": "https://zenodo.org/api/records/17525890/access/links",
-        "access_grants": "https://zenodo.org/api/records/17525890/access/grants",
-        "access_users": "https://zenodo.org/api/records/17525890/access/users",
-        "access_request": "https://zenodo.org/api/records/17525890/access/request",
-        "access": "https://zenodo.org/api/records/17525890/access",
-        "communities": "https://zenodo.org/api/records/17525890/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/17525890/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/17525890/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/17525890/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/17525890/quota-increase",
-        "requests": "https://zenodo.org/api/records/17525890/requests"
+        "self": "https://zenodo.org/api/records/21405873",
+        "self_html": "https://zenodo.org/records/21405873",
+        "preview_html": "https://zenodo.org/records/21405873?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21405873",
+        "self_doi": "https://doi.org/10.5281/zenodo.21405873",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21405873",
+        "reserve_doi": "https://zenodo.org/api/records/21405873/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21405872",
+        "parent_html": "https://zenodo.org/records/21405872",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21405872",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21405872",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21405873/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21405873/sequence/default",
+        "files": "https://zenodo.org/api/records/21405873/files",
+        "media_files": "https://zenodo.org/api/records/21405873/media-files",
+        "archive": "https://zenodo.org/api/records/21405873/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21405873/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21405873/versions/latest",
+        "latest_html": "https://zenodo.org/records/21405873/latest",
+        "versions": "https://zenodo.org/api/records/21405873/versions",
+        "draft": "https://zenodo.org/api/records/21405873/draft",
+        "access_links": "https://zenodo.org/api/records/21405873/access/links",
+        "access_grants": "https://zenodo.org/api/records/21405873/access/grants",
+        "access_users": "https://zenodo.org/api/records/21405873/access/users",
+        "access_request": "https://zenodo.org/api/records/21405873/access/request",
+        "access": "https://zenodo.org/api/records/21405873/access",
+        "communities": "https://zenodo.org/api/records/21405873/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21405873/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21405873/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21405873/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21405873/quota-increase",
+        "requests": "https://zenodo.org/api/records/21405873/requests"
       },
-      "updated": "2026-06-01T15:58:42.043593+00:00",
-      "recid": "17525890",
+      "updated": "2026-08-01T05:52:42.399330+00:00",
+      "recid": "21405873",
       "revision": 4,
       "files": [
         {
-          "id": "f2c319d9-798d-4a4d-a7ac-c18af5950421",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_anag_monthly_1901_2019.nc",
-          "size": 60603069,
-          "checksum": "md5:b9df245c5b0e35accecc7154931f7929",
+          "id": "25b8953a-5373-4ddb-ba7a-b9fc407938f3",
+          "key": "FY3D_LST_4-6.zip",
+          "size": 2161590060,
+          "checksum": "md5:7581f7a14587874e9d35760033cb87ce",
           "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_anag_monthly_1901_2019.nc/content"
+            "self": "https://zenodo.org/api/records/21405873/files/FY3D_LST_4-6.zip/content"
           }
         },
         {
-          "id": "d721924a-e5c6-484f-8266-45bf3540a18e",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_monthly_1901_2019.nc",
-          "size": 80496671,
-          "checksum": "md5:16b36ff531774a4eaba8aca0c71844ec",
+          "id": "8772e9ce-88f1-49b3-9725-5cf01543f850",
+          "key": "FY3D_LST_7-9.zip",
+          "size": 1912519221,
+          "checksum": "md5:65b93b49159a1159298c2697a2066131",
           "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_monthly_1901_2019.nc/content"
+            "self": "https://zenodo.org/api/records/21405873/files/FY3D_LST_7-9.zip/content"
           }
         },
         {
-          "id": "2a5babd4-0abe-4d08-86a8-cebe0b1e2b85",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_monthly_1901_2019.nc",
-          "size": 81743833,
-          "checksum": "md5:29dd4fe7e2893a0256fe48409b6f30dd",
+          "id": "52dd1e19-bf95-4edb-94e9-b351bbac9906",
+          "key": "FY3D_LST_10-12.zip",
+          "size": 2632202442,
+          "checksum": "md5:db19612650ec0541a9565282a4401a97",
           "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_monthly_1901_2019.nc/content"
+            "self": "https://zenodo.org/api/records/21405873/files/FY3D_LST_10-12.zip/content"
           }
         },
         {
-          "id": "9c7d06ad-e46f-43c4-bff0-8c52f84ee768",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_anas_monthly_1901_2019.nc",
-          "size": 74603175,
-          "checksum": "md5:4bdc272aa04b178b39a34694d9bf8ffa",
+          "id": "6077efe8-38d1-43ee-83ad-9e9b539f7c6a",
+          "key": "FY3D_LST_1-3.zip",
+          "size": 2224500345,
+          "checksum": "md5:b4eb058cf55394be1a1f0f3573832ead",
           "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_anas_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "00ab87f8-a2ca-4b7b-8b71-50e26556a960",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_upstream_monthly_1901_2019.nc",
-          "size": 59982805,
-          "checksum": "md5:4a3d8919b024ebbe267ffb5f63ddee4c",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_dis_upstream_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "4547f294-db43-4149-9acb-d24cd2f3d620",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_evap_monthly_1901_2019.nc",
-          "size": 78838555,
-          "checksum": "md5:571391e79ff58c47a0714ea42c5e025a",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_evap_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "666f4141-ce50-4d5b-9372-362cf25b6d21",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_precmon_monthly_1901_2019.nc",
-          "size": 77679340,
-          "checksum": "md5:6e8342f1bf98c6446a6af7032691de07",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_precmon_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "30d5363b-0adb-4414-9e06-4fa4d7b4afb7",
-          "key": "watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_start_end_1901_2019.nc",
-          "size": 13659676,
-          "checksum": "md5:e4618b3f099fed721f0ddd213015c322",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/watergap_22e_gswp3-w5e5_hist_nocal_coupled_tws_start_end_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "bee74457-6506-4feb-953e-68cf8709dfd8",
-          "key": "g3m_1_watergap_hist_nocal_coupled_sgd_monthly_1901_2019.nc",
-          "size": 276617293,
-          "checksum": "md5:c111cbef4f2644ec5c32a9a76cca1b45",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_sgd_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "cede288a-aedf-414d-a4c3-bec3e705c040",
-          "key": "g3m_1_watergap_hist_nocal_coupled_wtd_monthly_1901_2019.nc",
-          "size": 3520019743,
-          "checksum": "md5:0466e16eadd13a0c415bca42550c6eeb",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_wtd_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "db678924-db34-4a3e-a013-5c7364711b12",
-          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnlak_global_monthly_1901_2019.nc",
-          "size": 463856032,
-          "checksum": "md5:4d24dced67c30fd9878505cf639779be",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnlak_global_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "125c4ac4-3fce-4126-bee5-45bb722823ab",
-          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnwet_global_monthly_1901_2019.nc",
-          "size": 336299388,
-          "checksum": "md5:79bd6946d801d05df6617b83482afcef",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnwet_global_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "a093cff8-b546-4815-a4ce-eb784ed85ff3",
-          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnlak_monthly_1901_2019.nc",
-          "size": 1593088563,
-          "checksum": "md5:3a8030a383bf7f3b51a1b9c1d18082fc",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnlak_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "316b0112-077c-429d-b600-f1dbbeb348da",
-          "key": "g3m_1_watergap_hist_nocal_coupled_head_monthly_1901_2019.nc",
-          "size": 3378287488,
-          "checksum": "md5:adee9b97f44affbacfbf6795d73bc87d",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_head_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "b1c17b01-0dc6-4341-938f-3ef8fed71edc",
-          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnriv_monthly_1901_2019.nc",
-          "size": 4817077460,
-          "checksum": "md5:593e28477bc9a02d2a5dba8638d8261d",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnriv_monthly_1901_2019.nc/content"
-          }
-        },
-        {
-          "id": "9f85186a-438a-4921-8a07-ff43a4550770",
-          "key": "g3m_1_watergap_hist_nocal_coupled_gwdrnwet_monthly_1901_2019.nc",
-          "size": 1710783490,
-          "checksum": "md5:1b92d6fac6f402f8e394c4a1e9ef9483",
-          "links": {
-            "self": "https://zenodo.org/api/records/17525890/files/g3m_1_watergap_hist_nocal_coupled_gwdrnwet_monthly_1901_2019.nc/content"
+            "self": "https://zenodo.org/api/records/21405873/files/FY3D_LST_1-3.zip/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1295561"
+          "id": "246104"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 1,
+        "version_views": 1
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T05:01:29.460961+00:00",
+      "modified": "2026-08-01T05:01:29.597610+00:00",
+      "id": 21734065,
+      "conceptrecid": "21697821",
+      "doi": "10.5281/zenodo.21734065",
+      "conceptdoi": "10.5281/zenodo.21697821",
+      "doi_url": "https://doi.org/10.5281/zenodo.21734065",
+      "metadata": {
+        "title": "QSM-CI method: WaveSep (v2)",
+        "doi": "10.5281/zenodo.21734065",
+        "publication_date": "2026-08-01",
+        "description": "WaveSep \u2014 a wavelet-based iterative approach for susceptibility source separation. It splits net susceptibility (\u03c7_total/QSM) into paramagnetic (\u03c7+, iron) and diamagnetic (\u03c7\u2212, myelin\u00b7calcium) sources using an R2' map to break the para/dia degeneracy, under two voxel-wise data-fidelity terms (\u03c7+ + \u03c7\u2212 \u2248 \u03c7_total, \u03c7+ \u2212 \u03c7\u2212 \u2248 R2'/Dr) and a wavelet-domain L1 sparsity prior solved by proximal gradient (soft-thresholding, db4). Pure Python on CPU \u2014 no network, no pretrained weights, no GPU.\n<br><br>QSM-CI reconstruction method <code>wavesep</code>. Browse and run it at <a href=\"https://qsmxt.github.io/QSM-CI/submission.html?method=wavesep\">https://qsmxt.github.io/QSM-CI/submission.html?method=wavesep</a>.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Zhenghan Fang",
+            "affiliation": null
+          },
+          {
+            "name": "Hyeong-Geol Shin",
+            "affiliation": null
+          },
+          {
+            "name": "Peter van Zijl",
+            "affiliation": null
+          },
+          {
+            "name": "Xu Li",
+            "affiliation": null
+          },
+          {
+            "name": "Jeremias Sulam",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "QSM",
+          "quantitative susceptibility mapping",
+          "MRI",
+          "reconstruction",
+          "QSM-CI"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://qsmxt.github.io/QSM-CI/submission.html?method=wavesep",
+            "relation": "isDocumentedBy",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://github.com/ZhenghanFang/WaveSep",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.1007/978-3-031-44858-4_6",
+            "relation": "cites",
+            "scheme": "doi"
+          }
+        ],
+        "version": "2",
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "other-closed"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21697821"
+              }
+            }
+          ]
+        }
+      },
+      "title": "QSM-CI method: WaveSep (v2)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21734065",
+        "self_html": "https://zenodo.org/records/21734065",
+        "preview_html": "https://zenodo.org/records/21734065?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21734065",
+        "self_doi": "https://doi.org/10.5281/zenodo.21734065",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21734065",
+        "reserve_doi": "https://zenodo.org/api/records/21734065/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21697821",
+        "parent_html": "https://zenodo.org/records/21697821",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21697821",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21697821",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21734065/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21734065/sequence/default",
+        "files": "https://zenodo.org/api/records/21734065/files",
+        "media_files": "https://zenodo.org/api/records/21734065/media-files",
+        "archive": "https://zenodo.org/api/records/21734065/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21734065/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21734065/versions/latest",
+        "latest_html": "https://zenodo.org/records/21734065/latest",
+        "versions": "https://zenodo.org/api/records/21734065/versions",
+        "draft": "https://zenodo.org/api/records/21734065/draft",
+        "access_links": "https://zenodo.org/api/records/21734065/access/links",
+        "access_grants": "https://zenodo.org/api/records/21734065/access/grants",
+        "access_users": "https://zenodo.org/api/records/21734065/access/users",
+        "access_request": "https://zenodo.org/api/records/21734065/access/request",
+        "access": "https://zenodo.org/api/records/21734065/access",
+        "communities": "https://zenodo.org/api/records/21734065/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21734065/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21734065/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21734065/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21734065/quota-increase",
+        "requests": "https://zenodo.org/api/records/21734065/requests"
+      },
+      "updated": "2026-08-01T05:01:29.597610+00:00",
+      "recid": "21734065",
+      "revision": 4,
+      "files": [
+        {
+          "id": "465241d1-13d2-41ab-b243-e3c4201837ef",
+          "key": "wavesep.zip",
+          "size": 6249,
+          "checksum": "md5:ec290e6aff736d397ba77d56a363ecf4",
+          "links": {
+            "self": "https://zenodo.org/api/records/21734065/files/wavesep.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:20e5fe80220beb3aa96cff6522db6669c7c72fb0;origin=https://doi.org/10.5281/zenodo.21697821;visit=swh:1:snp:44cde5385172e5b6a8e7408194728086b921246f;anchor=swh:1:rel:5abb1dd51f9f5d35cdde3afcc2e63fad884a8e65;path=wavesep"
+      },
+      "owners": [
+        {
+          "id": "207921"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T05:00:55.995499+00:00",
+      "modified": "2026-08-01T05:00:56.246225+00:00",
+      "id": 21734054,
+      "conceptrecid": "21697812",
+      "doi": "10.5281/zenodo.21734054",
+      "conceptdoi": "10.5281/zenodo.21697812",
+      "doi_url": "https://doi.org/10.5281/zenodo.21734054",
+      "metadata": {
+        "title": "QSM-CI method: SUSEP-Net (v2)",
+        "doi": "10.5281/zenodo.21734054",
+        "publication_date": "2026-08-01",
+        "description": "SUSEP-Net \u2014 a simulation-supervised, contrastive-learning deep network for sub-voxel susceptibility source separation. A dual-branch 3D U-net with two guidance encoders maps the R2\u2032, local field and \u03c7_total (QSM) images to the paramagnetic (\u03c7+, iron) and diamagnetic (\u03c7\u2212, myelin\u00b7calcium) source maps. Run here via PyTorch on CPU, whole-volume, z-scored inputs (QSM/field in ppm, R2\u2032 in Hz).\n<br><br>QSM-CI reconstruction method <code>susep-net</code>. Browse and run it at <a href=\"https://qsmxt.github.io/QSM-CI/submission.html?method=susep-net\">https://qsmxt.github.io/QSM-CI/submission.html?method=susep-net</a>.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Zhenghao Li",
+            "affiliation": null
+          },
+          {
+            "name": "Chunlei Liu",
+            "affiliation": null
+          },
+          {
+            "name": "Hongfu Sun",
+            "affiliation": null
+          },
+          {
+            "name": "Yang Gao",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "QSM",
+          "quantitative susceptibility mapping",
+          "MRI",
+          "reconstruction",
+          "QSM-CI"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://qsmxt.github.io/QSM-CI/submission.html?method=susep-net",
+            "relation": "isDocumentedBy",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://github.com/YangGaoUQ/SUSEP-Net",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.48550/arXiv.2506.13293",
+            "relation": "cites",
+            "scheme": "doi"
+          }
+        ],
+        "version": "2",
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "other-closed"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21697812"
+              }
+            }
+          ]
+        }
+      },
+      "title": "QSM-CI method: SUSEP-Net (v2)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21734054",
+        "self_html": "https://zenodo.org/records/21734054",
+        "preview_html": "https://zenodo.org/records/21734054?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21734054",
+        "self_doi": "https://doi.org/10.5281/zenodo.21734054",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21734054",
+        "reserve_doi": "https://zenodo.org/api/records/21734054/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21697812",
+        "parent_html": "https://zenodo.org/records/21697812",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21697812",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21697812",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21734054/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21734054/sequence/default",
+        "files": "https://zenodo.org/api/records/21734054/files",
+        "media_files": "https://zenodo.org/api/records/21734054/media-files",
+        "archive": "https://zenodo.org/api/records/21734054/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21734054/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21734054/versions/latest",
+        "latest_html": "https://zenodo.org/records/21734054/latest",
+        "versions": "https://zenodo.org/api/records/21734054/versions",
+        "draft": "https://zenodo.org/api/records/21734054/draft",
+        "access_links": "https://zenodo.org/api/records/21734054/access/links",
+        "access_grants": "https://zenodo.org/api/records/21734054/access/grants",
+        "access_users": "https://zenodo.org/api/records/21734054/access/users",
+        "access_request": "https://zenodo.org/api/records/21734054/access/request",
+        "access": "https://zenodo.org/api/records/21734054/access",
+        "communities": "https://zenodo.org/api/records/21734054/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21734054/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21734054/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21734054/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21734054/quota-increase",
+        "requests": "https://zenodo.org/api/records/21734054/requests"
+      },
+      "updated": "2026-08-01T05:00:56.246225+00:00",
+      "recid": "21734054",
+      "revision": 4,
+      "files": [
+        {
+          "id": "9ce8fa15-0ca3-4591-ac77-5b7429b0cae8",
+          "key": "susep-net.zip",
+          "size": 7073,
+          "checksum": "md5:d8810a3bbe6a1a467b2e2d9a8aa349e9",
+          "links": {
+            "self": "https://zenodo.org/api/records/21734054/files/susep-net.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:b7ecdfe47ed7a7e56c66365bf839ebd5fbd9ffd3;origin=https://doi.org/10.5281/zenodo.21697812;visit=swh:1:snp:5eebc851bbe52696023d925a7ba39e83fd25dbd4;anchor=swh:1:rel:008a217259f25626d1d567f44a306565476bd8f1;path=susep-net"
+      },
+      "owners": [
+        {
+          "id": "207921"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
         "views": 0,
         "unique_views": 0,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T04:58:40.507488+00:00",
+      "modified": "2026-08-01T04:58:40.649960+00:00",
+      "id": 21734006,
+      "conceptrecid": "21549360",
+      "doi": "10.5281/zenodo.21734006",
+      "conceptdoi": "10.5281/zenodo.21549360",
+      "doi_url": "https://doi.org/10.5281/zenodo.21734006",
+      "metadata": {
+        "title": "QSM-CI method: IR2QSM (v3)",
+        "doi": "10.5281/zenodo.21734006",
+        "publication_date": "2026-08-01",
+        "description": "IR2QSM \u2014 a pretrained deep-learning dipole-inversion network (iterative Reverse Concatenations and Recurrent Modules). Consumes the local (tissue) field in ppm and produces susceptibility (ppm). The network is an \"IR2U-net\": a specially tailored 3D U-net iterated T=4 times, with reverse concatenations between iterations and a recurrent (SRU) middle module. Unlike QSMnet it applies NO dataset mean/std normalization \u2014 the local field in ppm is fed to the net directly and the output is already in ppm. Each dimension is zero-padded to a multiple of 8 (the U-net has 3 pool/deconv levels) and cropped back afterwards; trained at 1 mm isotropic. Runs CPU-only with PyTorch (no GPU).\n<br><br>QSM-CI reconstruction method <code>ir2qsm</code>. Browse and run it at <a href=\"https://qsmxt.github.io/QSM-CI/submission.html?method=ir2qsm\">https://qsmxt.github.io/QSM-CI/submission.html?method=ir2qsm</a>.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Li M.",
+            "affiliation": null
+          },
+          {
+            "name": "Chen C.",
+            "affiliation": null
+          },
+          {
+            "name": "Xiong Z.",
+            "affiliation": null
+          },
+          {
+            "name": "Liu Y.",
+            "affiliation": null
+          },
+          {
+            "name": "Rong P.",
+            "affiliation": null
+          },
+          {
+            "name": "Shan S.",
+            "affiliation": null
+          },
+          {
+            "name": "Liu F.",
+            "affiliation": null
+          },
+          {
+            "name": "Sun H.",
+            "affiliation": null
+          },
+          {
+            "name": "Gao Y.",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "QSM",
+          "quantitative susceptibility mapping",
+          "MRI",
+          "reconstruction",
+          "QSM-CI"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://qsmxt.github.io/QSM-CI/submission.html?method=ir2qsm",
+            "relation": "isDocumentedBy",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://github.com/YangGaoUQ/IR2QSM",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.1002/mp.17747",
+            "relation": "cites",
+            "scheme": "doi"
+          }
+        ],
+        "version": "3",
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "other-closed"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 2,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21549360"
+              }
+            }
+          ]
+        }
+      },
+      "title": "QSM-CI method: IR2QSM (v3)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21734006",
+        "self_html": "https://zenodo.org/records/21734006",
+        "preview_html": "https://zenodo.org/records/21734006?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21734006",
+        "self_doi": "https://doi.org/10.5281/zenodo.21734006",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21734006",
+        "reserve_doi": "https://zenodo.org/api/records/21734006/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21549360",
+        "parent_html": "https://zenodo.org/records/21549360",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21549360",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21549360",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21734006/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21734006/sequence/default",
+        "files": "https://zenodo.org/api/records/21734006/files",
+        "media_files": "https://zenodo.org/api/records/21734006/media-files",
+        "archive": "https://zenodo.org/api/records/21734006/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21734006/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21734006/versions/latest",
+        "latest_html": "https://zenodo.org/records/21734006/latest",
+        "versions": "https://zenodo.org/api/records/21734006/versions",
+        "draft": "https://zenodo.org/api/records/21734006/draft",
+        "access_links": "https://zenodo.org/api/records/21734006/access/links",
+        "access_grants": "https://zenodo.org/api/records/21734006/access/grants",
+        "access_users": "https://zenodo.org/api/records/21734006/access/users",
+        "access_request": "https://zenodo.org/api/records/21734006/access/request",
+        "access": "https://zenodo.org/api/records/21734006/access",
+        "communities": "https://zenodo.org/api/records/21734006/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21734006/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21734006/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21734006/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21734006/quota-increase",
+        "requests": "https://zenodo.org/api/records/21734006/requests"
+      },
+      "updated": "2026-08-01T04:58:40.649960+00:00",
+      "recid": "21734006",
+      "revision": 4,
+      "files": [
+        {
+          "id": "95454cbc-209b-4a83-9efd-824d61356154",
+          "key": "ir2qsm.zip",
+          "size": 11416,
+          "checksum": "md5:28de58203cd4cb152dffd14de35efb7c",
+          "links": {
+            "self": "https://zenodo.org/api/records/21734006/files/ir2qsm.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:a864534382de09c07d1c67831459bc3682841a0d;origin=https://doi.org/10.5281/zenodo.21549360;visit=swh:1:snp:6bb5e0780e16a6ed602ae5abb51618afa6114e3d;anchor=swh:1:rel:a2080693f9eb5a0172aa1ce3510517297e2ad2db;path=ir2qsm"
+      },
+      "owners": [
+        {
+          "id": "207921"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T04:57:43.841125+00:00",
+      "modified": "2026-08-01T04:57:43.995542+00:00",
+      "id": 21733986,
+      "conceptrecid": "21697752",
+      "doi": "10.5281/zenodo.21733986",
+      "conceptdoi": "10.5281/zenodo.21697752",
+      "doi_url": "https://doi.org/10.5281/zenodo.21733986",
+      "metadata": {
+        "title": "QSM-CI method: \u03c7-separation (MEDI) (v2)",
+        "doi": "10.5281/zenodo.21733986",
+        "publication_date": "2026-08-01",
+        "description": "\u03c7-separation (MEDI variant) \u2014 separates net susceptibility into paramagnetic (\u03c7+, iron) and diamagnetic (\u03c7\u2212, myelin/calcium) sources using the local field, a QSM/\u03c7_total map, and an R2' map, with a morphology-enabled dipole (MEDI) regulariser. From the SNU-LIST chi-separation toolbox.\n<br><br>QSM-CI reconstruction method <code>chi-sep-medi</code>. Browse and run it at <a href=\"https://qsmxt.github.io/QSM-CI/submission.html?method=chi-sep-medi\">https://qsmxt.github.io/QSM-CI/submission.html?method=chi-sep-medi</a>.",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Hyeong-Geol Shin",
+            "affiliation": null
+          },
+          {
+            "name": "Jingu Lee",
+            "affiliation": null
+          },
+          {
+            "name": "Jongho Lee",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "QSM",
+          "quantitative susceptibility mapping",
+          "MRI",
+          "reconstruction",
+          "QSM-CI"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "https://qsmxt.github.io/QSM-CI/submission.html?method=chi-sep-medi",
+            "relation": "isDocumentedBy",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://github.com/SNU-LIST/chi-separation",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.1016/j.neuroimage.2021.118371",
+            "relation": "cites",
+            "scheme": "doi"
+          }
+        ],
+        "version": "2",
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "other-closed"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 1,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21697752"
+              }
+            }
+          ]
+        }
+      },
+      "title": "QSM-CI method: \u03c7-separation (MEDI) (v2)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21733986",
+        "self_html": "https://zenodo.org/records/21733986",
+        "preview_html": "https://zenodo.org/records/21733986?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21733986",
+        "self_doi": "https://doi.org/10.5281/zenodo.21733986",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21733986",
+        "reserve_doi": "https://zenodo.org/api/records/21733986/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21697752",
+        "parent_html": "https://zenodo.org/records/21697752",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21697752",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21697752",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21733986/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21733986/sequence/default",
+        "files": "https://zenodo.org/api/records/21733986/files",
+        "media_files": "https://zenodo.org/api/records/21733986/media-files",
+        "archive": "https://zenodo.org/api/records/21733986/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21733986/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21733986/versions/latest",
+        "latest_html": "https://zenodo.org/records/21733986/latest",
+        "versions": "https://zenodo.org/api/records/21733986/versions",
+        "draft": "https://zenodo.org/api/records/21733986/draft",
+        "access_links": "https://zenodo.org/api/records/21733986/access/links",
+        "access_grants": "https://zenodo.org/api/records/21733986/access/grants",
+        "access_users": "https://zenodo.org/api/records/21733986/access/users",
+        "access_request": "https://zenodo.org/api/records/21733986/access/request",
+        "access": "https://zenodo.org/api/records/21733986/access",
+        "communities": "https://zenodo.org/api/records/21733986/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21733986/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21733986/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21733986/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21733986/quota-increase",
+        "requests": "https://zenodo.org/api/records/21733986/requests"
+      },
+      "updated": "2026-08-01T04:57:43.995542+00:00",
+      "recid": "21733986",
+      "revision": 4,
+      "files": [
+        {
+          "id": "40ce098f-3d37-416d-9272-c45d8214ae29",
+          "key": "chi-sep-medi.zip",
+          "size": 8638,
+          "checksum": "md5:95adc621a40221970af7f106f8ccc72d",
+          "links": {
+            "self": "https://zenodo.org/api/records/21733986/files/chi-sep-medi.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:45595c51e590f28eeb79fbe7b41bfe5b3dc8176d;origin=https://doi.org/10.5281/zenodo.21697752;visit=swh:1:snp:66461fce0708440c2e8df59883fb86d36e0dfd25;anchor=swh:1:rel:0172feb09ea56cb94bfd6eb38d617b92ac655b38;path=chi-sep-medi"
+      },
+      "owners": [
+        {
+          "id": "207921"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
         "version_unique_views": 0,
         "version_views": 0
       },

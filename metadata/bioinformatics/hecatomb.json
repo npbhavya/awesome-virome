@@ -14,7 +14,30 @@
   "bioconda": {
     "package": "",
     "version": "",
-    "dependencies": {},
+    "dependencies": {
+      "build": [],
+      "run": [
+        "python",
+        "snakemake",
+        "pulp",
+        "pyyaml",
+        "click",
+        "metasnek",
+        "snaketool-utils"
+      ],
+      "host": [
+        "python",
+        "pip",
+        "run:",
+        "python",
+        "snakemake",
+        "pulp",
+        "pyyaml",
+        "click",
+        "metasnek",
+        "snaketool-utils"
+      ]
+    },
     "installation": ""
   },
   "academic_impact": {
@@ -26,5 +49,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2026-06-01T14:32:12.761038"
+  "last_updated": "2026-08-01T10:30:57.786234"
 }

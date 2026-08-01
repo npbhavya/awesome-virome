@@ -1,6 +1,318 @@
 {
-  "cache_date": "2026-06-01T16:39:53.465931",
+  "cache_date": "2026-08-01T12:24:25.365087",
   "data": [
+    {
+      "created": "2026-07-23T13:28:27.527831+00:00",
+      "modified": "2026-07-23T13:28:28.841208+00:00",
+      "id": 21510554,
+      "conceptrecid": "21510553",
+      "doi": "10.5281/zenodo.21510554",
+      "conceptdoi": "10.5281/zenodo.21510553",
+      "doi_url": "https://doi.org/10.5281/zenodo.21510554",
+      "metadata": {
+        "title": "CheckV reference database v1.5 \u2014 unmodified mirror",
+        "doi": "10.5281/zenodo.21510554",
+        "publication_date": "2026-07-23",
+        "description": "<p>This record is an unmodified mirror of checkv-db-v1.5.tar.gz, the reference database CheckV uses to estimate the completeness and contamination of viral genomes.</p>\n<p>Why this mirror exists. The database is distributed from portal.nersc.gov, which is periodically unreachable &mdash; an outage there blocks any pipeline that fetches it at run time. This copy is archived so such workflows, in particular BacFlux, stay runnable and reproducible while the official host is down.</p>\n<p>What it is. Byte-for-byte identical to the official archive: version 1.5 (10 January 2023), 1,681,539,865 bytes, SHA-256 10e20b58873dac7862bd7e4379434e93f23968eb1fdd8db5ddcd8e9815f2bc19 (see the accompanying .sha256 file). It unpacks to checkv-db-v1.5/ containing genome_db/ and hmm_db/. Nothing has been added, removed, re-indexed or re-compressed. Note that the archive intentionally ships no DIAMOND index: CheckV builds one on first use, and it must be built by the same DIAMOND version that will later query it.</p>\n<p>Disclaimer. CheckV and its database are the work of their authors at Lawrence Berkeley National Laboratory; all credit and all rights remain theirs. This record asserts no authorship or ownership over the data and grants no rights beyond those the original distributors provide. It is not endorsed by the CheckV authors and does not replace or supersede the official source &mdash; please use the official download when it is reachable, and cite the paper below rather than this record.</p>\n<p>Cite: Nayfach S, Camargo AP, Schulz F, Eloe-Fadrosh E, Roux S, Kyrpides NC (2021) CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nature Biotechnology 39:578&ndash;585. doi:10.1038/s41587-020-00774-7</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Antonielli, Livio",
+            "affiliation": "AIT Austrian Institute of Technology",
+            "orcid": "0000-0002-7140-8359"
+          }
+        ],
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "other-at"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21510553"
+              }
+            }
+          ]
+        }
+      },
+      "title": "CheckV reference database v1.5 \u2014 unmodified mirror",
+      "links": {
+        "self": "https://zenodo.org/api/records/21510554",
+        "self_html": "https://zenodo.org/records/21510554",
+        "preview_html": "https://zenodo.org/records/21510554?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21510554",
+        "self_doi": "https://doi.org/10.5281/zenodo.21510554",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21510554",
+        "reserve_doi": "https://zenodo.org/api/records/21510554/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21510553",
+        "parent_html": "https://zenodo.org/records/21510553",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21510553",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21510553",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21510554/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21510554/sequence/default",
+        "files": "https://zenodo.org/api/records/21510554/files",
+        "media_files": "https://zenodo.org/api/records/21510554/media-files",
+        "archive": "https://zenodo.org/api/records/21510554/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21510554/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21510554/versions/latest",
+        "latest_html": "https://zenodo.org/records/21510554/latest",
+        "versions": "https://zenodo.org/api/records/21510554/versions",
+        "draft": "https://zenodo.org/api/records/21510554/draft",
+        "access_links": "https://zenodo.org/api/records/21510554/access/links",
+        "access_grants": "https://zenodo.org/api/records/21510554/access/grants",
+        "access_users": "https://zenodo.org/api/records/21510554/access/users",
+        "access_request": "https://zenodo.org/api/records/21510554/access/request",
+        "access": "https://zenodo.org/api/records/21510554/access",
+        "communities": "https://zenodo.org/api/records/21510554/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21510554/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21510554/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21510554/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21510554/quota-increase",
+        "requests": "https://zenodo.org/api/records/21510554/requests"
+      },
+      "updated": "2026-07-23T13:28:28.841208+00:00",
+      "recid": "21510554",
+      "revision": 4,
+      "files": [
+        {
+          "id": "34fe436b-79bc-4113-9501-beff9c96df99",
+          "key": "checkv-db-v1.5.tar.gz",
+          "size": 1681539865,
+          "checksum": "md5:f612b60b200c5958b2ba1a5abe9ddd39",
+          "links": {
+            "self": "https://zenodo.org/api/records/21510554/files/checkv-db-v1.5.tar.gz/content"
+          }
+        },
+        {
+          "id": "484e636b-f86c-4d3e-8db7-64c25c5d91ac",
+          "key": "checkv-db-v1.5.sha256",
+          "size": 88,
+          "checksum": "md5:ecc4791de0d247d64923894063ab7067",
+          "links": {
+            "self": "https://zenodo.org/api/records/21510554/files/checkv-db-v1.5.sha256/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1107301"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 4,
+        "unique_downloads": 3,
+        "views": 16,
+        "unique_views": 15,
+        "version_downloads": 4,
+        "version_unique_downloads": 3,
+        "version_unique_views": 15,
+        "version_views": 16
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-22T14:01:09.652574+00:00",
+      "modified": "2026-07-22T14:01:10.032242+00:00",
+      "id": 21471992,
+      "conceptrecid": "21471991",
+      "doi": "10.5281/zenodo.21471992",
+      "conceptdoi": "10.5281/zenodo.21471991",
+      "doi_url": "https://doi.org/10.5281/zenodo.21471992",
+      "metadata": {
+        "title": "PHORAGER - HumGut database genomes without prophages",
+        "doi": "10.5281/zenodo.21471992",
+        "publication_date": "2026-07-21",
+        "description": "<h1>Prophage-depleted HumGut representative genomes (\"phoraged\" genomes)</h1>\n<p>This archive contains prophage-depleted bacterial genomes derived from the HumGut&nbsp;collection of human gut prokaryotic genomes. Each genome is a HumGut cluster&nbsp;representative from which predicted prophage regions have been removed (\"excised\")&nbsp;using the PHORAGER pipeline. The resulting genomes are intended as prophage-depleted&nbsp;host references; for example, for building mock-community references and benchmarking&nbsp;prophage-detection methods.</p>\n<p>- <strong>Pipeline: </strong>PHORAGER v0.5.0-beta : https://github.com/aponsero/PHORAGER<br>- <strong>Generated by</strong>: the PHORAGER `prophage` workflows, run with default parameters.<br>- <strong>Humgut database available at</strong>: <a href=\"http://arken.nmbu.no/~larssn/humgut/\">http://arken.nmbu.no/~larssn/humgut/</a><br>- <strong>HumGut database described in</strong> : <a href=\"https://doi.org/10.1186/s40168-021-01114-w\">https://doi.org/10.1186/s40168-021-01114-w</a><br>--&gt; Number of genomes: 30,691 HumGut cluster representatives</p>\n<p>---</p>\n<h2>1. What is in this archive</h2>\n<p>This archive provides one gzipped FASTA per genome plus a single summary table.</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Item</strong></td>\n<td><strong>Type</strong></td>\n<td><strong>Content</strong></td>\n</tr>\n<tr>\n<td>&lt;HumGut_ID&gt;_phoraged.fasta.gz</td>\n<td>gzipped FASTA (nt)</td>\n<td>One HumGut representative genome after prophage excision (host sequence only).</td>\n</tr>\n<tr>\n<td>humgut_summary.tsv</td>\n<td>TSV</td>\n<td>Per-genome taxonomy and prophage-excision summary (one row per genome).</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Upload structure</strong>: To keep individual uploads manageable, the genomes are split into batches of 5,000 and distributed as separate ZIP files, named by genome range : `Humgut1_5000`, `Humgut5000_10000`, `Humgut10000_15000`, and so on. With 30,691 genomes this gives seven ZIP files, the last of which is smaller than 5,000.</p>\n<p><strong>File naming</strong>: Each genome file is named `&lt;HumGut_ID&gt;_phoraged.fasta.gz`, where `&lt;HumGut_ID&gt;` is the HumGut cluster representative identifier (e.g. `HumGut_17012`). This identifier is the join key to `humgut_summary.tsv` (`HumGut_name` column).</p>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>2. File descriptions</h2>\n<h3>2.1 `&lt;HumGut_ID&gt;_phoraged.fasta.gz` : prophage-depleted genome</h3>\n<p>Nucleotide FASTA (gzip-compressed) containing the retained host sequence of a single&nbsp;HumGut representative genome after prophage excision. Contigs that contained no predicted&nbsp;prophage are included unchanged; contigs that contained an internal prophage are split&nbsp;into their host flank(s); contigs predicted to be entirely prophage are omitted (see &sect;3).</p>\n<p>Contig headers take one of two forms:</p>\n<p>- Unmodified contigs (no prophage removed) retain their original renamed contig header.<br>- Host fragments produced by splitting a prophage-containing contig carry a coordinate suffix indicating the retained interval, `..._host_&lt;start&gt;_&lt;end&gt;` (1-based, inclusive,&nbsp; relative to the pre-excision contig).</p>\n<h3>2.2 `humgut_summary.tsv` &mdash; per-genome taxonomy and excision summary</h3>\n<p>Tab-separated, one row per genome.</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Column</strong></td>\n<td><strong>Description</strong></td>\n</tr>\n<tr>\n<td>`HumGut_name`</td>\n<td>HumGut cluster representative identifier; matches the `&lt;HumGut_ID&gt;` prefix of the corresponding `_phoraged.fasta.gz` file.</td>\n</tr>\n<tr>\n<td>`HumGut_tax_id`</td>\n<td>HumGut taxonomy identifier for the cluster.</td>\n</tr>\n<tr>\n<td>`gtdbtk_taxonomy`</td>\n<td>GTDB-based taxonomic assignment (domain &rarr; species), semicolon-delimited.</td>\n</tr>\n<tr>\n<td>`original_genome_file`</td>\n<td>Filename of the original (pre-excision) genome assembly used as input to PHORAGER.</td>\n</tr>\n<tr>\n<td>`n_prophage_regions`</td>\n<td>Number of prophage regions excised from this genome. `0` if no prophage was detected.</td>\n</tr>\n<tr>\n<td>`total_prophage_bp`</td>\n<td>Total length (bp) of sequence removed as prophage. `0` if none.</td>\n</tr>\n</tbody>\n</table>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>3. How prophages were excised</h2>\n<p><strong>Excision was performed in two stages</strong>: prophage prediction with PHORAGER, followed by&nbsp;removal of the predicted regions from each genome.</p>\n<p>Prediction. Each genome's contigs were renamed to unique identifiers and screened for&nbsp;prophages with geNomad and VIBRANT. Overlapping predictions from the two tools were&nbsp;consolidated into non-redundant coordinate ranges per contig (1-based, inclusive).</p>\n<p><strong>Excision. For each contig:</strong></p>\n<p>- Contigs with no predicted prophage were retained unchanged.<br>- Contigs containing an internal prophage (host sequence remaining on at least one side) had the prophage region(s) removed and the flanking host sequence retained. Such a contig is split into separate host fragments rather than rejoined, so no artificial&nbsp; host&ndash;host junction is created.<br>- Contigs predicted to be entirely prophage: whole-contig predictions, or predictions&nbsp;spanning the full contig length were removed in their entirety.<br>- Host fragments were kept regardless of length (no minimum-length filter was applied).</p>\n<p><strong>Only retained host sequence is included in this archive.</strong></p>\n<p>Detection-stage regions are not annotation-confirmed. The regions removed here are PHORAGER's consolidated geNomad/VIBRANT predictions. They were deliberately NOT passed through PHORAGER's downstream confirmation steps (CheckV quality assessment and Pharokka/Phold annotation-based filtering). This is the conservative choice for building prophage-depleted host genomes: any region flagged by either detection tool is removed, minimizing the chance that a genuine prophage remains in a genome presented as host, at the cost of occasionally removing sequence that later confirmation might have retained.</p>\n<p>Consequently:</p>\n<p>- The excised prophage sequences are NOT distributed in this archive and should not be&nbsp;treated as a validated prophage set.<br>- `n_prophage_regions` and `total_prophage_bp` describe the detection-stage sequence that&nbsp;was removed; they are not a confirmed prophage count.</p>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>4. Notes and limitations</h2>\n<p>- Region boundaries are as predicted by geNomad/VIBRANT and are not CheckV-trimmed. A small amount of host sequence may be removed at region edges, and conversely some&nbsp; prophage-adjacent bases may remain in the host output.<br>- `n_prophage_regions = 0` means no prophage was detected for that genome; it is not a&nbsp;guarantee that the genome is prophage-free.<br>- Genomes are provided as prophage-depleted contig sets. Contigs carrying internal&nbsp;prophages are split and are not re-scaffolded or otherwise re-assembled.</p>\n<p>------------------------------------------------------------------------------------------------------------------------------------------------</p>\n<h2>5. How these outputs were generated</h2>\n<p><strong>Provenance chain:</strong></p>\n<p>&nbsp; HumGut representative genome<br>&nbsp; &nbsp; &rarr; PHORAGER prophage detection (geNomad + VIBRANT, consolidated)<br>&nbsp; &nbsp; &rarr; prophage excision (this archive: host sequence retained)</p>\n<p><strong>Tool versions:</strong></p>\n<table>\n<tbody>\n<tr>\n<td>Tool</td>\n<td>Version</td>\n<td>Role</td>\n</tr>\n<tr>\n<td>PHORAGER</td>\n<td>v0.5.0</td>\n<td>Pipeline (detection + excision)</td>\n</tr>\n<tr>\n<td>geNomad</td>\n<td>1.8.1</td>\n<td>Prophage prediction</td>\n</tr>\n<tr>\n<td>VIBRANT</td>\n<td>1.2.1</td>\n<td>Prophage prediction</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Parameters</strong> : PHORAGER prophage subworkflow using default parameters</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ponsero, Alise Jany",
+            "affiliation": "Quadram Institute",
+            "orcid": "0000-0002-4125-7561"
+          },
+          {
+            "name": "Dyball, Xena",
+            "affiliation": "Quadram Institute",
+            "orcid": "0009-0005-8070-698X"
+          },
+          {
+            "name": "Cook, Ryan",
+            "affiliation": "Quadram Institute",
+            "orcid": "0000-0003-4203-2193"
+          },
+          {
+            "name": "Adriaenssens, Evelien",
+            "affiliation": "Quadram Institute",
+            "orcid": "0000-0003-4826-5406"
+          }
+        ],
+        "version": "1.0.0",
+        "language": "enc",
+        "custom": {
+          "code:codeRepository": "https://github.com/aponsero/PHORAGER"
+        },
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21471991"
+              }
+            }
+          ]
+        }
+      },
+      "title": "PHORAGER - HumGut database genomes without prophages",
+      "links": {
+        "self": "https://zenodo.org/api/records/21471992",
+        "self_html": "https://zenodo.org/records/21471992",
+        "preview_html": "https://zenodo.org/records/21471992?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21471992",
+        "self_doi": "https://doi.org/10.5281/zenodo.21471992",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21471992",
+        "reserve_doi": "https://zenodo.org/api/records/21471992/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21471991",
+        "parent_html": "https://zenodo.org/records/21471991",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21471991",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21471991",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21471992/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21471992/sequence/default",
+        "files": "https://zenodo.org/api/records/21471992/files",
+        "media_files": "https://zenodo.org/api/records/21471992/media-files",
+        "archive": "https://zenodo.org/api/records/21471992/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21471992/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21471992/versions/latest",
+        "latest_html": "https://zenodo.org/records/21471992/latest",
+        "versions": "https://zenodo.org/api/records/21471992/versions",
+        "draft": "https://zenodo.org/api/records/21471992/draft",
+        "access_links": "https://zenodo.org/api/records/21471992/access/links",
+        "access_grants": "https://zenodo.org/api/records/21471992/access/grants",
+        "access_users": "https://zenodo.org/api/records/21471992/access/users",
+        "access_request": "https://zenodo.org/api/records/21471992/access/request",
+        "access": "https://zenodo.org/api/records/21471992/access",
+        "communities": "https://zenodo.org/api/records/21471992/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21471992/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21471992/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21471992/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21471992/quota-increase",
+        "requests": "https://zenodo.org/api/records/21471992/requests"
+      },
+      "updated": "2026-07-22T14:01:10.032242+00:00",
+      "recid": "21471992",
+      "revision": 4,
+      "files": [
+        {
+          "id": "5bf501b8-3ce0-4c49-bf8a-d922caf36e0e",
+          "key": "HumGut_phoraged_5k-10k.tar.gz",
+          "size": 2939472199,
+          "checksum": "md5:e73443d99456778c3ea25895ca574031",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_5k-10k.tar.gz/content"
+          }
+        },
+        {
+          "id": "3ee7cd92-d103-4403-82e9-da28de1a9de2",
+          "key": "HumGut_phoraged_1-5k.tar.gz",
+          "size": 3234317408,
+          "checksum": "md5:49049b80fe01e015e5e70a07d68adacc",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_1-5k.tar.gz/content"
+          }
+        },
+        {
+          "id": "c1a0b2b0-ac2c-4cfb-ac03-b516fd0d185d",
+          "key": "HumGut_phoraged_10k-15k.tar.gz",
+          "size": 3127856080,
+          "checksum": "md5:6bbe766e10a584e9b108e870b2343018",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_10k-15k.tar.gz/content"
+          }
+        },
+        {
+          "id": "d492028f-027a-4454-bb64-9322ce4de150",
+          "key": "HumGut_phoraged_15k-20k.tar.gz",
+          "size": 2991254794,
+          "checksum": "md5:fafeda8d8893ea0eb7f69b28f81b6da4",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_15k-20k.tar.gz/content"
+          }
+        },
+        {
+          "id": "dbe081c2-d93b-4e1d-ae57-f94e97dea5fe",
+          "key": "humgut_summary.tsv",
+          "size": 5284811,
+          "checksum": "md5:d55146a69fc376ba9c48f8da8573c672",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/humgut_summary.tsv/content"
+          }
+        },
+        {
+          "id": "74c3c9f5-b94c-4530-99ea-7cbcf98589e9",
+          "key": "HumGut_phoraged_20k-25k.tar.gz",
+          "size": 2899056595,
+          "checksum": "md5:80d9c96d420ea31e4516b44c5de361b6",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_20k-25k.tar.gz/content"
+          }
+        },
+        {
+          "id": "fb1307d5-2aa8-4c92-9c85-7911f54f1877",
+          "key": "HumGut_phoraged_25k-30k.tar.gz",
+          "size": 2958127018,
+          "checksum": "md5:6177b607c65eed16707b7b9f586907f7",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_25k-30k.tar.gz/content"
+          }
+        },
+        {
+          "id": "77c6bdd2-7075-4648-816f-269595d5516e",
+          "key": "HumGut_phoraged_30k-31k.tar.gz",
+          "size": 442088074,
+          "checksum": "md5:80516a80fb26517237560d7975da4182",
+          "links": {
+            "self": "https://zenodo.org/api/records/21471992/files/HumGut_phoraged_30k-31k.tar.gz/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "572037"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 8,
+        "unique_views": 8,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 8,
+        "version_views": 8
+      },
+      "state": "done",
+      "submitted": true
+    },
     {
       "created": "2026-05-18T19:46:18.738702+00:00",
       "modified": "2026-05-19T18:11:32.061215+00:00",
@@ -184,21 +496,21 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 16,
-        "unique_downloads": 16,
-        "views": 34,
-        "unique_views": 25,
-        "version_downloads": 16,
-        "version_unique_downloads": 16,
-        "version_unique_views": 18,
-        "version_views": 25
+        "downloads": 105,
+        "unique_downloads": 105,
+        "views": 167,
+        "unique_views": 153,
+        "version_downloads": 105,
+        "version_unique_downloads": 105,
+        "version_unique_views": 146,
+        "version_views": 158
       },
       "state": "done",
       "submitted": true
     },
     {
       "created": "2026-05-18T08:15:57.835026+00:00",
-      "modified": "2026-05-18T08:15:58.190858+00:00",
+      "modified": "2026-07-21T13:48:54.017764+00:00",
       "id": 20119467,
       "conceptrecid": "20119466",
       "doi": "10.5281/zenodo.20119467",
@@ -209,8 +521,7 @@
         "doi": "10.5281/zenodo.20119467",
         "publication_date": "2026-05-08",
         "description": "<h1>Swine Nasopharyngeal Phage Catalogue</h1>\n<h2>1. Dataset overview</h2>\n<p>This repository accompanies the manuscript *\"Paired viromics resolves the modular ecological architecture of the swine nasopharyngeal phageome\"* and provides a curated, non-redundant catalogue of viral operational taxonomic units (vOTUs) recovered from the upper respiratory tract of post-weaning piglets across ten commercial farms in northwestern Spain. Paired DNA microbiome (DNA-m) and virus-like particle&ndash;enriched (VLP-e) short-read metagenomic libraries were processed, integrated, and dereplicated at species-level identity (&ge;95% average nucleotide identity over &ge;85% alignment fraction) following MIUViG recommendations (Roux et al., 2019).</p>\n<p>The catalogue comprises 2,501 representative vOTU sequences with CheckV-estimated completeness &ge;50%. For each vOTU, this release distributes (i) curated catalogue metadata describing taxonomy, predicted lifestyle, predicted host, quality metrics, and similarity to previously described phages; and (ii) per-gene functional annotations generated with Pharokka. Together, these files are intended to support reuse of the catalogue for comparative viromics, host-prediction benchmarking, downstream functional characterization, and rational pre-selection of lytic phage candidates against porcine respiratory pathogens.</p>\n<h2>2. Files included in this release</h2>\n<p>- **`nasopharyngeal_phages_metadata.tsv`**: one row per representative vOTU (n = 2,501). Contains identification, sample provenance, quality metrics (CheckV, MIUViG), taxonomic assignment, predicted lifestyle (PhaTYP), predicted bacterial host (iPHoP), terL marker information, and similarity to known phages from PhageScope.<br>- **`nasopharyngeal_phages_pharokka.tsv`**: one row per predicted gene across all representative vOTUs. Contains Pharokka annotations (PHROG categories, functional descriptions) and complementary searches against the Virulence Factor Database (VFDB) and the Comprehensive Antibiotic Resistance Database (CARD).<br>- **`nasopharyngeal_phages_vOTUs.fasta`**: nucleotide sequences of the 2,501 representative vOTUs. Sequence headers correspond to the `vOTU-ID` field used as the primary key across both metadata files.<br>- **`nasopharyngeal_phages_pharokka_CDS.faa`**: amino-acid sequences of the CDS derived from Pharokka annotations. CDS headers correspond to the `vOTU-gene` field used as key in the `nasopharyngeal_phages_pharokka` file.</p>\n<h2>3. General conventions</h2>\n<p>- Missing values are encoded as `NA` in the catalogue metadata file and as `None` or `No_PHROG` / `No_custom_HMM` in the Pharokka file, depending on the originating tool.<br>- Coordinates in the Pharokka file (`start`, `stop`) are 1-based and refer to the parent vOTU sequence.<br>- All numeric percentages are reported on a 0&ndash;100 scale; coverages and sequence-identity fractions reported by alignment tools (`qcov`, `tcov`, `fident`, `mmseqs_seqIdentity`) are reported on a 0&ndash;1 scale, following the conventions of the corresponding tools.<br>- Taxonomic strings for predicted bacterial hosts use GTDB rank prefixes (`d__`, `p__`, `c__`, `o__`, `f__`, `g__`, `s__`).<br>- Viral taxonomic strings follow the ICTV-style hierarchy reported by PhaBOX2 (superkingdom, clade, kingdom, phylum, class, order, family, genus).</p>\n<h2>4. `nasopharyngeal_phages_metadata.tsv`</h2>\n<p>This file contains one row per representative vOTU and 26 descriptor columns. The table below provides the field name, expected type or set of values, and a brief description.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Unique identifier of the viral operational taxonomic unit (vOTU) representative sequence. Encodes the originating sample and assembly source (e.g. `M01-C1_DNA-m_NODE_29994_length_56440_cov_17.9864_ID_59987`). |<br>| `Sample-Workflow` | Text (string) | Sample of origin combined with the extraction workflow used to recover the contig: `DNA-m` (DNA microbiome shotgun) or `VLP-e` (virus-like particle&ndash;enriched). The sample component follows the format `M[farm]-C[pen]` (e.g. `M01-C1_DNA-m`). |<br>| `Phage_Detection_Tool` | Categorical: `genomad` / `virsorter2` | Bioinformatic classifier that retained the contig as viral. When both tools identified the same contig, the prediction with the lowest CheckV-estimated contamination was kept. |<br>| `vOTU_Length` | Integer (bp) | Length of the representative vOTU sequence in base pairs. |<br>| `Viral_Taxonomy` | Text (string) or `NA` | Taxonomic lineage assigned by PhaBOX2, reported in semicolon-separated rank format from superkingdom down to the deepest resolved rank (e.g. `superkingdom:Viruses;clade:Duplodnaviria;&hellip;;family:Peduoviridae`). `NA` when no confident assignment was obtained. |<br>| `Number_of_genes` | Integer | Total number of predicted protein-coding genes annotated on the representative sequence. |<br>| `Viral_genes` | Integer | Number of predicted genes assigned to viral functional. |<br>| `Host_genes` | Integer | Number of predicted genes flagged as putatively host-derived by CheckV. Higher values indicate possible host contamination or integrated regions. |<br>| `Provirus` | Categorical: `Yes` / `No` | Whether CheckV identified the contig as a provirus (i.e. an integrated viral region embedded in a longer host-derived sequence). |<br>| `Proviral_Length` | Integer (bp) or `NA` | Length of the proviral region in base pairs when `Provirus = Yes`; `NA` otherwise. |<br>| `CheckV_Quality` | Categorical | CheckV quality category based on completeness and contamination: `Complete`, `High-quality`, `Medium-quality`, `Low-quality`, or `Not-determined`. Only `Medium-quality` or higher were retained in the curated catalogue. |<br>| `MIUViG_Quality` | Categorical | MIUViG (Minimum Information about an Uncultivated Virus Genome; Roux et al., 2019) tier: `Finished`, `High-quality`, or `Genome-fragment`, derived from CheckV completeness and contamination together with assembly status. |<br>| `Completeness (%)` | Numeric (0&ndash;100) | CheckV-estimated genome completeness, expressed as percentage. |<br>| `Contamination (%)` | Numeric (0&ndash;100) | CheckV-estimated host or non-viral contamination, expressed as percentage. |<br>| `Predicted_bacterial_host (IPHOP)` | Text (string) or `NA` | Putative bacterial host predicted by iPHoP, reported in GTDB rank-prefixed format (`d__Bacteria;p__&hellip;;c__&hellip;;o__&hellip;;f__&hellip;;g__&hellip;;s__&hellip;`). When multiple predictions were returned, the highest-confidence call was retained. `NA` when no host could be predicted with sufficient confidence. |<br>| `Confidence_Score_IPHOP` | Numeric (0&ndash;100) or `NA` | iPHoP confidence score associated with the retained host prediction. Higher values indicate greater confidence; `NA` when no host was assigned. |<br>| `Phage_Lifestyle (PhaTYP)` | Categorical: `virulent` / `temperate` / `NA` | Predicted replication strategy obtained from the PhaTYP module of PhaBOX2. `NA` when the model did not produce a confident call. |<br>| `PhaTYPScore` | Numeric (0&ndash;1) | PhaTYP probability score supporting the lifestyle assignment. |<br>| `Relationship with previously described vOTUs` | Categorical: `Permissive` / `Strict` / `NA` | Similarity to known phage sequences from PhageScope after MUMmer4 refinement. `Permissive` denotes vOTUs meeting the lenient match criteria (fident &ge; 0.90, qcov &ge; 0.25, tcov &ge; 0.20, aligned length &ge; 2 kb, target length &ge; 2 kb); `Strict` denotes the high-confidence subset (fident &ge; 0.92, qcov &ge; 0.35, aligned length &ge; 5 kb, target length &ge; 5 kb, and either tcov &ge; 0.50 or query length &ge; 15 kb). `NA` indicates no significant match. Full criteria are described in the Methods section of the associated manuscript. |<br>| `terL_gene` | Text (string) or `NA` | Identifier of the large terminase subunit (terL) gene predicted by Pharokka on the representative vOTU. `NA` when no terL was detected or when the predicted protein was shorter than 100 residues. |<br>| `terL_length` | Integer (amino acids) or `NA` | Length of the predicted terL protein in amino acids. Only sequences &ge;100 residues were used for the terL phylogenetic analysis. |<br>| `PhageScope-target` | Text (string) or `NA` | Identifier of the best-matching reference sequence in the PhageScope database when a similarity hit was retained; `NA` otherwise. |<br>| `PhageScope_source` | Text (string) or `NA` | Source database entry within PhageScope for the matched reference (e.g. originating phage genome accession or collection). |<br>| `qcov` | Numeric (0&ndash;1) or `NA` | Query coverage: fraction of the vOTU sequence covered by the alignment to the PhageScope target. `NA` when no match was retained. |<br>| `tcov` | Numeric (0&ndash;1) or `NA` | Target coverage: fraction of the matched PhageScope reference covered by the alignment. `NA` when no match was retained. |<br>| `fident` | Numeric (0&ndash;1) or `NA` | Fraction of identical nucleotides over the aligned region between the vOTU and the matched PhageScope target. `NA` when no match was retained. |</p>\n<h2>5. `nasopharyngeal_phages_pharokka.tsv`</h2>\n<p>This file contains one row per predicted feature (mainly CDS) generated by Pharokka v1.7.5 across all representative vOTUs. The table below describes its 43 columns. Functional categories follow the PHROG nomenclature; antimicrobial resistance and virulence factor annotations are derived from CARD and VFDB, respectively, and are populated only when a hit was detected.</p>\n<p>| Field name | Type / values | Description |<br>|---|---|---|<br>| `vOTU-ID` | Text (string) | Identifier of the parent vOTU on which the gene was predicted; matches the `vOTU-ID` column of the catalogue metadata file. |<br>| `vOTU-gene` | Text (string) | Internal gene identifier assigned by Pharokka within each vOTU (e.g. `phage_CDS_0001`). Sequential within a sequence. |<br>| `start` | Integer (bp) | Start coordinate of the predicted CDS on the vOTU sequence (1-based). |<br>| `stop` | Integer (bp) | End coordinate of the predicted CDS on the vOTU sequence (1-based, inclusive). |<br>| `frame` | Categorical: `+` / `&minus;` | Strand of the predicted CDS relative to the vOTU sequence. |<br>| `score` | Numeric | Pyrodigal gene-prediction score reported for the CDS. |<br>| `mmseqs_phrog` | Integer or `No_PHROG` | PHROG identifier returned by MMseqs2 sensitive search against the PHROG database. |<br>| `mmseqs_alnScore` | Numeric | MMseqs2 alignment bit score for the best PHROG hit. |<br>| `mmseqs_seqIdentity` | Numeric (0&ndash;1) | Fraction of identical residues in the MMseqs2 alignment to the PHROG target. |<br>| `mmseqs_eVal` | Numeric | MMseqs2 e-value of the best PHROG hit. |<br>| `mmseqs_top_hit` | Text (string) | Identifier of the top PHROG hit returned by MMseqs2. |<br>| `pyhmmer_phrog` | Integer or `No_PHROG` | PHROG identifier returned by pyhmmer profile HMM search. |<br>| `pyhmmer_bitscore` | Numeric | Bit score from the pyhmmer search against the PHROG HMM database. |<br>| `pyhmmer_evalue` | Numeric | E-value from the pyhmmer search against the PHROG HMM database. |<br>| `custom_hmm_id` | Text or `No_custom_HMM` | Identifier of the matched profile when a custom HMM database was used; `No_custom_HMM` indicates no custom HMM search was applied. |<br>| `custom_hmm_bitscore` | Numeric or `No_custom_HMM` | Bit score from the custom HMM search, when applicable. |<br>| `custom_hmm_evalue` | Numeric or `No_custom_HMM` | E-value from the custom HMM search, when applicable. |<br>| `phrog` | Integer or `No_PHROG` | Final PHROG identifier retained by Pharokka after consolidating MMseqs2 and pyhmmer evidence. |<br>| `Method` | Text (string) | Gene prediction method and version used by Pharokka. |<br>| `Region` | Categorical | Feature type (e.g. CDS, tRNA, tmRNA, CRISPR). |<br>| `color` | Hex colour code | Colour used by Pharokka for category-based visualisation of the gene in genome maps. |<br>| `annot` | Text (string) | Functional annotation of the gene (e.g. `baseplate wedge subunit`, `hypothetical protein`). |<br>| `category` | Text (string) | Higher-order PHROG functional category (e.g. tail, head and packaging, lysis, integration and excision, DNA/RNA and nucleotide metabolism, transcription regulation, moron auxiliary metabolic gene and host takeover, connector, unknown function, other). |<br>| `vfdb_hit` | Text or `None` | Best hit identifier against the Virulence Factor Database (VFDB). |<br>| `vfdb_alnScore` | Numeric or `None` | Alignment score of the best VFDB hit. |<br>| `vfdb_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best VFDB hit. |<br>| `vfdb_eVal` | Numeric or `None` | E-value of the best VFDB hit. |<br>| `vfdb_species` | Text or `None` | Species of origin of the best VFDB hit. |<br>| `vfdb_short_name` | Text or `None` | Short name of the matched VFDB virulence factor. |<br>| `vfdb_description` | Text or `None` | Functional description of the matched VFDB virulence factor. |<br>| `CARD_hit` | Text or `None` | Best hit identifier against the Comprehensive Antibiotic Resistance Database (CARD). |<br>| `CARD_alnScore` | Numeric or `None` | Alignment score of the best CARD hit. |<br>| `CARD_seqIdentity` | Numeric (0&ndash;1) or `None` | Sequence identity of the best CARD hit. |<br>| `CARD_eVal` | Numeric or `None` | E-value of the best CARD hit. |<br>| `CARD_species` | Text or `None` | Species of origin of the best CARD hit. |<br>| `ARO_Accession` | Text or `None` | Antibiotic Resistance Ontology (ARO) accession of the matched CARD entry. |<br>| `CARD_short_name` | Text or `None` | Short name of the matched CARD entry. |<br>| `Protein_Accession` | Text or `None` | Protein accession associated with the matched CARD entry. |<br>| `DNA_Accession` | Text or `None` | Nucleotide accession associated with the matched CARD entry. |<br>| `AMR_Gene_Family` | Text or `None` | Antimicrobial resistance (AMR) gene family of the matched CARD entry. |<br>| `Drug_Class` | Text or `None` | Drug class targeted by the matched CARD entry. |<br>| `Resistance_Mechanism` | Text or `None` | Mechanism of resistance reported by CARD for the matched entry. |</p>",
-        "access_right": "embargoed",
-        "embargo_date": "2026-12-31",
+        "access_right": "open",
         "creators": [
           {
             "name": "Deneke, Carlus",
@@ -289,10 +600,56 @@
         "quota_increase": "https://zenodo.org/api/records/20119467/quota-increase",
         "requests": "https://zenodo.org/api/records/20119467/requests"
       },
-      "updated": "2026-05-18T08:15:58.190858+00:00",
+      "updated": "2026-07-21T13:48:54.017764+00:00",
       "recid": "20119467",
-      "revision": 4,
-      "files": [],
+      "revision": 6,
+      "files": [
+        {
+          "id": "4d1d4b53-adb4-4605-9eca-bf6bbc6bdfe5",
+          "key": "nasopharyngeal_phages_pharokka_CDS.faa",
+          "size": 44556893,
+          "checksum": "md5:52a1f2c973b4c084021be83bb689ff52",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_pharokka_CDS.faa/content"
+          }
+        },
+        {
+          "id": "b7864916-c4b8-4ba0-8649-5c5e770a8892",
+          "key": "nasopharyngeal_phages_vOTUs.fasta",
+          "size": 94792602,
+          "checksum": "md5:bc838d914aae66c844bb60f5efb467dc",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_vOTUs.fasta/content"
+          }
+        },
+        {
+          "id": "f8b0f9af-cafe-408c-8c00-f921393b9fa3",
+          "key": "nasopharyngeal_phages_metadata.tsv",
+          "size": 762890,
+          "checksum": "md5:ea43ed5ae0ae4846bc51af6437d5b156",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_metadata.tsv/content"
+          }
+        },
+        {
+          "id": "2761bf66-a0ba-463e-ba00-1f7dd3c130ab",
+          "key": "nasopharyngeal_phages_pharokka.tsv",
+          "size": 60149100,
+          "checksum": "md5:f4b5c0fef42bb9cde59fe7e14af30ee6",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/nasopharyngeal_phages_pharokka.tsv/content"
+          }
+        },
+        {
+          "id": "7bfffe42-feeb-4a17-bbb5-fd951a4def93",
+          "key": "README.md",
+          "size": 13875,
+          "checksum": "md5:b6998cbb8c6dbcb66c62dd9a183893e2",
+          "links": {
+            "self": "https://zenodo.org/api/records/20119467/files/README.md/content"
+          }
+        }
+      ],
       "swh": null,
       "owners": [
         {
@@ -301,14 +658,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 4,
-        "unique_views": 3,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 3,
-        "version_views": 4
+        "downloads": 13,
+        "unique_downloads": 13,
+        "views": 57,
+        "unique_views": 53,
+        "version_downloads": 13,
+        "version_unique_downloads": 13,
+        "version_unique_views": 53,
+        "version_views": 57
       },
       "state": "done",
       "submitted": true
@@ -411,135 +768,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 8,
-        "unique_views": 5,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 5,
-        "version_views": 8
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-04-24T20:36:15.781511+00:00",
-      "modified": "2026-04-24T20:39:23.744374+00:00",
-      "id": 19744378,
-      "conceptrecid": "11143917",
-      "doi": "10.5281/zenodo.19744378",
-      "conceptdoi": "10.5281/zenodo.11143917",
-      "doi_url": "https://doi.org/10.5281/zenodo.19744378",
-      "metadata": {
-        "title": "BacFlux: A workflow for bacterial short-read assembly, QC, annotation, and more, with support for pre-assembled contigs",
-        "doi": "10.5281/zenodo.19744378",
-        "publication_date": "2026-04-24",
-        "description": "<h1>BacFlux v1.2.2</h1>\n<p>April 2026</p>\n<p>This release improves robustness of the BacFlux and FastaFlux workflows, with particular attention to database handling, Bakta compatibility, and cleanup of workflow outputs.</p>\n<h2>Highlights</h2>\n<ul>\n<li>Updated BacFlux and FastaFlux metadata to v1.2.2.</li>\n<li>Improved CheckV database handling for viral sequence quality assessment.</li>\n<li>Added safer Bakta locus tag generation to avoid invalid sample-derived locus tags.</li>\n<li>Added <code>diamond</code> to the Bakta Conda environment.</li>\n<li>Improved dbCAN database handling in FastaFlux with checksum/sentinel-based validation.</li>\n<li>Extended <code>clean_workdir.sh</code> so it supports both BacFlux and FastaFlux output directory layouts.</li>\n<li>Fixed minor wording and log-name issues in the workflow.</li>\n</ul>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Livio Antonielli",
-            "affiliation": "AIT Austrian Institute of Technology"
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/iLivius/BacFlux/tree/v1.2.2",
-            "relation": "isSupplementTo",
-            "resource_type": "software",
-            "scheme": "url"
-          }
-        ],
-        "version": "v1.2.2",
-        "custom": {
-          "code:codeRepository": "https://github.com/iLivius/BacFlux"
-        },
-        "resource_type": {
-          "title": "Software",
-          "type": "software"
-        },
-        "license": {
-          "id": "mit-license"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 7,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "11143917"
-              }
-            }
-          ]
-        }
-      },
-      "title": "BacFlux: A workflow for bacterial short-read assembly, QC, annotation, and more, with support for pre-assembled contigs",
-      "links": {
-        "self": "https://zenodo.org/api/records/19744378",
-        "self_html": "https://zenodo.org/records/19744378",
-        "preview_html": "https://zenodo.org/records/19744378?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.19744378",
-        "self_doi": "https://doi.org/10.5281/zenodo.19744378",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19744378",
-        "reserve_doi": "https://zenodo.org/api/records/19744378/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/11143917",
-        "parent_html": "https://zenodo.org/records/11143917",
-        "parent_doi": "https://doi.org/10.5281/zenodo.11143917",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11143917",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19744378/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19744378/sequence/default",
-        "files": "https://zenodo.org/api/records/19744378/files",
-        "media_files": "https://zenodo.org/api/records/19744378/media-files",
-        "archive": "https://zenodo.org/api/records/19744378/files-archive",
-        "archive_media": "https://zenodo.org/api/records/19744378/media-files-archive",
-        "latest": "https://zenodo.org/api/records/19744378/versions/latest",
-        "latest_html": "https://zenodo.org/records/19744378/latest",
-        "versions": "https://zenodo.org/api/records/19744378/versions",
-        "draft": "https://zenodo.org/api/records/19744378/draft",
-        "access_links": "https://zenodo.org/api/records/19744378/access/links",
-        "access_grants": "https://zenodo.org/api/records/19744378/access/grants",
-        "access_users": "https://zenodo.org/api/records/19744378/access/users",
-        "access_request": "https://zenodo.org/api/records/19744378/access/request",
-        "access": "https://zenodo.org/api/records/19744378/access",
-        "communities": "https://zenodo.org/api/records/19744378/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/19744378/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/19744378/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/19744378/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/19744378/quota-increase",
-        "requests": "https://zenodo.org/api/records/19744378/requests"
-      },
-      "updated": "2026-04-24T20:39:23.744374+00:00",
-      "recid": "19744378",
-      "revision": 6,
-      "files": [
-        {
-          "id": "5c1bf5f1-22f5-41ab-b5cd-818c45242a4a",
-          "key": "iLivius/BacFlux-v1.2.2.zip",
-          "size": 175690,
-          "checksum": "md5:4749b1ac3e7b22e40bd3b504abb91006",
-          "links": {
-            "self": "https://zenodo.org/api/records/19744378/files/iLivius/BacFlux-v1.2.2.zip/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1107301"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 54,
-        "unique_downloads": 53,
-        "views": 593,
-        "unique_views": 552,
-        "version_downloads": 2,
-        "version_unique_downloads": 2,
-        "version_unique_views": 29,
-        "version_views": 30
+        "downloads": 6,
+        "unique_downloads": 6,
+        "views": 18,
+        "unique_views": 15,
+        "version_downloads": 6,
+        "version_unique_downloads": 6,
+        "version_unique_views": 15,
+        "version_views": 18
       },
       "state": "done",
       "submitted": true
@@ -677,14 +913,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 24,
-        "unique_views": 24,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 24,
-        "version_views": 24
+        "downloads": 20,
+        "unique_downloads": 20,
+        "views": 47,
+        "unique_views": 45,
+        "version_downloads": 20,
+        "version_unique_downloads": 20,
+        "version_unique_views": 45,
+        "version_views": 47
       },
       "state": "done",
       "submitted": true
@@ -916,14 +1152,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 191,
-        "unique_downloads": 188,
-        "views": 69,
-        "unique_views": 60,
-        "version_downloads": 83,
-        "version_unique_downloads": 82,
-        "version_unique_views": 22,
-        "version_views": 23
+        "downloads": 257,
+        "unique_downloads": 254,
+        "views": 101,
+        "unique_views": 89,
+        "version_downloads": 104,
+        "version_unique_downloads": 103,
+        "version_unique_views": 35,
+        "version_views": 38
       },
       "state": "done",
       "submitted": true
@@ -1059,14 +1295,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 843,
-        "unique_downloads": 803,
-        "views": 821,
-        "unique_views": 788,
-        "version_downloads": 101,
-        "version_unique_downloads": 97,
-        "version_unique_views": 106,
-        "version_views": 115
+        "downloads": 1023,
+        "unique_downloads": 953,
+        "views": 1006,
+        "unique_views": 973,
+        "version_downloads": 130,
+        "version_unique_downloads": 126,
+        "version_unique_views": 175,
+        "version_views": 184
       },
       "state": "done",
       "submitted": true
@@ -1349,14 +1585,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 950,
-        "unique_downloads": 939,
-        "views": 196,
-        "unique_views": 187,
-        "version_downloads": 387,
-        "version_unique_downloads": 381,
-        "version_unique_views": 132,
-        "version_views": 138
+        "downloads": 1099,
+        "unique_downloads": 1083,
+        "views": 235,
+        "unique_views": 222,
+        "version_downloads": 464,
+        "version_unique_downloads": 453,
+        "version_unique_views": 157,
+        "version_views": 167
       },
       "state": "done",
       "submitted": true
@@ -1472,141 +1708,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 4,
-        "unique_downloads": 4,
-        "views": 15,
-        "unique_views": 14,
-        "version_downloads": 4,
-        "version_unique_downloads": 4,
-        "version_unique_views": 14,
-        "version_views": 15
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2025-04-01T04:06:15.991337+00:00",
-      "modified": "2025-04-01T04:06:16.146906+00:00",
-      "id": 15116682,
-      "conceptrecid": "15116681",
-      "doi": "10.1038/s41587-020-00774-7",
-      "doi_url": "https://doi.org/10.1038/s41587-020-00774-7",
-      "metadata": {
-        "title": "CheckV v1.5 Database (UNOFFICIAL MIRROR)",
-        "doi": "10.1038/s41587-020-00774-7",
-        "publication_date": "2025-04-01",
-        "description": "<p>Unofficial CheckV v1.5 database. &nbsp;The current database domain has been inactive and VEBA is reliant on this database so we are hosting a backup.&nbsp;</p>\n<p>&nbsp;</p>\n<p>```</p>\n<p>$ tree CheckV<br>CheckV<br>\u251c\u2500\u2500 README.txt<br>\u251c\u2500\u2500 database_version<br>\u251c\u2500\u2500 genome_db<br>\u2502 &nbsp; \u251c\u2500\u2500 changelog.tsv<br>\u2502 &nbsp; \u251c\u2500\u2500 checkv_error.tsv<br>\u2502 &nbsp; \u251c\u2500\u2500 checkv_info.tsv<br>\u2502 &nbsp; \u251c\u2500\u2500 checkv_reps.dmnd<br>\u2502 &nbsp; \u251c\u2500\u2500 checkv_reps.faa<br>\u2502 &nbsp; \u251c\u2500\u2500 checkv_reps.fna<br>\u2502 &nbsp; \u2514\u2500\u2500 checkv_reps.tsv<br>\u2514\u2500\u2500 hmm_db<br>&nbsp; &nbsp; \u251c\u2500\u2500 checkv_hmms<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 1.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 10.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 11.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 12.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 13.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 14.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 15.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 16.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 17.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 18.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 19.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 2.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 20.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 21.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 22.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 23.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 24.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 25.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 26.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 27.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 28.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 29.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 3.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 30.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 31.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 32.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 33.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 34.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 35.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 36.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 37.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 38.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 39.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 4.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 40.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 41.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 42.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 43.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 44.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 45.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 46.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 47.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 48.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 49.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 5.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 50.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 51.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 52.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 53.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 54.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 55.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 56.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 57.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 58.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 59.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 6.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 60.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 61.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 62.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 63.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 64.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 65.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 66.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 67.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 68.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 69.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 7.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 70.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 71.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 72.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 73.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 74.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 75.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 76.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 77.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 78.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 79.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 8.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 80.hmm<br>&nbsp; &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 9.hmm<br>&nbsp; &nbsp; \u251c\u2500\u2500 checkv_hmms.tsv<br>&nbsp; &nbsp; \u2514\u2500\u2500 genome_lengths.tsv</p>\n<p>3 directories, 91 files</p>\n<p>```</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Espinoza, Josh",
-            "affiliation": null
-          }
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "10.1038/s41587-020-00774-7",
-            "relation": "isPartOf",
-            "scheme": "doi"
-          }
-        ],
-        "dates": [
-          {
-            "type": "other"
-          }
-        ],
-        "version": "v1.5",
-        "references": [
-          "10.1038/s41587-020-00774-7"
-        ],
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "alternate_identifiers": [
-          {
-            "identifier": "10.1038/s41587-020-00774-7"
-          }
-        ],
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "15116681"
-              }
-            }
-          ]
-        }
-      },
-      "title": "CheckV v1.5 Database (UNOFFICIAL MIRROR)",
-      "links": {
-        "self": "https://zenodo.org/api/records/15116682",
-        "self_html": "https://zenodo.org/records/15116682",
-        "preview_html": "https://zenodo.org/records/15116682?preview=1",
-        "doi": "https://doi.org/10.1038/s41587-020-00774-7",
-        "self_doi": "https://doi.org/10.1038/s41587-020-00774-7",
-        "self_doi_html": "https://zenodo.org/doi/10.1038/s41587-020-00774-7",
-        "reserve_doi": "https://zenodo.org/api/records/15116682/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/15116681",
-        "parent_html": "https://zenodo.org/records/15116681",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15116682/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15116682/sequence/default",
-        "files": "https://zenodo.org/api/records/15116682/files",
-        "media_files": "https://zenodo.org/api/records/15116682/media-files",
-        "archive": "https://zenodo.org/api/records/15116682/files-archive",
-        "archive_media": "https://zenodo.org/api/records/15116682/media-files-archive",
-        "latest": "https://zenodo.org/api/records/15116682/versions/latest",
-        "latest_html": "https://zenodo.org/records/15116682/latest",
-        "versions": "https://zenodo.org/api/records/15116682/versions",
-        "draft": "https://zenodo.org/api/records/15116682/draft",
-        "access_links": "https://zenodo.org/api/records/15116682/access/links",
-        "access_grants": "https://zenodo.org/api/records/15116682/access/grants",
-        "access_users": "https://zenodo.org/api/records/15116682/access/users",
-        "access_request": "https://zenodo.org/api/records/15116682/access/request",
-        "access": "https://zenodo.org/api/records/15116682/access",
-        "communities": "https://zenodo.org/api/records/15116682/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/15116682/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/15116682/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/15116682/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/15116682/quota-increase",
-        "requests": "https://zenodo.org/api/records/15116682/requests"
-      },
-      "updated": "2025-04-01T04:06:16.146906+00:00",
-      "recid": "15116682",
-      "revision": 4,
-      "files": [
-        {
-          "id": "68002601-c1f6-4021-9c60-1f43fbe8a3b9",
-          "key": "CheckV_v1.5.tar.gz",
-          "size": 2197495737,
-          "checksum": "md5:c25ae80bbf7da538bee10cd436530cd9",
-          "links": {
-            "self": "https://zenodo.org/api/records/15116682/files/CheckV_v1.5.tar.gz/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "64239"
-        }
-      ],
-      "status": "published",
-      "stats": {
         "downloads": 35,
-        "unique_downloads": 34,
-        "views": 40,
-        "unique_views": 36,
+        "unique_downloads": 35,
+        "views": 29,
+        "unique_views": 28,
         "version_downloads": 35,
-        "version_unique_downloads": 34,
-        "version_unique_views": 36,
-        "version_views": 40
+        "version_unique_downloads": 35,
+        "version_unique_views": 28,
+        "version_views": 29
       },
       "state": "done",
       "submitted": true

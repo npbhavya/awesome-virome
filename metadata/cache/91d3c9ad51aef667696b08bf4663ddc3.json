@@ -1,84 +1,765 @@
 {
-  "cache_date": "2026-06-01T14:00:49.236341",
+  "cache_date": "2026-08-01T10:22:31.210733",
   "data": [
     {
-      "created": "2026-06-01T13:54:46.071777+00:00",
-      "modified": "2026-06-01T13:54:46.455449+00:00",
-      "id": 20490947,
-      "conceptrecid": "20490946",
-      "doi": "10.5281/zenodo.20490947",
-      "conceptdoi": "10.5281/zenodo.20490946",
-      "doi_url": "https://doi.org/10.5281/zenodo.20490947",
+      "created": "2026-08-01T08:16:38.378386+00:00",
+      "modified": "2026-08-01T08:16:38.497566+00:00",
+      "id": 21736825,
+      "conceptrecid": "21736824",
+      "doi": "10.5281/zenodo.21736825",
+      "conceptdoi": "10.5281/zenodo.21736824",
+      "doi_url": "https://doi.org/10.5281/zenodo.21736825",
       "metadata": {
-        "title": "A Unified Data Staging Area for Integrated Analytics",
-        "doi": "10.5281/zenodo.20490947",
-        "publication_date": "2026-06-01",
-        "description": "<p class=\"p1\">Managing data source heterogeneity remains a persistent challenge in modern analytics environments, where users must integrate datasets spanning diverse databases, file formats,&nbsp;and repositories. This paper presents the Data Staging Area, a core component of DAVE&nbsp;(Data Analytics and Visualization Environment), designed to abstract data source&nbsp;heterogeneity and provide a unified interface for data access within an ELT pipeline. The&nbsp;architecture employs a hybrid storage strategy: file-based datasets are physically staged using&nbsp;MinIO, while database sources are lazily resolved at runtime via stored connection&nbsp;parameters, reducing storage overhead while ensuring data currency. All sources are&nbsp;uniformly described through a MongoDB-backed metadata layer, enabling seamless dataset&nbsp;discovery and pipeline construction. Deployment within real-world analytical workflows&nbsp;demonstrates benefits including separation of concerns, uniform access across heterogeneous&nbsp;sources, user-level data isolation, and improved enterprise interoperability.</p>",
+        "title": "Gastric cancer and ulcerative colitis in East Asians: a genetic association study - analysis code and derived results",
+        "doi": "10.5281/zenodo.21736825",
+        "publication_date": "2026-08-01",
+        "description": "<p>Analysis code, derived variant-level inputs, and result tables for the manuscript<br>\"Gastric cancer and ulcerative colitis in East Asians: a genetic association study\"<br>(Kim JE, Lee H, Oh YE, Kim TS, Min YW, Min BH, Lee JH, Rhee PL).</p>\n<p>This archive allows every number reported in the manuscript and in Online Resource 1<br>to be checked, and allows the analyses to be re-executed from publicly available<br>genome-wide association study summary statistics. Full genome-wide summary statistics<br>are not redistributed, because the source databases license them directly to users.</p>\n<p>Contents: analysis scripts in R and Python and one Colab notebook; derived variant-level<br>inputs; all output tables and execution logs; main figures 1-4 and supplementary figure<br>S2 at 600 dpi and as vector PDF; and a table mapping each analytical output to the<br>corresponding result in the article and in Online Resource 1.</p>\n<p>The study screened 12 East Asian immune-phenotype datasets against gastric cancer,<br>partitioned the ulcerative colitis instrument into variants inside and outside the<br>extended major histocompatibility complex, tested regional overlap at HLA-DQA1/DQB1,<br>and examined associations with other diseases. Analyses used summary statistics from<br>IEU OpenGWAS and the GWAS Catalog. No individual-level data were used.</p>\n<p>See README.md in the archive for data sources, reproduction steps, the output-to-manuscript<br>mapping, random seeds, and known limitations.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Grilo, Andr\u00e9",
-            "affiliation": "UNINOVA-CTS",
-            "orcid": "0000-0003-2242-7737"
+            "name": "Kim, Ji Eun",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
           },
           {
-            "name": "R\u00eaga, Bruno",
-            "affiliation": "UNINOVA-CTS",
-            "orcid": "0000-0003-3507-1442"
+            "name": "Lee, Hyuk",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
           },
           {
-            "name": "Louren\u00e7o, Lu\u00eds",
-            "affiliation": "UNINOVA-CTS"
+            "name": "Oh, Young Eun",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
           },
           {
-            "name": "Agostinho, Carlos",
-            "affiliation": "UNINOVA-CTS",
-            "orcid": "0000-0002-2884-776X"
+            "name": "Kim, Tae-Se",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
           },
           {
-            "name": "Jardim-Goncalves, Ricardo",
-            "affiliation": "School of Science and Technology, NOVA University of Lisbon",
-            "orcid": "0000-0002-3703-6854"
+            "name": "Min, Yang Won",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
+          },
+          {
+            "name": "MIn, Byung-Hoon",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
+          },
+          {
+            "name": "Lee, Jun Haeng",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
+          },
+          {
+            "name": "Rhee, Poong-Lyul",
+            "affiliation": "Samsung Medical Center, Sungkyunkwan University School of Medicine"
           }
         ],
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21736824"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Gastric cancer and ulcerative colitis in East Asians: a genetic association study - analysis code and derived results",
+      "links": {
+        "self": "https://zenodo.org/api/records/21736825",
+        "self_html": "https://zenodo.org/records/21736825",
+        "preview_html": "https://zenodo.org/records/21736825?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21736825",
+        "self_doi": "https://doi.org/10.5281/zenodo.21736825",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21736825",
+        "reserve_doi": "https://zenodo.org/api/records/21736825/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21736824",
+        "parent_html": "https://zenodo.org/records/21736824",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21736824",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21736824",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21736825/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21736825/sequence/default",
+        "files": "https://zenodo.org/api/records/21736825/files",
+        "media_files": "https://zenodo.org/api/records/21736825/media-files",
+        "archive": "https://zenodo.org/api/records/21736825/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21736825/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21736825/versions/latest",
+        "latest_html": "https://zenodo.org/records/21736825/latest",
+        "versions": "https://zenodo.org/api/records/21736825/versions",
+        "draft": "https://zenodo.org/api/records/21736825/draft",
+        "access_links": "https://zenodo.org/api/records/21736825/access/links",
+        "access_grants": "https://zenodo.org/api/records/21736825/access/grants",
+        "access_users": "https://zenodo.org/api/records/21736825/access/users",
+        "access_request": "https://zenodo.org/api/records/21736825/access/request",
+        "access": "https://zenodo.org/api/records/21736825/access",
+        "communities": "https://zenodo.org/api/records/21736825/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21736825/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21736825/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21736825/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21736825/quota-increase",
+        "requests": "https://zenodo.org/api/records/21736825/requests"
+      },
+      "updated": "2026-08-01T08:16:38.497566+00:00",
+      "recid": "21736825",
+      "revision": 4,
+      "files": [
+        {
+          "id": "1e996806-099f-4a19-ad9e-5abbde018852",
+          "key": "UC_GC_analysis_archive_v1.zip",
+          "size": 1825783,
+          "checksum": "md5:2ec0342db2a0fd33eff31d108a30da21",
+          "links": {
+            "self": "https://zenodo.org/api/records/21736825/files/UC_GC_analysis_archive_v1.zip/content"
+          }
+        }
+      ],
+      "swh": {
+        "swhid": "swh:1:dir:a7dc443d30b16ca309587f7e9fb85c4eda5ae068;origin=https://doi.org/10.5281/zenodo.21736824;visit=swh:1:snp:ee7985f2e5ff60fbb63bcd93cd673a618f2f9ec4;anchor=swh:1:rel:a871fabca710a65127745f8996e83afb3646b665;path=zenodo_release"
+      },
+      "owners": [
+        {
+          "id": "1794723"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T07:44:01.303295+00:00",
+      "modified": "2026-08-01T07:44:01.537384+00:00",
+      "id": 21736549,
+      "conceptrecid": "21736548",
+      "doi": "10.5281/zenodo.21736549",
+      "conceptdoi": "10.5281/zenodo.21736548",
+      "doi_url": "https://doi.org/10.5281/zenodo.21736549",
+      "metadata": {
+        "title": "From Libraries To Digital Platforms: Information Source Use Among Engineering Students In Erode District, Tamil Nadu",
+        "doi": "10.5281/zenodo.21736549",
+        "publication_date": "2016-05-31",
+        "description": "<p class=\"MsoNormal\"><em><span>The rapid growth of digital technologies has significantly changed the information-seeking behaviour of engineering students. While traditional library resources continue to play an important role, digital platforms such as e-books, e-journals, institutional repositories, and online databases have become essential sources of academic information. This study examines the information source use of engineering college students in Erode District, Tamil Nadu, during the academic year 2016&ndash;2017. A descriptive survey research design was adopted, and data were collected from 250 undergraduate engineering students selected. Stratified random sampling method was adopted for sample selection. A structured questionnaire based on a five-point Likert scale was used to collect primary data from the students&rsquo; community. The study investigates the influence of department, year of study, and parents' educational qualification on the use of library books, reference books, printed journals, e-books, and e-journals. Data are analysed using descriptive statistics (frequency, percentage, mean, standard deviation, and ranking) and inferential statistics (One-way ANOVA and Chi-square test). The findings are expected to assist the librarians and academic administrators in strengthening library collections and digital information services to meet the changing information needs of engineering students.</span></em></p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "BO.Sathivel Murugan",
+            "affiliation": null
+          }
+        ],
+        "keywords": [
+          "Information Source Use",
+          "Engineering Students",
+          "Academic Libraries",
+          "E-books",
+          "E-journals",
+          "Library Books",
+          "Engineering Education."
+        ],
+        "language": "eng",
         "custom": {
-          "code:codeRepository": "https://code.grisenergia.pt/ai-dapt/dave"
+          "code:codeRepository": "https://ijsart.com/from-libraries-to-digital-platforms-information-source-use-among-engineering-students-in-erode-district-tamil-nadu-3445"
         },
         "resource_type": {
-          "title": "Conference paper",
+          "title": "Journal article",
           "type": "publication",
-          "subtype": "conferencepaper"
+          "subtype": "article"
         },
-        "meeting": {
-          "title": "13th International Conference on Interoperability for Enterprise Systems and Applications",
-          "acronym": "i-ESA 2026",
-          "dates": "13-16 April, 2026",
-          "place": "Funchal, Portugal"
+        "journal": {
+          "issue": "5",
+          "pages": "792-769",
+          "title": "International Journal for Science and Advance Research In Technology",
+          "volume": "2"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21736548"
+              }
+            }
+          ]
+        }
+      },
+      "title": "From Libraries To Digital Platforms: Information Source Use Among Engineering Students In Erode District, Tamil Nadu",
+      "links": {
+        "self": "https://zenodo.org/api/records/21736549",
+        "self_html": "https://zenodo.org/records/21736549",
+        "preview_html": "https://zenodo.org/records/21736549?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21736549",
+        "self_doi": "https://doi.org/10.5281/zenodo.21736549",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21736549",
+        "reserve_doi": "https://zenodo.org/api/records/21736549/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21736548",
+        "parent_html": "https://zenodo.org/records/21736548",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21736548",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21736548",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21736549/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21736549/sequence/default",
+        "files": "https://zenodo.org/api/records/21736549/files",
+        "media_files": "https://zenodo.org/api/records/21736549/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21736549:IJSARTV2I53445.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21736549:IJSARTV2I53445.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21736549:IJSARTV2I53445.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21736549:IJSARTV2I53445.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21736549:IJSARTV2I53445.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21736549:IJSARTV2I53445.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21736549/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21736549/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21736549/versions/latest",
+        "latest_html": "https://zenodo.org/records/21736549/latest",
+        "versions": "https://zenodo.org/api/records/21736549/versions",
+        "draft": "https://zenodo.org/api/records/21736549/draft",
+        "access_links": "https://zenodo.org/api/records/21736549/access/links",
+        "access_grants": "https://zenodo.org/api/records/21736549/access/grants",
+        "access_users": "https://zenodo.org/api/records/21736549/access/users",
+        "access_request": "https://zenodo.org/api/records/21736549/access/request",
+        "access": "https://zenodo.org/api/records/21736549/access",
+        "communities": "https://zenodo.org/api/records/21736549/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21736549/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21736549/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21736549/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21736549/quota-increase",
+        "requests": "https://zenodo.org/api/records/21736549/requests"
+      },
+      "updated": "2026-08-01T07:44:01.537384+00:00",
+      "recid": "21736549",
+      "revision": 4,
+      "files": [
+        {
+          "id": "bf87bafc-5962-43d0-91c9-166074169c36",
+          "key": "IJSARTV2I53445.pdf",
+          "size": 260818,
+          "checksum": "md5:c63150b4ec871aa03cd8b8698af060b3",
+          "links": {
+            "self": "https://zenodo.org/api/records/21736549/files/IJSARTV2I53445.pdf/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "506319"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 0,
+        "unique_views": 0,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 0,
+        "version_views": 0
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T04:12:49.819506+00:00",
+      "modified": "2026-08-01T04:12:50.243063+00:00",
+      "id": 21732117,
+      "conceptrecid": "18049596",
+      "doi": "10.5281/zenodo.21732117",
+      "conceptdoi": "10.5281/zenodo.18049596",
+      "doi_url": "https://doi.org/10.5281/zenodo.21732117",
+      "metadata": {
+        "title": "Harmonized Drug Dataset (HDD)",
+        "doi": "10.5281/zenodo.21732117",
+        "publication_date": "2026-07-31",
+        "description": "<p>Harmonized Drug Dataset (abbreviated as HDD) integrates comprehensive metadata for small\u2011molecule compounds, combining structural, physicochemical, regulatory, toxicological, and experimental assay information from PubChem, LINCS, Cell Painting, DeepChem resources, and multiple toxicology databases. It includes curated binding affinities, bioassay outcomes, adverse drug reactions, toxicity measurements, and machine\u2011learning\u2011ready molecular fingerprints. The dataset is designed to support large\u2011scale modeling, compound characterization, and toxicology prediction workflows.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Haibe-Kains, Benjamin",
+            "affiliation": "University Health Network",
+            "orcid": "0000-0002-7684-0079"
+          },
+          {
+            "name": "Bannon, James",
+            "affiliation": "University Health Network"
+          },
+          {
+            "name": "Tran, Michael",
+            "affiliation": "University Health Network"
+          },
+          {
+            "name": "Kadambat Nair, Sisira",
+            "affiliation": "University Health Network"
+          }
+        ],
+        "dates": [
+          {
+            "type": "available"
+          }
+        ],
+        "version": "2.3",
+        "custom": {
+          "code:codeRepository": "https://github.com/bhklab/hdd-data-pipeline",
+          "code:programmingLanguage": [
+            {
+              "id": "python",
+              "title": {
+                "en": "Python"
+              }
+            },
+            {
+              "id": "snakemake",
+              "title": {
+                "en": "Snakemake"
+              }
+            },
+            {
+              "id": "r",
+              "title": {
+                "en": "R"
+              }
+            }
+          ]
+        },
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 10,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "18049596"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Harmonized Drug Dataset (HDD)",
+      "links": {
+        "self": "https://zenodo.org/api/records/21732117",
+        "self_html": "https://zenodo.org/records/21732117",
+        "preview_html": "https://zenodo.org/records/21732117?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21732117",
+        "self_doi": "https://doi.org/10.5281/zenodo.21732117",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21732117",
+        "reserve_doi": "https://zenodo.org/api/records/21732117/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/18049596",
+        "parent_html": "https://zenodo.org/records/18049596",
+        "parent_doi": "https://doi.org/10.5281/zenodo.18049596",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18049596",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21732117/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21732117/sequence/default",
+        "files": "https://zenodo.org/api/records/21732117/files",
+        "media_files": "https://zenodo.org/api/records/21732117/media-files",
+        "archive": "https://zenodo.org/api/records/21732117/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21732117/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21732117/versions/latest",
+        "latest_html": "https://zenodo.org/records/21732117/latest",
+        "versions": "https://zenodo.org/api/records/21732117/versions",
+        "draft": "https://zenodo.org/api/records/21732117/draft",
+        "access_links": "https://zenodo.org/api/records/21732117/access/links",
+        "access_grants": "https://zenodo.org/api/records/21732117/access/grants",
+        "access_users": "https://zenodo.org/api/records/21732117/access/users",
+        "access_request": "https://zenodo.org/api/records/21732117/access/request",
+        "access": "https://zenodo.org/api/records/21732117/access",
+        "communities": "https://zenodo.org/api/records/21732117/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21732117/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21732117/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21732117/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21732117/quota-increase",
+        "requests": "https://zenodo.org/api/records/21732117/requests"
+      },
+      "updated": "2026-08-01T04:12:50.243063+00:00",
+      "recid": "21732117",
+      "revision": 4,
+      "files": [
+        {
+          "id": "4217e287-18c7-49d2-b58c-69828546473e",
+          "key": "colData.csv",
+          "size": 417850277,
+          "checksum": "md5:73fa9c511b0409baebc830c6322bf98b",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/colData.csv/content"
+          }
+        },
+        {
+          "id": "f06ca824-a655-40e7-927b-b5238df8e8b8",
+          "key": "ToxCast.csv",
+          "size": 11312074,
+          "checksum": "md5:26e4ad48945a45ecb4de25127c5ddc6b",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/ToxCast.csv/content"
+          }
+        },
+        {
+          "id": "cc352000-185c-4a78-9dbf-0dae0755d1ce",
+          "key": "HDD_v2.3.RDS",
+          "size": 482900761,
+          "checksum": "md5:4a731e668b2acfc5609f2b40af4284d8",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/HDD_v2.3.RDS/content"
+          }
+        },
+        {
+          "id": "e904e434-78c2-4488-abc2-2bb780966aa4",
+          "key": "fingerprint.Morgan.3.2048.csv",
+          "size": 2657331159,
+          "checksum": "md5:3f5a895f34e34c2ecd0014064f6faf66",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/fingerprint.Morgan.3.2048.csv/content"
+          }
+        },
+        {
+          "id": "846183cf-bc7d-4135-aa9e-5dcddd0a8d62",
+          "key": "Tox21.csv",
+          "size": 267721,
+          "checksum": "md5:d4fd1f946c5a2d8b10970ca86cd5844a",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/Tox21.csv/content"
+          }
+        },
+        {
+          "id": "d43ec5f6-4ee5-41db-8f98-6fd15b326889",
+          "key": "fingerprint.Morgan.3.1024.csv",
+          "size": 1334239786,
+          "checksum": "md5:da22cb1bd8428b710a297a06a1c33f07",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/fingerprint.Morgan.3.1024.csv/content"
+          }
+        },
+        {
+          "id": "ec9f0ad7-fc2e-4117-8fb9-2557da00b019",
+          "key": "ClinTox.csv",
+          "size": 21279,
+          "checksum": "md5:e97475789428c2073fcd305d28902c14",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/ClinTox.csv/content"
+          }
+        },
+        {
+          "id": "b390beaa-9b51-49f9-a07d-d7369750984b",
+          "key": "Bioassays.csv",
+          "size": 67056632,
+          "checksum": "md5:a98d94fa02d7606a0ece3921e53a481e",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/Bioassays.csv/content"
+          }
+        },
+        {
+          "id": "5d4db1d3-c8fa-4190-ba86-30cda7e815e5",
+          "key": "SIDER.csv",
+          "size": 102831,
+          "checksum": "md5:8249a618f0f8372b22ac7e54d407dec0",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/SIDER.csv/content"
+          }
+        },
+        {
+          "id": "63cab41c-d480-4d76-a64d-3fe5f097b178",
+          "key": "fingerprint.Morgan.2.1024.csv",
+          "size": 1334237098,
+          "checksum": "md5:5a84d160da380bdfe92b83cd1e1bfa64",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/fingerprint.Morgan.2.1024.csv/content"
+          }
+        },
+        {
+          "id": "da2e16af-e5e5-44f2-91c8-ccaa897c7c5d",
+          "key": "fingerprint.Morgan.2.2048.csv",
+          "size": 2657329302,
+          "checksum": "md5:ba5dd706b5490609740053a425b769cb",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/fingerprint.Morgan.2.2048.csv/content"
+          }
+        },
+        {
+          "id": "36c4feb5-23a3-45aa-84d6-74857a99eb9f",
+          "key": "hdd_quality_control.html",
+          "size": 3612982,
+          "checksum": "md5:024be9f38482688773b89fc0c4cd7260",
+          "links": {
+            "self": "https://zenodo.org/api/records/21732117/files/hdd_quality_control.html/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "87238"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 826,
+        "unique_downloads": 737,
+        "views": 318,
+        "unique_views": 269,
+        "version_downloads": 3,
+        "version_unique_downloads": 3,
+        "version_unique_views": 3,
+        "version_views": 5
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-08-01T02:24:19.745914+00:00",
+      "modified": "2026-08-01T02:24:20.119252+00:00",
+      "id": 21730588,
+      "conceptrecid": "21730587",
+      "doi": "10.5281/zenodo.21730588",
+      "conceptdoi": "10.5281/zenodo.21730587",
+      "doi_url": "https://doi.org/10.5281/zenodo.21730588",
+      "metadata": {
+        "title": "Reproducibility Package for Point-in-Time Validity in Municipal 311 Service-Time Prediction: A Multi-City Benchmark of Outcome Construction, Information Availability, and Temporal Evaluation",
+        "doi": "10.5281/zenodo.21730588",
+        "publication_date": "2026-08-01",
+        "description": "<p>This record contains the reproducibility package for the study &ldquo;Point-in-Time Validity in Municipal 311 Service-Time Prediction: A Multi-City Benchmark of Outcome Construction, Information Availability, and Temporal Evaluation.&rdquo; The study evaluates how outcome-model specification, point-in-time information availability, and temporal evaluation affect municipal 311 service-time prediction across Austin, Chicago, and New York City. The benchmark crossed closed-only squared-error regression and cutoff-censored Normal accelerated failure-time modelling, creation-stable and hindsight information contracts, and random retrospective and rolling-origin evaluation protocols. The package includes the complete Supporting Information, a machine-readable supporting-data workbook, CSV exports, analysis and audit scripts, dated protocol and environment locks, extraction and cohort manifests, aggregated primary and secondary results, calibration-resolution outputs, model-ranking and practical-tie analyses, sanitized portal metadata snapshots, file manifests, and SHA-256 checksums. The primary benchmark comprises 120 factorial result cells. The secondary and sensitivity analyses comprise 136 additional cells. The package also includes the numerical-integrity audit used to resolve 180 primary calibration-slope estimates. Raw municipal request records, request identifiers, request-level predictions, fitted model objects, feature-table files, databases, virtual environments, and execution logs are not redistributed. The official municipal open-data portals remain the sources of record. Extraction manifests and reconstruction scripts are provided, but later re-extraction may not produce byte-identical source files if the municipal portals revise historical records. The prediction outcome is time to an administrative terminal disposition recorded by the municipal system. It should not be interpreted as verified physical resolution of the reported issue. The outcome and evaluation contrasts compare complete benchmark specifications and should not be interpreted as isolated causal effects of censoring or random splitting. The hindsight information contract is diagnostic and includes mutable current-state fields and near-terminal proxies that were unavailable at request creation.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Ameen Shaheen",
+            "affiliation": "Al-Zaytoonah University of Jordan",
+            "orcid": "0009-0003-3120-1892"
+          },
+          {
+            "name": "alzyadat, wael",
+            "affiliation": "Al-Zaytoonah University of Jordan",
+            "orcid": "0000-0002-0068-1526"
+          },
+          {
+            "name": "Alhroob, Aysh",
+            "affiliation": "Al-Zaytoonah University of Jordan",
+            "orcid": "0000-0002-4653-7386"
+          }
+        ],
+        "keywords": [
+          "municipal 311 services",
+          "point-in-time prediction",
+          "service-time prediction",
+          "administrative service time",
+          "survival analysis",
+          "right censoring",
+          "temporal evaluation",
+          "data leakage",
+          "model ranking",
+          "smart cities",
+          "reproducible research"
+        ],
+        "version": "1.0.0",
+        "language": "eng",
+        "resource_type": {
+          "title": "Dataset",
+          "type": "dataset"
+        },
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21730587"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Reproducibility Package for Point-in-Time Validity in Municipal 311 Service-Time Prediction: A Multi-City Benchmark of Outcome Construction, Information Availability, and Temporal Evaluation",
+      "links": {
+        "self": "https://zenodo.org/api/records/21730588",
+        "self_html": "https://zenodo.org/records/21730588",
+        "preview_html": "https://zenodo.org/records/21730588?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21730588",
+        "self_doi": "https://doi.org/10.5281/zenodo.21730588",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21730588",
+        "reserve_doi": "https://zenodo.org/api/records/21730588/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21730587",
+        "parent_html": "https://zenodo.org/records/21730587",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21730587",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21730587",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21730588/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21730588/sequence/default",
+        "files": "https://zenodo.org/api/records/21730588/files",
+        "media_files": "https://zenodo.org/api/records/21730588/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21730588:311_Supporting_Information_Zenodo_v1.0.0.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21730588:311_Supporting_Information_Zenodo_v1.0.0.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21730588:311_Supporting_Information_Zenodo_v1.0.0.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21730588:311_Supporting_Information_Zenodo_v1.0.0.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21730588:311_Supporting_Information_Zenodo_v1.0.0.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21730588:311_Supporting_Information_Zenodo_v1.0.0.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21730588/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21730588/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21730588/versions/latest",
+        "latest_html": "https://zenodo.org/records/21730588/latest",
+        "versions": "https://zenodo.org/api/records/21730588/versions",
+        "draft": "https://zenodo.org/api/records/21730588/draft",
+        "access_links": "https://zenodo.org/api/records/21730588/access/links",
+        "access_grants": "https://zenodo.org/api/records/21730588/access/grants",
+        "access_users": "https://zenodo.org/api/records/21730588/access/users",
+        "access_request": "https://zenodo.org/api/records/21730588/access/request",
+        "access": "https://zenodo.org/api/records/21730588/access",
+        "communities": "https://zenodo.org/api/records/21730588/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21730588/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21730588/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21730588/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21730588/quota-increase",
+        "requests": "https://zenodo.org/api/records/21730588/requests"
+      },
+      "updated": "2026-08-01T02:24:20.119252+00:00",
+      "recid": "21730588",
+      "revision": 4,
+      "files": [
+        {
+          "id": "8bf062c1-97a8-4f54-a171-5da4454559a1",
+          "key": "311_Supporting_Data_Zenodo_v1.0.0.xlsx",
+          "size": 146949,
+          "checksum": "md5:7b48fdcea217edfb0e8b255b05dba9b9",
+          "links": {
+            "self": "https://zenodo.org/api/records/21730588/files/311_Supporting_Data_Zenodo_v1.0.0.xlsx/content"
+          }
+        },
+        {
+          "id": "7ef74e6d-7d03-46a0-86bf-0368ce585994",
+          "key": "00_README_311_PIT_Zenodo.md",
+          "size": 5093,
+          "checksum": "md5:9732981fe4c17ee80005b5282cee8de9",
+          "links": {
+            "self": "https://zenodo.org/api/records/21730588/files/00_README_311_PIT_Zenodo.md/content"
+          }
+        },
+        {
+          "id": "ac29ceac-697e-4d85-b2ff-46ec78503a4c",
+          "key": "311_Supporting_Information_Zenodo_v1.0.0.pdf",
+          "size": 957798,
+          "checksum": "md5:5ee73271475d1a9c13dbe95a0e2656ec",
+          "links": {
+            "self": "https://zenodo.org/api/records/21730588/files/311_Supporting_Information_Zenodo_v1.0.0.pdf/content"
+          }
+        },
+        {
+          "id": "eecec98f-af45-4fa0-882d-d23b6aa83e1f",
+          "key": "311_Zenodo_Validation_Report.txt",
+          "size": 1387,
+          "checksum": "md5:b0c2a2a3fd4c791ca03935181b94026e",
+          "links": {
+            "self": "https://zenodo.org/api/records/21730588/files/311_Zenodo_Validation_Report.txt/content"
+          }
+        },
+        {
+          "id": "1d9edb41-f59f-4d19-a66e-f08da063e823",
+          "key": "SHA256SUMS_ZENODO_UPLOAD.txt",
+          "size": 518,
+          "checksum": "md5:20620894c5c3746183dcdac6f43e7ffc",
+          "links": {
+            "self": "https://zenodo.org/api/records/21730588/files/SHA256SUMS_ZENODO_UPLOAD.txt/content"
+          }
+        },
+        {
+          "id": "3e55f45f-b798-48e0-b077-548f261f39fe",
+          "key": "311_PIT_Reproducibility_Package_v1.0.0.zip",
+          "size": 2716770,
+          "checksum": "md5:af1d6ac07a4bf5779b601bff1e2fe11f",
+          "links": {
+            "self": "https://zenodo.org/api/records/21730588/files/311_PIT_Reproducibility_Package_v1.0.0.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1547111"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 1,
+        "version_views": 1
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-31T19:43:43.419194+00:00",
+      "modified": "2026-07-31T19:43:43.765897+00:00",
+      "id": 21727004,
+      "conceptrecid": "21727003",
+      "doi": "10.5281/zenodo.21727004",
+      "conceptdoi": "10.5281/zenodo.21727003",
+      "doi_url": "https://doi.org/10.5281/zenodo.21727004",
+      "metadata": {
+        "title": "TRUSTEX Poster: Digital Product Passports for Circular Textiles",
+        "doi": "10.5281/zenodo.21727004",
+        "publication_date": "2026-05-22",
+        "description": "<p>Poster presented at the DPP4EU event by J&eacute;rome Dierickx (TerraMatters), Elena Hidalgo (CETIM Technological Centre), David Ariza (CETIM Technological Centre), and Beatriz Mafra (Made2Flow), 22 May 2026.</p>\n<p>This poster presents the approach of the Horizon Europe project TRUSTEX (\"Advancing Sustainable Textiles in the Circular Economy through Innovative EPR Schemes\") to Digital Product Passports (DPPs) for textiles. It addresses a core barrier: the textile sector combines fragmented supply chains with a shortage of harmonised standards, which makes it difficult to collect and exchange the information a DPP requires. TRUSTEX develops interoperable digital infrastructures that turn fragmented and heterogeneous data into standardised, regulation-ready outputs.</p>\n<p>The methods build on the Product Circularity Data Sheet (PCDS, ISO 59040), which communicates circularity attributes such as recycled content, repairability, and end-of-life options in interoperable formats and supports ESPR compliance, while noting that taxonomy gaps and sector-specific complexities remain unresolved. The workflow moves from data collection at brands and suppliers, through terminology mapping and PCDS data alignment, to a backend database, a blockchain layer, and a user interface that presents DPP information to the final user. Participants hold dynamic roles, for example manufacturer, waste manager, and final user, with restricted access so that only verified participants add data and only authorised users assign roles, which guards against fraudulent entries.</p>\n<p>The key innovations combine standardised APIs that integrate emission-factor databases, life cycle assessment engines, and verified batch-level supply chain data; AI-driven data validation paired with blockchain trust mechanisms that detect inconsistencies and complement missing information with industry-verified secondary sources; and a blockchain architecture that records a cryptographic fingerprint of the data instead of the data itself, so tampering becomes detectable without exposing confidential business information. Role-based access control limits each participant to their area of responsibility.</p>\n<p>The conclusion sets out four design goals for DPP success: data maturity alignment, one-way protection through hashing, double-entry prevention, and universal access via the ERC-1155 standard for compatibility across textile applications. The poster argues that digitalisation is a fundamental requirement for overcoming current barriers to DPP adoption in the sector.</p>",
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Dierickx, J\u00e9rome",
+            "affiliation": "TERRAMATTERS"
+          }
+        ],
+        "resource_type": {
+          "title": "Poster",
+          "type": "poster"
         },
         "license": {
           "id": "cc-by-4.0"
         },
         "grants": [
           {
-            "code": "101135826",
-            "internal_id": "10.13039/501100000780::101135826",
+            "code": "101181901",
+            "internal_id": "10.13039/501100000780::101181901",
             "funder": {
               "name": "European Commission",
               "doi": "10.13039/501100000780",
               "acronym": "EC"
             },
-            "title": "AI-Ops Framework for Automated, Intelligent and Reliable Data/AI Pipelines Lifecycle with Humans-in-the-Loop and Coupling of Hybrid Science-Guided and AI Models",
-            "acronym": "AI-DAPT",
-            "program": "HORIZON.2.4",
-            "url": "https://cordis.europa.eu/projects/101135826"
+            "title": "Advancing Sustainable Textiles in the Circular Economy through Innovative EPR Schemes",
+            "acronym": "TRUSTEX",
+            "program": "HORIZON.2.6",
+            "url": "https://cordis.europa.eu/projects/101181901"
           }
         ],
         "communities": [
           {
-            "id": "ai-adapt"
-          },
-          {
-            "id": "eu"
+            "id": "trustex"
           }
         ],
         "relations": {
@@ -88,288 +769,153 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20490946"
+                "pid_value": "21727003"
               }
             }
           ]
         }
       },
-      "title": "A Unified Data Staging Area for Integrated Analytics",
+      "title": "TRUSTEX Poster: Digital Product Passports for Circular Textiles",
       "links": {
-        "self": "https://zenodo.org/api/records/20490947",
-        "self_html": "https://zenodo.org/records/20490947",
-        "preview_html": "https://zenodo.org/records/20490947?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20490947",
-        "self_doi": "https://doi.org/10.5281/zenodo.20490947",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490947",
-        "reserve_doi": "https://zenodo.org/api/records/20490947/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20490946",
-        "parent_html": "https://zenodo.org/records/20490946",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20490946",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490946",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20490947/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20490947/sequence/default",
-        "files": "https://zenodo.org/api/records/20490947/files",
-        "media_files": "https://zenodo.org/api/records/20490947/media-files",
+        "self": "https://zenodo.org/api/records/21727004",
+        "self_html": "https://zenodo.org/records/21727004",
+        "preview_html": "https://zenodo.org/records/21727004?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21727004",
+        "self_doi": "https://doi.org/10.5281/zenodo.21727004",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21727004",
+        "reserve_doi": "https://zenodo.org/api/records/21727004/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21727003",
+        "parent_html": "https://zenodo.org/records/21727003",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21727003",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21727003",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21727004/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21727004/sequence/default",
+        "files": "https://zenodo.org/api/records/21727004/files",
+        "media_files": "https://zenodo.org/api/records/21727004/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:20490947:iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:20490947:iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:20490947:iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:20490947:iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:20490947:iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:20490947:iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:21727004:20260522%20POSTER%20TRUSTEX%20(1).pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21727004:20260522%20POSTER%20TRUSTEX%20(1).pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21727004:20260522%20POSTER%20TRUSTEX%20(1).pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21727004:20260522%20POSTER%20TRUSTEX%20(1).pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21727004:20260522%20POSTER%20TRUSTEX%20(1).pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21727004:20260522%20POSTER%20TRUSTEX%20(1).pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/20490947/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20490947/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20490947/versions/latest",
-        "latest_html": "https://zenodo.org/records/20490947/latest",
-        "versions": "https://zenodo.org/api/records/20490947/versions",
-        "draft": "https://zenodo.org/api/records/20490947/draft",
-        "access_links": "https://zenodo.org/api/records/20490947/access/links",
-        "access_grants": "https://zenodo.org/api/records/20490947/access/grants",
-        "access_users": "https://zenodo.org/api/records/20490947/access/users",
-        "access_request": "https://zenodo.org/api/records/20490947/access/request",
-        "access": "https://zenodo.org/api/records/20490947/access",
-        "communities": "https://zenodo.org/api/records/20490947/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20490947/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20490947/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20490947/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20490947/quota-increase",
-        "requests": "https://zenodo.org/api/records/20490947/requests"
+        "archive": "https://zenodo.org/api/records/21727004/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21727004/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21727004/versions/latest",
+        "latest_html": "https://zenodo.org/records/21727004/latest",
+        "versions": "https://zenodo.org/api/records/21727004/versions",
+        "draft": "https://zenodo.org/api/records/21727004/draft",
+        "access_links": "https://zenodo.org/api/records/21727004/access/links",
+        "access_grants": "https://zenodo.org/api/records/21727004/access/grants",
+        "access_users": "https://zenodo.org/api/records/21727004/access/users",
+        "access_request": "https://zenodo.org/api/records/21727004/access/request",
+        "access": "https://zenodo.org/api/records/21727004/access",
+        "communities": "https://zenodo.org/api/records/21727004/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21727004/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21727004/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21727004/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21727004/quota-increase",
+        "requests": "https://zenodo.org/api/records/21727004/requests"
       },
-      "updated": "2026-06-01T13:54:46.455449+00:00",
-      "recid": "20490947",
+      "updated": "2026-07-31T19:43:43.765897+00:00",
+      "recid": "21727004",
       "revision": 4,
       "files": [
         {
-          "id": "ac350c21-f2d6-4eb7-b6a3-f3e96608ef79",
-          "key": "iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf",
-          "size": 467912,
-          "checksum": "md5:168c8705646df52bb7e02cc4564b8395",
+          "id": "676c63f9-912b-449a-a1e0-d94941439a43",
+          "key": "20260522 POSTER TRUSTEX (1).pdf",
+          "size": 4068645,
+          "checksum": "md5:2344d86533245c4df2a20d0e63e68e84",
           "links": {
-            "self": "https://zenodo.org/api/records/20490947/files/iesa_44_I4SGL5Z4SA3CUTGED203DJQ3XHMB6Y3A.pdf/content"
+            "self": "https://zenodo.org/api/records/21727004/files/20260522%20POSTER%20TRUSTEX%20(1).pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "270600"
+          "id": "1513412"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 10,
+        "unique_views": 9,
+        "version_downloads": 2,
+        "version_unique_downloads": 2,
+        "version_unique_views": 9,
+        "version_views": 10
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2026-06-01T13:37:38.624660+00:00",
-      "modified": "2026-06-01T13:37:38.832205+00:00",
-      "id": 20490322,
-      "conceptrecid": "20490321",
-      "doi": "10.5281/zenodo.20490322",
-      "conceptdoi": "10.5281/zenodo.20490321",
-      "doi_url": "https://doi.org/10.5281/zenodo.20490322",
+      "created": "2026-07-31T17:28:35.088165+00:00",
+      "modified": "2026-07-31T17:28:35.294436+00:00",
+      "id": 21688125,
+      "conceptrecid": "21688124",
+      "doi": "10.1016/j.ces.2024.120201",
+      "doi_url": "https://doi.org/10.1016/j.ces.2024.120201",
       "metadata": {
-        "title": "RESINA COMPOSTA VS. CER\u00c2MICA: CRIT\u00c9RIOS DE ESCOLHA E LONGEVIDADE CL\u00cdNICA PARA FACETAS EST\u00c9TICAS",
-        "doi": "10.5281/zenodo.20490322",
-        "publication_date": "2026-06-01",
-        "description": "<p class=\"MsoNormal\"><span>A crescente valoriza&ccedil;&atilde;o da est&eacute;tica dental tem impulsionado a procura por tratamentos restauradores que conciliam preserva&ccedil;&atilde;o de estrutura dental, previsibilidade est&eacute;tica e longevidade cl&iacute;nica. Nesse contexto, as facetas em resina composta e as facetas cer&acirc;micas destacam-se como alternativas amplamente utilizadas na reabilita&ccedil;&atilde;o est&eacute;tica anterior. O presente estudo teve como objetivo analisar, por meio de revis&atilde;o de literatura, as vantagens, limita&ccedil;&otilde;es e fatores associados &agrave; longevidade cl&iacute;nica dessas duas abordagens restauradoras. Trata-se de um estudo descritivo de abordagem qualitativa desenvolvido atrav&eacute;s de uma revis&atilde;o narrativa de literatura estruturada por meio de pesquisas por termos espec&iacute;ficos nas bases de dados: SciElo, PubMed, Google Scholar, LILACS, SciSpace, BIREME. As facetas diretas em resina composta apresentam como principais benef&iacute;cios o car&aacute;ter minimamente invasivo, menor custo, possibilidade de reparo intraoral e execu&ccedil;&atilde;o em sess&atilde;o &uacute;nica. Contudo, demonstram maior susceptibilidade &agrave; altera&ccedil;&atilde;o crom&aacute;tica, desgaste superficial e necessidade de manuten&ccedil;&atilde;o peri&oacute;dica.&nbsp; Por outro lado, as facetas cer&acirc;micas oferecem elevada estabilidade de cor, superior comportamento &oacute;ptico e maior resist&ecirc;ncia mec&acirc;nica, especialmente quando confeccionadas com cer&acirc;micas refor&ccedil;adas, apresentando altas taxas de sucesso em acompanhamentos a longo prazo. Entretanto, exigem desgaste irrevers&iacute;vel da estrutura dental e envolvem maior custo laboratorial. Conclui-se que a escolha terap&ecirc;utica deve ser individualizada, considerando diagn&oacute;stico cl&iacute;nico, condi&ccedil;&otilde;es oclusais, expectativas do paciente e viabilidade econ&ocirc;mica, visando equil&iacute;brio entre preserva&ccedil;&atilde;o biol&oacute;gica, desempenho funcional e resultado est&eacute;tico duradouro. Isso se justifica pela efic&aacute;cia da reabilita&ccedil;&atilde;o est&eacute;tica utilizando os dois materiais pois os resultados transcendem a escolha do material mas inclui m&uacute;ltiplas vari&aacute;veis.&nbsp; </span></p>",
+        "title": "Polymer-grade propylene production through temperature swing adsorption: Molecular simulation and techno-economic analysis",
+        "doi": "10.1016/j.ces.2024.120201",
+        "publication_date": "2024-08-05",
+        "description": "<p class=\"MsoNormal\"><span>Producing polymer-grade&nbsp;<a href=\"https://www.sciencedirect.com/topics/chemical-engineering/propylene\"><span>propylene</span></a>&nbsp;from the propylene-rich mixtures can be quite challenging since the most commonly employed technology, distillation, requires high-energy input and is expensive. Therefore, identifying less-costly, efficient, and environmentally friendly methods, such as the use of the adsorptive process, is highly desirable. In this regard, six pure&nbsp;<a href=\"https://www.sciencedirect.com/topics/materials-science/silicon-dioxide\"><span>silica</span></a>&nbsp;<a href=\"https://www.sciencedirect.com/topics/materials-science/zeolite\"><span>zeolites</span></a>&nbsp;(AFV, AST, AVL, IFR, LEV, and SWY) as propane selective adsorbents are investigated for the separation of 10&nbsp;mol.% propane and 90&nbsp;mol.% propylene mixture. Molecular simulation Monte Carlo (MC) is used to calculate framework structure parameters such as pore volume, surface area, and framework density of pure silica zeolites. Also, adsorption isotherms, propane selectivity, and working capacity are presented using MC calculations. The Langmuir-Freundlich isotherm model is utilized to calculate isotherm parameters. A system model is implemented in Aspen Adsorption software (version 11) and breakthrough curves are achieved. The Temperature Swing Adsorption (TSA) cycle is simulated and key performance parameters such as propylene purity, recovery, and productivity for all six silica zeolites are calculated. Finally, economic analysis of the&nbsp;<a href=\"https://www.sciencedirect.com/topics/materials-science/adsorption\"><span>TSA process</span></a>&nbsp;is performed using the Aspen Capital Cost Estimator (version 11) and Aspen Process Economic Analyzer (version 11) and compared with the cost of the conventional distillation process. Results showed that the capital cost and operating cost of temperature swing adsorption are 42.3&nbsp;% and 91.37&nbsp;% less than those of distillation, respectively.</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Sarah, Sarah beatriz lima",
-            "affiliation": null,
-            "orcid": "0009-0000-3585-7731"
+            "name": "Abbasi, Sara",
+            "affiliation": null
           },
           {
-            "name": "Lorrany, \u00c9chelly",
-            "affiliation": null,
-            "orcid": "0009-0006-0835-6097"
+            "name": "Khosravi-Nikou, Mohammadreza",
+            "affiliation": "Petroleum University of Technology",
+            "orcid": "0000-0001-7526-4738"
           },
           {
-            "name": "Amaral, Victoria",
-            "affiliation": null,
-            "orcid": "0009-0004-1677-2483"
-          },
-          {
-            "name": "Kaelen, Lauryn",
-            "affiliation": null,
-            "orcid": "0009-0007-5192-7235"
-          },
-          {
-            "name": "Moraes Rocha, Aletheia",
-            "affiliation": null,
-            "orcid": "0000-0003-1650-7546"
-          },
-          {
-            "name": "Nascimento, Fernando",
-            "affiliation": "Centro Universit\u00e1rio de Patos de Minas"
+            "name": "Shariati, Ahmad",
+            "affiliation": "Petroleum University of Technology",
+            "orcid": "0000-0002-3764-9108"
           }
         ],
+        "references": [
+          "S. Abbasi et al. Selective separation of propane from the propylene-propane mixture using pure silica zeolites: A molecular dynamic simulation Chem. Eng. Process. Intensif. (2023)",
+          "H. Abedini et al. Adsorption of propane and propylene on M-MOF-74 (M= Cu, Co): Equilibrium and kinetic study Chem. Eng. Res. Des. (2020)",
+          "H. Abedini et al. Separation of propane/propylene mixture using MIL-101 (Cr) loaded with cuprous oxide nanoparticles: Adsorption equilibria and kinetics study Chem. Eng. J. (2020)",
+          "H. Abedini et al. Efficient production of polymer-grade propylene from the propane/propylene binary mixture using Cu-MOF-74 framework Sep. Purif. Technol. (2021)",
+          "M. Andrade et al. Propane selective carbon adsorbents from phenolic resin precursor Microporous Mesoporous Mater. (2021)",
+          "E. Andres-Garcia et al. ZIF-67 as silver-bullet in adsorptive propane/propylene separation Chem. Eng. J. (2019)",
+          "H. Bigdelou et al. Copper and nickel doped MIL-101: Highly efficient adsorbents for separation of ethylene-ethane mixture Chem. Eng. Res. Des. (2020)",
+          "M.C. Campo New 13X zeolite for propylene/propane separation by vacuum swing adsorption Sep. Purif. Technol. (2013)",
+          "J.A.D. Dobladez et al. Separation of the propane propylene mixture with high recovery by a dual PSA process Comput. Chem. Eng. (2020)",
+          "J. Elfving et al. Modelling of equilibrium working capacity of PSA, TSA and TVSA processes for CO2 adsorption under direct air capture conditions J. CO2 Util. (2017)",
+          "N. Hedin et al. PFG NMR self-diffusion of small hydrocarbons in high silica DDR, CHA and LTA structures Microporous Mesoporous Mater. (2008)",
+          "R. Krishna Methodologies for screening and selection of crystalline microporous materials in mixture separations Sep. Purif. Technol. (2018)",
+          "A. Luna-Triguero \u03c0-Complexation for olefin/paraffin separation using aluminosilicates Chem. Eng. J. (2020)",
+          "G. Narin Light olefins/paraffins separation with 13X zeolite binderless beads Sep. Purif. Technol. (2014)",
+          "J. Padin et al. Molecular sieve sorbents for kinetic separation of propane/propylene Chem. Eng. Sci. (2000)",
+          "T.D. Pham et al. Adsorption equilibria of CO2 and small hydrocarbons in AEI-, CHA-, STT-, and RRO-type siliceous zeolites Microporous Mesoporous Mater. (2016)",
+          "H. Abedini et al. Study the separation process of propane propylene mixture using Cu-MOF-74 metal-organic framework Nashrieh Shimi Va Mohandesi Shimi Iran (2022)",
+          "J.E. Bachman et al. M2 (m-dobdc)(M= Mn, Fe Co, Ni) metal\u2013organic frameworks as highly selective, high-capacity adsorbents for olefin/paraffin separations J. Am. Chem. Soc. (2017)",
+          "F.A. da Silva et al. \"PROPYLENE/PROPANE SEPARATION BY PRESSURE SWING ADSORPTION\", in Adsorption Science and Technology World Sci. (2000)",
+          "F.A. Da Silva et al. Vacuum swing adsorption for propylene/propane separation with 4A zeolite Ind. Eng. Chem. Res. (2001)",
+          "\"Database of Zeolite Structures.\" http://www.iza-structure.org/databases/ (accessed Jul. 15,...",
+          "D. Dubbeldam Force field parametrization through fitting on inflection points in isotherms Phys. Rev. Lett. (2004)",
+          "D. Dubbeldam et al. RASPA: Molecular simulation software for adsorption and diffusion in flexible nanoporous materials Mol. Simul. (2016)",
+          "D. Dubbeldam, \"COTA 4.0: Molecular Software Package for Adsorption and Diffusion in Nanoporous Materials,\" pp. 1\u2013145,..."
+        ],
+        "language": "eng",
         "resource_type": {
           "title": "Journal article",
           "type": "publication",
           "subtype": "article"
         },
         "journal": {
-          "issue": "2",
-          "pages": "145-152",
-          "title": "Brazilian Journal of Oral and Systemic Health",
-          "volume": "2"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "communities": [
-          {
-            "id": "bjosh"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 0,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20490321"
-              }
-            }
-          ]
-        }
-      },
-      "title": "RESINA COMPOSTA VS. CER\u00c2MICA: CRIT\u00c9RIOS DE ESCOLHA E LONGEVIDADE CL\u00cdNICA PARA FACETAS EST\u00c9TICAS",
-      "links": {
-        "self": "https://zenodo.org/api/records/20490322",
-        "self_html": "https://zenodo.org/records/20490322",
-        "preview_html": "https://zenodo.org/records/20490322?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20490322",
-        "self_doi": "https://doi.org/10.5281/zenodo.20490322",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490322",
-        "reserve_doi": "https://zenodo.org/api/records/20490322/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20490321",
-        "parent_html": "https://zenodo.org/records/20490321",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20490321",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20490321",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20490322/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20490322/sequence/default",
-        "files": "https://zenodo.org/api/records/20490322/files",
-        "media_files": "https://zenodo.org/api/records/20490322/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:20490322:1112026.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:20490322:1112026.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:20490322:1112026.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:20490322:1112026.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:20490322:1112026.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:20490322:1112026.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/20490322/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20490322/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20490322/versions/latest",
-        "latest_html": "https://zenodo.org/records/20490322/latest",
-        "versions": "https://zenodo.org/api/records/20490322/versions",
-        "draft": "https://zenodo.org/api/records/20490322/draft",
-        "access_links": "https://zenodo.org/api/records/20490322/access/links",
-        "access_grants": "https://zenodo.org/api/records/20490322/access/grants",
-        "access_users": "https://zenodo.org/api/records/20490322/access/users",
-        "access_request": "https://zenodo.org/api/records/20490322/access/request",
-        "access": "https://zenodo.org/api/records/20490322/access",
-        "communities": "https://zenodo.org/api/records/20490322/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20490322/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20490322/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20490322/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20490322/quota-increase",
-        "requests": "https://zenodo.org/api/records/20490322/requests"
-      },
-      "updated": "2026-06-01T13:37:38.832205+00:00",
-      "recid": "20490322",
-      "revision": 4,
-      "files": [
-        {
-          "id": "94cf8e6e-4535-430b-81a1-3e3d669397bb",
-          "key": "1112026.pdf",
-          "size": 448085,
-          "checksum": "md5:531288c65543e7f3a6aa950c2f71f421",
-          "links": {
-            "self": "https://zenodo.org/api/records/20490322/files/1112026.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1046384"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T13:27:22.315077+00:00",
-      "modified": "2026-06-01T13:27:22.546263+00:00",
-      "id": 20488704,
-      "conceptrecid": "20488703",
-      "doi": "10.5281/zenodo.20488704",
-      "conceptdoi": "10.5281/zenodo.20488703",
-      "doi_url": "https://doi.org/10.5281/zenodo.20488704",
-      "metadata": {
-        "title": "AVIDbase repository of biologically accurate and standardized nanobody-antigen complexes",
-        "doi": "10.5281/zenodo.20488704",
-        "publication_date": "2026-06-01",
-        "description": "<h1>Abstract</h1>\n<p>Accurate structural data in a standarized format is one of the key factors behind the success of machine learning (ML)-based methods for protein design and structure prediction. However, their application to nanobody-antigen complexes has lower success rates compared to globular protein complexes, partly due to the limited amount of high-quality structural data. While several dedicated databases already exist, automated assembly pipelines frequently overlook various artifacts, which act as additional noise and limit the effectiveness of ML applications. Common issues include incorrect biological assembly, redundancy bias, inclusion of crystal contacts, strained geometry due to crystal packing, as well as missing density or post-translational modifications near the interface. To address these issues, we present AVIDbase (<strong>A</strong>ntigen-<strong>V</strong>HH <strong>I</strong>nterface <strong>D</strong>atabase), a highly curated dataset of nanobody-antigen structures. In addition to correcting structural artifacts, the dataset provides a nonredundant set of structures with standardized chain identifiers, harmonized metadata, and cleaned atomic coordinates in a ready-to-use format for ML applications.</p>\n<h1>Repository contents</h1>\n<p>AVIDbase is an annotated database of all nanobody-antigen interfaces found within publicly available crystal structures deposited in the PDB as of February 9th, 2026. The database contains nanobody complexes with protein and ordered peptide antigens.</p>\n<p>The repository consists of 3 files:</p>\n<ul>\n<li><em><strong>AVIDbase.xlsx&nbsp;</strong></em>- an Excel file encompassing the final nanobody-antigen interface database. The first column contains a unique ID associated with a single complex structure. It consists of the following sheets:\n<ul>\n<li><code>AVIDbase-nr</code> - subset of nonredundant complexes (determined based on identity of CDR1-3 sequence, antigen name, and antigen source organism). The nonredundant complexes were chosen based on ranking by resolution and interface integrity (i. e. interface proximity of missing density segments, posttranslational modifications, obligate cofactors or bound substrate).</li>\n<li><code>AVIDbase-prot</code> - subset of AVIDbase-nr containing complexes with high or medium interface integrity (no or negligible interface missing density, contacts with PTM species or cofactors) and with a crystallographic resolution &le; 3.5 &Aring;.</li>\n<li><code>AVIDbase-low</code> - remaining AVIDbase-nr complexes with low interface integrity and&nbsp;crystallographic resolution &gt; 3.5 &Aring;.</li>\n<li><code>AVIDbase-r</code> - redundant complexes not found in AVIDbase-nr. Contains redundant complexes found in the same PDB structure as the representative AVIDbase-nr complex (<strong>intra_redundancy&nbsp;</strong>column) or in a separate PDB structure (<strong>inter_redundancy&nbsp;</strong>column).</li>\n</ul>\n</li>\n<li><em><strong>annotation_input_table_MANUAL.xlsx</strong></em> - an Excel file describing all automatically identified interfaces of nanobody structures in the PDB, subjected to manual review of both the crystal structure and associated literature. It represents the input file used to generate both the final&nbsp;<strong>AVIDbase&nbsp;</strong>tables and the standardized structures found in <strong>AVIDbase.zip</strong>.&nbsp;Complexes that were incorrectly assigned, complexes defined by incomplete biological assemblies, etc. were manually edited to ensure&nbsp; Columns that were manually edited are highlighted in yellow:\n<ul>\n<li><code>is_edited</code> - Boolean index determining whether specified complex was manually edited.</li>\n<li><code>edit_comment</code> - free text column used by the authors to provide additional context for certain modifications or exclusion of certain complexes.</li>\n<li><code>keep</code> - Boolean index determining whether specified complex is retained in the final database. Rows with keep=0 have an accompanying justification under <code>edit_comment</code>.</li>\n<li><code>assembly_strategy</code> - notes how the corresponding complex structure was obtained:\n<ul>\n<li><em>bio_assembly</em> - from a given biological assembly specified in the corresponding PDB structure, with the specific ID noted under <code>bio_assembly_id</code>.</li>\n<li><em>asym</em> - from the asymmetric unit, with <code>bio_assembly_id</code> set to 0.</li>\n<li><em>from_symmetry</em> - via symmetry operations to obtain the unit cell.</li>\n</ul>\n</li>\n<li><code>ag_auth_chain_id</code> - comma-separated list of chain IDs comprising the biologically relevant antigen assembly. Duplicate chain IDs are differentiated by a symmetry index, e.g. <code>A_0,A_1</code>.</li>\n<li><code>expected_cofactors</code> - comma-separated list of non-protein, non-glycan residue names expected in the structure.</li>\n<li><code>ag_name</code> - custom naming convention for the antigen, created to maximize harmonization between different PDB structures containing the same antigen under different names.</li>\n</ul>\n</li>\n<li><em><strong>AVIDbase.zip&nbsp;</strong></em>- .zip file containing standardized .pdb structures belonging to each subset of AVIDbase, with the following layout:\n<ul>\n<li><strong>AVIDbase-nr</strong>\n<ul>\n<li><em>AVIDbase-low</em> - all structures listed in&nbsp;<code>AVIDbase-low</code>&nbsp;with no additional processing.</li>\n<li><em>AVIDbase-prot</em> - all structures listed in <code>AVIDbase-prot</code>, additionally processed by removing all noncanonical moieties (i. e. the&nbsp;<strong>protein-only subset</strong>).</li>\n<li><em>AVIDbase-prot-relaxed</em> - <em>AVIDbase-prot</em> structures additionally relaxed with Rosetta.</li>\n<li><em>full</em> - all structures listed in <code>AVIDbase-nr</code>&nbsp;with no additional processing.</li>\n</ul>\n</li>\n<li><strong>AVIDbase-r</strong>\n<ul>\n<li><em>full</em> - all structures listed in&nbsp;<code>AVIDbase-r</code>&nbsp;with no additional processing.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h1>Available structural data</h1>\n<p>All nanobody-antigen structures are processed by:</p>\n<ul>\n<li>renumbering nanobody under the IMGT scheme with ANARCII</li>\n<li>removing N- and C-terminal expression tags</li>\n<li>standardizing chain IDs:\n<ul>\n<li>nanobody chain ID is set to <strong>H</strong>, only one nanobody per structure,</li>\n<li>antigen chain IDs are set in alphabetical order (e. g. A,B,C),</li>\n<li>cofactor chain ID is set to <strong>X</strong>,</li>\n<li>glycan chain IDs are set to lowercase equivalents of covalently linked antigen chain ID.</li>\n</ul>\n</li>\n<li>replacing all selenomethionine residues with methionines.</li>\n</ul>\n<p>Rosetta-relaxed structures additionally:</p>\n<ul>\n<li>are repacked and minimized, with mitigated crystallographic clashes,</li>\n<li>contain explicit H-atoms optimizing hydrogen bonding,</li>\n<li>include per-residue Rosetta beta_nov16 score terms at the end of the structure file.</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Medved, Tadej",
-            "affiliation": "University of Ljubljana",
-            "orcid": "0009-0006-4022-7068"
-          },
-          {
-            "name": "Lah, Jurij",
-            "affiliation": "University of Ljubljana",
-            "orcid": "0000-0003-1021-3803"
-          },
-          {
-            "name": "Mili\u010di\u0107, Goran",
-            "affiliation": "Novartis (Slovenia)"
-          },
-          {
-            "name": "Had\u017ei, San",
-            "affiliation": "University of Ljubljana",
-            "orcid": "0000-0002-5615-7918"
-          }
-        ],
-        "keywords": [
-          "nanobody",
-          "antigen",
-          "structure",
-          "biological assembly"
-        ],
-        "version": "v1",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "title": "Chemical Engineering Science",
+          "volume": "295"
         },
         "license": {
           "id": "cc-by-4.0"
@@ -381,708 +927,113 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20488703"
+                "pid_value": "21688124"
               }
             }
           ]
         }
       },
-      "title": "AVIDbase repository of biologically accurate and standardized nanobody-antigen complexes",
+      "title": "Polymer-grade propylene production through temperature swing adsorption: Molecular simulation and techno-economic analysis",
       "links": {
-        "self": "https://zenodo.org/api/records/20488704",
-        "self_html": "https://zenodo.org/records/20488704",
-        "preview_html": "https://zenodo.org/records/20488704?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20488704",
-        "self_doi": "https://doi.org/10.5281/zenodo.20488704",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20488704",
-        "reserve_doi": "https://zenodo.org/api/records/20488704/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20488703",
-        "parent_html": "https://zenodo.org/records/20488703",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20488703",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20488703",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20488704/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20488704/sequence/default",
-        "files": "https://zenodo.org/api/records/20488704/files",
-        "media_files": "https://zenodo.org/api/records/20488704/media-files",
-        "archive": "https://zenodo.org/api/records/20488704/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20488704/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20488704/versions/latest",
-        "latest_html": "https://zenodo.org/records/20488704/latest",
-        "versions": "https://zenodo.org/api/records/20488704/versions",
-        "draft": "https://zenodo.org/api/records/20488704/draft",
-        "access_links": "https://zenodo.org/api/records/20488704/access/links",
-        "access_grants": "https://zenodo.org/api/records/20488704/access/grants",
-        "access_users": "https://zenodo.org/api/records/20488704/access/users",
-        "access_request": "https://zenodo.org/api/records/20488704/access/request",
-        "access": "https://zenodo.org/api/records/20488704/access",
-        "communities": "https://zenodo.org/api/records/20488704/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20488704/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20488704/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20488704/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20488704/quota-increase",
-        "requests": "https://zenodo.org/api/records/20488704/requests"
+        "self": "https://zenodo.org/api/records/21688125",
+        "self_html": "https://zenodo.org/records/21688125",
+        "preview_html": "https://zenodo.org/records/21688125?preview=1",
+        "doi": "https://doi.org/10.1016/j.ces.2024.120201",
+        "self_doi": "https://doi.org/10.1016/j.ces.2024.120201",
+        "self_doi_html": "https://zenodo.org/doi/10.1016/j.ces.2024.120201",
+        "reserve_doi": "https://zenodo.org/api/records/21688125/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21688124",
+        "parent_html": "https://zenodo.org/records/21688124",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21688125/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21688125/sequence/default",
+        "files": "https://zenodo.org/api/records/21688125/files",
+        "media_files": "https://zenodo.org/api/records/21688125/media-files",
+        "archive": "https://zenodo.org/api/records/21688125/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21688125/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21688125/versions/latest",
+        "latest_html": "https://zenodo.org/records/21688125/latest",
+        "versions": "https://zenodo.org/api/records/21688125/versions",
+        "draft": "https://zenodo.org/api/records/21688125/draft",
+        "access_links": "https://zenodo.org/api/records/21688125/access/links",
+        "access_grants": "https://zenodo.org/api/records/21688125/access/grants",
+        "access_users": "https://zenodo.org/api/records/21688125/access/users",
+        "access_request": "https://zenodo.org/api/records/21688125/access/request",
+        "access": "https://zenodo.org/api/records/21688125/access",
+        "communities": "https://zenodo.org/api/records/21688125/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21688125/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21688125/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21688125/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21688125/quota-increase",
+        "requests": "https://zenodo.org/api/records/21688125/requests"
       },
-      "updated": "2026-06-01T13:27:22.546263+00:00",
-      "recid": "20488704",
+      "updated": "2026-07-31T17:28:35.294436+00:00",
+      "recid": "21688125",
       "revision": 4,
       "files": [
         {
-          "id": "f42215df-6ce1-450a-bbff-72940f2a2093",
-          "key": "annotation_input_table_MANUAL.xlsx",
-          "size": 258014,
-          "checksum": "md5:fe0b07c6a36dd25c37d17f028270345a",
+          "id": "e7211982-d5b1-4ded-9bdb-de53f89427ac",
+          "key": "Polymer-grade propylene production through temperature.docx",
+          "size": 14552,
+          "checksum": "md5:0587a7a4db21f3289d431230ed9f20d4",
           "links": {
-            "self": "https://zenodo.org/api/records/20488704/files/annotation_input_table_MANUAL.xlsx/content"
-          }
-        },
-        {
-          "id": "b228cdf4-95d9-4cc1-a529-f80aa6095996",
-          "key": "AVIDbase.xlsx",
-          "size": 864568,
-          "checksum": "md5:d72ef58a783cbc0c3450d6c26d928a35",
-          "links": {
-            "self": "https://zenodo.org/api/records/20488704/files/AVIDbase.xlsx/content"
-          }
-        },
-        {
-          "id": "566eb54c-e05b-497a-b9ae-0eadd3d2468e",
-          "key": "AVIDbase.zip",
-          "size": 299780363,
-          "checksum": "md5:ea715341accd5e1fdb6f53e429487382",
-          "links": {
-            "self": "https://zenodo.org/api/records/20488704/files/AVIDbase.zip/content"
+            "self": "https://zenodo.org/api/records/21688125/files/Polymer-grade%20propylene%20production%20through%20temperature.docx/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1639292"
+          "id": "1741944"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 1,
+        "unique_views": 1,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 1,
+        "version_views": 1
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2026-06-01T12:17:13.017905+00:00",
-      "modified": "2026-06-01T12:17:13.289502+00:00",
-      "id": 20489349,
-      "conceptrecid": "16995531",
-      "doi": "10.1371/journal.pone.0343738",
-      "conceptdoi": "10.5281/zenodo.16995531",
-      "doi_url": "https://doi.org/10.1371/journal.pone.0343738",
+      "created": "2026-07-31T17:26:34.472376+00:00",
+      "modified": "2026-07-31T17:26:35.541848+00:00",
+      "id": 21724915,
+      "conceptrecid": "21724914",
+      "doi": "10.5281/zenodo.21724915",
+      "conceptdoi": "10.5281/zenodo.21724914",
+      "doi_url": "https://doi.org/10.5281/zenodo.21724915",
       "metadata": {
-        "title": "The mosaic of science: Disciplinary diversity and scientific prestige in research groups in Colombia",
-        "doi": "10.1371/journal.pone.0343738",
-        "publication_date": "2026-02-25",
-        "description": "<p>Collaboration among science teams is essential for addressing complex global challenges. A key feature of this collaboration is disciplinary diversity, yet its relationship with team performance remains debated, with research predominantly focused on high-income countries using proprietary databases that often overlook the unique scientific ecosystems of middle- and low-income nations. This geographical and methodological focus has created a gap in understanding how team composition affects scientific outcomes in these understudied contexts. This research examined a ten-year period of publicly available data from every Colombian research group issued and maintained by the Ministry of Science, Technology, and Innovation (MinCiencias), and we also measured disciplinary diversity via Leydesdorff et al. DIV indicator. We show that the relationship between disciplinary diversity and scientific prestige is non-linear, moderated by both group size and grand disciplinary areas. Our analysis reveals two key findings: low diversity is a consistent characteristic of research groups with a declining performance trajectory, and groups successfully advancing in national rank share a statistically similar diversity structure with those on an volatile path in the national ranking. These results contrast with the assumption that simply increasing diversity guarantees better performance, suggesting instead that its functional role is not monotonic and that an optimal, context-specific level may exist. This nationwide study provides a new dimension for science policy, indicating that fostering specific, field-dependent diversity structures&mdash;rather than maximizing diversity outright&mdash;may be crucial for building integrative and transformative research systems in emerging economies.</p>",
+        "title": "Polaris - A multi-database literature review system",
+        "doi": "10.5281/zenodo.21724915",
+        "publication_date": "2026-07-31",
+        "description": "<p><strong>POLARIS</strong> is an R (Shiny) application designed to streamline multi-database literature searches and export results in RIS format, fully compatible with tools such as&nbsp;<strong>Zotero, Mendeley, and EndNote</strong>.&nbsp;It was built to support <strong>reproducible, large-scale research workflows. </strong>Polaris enhances the audibility and transparency of the evidence synthesis process, thereby <strong>improving the traceability</strong> of the literature review workflow.</p>\n<h3>\ud83d\udd0e Multi-database search</h3>\n<p>Run queries across major academic databases, including <strong>PubMed</strong>, <strong>Scopus</strong>, <strong>ScienceDirect</strong>, and <strong>Semantic Scholar</strong>.</p>\n<h3>\ud83d\udcc4 Standardized export</h3>\n<p>All results are exported as <code>.ris</code> files, ensuring seamless integration with reference managers such as <strong>Zotero, Mendeley, and EndNote</strong>.</p>\n<h3>\ud83d\udcca Search logging</h3>\n<p>Each search generates a structured <code>results_log.csv</code>, allowing you to track queries, monitor results, and document execution status for reproducibility.</p>\n<h3>\ud83d\uddc2\ufe0f Structured outputs</h3>\n<p>Results can be automatically organized into folders based on query groups, making it easier to manage large-scale literature reviews.</p>\n<h3>\u26a1 Performance-focused execution</h3>\n<p>POLARIS is designed for efficiency, with batch processing, built-in rate limiting, retry handling, and a background worker system that keeps the Shiny interface responsive during long runs.</p>\n<h2>\ud83c\udfaf Use Cases</h2>\n<p>POLARIS is particularly useful for:</p>\n<ul>\n<li>Systematic literature reviews</li>\n<li>Meta-analyses</li>\n<li>Evidence synthesis workflows</li>\n<li>Academic research pipelines</li>\n</ul>\n<h2>\u2699\ufe0f Requirements</h2>\n<p>To run POLARIS, you will need:</p>\n<ul>\n<li><strong>R &ge; 4.0</strong></li>\n<li><strong>RStudio</strong> (recommended)</li>\n<li><strong>Elsevier API Key and Institutional Token</strong> <em>(required for Scopus and ScienceDirect)</em></li>\n</ul>\n<h2>Why POLARIS?</h2>\n<p>Literature searches are often <strong>fragmented, manual, and difficult to reproduce</strong>&mdash;especially when combining multiple databases, each with its own interface, limitations, and export formats.</p>\n<p>POLARIS addresses these challenges by bringing everything into a single environment. It <strong>unifies search workflows</strong>, <strong>automates large-scale query execution</strong>, and <strong>ensures reproducibility</strong> through structured logging and standardized outputs.</p>\n<p>Instead of switching between platforms and manually consolidating results, POLARIS allows you to <strong>run, monitor, and export your entire search strategy from one place</strong>, making it especially powerful for systematic reviews and data-intensive research projects.</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Cortes, Julian David",
-            "affiliation": "Universidad del Rosario",
-            "orcid": "0000-0002-1246-2160"
+            "name": "Prado, Leonardo",
+            "affiliation": "Arizona State University",
+            "orcid": "0000-0002-0763-7114"
+          },
+          {
+            "name": "Vanos, Jennifer",
+            "affiliation": "Arizona State University",
+            "orcid": "0000-0003-1854-9096"
+          },
+          {
+            "name": "Rosales Chavez, Jose Benito",
+            "affiliation": "Arizona State University",
+            "orcid": "0000-0003-1737-5004"
           }
         ],
-        "keywords": [
-          "Disciplinary Diversity",
-          "Science of Team Science",
-          "Scientometrics",
-          "Science Policy",
-          "Research Evaluation",
-          "Scientific Prestige"
-        ],
-        "dates": [
-          {
-            "type": "submitted"
-          }
-        ],
-        "resource_type": {
-          "title": "Journal article",
-          "type": "publication",
-          "subtype": "article"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "16995531"
-              }
-            }
-          ]
-        }
-      },
-      "title": "The mosaic of science: Disciplinary diversity and scientific prestige in research groups in Colombia",
-      "links": {
-        "self": "https://zenodo.org/api/records/20489349",
-        "self_html": "https://zenodo.org/records/20489349",
-        "preview_html": "https://zenodo.org/records/20489349?preview=1",
-        "doi": "https://doi.org/10.1371/journal.pone.0343738",
-        "self_doi": "https://doi.org/10.1371/journal.pone.0343738",
-        "self_doi_html": "https://zenodo.org/doi/10.1371/journal.pone.0343738",
-        "reserve_doi": "https://zenodo.org/api/records/20489349/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/16995531",
-        "parent_html": "https://zenodo.org/records/16995531",
-        "parent_doi": "https://doi.org/10.5281/zenodo.16995531",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16995531",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20489349/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20489349/sequence/default",
-        "files": "https://zenodo.org/api/records/20489349/files",
-        "media_files": "https://zenodo.org/api/records/20489349/media-files",
-        "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:20489349:disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:20489349:disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:20489349:disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:20489349:disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:20489349:disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:20489349:disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/full/%5E1200,/0/default.jpg"
-        },
-        "archive": "https://zenodo.org/api/records/20489349/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20489349/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20489349/versions/latest",
-        "latest_html": "https://zenodo.org/records/20489349/latest",
-        "versions": "https://zenodo.org/api/records/20489349/versions",
-        "draft": "https://zenodo.org/api/records/20489349/draft",
-        "access_links": "https://zenodo.org/api/records/20489349/access/links",
-        "access_grants": "https://zenodo.org/api/records/20489349/access/grants",
-        "access_users": "https://zenodo.org/api/records/20489349/access/users",
-        "access_request": "https://zenodo.org/api/records/20489349/access/request",
-        "access": "https://zenodo.org/api/records/20489349/access",
-        "communities": "https://zenodo.org/api/records/20489349/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20489349/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20489349/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20489349/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20489349/quota-increase",
-        "requests": "https://zenodo.org/api/records/20489349/requests"
-      },
-      "updated": "2026-06-01T12:17:13.289502+00:00",
-      "recid": "20489349",
-      "revision": 4,
-      "files": [
-        {
-          "id": "05c2ddb1-f2f1-40dd-8ee5-0343b45e1760",
-          "key": "disciplinary diversity_scientific prestige research groups.pdf",
-          "size": 763464,
-          "checksum": "md5:4a70b76919166553f8d749d35c01a709",
-          "links": {
-            "self": "https://zenodo.org/api/records/20489349/files/disciplinary%20diversity_scientific%20prestige%20research%20groups.pdf/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1204289"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 58,
-        "unique_downloads": 44,
-        "views": 50,
-        "unique_views": 46,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T10:37:10.492588+00:00",
-      "modified": "2026-06-01T10:37:10.667657+00:00",
-      "id": 20487881,
-      "conceptrecid": "19861325",
-      "doi": "10.5281/zenodo.20487881",
-      "conceptdoi": "10.5281/zenodo.19861325",
-      "doi_url": "https://doi.org/10.5281/zenodo.20487881",
-      "metadata": {
-        "title": "Unveiling diel river microbial dynamics: eDNA traces structural and functional microbial fingerprints",
-        "doi": "10.5281/zenodo.20487881",
-        "publication_date": "2026-06-01",
-        "description": "<p>This dataset accompanies the article <em>&ldquo;Unveiling diel river microbial dynamics: eDNA traces structural and functional microbial fingerprints&rdquo;</em> and contains the data generated and analyzed to investigate diel (day&ndash;night) microbial dynamics in a riverine ecosystem using environmental DNA (eDNA).</p>\n<div>\n<p><em>This dataset contains curated 16S rRNA gene metabarcoding data from riverine microbial communities sampled across a 24-hour diel cycle in the Saja catchment (northern Spain). The dataset includes a merged OTU and taxonomy table, along with associated metadata describing sampling location, replicate, and time interval.</em></p>\n<p><em>Raw Oxford Nanopore sequencing reads were basecalled using Dorado with a super-accuracy model, followed by duplex processing to improve read quality. Reads were quality-filtered (Q\u202f&gt;\u202f10) and size-selected to retain sequences corresponding to the expected 16S rRNA amplicon length (200&ndash;500 bp). Subsequent processing included demultiplexing, primer removal, and chimera filtering using standard bioinformatic tools. </em><em>Sequences were clustered into OTUs at 97% sequence identity, with consensus polishing applied to improve accuracy. Taxonomic assignments were performed using curated reference databases (MiDAS, SILVA, and RefSeq), retaining high-confidence matches based on sequence identity and alignment criteria. </em>Taxonomic assignments were based on BLAST results, and only matches with a sequence identity of &ge;97% were retained to ensure high-confidence identification at the species level. <em>The dataset was further curated by removing contaminants through blank correction and decontamination procedures.&nbsp;</em></p>\n<div>Additionally, the dataset includes a final OTU table with inferred functional profiles generated using PICRUSt2, representing the predicted abundance of KEGG Orthology (KO) groups for each sample.</div>\n<div>&nbsp;</div>\n<div>\n<div>The final dataset represents a high-quality, filtered OTU table capturing microbial community composition and its fine-scale temporal variation across riverine systems, as well as inferred functional profiles based on PICRUSt2, represented as KEGG Orthology (KO) abundances.</div>\n</div>\n</div>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Losa, Alba M.",
-            "affiliation": "Instituto de Hidr\u00e1ulica Ambiental de Cantabria",
-            "orcid": "0009-0003-1789-5218"
-          }
-        ],
-        "contributors": [
-          {
-            "name": "GOLDENBERG VILAR, ALEJANDRA",
-            "affiliation": "Environmental Hydraulics Institute Cantabria",
-            "type": "Researcher",
-            "orcid": "0000-0002-6898-3555"
-          },
-          {
-            "name": "Moran-Luis, Maria",
-            "affiliation": "IH CANTABRIA",
-            "type": "Researcher",
-            "orcid": "0000-0002-6449-2388"
-          },
-          {
-            "name": "Barqu\u00edn Ortiz, Jos\u00e9",
-            "affiliation": "Universidad de Cantabria",
-            "type": "Supervisor",
-            "orcid": "0000-0003-1897-2636"
-          },
-          {
-            "name": "Freixa, Anna",
-            "affiliation": "Catalan Institute for Water Research",
-            "type": "Researcher",
-            "orcid": "0000-0003-1149-6526"
-          }
-        ],
-        "keywords": [
-          "dial cycles",
-          "microbial dynamics",
-          "eDNA",
-          "riverine"
-        ],
-        "custom": {
-          "code:developmentStatus": {
-            "id": "active",
-            "title": {
-              "en": "Active"
-            }
-          }
-        },
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "journal": {
-          "title": "Unveiling diel river microbial dynamics: eDNA traces structural and functional microbial fingerprints"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "19861325"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Unveiling diel river microbial dynamics: eDNA traces structural and functional microbial fingerprints",
-      "links": {
-        "self": "https://zenodo.org/api/records/20487881",
-        "self_html": "https://zenodo.org/records/20487881",
-        "preview_html": "https://zenodo.org/records/20487881?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20487881",
-        "self_doi": "https://doi.org/10.5281/zenodo.20487881",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487881",
-        "reserve_doi": "https://zenodo.org/api/records/20487881/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/19861325",
-        "parent_html": "https://zenodo.org/records/19861325",
-        "parent_doi": "https://doi.org/10.5281/zenodo.19861325",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19861325",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20487881/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20487881/sequence/default",
-        "files": "https://zenodo.org/api/records/20487881/files",
-        "media_files": "https://zenodo.org/api/records/20487881/media-files",
-        "archive": "https://zenodo.org/api/records/20487881/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20487881/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20487881/versions/latest",
-        "latest_html": "https://zenodo.org/records/20487881/latest",
-        "versions": "https://zenodo.org/api/records/20487881/versions",
-        "draft": "https://zenodo.org/api/records/20487881/draft",
-        "access_links": "https://zenodo.org/api/records/20487881/access/links",
-        "access_grants": "https://zenodo.org/api/records/20487881/access/grants",
-        "access_users": "https://zenodo.org/api/records/20487881/access/users",
-        "access_request": "https://zenodo.org/api/records/20487881/access/request",
-        "access": "https://zenodo.org/api/records/20487881/access",
-        "communities": "https://zenodo.org/api/records/20487881/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20487881/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20487881/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20487881/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20487881/quota-increase",
-        "requests": "https://zenodo.org/api/records/20487881/requests"
-      },
-      "updated": "2026-06-01T10:37:10.667657+00:00",
-      "recid": "20487881",
-      "revision": 4,
-      "files": [
-        {
-          "id": "6858cc73-0710-4f82-b89a-a911949294a4",
-          "key": "Picrust2Dataset_InferredFunctions_OtuTable.csv",
-          "size": 23663,
-          "checksum": "md5:81d284639b80fa2f4c3781653736be0a",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487881/files/Picrust2Dataset_InferredFunctions_OtuTable.csv/content"
-          }
-        },
-        {
-          "id": "8f55fd9f-c928-4d9e-8ca8-2fbb88349806",
-          "key": "Metadata.xlsx",
-          "size": 10953,
-          "checksum": "md5:4876a04032b09b3a604c322dac03c7e5",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487881/files/Metadata.xlsx/content"
-          }
-        },
-        {
-          "id": "cd43b791-9823-4146-b3b0-55a8f097b30e",
-          "key": "Metabarcoding_cleanData.csv",
-          "size": 1161805,
-          "checksum": "md5:a5c394111abcf636f357d04160cb6c7b",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487881/files/Metabarcoding_cleanData.csv/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1235313"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T10:00:06.000467+00:00",
-      "modified": "2026-06-01T10:00:07.030798+00:00",
-      "id": 20487451,
-      "conceptrecid": "17967619",
-      "doi": "10.5281/zenodo.20487451",
-      "conceptdoi": "10.5281/zenodo.17967619",
-      "doi_url": "https://doi.org/10.5281/zenodo.20487451",
-      "metadata": {
-        "title": "PlantMetWiki RDF",
-        "doi": "10.5281/zenodo.20487451",
-        "publication_date": "2026-06-01",
-        "description": "<p>This is the Resource Description Framework created from the GPML versions of the PlantCyc pathways and reactions.</p><p>This release was generated from PlantCyc GPML input version <strong>plantcyc17.0.0-gpml2021-v2</strong>.</p><p><strong>License:</strong> OPEN DATABASE LICENSE FOR THE PLANT METABOLIC NETWORK DATABASES.</p><p>License page: <a href=\"https://plantcyc.org/?webform=license-agreement\">https://plantcyc.org/?webform=license-agreement</a>.</p><p>OPEN DATABASE LICENSE FOR THE PLANT METABOLIC NETWORK DATABASES (PMN). The databases may be used royalty-free worldwide and may be modified and redistributed, provided that derived copies clearly identify the source database(s), include applicable copyright notices and author lists, and identify or summarize modifications.</p><p>Input GPML Zenodo DOI: <a href=\"https://doi.org/10.5281/zenodo.20312431\">10.5281/zenodo.20312431</a>.</p><p>Input GPML archive: <code>pathway-lod/Cyc_to_wiki-plantcyc17.0.0-gpml2021-v2.zip</code>.</p><p>This upload contains the core WikiPathways RDF, a taxonomy extra RDF layer, a GPML property extra RDF layer, VoID metadata, and build metadata.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Willighagen, Egon",
-            "affiliation": "Maastricht University",
-            "orcid": "0000-0001-7542-0286"
-          },
-          {
-            "name": "Del Pup, Elena",
-            "affiliation": null,
-            "orcid": "0000-0002-9472-918X"
-          }
-        ],
-        "keywords": [
-          "PlantMetWiki",
-          "PlantCyc",
-          "WikiPathways",
-          "GPML",
-          "RDF"
-        ],
-        "related_identifiers": [
-          {
-            "identifier": "https://github.com/pathway-lod/gpml-to-rdf",
-            "relation": "isSupplementTo",
-            "scheme": "url"
-          },
-          {
-            "identifier": "10.5281/zenodo.20312431",
-            "relation": "isDerivedFrom",
-            "scheme": "doi"
-          }
-        ],
-        "version": "plantcyc17.0.0-gpml2021-v2",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "other-open"
-        },
-        "communities": [
-          {
-            "id": "plantmetwiki"
-          }
-        ],
-        "relations": {
-          "version": [
-            {
-              "index": 6,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "17967619"
-              }
-            }
-          ]
-        },
-        "notes": "<p>OPEN DATABASE LICENSE FOR THE PLANT METABOLIC NETWORK DATABASES OPEN DATABASE LICENSE FOR THE PLANT METABOLIC NETWORK DATABASES (PMN). The databases may be used royalty-free worldwide and may be modified and redistributed, provided that derived copies clearly identify the source database(s), include applicable copyright notices and author lists, and identify or summarize modifications. License page: https://plantcyc.org/?webform=license-agreement License metadata is also encoded in void-plantcyc17.0.0-gpml2021-v2.ttl using dcterms:license and dcterms:rights.</p>"
-      },
-      "title": "PlantMetWiki RDF",
-      "links": {
-        "self": "https://zenodo.org/api/records/20487451",
-        "self_html": "https://zenodo.org/records/20487451",
-        "preview_html": "https://zenodo.org/records/20487451?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20487451",
-        "self_doi": "https://doi.org/10.5281/zenodo.20487451",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20487451",
-        "reserve_doi": "https://zenodo.org/api/records/20487451/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/17967619",
-        "parent_html": "https://zenodo.org/records/17967619",
-        "parent_doi": "https://doi.org/10.5281/zenodo.17967619",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17967619",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20487451/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20487451/sequence/default",
-        "files": "https://zenodo.org/api/records/20487451/files",
-        "media_files": "https://zenodo.org/api/records/20487451/media-files",
-        "archive": "https://zenodo.org/api/records/20487451/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20487451/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20487451/versions/latest",
-        "latest_html": "https://zenodo.org/records/20487451/latest",
-        "versions": "https://zenodo.org/api/records/20487451/versions",
-        "draft": "https://zenodo.org/api/records/20487451/draft",
-        "access_links": "https://zenodo.org/api/records/20487451/access/links",
-        "access_grants": "https://zenodo.org/api/records/20487451/access/grants",
-        "access_users": "https://zenodo.org/api/records/20487451/access/users",
-        "access_request": "https://zenodo.org/api/records/20487451/access/request",
-        "access": "https://zenodo.org/api/records/20487451/access",
-        "communities": "https://zenodo.org/api/records/20487451/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20487451/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20487451/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20487451/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20487451/quota-increase",
-        "requests": "https://zenodo.org/api/records/20487451/requests"
-      },
-      "updated": "2026-06-01T10:00:07.030798+00:00",
-      "recid": "20487451",
-      "revision": 4,
-      "files": [
-        {
-          "id": "0d8cc491-4c51-49fa-83bf-d14923066c28",
-          "key": "void-plantcyc17.0.0-gpml2021-v2.ttl",
-          "size": 7570,
-          "checksum": "md5:13f7515d0ba97b6dd34fded27860ac20",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487451/files/void-plantcyc17.0.0-gpml2021-v2.ttl/content"
-          }
-        },
-        {
-          "id": "fbd03411-1846-4a46-9a55-8a758c86fda2",
-          "key": "all-plantcyc17.0.0-gpml2021-v2.ttl.gz",
-          "size": 20088055,
-          "checksum": "md5:418aa61e6efd04086494f5c84e61cfa6",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487451/files/all-plantcyc17.0.0-gpml2021-v2.ttl.gz/content"
-          }
-        },
-        {
-          "id": "38f1f54c-689a-4c5b-b959-5186f67099ac",
-          "key": "all_gpml_taxonomy_extra-plantcyc17.0.0-gpml2021-v2.ttl.gz",
-          "size": 239311,
-          "checksum": "md5:3235e0ee556c808ade5479be2d3399c6",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487451/files/all_gpml_taxonomy_extra-plantcyc17.0.0-gpml2021-v2.ttl.gz/content"
-          }
-        },
-        {
-          "id": "5ffa3fab-a59c-4e45-aecd-9c33b0275ba5",
-          "key": "all_gpml_properties_extra-plantcyc17.0.0-gpml2021-v2.ttl.gz",
-          "size": 11823605,
-          "checksum": "md5:1e659cf24b882e622aa5aadc7792aaad",
-          "links": {
-            "self": "https://zenodo.org/api/records/20487451/files/all_gpml_properties_extra-plantcyc17.0.0-gpml2021-v2.ttl.gz/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "6059"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 118,
-        "unique_downloads": 113,
-        "views": 933,
-        "unique_views": 877,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T09:43:44.482285+00:00",
-      "modified": "2026-06-01T09:43:44.684758+00:00",
-      "id": 20485599,
-      "conceptrecid": "18270333",
-      "doi": "10.5281/zenodo.20485599",
-      "conceptdoi": "10.5281/zenodo.18270333",
-      "doi_url": "https://doi.org/10.5281/zenodo.20485599",
-      "metadata": {
-        "title": "FRIAS: Global Dataset of Freshwater Introduced Alien Species",
-        "doi": "10.5281/zenodo.20485599",
-        "publication_date": "2026-06-01",
-        "description": "<p>The FRIAS (FReshwater Invasive and Alien Species) dataset is a global standardized compiled database of freshwater alien and invasive species worldwide. It integrates key data such as taxonomy, native and recipient ranges, introduction pathways, ecological impacts, and dates of first records. It provides a comprehensive resource to support monitoring, risk assessment, and research on biological invasions in freshwater ecosystems. <br><br>FRIAS dataset is generated through the transparent and replicable FRIAS workflow, whose code is stored on Github (<a href=\"https://github.com/AlbaSevilla/FRIAS\">https://github.com/AlbaSevilla/FRIAS</a>).</p>\n<p>The FRIAS workflow has been completely implemented in the open-source statistical R software version 4.5.0 (R Core Team, 2025). All necessary R packages are automatically installed through the Packages_download() function. As the workflow has been developed on Debian GNU/Linux 13 (trixie), minor changes may be required to run on Windows or macOS systems (e.g., file path handling). To add new data, input databases must be provided in a .csv or .xlsx format. Data can be added manually or automatically incorporating instructions to the R script, which is recommended to ensure reproducibility. Once the download is completed, information from each database must be added to Table S1, which indicates the correspondence between original column names and the standardised schema used in FRIAS workflow. Once the harmonization step is completed, users may need to update Table S2 to account for new or database-specific terminology.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Sevilla-Navarro, Alba",
-            "affiliation": "Instituto Pirenaico de Ecolog\u00eda",
-            "orcid": "0009-0003-0652-7401"
-          },
-          {
-            "name": "Medina, Albert",
-            "affiliation": "Instituto Pirenaico de Ecolog\u00eda",
-            "orcid": "0009-0007-3466-6256"
-          },
-          {
-            "name": "Gallardo, Belinda",
-            "affiliation": "Instituto Pirenaico de Ecolog\u00eda",
-            "orcid": "0000-0002-1552-8233"
-          }
-        ],
-        "contributors": [
-          {
-            "name": "Sevilla-Navarro, Alba",
-            "affiliation": "Instituto Pirenaico de Ecolog\u00eda",
-            "type": "ContactPerson",
-            "orcid": "0009-0003-0652-7401"
-          },
-          {
-            "name": "Medina, Albert",
-            "affiliation": "Instituto Pirenaico de Ecolog\u00eda",
-            "type": "ContactPerson",
-            "orcid": "0009-0007-3466-6256"
-          },
-          {
-            "name": "Gallardo, Belinda",
-            "affiliation": "Instituto Pirenaico de Ecolog\u00eda",
-            "type": "ContactPerson",
-            "orcid": "0000-0002-1552-8233"
-          },
-          {
-            "name": "Adriaens, Tim",
-            "affiliation": "Research Institute for Nature and Forest",
-            "type": "Researcher",
-            "orcid": "0000-0001-7268-4200"
-          },
-          {
-            "name": "Barbosa, A. M\u00e1rcia",
-            "affiliation": "Freelance biogeography consulting, training and analysis",
-            "type": "Researcher",
-            "orcid": "0000-0001-8972-7713"
-          },
-          {
-            "name": "Bruno, Daniel",
-            "affiliation": "Universidad Miguel Hern\u00e1ndez de Elche Departamento de Biolog\u00eda Aplicada",
-            "type": "Researcher",
-            "orcid": "0000-0003-3976-9354"
-          },
-          {
-            "name": "Oficialdegui, Francisco Javier",
-            "affiliation": "University of South Bohemia in \u010cesk\u00e9 Bud\u011bjovice",
-            "type": "Researcher",
-            "orcid": "0000-0001-6223-736X"
-          },
-          {
-            "name": "Rossetto, Federica",
-            "affiliation": "Consejo Superior de Investigaciones Cient\u00edficas",
-            "type": "Researcher",
-            "orcid": "0000-0001-7479-063X"
-          },
-          {
-            "name": "Capinha, C\u00e9sar",
-            "affiliation": "Universidade de Lisboa Centro de Estudos Geogr\u00e1ficos: Lisboa, PT",
-            "type": "Researcher",
-            "orcid": "0000-0002-0666-9755"
-          },
-          {
-            "name": "Liu, Chunlong",
-            "affiliation": "Leibniz Institute of Freshwater Ecology and Inland Fisheries",
-            "type": "Researcher",
-            "orcid": "0000-0002-3376-4555"
-          },
-          {
-            "name": "Kumar, Lohith",
-            "affiliation": "ICAR-Central Inland Fisheries Research Institute",
-            "type": "Researcher",
-            "orcid": "0000-0003-2933-4867"
-          },
-          {
-            "name": "Nunes, Ana Lu\u00edsa",
-            "affiliation": "International Union for Conservation of Nature",
-            "type": "Researcher",
-            "orcid": "0000-0002-5489-819X"
-          },
-          {
-            "name": "Kumschick, Sabrina",
-            "affiliation": "Stellenbosch University",
-            "type": "Researcher",
-            "orcid": "0000-0001-8034-5831"
-          },
-          {
-            "name": "Pattison, Zarah",
-            "affiliation": "University of Stirling",
-            "type": "Researcher",
-            "orcid": "0000-0002-5243-0876"
-          },
-          {
-            "name": "Seebens, Hanno",
-            "affiliation": "University of Giessen",
-            "type": "Researcher",
-            "orcid": "0000-0001-8993-6419"
-          }
-        ],
-        "keywords": [
-          "exotic species",
-          "GBIF",
-          "freshwater habitat",
-          "biological invasions",
-          "Macroecology",
-          "open-source",
-          "workflow",
-          "database",
-          "non native species"
-        ],
-        "version": "2",
         "language": "eng",
         "custom": {
-          "code:codeRepository": "https://github.com/AlbaSevilla/FRIAS",
+          "code:codeRepository": "https://github.com/leonardoprado03/Polaris/tree/main",
           "code:programmingLanguage": [
             {
               "id": "r",
@@ -1099,20 +1050,222 @@
           }
         },
         "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "journal": {
-          "title": "Scientific Data"
+          "title": "Software",
+          "type": "software"
         },
         "license": {
-          "id": "cc-by-4.0"
+          "id": "mit-license"
         },
-        "communities": [
+        "relations": {
+          "version": [
+            {
+              "index": 0,
+              "is_last": true,
+              "parent": {
+                "pid_type": "recid",
+                "pid_value": "21724914"
+              }
+            }
+          ]
+        }
+      },
+      "title": "Polaris - A multi-database literature review system",
+      "links": {
+        "self": "https://zenodo.org/api/records/21724915",
+        "self_html": "https://zenodo.org/records/21724915",
+        "preview_html": "https://zenodo.org/records/21724915?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21724915",
+        "self_doi": "https://doi.org/10.5281/zenodo.21724915",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21724915",
+        "reserve_doi": "https://zenodo.org/api/records/21724915/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21724914",
+        "parent_html": "https://zenodo.org/records/21724914",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21724914",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21724914",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21724915/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21724915/sequence/default",
+        "files": "https://zenodo.org/api/records/21724915/files",
+        "media_files": "https://zenodo.org/api/records/21724915/media-files",
+        "thumbnails": {
+          "10": "https://zenodo.org/api/iiif/record:21724915:MANUAL.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21724915:MANUAL.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21724915:MANUAL.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21724915:MANUAL.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21724915:MANUAL.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21724915:MANUAL.pdf/full/%5E1200,/0/default.jpg"
+        },
+        "archive": "https://zenodo.org/api/records/21724915/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21724915/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21724915/versions/latest",
+        "latest_html": "https://zenodo.org/records/21724915/latest",
+        "versions": "https://zenodo.org/api/records/21724915/versions",
+        "draft": "https://zenodo.org/api/records/21724915/draft",
+        "access_links": "https://zenodo.org/api/records/21724915/access/links",
+        "access_grants": "https://zenodo.org/api/records/21724915/access/grants",
+        "access_users": "https://zenodo.org/api/records/21724915/access/users",
+        "access_request": "https://zenodo.org/api/records/21724915/access/request",
+        "access": "https://zenodo.org/api/records/21724915/access",
+        "communities": "https://zenodo.org/api/records/21724915/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21724915/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21724915/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21724915/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21724915/quota-increase",
+        "requests": "https://zenodo.org/api/records/21724915/requests"
+      },
+      "updated": "2026-07-31T17:26:35.541848+00:00",
+      "recid": "21724915",
+      "revision": 4,
+      "files": [
+        {
+          "id": "46dcb794-eb19-4cd1-b16d-7718b3bc4fa9",
+          "key": "MANUAL.pdf",
+          "size": 210685,
+          "checksum": "md5:dce2076b19510fbab8e6a89a11fa60e5",
+          "links": {
+            "self": "https://zenodo.org/api/records/21724915/files/MANUAL.pdf/content"
+          }
+        },
+        {
+          "id": "190e7191-eb7f-4a00-8613-9b447833c884",
+          "key": "README.pdf",
+          "size": 107041,
+          "checksum": "md5:67eccd5cb160f9f1fd59b15b147c3520",
+          "links": {
+            "self": "https://zenodo.org/api/records/21724915/files/README.pdf/content"
+          }
+        },
+        {
+          "id": "52253930-30fa-448c-9d6d-4901a130376f",
+          "key": "1.0 Polaris.zip",
+          "size": 680852,
+          "checksum": "md5:039ba7ba85c73d7213f3921019c17ea1",
+          "links": {
+            "self": "https://zenodo.org/api/records/21724915/files/1.0%20Polaris.zip/content"
+          }
+        },
+        {
+          "id": "9b646e35-bfe3-42ea-8b21-a52287f3b0cf",
+          "key": "Validation.zip",
+          "size": 1804744,
+          "checksum": "md5:80b49d91263a5d9abfb84742864b1d3d",
+          "links": {
+            "self": "https://zenodo.org/api/records/21724915/files/Validation.zip/content"
+          }
+        }
+      ],
+      "swh": null,
+      "owners": [
+        {
+          "id": "1567237"
+        }
+      ],
+      "status": "published",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 8,
+        "unique_views": 5,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 5,
+        "version_views": 8
+      },
+      "state": "done",
+      "submitted": true
+    },
+    {
+      "created": "2026-07-31T16:52:28.897814+00:00",
+      "modified": "2026-07-31T16:52:29.223315+00:00",
+      "id": 21724811,
+      "conceptrecid": "21707495",
+      "doi": "10.5281/zenodo.21724811",
+      "conceptdoi": "10.5281/zenodo.21707495",
+      "doi_url": "https://doi.org/10.5281/zenodo.21724811",
+      "metadata": {
+        "title": "ConVer-G: A Suite for Versioning, Querying and Visualization of Dynamic Knowledge Graphs",
+        "doi": "10.5281/zenodo.21724811",
+        "publication_date": "2026-07-31",
+        "description": "<p>A Knowledge Graph (KG) is a structured representation of facts where entities are connected by typed relationships, typically encoded using the Resource Description Framework (RDF) standard. KGs are widely used across domains such as life sciences, urban planning, and weather forecasting, but evolve continuously as data is updated, corrected, and expanded. Managing this evolution through explicit&nbsp;<em>versioning</em>&mdash;much like Git does for source code&mdash;is essential for reproducibility, auditability, provenance tracking, and temporal analysis.</p>\n<p>ConVer-G (Concurrent Versioning of Knowledge Graphs) is a software suite designed to address these challenges by providing snapshot-based version management for RDF datasets [@gil2024convergconcurrentversioningknowledge]. It allows users to ingest successive states of an RDF dataset, query any past version using the standard SPARQL query language, compare versions, and visually inspect how the graph and its history evolve. The suite is composed of three modular and interoperable components:</p>\n<ol>\n<li><strong>Quads-loaDer:</strong>&nbsp;A command-line interface and service for ingesting RDF data, and storing versioned quads efficiently.</li>\n<li><strong>Quads-Query:</strong>&nbsp;A query translation engine that converts SPARQL queries into SQL, enabling the interrogation of specific graph versions as well as cross-snapshot and temporal analyses directly over a relational backend.</li>\n<li><strong>Quads-Visualizer:</strong>&nbsp;A web-based visualization tool that allows users to explore both the metagraph&mdash;capturing the structural history of versions, branches, and their ancestry&mdash;and the versioned graph, which represents the RDF quads contained in a selected snapshot.</li>\n</ol>\n<p>Together, these components implement a condensed snapshot-based representation of RDF graphs that optimizes storage by sharing common quads across versions, while simultaneously supporting concurrent workflows such as branching and merging.</p>",
+        "access_right": "open",
+        "creators": [
           {
-            "id": "frias"
+            "name": "Puget Gil, Jey",
+            "affiliation": "Laboratoire d'Informatique en Images et Syst\u00e8mes d'Information",
+            "orcid": "0009-0006-6198-7488"
+          },
+          {
+            "name": "Coquery, Emmanuel",
+            "affiliation": "Laboratoire d'Informatique en Images et Syst\u00e8mes d'Information",
+            "orcid": "0000-0001-7015-5604"
+          },
+          {
+            "name": "Samuel, John",
+            "affiliation": "\u00c9cole d'Ing\u00e9nieurs en Chimie et Sciences du Num\u00e9rique",
+            "orcid": "0000-0001-8721-7007"
+          },
+          {
+            "name": "GESQUIERE, Gilles",
+            "affiliation": "Universit\u00e9 Lumi\u00e8re Lyon 2",
+            "orcid": "0000-0001-7088-1067"
           }
         ],
+        "contributors": [
+          {
+            "name": "Puget Gil, Jey",
+            "affiliation": "Laboratoire d'Informatique en Images et Syst\u00e8mes d'Information",
+            "type": "Researcher",
+            "orcid": "0009-0006-6198-7488"
+          },
+          {
+            "name": "Coquery, Emmanuel",
+            "affiliation": "Laboratoire d'Informatique en Images et Syst\u00e8mes d'Information",
+            "type": "Supervisor",
+            "orcid": "0000-0001-7015-5604"
+          },
+          {
+            "name": "Samuel, John",
+            "affiliation": "\u00c9cole d'Ing\u00e9nieurs en Chimie et Sciences du Num\u00e9rique",
+            "type": "Supervisor",
+            "orcid": "0000-0001-8721-7007"
+          },
+          {
+            "name": "GESQUIERE, Gilles",
+            "affiliation": "Universit\u00e9 Lumi\u00e8re Lyon 2",
+            "type": "Supervisor",
+            "orcid": "0000-0001-7088-1067"
+          }
+        ],
+        "version": "converg-v2.0.1",
+        "custom": {
+          "code:codeRepository": "https://github.com/VCityTeam/ConVer-G",
+          "code:programmingLanguage": [
+            {
+              "id": "java",
+              "title": {
+                "en": "Java"
+              }
+            },
+            {
+              "id": "javascript",
+              "title": {
+                "en": "JavaScript"
+              }
+            }
+          ],
+          "code:developmentStatus": {
+            "id": "active",
+            "title": {
+              "en": "Active"
+            }
+          }
+        },
+        "resource_type": {
+          "title": "Software",
+          "type": "software"
+        },
+        "license": {
+          "id": "lgpl-2.1"
+        },
         "relations": {
           "version": [
             {
@@ -1120,123 +1273,148 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "18270333"
+                "pid_value": "21707495"
               }
             }
           ]
         }
       },
-      "title": "FRIAS: Global Dataset of Freshwater Introduced Alien Species",
+      "title": "ConVer-G: A Suite for Versioning, Querying and Visualization of Dynamic Knowledge Graphs",
       "links": {
-        "self": "https://zenodo.org/api/records/20485599",
-        "self_html": "https://zenodo.org/records/20485599",
-        "preview_html": "https://zenodo.org/records/20485599?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20485599",
-        "self_doi": "https://doi.org/10.5281/zenodo.20485599",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20485599",
-        "reserve_doi": "https://zenodo.org/api/records/20485599/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/18270333",
-        "parent_html": "https://zenodo.org/records/18270333",
-        "parent_doi": "https://doi.org/10.5281/zenodo.18270333",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18270333",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20485599/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20485599/sequence/default",
-        "files": "https://zenodo.org/api/records/20485599/files",
-        "media_files": "https://zenodo.org/api/records/20485599/media-files",
-        "archive": "https://zenodo.org/api/records/20485599/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20485599/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20485599/versions/latest",
-        "latest_html": "https://zenodo.org/records/20485599/latest",
-        "versions": "https://zenodo.org/api/records/20485599/versions",
-        "draft": "https://zenodo.org/api/records/20485599/draft",
-        "access_links": "https://zenodo.org/api/records/20485599/access/links",
-        "access_grants": "https://zenodo.org/api/records/20485599/access/grants",
-        "access_users": "https://zenodo.org/api/records/20485599/access/users",
-        "access_request": "https://zenodo.org/api/records/20485599/access/request",
-        "access": "https://zenodo.org/api/records/20485599/access",
-        "communities": "https://zenodo.org/api/records/20485599/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20485599/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20485599/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20485599/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20485599/quota-increase",
-        "requests": "https://zenodo.org/api/records/20485599/requests"
+        "self": "https://zenodo.org/api/records/21724811",
+        "self_html": "https://zenodo.org/records/21724811",
+        "preview_html": "https://zenodo.org/records/21724811?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21724811",
+        "self_doi": "https://doi.org/10.5281/zenodo.21724811",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21724811",
+        "reserve_doi": "https://zenodo.org/api/records/21724811/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21707495",
+        "parent_html": "https://zenodo.org/records/21707495",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21707495",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21707495",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21724811/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21724811/sequence/default",
+        "files": "https://zenodo.org/api/records/21724811/files",
+        "media_files": "https://zenodo.org/api/records/21724811/media-files",
+        "archive": "https://zenodo.org/api/records/21724811/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21724811/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21724811/versions/latest",
+        "latest_html": "https://zenodo.org/records/21724811/latest",
+        "versions": "https://zenodo.org/api/records/21724811/versions",
+        "draft": "https://zenodo.org/api/records/21724811/draft",
+        "access_links": "https://zenodo.org/api/records/21724811/access/links",
+        "access_grants": "https://zenodo.org/api/records/21724811/access/grants",
+        "access_users": "https://zenodo.org/api/records/21724811/access/users",
+        "access_request": "https://zenodo.org/api/records/21724811/access/request",
+        "access": "https://zenodo.org/api/records/21724811/access",
+        "communities": "https://zenodo.org/api/records/21724811/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21724811/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21724811/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21724811/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21724811/quota-increase",
+        "requests": "https://zenodo.org/api/records/21724811/requests"
       },
-      "updated": "2026-06-01T09:43:44.684758+00:00",
-      "recid": "20485599",
+      "updated": "2026-07-31T16:52:29.223315+00:00",
+      "recid": "21724811",
       "revision": 4,
       "files": [
         {
-          "id": "9519520b-2a57-4638-901f-46597122ce7d",
-          "key": "FRIAS_Package_v2.zip",
-          "size": 51812611,
-          "checksum": "md5:8f71f8cc32a4373f843223a7ee10747c",
+          "id": "5c52adac-24eb-4867-ba93-2acb1d265ba3",
+          "key": "ConVer-G-converg-v2.0.1.zip",
+          "size": 1542004,
+          "checksum": "md5:04c801ed691d88d6e560e6e22247e3a2",
           "links": {
-            "self": "https://zenodo.org/api/records/20485599/files/FRIAS_Package_v2.zip/content"
+            "self": "https://zenodo.org/api/records/21724811/files/ConVer-G-converg-v2.0.1.zip/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1463049"
+          "id": "1418670"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 11,
-        "unique_downloads": 10,
-        "views": 77,
-        "unique_views": 60,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 29,
+        "unique_views": 26,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
+        "version_unique_views": 11,
+        "version_views": 12
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2026-06-01T08:56:51.366084+00:00",
-      "modified": "2026-06-01T08:56:51.667942+00:00",
-      "id": 20486480,
-      "conceptrecid": "20486479",
-      "doi": "10.5281/zenodo.20486480",
-      "conceptdoi": "10.5281/zenodo.20486479",
-      "doi_url": "https://doi.org/10.5281/zenodo.20486480",
+      "created": "2026-07-31T16:38:33.418074+00:00",
+      "modified": "2026-07-31T16:38:33.749126+00:00",
+      "id": 21703862,
+      "conceptrecid": "21703861",
+      "doi": "10.5281/zenodo.21703862",
+      "conceptdoi": "10.5281/zenodo.21703861",
+      "doi_url": "https://doi.org/10.5281/zenodo.21703862",
       "metadata": {
-        "title": "Dynamic Valgus as A Risk Factor for Injuries in Soccer Players: A Systematic Review",
-        "doi": "10.5281/zenodo.20486480",
-        "publication_date": "2026-06-01",
-        "description": "<p>Soccer is the most widely practiced team sport in the world and presents a high incidence of musculoskeletal injuries, especially in the knees, ankles, and hips, resulting from intense and repetitive movements. Among the biomechanical risk factors associated with these injuries, dynamic knee valgus stands out for compromising joint stability and increasing the overload on critical structures, such as the anterior cruciate ligament (ACL). The objective of this study was to analyze, through a systematic literature review, the relationship between dynamic valgus and the occurrence of injuries in soccer players, as well as to identify assessment methods and preventive strategies. The methodology followed the PRISMA 2020 guidelines, with searches in the PubMed/MEDLINE, SciELO, and Google Scholar databases, using descriptors in Portuguese and English. Original articles published from 2020 onwards that investigated dynamic valgus in soccer athletes were included. Of the 197 studies initially identified, eight met the eligibility criteria and were critically analyzed. The results indicated that dynamic valgus is associated with a higher risk of injury, especially to the ACL, and is influenced by factors such as fatigue, sex, maturational stage, and muscle strength imbalances. Interventions with neuromuscular training programs, such as FIFA 11+ and Stop X, have demonstrated effectiveness in reducing dynamic valgus and improving strength, balance, and motor performance. It is concluded that dynamic valgus constitutes a relevant risk marker for injuries in soccer. The systematic application of preventive programs and the standardization of biomechanical assessment protocols are promising strategies to reduce the incidence of injuries and promote greater safety in sports practice.</p>",
+        "title": "Tendencias hist\u00f3ricas de la superaci\u00f3n profesional del especialista en Medicina Familiar",
+        "doi": "10.5281/zenodo.21703862",
+        "publication_date": "2026-07-30",
+        "description": "<p><span>La superaci&oacute;n profesional constituye un resultado pr&aacute;ctico demandado en la investigaci&oacute;n educativa. Esta investigaci&oacute;n tuvo como objetivo analizar, mediante una revisi&oacute;n documental, las tendencias hist&oacute;ricas del desarrollo del </span><span>proceso de superaci&oacute;n profesional del especialista en Medicina Familiar para la atenci&oacute;n al adulto con dispepsia.</span><span> Se realiz&oacute; una investigaci&oacute;n exploratoria entre septiembre de </span><span>2022 y </span><span>junio de </span><span>2024</span><span>.</span><span> </span><span>Se utilizaron los m&eacute;todos te&oacute;ricos: hist&oacute;rico-l&oacute;gico, anal&iacute;tico-sint&eacute;tico e inductivo-deductivo. Se utilizaron bases de datos como Redalyc, Redined, Scopus y Scielo. El punto de inflexi&oacute;n tendencial fue 1988 a partir de la primera versi&oacute;n del programa de especializaci&oacute;n. Las etapas reveladas transitaron desde los inicios de la superaci&oacute;n profesional (1987-2002), su </span><span>extensi&oacute;n </span><span>para el diagn&oacute;stico gastrosc&oacute;pico en el primer nivel de atenci&oacute;n </span><span>(2002-2019) hasta un retorno a la superaci&oacute;n profesional para la atenci&oacute;n a las enfermedades digestivas (2019-2025). Se concluy&oacute; en un disabalance entre ellas </span><span>a pesar de sus nexos interdisciplinares e interculturales.</span></p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Matheus Vieira Sant'Ana,",
-            "affiliation": "Midwestern State University \u2013 Unicentro, Guarapuava, Parana, Brazil"
+            "name": "P\u00e9rez Mart\u00ednez, Jos\u00e9 Salvador",
+            "affiliation": "Hospital Provincial General Docente Roberto Rodr\u00edguez Fern\u00e1ndez, Cuba",
+            "orcid": "0009-0008-0089-4274"
           },
           {
-            "name": "Bruno Sergio Portela,",
-            "affiliation": "Midwestern State University \u2013 Unicentro, Guarapuava, Parana, Brazil"
+            "name": "Garc\u00eda P\u00e9rez, Reinaldo Pablo",
+            "affiliation": "Facultad de Ciencias M\u00e9dicas Dr. Jos\u00e9 Assef Yara. Ciego de \u00c1vila, Cuba",
+            "orcid": "0000-0002-7451-8713"
+          },
+          {
+            "name": "Jim\u00e9nez Centeno, Nilcia",
+            "affiliation": "Facultad de Ciencias M\u00e9dicas. Mor\u00f3n, Cuba",
+            "orcid": "0009-0006-2492-1367"
           }
         ],
         "keywords": [
-          "Soccer; injuries; prevention; dynamic valgus."
+          "tendencias hist\u00f3ricas",
+          "superaci\u00f3n profesional",
+          "dispepsia",
+          "especialista en medicina familiar",
+          "historical trends",
+          "professional improvement",
+          "dyspepsia",
+          "specialist in family medicine"
         ],
-        "language": "ang",
+        "version": "1.0",
+        "language": "spa",
         "resource_type": {
           "title": "Journal article",
           "type": "publication",
           "subtype": "article"
         },
         "journal": {
-          "issue": "05",
-          "pages": "4644-4653",
-          "title": "International Journal of Social Science and Human Research",
-          "volume": "09"
+          "issue": "2",
+          "pages": "e9201",
+          "title": "Educaci\u00f3n y sociedad",
+          "volume": "24"
         },
+        "alternate_identifiers": [
+          {
+            "identifier": "https://revistas.unica.cu/index.php/edusoc/article/view/9201"
+          }
+        ],
         "license": {
-          "id": "cc-by-4.0"
+          "id": "cc-by-nc-sa-4.0"
         },
+        "communities": [
+          {
+            "id": "educacion-y-sociedad-unica"
+          }
+        ],
         "relations": {
           "version": [
             {
@@ -1244,422 +1422,317 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20486479"
+                "pid_value": "21703861"
               }
             }
           ]
         }
       },
-      "title": "Dynamic Valgus as A Risk Factor for Injuries in Soccer Players: A Systematic Review",
+      "title": "Tendencias hist\u00f3ricas de la superaci\u00f3n profesional del especialista en Medicina Familiar",
       "links": {
-        "self": "https://zenodo.org/api/records/20486480",
-        "self_html": "https://zenodo.org/records/20486480",
-        "preview_html": "https://zenodo.org/records/20486480?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20486480",
-        "self_doi": "https://doi.org/10.5281/zenodo.20486480",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20486480",
-        "reserve_doi": "https://zenodo.org/api/records/20486480/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20486479",
-        "parent_html": "https://zenodo.org/records/20486479",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20486479",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20486479",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20486480/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20486480/sequence/default",
-        "files": "https://zenodo.org/api/records/20486480/files",
-        "media_files": "https://zenodo.org/api/records/20486480/media-files",
+        "self": "https://zenodo.org/api/records/21703862",
+        "self_html": "https://zenodo.org/records/21703862",
+        "preview_html": "https://zenodo.org/records/21703862?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21703862",
+        "self_doi": "https://doi.org/10.5281/zenodo.21703862",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21703862",
+        "reserve_doi": "https://zenodo.org/api/records/21703862/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21703861",
+        "parent_html": "https://zenodo.org/records/21703861",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21703861",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21703861",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21703862/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21703862/sequence/default",
+        "files": "https://zenodo.org/api/records/21703862/files",
+        "media_files": "https://zenodo.org/api/records/21703862/media-files",
         "thumbnails": {
-          "10": "https://zenodo.org/api/iiif/record:20486480:135.pdf/full/%5E10,/0/default.jpg",
-          "50": "https://zenodo.org/api/iiif/record:20486480:135.pdf/full/%5E50,/0/default.jpg",
-          "100": "https://zenodo.org/api/iiif/record:20486480:135.pdf/full/%5E100,/0/default.jpg",
-          "250": "https://zenodo.org/api/iiif/record:20486480:135.pdf/full/%5E250,/0/default.jpg",
-          "750": "https://zenodo.org/api/iiif/record:20486480:135.pdf/full/%5E750,/0/default.jpg",
-          "1200": "https://zenodo.org/api/iiif/record:20486480:135.pdf/full/%5E1200,/0/default.jpg"
+          "10": "https://zenodo.org/api/iiif/record:21703862:10-A_9201-P%C3%A9rezl.pdf/full/%5E10,/0/default.jpg",
+          "50": "https://zenodo.org/api/iiif/record:21703862:10-A_9201-P%C3%A9rezl.pdf/full/%5E50,/0/default.jpg",
+          "100": "https://zenodo.org/api/iiif/record:21703862:10-A_9201-P%C3%A9rezl.pdf/full/%5E100,/0/default.jpg",
+          "250": "https://zenodo.org/api/iiif/record:21703862:10-A_9201-P%C3%A9rezl.pdf/full/%5E250,/0/default.jpg",
+          "750": "https://zenodo.org/api/iiif/record:21703862:10-A_9201-P%C3%A9rezl.pdf/full/%5E750,/0/default.jpg",
+          "1200": "https://zenodo.org/api/iiif/record:21703862:10-A_9201-P%C3%A9rezl.pdf/full/%5E1200,/0/default.jpg"
         },
-        "archive": "https://zenodo.org/api/records/20486480/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20486480/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20486480/versions/latest",
-        "latest_html": "https://zenodo.org/records/20486480/latest",
-        "versions": "https://zenodo.org/api/records/20486480/versions",
-        "draft": "https://zenodo.org/api/records/20486480/draft",
-        "access_links": "https://zenodo.org/api/records/20486480/access/links",
-        "access_grants": "https://zenodo.org/api/records/20486480/access/grants",
-        "access_users": "https://zenodo.org/api/records/20486480/access/users",
-        "access_request": "https://zenodo.org/api/records/20486480/access/request",
-        "access": "https://zenodo.org/api/records/20486480/access",
-        "communities": "https://zenodo.org/api/records/20486480/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20486480/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20486480/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20486480/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20486480/quota-increase",
-        "requests": "https://zenodo.org/api/records/20486480/requests"
+        "archive": "https://zenodo.org/api/records/21703862/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21703862/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21703862/versions/latest",
+        "latest_html": "https://zenodo.org/records/21703862/latest",
+        "versions": "https://zenodo.org/api/records/21703862/versions",
+        "draft": "https://zenodo.org/api/records/21703862/draft",
+        "access_links": "https://zenodo.org/api/records/21703862/access/links",
+        "access_grants": "https://zenodo.org/api/records/21703862/access/grants",
+        "access_users": "https://zenodo.org/api/records/21703862/access/users",
+        "access_request": "https://zenodo.org/api/records/21703862/access/request",
+        "access": "https://zenodo.org/api/records/21703862/access",
+        "communities": "https://zenodo.org/api/records/21703862/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21703862/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21703862/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21703862/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21703862/quota-increase",
+        "requests": "https://zenodo.org/api/records/21703862/requests"
       },
-      "updated": "2026-06-01T08:56:51.667942+00:00",
-      "recid": "20486480",
+      "updated": "2026-07-31T16:38:33.749126+00:00",
+      "recid": "21703862",
       "revision": 4,
       "files": [
         {
-          "id": "e03b337a-baa2-46d1-a8f7-40bd199e9b5a",
-          "key": "135.pdf",
-          "size": 321914,
-          "checksum": "md5:e10abadef7b01e977dea3b0dcfe1a84b",
+          "id": "a71a9de6-b594-4f77-a4a0-dd2bb30745a0",
+          "key": "10-A_9201-P\u00e9rezl.pdf",
+          "size": 123910,
+          "checksum": "md5:0ae25de3de9f27eda7df20fede25e322",
           "links": {
-            "self": "https://zenodo.org/api/records/20486480/files/135.pdf/content"
+            "self": "https://zenodo.org/api/records/21703862/files/10-A_9201-P%C3%A9rezl.pdf/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "294983"
+          "id": "527924"
         }
       ],
       "status": "published",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 5,
+        "unique_views": 5,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 5,
+        "version_views": 5
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2026-06-01T08:54:33.143155+00:00",
-      "modified": "2026-06-01T08:54:33.816751+00:00",
-      "id": 20486144,
-      "conceptrecid": "20485892",
-      "doi": "10.5281/zenodo.20486144",
-      "conceptdoi": "10.5281/zenodo.20485892",
-      "doi_url": "https://doi.org/10.5281/zenodo.20486144",
+      "created": "2026-07-31T16:34:42.457308+00:00",
+      "modified": "2026-07-31T17:00:36.475901+00:00",
+      "id": 21724620,
+      "conceptrecid": "21724619",
+      "doi": "10.5281/zenodo.21724620",
+      "conceptdoi": "10.5281/zenodo.21724619",
+      "doi_url": "https://doi.org/10.5281/zenodo.21724620",
       "metadata": {
-        "title": "Linking species distribution models to observed dieback in the Vosges mountains",
-        "doi": "10.5281/zenodo.20486144",
-        "publication_date": "2026-06-01",
-        "description": "<p>This dataset contain the databases and scripts allowing <span>to test whether SDM-predicted changes in climatic suitability match remotely sensed dieback in two widespread European conifers, <em>Abies alba</em> and <em>Picea abies</em>. SDMs were calibrated using 93,145 plots and fitted with Generalized Additive Models (GAMs) and Boosted Regression Trees (BRTs) under historical conditions, and then projected onto contemporary climate conditions, coinciding with the onset of widespread forest decline.</span></p>",
+        "title": "Hygrocybe pseudohypohaemacta Angelini, Dovana, Lodge, M. Marchetti & Vizzini 2026, sp. nov.",
+        "doi": "10.5281/zenodo.21724620",
+        "publication_date": "2026-07-31",
+        "description": "<p><i>Hygrocybe pseudohypohaemacta</i> Angelini, Dovana, Lodge, M. Marchetti &amp; Vizzini sp. nov.</p><p>Figs 11, 12, 13</p><p><b>Etymology.</b></p><p>The specific epithet is derived from the Greek prefix pseudo- (false), referring to its close morphological similarity to <i>H. hypohaemacta</i>, with which it may be easily confused.</p><p><b>Diagnosis.</b></p><p>Differing from <i>H. hypohaemacta</i> in larger microspores, differently shaped macrospores, absence of hymenial cystidia, geographic range, and divergence in ribosomal sequences.</p><p><b>Types.</b></p><p>Dominican Republic, Puerto Plata, Sos&uacute;a, loc. Cemetery 19.746151, &ndash;70.540367, 23 December 2016, C. Angelini, JBSD 141878 Holotype (ANGE 819 Isotype). GenBank: ITS = PZ 148603, LSU = PZ 145854.</p><p><b>Description.</b></p><p><i>Pileus</i> 15&ndash;28 mm diam., at first and for a long time conical or hemispherical, later expanded to applanate, without an umbo and the margin not or very slightly lobed; surface smooth, glutinous and shiny, with translucent-striate margin up to more than half the radius, uniformly colored bright scarlet red or orange, but always with a narrow yellow margin, some yellow with a reddish-orange center and yellow margin. <i>Lamellae</i> narrowly adnate, just free or sometimes slightly emarginate, ventricose, up to 2 mm broad, intercalated with 2 lengths of lamellulae, white, rarely pale pinkish-orange-red, thick, and distant, with irregular and concolorous edge. <i>Stipe</i> 30&ndash;60 &times; 1&ndash;4 mm, cylindrical, straight or curved, often tapered towards the apex, usually partly golden-yellow, sometimes reddish-yellow or reddish orange; surface covered by a very thick transparent glutinous layer (as in <i>Roridomyces</i> Rexer, <i>Mycenaceae</i> Overeem). <i>Context</i> thin, reddish white in the pileus, yellowish white in the stipe. <i>Odor</i> and <i>taste</i> indistinct.</p><p><i>Basidiospores</i> dimorphic; <i>macrospores</i> (7.5 &ndash;) 8.2&ndash; <i>9.1</i> &ndash; 9.9 (&ndash; 11.0) &times; (6.0 &ndash;) 7.0&ndash; <i>7.8</i> &ndash; 8.7 (&ndash; 9.5) &micro;m [246 10 / 6] <i>Q</i> = 1.07&ndash; <i>1.16</i> &ndash; 1.26, <i>V</i> = 214&ndash; <i>300</i> &ndash; 385 &micro;m 3, subglobose to broadly ellipsoid, inamyloid, thin- to thick-walled (wall up to 0.5 &micro;m thick), hyaline, mostly with guttulate content and with a large central guttula; <i>microspores</i> (4.2 &ndash;) 4.8&ndash; <i>5.3</i> &ndash; 5.9 (&ndash; 6.4) &times; (3.2 &ndash;) 3.8&ndash; <i>4.4</i> &ndash; 5.0 (&ndash; 5.6) &micro;m [141 / 10 / 5], <i>Q</i> = 1.09&ndash; <i>1.22</i> &ndash; 1.35, <i>V</i> = 35&ndash; <i>56</i> &ndash; 78 &micro;m 3, subglobose to broadly ellipsoid, inamyloid, thin- to thick-walled (wall up to XX thick &micro;m), hyaline, with only a large central guttula or multiguttulate. <i>Basidia</i> dimorphic; <i>macrobasidia</i> (23.8 &ndash;) 27.7&ndash; <i>31.3</i> &ndash; 35.6 (&ndash; 39.5) &times; (8.4 &ndash;) 9.5&ndash; <i>10.5</i> &ndash; 11.6 (&ndash; 12.6) [33 / 3 / 2], <i>Q</i> = 2.6&ndash; <i>3.0</i> &ndash; 3.4, <i>V</i> = 1398&ndash; <i>1860</i> &ndash; 2322 &mu;m 3, clavate, usually squat, with or without peduncle, thin-walled or slightly thick-walled at apex, hyaline, with guttulate content, tetrasporic and bisporic; sterigmata up to 8 &mu;m long; <i>microbasidia</i> (15.7 &ndash;) 18.8&ndash; <i>21.9</i> &ndash; 25.0 (&ndash; 28.5) &times; (4.4 &ndash;) 5.2&ndash; <i>6.0</i> &ndash; 6.8 (&ndash; 7.6) &mu;m [141 / 10 / 5], <i>Q</i> = 3.1&ndash; <i>3.7</i> &ndash; 4.2, <i>V</i> = 286&ndash; <i>429</i> &ndash; 573 &micro;m 3, narrowly clavate to clavate, mostly with a more or less long peduncle, thin-walled or slightly thick-walled at apex, hyaline, with guttulate content, tetrasporic to bisporic, sterigmata up to 7 &mu;m long. The ratio between macrobasidia and microbasidia varies across different collections. <i>Pleurocystidia</i> and <i>cheilocystidia</i> absent. <b>Lamellar edge</b> fertile with pseudocystidia arising deep in the hymenophoral trama. <i>Pseudocystidia</i> 15&ndash;40 (&ndash; 50) &times; 4&ndash;6.5 &mu;m, abundant, clavate to subcylindrical, usually sinuous, mostly septate, sometimes bifurcated, with rounded to acute apex, sometimes subcapitate, sometimes with crystalline deposits in the apical portion, thin-walled, hyaline, with smooth or minutely guttulous content. <i>Hymenophoral trama</i> regular to subregular, consisting of parallel hyphae usually&gt; 200 &micro;m long and 5&ndash;20 &mu;m wide, thin-walled, hyaline; occasional thromboplerous hyphae with refractive greenish content are present. <i>Pileipellis</i> as an irregular ixotrichoderm, hyphae erect to semi-erect, parallel to intertwined, 2&ndash;5 &mu;m wide, frequently exceeding 200 &micro;m in length and multi-articulate (pluriseptate), hyaline, to pale yellowish, terminal elements sometimes enlarged at apex or clavate. <i>Subcutis</i> subregular, hyphae frequently exceeding 200 &micro;m in length, 3&ndash;15 (&ndash; 30) &mu;m wide, thin-walled, with a pale yellowish cytoplasmic pigment and crystalline deposits. <i>Stipitipellis</i> a mixed ixocutis-ixotrichodermium with abundant gelatinous matrix, consisting of parallel or slightly intertwined hyphae, some over 200 &micro;m long, scarcely septate, 2&ndash;7 &mu;m wide, thin- to slightly thick-walled (wall up to 1.0 (&ndash; 1.5) &mu;m thick), hyaline or with a pale yellowish cytoplasmic pigment; especially in the apical portion of the stipe, dense tufts of erect, semi-erect interwoven hyphae in gelled material, with a morphology similar to pileal elements. <i>Stipititrama</i> regular to subregular, gelatinized some over 200 &micro;m long, 5&ndash;15 (&ndash; 20) &mu;m wide, scarcely septate, thin-walled, showing a pale yellowish cytoplasmic pigment and crystalline deposits on the outside. <i>Clamp-connections</i> present throughout.</p><p><b>Habit, habitat, occurrence, and distribution.</b></p><p>Growing gregariously, in groups of a few to many specimens, on litter in broad-leaved forests, sometimes near burned ground (charcoal-pit residue), a few kilometers from the sea. Apparently uncommon and localized. Thus far known from the Dominican Republic, Belize, and French Guiana based on molecular data.</p><p><b>Additional specimens examined.</b></p><p>BELIZE, Orange Walk District, La Milpa Field Station, Lagunita Trail, lat. 17.84, long. &ndash; 89.02, 26 October 2002, D. J. Lodge &amp; B. Ortiz-Santana, DJL -BZ-105, CFMR BZ-1903, GenBank U 435150; BRH; CFMR. DOMINICAN REPUBLIC, Puerto Plata, Sos&uacute;a, loc. Cemetery 19.746151, &ndash;70.540367, 25 December 2016, C. Angelini, JBSD 141874 (ANGE 823 duplicate) <i>ibidem</i>, 25 December 2016, C. Angelini (ANGE 822); <i>ibidem</i>, 25 December 2016, C. Angelini (ANGE 824); <i>ibidem</i>, 25 December 2016, C. Angelini (ANGE 825).</p><p><b>Notes.</b></p><p><i>Hygrocybe pseudohypohaemacta</i> is characterized by its small-sized, entirely slimy basidiomata; a vivid scarlet-red or orange pileus with a yellow, striate margin; and a stipe covered with a thick, transparent, glutinous layer. Pseudocystidia 15&ndash;40 (&ndash; 50) &times; 4&ndash;6.5 &mu;m, abundant, clavate to subcylindrical, usually sinuous, mostly septate, sometimes bifurcated, with a rounded to acute apex, sometimes subcapitate, sometimes with crystalline deposits in the apical portion, thin-walled, hyaline, with smooth or minutely guttulate contents. Six sequences of <i>H. pseudohypohaemacta</i> generated in this study, together with two sequences from Belize and French Guiana, formed a well-supported clade (SH-aLRT = 100, UFB = 100, BPP = 1) closely related to <i>H. variecolor</i>. <i>Hygrocybe pseudohypohaemacta</i>, <i>H. variecolor</i>, and other accessions identified as <i>H. aff. / cf. hypohaemacta</i> and <i>Hygrocybe</i> sp. clustered within a well-supported section <i>Velosae</i> clade (SH-aLRT = 100, UFB = 100, BPP = 1), together with <i>H. hypohaemacta</i>, <i>H. snigdha</i> K. P. D. Latha &amp; P. Haridev and <i>H. pellucida</i> K. P. D. Latha &amp; Haridev.</p><p><i>H. pseudohypohaemacta</i> is morphologically close to <i>H. hypohaemacta</i>, but it is well separated in the phylogeny. The nrLSU sequence of <i>H. hypohaemacta</i> from Malaysia (KUM 61079, GenBank KF 381551) showed 93 % identity (492 / 529) with 8 gaps out of 529 (1 %) compared with <i>H. pseudohypohaemacta</i> (ANGE 819) and a patristic distance of 0.34 in the phylogenetic analysis. Based on the original description, the similar <i>H. hypohaemacta</i> differs in having smaller microspores [4&ndash;5 &times; 3&ndash;3.5 vs. mostly (4.8 &ndash;) 5.3&ndash;5.9 &times; 3.8&ndash;5.0 &micro;m], differently shaped macrospores (ovoid to broadly ellipsoid vs. globose, subglobose to broadly ellipsoid), cheilocystidia and caulocystidia at the extreme apex of the stipe, a distribution in Malaysia (Singapore, Corner 1936), and a different nrLSU sequence. <i>Hygrocybe hypohaemacta</i> was also reported from Venezuela and Martinique (Pegler 1983), Puerto Rico (Lodge and Pegler 1990), and Panama (Lodge and Ovrebo 2008) based on morphological data.</p><p>The nrITS and nrLSU sequences from the Belize collection named <i>H. hypohaemacta</i> DJL - BZ-105 (Lodge and Ovrebo 2008) were excluded from the phylogenetic analysis. These sequences showed high BLAST similarity to <i>Termitomyces</i> species, indicating that they represent contaminants.</p><p>The nrITS sequence of <i>Hygrocybe</i> sp. (ANGE 436, Fig. 11 A) showed 94.41 % identity (474 / 501), with 19 gaps out of 501 (3.7 %), compared with <i>H. pseudohypohaemacta</i> (JBSD 141878, holotype, ANGE 819), and a patristic distance of 0.0093 in the phylogenetic analysis of nrITS and nrLSU. Although the two taxa are morphologically overlapping (data not included), the observed genetic distance and percentage of gaps warrant caution. Therefore, further collections and additional sequences are needed to clarify its taxonomic status and determine whether this taxon represents a distinct species or falls within the variability of <i>H. pseudohypohaemacta</i>.</p><p>Comparison of the sequences of <i>H. variecolor</i> (JBSD 141875) with those of <i>H. pseudohypohaemacta</i> (CFMR BZ-1903, GenBank EU 435150) revealed 91 % identity (117 / 129) for the nrITS 1 region, with 3 / 129 gaps (2 %); 84 % identity (132 / 157) for the ITS 2 region, with 15 / 157 gaps (9 %); and 96 % identity (804 / 840) for the nrLSU region, with 13 / 840 gaps (1 %). The data reveal a clear pattern of sequence divergence, with the highest identity in the more conserved nrLSU region (96 %), followed by nrITS 1 (91 %), and the lowest identity in the ITS 2 region (84 %). Conversely, the percentages of gaps show an inverse trend, with ITS 2 exhibiting the highest proportion of gaps (9 %), followed by nrITS 1 (2 %), and nrLSU exhibiting the lowest proportion (1 %). This pattern aligns with the generally accepted understanding of the evolutionary rates of these regions, in which the ITS region, particularly the ITS 2 subregion in this case, tends to evolve more rapidly than the nrLSU gene. Considering the typical thresholds used in fungal taxonomy, the ITS data, with 91 % identity in nrITS 1 and 84 % identity in ITS 2, strongly suggest that <i>H. variecolor</i> and <i>H. pseudohypohaemacta</i> should be considered distinct species. These identity values fall below the commonly cited 97 % threshold for the entire ITS region (Nilsson et al. 2008) and significantly below the higher thresholds suggested for certain genera. The substantial number of gaps, especially in ITS 2, further supports this conclusion. Although the nrLSU region shows a higher identity of 96 %, which is expected given its more conserved nature, it remains below the stringent 99.8 % threshold proposed for species delimitation in some studies of filamentous fungi (Vu et al. 2019).</p>",
         "access_right": "open",
         "creators": [
           {
-            "name": "Piedallu, christian",
-            "affiliation": "agroparistech"
+            "name": "Dovana, Francesco",
+            "affiliation": "Dipartimento di Bioscienze, Biotecnologie e Ambiente (DBBA), Universit\u00e0 degli Studi di Bari \" Aldo Moro \", Via Orabona 4, I- 70125 Bari, Italy",
+            "orcid": "0000-0002-8556-7692"
           },
           {
-            "name": "Benoit, Heloise",
-            "affiliation": "AgroParisTech"
+            "name": "Angelini, Claudio",
+            "affiliation": "Departamento de Bot\u00e1nica - Jard\u00edn Bot\u00e1nico Nacional Jard\u00edn Bot\u00e1nico Nacional Dr. Rafael Ma. Moscoso, Distrito Nacional, Av. Colombia s. n., Santo Domingo, Dominican Republic & Via Cappuccini 78 / 8, I- 33170 Pordenone, Italy",
+            "orcid": "0000-0002-5485-6889"
           },
           {
-            "name": "serra-diaz, Josep Maria",
-            "affiliation": "agroparistech"
+            "name": "Lodge, D. Jean",
+            "affiliation": "Department of Plant Pathology and Odum School of Ecology, University of Georgia, Athens, GA 30602, United States",
+            "orcid": "0000-0003-4807-348X"
           },
           {
-            "name": "Gegout, Jean-Claude",
-            "affiliation": "AgeoParisTech"
+            "name": "Marchetti, Mauro",
+            "affiliation": "Via Molise 8, I- 56123 Pisa, Italy",
+            "orcid": "0000-0002-8350-6992"
+          },
+          {
+            "name": "Vizzini, Alfredo",
+            "affiliation": "Department of Life Sciences and Systems Biology, University of Torino, Viale P. A. Mattioli 25, I- 10125 Turin, Italy",
+            "orcid": "0000-0001-8390-6446"
           }
+        ],
+        "keywords": [
+          "Biodiversity",
+          "Taxonomy",
+          "Fungi",
+          "Basidiomycota",
+          "Agaricomycetes",
+          "Agaricales",
+          "Hygrophoraceae",
+          "Hygrocybe",
+          "Hygrocybe pseudohypohaemacta"
+        ],
+        "related_identifiers": [
+          {
+            "identifier": "10.3897/imafungus.17.195850",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "http://publication.plazi.org/id/1C9FF13EC5965B9C88F7F670A567FBCF",
+            "relation": "isPartOf",
+            "resource_type": "publication-article",
+            "scheme": "url"
+          },
+          {
+            "identifier": "https://biodiversitypmc.sibils.org/collections/plazi/222FD2BE5AF1539EB010AEDACF013958",
+            "relation": "isSourceOf",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.1016/S0007-1536(36)80008-4",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/S0953-7562(10)80002-4",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.4137/ebo.s653",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.1016/j.simyco.2018.05.001",
+            "relation": "cites",
+            "resource_type": "publication",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "10.3897/imafungus.17.195850.figure11",
+            "relation": "cites",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://binary.pensoft.net/fig/1731798",
+            "relation": "cites",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.3897/imafungus.17.195850.figure12",
+            "relation": "cites",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://binary.pensoft.net/fig/1731799",
+            "relation": "cites",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          },
+          {
+            "identifier": "10.3897/imafungus.17.195850.figure13",
+            "relation": "cites",
+            "resource_type": "image-figure",
+            "scheme": "doi"
+          },
+          {
+            "identifier": "https://binary.pensoft.net/fig/1731800",
+            "relation": "cites",
+            "resource_type": "image-figure",
+            "scheme": "url"
+          }
+        ],
+        "locations": [
+          {
+            "place": "Sosua, loc. Cemetery",
+            "description": "Dominican Republic, Puerto Plata, Sosua, loc. Cemetery 19.746151, -70.540367, 23 December 2016, C. Angelini, JBSD 141878 Holotype (ANGE 819 Isotype). GenBank: ITS = PZ 148603, LSU = PZ 145854",
+            "lon": -70.54037,
+            "lat": 19.746151
+          }
+        ],
+        "references": [
+          "Corner EJH (1936) Hygrophorus with dimorphous basidiospores. Transactions of the British Mycological Society 20 (2): 157\u2013184. https://doi.org/10.1016/S0007-1536 (36) 80008-4",
+          "Pegler DN (1983) Agaric flora of the Lesser Antilles. Kew Bulletin Additional Series 9: 1\u2013668.",
+          "Lodge DJ, Pegler DN (1990) Hygrophoraceae of the Luquillo Mountains of Puerto Rico. Mycological Research 94 (4): 443\u2013456. https://doi.org/10.1016/S0953-7562 (10) 80002-4",
+          "Lodge DJ, Ovrebo CL (2008) First records of Hygrophoraceae from Panama including a new species of Camarophyllus and a new veiled species in Hygrocybe section Firmae. Fungal Diversity 32: 69\u201380.",
+          "Nilsson RH, Kristiansson E, Ryberg M et al. (2008) Intraspecific ITS variability in the kingdom fungi as expressed in the international sequence databases and its implications for molecular species identification. Evolutionary Bioinformatics Online 26 (4): 193\u2013201. https://doi.org/10.4137/ebo.s653",
+          "Vu D, Groenewald M, De Vries M et al. (2019) Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation. Studies in Mycology 92: 135\u2013154. https://doi.org/10.1016/j.simyco.2018.05.001"
         ],
         "custom": {
-          "code:programmingLanguage": [
-            {
-              "id": "r",
-              "title": {
-                "en": "R"
-              }
-            }
+          "dwc:collectionCode": [
+            "ANGE",
+            "BRH, CFMR",
+            "JBSD, ANGE"
+          ],
+          "dwc:eventDate": [
+            "2002-10-26",
+            "2016-12-23",
+            "2016-12-25"
+          ],
+          "dwc:family": [
+            "Hygrophoraceae"
+          ],
+          "dwc:genus": [
+            "Hygrocybe"
+          ],
+          "dwc:kingdom": [
+            "Fungi"
+          ],
+          "dwc:materialSampleID": [
+            "ANGE 822",
+            "ANGE 824",
+            "ANGE 825",
+            "CFMR BZ-1903",
+            "JBSD 141874, ANGE 823",
+            "JBSD 141878, ANGE 819"
+          ],
+          "dwc:order": [
+            "Agaricales"
+          ],
+          "dwc:phylum": [
+            "Basidiomycota"
+          ],
+          "dwc:scientificNameAuthorship": [
+            "Angelini, Dovana, Lodge, M. Marchetti & Vizzini"
+          ],
+          "dwc:specificEpithet": [
+            "pseudohypohaemacta"
+          ],
+          "dwc:taxonRank": [
+            "species"
+          ],
+          "dwc:taxonomicStatus": [
+            "sp. nov."
+          ],
+          "dwc:typeStatus": [
+            "holotype"
+          ],
+          "dwc:verbatimEventDate": [
+            "2002-10-26",
+            "2016-12-23",
+            "2016-12-25"
+          ],
+          "openbiodiv:TaxonomicConceptLabel": [
+            "Hygrocybe pseudohypohaemacta Dovana, Angelini, Lodge, Marchetti & Vizzini, 2026"
           ]
         },
         "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
+          "title": "Taxonomic treatment",
+          "type": "publication",
+          "subtype": "taxonomictreatment"
         },
+        "journal": {
+          "pages": "e195850",
+          "title": "The genus Hygrocybe subgenus Hygrocybe in the Dominican Republic: phylogeny, diversity, and description of seven novel species and one variety (Agaricomycetes, Hygrocybaceae), pp. e 195850 in IMA Fungus",
+          "volume": "17"
+        },
+        "alternate_identifiers": [
+          {
+            "identifier": "http://treatment.plazi.org/id/222FD2BE5AF1539EB010AEDACF013958"
+          }
+        ],
         "license": {
-          "id": "cc-by-4.0"
+          "id": "cc-zero"
         },
-        "grants": [
+        "communities": [
           {
-            "code": "ANR-11-LABX-0002",
-            "internal_id": "10.13039/501100001665::ANR-11-LABX-0002",
-            "funder": {
-              "name": "Agence Nationale de la Recherche",
-              "doi": "10.13039/501100001665",
-              "acronym": "ANR"
-            },
-            "title": "Recherches Avanc\u00e9es sur l'Arbre et les Ecosyt\u00e8mes Forestiers",
-            "acronym": "ARBRE"
+            "id": "biosyslit"
           }
         ],
-        "relations": {
-          "version": [
-            {
-              "index": 1,
-              "is_last": true,
-              "parent": {
-                "pid_type": "recid",
-                "pid_value": "20485892"
-              }
-            }
-          ]
-        }
-      },
-      "title": "Linking species distribution models to observed dieback in the Vosges mountains",
-      "links": {
-        "self": "https://zenodo.org/api/records/20486144",
-        "self_html": "https://zenodo.org/records/20486144",
-        "preview_html": "https://zenodo.org/records/20486144?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20486144",
-        "self_doi": "https://doi.org/10.5281/zenodo.20486144",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20486144",
-        "reserve_doi": "https://zenodo.org/api/records/20486144/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20485892",
-        "parent_html": "https://zenodo.org/records/20485892",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20485892",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20485892",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20486144/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20486144/sequence/default",
-        "files": "https://zenodo.org/api/records/20486144/files",
-        "media_files": "https://zenodo.org/api/records/20486144/media-files",
-        "archive": "https://zenodo.org/api/records/20486144/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20486144/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20486144/versions/latest",
-        "latest_html": "https://zenodo.org/records/20486144/latest",
-        "versions": "https://zenodo.org/api/records/20486144/versions",
-        "draft": "https://zenodo.org/api/records/20486144/draft",
-        "access_links": "https://zenodo.org/api/records/20486144/access/links",
-        "access_grants": "https://zenodo.org/api/records/20486144/access/grants",
-        "access_users": "https://zenodo.org/api/records/20486144/access/users",
-        "access_request": "https://zenodo.org/api/records/20486144/access/request",
-        "access": "https://zenodo.org/api/records/20486144/access",
-        "communities": "https://zenodo.org/api/records/20486144/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20486144/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20486144/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20486144/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20486144/quota-increase",
-        "requests": "https://zenodo.org/api/records/20486144/requests"
-      },
-      "updated": "2026-06-01T08:54:33.816751+00:00",
-      "recid": "20486144",
-      "revision": 4,
-      "files": [
-        {
-          "id": "1bdcd710-7a81-4fb9-a62d-4dbb75bff6bb",
-          "key": "brt_aa.R",
-          "size": 8302,
-          "checksum": "md5:127eb3fe06e5751036fa4e8cd9bcce12",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/brt_aa.R/content"
-          }
-        },
-        {
-          "id": "891cd467-4b1e-485b-93e8-f79470152861",
-          "key": "boxplotsresidus.R",
-          "size": 6121,
-          "checksum": "md5:342fe8e840eb4863415acd71081c3cf2",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/boxplotsresidus.R/content"
-          }
-        },
-        {
-          "id": "4da37260-df31-4700-8184-28c10e201331",
-          "key": "GAM_projections_contemporary.R",
-          "size": 25557,
-          "checksum": "md5:6b5c697aa8d200e4512ec73fcd5e7984",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/GAM_projections_contemporary.R/content"
-          }
-        },
-        {
-          "id": "1e8244cc-e7bf-4cb4-94ff-57aa2ef01b3b",
-          "key": "db_dieback_aa.txt",
-          "size": 666710,
-          "checksum": "md5:2a7abfb5c4d3d0e48786f523ca622662",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/db_dieback_aa.txt/content"
-          }
-        },
-        {
-          "id": "36b5bf61-d499-4361-aeb6-e460c7145f46",
-          "key": "a_readme.txt",
-          "size": 1569,
-          "checksum": "md5:e3f4e74ee67ce52298418500778473e2",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/a_readme.txt/content"
-          }
-        },
-        {
-          "id": "3365662f-6ab2-4bca-a7cc-7e0cedce576d",
-          "key": "residuals_aa2_export.csv",
-          "size": 43522,
-          "checksum": "md5:b1862e1386478bb95606f4889ba3a472",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/residuals_aa2_export.csv/content"
-          }
-        },
-        {
-          "id": "e0df198b-67a0-4a34-a772-f4241cb7dc37",
-          "key": "validj_n.txt",
-          "size": 10070654,
-          "checksum": "md5:e7fe699d41ed5c19f64eb1bcd943ab47",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/validj_n.txt/content"
-          }
-        },
-        {
-          "id": "cf1d3210-1a99-40fa-8960-2589b7fe7765",
-          "key": "brt_pa.R",
-          "size": 4990,
-          "checksum": "md5:1cd6670fbeb923c92e5803aefee2bf03",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/brt_pa.R/content"
-          }
-        },
-        {
-          "id": "987e585c-5198-4ee2-995f-2c08ad6bce20",
-          "key": "calibj_n.txt",
-          "size": 33286390,
-          "checksum": "md5:0902c55e1f44dc6d85ffceb0e79c70c5",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/calibj_n.txt/content"
-          }
-        },
-        {
-          "id": "e6d6f241-bc56-4db8-944e-3051b9f8a751",
-          "key": "BRT_projections_contemporary.R",
-          "size": 24856,
-          "checksum": "md5:54ce93fcdfecbb4b64f0983c7af906ec",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/BRT_projections_contemporary.R/content"
-          }
-        },
-        {
-          "id": "7625249a-a5dc-4c8b-b146-29abf5d15798",
-          "key": "quelquesfonctions.R",
-          "size": 13810,
-          "checksum": "md5:c51ab2928b0835dbf95c5bd0a49ab3df",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/quelquesfonctions.R/content"
-          }
-        },
-        {
-          "id": "12d22ca7-6250-4834-8808-086f7d9085b7",
-          "key": "db_dieback_pa.txt",
-          "size": 797239,
-          "checksum": "md5:299d67c61d86ea6901471b4498c14feb",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/db_dieback_pa.txt/content"
-          }
-        },
-        {
-          "id": "1270cddd-7ff8-4bd6-8028-ebdd85ec71df",
-          "key": "db_ifn_j2_n.txt",
-          "size": 41035005,
-          "checksum": "md5:b389080c3401f58ef249f3a0c33168a0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/db_ifn_j2_n.txt/content"
-          }
-        },
-        {
-          "id": "3d97c3f4-66d8-43bd-92d8-fee6ed74aa83",
-          "key": "gam_aa.R",
-          "size": 33393,
-          "checksum": "md5:cac43a21b664d3ad07775492515e5784",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/gam_aa.R/content"
-          }
-        },
-        {
-          "id": "1de5c6b5-7ad6-452f-8364-2cce0f75544e",
-          "key": "gam_pa.R",
-          "size": 33316,
-          "checksum": "md5:144858a5dba795c1be4e4d8f87dae0c0",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/gam_pa.R/content"
-          }
-        },
-        {
-          "id": "5dc4eae5-b891-4b2d-802d-6efbe34a67a8",
-          "key": "mortality_deltasuitab_brt.R",
-          "size": 34727,
-          "checksum": "md5:920177433a4a04b611af0f0a8a8d926f",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/mortality_deltasuitab_brt.R/content"
-          }
-        },
-        {
-          "id": "f8242954-b088-4b70-90d2-048856b0d53a",
-          "key": "mortality_deltasuitab_gam.R",
-          "size": 19122,
-          "checksum": "md5:a1eafaa3e0d7ed2814885b635bec20c7",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/mortality_deltasuitab_gam.R/content"
-          }
-        },
-        {
-          "id": "2a25fe5c-1884-4347-9eb4-679bfe4a4459",
-          "key": "residuals_pa2_export.csv",
-          "size": 75597,
-          "checksum": "md5:d53bcc80dda57765e3f571d79ad8b7ec",
-          "links": {
-            "self": "https://zenodo.org/api/records/20486144/files/residuals_pa2_export.csv/content"
-          }
-        }
-      ],
-      "swh": null,
-      "owners": [
-        {
-          "id": "1670110"
-        }
-      ],
-      "status": "published",
-      "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
-      },
-      "state": "done",
-      "submitted": true
-    },
-    {
-      "created": "2026-06-01T07:51:53.874973+00:00",
-      "modified": "2026-06-01T07:51:54.095140+00:00",
-      "id": 20484724,
-      "conceptrecid": "20484723",
-      "doi": "10.5281/zenodo.20484724",
-      "conceptdoi": "10.5281/zenodo.20484723",
-      "doi_url": "https://doi.org/10.5281/zenodo.20484724",
-      "metadata": {
-        "title": "Curated Scientific Databases as Infrastructures for Data-Rich STEM Learning: A Review and Educational Synthesis of Affordances, Barriers, and Teacher Scaffolds",
-        "doi": "10.5281/zenodo.20484724",
-        "publication_date": "2026-06-01",
-        "description": "<p>The deposit includes an Excel workbook and an RData library for the FH-screened core dataset, and an Excel workbook and an RData library for the AB-ready semantic subset used in the semantic analyses.</p>",
-        "access_right": "open",
-        "creators": [
-          {
-            "name": "Rodr\u00edguez, Jorge",
-            "affiliation": "Universidad Tecnol\u00f3gica Metropolitana (UTEM)",
-            "orcid": "0000-0003-1496-8410"
-          }
-        ],
-        "dates": [
-          {
-            "type": "collected",
-            "start": "2010-01-01",
-            "end": "2025-12-31"
-          }
-        ],
-        "language": "eng",
-        "resource_type": {
-          "title": "Dataset",
-          "type": "dataset"
-        },
-        "license": {
-          "id": "cc-by-4.0"
-        },
         "relations": {
           "version": [
             {
@@ -1667,77 +1740,78 @@
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
-                "pid_value": "20484723"
+                "pid_value": "21724619"
               }
             }
           ]
-        }
+        },
+        "notes": "Published as part of <i>Dovana, Francesco, Angelini, Claudio, Lodge, D. Jean, Marchetti, Mauro &amp; Vizzini, Alfredo, 2026, The genus Hygrocybe subgenus Hygrocybe in the Dominican Republic: phylogeny, diversity, and description of seven novel species and one variety (Agaricomycetes, Hygrocybaceae), pp. e 195850 in IMA Fungus 17</i> on page e195850, DOI: 10.3897/imafungus.17.195850"
       },
-      "title": "Curated Scientific Databases as Infrastructures for Data-Rich STEM Learning: A Review and Educational Synthesis of Affordances, Barriers, and Teacher Scaffolds",
+      "title": "Hygrocybe pseudohypohaemacta Angelini, Dovana, Lodge, M. Marchetti & Vizzini 2026, sp. nov.",
       "links": {
-        "self": "https://zenodo.org/api/records/20484724",
-        "self_html": "https://zenodo.org/records/20484724",
-        "preview_html": "https://zenodo.org/records/20484724?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.20484724",
-        "self_doi": "https://doi.org/10.5281/zenodo.20484724",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20484724",
-        "reserve_doi": "https://zenodo.org/api/records/20484724/draft/pids/doi",
-        "parent": "https://zenodo.org/api/records/20484723",
-        "parent_html": "https://zenodo.org/records/20484723",
-        "parent_doi": "https://doi.org/10.5281/zenodo.20484723",
-        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20484723",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20484724/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20484724/sequence/default",
-        "files": "https://zenodo.org/api/records/20484724/files",
-        "media_files": "https://zenodo.org/api/records/20484724/media-files",
-        "archive": "https://zenodo.org/api/records/20484724/files-archive",
-        "archive_media": "https://zenodo.org/api/records/20484724/media-files-archive",
-        "latest": "https://zenodo.org/api/records/20484724/versions/latest",
-        "latest_html": "https://zenodo.org/records/20484724/latest",
-        "versions": "https://zenodo.org/api/records/20484724/versions",
-        "draft": "https://zenodo.org/api/records/20484724/draft",
-        "access_links": "https://zenodo.org/api/records/20484724/access/links",
-        "access_grants": "https://zenodo.org/api/records/20484724/access/grants",
-        "access_users": "https://zenodo.org/api/records/20484724/access/users",
-        "access_request": "https://zenodo.org/api/records/20484724/access/request",
-        "access": "https://zenodo.org/api/records/20484724/access",
-        "communities": "https://zenodo.org/api/records/20484724/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/20484724/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/20484724/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/20484724/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/20484724/quota-increase",
-        "requests": "https://zenodo.org/api/records/20484724/requests"
+        "self": "https://zenodo.org/api/records/21724620",
+        "self_html": "https://zenodo.org/records/21724620",
+        "preview_html": "https://zenodo.org/records/21724620?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.21724620",
+        "self_doi": "https://doi.org/10.5281/zenodo.21724620",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21724620",
+        "reserve_doi": "https://zenodo.org/api/records/21724620/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/21724619",
+        "parent_html": "https://zenodo.org/records/21724619",
+        "parent_doi": "https://doi.org/10.5281/zenodo.21724619",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21724619",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21724620/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21724620/sequence/default",
+        "files": "https://zenodo.org/api/records/21724620/files",
+        "media_files": "https://zenodo.org/api/records/21724620/media-files",
+        "archive": "https://zenodo.org/api/records/21724620/files-archive",
+        "archive_media": "https://zenodo.org/api/records/21724620/media-files-archive",
+        "latest": "https://zenodo.org/api/records/21724620/versions/latest",
+        "latest_html": "https://zenodo.org/records/21724620/latest",
+        "versions": "https://zenodo.org/api/records/21724620/versions",
+        "draft": "https://zenodo.org/api/records/21724620/draft",
+        "access_links": "https://zenodo.org/api/records/21724620/access/links",
+        "access_grants": "https://zenodo.org/api/records/21724620/access/grants",
+        "access_users": "https://zenodo.org/api/records/21724620/access/users",
+        "access_request": "https://zenodo.org/api/records/21724620/access/request",
+        "access": "https://zenodo.org/api/records/21724620/access",
+        "communities": "https://zenodo.org/api/records/21724620/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/21724620/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/21724620/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/21724620/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/21724620/quota-increase",
+        "requests": "https://zenodo.org/api/records/21724620/requests"
       },
-      "updated": "2026-06-01T07:51:54.095140+00:00",
-      "recid": "20484724",
-      "revision": 4,
+      "updated": "2026-07-31T17:00:36.475901+00:00",
+      "recid": "21724620",
+      "revision": 11,
       "files": [
         {
-          "id": "4de724b8-cff6-450b-a841-e12b90589cac",
-          "key": "Minimal dataset_IJSE_v2.zip",
-          "size": 52013699,
-          "checksum": "md5:1e5eacedc0de1b9e62355ad4c7c154ef",
+          "id": "c2a81b2e-202d-4165-831c-07d10a8461fd",
+          "key": "treatment.html",
+          "size": 11956,
+          "checksum": "md5:01c0750e45db46c29e32003ad1e34c6b",
           "links": {
-            "self": "https://zenodo.org/api/records/20484724/files/Minimal%20dataset_IJSE_v2.zip/content"
+            "self": "https://zenodo.org/api/records/21724620/files/treatment.html/content"
           }
         }
       ],
       "swh": null,
       "owners": [
         {
-          "id": "1670005"
+          "id": "1161"
         }
       ],
       "status": "published",
       "stats": {
         "downloads": 0,
         "unique_downloads": 0,
-        "views": 0,
-        "unique_views": 0,
+        "views": 1,
+        "unique_views": 1,
         "version_downloads": 0,
         "version_unique_downloads": 0,
-        "version_unique_views": 0,
-        "version_views": 0
+        "version_unique_views": 1,
+        "version_views": 1
       },
       "state": "done",
       "submitted": true

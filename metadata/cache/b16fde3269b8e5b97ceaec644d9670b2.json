@@ -1,5 +1,5 @@
 {
-  "cache_date": "2026-06-01T16:26:34.198662",
+  "cache_date": "2026-08-01T12:13:01.454037",
   "data": [
     {
       "created": "2026-02-19T14:43:49.564566+00:00",
@@ -228,14 +228,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 191,
-        "unique_downloads": 188,
-        "views": 69,
-        "unique_views": 60,
-        "version_downloads": 83,
-        "version_unique_downloads": 82,
-        "version_unique_views": 22,
-        "version_views": 23
+        "downloads": 257,
+        "unique_downloads": 254,
+        "views": 101,
+        "unique_views": 89,
+        "version_downloads": 104,
+        "version_unique_downloads": 103,
+        "version_unique_views": 35,
+        "version_views": 38
       },
       "state": "done",
       "submitted": true
@@ -598,14 +598,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 1820,
-        "unique_downloads": 1815,
-        "views": 168,
-        "unique_views": 153,
-        "version_downloads": 1820,
-        "version_unique_downloads": 1815,
-        "version_unique_views": 153,
-        "version_views": 168
+        "downloads": 2125,
+        "unique_downloads": 2115,
+        "views": 196,
+        "unique_views": 180,
+        "version_downloads": 2125,
+        "version_unique_downloads": 2115,
+        "version_unique_views": 180,
+        "version_views": 196
       },
       "state": "done",
       "submitted": true
@@ -751,37 +751,42 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 229,
-        "unique_downloads": 206,
-        "views": 201,
-        "unique_views": 190,
-        "version_downloads": 229,
-        "version_unique_downloads": 206,
-        "version_unique_views": 190,
-        "version_views": 201
+        "downloads": 246,
+        "unique_downloads": 221,
+        "views": 214,
+        "unique_views": 203,
+        "version_downloads": 246,
+        "version_unique_downloads": 221,
+        "version_unique_views": 203,
+        "version_views": 214
       },
       "state": "done",
       "submitted": true
     },
     {
-      "created": "2026-01-28T18:41:00.092685+00:00",
-      "modified": "2026-01-28T18:41:01.203315+00:00",
-      "id": 18406067,
+      "created": "2026-06-06T03:05:03.007543+00:00",
+      "modified": "2026-07-22T12:47:10.916443+00:00",
+      "id": 20564918,
       "conceptrecid": "18406066",
-      "doi": "10.5281/zenodo.18406067",
+      "doi": "10.5281/zenodo.20564918",
       "conceptdoi": "10.5281/zenodo.18406066",
-      "doi_url": "https://doi.org/10.5281/zenodo.18406067",
+      "doi_url": "https://doi.org/10.5281/zenodo.20564918",
       "metadata": {
         "title": "Supplementary Data from Riddell V et al.",
-        "doi": "10.5281/zenodo.18406067",
-        "publication_date": "2026-01-28",
-        "description": "<table style=\"border-collapse: collapse; width: 583pt;\"><colgroup><col style=\"width: 195pt;\"> <col style=\"width: 193pt;\"> <col style=\"width: 195pt;\"> </colgroup>\n<tbody>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt; width: 195pt;\">Tab</td>\n<td style=\"width: 193pt;\">Description</td>\n<td style=\"width: 195pt;\">Code used to generate</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">1_sequencing_accessions</td>\n<td>Metagenome and metatranscriptomes, accession numbers, and number of reads</td>\n<td>NA</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">2_vOTU_manual_check_100</td>\n<td>Genomad, CheckV, and DRAMv metadata for 100 randomly selected vOTUs, along with manual classification (first column)</td>\n<td><a href=\"https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/08-get_vOTU_metadata_and_filter.py\">https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/08-get_vOTU_metadata_and_filter.py</a></td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">3_filtered_out_vOTUs</td>\n<td>Contigs flagged as vOTUs by Genomad, but removed based on lack of viral annotations and enrichment of host and transposon annotations</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/08-get_vOTU_metadata_and_filter.py</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">4_vOTU_metadata</td>\n<td>Genomad, CheckV, and DRAMv annotations for each vOTU that passed manual filtering<span>&nbsp;</span></td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/08-get_vOTU_metadata_and_filter.py</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">5_viral_taxonomy</td>\n<td>vConTACT3 viral taxonomy for all manually filtered vOTUs</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/04-viral-taxonomy/scripts/run-vcontact3.sh</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">6_vOTU_MAG_predictions_no_cutoff</td>\n<td>iPHoP MAG-level predictions for all 9,092 vOTUs that passed manual check. Activity status of vOTUs and MAGs are listed in the last few columns</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/03-predict-hosts/scripts/06-host-prediction-EDA.py</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">7_cytoscape_node_metadata</td>\n<td>Metadata to reconstruct the vOTU-MAG network plot</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/03-predict-hosts/scripts/06-host-prediction-EDA.py</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">8_amg_summary_QC_with_host_pred</td>\n<td>Genes flagged as AMGs from active vOTUs</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/11-get_AMGs_from_active_vOTUs.py</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td style=\"height: 16.0pt;\">9_indicator_vOTUs</td>\n<td>vOTUs considered indicators for at least one combination of sample clusters based on Indicator Species Analysis</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/02-get-relative-abundance/scripts/07-beta-diversity-and-ISA.R</td>\n</tr>\n</tbody>\n</table>",
+        "doi": "10.5281/zenodo.20564918",
+        "publication_date": "2026-06-06",
+        "description": "<table>\n<tbody>\n<tr>\n<td>Tab</td>\n<td>Description</td>\n<td>Code used to generate</td>\n</tr>\n<tr>\n<td>1_sequencing_accessions</td>\n<td>Metagenome and metatranscriptomes, accession numbers, and number of reads</td>\n<td>NA</td>\n</tr>\n<tr>\n<td>2_vOTU_metadata</td>\n<td>Genomad, CheckV, and DRAMv annotations for each vOTU that passed manual filtering&nbsp;</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/08-get_vOTU_metadata_and_filter.py</td>\n</tr>\n<tr>\n<td>3_post_hoc_power</td>\n<td>Power analysis of alpha diversity statistical analysis</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/02-get-relative-abundance/scripts/07-alpha_diversity.py</td>\n</tr>\n<tr>\n<td>4_vOTU_MAG_predictions_no_cutoff</td>\n<td>iPHoP MAG-level predictions for all 9,092 vOTUs that passed manual check. Activity status of vOTUs and MAGs are listed in the last few columns</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/03-predict-hosts/scripts/06-host-prediction-EDA.py</td>\n</tr>\n<tr>\n<td>5_cytoscape_node_metadata</td>\n<td>Metadata to reconstruct the vOTU-MAG network plot</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/03-predict-hosts/scripts/06-host-prediction-EDA.py</td>\n</tr>\n<tr>\n<td>6_viral_taxonomy</td>\n<td>vConTACT3 viral taxonomy for all manually filtered vOTUs</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/04-viral-taxonomy/scripts/run-vcontact3.sh</td>\n</tr>\n<tr>\n<td>7_amg_summary_QC_with_host_pred</td>\n<td>Genes flagged as AMGs from active vOTUs</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/01-build-vOTU-database/scripts/11-get_AMGs_from_active_vOTUs.py</td>\n</tr>\n<tr>\n<td>8_indicator_vOTUs</td>\n<td>vOTUs considered indicators for at least one combination of sample clusters based on Indicator Species Analysis</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/02-get-relative-abundance/scripts/07-beta-diversity-02-D-upset.R</td>\n</tr>\n<tr>\n<td>9_c591846_iPHoP_Detailed_Output</td>\n<td>iPHoP BLAST scores for contig_591846 predicted to infect JAGFXR01 MAGs</td>\n<td>https://github.com/jamesriddellv/Grantham_Bioreactor/blob/main/03-predict-hosts/scripts/05-run-iphop-on-custom-database.sh</td>\n</tr>\n</tbody>\n</table>",
         "access_right": "open",
         "creators": [
           {
             "name": "Riddell V, James",
             "affiliation": "The Ohio State University",
             "orcid": "0000-0001-5052-4513"
+          }
+        ],
+        "dates": [
+          {
+            "type": "submitted"
           }
         ],
         "resource_type": {
@@ -794,7 +799,7 @@
         "relations": {
           "version": [
             {
-              "index": 0,
+              "index": 1,
               "is_last": true,
               "parent": {
                 "pid_type": "recid",
@@ -806,50 +811,50 @@
       },
       "title": "Supplementary Data from Riddell V et al.",
       "links": {
-        "self": "https://zenodo.org/api/records/18406067",
-        "self_html": "https://zenodo.org/records/18406067",
-        "preview_html": "https://zenodo.org/records/18406067?preview=1",
-        "doi": "https://doi.org/10.5281/zenodo.18406067",
-        "self_doi": "https://doi.org/10.5281/zenodo.18406067",
-        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18406067",
-        "reserve_doi": "https://zenodo.org/api/records/18406067/draft/pids/doi",
+        "self": "https://zenodo.org/api/records/20564918",
+        "self_html": "https://zenodo.org/records/20564918",
+        "preview_html": "https://zenodo.org/records/20564918?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.20564918",
+        "self_doi": "https://doi.org/10.5281/zenodo.20564918",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20564918",
+        "reserve_doi": "https://zenodo.org/api/records/20564918/draft/pids/doi",
         "parent": "https://zenodo.org/api/records/18406066",
         "parent_html": "https://zenodo.org/records/18406066",
         "parent_doi": "https://doi.org/10.5281/zenodo.18406066",
         "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18406066",
-        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18406067/manifest",
-        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18406067/sequence/default",
-        "files": "https://zenodo.org/api/records/18406067/files",
-        "media_files": "https://zenodo.org/api/records/18406067/media-files",
-        "archive": "https://zenodo.org/api/records/18406067/files-archive",
-        "archive_media": "https://zenodo.org/api/records/18406067/media-files-archive",
-        "latest": "https://zenodo.org/api/records/18406067/versions/latest",
-        "latest_html": "https://zenodo.org/records/18406067/latest",
-        "versions": "https://zenodo.org/api/records/18406067/versions",
-        "draft": "https://zenodo.org/api/records/18406067/draft",
-        "access_links": "https://zenodo.org/api/records/18406067/access/links",
-        "access_grants": "https://zenodo.org/api/records/18406067/access/grants",
-        "access_users": "https://zenodo.org/api/records/18406067/access/users",
-        "access_request": "https://zenodo.org/api/records/18406067/access/request",
-        "access": "https://zenodo.org/api/records/18406067/access",
-        "communities": "https://zenodo.org/api/records/18406067/communities",
-        "communities-suggestions": "https://zenodo.org/api/records/18406067/communities-suggestions",
-        "request_deletion": "https://zenodo.org/api/records/18406067/request-deletion",
-        "file_modification": "https://zenodo.org/api/records/18406067/file-modification",
-        "quota_increase": "https://zenodo.org/api/records/18406067/quota-increase",
-        "requests": "https://zenodo.org/api/records/18406067/requests"
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20564918/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20564918/sequence/default",
+        "files": "https://zenodo.org/api/records/20564918/files",
+        "media_files": "https://zenodo.org/api/records/20564918/media-files",
+        "archive": "https://zenodo.org/api/records/20564918/files-archive",
+        "archive_media": "https://zenodo.org/api/records/20564918/media-files-archive",
+        "latest": "https://zenodo.org/api/records/20564918/versions/latest",
+        "latest_html": "https://zenodo.org/records/20564918/latest",
+        "versions": "https://zenodo.org/api/records/20564918/versions",
+        "draft": "https://zenodo.org/api/records/20564918/draft",
+        "access_links": "https://zenodo.org/api/records/20564918/access/links",
+        "access_grants": "https://zenodo.org/api/records/20564918/access/grants",
+        "access_users": "https://zenodo.org/api/records/20564918/access/users",
+        "access_request": "https://zenodo.org/api/records/20564918/access/request",
+        "access": "https://zenodo.org/api/records/20564918/access",
+        "communities": "https://zenodo.org/api/records/20564918/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/20564918/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/20564918/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/20564918/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/20564918/quota-increase",
+        "requests": "https://zenodo.org/api/records/20564918/requests"
       },
-      "updated": "2026-01-28T18:41:01.203315+00:00",
-      "recid": "18406067",
+      "updated": "2026-07-22T12:47:10.916443+00:00",
+      "recid": "20564918",
       "revision": 4,
       "files": [
         {
-          "id": "8e9dbc77-a146-4f55-88e9-11d7e4a291bd",
+          "id": "4bb35d94-ab91-47bd-b274-281a51cf7a7c",
           "key": "bioreactor_virus_supplementary_data.xlsx",
-          "size": 53797578,
-          "checksum": "md5:123f10b719f67db7d8aff0a28d28f1cd",
+          "size": 53804154,
+          "checksum": "md5:6befc9d1590afec09fa31d3f441320ec",
           "links": {
-            "self": "https://zenodo.org/api/records/18406067/files/bioreactor_virus_supplementary_data.xlsx/content"
+            "self": "https://zenodo.org/api/records/20564918/files/bioreactor_virus_supplementary_data.xlsx/content"
           }
         }
       ],
@@ -861,14 +866,14 @@
       ],
       "status": "published",
       "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 10,
-        "unique_views": 9,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 9,
-        "version_views": 10
+        "downloads": 37,
+        "unique_downloads": 37,
+        "views": 95,
+        "unique_views": 88,
+        "version_downloads": 23,
+        "version_unique_downloads": 23,
+        "version_unique_views": 44,
+        "version_views": 49
       },
       "state": "done",
       "submitted": true

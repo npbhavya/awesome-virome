@@ -14,11 +14,47 @@
   "bioconda": {
     "package": "",
     "version": "",
-    "dependencies": {},
+    "dependencies": {
+      "build": [],
+      "run": [
+        "numpy",
+        "python",
+        "samtools",
+        "mmseqs2",
+        "prodigal",
+        "mash",
+        "bowtie2",
+        "bwa",
+        "pandas",
+        "numba",
+        "pysam",
+        "networkx",
+        "scikit-learn"
+      ],
+      "host": [
+        "pip",
+        "python",
+        "gzip",
+        "run:",
+        "numpy",
+        "python",
+        "samtools",
+        "mmseqs2",
+        "prodigal",
+        "mash",
+        "bowtie2",
+        "bwa",
+        "pandas",
+        "numba",
+        "pysam",
+        "networkx",
+        "scikit-learn"
+      ]
+    },
     "installation": ""
   },
   "academic_impact": {
-    "doi": null,
+    "doi": "10.5281/zenodo.20859600",
     "citation_file": "README.md",
     "citation_format": "md",
     "total_citations": 0,
@@ -26,5 +62,5 @@
     "citations_by_year": {},
     "formatted_citations": {}
   },
-  "last_updated": "2026-06-01T15:55:04.825405"
+  "last_updated": "2026-08-01T11:19:50.146355"
 }
