@@ -1,0 +1,47 @@
+{
+  "cache_date": "2026-08-02T09:49:26.795695",
+  "data": [
+    {
+      "url": "https://api.github.com/repos/gbouras13/pharokka/releases/351597337",
+      "assets_url": "https://api.github.com/repos/gbouras13/pharokka/releases/351597337/assets",
+      "upload_url": "https://uploads.github.com/repos/gbouras13/pharokka/releases/351597337/assets{?name,label}",
+      "html_url": "https://github.com/gbouras13/pharokka/releases/tag/v1.10.1",
+      "id": 351597337,
+      "author": {
+        "login": "gbouras13",
+        "id": 84495559,
+        "node_id": "MDQ6VXNlcjg0NDk1NTU5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84495559?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gbouras13",
+        "html_url": "https://github.com/gbouras13",
+        "followers_url": "https://api.github.com/users/gbouras13/followers",
+        "following_url": "https://api.github.com/users/gbouras13/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gbouras13/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gbouras13/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gbouras13/subscriptions",
+        "organizations_url": "https://api.github.com/users/gbouras13/orgs",
+        "repos_url": "https://api.github.com/users/gbouras13/repos",
+        "events_url": "https://api.github.com/users/gbouras13/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gbouras13/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOGgDt884U9PMZ",
+      "tag_name": "v1.10.1",
+      "target_commitish": "master",
+      "name": "v1.10.1",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2026-07-09T14:51:34Z",
+      "updated_at": "2026-07-09T14:52:44Z",
+      "published_at": "2026-07-09T14:52:44Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/gbouras13/pharokka/tarball/v1.10.1",
+      "zipball_url": "https://api.github.com/repos/gbouras13/pharokka/zipball/v1.10.1",
+      "body": "* Fix #433 : fixes a crash in post-processing for phages with no tRNAs (also CRISPRs/tmRNAs) - due to the way polars handles empty files\r\n* Adds `NC_043029_no_trna.fasta` (a phage with no tRNAs, from #433) to the integration test suite as a regression test for the above fix"
+    }
+  ]
+}
