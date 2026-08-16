@@ -1,12 +1,12 @@
 {
-  "cache_date": "2026-07-12T09:47:10.491039",
+  "cache_date": "2026-08-16T08:08:44.266602",
   "data": [
     {
-      "url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/309167479",
-      "assets_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/releases/309167479/assets",
-      "upload_url": "https://uploads.github.com/repos/WrightonLabCSU/DRAM/releases/309167479/assets{?name,label}",
-      "html_url": "https://github.com/WrightonLabCSU/DRAM/releases/tag/v2.0.0-beta28",
-      "id": 309167479,
+      "url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/368760260",
+      "assets_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/368760260/assets",
+      "upload_url": "https://uploads.github.com/repos/BortonWrightonLabs/DRAM/releases/368760260/assets{?name,label}",
+      "html_url": "https://github.com/BortonWrightonLabs/DRAM/releases/tag/v2.0.0-beta36",
+      "id": 368760260,
       "author": {
         "login": "madeline-scyphers",
         "id": 93053005,
@@ -28,20 +28,20 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCiVGq84SbYV3",
-      "tag_name": "v2.0.0-beta28",
+      "node_id": "RE_kwDOCiVGq84V-tXE",
+      "tag_name": "v2.0.0-beta36",
       "target_commitish": "dev",
-      "name": "v2.0.0-beta28 Release",
+      "name": "v2.0.0-beta36 Release",
       "draft": false,
       "immutable": false,
       "prerelease": true,
-      "created_at": "2026-04-15T05:39:33Z",
-      "updated_at": "2026-04-15T07:04:03Z",
-      "published_at": "2026-04-15T05:40:55Z",
+      "created_at": "2026-08-11T18:09:06Z",
+      "updated_at": "2026-08-11T18:10:25Z",
+      "published_at": "2026-08-11T18:10:25Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/tarball/v2.0.0-beta28",
-      "zipball_url": "https://api.github.com/repos/WrightonLabCSU/DRAM/zipball/v2.0.0-beta28",
-      "body": "## 2.0.0-beta28 - 2026-04-15\r\n\r\n[cdfe210](https://github.com/WrightonLabCSU/DRAM/commit/cdfe210ca64eb95baf6f1acedb62f91b74630181)...[e07cd74](https://github.com/WrightonLabCSU/DRAM/commit/e07cd74e8d60fca7513f645c04d0956760c74768)\r\n\r\n\r\n\r\n- Adds preliminary testing versions of antismash, and rgi raw outputs (not incorporated into annotations or any downstream steps, just raw putputs in dedicated foulders)\r\n- Adds TCDB, and CARD mmseqs searches to to annotations\r\n- Add curated DRAM DB hmm database to annotation\r\n\r\nNew databases can be downloaded from GLOBUS\r\n\r\n### Features\r\n\r\n- Add antiSMASH, CARD, RGI, TCDB ([8d08d1f](https://github.com/WrightonLabCSU/DRAM/commit/8d08d1f9d54fb139eb53587754e569c4317ddc37))\r\n\r\n  Add antiSMASH nextflow module, right now just collect antismash\r\n  raw output while we work on incorporating raw output into\r\n  larger pipeline\r\n  Add rgi nextflow module, right now like antiSMASH, only\r\n  collect raw output while we work on incorporating\r\n  ADD CARD db processing with mmseqs\r\n  ADD TCDB processing with mmseqs\r\n\r\n- Add DRAM DB HMMs = ([e07cd74](https://github.com/WrightonLabCSU/DRAM/commit/e07cd74e8d60fca7513f645c04d0956760c74768))\r\n\r\n  Add DRAM team curated HMM database as new annotation db option.\r\n  Work in progress and testing database, but can be found on GLOBUS."
+      "tarball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/tarball/v2.0.0-beta36",
+      "zipball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/zipball/v2.0.0-beta36",
+      "body": "## 2.0.0-beta36 - 2026-08-11\r\n\r\n[144002b](https://github.com/WrightonLabCSU/DRAM/commit/144002b7b7938db8c1d51f0559641585fb706376)...[98a3adc](https://github.com/WrightonLabCSU/DRAM/commit/98a3adcc19926e53da38b0831ee14e0a384d7e7a)\r\n\r\n### Bug Fixes\r\n\r\n- Update diamond to fix hang problem ([1c4a8cf](https://github.com/WrightonLabCSU/DRAM/commit/1c4a8cfcecf9b7268fffe1513819870b872e22ee))\r\n\r\n  Update rundbcan easysubstrate and pin diamond to 2.2.5.\r\n  In diamond 2.2.3 they mention fixing a problem with hanging sometimes,\r\n  pinning diamond above that seems to eliminate the occassional dbcan\r\n  hang problem.\r\n\r\n\r\n\r\n### Features\r\n\r\n- Update BGC rules ([5f1747b](https://github.com/WrightonLabCSU/DRAM/commit/5f1747b31852e3fd53d1157e0a6b2f4b1190aaa7))\r\n\r\n"
     }
   ]
 }
