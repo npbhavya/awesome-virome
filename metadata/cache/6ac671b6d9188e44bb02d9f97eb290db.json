@@ -1,12 +1,12 @@
 {
-  "cache_date": "2026-08-16T08:08:44.266602",
+  "cache_date": "2026-09-20T08:09:42.002852",
   "data": [
     {
-      "url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/368760260",
-      "assets_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/368760260/assets",
-      "upload_url": "https://uploads.github.com/repos/BortonWrightonLabs/DRAM/releases/368760260/assets{?name,label}",
-      "html_url": "https://github.com/BortonWrightonLabs/DRAM/releases/tag/v2.0.0-beta36",
-      "id": 368760260,
+      "url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/384891819",
+      "assets_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/384891819/assets",
+      "upload_url": "https://uploads.github.com/repos/BortonWrightonLabs/DRAM/releases/384891819/assets{?name,label}",
+      "html_url": "https://github.com/BortonWrightonLabs/DRAM/releases/tag/v2.0.0-beta37",
+      "id": 384891819,
       "author": {
         "login": "madeline-scyphers",
         "id": 93053005,
@@ -28,20 +28,20 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCiVGq84V-tXE",
-      "tag_name": "v2.0.0-beta36",
+      "node_id": "RE_kwDOCiVGq84W8Pur",
+      "tag_name": "v2.0.0-beta37",
       "target_commitish": "dev",
-      "name": "v2.0.0-beta36 Release",
+      "name": "v2.0.0-beta37 Release",
       "draft": false,
       "immutable": false,
       "prerelease": true,
-      "created_at": "2026-08-11T18:09:06Z",
-      "updated_at": "2026-08-11T18:10:25Z",
-      "published_at": "2026-08-11T18:10:25Z",
+      "created_at": "2026-09-08T16:20:11Z",
+      "updated_at": "2026-09-08T16:23:07Z",
+      "published_at": "2026-09-08T16:23:07Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/tarball/v2.0.0-beta36",
-      "zipball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/zipball/v2.0.0-beta36",
-      "body": "## 2.0.0-beta36 - 2026-08-11\r\n\r\n[144002b](https://github.com/WrightonLabCSU/DRAM/commit/144002b7b7938db8c1d51f0559641585fb706376)...[98a3adc](https://github.com/WrightonLabCSU/DRAM/commit/98a3adcc19926e53da38b0831ee14e0a384d7e7a)\r\n\r\n### Bug Fixes\r\n\r\n- Update diamond to fix hang problem ([1c4a8cf](https://github.com/WrightonLabCSU/DRAM/commit/1c4a8cfcecf9b7268fffe1513819870b872e22ee))\r\n\r\n  Update rundbcan easysubstrate and pin diamond to 2.2.5.\r\n  In diamond 2.2.3 they mention fixing a problem with hanging sometimes,\r\n  pinning diamond above that seems to eliminate the occassional dbcan\r\n  hang problem.\r\n\r\n\r\n\r\n### Features\r\n\r\n- Update BGC rules ([5f1747b](https://github.com/WrightonLabCSU/DRAM/commit/5f1747b31852e3fd53d1157e0a6b2f4b1190aaa7))\r\n\r\n"
+      "tarball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/tarball/v2.0.0-beta37",
+      "zipball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/zipball/v2.0.0-beta37",
+      "body": "## 2.0.0-beta37 - 2026-09-08\r\n\r\n[24582dc](https://github.com/BortonWrightonLabs/DRAM/commit/24582dc53c47024fd654dab5d5933611153ed51d)...[961ddde](https://github.com/BortonWrightonLabs/DRAM/commit/961ddde2fc8f112ea01ea75c408767c2d777af78)\r\n\r\n### Bug Fixes\r\n\r\n- Hotfix distill_bgc spacing error ([b7d9ddc](https://github.com/BortonWrightonLabs/DRAM/commit/b7d9ddcd420f6882edd0d1d5cec2a3e14de8b186))\r\n\r\n\r\n- Email flag fix to send emails on run complete ([5024106](https://github.com/BortonWrightonLabs/DRAM/commit/5024106dd8121125a4ea7a8255786c6ae15ef966))\r\n\r\n  The email flag was silently failing for a few reasons. Inocrrect paths to assets,\r\n  not passing the header, and not giving feedback on sendmail result.\r\n  The plaintext email also failed because of not sending the header properly.\r\n  Now it tries sendmail for the html email, if that fails, it uses the plaintext email\r\n  as a backup and lets you know this in the console output and in log.\r\n\r\n\r\n\r\n### Documentation\r\n\r\n- Update headers and links ([229ada3](https://github.com/BortonWrightonLabs/DRAM/commit/229ada3668abbdaf0d7508b72dbf003dbd4ce3ad))\r\n\r\n\r\n\r\n### Features\r\n\r\n- GPU mmseqs support ([2517f88](https://github.com/BortonWrightonLabs/DRAM/commit/2517f8863aa45706a80cdcc0519d3d09cd6303f4))\r\n\r\n  Add optional GPU acceleration for MMseqs2 searches through the GPU\r\n  profile, including GPU database preparation, validation, and per-database\r\n  CPU exclusions.\r\n\r\n  Integrate CPU and GPU searches with the shared batching workflows,\r\n  size-based resource allocation, and executor job arrays. Update pipeline\r\n  configuration, schema, documentation, and tests.\r\n\r\n- Dynamically allocate resources based on size, remove slurm config ([463ebf2](https://github.com/BortonWrightonLabs/DRAM/commit/463ebf27e2d671b3009ee67b3560c305d36ebc4f))\r\n\r\n  - Dynamically bucket CALL_GENES, QUAST, HMM_SEARCH, and MMSEQS_SEARCH tasks by input workload size.\r\n  - Add opt-in, resource-uniform job arrays for bucketed CALL_GENES, HMM_SEARCH, and MMSEQS_SEARCH tasks, BREAKING CHANGE:Replace the built-in site-specific Slurm configuration with a minimal `slurm` profile and user-supplied cluster configuration. Replace tier-specific resource parameters with `max_cpus`, `max_memory`, and `max_time` caps, and rename `array_size` to `job_array_size`.\r\n\r\n\r\n- Add job batching for call, rna, and db scans ([e2be421](https://github.com/BortonWrightonLabs/DRAM/commit/e2be421d327ec50e159ee78f3143e834eb0f9c27))\r\n\r\n  Input batching for CALL, rna scan and mmseqs and hmmer search,\r\n  inputs can be batched together with inputs above a certain size\r\n  being ran on their own job. This is allows users to batch inputs\r\n  in situations when a SLURM queue is very full and scheduling\r\n  many small jobs is difficult. In this siutation, it might be\r\n  better to batch them together for when they do get scheduled.\r\n"
     }
   ]
 }
