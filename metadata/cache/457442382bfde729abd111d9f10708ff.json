@@ -1,12 +1,12 @@
 {
-  "cache_date": "2026-09-13T08:07:51.519931",
+  "cache_date": "2026-10-18T08:07:40.626784",
   "data": [
     {
-      "url": "https://api.github.com/repos/replikation/What_the_Phage/releases/202059178",
-      "assets_url": "https://api.github.com/repos/replikation/What_the_Phage/releases/202059178/assets",
-      "upload_url": "https://uploads.github.com/repos/replikation/What_the_Phage/releases/202059178/assets{?name,label}",
-      "html_url": "https://github.com/replikation/What_the_Phage/releases/tag/v1.2.4",
-      "id": 202059178,
+      "url": "https://api.github.com/repos/replikation/What_the_Phage/releases/404623028",
+      "assets_url": "https://api.github.com/repos/replikation/What_the_Phage/releases/404623028/assets",
+      "upload_url": "https://uploads.github.com/repos/replikation/What_the_Phage/releases/404623028/assets{?name,label}",
+      "html_url": "https://github.com/replikation/What_the_Phage/releases/tag/v2.0.0",
+      "id": 404623028,
       "author": {
         "login": "mult1fractal",
         "id": 40232542,
@@ -28,20 +28,21 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOC_PRJs4MCy2q",
-      "tag_name": "v1.2.4",
+      "node_id": "RE_kwDOC_PRJs4YHg60",
+      "tag_name": "v2.0.0",
       "target_commitish": "master",
-      "name": "pharokka integration + chromomap scrollbar fix",
+      "name": "WtP v2.0",
       "draft": false,
       "immutable": false,
       "prerelease": false,
-      "created_at": "2025-02-24T14:53:59Z",
-      "updated_at": "2025-02-24T14:58:28Z",
-      "published_at": "2025-02-24T14:58:28Z",
+      "created_at": "2026-10-06T11:13:10Z",
+      "updated_at": "2026-10-06T11:19:57Z",
+      "published_at": "2026-10-06T11:19:57Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/replikation/What_the_Phage/tarball/v1.2.4",
-      "zipball_url": "https://api.github.com/repos/replikation/What_the_Phage/zipball/v1.2.4",
-      "body": "* [Pharokka integration ](https://github.com/gbouras13/pharokka) 5f769a05f699a6985ec5135468d0545ebc36ed0c\r\n* UKJ cloud compatibility 81bf4400333b792df096051470bda8624ed043ad\r\n* computing resources update a0749ba0148866149e8165b0069e4f5053607633\r\n* added chromomap scrollbar 588bf210fc104c71287ab561e0837640d0157557\r\n* -stub bug when using nextflow version 24.20.4 for syntax check 87ea470ef6c5d069d3c34f30ff41e240fb90ac66"
+      "tarball_url": "https://api.github.com/repos/replikation/What_the_Phage/tarball/v2.0.0",
+      "zipball_url": "https://api.github.com/repos/replikation/What_the_Phage/zipball/v2.0.0",
+      "body": "## What's Changed\r\n\r\n\r\n\r\n\r\n## What the Phage v2.0 \u2014 backbone rework\r\n\r\nThis release is a ground-up rework of the WtP backbone: a modular 7-module pipeline,\r\na new interactive report, Nextflow 26 support, and an extended tool panel.\r\n\r\n### Modular workflow\r\n\r\nWtP v2.0 is split into independent Nextflow subworkflows. Run everything with\r\n`--end_to_end`, or pick exactly what you need (flags combine freely):\r\n\r\n```\r\n--identify   --annotation   --taxonomy   --prophage   --host   --lifecycle\r\n```\r\n\r\n### New interactive report\r\n\r\nThe R Markdown reports are replaced by a self-contained interactive HTML report\r\nper sample: overview stats, CheckV quality, per-tool identification scores with\r\nheatmap and UpSet plot, annotation coverage, taxonomy comparison, prophage, host\r\nand lifecycle tabs \u2014 plus per-sample JSON for downstream use.\r\n\r\n### Nextflow 26\r\n\r\nOutputs now use the declarative `output {}` block (Nextflow 25.10+; CI-tested\r\nwith 26.04.4). Results are written to a restructured, per-sample tree:\r\n\r\n```\r\nresults/\r\n\u2514\u2500\u2500 <sample>/{CheckV,identified_contigs_by_tools,annotation,taxonomic-classification,prophage,host_prediction,lifecycle}\r\n    report/          # interactive HTML report + JSON\r\n    literature/      # tool citations\r\n```\r\n\r\n### CI & reproducibility\r\n\r\nNew GitHub Actions workflow (\"Syntax check\") runs `--help` plus 11 stub-run\r\ncombinations on every push; all processes ship stubs (`-profile stub`).\r\nUpdated README with badges and a tested-configurations table.\r\n\r\n---\r\n\r\n**Requirements:** Java, Nextflow \u2265 25.10 (tested 26.04.4), Docker or Singularity.\r\nDatabases auto-download (~50 GB end-to-end; optional iPHoP / PhageScope add-ons larger).\r\n\r\n**Full documentation:** https://mult1fractal.github.io/WtP_v2_0_webpage/\r\n\r\n\r\n* Backbone rework  code rework to new  nextflow 26, more tools, nice reporting,  full phage characterization pipeline by @mult1fractal in https://github.com/replikation/What_the_Phage/pull/203\r\n\r\n\r\n**Full Changelog**: https://github.com/replikation/What_the_Phage/compare/v1.2.4...v2.0.0",
+      "mentions_count": 1
     }
   ]
 }
