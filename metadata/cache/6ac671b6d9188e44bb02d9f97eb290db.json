@@ -1,12 +1,12 @@
 {
-  "cache_date": "2026-09-20T08:09:42.002852",
+  "cache_date": "2026-10-25T08:09:13.718845",
   "data": [
     {
-      "url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/384891819",
-      "assets_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/384891819/assets",
-      "upload_url": "https://uploads.github.com/repos/BortonWrightonLabs/DRAM/releases/384891819/assets{?name,label}",
-      "html_url": "https://github.com/BortonWrightonLabs/DRAM/releases/tag/v2.0.0-beta37",
-      "id": 384891819,
+      "url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/407338599",
+      "assets_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/releases/407338599/assets",
+      "upload_url": "https://uploads.github.com/repos/BortonWrightonLabs/DRAM/releases/407338599/assets{?name,label}",
+      "html_url": "https://github.com/BortonWrightonLabs/DRAM/releases/tag/v2.0.0-beta39",
+      "id": 407338599,
       "author": {
         "login": "madeline-scyphers",
         "id": 93053005,
@@ -28,20 +28,20 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "node_id": "RE_kwDOCiVGq84W8Pur",
-      "tag_name": "v2.0.0-beta37",
+      "node_id": "RE_kwDOCiVGq84YR35n",
+      "tag_name": "v2.0.0-beta39",
       "target_commitish": "dev",
-      "name": "v2.0.0-beta37 Release",
+      "name": "v2.0.0-beta39 Release",
       "draft": false,
       "immutable": false,
       "prerelease": true,
-      "created_at": "2026-09-08T16:20:11Z",
-      "updated_at": "2026-09-08T16:23:07Z",
-      "published_at": "2026-09-08T16:23:07Z",
+      "created_at": "2026-10-08T23:21:14Z",
+      "updated_at": "2026-10-08T23:22:07Z",
+      "published_at": "2026-10-08T23:22:07Z",
       "assets": [],
-      "tarball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/tarball/v2.0.0-beta37",
-      "zipball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/zipball/v2.0.0-beta37",
-      "body": "## 2.0.0-beta37 - 2026-09-08\r\n\r\n[24582dc](https://github.com/BortonWrightonLabs/DRAM/commit/24582dc53c47024fd654dab5d5933611153ed51d)...[961ddde](https://github.com/BortonWrightonLabs/DRAM/commit/961ddde2fc8f112ea01ea75c408767c2d777af78)\r\n\r\n### Bug Fixes\r\n\r\n- Hotfix distill_bgc spacing error ([b7d9ddc](https://github.com/BortonWrightonLabs/DRAM/commit/b7d9ddcd420f6882edd0d1d5cec2a3e14de8b186))\r\n\r\n\r\n- Email flag fix to send emails on run complete ([5024106](https://github.com/BortonWrightonLabs/DRAM/commit/5024106dd8121125a4ea7a8255786c6ae15ef966))\r\n\r\n  The email flag was silently failing for a few reasons. Inocrrect paths to assets,\r\n  not passing the header, and not giving feedback on sendmail result.\r\n  The plaintext email also failed because of not sending the header properly.\r\n  Now it tries sendmail for the html email, if that fails, it uses the plaintext email\r\n  as a backup and lets you know this in the console output and in log.\r\n\r\n\r\n\r\n### Documentation\r\n\r\n- Update headers and links ([229ada3](https://github.com/BortonWrightonLabs/DRAM/commit/229ada3668abbdaf0d7508b72dbf003dbd4ce3ad))\r\n\r\n\r\n\r\n### Features\r\n\r\n- GPU mmseqs support ([2517f88](https://github.com/BortonWrightonLabs/DRAM/commit/2517f8863aa45706a80cdcc0519d3d09cd6303f4))\r\n\r\n  Add optional GPU acceleration for MMseqs2 searches through the GPU\r\n  profile, including GPU database preparation, validation, and per-database\r\n  CPU exclusions.\r\n\r\n  Integrate CPU and GPU searches with the shared batching workflows,\r\n  size-based resource allocation, and executor job arrays. Update pipeline\r\n  configuration, schema, documentation, and tests.\r\n\r\n- Dynamically allocate resources based on size, remove slurm config ([463ebf2](https://github.com/BortonWrightonLabs/DRAM/commit/463ebf27e2d671b3009ee67b3560c305d36ebc4f))\r\n\r\n  - Dynamically bucket CALL_GENES, QUAST, HMM_SEARCH, and MMSEQS_SEARCH tasks by input workload size.\r\n  - Add opt-in, resource-uniform job arrays for bucketed CALL_GENES, HMM_SEARCH, and MMSEQS_SEARCH tasks, BREAKING CHANGE:Replace the built-in site-specific Slurm configuration with a minimal `slurm` profile and user-supplied cluster configuration. Replace tier-specific resource parameters with `max_cpus`, `max_memory`, and `max_time` caps, and rename `array_size` to `job_array_size`.\r\n\r\n\r\n- Add job batching for call, rna, and db scans ([e2be421](https://github.com/BortonWrightonLabs/DRAM/commit/e2be421d327ec50e159ee78f3143e834eb0f9c27))\r\n\r\n  Input batching for CALL, rna scan and mmseqs and hmmer search,\r\n  inputs can be batched together with inputs above a certain size\r\n  being ran on their own job. This is allows users to batch inputs\r\n  in situations when a SLURM queue is very full and scheduling\r\n  many small jobs is difficult. In this siutation, it might be\r\n  better to batch them together for when they do get scheduled.\r\n"
+      "tarball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/tarball/v2.0.0-beta39",
+      "zipball_url": "https://api.github.com/repos/BortonWrightonLabs/DRAM/zipball/v2.0.0-beta39",
+      "body": "## 2.0.0-beta39 - 2026-10-08\r\n\r\n[4594735](https://github.com/BortonWrightonLabs/DRAM/commit/45947355343e5e9261fd23c59e68c03434a49ece)...[bdcac80](https://github.com/BortonWrightonLabs/DRAM/commit/bdcac8056da8a0080d371a2366e6c8839ed5a1a0)\r\n\r\n### Bug Fixes\r\n\r\n- Decouple SUMMARIZE from ANNOTATE output through QC for annotations ([bc823d6](https://github.com/BortonWrightonLabs/DRAM/commit/bc823d6b35402dbad41a87d968ad2cbf753ad85b))\r\n\r\n  SUMMARIZE was reliant on ANNOTATIONS output directly, through the access\r\n  of ANNOTATE.out.ch_trna_combined (from QC), meaning --annotations\r\n  failed. Now these are decoupled, but QC still outputs to the ANNOTATE\r\n  output namespace.\r\n\r\n\r\n- No longer gen gff file, fixing dbcan output ([afd40b1](https://github.com/BortonWrightonLabs/DRAM/commit/afd40b1971bc38c5fc135126a2b4d22948c16a97))\r\n\r\n  DRAM no longer will try to generate a gff file from called genes. dbcan\r\n  CGC needs a gff file, so called genes can't run CGC anymore, but by\r\n  default we don't need CGC. Add option to save CGC output if users\r\n  want it, but only run CAZyme Annotation normally, and fall back to\r\n  CAZyme Annotation if users input called genes and try to save CGC.\r\n\r\n  antiSMASH can also not be ran with called genes anymore because it\r\n  also needs a gff file.\r\n\r\n\r\n\r\n### Documentation\r\n\r\n- Update rule parser docs ([bdcac80](https://github.com/BortonWrightonLabs/DRAM/commit/bdcac8056da8a0080d371a2366e6c8839ed5a1a0))\r\n\r\n\r\n\r\n### Features\r\n\r\n- Update common rules for traits, ag, and bgc. alias rules syntax ([59af0df](https://github.com/BortonWrightonLabs/DRAM/commit/59af0df029f749f7fb57ce1abb4f84f5537d7ef5))\r\n\r\n  Add alias syntax for rules parsing. Must use `@` now for alias.\r\n  Update traits, viz ag, and viz bgc with common rules.\r\n  traits now uses dram_viz directly and outputs df and heatmap\r\n\r\n\r\n- Update traits, rule_parser, and marine->aquatic ([52bb33c](https://github.com/BortonWrightonLabs/DRAM/commit/52bb33c39525f9b8db4b963ba0b0e82de5745507))\r\n"
     }
   ]
 }
